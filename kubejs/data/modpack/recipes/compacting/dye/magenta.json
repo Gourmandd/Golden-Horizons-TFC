@@ -1,0 +1,15 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "fluid": "tfc:magenta_dye",
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:magenta_dye"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "magistuarmory:pole"
+  },
+  "second_input": {
+    "item": "magistuarmory:bronze_stylet"
+  },
+  "tier": 2,
+  "result": {
+    "item": "magistuarmory:bronze_ranseur"
+  }
+}

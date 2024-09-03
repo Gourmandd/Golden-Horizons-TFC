@@ -1,0 +1,148 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:boulder",
+  "config": {
+    "states": [
+      {
+        "rock": "tfc:rock/raw/granite",
+        "blocks": [
+          "minecraft:light_blue_terracotta",
+          "kubejs:terracotta/crushed_light_blue"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/diorite",
+        "blocks": [
+          "minecraft:light_blue_terracotta",
+          "kubejs:terracotta/crushed_light_blue"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/gabbro",
+        "blocks": [
+          "minecraft:light_blue_terracotta",
+          "kubejs:terracotta/crushed_light_blue"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/shale",
+        "blocks": [
+          "minecraft:light_blue_terracotta",
+          "kubejs:terracotta/crushed_light_blue"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/claystone",
+        "blocks": [
+          "minecraft:light_blue_terracotta",
+          "kubejs:terracotta/crushed_light_blue"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/limestone",
+        "blocks": [
+          "minecraft:light_blue_terracotta",
+          "kubejs:terracotta/crushed_light_blue"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/conglomerate",
+        "blocks": [
+          "minecraft:light_blue_terracotta",
+          "kubejs:terracotta/crushed_light_blue"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/dolomite",
+        "blocks": [
+          "minecraft:light_blue_terracotta",
+          "kubejs:terracotta/crushed_light_blue"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/chert",
+        "blocks": [
+          "minecraft:light_blue_terracotta",
+          "kubejs:terracotta/crushed_light_blue"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/chalk",
+        "blocks": [
+          "minecraft:light_blue_terracotta",
+          "kubejs:terracotta/crushed_light_blue"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/rhyolite",
+        "blocks": [
+          "minecraft:light_blue_terracotta",
+          "kubejs:terracotta/crushed_light_blue"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/basalt",
+        "blocks": [
+          "minecraft:light_blue_terracotta",
+          "kubejs:terracotta/crushed_light_blue"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/andesite",
+        "blocks": [
+          "minecraft:light_blue_terracotta",
+          "kubejs:terracotta/crushed_light_blue"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/dacite",
+        "blocks": [
+          "minecraft:light_blue_terracotta",
+          "kubejs:terracotta/crushed_light_blue"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/quartzite",
+        "blocks": [
+          "minecraft:light_blue_terracotta",
+          "kubejs:terracotta/crushed_light_blue"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/slate",
+        "blocks": [
+          "minecraft:light_blue_terracotta",
+          "kubejs:terracotta/crushed_light_blue"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/phyllite",
+        "blocks": [
+          "minecraft:light_blue_terracotta",
+          "kubejs:terracotta/crushed_light_blue"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/schist",
+        "blocks": [
+          "minecraft:light_blue_terracotta",
+          "kubejs:terracotta/crushed_light_blue"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/gneiss",
+        "blocks": [
+          "minecraft:light_blue_terracotta",
+          "kubejs:terracotta/crushed_light_blue"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/marble",
+        "blocks": [
+          "minecraft:light_blue_terracotta",
+          "kubejs:terracotta/crushed_light_blue"
+        ]
+      }
+    ]
+  }
+}

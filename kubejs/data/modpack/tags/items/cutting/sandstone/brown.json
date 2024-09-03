@@ -1,0 +1,18 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "replace": false,
+  "values": [
+    "tfc:smooth_sandstone/brown",
+    "tfc:raw_sandstone/brown",
+    "tfc:cut_sandstone/brown",
+    "tfc:smooth_sandstone/brown_wall",
+    "tfc:raw_sandstone/brown_wall",
+    "tfc:cut_sandstone/brown_wall",
+    "tfc:smooth_sandstone/brown_stairs",
+    "tfc:raw_sandstone/brown_stairs",
+    "tfc:cut_sandstone/brown_stairs",
+    "tfc:smooth_sandstone/brown_slab",
+    "tfc:raw_sandstone/brown_slab",
+    "tfc:cut_sandstone/brown_slab"
+  ]
+}

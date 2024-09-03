@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "item": "create:andesite_alloy"
+  },
+  "result": {
+    "item": "create:andesite_scaffolding",
+    "count": 8
+  },
+  "tier": 2,
+  "rules": [
+    "bend_any",
+    "bend_second_last",
+    "upset_last"
+  ]
+}

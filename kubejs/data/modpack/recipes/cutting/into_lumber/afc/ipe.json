@@ -1,0 +1,16 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "afc:wood/planks/ipe"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "item": "afc:wood/lumber/ipe",
+      "count": 4
+    }
+  ]
+}

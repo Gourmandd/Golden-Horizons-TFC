@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "OCO",
+    "O O"
+  ],
+  "key": {
+    "O": {
+      "item": "caupona:opus_incertum"
+    },
+    "C": {
+      "item": "minecraft:clay"
+    },
+    "B": {
+      "item": "caupona:opus_incertum_slab"
+    }
+  },
+  "result": {
+    "item": "caupona:opus_incertum_kitchen_stove"
+  }
+}

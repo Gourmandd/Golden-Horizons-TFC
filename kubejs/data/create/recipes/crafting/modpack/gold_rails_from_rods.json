@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "G G",
+    "GSG",
+    "GEG"
+  ],
+  "key": {
+    "G": {
+      "item": "tfc:metal/rod/gold"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    }
+  },
+  "result": {
+    "item": "create:controller_rail",
+    "count": 8
+  }
+}

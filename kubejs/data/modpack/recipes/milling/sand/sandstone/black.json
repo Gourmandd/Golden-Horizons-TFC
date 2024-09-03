@@ -1,0 +1,14 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+      {
+        "item": "tfc:raw_sandstone/black"
+      }
+    ],
+    "results": [
+      {
+        "item": "tfc:sand/black"
+      }
+    ],
+    "processingTime": 75
+  }

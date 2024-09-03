@@ -1,0 +1,9 @@
+{
+  "ingredient": {
+    "item": "crabbersdelight:crab_legs"
+  },
+  "decay_modifier": 5,
+  "hunger": 1,
+  "saturation": 0.5,
+  "protein": 0.5
+}

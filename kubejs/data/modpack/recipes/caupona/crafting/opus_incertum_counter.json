@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CC",
+    "BB"
+  ],
+  "key": {
+    "C": {
+      "item": "caupona:opus_incertum"
+    },
+    "B": {
+      "item": "caupona:felsic_tuff_bricks"
+    }
+  },
+  "result": {
+    "item": "caupona:opus_incertum_counter"
+  }
+}

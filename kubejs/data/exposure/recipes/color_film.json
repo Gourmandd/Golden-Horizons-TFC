@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SPP",
+    "SZZ",
+    "SRR"
+  ],
+  "key": {
+    "S": {
+      "item": "tfc:metal/ingot/sterling_silver"
+    },
+    "R": {
+      "item": "tfc:powder/sulfur"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "Z": {
+      "item": "tfc:metal/rod/zinc"
+    }
+  },
+  "result": {
+    "item": "exposure:color_film"
+  }
+}

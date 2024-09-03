@@ -1,0 +1,15 @@
+
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "tfc:rock/cobble/marble"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:quartz",
+      "chance": 0.5
+    }
+  ]
+}

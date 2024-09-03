@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "crabbersdelight:stuffed_nautilus_shell"
+  },
+  "decay_modifier": 1,
+  "hunger": 7,
+  "saturation": 4,
+  "protein": 2.5,
+  "vegetables": 2
+}

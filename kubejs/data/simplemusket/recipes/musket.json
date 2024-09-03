@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S  ",
+    "PSF",
+    "CPS"
+  ],
+  "key": {
+    "S": {
+      "item": "tfc:metal/ingot/steel"
+    },
+    "F": {
+      "item": "minecraft:flint_and_steel"
+    },
+    "C": {
+      "tag": "tfc:chisels"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "simplemusket:musket"
+  }
+}

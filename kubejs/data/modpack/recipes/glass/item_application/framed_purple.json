@@ -1,0 +1,17 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "kubejs:molten_glass/purple"
+    },
+    {
+      "item": "tfc:metal/rod/steel"
+    }
+  ],
+  "results": [
+    {
+      "item": "quark:purple_framed_glass"
+    }
+  ]
+}

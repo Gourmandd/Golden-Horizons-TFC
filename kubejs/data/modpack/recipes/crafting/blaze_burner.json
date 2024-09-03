@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BEB",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:blaze_powder"
+    },
+    "E": {
+      "item": "create:empty_blaze_burner"
+    }
+  },
+  "result": {
+    "item": "create:blaze_burner"
+  }
+}

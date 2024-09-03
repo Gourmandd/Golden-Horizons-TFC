@@ -1,0 +1,31 @@
+
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+      "  A  ",
+      " ISI ",
+      "ISRSI",
+      " ICI "
+    ],
+    "key": {
+      "C": {
+        "item": "createaddition:capacitor"
+      },
+      "I": {
+        "item": "tfc:metal/rod/wrought_iron"
+      },
+      "R": {
+        "item": "tfc:metal/rod/steel"
+      },
+      "S": {
+        "item": "createaddition:copper_spool"
+      },
+      "A": {
+        "item": "kubejs:torque_mechanism"
+      }
+    },
+    "result": {
+      "item": "createaddition:alternator"
+    }
+  }
+  

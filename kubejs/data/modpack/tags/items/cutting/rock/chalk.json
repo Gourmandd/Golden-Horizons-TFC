@@ -1,0 +1,23 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "replace": false,
+  "values": [
+    "tfc:rock/bricks/chalk",
+    "tfc:rock/smooth/chalk",
+    "tfc:rock/bricks/chalk_wall",
+    "tfc:rock/smooth/chalk_wall",
+    "tfc:rock/bricks/chalk_stairs",
+    "tfc:rock/smooth/chalk_stairs",
+    "tfc:rock/bricks/chalk_slab",
+    "tfc:rock/smooth/chalk_slab",
+    "tfc:rock/mossy_bricks/chalk",
+    "tfc:rock/mossy_bricks/chalk_wall",
+    "tfc:rock/mossy_bricks/chalk_stairs",
+    "tfc:rock/mossy_bricks/chalk_slab",
+    "tfc:rock/cracked_bricks/chalk",
+    "tfc:rock/cracked_bricks/chalk_wall",
+    "tfc:rock/cracked_bricks/chalk_stairs",
+    "tfc:rock/cracked_bricks/chalk_slab",
+    "tfc:rock/chiseled/chalk"
+  ]
+}

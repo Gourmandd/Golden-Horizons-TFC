@@ -1,0 +1,16 @@
+{
+    "type": "create:item_application",
+    "ingredients": [
+      {
+        "item": "createbigcannons:cannon_end_cast_mould"
+      },
+      {
+        "tag": "tfc:saws"
+      }
+    ],
+    "results": [
+      {
+        "item": "createbigcannons:screw_breech_cast_mould"
+      }
+    ]
+  }

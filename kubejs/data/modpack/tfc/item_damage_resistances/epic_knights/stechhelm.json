@@ -1,0 +1,11 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "slashing": 12,
+  "piercing": 10,
+  "crushing": 12,
+  "ingredient": [
+    {
+      "item": "magistuarmory:stechhelm"
+    }
+  ]
+}

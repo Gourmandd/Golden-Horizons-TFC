@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "LLL",
+      "SSS",
+      "LLL"
+    ],
+    "key": {
+      "S": {
+        "item": "tfc:metal/rod/steel"
+      },
+      "L": {
+        "item": "firmalife:treated_lumber"
+      }
+    },
+    "result": {
+      "item": "immersive_aircraft:hull"
+    }
+  }

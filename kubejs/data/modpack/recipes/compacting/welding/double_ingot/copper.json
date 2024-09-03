@@ -1,0 +1,21 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "tfc:metal/ingot/copper"
+    },
+    {
+      "item": "tfc:powder/flux"
+    },
+    {
+      "item": "tfc:metal/ingot/copper"
+    }
+  ],
+  "results": [
+    {
+      "item": "tfc:metal/double_ingot/copper"
+    }
+  ],
+  "heatRequirement": "heated"
+}

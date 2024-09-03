@@ -1,0 +1,17 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "kubejs:molten_glass/blue"
+    },
+    {
+      "item": "tfc:metal/rod/wrought_iron"
+    }
+  ],
+  "results": [
+    {
+      "item": "hearth_and_home:blue_stained_barred_glass"
+    }
+  ]
+}

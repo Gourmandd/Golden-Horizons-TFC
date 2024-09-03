@@ -1,0 +1,21 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "tfc:food/maize_flour"
+      },
+      {
+        "tag": "tfc:sweetener"
+      },
+      {
+        "fluid": "firmalife:yeast_starter",
+        "amount": 1000
+      }
+    ],
+    "results": [
+      {
+        "item": "firmalife:food/maize_dough",
+        "count": 4
+      }
+    ]
+  }

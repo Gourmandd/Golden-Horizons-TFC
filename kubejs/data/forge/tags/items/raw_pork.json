@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "tfc:food/pork",
+        "firmalife:food/bacon"
+    ]
+}

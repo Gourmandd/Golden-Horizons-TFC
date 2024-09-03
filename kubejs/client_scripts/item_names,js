@@ -1,0 +1,7 @@
+//unused for now
+/*
+ClientEvents.lang('en_us', e => {
+
+e.renameItem(/deepslate/,  "sunburnt")
+})
+*/

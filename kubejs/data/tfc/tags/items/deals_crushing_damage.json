@@ -1,0 +1,24 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "replace": false,
+  "values": [
+    "magistuarmory:copper_heavymace",
+    "magistuarmory:copper_heavywarhammer",
+    "magistuarmory:copper_lucernhammer",
+    "magistuarmory:copper_morgenstern",
+    "magistuarmory:copper_chainmorgenstern",
+    "magistuarmory:blacksmith_hammer",
+    "magistuarmory:barbedclub",
+    "magistuarmory:club",
+    "magistuarmory:steel_heavymace",
+    "magistuarmory:steel_heavywarhammer",
+    "magistuarmory:steel_lucernhammer",
+    "magistuarmory:steel_morgenstern",
+    "magistuarmory:steel_chainmorgenstern",
+    "magistuarmory:bronze_heavymace",
+    "magistuarmory:bronze_heavywarhammer",
+    "magistuarmory:bronze_lucernhammer",
+    "magistuarmory:bronze_morgenstern",
+    "magistuarmory:bronze_chainmorgenstern"
+  ]
+}

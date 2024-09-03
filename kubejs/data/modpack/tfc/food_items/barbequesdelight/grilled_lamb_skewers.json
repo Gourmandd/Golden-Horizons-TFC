@@ -1,0 +1,10 @@
+{
+    "ingredient": {
+      "item": "barbequesdelight:grilled_lamb_skewer"
+    },
+    "category": "meat",
+    "hunger": 6,
+    "saturation": 4,
+    "decay_modifier": 1,
+    "protein": 4
+}

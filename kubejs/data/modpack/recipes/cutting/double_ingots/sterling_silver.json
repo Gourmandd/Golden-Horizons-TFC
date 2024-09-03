@@ -1,0 +1,16 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "tfc:metal/double_ingot/sterling_silver"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "item": "tfc:metal/ingot/sterling_silver",
+      "count": 2
+    }
+  ]
+}

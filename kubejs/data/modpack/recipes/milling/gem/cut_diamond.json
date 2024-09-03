@@ -1,0 +1,16 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "tfc:gem/diamond"
+    }
+  ],
+  "results": [
+    {
+      "item": "tfc:powder/diamond",
+      "count": 4
+    }
+  ],
+  "processingTime": 50
+}

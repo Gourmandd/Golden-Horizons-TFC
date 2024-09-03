@@ -1,0 +1,13 @@
+{
+  "type": "create:sandpaper_polishing",
+  "ingredients": [
+    {
+      "item": "tfc:ore/amethyst"
+    }
+  ],
+  "results": [
+    {
+      "item": "tfc:gem/amethyst"
+    }
+  ]
+}

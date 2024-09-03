@@ -1,0 +1,16 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kubejs:ceramic/yixing_bricks"
+    }
+  },
+  "result": {
+    "item": "kubejs:ceramic/yixing_brick_slab",
+    "count": 6
+  }
+}

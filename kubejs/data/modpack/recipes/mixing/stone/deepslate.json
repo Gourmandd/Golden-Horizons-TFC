@@ -1,0 +1,17 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "tfc:mortar"
+      },
+      {
+        "tag": "forge:stone"
+      }
+    ],
+    "results": [
+      {
+        "item": "minecraft:deepslate"
+      }
+    ],
+    "heatRequirement": "heated"
+  }

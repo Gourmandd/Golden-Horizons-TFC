@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "M M",
+    "S S",
+    "S S"
+  ],
+  "key": {
+    "M": {
+      "tag": "forge:smooth_stone_slab"
+    },
+    "S": {
+      "tag": "forge:stone_bricks"
+    }
+  },
+  "result": {
+    "item": "caupona:stone_brick_chimney_flue",
+    "count": 2
+  }
+}

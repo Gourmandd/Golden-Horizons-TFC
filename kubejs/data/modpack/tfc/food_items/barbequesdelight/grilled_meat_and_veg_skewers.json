@@ -1,0 +1,11 @@
+{
+    "ingredient": {
+      "tag": "modpack:grilled_meat_and_veg_skewers"
+    },
+    "category": "meat",
+    "hunger": 6,
+    "saturation": 4,
+    "decay_modifier": 1,
+    "vegetables": 4,
+    "protein": 4
+}

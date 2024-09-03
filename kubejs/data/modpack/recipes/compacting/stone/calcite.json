@@ -1,0 +1,14 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+      {
+        "item": "tfc:raw_sandstone/white"
+      }
+    ],
+    "results": [
+      {
+        "item": "create:polished_cut_calcite"
+      }
+    ],
+    "heatRequirement": "heated"
+  }

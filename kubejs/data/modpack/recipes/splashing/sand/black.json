@@ -1,0 +1,16 @@
+
+{
+    "type": "create:splashing",
+    "ingredients": [
+      {
+        "item": "tfc:sand/black"
+      }
+    ],
+    "results": [
+      {
+        "item": "tfc:powder/charcoal",
+        "chance": 0.12
+      }
+    ]
+  }
+  

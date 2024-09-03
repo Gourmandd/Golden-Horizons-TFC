@@ -1,0 +1,17 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+      {
+        "item": "tfc:sand/yellow"
+      },
+      {
+        "item": "tfc:sand/yellow"
+      }
+    ],
+    "results": [
+      {
+        "item": "tfc:raw_sandstone/yellow"
+      }
+    ],
+    "heatRequirement": "heated"
+  }

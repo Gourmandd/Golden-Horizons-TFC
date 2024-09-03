@@ -1,0 +1,16 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "afc:wood/stripped_log/teak"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "item": "afc:wood/planks/teak",
+      "count": 4
+    }
+  ]
+}

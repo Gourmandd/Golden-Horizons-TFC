@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "M",
+    "P",
+    "I"
+  ],
+  "key": {
+    "I": {
+      "item": "tfc:metal/sheet/wrought_iron"
+    },
+    "M": {
+      "item": "kubejs:andesite_machine"
+    },
+    "P": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "result": {
+    "item": "create:rope_pulley"
+  }
+}

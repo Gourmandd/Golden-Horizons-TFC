@@ -1,0 +1,24 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "tfc:food/beet"
+      },
+      {
+        "item": "tfc:food/beet"
+      },
+      {
+        "fluid": "tfc:salt_water",
+        "amount": 1000
+      }
+    ],
+    "results": [
+      {
+        "item": "minecraft:sugar"
+      },
+      {
+        "item": "minecraft:sugar"
+      }
+    ],
+    "heatRequirement": "heated"
+  }

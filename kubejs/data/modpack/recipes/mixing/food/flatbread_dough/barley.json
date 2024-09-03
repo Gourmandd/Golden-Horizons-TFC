@@ -1,0 +1,18 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "tfc:food/barley_flour"
+      },
+      {
+        "fluid": "minecraft:water",
+        "amount": 100
+      }
+    ],
+    "results": [
+      {
+        "item": "tfc:food/barley_dough",
+        "count": 2
+      }
+    ]
+  }

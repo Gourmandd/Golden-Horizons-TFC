@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RR",
+    "PP",
+    "PP"
+  ],
+  "key": {
+    "R": {
+      "item": "afc:rubber_bar"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "exposure:lightroom"
+  }
+}

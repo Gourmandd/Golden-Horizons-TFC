@@ -1,0 +1,26 @@
+{
+"block.minecraft.deepslate": "Sunburnt",
+"block.minecraft.chiseled_deepslate": "Chiseled Sunburnt",
+
+"block.minecraft.deepslate_brick_slab": "Sunburnt Brick Slab",
+"block.minecraft.deepslate_brick_stairs": "Sunburnt Brick Stairs",
+"block.minecraft.deepslate_brick_wall": "Sunburnt Brick Wall",
+"block.minecraft.deepslate_bricks": "Sunburnt Bricks",
+"block.minecraft.cracked_deepslate_bricks": "Cracked Sunburnt Brick",
+
+"block.minecraft.cobbled_deepslate_slab": "Cobbled Sunburnt Slab",
+"block.minecraft.cobbled_deepslate_stairs": "Cobbled Sunburnt Stairs",
+"block.minecraft.cobbled_deepslate_wall": "Cobbled Sunburnt Wall",
+"block.minecraft.cobbled_deepslate": "Cobbled Sunburnt",
+
+"block.minecraft.polished_deepslate_slab": "Polished Sunburnt Slab",
+"block.minecraft.polished_deepslate_stairs": "Polished Sunburnt Stairs",
+"block.minecraft.polished_deepslate_wall": "Polished Sunburnt Wall",
+"block.minecraft.polished_deepslate": "Polished Sunburnt",
+
+"block.minecraft.deepslate_tile_slab": "Sunburnt Tile Slab",
+"block.minecraft.deepslate_tile_stairs": "Sunburnt Tile Stairs",
+"block.minecraft.deepslate_tile_wall": "Sunburnt Tile Wall",
+"block.minecraft.deepslate_tiles": "Sunburnt Tiles",
+"block.minecraft.cracked_deepslate_tiles": "Cracked Sunburnt Tiles"
+}

@@ -1,0 +1,13 @@
+{
+    "type": "create:pressing",
+    "ingredients": [
+      {
+        "item": "tfc:dirt/sandy_loam"
+      }
+    ],
+    "results": [
+      {
+        "item": "tfc:grass_path/sandy_loam"
+      }
+    ]
+  }

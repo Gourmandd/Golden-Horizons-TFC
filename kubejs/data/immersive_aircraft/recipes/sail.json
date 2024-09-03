@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "LLS",
+      "LLS",
+      "LLS"
+    ],
+    "key": {
+      "S": {
+        "tag": "forge:string"
+      },
+      "L": {
+        "tag": "tfc:high_quality_cloth"
+      }
+    },
+    "result": {
+      "item": "immersive_aircraft:sail"
+    }
+  }

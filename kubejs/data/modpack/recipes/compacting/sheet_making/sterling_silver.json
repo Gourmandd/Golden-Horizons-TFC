@@ -1,0 +1,15 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "amount": 200,
+      "fluid": "tfc:metal/sterling_silver"
+    }
+  ],
+  "results": [
+    {
+      "item": "tfc:metal/sheet/sterling_silver"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+
+{
+    "type": "create:splashing",
+    "ingredients": [
+      {
+        "item": "tfc:rock/gravel/conglomerate"
+      }
+    ],
+    "results": [
+      {
+        "item": "tfc:ore/gypsum",
+        "chance": 0.12
+      }
+    ]
+  }
+  

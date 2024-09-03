@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    "SCS",
+    "S S"
+  ],
+  "key": {
+    "M": {
+      "item": "tfc:mortar"
+    },
+    "C": {
+      "item": "minecraft:clay"
+    },
+    "S": {
+      "tag": "forge:stone_bricks"
+    }
+  },
+  "result": {
+    "item": "caupona:stone_brick_kitchen_stove"
+  }
+}

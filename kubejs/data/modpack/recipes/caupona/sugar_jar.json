@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:flower_pot"
+    },
+    {
+      "tag": "tfc:sweetener"
+    },
+    {
+      "tag": "tfc:sweetener"
+    },
+    {
+      "tag": "tfc:sweetener"
+    },
+    {
+      "tag": "tfc:sweetener"
+    }
+  ],
+  "result": {
+    "item": "caupona:sugar_spice_jar"
+  }
+}

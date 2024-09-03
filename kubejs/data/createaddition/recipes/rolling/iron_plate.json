@@ -1,0 +1,10 @@
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"item": "tfc:metal/rod/wrought_iron"
+	},
+	"result": {
+		"item": "createaddition:iron_wire",
+		"count": 2
+	}
+}

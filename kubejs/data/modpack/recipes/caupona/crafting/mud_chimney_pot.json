@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " M ",
+    "M M",
+    "C C"
+  ],
+  "key": {
+    "M": {
+      "tag": "tfc:mud"
+    },
+    "C": {
+      "tag": "forge:cobblestone"
+    }
+  },
+  "result": {
+    "item": "caupona:mud_chimney_pot"
+  }
+}

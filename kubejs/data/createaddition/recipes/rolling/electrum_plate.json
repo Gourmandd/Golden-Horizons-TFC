@@ -1,0 +1,10 @@
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"item": "createaddition:electrum_rod"
+	},
+	"result": {
+		"item": "createaddition:electrum_wire",
+		"count": 2
+	}
+}

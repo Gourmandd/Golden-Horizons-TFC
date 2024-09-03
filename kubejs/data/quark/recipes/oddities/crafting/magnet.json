@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ISI",
+    "RMR",
+    "ISI"
+  ],
+  "key": {
+    "I": {
+      "item": "tfc:metal/rod/wrought_iron"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "M": {
+      "item": "tfc:brass_mechanisms"
+    },
+    "S": {
+      "item": "tfc:metal/ingot/steel"
+    }
+  },
+  "result": {
+    "item": "quark:magnet"
+  }
+}

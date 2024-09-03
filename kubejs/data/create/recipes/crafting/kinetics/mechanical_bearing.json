@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "P",
+    "M",
+    "I"
+  ],
+  "key": {
+    "I": {
+      "item": "create:shaft"
+    },
+    "M": {
+      "item": "kubejs:andesite_machine"
+    },
+    "P": {
+      "tag": "minecraft:wooden_slabs"
+    }
+  },
+  "result": {
+    "item": "create:mechanical_bearing"
+  }
+}

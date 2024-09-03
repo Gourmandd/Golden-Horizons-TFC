@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "tag": "forge:ingots/brass"
+  },
+  "result": {
+    "item": "create:brass_ladder",
+    "count": 16
+  },
+  "tier": 2,
+  "rules": [
+    "hit_any",
+    "punch_second_last",
+    "draw_last"
+  ]
+}

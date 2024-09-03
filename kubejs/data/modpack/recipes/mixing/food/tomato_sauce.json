@@ -1,0 +1,36 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "tfc:food/tomato"
+      },
+      {
+        "item": "tfc:powder/salt"
+      },
+      {
+        "item": "tfc:food/garlic"
+      },
+      {
+        "fluid": "minecraft:water",
+        "amount": 100
+      }
+    ],
+    "results": [
+      {
+        "item": "firmalife:food/tomato_sauce"
+      },
+      {
+        "item": "firmalife:food/tomato_sauce"
+      },
+      {
+        "item": "firmalife:food/tomato_sauce"
+      },
+      {
+        "item": "firmalife:food/tomato_sauce"
+      },
+      {
+        "item": "firmalife:food/tomato_sauce"
+      }
+    ],
+    "heatRequirement": "heated"
+  }

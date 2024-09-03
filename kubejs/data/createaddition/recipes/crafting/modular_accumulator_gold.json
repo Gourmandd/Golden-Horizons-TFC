@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " R ",
+      "CMC",
+      " W "
+    ],
+    "key": {
+      "R": {
+        "item": "tfc:metal/rod/copper"
+      },
+      "C": {
+        "item": "createaddition:capacitor"
+      },
+      "W": {
+        "item": "createaddition:gold_wire"
+      },
+      "M": {
+        "item": "kubejs:brass_machine"
+      }
+    },
+    "result": {
+      "item": "createaddition:modular_accumulator"
+    }
+  }

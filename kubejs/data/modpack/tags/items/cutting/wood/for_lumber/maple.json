@@ -1,0 +1,28 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "replace": false,
+  "values": [
+    "everycomp:af/tfc/maple_shutter",
+    "tfc:wood/planks/maple_door",
+    "tfc:wood/planks/maple_trapdoor",
+    "tfc:wood/planks/maple_fence",
+    "tfc:wood/planks/maple_pressure_plate",
+    "tfc:wood/planks/maple_button",
+    "tfc:wood/planks/maple_slab",
+    "tfc:wood/planks/maple_stairs",
+    "everycomp:c/tfc/maple_window_pane",
+    "everycomp:q/tfc/maple_ladder",
+    "tfc:wood/sluice/maple",
+    "tfc:wood/support/maple",
+    "tfc:wood/sign/maple",
+    "tfc:wood/hanging_sign/bismuth_bronze/maple",
+    "tfc:wood/hanging_sign/black_bronze/maple",
+    "tfc:wood/hanging_sign/bronze/maple",
+    "tfc:wood/hanging_sign/copper/maple",
+    "tfc:wood/hanging_sign/wrought_iron/maple",
+    "tfc:wood/hanging_sign/steel/maple",
+    "tfc:wood/hanging_sign/black_steel/maple",
+    "tfc:wood/hanging_sign/blue_steel/maple",
+    "tfc:wood/hanging_sign/red_steel/maple"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "replace": false,
+  "values": [
+    "tfc:rock/bricks/phyllite",
+    "tfc:rock/smooth/phyllite",
+    "tfc:rock/bricks/phyllite_wall",
+    "tfc:rock/smooth/phyllite_wall",
+    "tfc:rock/bricks/phyllite_stairs",
+    "tfc:rock/smooth/phyllite_stairs",
+    "tfc:rock/bricks/phyllite_slab",
+    "tfc:rock/smooth/phyllite_slab",
+    "tfc:rock/mossy_bricks/phyllite",
+    "tfc:rock/mossy_bricks/phyllite_wall",
+    "tfc:rock/mossy_bricks/phyllite_stairs",
+    "tfc:rock/mossy_bricks/phyllite_slab",
+    "tfc:rock/cracked_bricks/phyllite",
+    "tfc:rock/cracked_bricks/phyllite_wall",
+    "tfc:rock/cracked_bricks/phyllite_stairs",
+    "tfc:rock/cracked_bricks/phyllite_slab",
+    "tfc:rock/chiseled/phyllite"
+  ]
+}

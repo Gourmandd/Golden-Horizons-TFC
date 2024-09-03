@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "AAA"
+  ],
+  "key": {
+    "I": {
+      "item": "tfc:metal/ingot/cast_iron"
+    },
+    "A": {
+      "item": "create:andesite_alloy"
+    }
+  },
+  "result": {
+    "item": "create:metal_girder",
+    "count": 16
+  }
+}

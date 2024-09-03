@@ -1,0 +1,10 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "replace": false,
+  "values": [
+    "tfc:mud_bricks/silt",
+    "tfc:mud_bricks/silt_wall",
+    "tfc:mud_bricks/silt_stairs",
+    "tfc:mud_bricks/silt_slab"
+  ]
+}

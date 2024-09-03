@@ -1,0 +1,32 @@
+{
+    "type": "farmersdelight:cooking",
+    "container": {
+      "item": "tfc:pumpkin"
+    },
+    "cookingtime": 400,
+    "experience": 2.0,
+    "ingredients": [
+      {
+        "item": "farmersdelight:cooked_rice"
+      },
+      {
+        "item": "tfc:food/onion"
+      },
+      {
+        "item": "minecraft:brown_mushroom"
+      },
+      {
+        "item": "tfc:food/potato"
+      },
+      {
+        "tag": "forge:fruits/berries"
+      },
+      {
+        "tag": "forge:vegetables"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "item": "farmersdelight:stuffed_pumpkin_block"
+    }
+  }

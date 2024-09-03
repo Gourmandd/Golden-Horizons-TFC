@@ -1,0 +1,16 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "hearth_and_home:blue_stained_barred_glass"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "count": 8,
+      "item": "hearth_and_home:blue_stained_barred_glass_pane"
+    }
+  ]
+}

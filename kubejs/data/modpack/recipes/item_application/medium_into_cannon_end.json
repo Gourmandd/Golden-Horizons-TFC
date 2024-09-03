@@ -1,0 +1,16 @@
+{
+    "type": "create:item_application",
+    "ingredients": [
+      {
+        "item": "createbigcannons:medium_cast_mould"
+      },
+      {
+        "tag": "tfc:chisels"
+      }
+    ],
+    "results": [
+      {
+        "item": "createbigcannons:cannon_end_cast_mould"
+      }
+    ]
+  }

@@ -1,0 +1,10 @@
+{
+    "type": "barbequesdelight:grilling",
+    "ingredient": {
+      "item": "kubejs:halloumi"
+    },
+    "output": { 
+      "item": "kubejs:fried_halloumi"
+    },
+    "barbecuingTime": 240
+  }

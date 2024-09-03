@@ -1,0 +1,17 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:knapping",
+  "knapping_type": "tfc:kaolinite",
+  "outside_slot_required": "true",
+  "pattern": [
+    "XXXXX",
+    "     ",
+    "  XXX",
+    "XXXXX",
+    "XXXXX"
+  ],
+  "result": {
+    "item": "kubejs:ceramic/unfired_kaolinite_hoe_mold",
+    "count": 1
+  }
+}

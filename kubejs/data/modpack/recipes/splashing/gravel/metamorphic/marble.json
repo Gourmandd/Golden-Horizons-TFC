@@ -1,0 +1,16 @@
+
+{
+    "type": "create:splashing",
+    "ingredients": [
+      {
+        "item": "tfc:rock/gravel/marble"
+      }
+    ],
+    "results": [
+      {
+        "item": "tfc:ore/poor_malachite",
+        "chance": 0.12
+      }
+    ]
+  }
+  

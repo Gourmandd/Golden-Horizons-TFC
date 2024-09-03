@@ -1,0 +1,19 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "firmalife:food/vanilla_ice_cream"
+      },
+      {
+        "item": "tfc:food/strawberry"
+      },
+      {
+        "item": "tfc:food/strawberry"
+      }
+    ],
+    "results": [
+      {
+        "item": "firmalife:food/strawberry_ice_cream"
+      }
+    ]
+  }

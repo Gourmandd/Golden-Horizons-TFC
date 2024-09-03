@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "M M",
+    "SDS",
+    "STS"
+  ],
+  "key": {
+    "M": {
+      "item": "tfc:mortar"
+    },
+    "D": {
+      "item": "caupona:stew_pot"
+    },
+    "T": {
+      "tag": "minecraft:terracotta"
+    },
+    "S": {
+      "tag": "forge:stone_bricks"
+    }
+  },
+  "result": {
+    "item": "caupona:stone_brick_counter_with_dolium"
+  }
+}

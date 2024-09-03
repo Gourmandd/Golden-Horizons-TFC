@@ -1,0 +1,14 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+      {
+        "item": "tfc:rock/cobble/basalt"
+      }
+    ],
+    "results": [
+      {
+        "item": "minecraft:polished_blackstone"
+      }
+    ],
+    "heatRequirement": "heated"
+  }

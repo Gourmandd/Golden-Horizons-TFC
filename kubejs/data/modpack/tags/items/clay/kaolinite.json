@@ -1,0 +1,10 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "replace": false,
+  "values": [
+    "kubejs:ceramic/kaolinite_bricks",
+    "kubejs:ceramic/kaolinite_brick_stairs",
+    "kubejs:ceramic/kaolinite_brick_slab",
+    "kubejs:ceramic/kaolinite_brick_wall"
+  ]
+}

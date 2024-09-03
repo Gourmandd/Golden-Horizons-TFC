@@ -1,0 +1,15 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "tfc:food/dried_kelp"
+      }
+    ],
+    "results": [
+      {
+        "item": "tfc:powder/soda_ash",
+        "count": 3
+      }
+    ],
+    "heatRequirement": "heated"
+  }

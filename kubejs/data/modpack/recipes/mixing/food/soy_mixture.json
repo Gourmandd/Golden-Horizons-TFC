@@ -1,0 +1,24 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "tfc:food/soybean"
+      },
+      {
+        "item": "tfc:powder/salt"
+      },
+      {
+        "fluid": "minecraft:water",
+        "amount": 100
+      }
+    ],
+    "results": [
+      {
+        "item": "firmalife:food/soy_mixture"
+      },
+      {
+        "item": "firmalife:food/soy_mixture"
+      }
+    ],
+    "heatRequirement": "heated"
+  }

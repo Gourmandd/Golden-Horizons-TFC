@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "tfc:metal/double_sheet/gold"
+  },
+  "second_input": {
+    "item": "magistuarmory:knight_boots"
+  },
+  "tier": 3,
+  "result": {
+    "item": "magistuarmory:ceremonial_boots"
+  }
+}

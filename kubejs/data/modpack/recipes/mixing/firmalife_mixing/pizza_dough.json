@@ -1,0 +1,24 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "tag": "tfc:foods/dough"
+      },
+      {
+        "item": "tfc:powder/salt"
+      },
+      {
+        "item": "firmalife:spice/basil_leaves"
+      },
+      {
+        "fluid": "tfc:olive_oil",
+        "amount": 1000
+      }
+    ],
+    "results": [
+      {
+        "item": "firmalife:food/pizza_dough",
+        "count": 4
+      }
+    ]
+  }

@@ -1,0 +1,14 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+      {
+        "item": "tfc:raw_sandstone/yellow"
+      }
+    ],
+    "results": [
+      {
+        "item": "create:polished_cut_limestone"
+      }
+    ],
+    "heatRequirement": "heated"
+  }

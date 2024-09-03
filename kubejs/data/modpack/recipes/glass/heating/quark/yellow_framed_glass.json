@@ -1,0 +1,12 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "quark:yellow_framed_glass"
+  },
+  "result_fluid": {
+    "fluid": "kubejs:glass/yellow",
+    "amount": 800
+  },
+  "temperature": 1070
+}

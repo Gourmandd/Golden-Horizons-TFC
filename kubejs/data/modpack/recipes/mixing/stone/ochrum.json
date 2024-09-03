@@ -1,0 +1,16 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "create:crushed_raw_gold"
+      },
+      {
+        "tag": "forge:cobblestone/normal"
+      }
+    ],
+    "results": [
+      {
+        "item": "create:ochrum"
+      }
+    ]
+  }

@@ -1,0 +1,14 @@
+{
+    "ingredient": {
+      "item": "caupona:mushroom_soup"
+    },
+    "decay_modifier": 2,
+    "hunger": 10,
+    "saturation": 6,
+    "water": 20,
+    "grain": 0,
+    "fruit": 0,
+    "vegetables": 6,
+    "protein": 2,
+    "dairy": 0
+  }

@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+      "west": "create:block/gearbox",
+      "north": "create:block/gearbox",
+      "south": "create:block/gearbox",
+      "east": "create:block/gearbox",
+      "up": "create:block/andesite_casing",
+      "down": "create:block/andesite_casing",
+      "particle": "create:block/andesite_casing"
+    }
+  }

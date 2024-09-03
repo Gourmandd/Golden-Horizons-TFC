@@ -1,0 +1,15 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "fluid": "kubejs:glass/purple",
+      "amount": 800
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:molten_glass/purple"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+    "type": "barbequesdelight:grilling",
+    "ingredient": {
+      "item": "farmersdelight:cod_slice"
+    },
+    "output": { 
+      "item": "farmersdelight:cooked_cod_slice"
+    },
+    "barbecuingTime": 280
+  }

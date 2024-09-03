@@ -1,0 +1,11 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "createaddition:rolling",
+  "input": {
+    "item": "tfc:metal/ingot/gold"
+  },
+  "result": {
+    "item": "tfc:metal/rod/gold",
+    "count": 2
+  }
+}

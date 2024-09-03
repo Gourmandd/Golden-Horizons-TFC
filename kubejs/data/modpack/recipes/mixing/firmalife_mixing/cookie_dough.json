@@ -1,0 +1,26 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "tag": "tfc:sweetener"
+      },
+      {
+        "tag": "tfc:foods/flour"
+      },
+      {
+        "item": "firmalife:spice/vanilla"
+      },
+      {
+        "item": "firmalife:food/butter"
+      },
+      {
+        "item": "minecraft:egg"
+      }
+    ],
+    "results": [
+      {
+        "item": "firmalife:food/cookie_dough",
+        "count": 4
+      }
+    ]
+  }

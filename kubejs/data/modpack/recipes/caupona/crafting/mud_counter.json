@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MM",
+    "CC"
+  ],
+  "key": {
+    "M": {
+      "tag": "tfc:mud"
+    },
+    "C": {
+      "tag": "forge:cobblestone"
+    }
+  },
+  "result": {
+    "item": "caupona:mud_counter"
+  }
+}

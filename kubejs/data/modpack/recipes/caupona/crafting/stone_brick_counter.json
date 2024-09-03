@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MM",
+    "SS"
+  ],
+  "key": {
+    "M": {
+      "item": "tfc:mortar"
+    },
+    "S": {
+      "tag": "forge:cobblestone"
+    }
+  },
+  "result": {
+    "item": "caupona:stone_brick_counter"
+  }
+}

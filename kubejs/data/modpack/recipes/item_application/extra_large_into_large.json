@@ -1,0 +1,16 @@
+{
+    "type": "create:item_application",
+    "ingredients": [
+      {
+        "item": "createbigcannons:very_large_cast_mould"
+      },
+      {
+        "tag": "tfc:saws"
+      }
+    ],
+    "results": [
+      {
+        "item": "createbigcannons:large_cast_mould"
+      }
+    ]
+  }

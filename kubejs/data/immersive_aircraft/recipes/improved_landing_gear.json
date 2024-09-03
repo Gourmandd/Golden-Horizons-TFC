@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " II",
+    "BBI",
+    "BB "
+  ],
+  "key": {
+    "I": {
+      "item": "tfc:metal/ingot/steel"
+    },
+    "B": {
+      "item": "afc:rubber_bar"
+    }
+  },
+  "result": {
+    "item": "immersive_aircraft:improved_landing_gear"
+  }
+}

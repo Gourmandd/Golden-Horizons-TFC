@@ -1,0 +1,14 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+      {
+        "fluid": "createbigcannons:molten_bronze",
+        "amount": 10
+      }
+    ],
+    "results": [
+      {
+        "item": "createbigcannons:bronze_scrap"
+      }
+    ]
+  }

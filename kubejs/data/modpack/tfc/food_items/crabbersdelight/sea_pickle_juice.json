@@ -1,0 +1,9 @@
+{
+  "ingredient": {
+    "item": "crabbersdelight:sea_pickle_juice"
+  },
+  "decay_modifier": 1,
+  "hunger": 5,
+  "saturation": 3,
+  "vegetables": 1
+}

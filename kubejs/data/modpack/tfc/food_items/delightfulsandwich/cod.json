@@ -1,0 +1,10 @@
+{
+    "ingredient": {
+      "item": "delightfulsandwich:cooked_cod_sandwich"
+    },
+    "hunger": 14,
+    "saturation": 4,
+    "decay_modifier": 1,
+    "grain": 1.5,
+    "protein": 4.5
+  }

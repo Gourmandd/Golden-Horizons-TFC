@@ -1,0 +1,17 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:knapping",
+  "knapping_type": "tfc:yellowware",
+  "outside_slot_required": "false",
+  "pattern": [
+    " XXX ",
+    "XXXXX",
+    "XXXXX",
+    "XXXXX",
+    " XXX "
+  ],
+  "result": {
+    "item": "kubejs:ceramic/unfired_yellowware_vessel",
+    "count": 1
+  }
+}

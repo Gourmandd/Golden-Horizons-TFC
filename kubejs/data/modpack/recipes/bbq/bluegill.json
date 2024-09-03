@@ -1,0 +1,10 @@
+{
+    "type": "barbequesdelight:grilling",
+    "ingredient": {
+      "item": "tfc:food/bluegill"
+    },
+    "output": { 
+      "item": "tfc:food/cooked_bluegill"
+    },
+    "barbecuingTime": 640
+  }

@@ -1,0 +1,21 @@
+
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "tfc:metal/copper",
+      "amount": 3
+    },
+    {
+      "fluid": "tfc:metal/gold",
+      "amount": 7
+    }
+  ],
+  "results": [
+    {
+      "fluid": "tfc:metal/rose_gold",
+      "amount": 10
+    }
+  ],
+  "heatRequirement": "heated"
+}

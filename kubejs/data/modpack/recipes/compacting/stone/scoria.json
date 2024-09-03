@@ -1,0 +1,14 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+      {
+        "item": "tfc:raw_sandstone/red"
+      }
+    ],
+    "results": [
+      {
+        "item": "create:polished_cut_scoria"
+      }
+    ],
+    "heatRequirement": "heated"
+  }

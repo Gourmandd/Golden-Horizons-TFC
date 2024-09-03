@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "KMK",
+    "KPK",
+    "KIK"
+  ],
+  "key": {
+    "I": {
+      "item": "tfc:metal/sheet/copper"
+    },
+    "M": {
+      "item": "kubejs:copper_machine"
+    },
+    "K": {
+      "item": "tfc:food/dried_kelp"
+    },
+    "P": {
+      "item": "firmaciv:rope_coil"
+    }
+  },
+  "result": {
+    "item": "create:hose_pulley"
+  }
+}

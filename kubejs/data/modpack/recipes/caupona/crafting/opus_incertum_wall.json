@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "item": "caupona:opus_incertum"
+    }
+  },
+  "result": {
+    "item": "caupona:opus_incertum_wall",
+    "count": 6
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "tfc:barrel_sealed",
+    "input_item": {
+        "ingredient": {
+            "item": "firmalife:food/milk_curd"
+        }
+    },
+    "input_fluid": {
+        "ingredient": "tfc:brine",
+        "amount": 250
+    },
+    "output_item": {
+        "item": "kubejs:mozzarella"
+    },
+    "duration": 8000
+}

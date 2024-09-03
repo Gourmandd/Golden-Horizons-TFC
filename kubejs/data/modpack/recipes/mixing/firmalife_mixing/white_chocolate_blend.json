@@ -1,0 +1,24 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "tag": "tfc:sweetener"
+      },
+      {
+        "item": "firmalife:food/cocoa_butter"
+      },
+      {
+        "item": "firmalife:food/cocoa_butter"
+      },
+      {
+        "fluidTag": "tfc:milks",
+        "amount": 1000
+      }
+
+    ],
+    "results": [
+      {
+        "item": "firmalife:food/white_chocolate_blend"
+      }
+    ]
+  }

@@ -1,0 +1,18 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "tfc:dirt/silt"
+      },
+      {
+        "amount": 250,
+        "fluid": "minecraft:water",
+        "nbt": {}
+      }
+    ],
+    "results": [
+      {
+        "item": "tfc:mud/silt"
+      }
+    ]
+  }

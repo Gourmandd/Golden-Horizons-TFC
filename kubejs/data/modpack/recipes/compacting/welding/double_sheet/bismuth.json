@@ -1,0 +1,21 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "tfc:metal/sheet/bismuth"
+    },
+    {
+      "item": "tfc:powder/flux"
+    },
+    {
+      "item": "tfc:metal/sheet/bismuth"
+    }
+  ],
+  "results": [
+    {
+      "item": "tfc:metal/double_sheet/bismuth"
+    }
+  ],
+  "heatRequirement": "heated"
+}

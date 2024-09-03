@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "tfc:metal/double_sheet/steel"
+  },
+  "second_input": {
+    "item": "tfc:metal/unfinished_boots/wrought_iron"
+  },
+  "tier": 4,
+  "result": {
+    "item": "magistuarmory:gothic_boots"
+  }
+}

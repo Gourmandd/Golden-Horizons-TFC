@@ -1,0 +1,18 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "tag": "modpack:cutting/rock/chert"
+    }
+  ],
+  "result": [
+    {
+      "item": "tfc:rock/loose/chert"
+    }
+  ],
+  "tool": {
+    "type": "farmersdelight:tool_action",
+    "action": "pickaxe_dig"
+  }
+}

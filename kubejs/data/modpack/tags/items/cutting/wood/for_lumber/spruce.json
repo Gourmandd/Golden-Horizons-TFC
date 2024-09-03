@@ -1,0 +1,28 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "replace": false,
+  "values": [
+    "everycomp:af/tfc/spruce_shutter",
+    "tfc:wood/planks/spruce_door",
+    "tfc:wood/planks/spruce_trapdoor",
+    "tfc:wood/planks/spruce_fence",
+    "tfc:wood/planks/spruce_pressure_plate",
+    "tfc:wood/planks/spruce_button",
+    "tfc:wood/planks/spruce_slab",
+    "tfc:wood/planks/spruce_stairs",
+    "everycomp:c/tfc/spruce_window_pane",
+    "everycomp:q/tfc/spruce_ladder",
+    "tfc:wood/sluice/spruce",
+    "tfc:wood/support/spruce",
+    "tfc:wood/sign/spruce",
+    "tfc:wood/hanging_sign/bismuth_bronze/spruce",
+    "tfc:wood/hanging_sign/black_bronze/spruce",
+    "tfc:wood/hanging_sign/bronze/spruce",
+    "tfc:wood/hanging_sign/copper/spruce",
+    "tfc:wood/hanging_sign/wrought_iron/spruce",
+    "tfc:wood/hanging_sign/steel/spruce",
+    "tfc:wood/hanging_sign/black_steel/spruce",
+    "tfc:wood/hanging_sign/blue_steel/spruce",
+    "tfc:wood/hanging_sign/red_steel/spruce"
+  ]
+}

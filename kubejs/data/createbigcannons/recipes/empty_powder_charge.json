@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "S",
+      "W",
+      "S"
+    ],
+    "key": {
+      "S": {
+        "tag": "forge:string"
+    },
+    "W": {
+        "tag": "minecraft:wool"
+    }
+    },
+    "result": {
+      "item": "createbigcannons:empty_powder_charge"
+    }
+  }

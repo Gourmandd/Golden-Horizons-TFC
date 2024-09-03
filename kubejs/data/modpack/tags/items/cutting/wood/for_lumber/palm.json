@@ -1,0 +1,28 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "replace": false,
+  "values": [
+    "everycomp:af/tfc/palm_shutter",
+    "tfc:wood/planks/palm_door",
+    "tfc:wood/planks/palm_trapdoor",
+    "tfc:wood/planks/palm_fence",
+    "tfc:wood/planks/palm_pressure_plate",
+    "tfc:wood/planks/palm_button",
+    "tfc:wood/planks/palm_slab",
+    "tfc:wood/planks/palm_stairs",
+    "everycomp:c/tfc/palm_window_pane",
+    "everycomp:q/tfc/palm_ladder",
+    "tfc:wood/sluice/palm",
+    "tfc:wood/support/palm",
+    "tfc:wood/sign/palm",
+    "tfc:wood/hanging_sign/bismuth_bronze/palm",
+    "tfc:wood/hanging_sign/black_bronze/palm",
+    "tfc:wood/hanging_sign/bronze/palm",
+    "tfc:wood/hanging_sign/copper/palm",
+    "tfc:wood/hanging_sign/wrought_iron/palm",
+    "tfc:wood/hanging_sign/steel/palm",
+    "tfc:wood/hanging_sign/black_steel/palm",
+    "tfc:wood/hanging_sign/blue_steel/palm",
+    "tfc:wood/hanging_sign/red_steel/palm"
+  ]
+}

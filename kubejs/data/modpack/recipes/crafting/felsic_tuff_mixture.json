@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "tfc:rock/gravel"
+    },
+    {
+      "tag": "tfc:rock/gravel"
+    },
+    {
+      "tag": "tfc:rock/gravel"
+    },
+    {
+      "item": "minecraft:clay"
+    },
+    {
+      "item": "minecraft:clay"
+    },
+    {
+      "tag": "minecraft:sand"
+    },
+    {
+      "item": "minecraft:quartz"
+    },
+    {
+      "item": "minecraft:quartz"
+    }
+  ],
+  "result": {
+    "item": "kubejs:felsic_tuff_mixture",
+    "count": 6
+  }
+}

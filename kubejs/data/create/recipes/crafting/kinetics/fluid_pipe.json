@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "ISI"
+    ],
+    "key": {
+      "S": {
+        "item": "tfc:metal/sheet/copper"
+      },
+      "I": {
+        "item": "tfc:metal/ingot/copper"
+      }
+    },
+    "result": {
+      "item": "create:fluid_pipe",
+      "count": 8
+    }
+  }

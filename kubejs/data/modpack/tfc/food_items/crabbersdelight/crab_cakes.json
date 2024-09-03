@@ -1,0 +1,13 @@
+{
+  "ingredient": {
+    "item": "crabbersdelight:crab_cakes"
+  },
+  "decay_modifier": 1,
+  "hunger": 9,
+  "saturation": 4,
+  "protein": 2,
+  "grain": 1,
+  "vegetables": 1,
+  "dairy": 0.5
+
+}

@@ -1,0 +1,11 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "slashing": 3,
+  "piercing": 0,
+  "crushing": 0,
+  "ingredient": [
+    {
+      "item": "magistuarmory:gambeson_chestplate"
+    }
+  ]
+}

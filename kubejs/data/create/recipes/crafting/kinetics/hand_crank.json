@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL",
+    "  I"
+  ],
+  "key": {
+    "I": {
+      "item": "tfc:metal/ingot/cast_iron"
+    },
+    "L": {
+      "tag": "tfc:lumber"
+    }
+  },
+  "result": {
+    "item": "create:hand_crank"
+  }
+}

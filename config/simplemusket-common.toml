@@ -1,0 +1,18 @@
+#The number of ticks needed to reload a musket. 20 ticks = 1 second.
+#Range: 40 ~ 80
+"Musket reload time" = 40
+#The number of ticks needed to aim a musket. 20 ticks = 1 second.
+#Range: 40 ~ 80
+"Musket aim time" = 60
+#If enabled, hellfire cartridges are craftable.
+"Craftable Hellfire cartridges" = false
+#If enabled, hellfire cartridges can be found in chest loot.
+"Hellfire cartridges" = true
+#If enabled, hellfire cartridges can be obtained by bartering with piglins
+"Barter Hellfire cartridges" = true
+#If enabled, the amount of damage dealt by mobs armed with muskets is reduced by 25%.
+"Reduced Pillager bullet damage" = false
+#Intended for use with the Enhanced AI mod. Any value above the default is not recommended otherwise.
+#Range: 24.0 ~ 40.0
+"Gunslinger Pillager range" = 24.0
+

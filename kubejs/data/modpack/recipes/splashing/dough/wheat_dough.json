@@ -1,0 +1,16 @@
+
+{
+    "type": "create:splashing",
+    "ingredients": [
+      {
+        "item": "tfc:food/wheat_flour"
+      }
+    ],
+    "results": [
+      {
+        "item": "tfc:food/wheat_dough",
+        "count": 2
+      }
+    ]
+  }
+  

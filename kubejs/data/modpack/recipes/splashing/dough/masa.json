@@ -1,0 +1,16 @@
+
+{
+    "type": "create:splashing",
+    "ingredients": [
+      {
+        "item": "firmalife:food/masa_flour"
+      }
+    ],
+    "results": [
+      {
+        "item": "firmalife:food/masa",
+        "count": 2
+      }
+    ]
+  }
+  

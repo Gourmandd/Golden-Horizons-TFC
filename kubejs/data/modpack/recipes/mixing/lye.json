@@ -1,0 +1,19 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "tfc:powder/wood_ash"
+      },
+      {
+        "fluid": "minecraft:water",
+        "amount": 200
+      }
+    ],
+    "results": [
+      {
+        "fluid": "tfc:lye",
+        "amount": 200
+      }
+    ],
+    "heatRequirement": "heated"
+  }

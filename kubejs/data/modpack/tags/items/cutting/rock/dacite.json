@@ -1,0 +1,23 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "replace": false,
+  "values": [
+    "tfc:rock/bricks/dacite",
+    "tfc:rock/smooth/dacite",
+    "tfc:rock/bricks/dacite_wall",
+    "tfc:rock/smooth/dacite_wall",
+    "tfc:rock/bricks/dacite_stairs",
+    "tfc:rock/smooth/dacite_stairs",
+    "tfc:rock/bricks/dacite_slab",
+    "tfc:rock/smooth/dacite_slab",
+    "tfc:rock/mossy_bricks/dacite",
+    "tfc:rock/mossy_bricks/dacite_wall",
+    "tfc:rock/mossy_bricks/dacite_stairs",
+    "tfc:rock/mossy_bricks/dacite_slab",
+    "tfc:rock/cracked_bricks/dacite",
+    "tfc:rock/cracked_bricks/dacite_wall",
+    "tfc:rock/cracked_bricks/dacite_stairs",
+    "tfc:rock/cracked_bricks/dacite_slab",
+    "tfc:rock/chiseled/dacite"
+  ]
+}

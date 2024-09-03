@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smoking",
+    "ingredient": {
+      "item": "firmalife:food/soy_mixture"
+    },
+    "result": "firmalife:food/tofu",
+    "experience": 0.0,
+    "cookingtime": 100
+  }

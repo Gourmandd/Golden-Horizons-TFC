@@ -1,0 +1,16 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:pink_stained_glass"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "count": 8,
+      "item": "minecraft:pink_stained_glass_pane"
+    }
+  ]
+}

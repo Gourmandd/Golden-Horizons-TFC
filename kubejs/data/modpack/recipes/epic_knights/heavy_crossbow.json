@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "SCS",
+    " T "
+  ],
+  "key": {
+    "S": {
+      "tag": "forge:string"
+    },
+    "I": {
+      "item": "tfc:metal/ingot/steel"
+    },
+    "T": {
+      "item": "minecraft:tripwire_hook"
+    },
+    "C": {
+      "item": "minecraft:crossbow"
+    }
+  },
+  "result": {
+    "item": "magistuarmory:heavy_crossbow"
+  }
+}

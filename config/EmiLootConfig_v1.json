@@ -1,0 +1,11 @@
+{
+  "debugMode": false,
+  "parseChestLoot": false,
+  "parseBlockLoot": false,
+  "parseMobLoot": true,
+  "parseGameplayLoot": false,
+  "chestLootCompact": true,
+  "chestLootAlwaysStackSame": false,
+  "mobLootIncludeDirectDrops": true,
+  "parseArchaeologyLoot": false
+}

@@ -1,0 +1,17 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:knapping",
+  "knapping_type": "tfc:porcelain",
+  "outside_slot_required": "true",
+  "pattern": [
+    "XXXXX",
+    "XX XX",
+    "X   X",
+    "X   X",
+    "X   X"
+  ],
+  "result": {
+    "item": "kubejs:ceramic/unfired_porcelain_bell_mold",
+    "count": 1
+  }
+}

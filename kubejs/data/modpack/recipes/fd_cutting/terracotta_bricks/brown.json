@@ -1,0 +1,12 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "replace": false,
+  "values": [
+    "hearth_and_home:brown_terracotta_bricks",
+    "hearth_and_home:brown_shingles",
+    "hearth_and_home:brown_terracotta_brick_stairs",
+    "hearth_and_home:brown_shingle_stairs",
+    "hearth_and_home:brown_terracotta_brick_slab",
+    "hearth_and_home:brown_shingle_slab"
+  ]
+}

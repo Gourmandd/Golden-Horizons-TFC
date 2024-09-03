@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "C": {
+        "item": "tfc:wrought_iron_grill"
+      },
+      "I": {
+        "item": "tfc:metal/rod/wrought_iron"
+      }
+    },
+    "pattern": [
+      "ICI",
+      "I I",
+      "I I"
+    ],
+    "result": {
+      "item": "barbequesdelight:grill"
+    },
+    "show_notification": true
+  }

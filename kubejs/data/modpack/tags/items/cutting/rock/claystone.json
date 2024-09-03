@@ -1,0 +1,23 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "replace": false,
+  "values": [
+    "tfc:rock/bricks/claystone",
+    "tfc:rock/smooth/claystone",
+    "tfc:rock/bricks/claystone_wall",
+    "tfc:rock/smooth/claystone_wall",
+    "tfc:rock/bricks/claystone_stairs",
+    "tfc:rock/smooth/claystone_stairs",
+    "tfc:rock/bricks/claystone_slab",
+    "tfc:rock/smooth/claystone_slab",
+    "tfc:rock/mossy_bricks/claystone",
+    "tfc:rock/mossy_bricks/claystone_wall",
+    "tfc:rock/mossy_bricks/claystone_stairs",
+    "tfc:rock/mossy_bricks/claystone_slab",
+    "tfc:rock/cracked_bricks/claystone",
+    "tfc:rock/cracked_bricks/claystone_wall",
+    "tfc:rock/cracked_bricks/claystone_stairs",
+    "tfc:rock/cracked_bricks/claystone_slab",
+    "tfc:rock/chiseled/claystone"
+  ]
+}

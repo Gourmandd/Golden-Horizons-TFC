@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+      "west": "tfc:block/sand/white",
+      "north": "tfc:block/sand/white",
+      "south": "tfc:block/sand/white",
+      "east": "tfc:block/sand/white",
+      "up": "tfc:block/sand/white",
+      "down": "tfc:block/sand/white",
+      "particle": "tfc:block/sand/white"
+    }
+  }

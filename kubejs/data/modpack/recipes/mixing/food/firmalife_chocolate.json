@@ -1,0 +1,16 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "firmalife:food/roasted_cocoa_beans"
+    }
+  ],
+  "results": [
+    {
+      "item": "firmalife:food/cocoa_butter"
+    },
+    {
+      "item": "firmalife:food/cocoa_powder"
+    }
+  ]
+}

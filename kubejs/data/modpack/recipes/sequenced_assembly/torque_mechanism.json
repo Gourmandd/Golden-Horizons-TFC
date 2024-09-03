@@ -1,0 +1,91 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+      "item": "tfc:brass_mechanisms"
+    },
+    "transitionalItem": {
+      "item": "kubejs:torque_mechanism"
+    },
+    "sequence": [
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "kubejs:torque_mechanism"
+          },
+          {
+            "item": "create:cogwheel"
+          }
+        ],
+        "results": [
+          {
+            "item": "kubejs:torque_mechanism"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "kubejs:torque_mechanism"
+          },
+          {
+            "item": "create:large_cogwheel"
+          }
+        ],
+        "results": [
+          {
+            "item": "kubejs:torque_mechanism"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "kubejs:torque_mechanism"
+          },
+          {
+            "item": "tfc:metal/rod/steel"
+          }
+        ],
+        "results": [
+          {
+            "item": "kubejs:torque_mechanism"
+          }
+        ]
+      },
+      {
+        "type": "create:pressing",
+        "ingredients": [
+          {
+            "item": "kubejs:torque_mechanism"
+          }
+        ],
+        "results": [
+          {
+            "item": "kubejs:torque_mechanism"
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "item": "kubejs:torque_mechanism",
+        "chance": 90.0
+      },
+      {
+        "item": "tfc:metal/ingot/steel",
+        "chance": 4.0
+      },
+      {
+        "item": "create:large_cogwheel",
+        "chance": 4.0
+      },
+      {
+        "item": "tfc:metal/sheet/steel",
+        "chance": 2.0
+      }
+    ],
+    "loops": 2
+  }

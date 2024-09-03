@@ -1,0 +1,14 @@
+{
+    "type": "tfc:loom",
+    "ingredient": {
+      "ingredient": {
+        "item": "magistuarmory:leather_strip"
+      },
+      "count": 4
+    },
+    "result": {
+      "item": "minecraft:leather"
+    },
+    "steps_required": 12,
+    "in_progress_texture": "minecraft:block/item_frame"
+  }

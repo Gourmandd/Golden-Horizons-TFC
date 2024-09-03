@@ -1,0 +1,28 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "replace": false,
+  "values": [
+    "everycomp:af/tfc/blackwood_shutter",
+    "tfc:wood/planks/blackwood_door",
+    "tfc:wood/planks/blackwood_trapdoor",
+    "tfc:wood/planks/blackwood_fence",
+    "tfc:wood/planks/blackwood_pressure_plate",
+    "tfc:wood/planks/blackwood_button",
+    "tfc:wood/planks/blackwood_slab",
+    "tfc:wood/planks/blackwood_stairs",
+    "everycomp:c/tfc/blackwood_window_pane",
+    "everycomp:q/tfc/blackwood_ladder",
+    "tfc:wood/sluice/blackwood",
+    "tfc:wood/support/blackwood",
+    "tfc:wood/sign/blackwood",
+    "tfc:wood/hanging_sign/bismuth_bronze/blackwood",
+    "tfc:wood/hanging_sign/black_bronze/blackwood",
+    "tfc:wood/hanging_sign/bronze/blackwood",
+    "tfc:wood/hanging_sign/copper/blackwood",
+    "tfc:wood/hanging_sign/wrought_iron/blackwood",
+    "tfc:wood/hanging_sign/steel/blackwood",
+    "tfc:wood/hanging_sign/black_steel/blackwood",
+    "tfc:wood/hanging_sign/blue_steel/blackwood",
+    "tfc:wood/hanging_sign/red_steel/blackwood"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "afc:wood/wood/rainbow_eucalyptus"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "item": "afc:wood/stripped_wood/eucalyptus"
+    }
+  ]
+}

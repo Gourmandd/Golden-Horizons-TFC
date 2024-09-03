@@ -1,0 +1,12 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "minecraft:lime_stained_glass_pane"
+  },
+  "result_fluid": {
+    "fluid": "kubejs:glass/lime",
+    "amount": 50
+  },
+  "temperature": 1070
+}

@@ -1,0 +1,15 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "tfc:wood/wood/pine"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "item": "tfc:wood/stripped_wood/pine"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    "S S",
+    "SCS"
+  ],
+  "key": {
+    "M": {
+      "item": "caupona:lateres"
+    },
+    "C": {
+      "item": "tfc:metal/ingot/copper"
+    },
+    "S": {
+      "item": "caupona:opus_latericium"
+    }
+  },
+  "result": {
+    "item": "caupona:opus_latericium_hypocaust_firebox"
+  }
+}

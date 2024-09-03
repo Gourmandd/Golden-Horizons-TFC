@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "L  ",
+    "LL ",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "item": "caupona:opus_reticulatum"
+    }
+  },
+  "result": {
+    "item": "caupona:opus_reticulatum_stairs",
+    "count": 8
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "ingredient": {
+      "item": "corn_delight:creamed_corn"
+    },
+    "hunger": 4,
+    "saturation": 4,
+    "decay_modifier": 2.5,
+    "grain": 2,
+    "dairy": 1
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NIN",
+    " M ",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "item": "create:piston_extension_pole"
+    },
+    "I": {
+      "item": "tfc:metal/ingot/wrought_iron"
+    },
+    "N": {
+      "item": "minecraft:iron_nugget"
+    },
+    "M": {
+      "item": "kubejs:andesite_machine"
+    }
+  },
+  "result": {
+    "item": "createbigcannons:cannon_builder"
+  }
+}

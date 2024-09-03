@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "C",
+      "Z",
+      "R"
+    ],
+    "key": {
+      "C": {
+        "item": "tfc:metal/ingot/copper"
+      },
+      "Z": {
+        "item": "tfc:metal/ingot/zinc"
+      },
+      "R": {
+        "item": "minecraft:redstone_torch"
+      }
+    },
+    "result": {
+      "item": "createaddition:modular_accumulator"
+    }
+  }

@@ -1,0 +1,29 @@
+{
+    "type": "firmalife:mixing_bowl",
+    "ingredients": [
+      {
+        "item": "minecraft:clay_ball"
+      },
+      {
+        "item": "minecraft:clay_ball"
+      },
+      {
+        "item": "tfc:powder/kaolinite"
+      },
+      {
+        "item": "tfc:powder/kaolinite"
+      },
+      {
+        "item": "minecraft:bone_meal"
+      }
+    ],
+    "fluid_ingredient": {
+        "ingredient": "minecraft:water",
+        "amount": 1000
+      },
+    "output_item": {
+      "item": "kubejs:clay/porcelain_clay_ball",
+      "count": 2
+    }
+}
+

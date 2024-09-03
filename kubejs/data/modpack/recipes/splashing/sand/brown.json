@@ -1,0 +1,16 @@
+
+{
+    "type": "create:splashing",
+    "ingredients": [
+      {
+        "item": "tfc:sand/brown"
+      }
+    ],
+    "results": [
+      {
+        "item": "tfc:powder/sylvite",
+        "chance": 0.12
+      }
+    ]
+  }
+  

@@ -1,0 +1,14 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "tfc:powder/flux"
+      }
+    ],
+    "results": [
+      {
+        "item": "tfc:powder/lime"
+      }
+    ],
+    "heatRequirement": "heated"
+  }

@@ -1,0 +1,10 @@
+{
+    "ingredient": {
+      "item": "corn_delight:grilled_corn"
+    },
+    "hunger": 4,
+    "saturation": 1,
+    "decay_modifier": 4,
+    "vegetable": 0.5,
+    "grain": 1
+}

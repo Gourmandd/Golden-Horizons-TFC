@@ -1,0 +1,43 @@
+{
+    "type": "tfc:pot",
+    "ingredients": [
+      {
+        "type": "tfc:not_rotten",
+        "ingredient": {
+          "tag": "tfc:foods/fruits"
+        }
+      },
+      {
+        "type": "tfc:not_rotten",
+        "ingredient": {
+          "tag": "tfc:yak_food"
+        }
+      },
+      {
+        "type": "tfc:not_rotten",
+        "ingredient": {
+          "tag": "tfc:yak_food"
+        }
+      },
+      {
+        "type": "tfc:not_rotten",
+        "ingredient": {
+          "tag": "tfc:yak_food"
+        }
+      },
+      {
+        "tag": "tfc:sweetener"
+      }
+    ],
+    "fluid_ingredient": {
+      "ingredient": "caupona:scalded_milk",
+      "amount": 1000
+    },
+    "duration": 1000,
+    "temperature": 300,
+    "fluid_output": {
+        "fluid": "caupona:porridge",
+        "amount": 1000
+      }
+}
+  

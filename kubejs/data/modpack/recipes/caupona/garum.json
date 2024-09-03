@@ -1,0 +1,19 @@
+{
+    "type": "tfc:barrel_sealed",
+    "input_item": {
+        "count": 4,
+        "ingredient": {
+            "tag": "caupona:garum_fish"
+        }
+    },
+    "input_fluid": {
+        "ingredient": {
+            "fluid": "minecraft:water",
+            "amount": 1000
+        }
+    },
+    "output_fluid": {
+        "fluid": "kubejs:garum"
+    },
+    "duration": 86400
+}

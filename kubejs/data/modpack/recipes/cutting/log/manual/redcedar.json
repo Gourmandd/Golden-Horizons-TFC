@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "afc:wood/log/redcedar"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "item": "afc:wood/stripped_log/cypress"
+    }
+  ]
+}

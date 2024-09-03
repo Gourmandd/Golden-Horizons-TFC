@@ -1,0 +1,21 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "firmalife:metal/ingot/chromium"
+    },
+    {
+      "item": "tfc:powder/flux"
+    },
+    {
+      "item": "firmalife:metal/ingot/chromium"
+    }
+  ],
+  "results": [
+    {
+      "item": "firmalife:metal/double_ingot/chromium"
+    }
+  ],
+  "heatRequirement": "heated"
+}

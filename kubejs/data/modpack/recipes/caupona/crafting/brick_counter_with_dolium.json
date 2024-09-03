@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "M M",
+    "SDS",
+    "STS"
+  ],
+  "key": {
+    "M": {
+      "item": "caupona:lateres"
+    },
+    "D": {
+      "item": "caupona:stew_pot"
+    },
+    "T": {
+      "tag": "minecraft:terracotta"
+    },
+    "S": {
+      "item": "minecraft:bricks"
+    }
+  },
+  "result": {
+    "item": "caupona:brick_counter_with_dolium"
+  }
+}

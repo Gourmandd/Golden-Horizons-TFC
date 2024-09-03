@@ -1,0 +1,25 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "firmalife:ceramic/ingot_mold",
+      "nbt": ""
+    },
+    {
+      "fluid": "firmalife:metal/chromium",
+      "amount": 100
+    }
+  ],
+  "results": [
+    {
+      "item": "tfc:ceramic/ingot_mold",
+      "nbt": {
+        "tank": {
+          "Amount": 100,
+          "FluidName": "firmalife:metal/chromium"
+        }
+      }
+    }
+  ]
+}

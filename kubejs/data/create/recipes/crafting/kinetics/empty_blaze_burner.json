@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "SFS",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "item": "tfc:metal/sheet/cast_iron"
+    },
+    "F": {
+      "tag": "forge:smooth_stone_slab"
+    }
+  },
+  "result": {
+    "item": "create:empty_blaze_burner"
+  }
+}

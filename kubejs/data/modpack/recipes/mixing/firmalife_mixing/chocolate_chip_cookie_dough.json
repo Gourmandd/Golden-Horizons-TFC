@@ -1,0 +1,26 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "firmalife:foods/chocolate"
+    },
+    {
+      "item": "firmalife:food/cookie_dough"
+    },
+    {
+      "item": "firmalife:food/cookie_dough"
+    },
+    {
+      "item": "firmalife:food/cookie_dough"
+    },
+    {
+      "item": "firmalife:food/cookie_dough"
+    }
+  ],
+  "results": [
+    {
+      "item": "firmalife:food/chocolate_chip_cookie_dough",
+      "count": 4
+    }
+  ]
+}

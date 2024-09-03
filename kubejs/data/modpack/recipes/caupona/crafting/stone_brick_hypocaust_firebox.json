@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    "S S",
+    "SCS"
+  ],
+  "key": {
+    "M": {
+      "tag": "forge:smooth_stone_slab"
+    },
+    "C": {
+      "item": "tfc:metal/ingot/copper"
+    },
+    "S": {
+      "tag": "forge:stone_bricks"
+    }
+  },
+  "result": {
+    "item": "caupona:stone_brick_hypocaust_firebox"
+  }
+}

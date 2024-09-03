@@ -1,0 +1,16 @@
+{
+    "type": "tfc:barrel_sealed",
+    "input_item": {
+        "ingredient": {
+            "item": "farmersdelight:tree_bark"
+        }
+    },
+    "input_fluid": {
+        "ingredient": "minecraft:water",
+        "amount": 500
+    },
+    "output_item": {
+        "item": "kubejs:soft_bark"
+    },
+    "duration": 96000
+}

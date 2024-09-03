@@ -1,0 +1,65 @@
+
+[General]
+	#With this enabled corpses will only drop with the butchers knifes and butchery enchantment. Disabling this will cause corpses to drop with any tool/weapon.
+	"Specific Tools" = true
+	#Enable/Disable slowness effect when carrying corpses/carcasses
+	"Corpse/Carcass Weight" = true
+	#Enable this to use vanilla foods instead of butchery's foods
+	"Vanilla Drops" = false
+	#Enable/Disable the butchers house structure
+	"Butchers House" = true
+	#Give book on first join?
+	"Butchers Guide" = true
+	#Enable/Disable blood spread when draining carcasses/corpses
+	"Blood Spread" = true
+
+[Compatibilities]
+	#Enable this to use Farmer's delight foods instead of butchery's foods
+	"Farmers Delight Drops" = false
+	#Enable to make TerraFirmaCraft mobs drop corpses
+	"TerraFirmaCraft Corpses" = true
+	#Enable to use TFC drops instead of Butchery drops
+	"TerraFirmaCraft Drops" = true
+	#Enable to obtain life essence buckets from blood drain when right clicked with empty bucket
+	"Bloodmagic Life Essence" = false
+	#Enable vampirism drops from corpses
+	Vampirism = false
+	#Enable vampirism delight drops from corpses
+	"Vampires Delight" = false
+	#Enable werewolves drops from corpses
+	Werewolves = false
+
+["Corpse Drops"]
+	#Enable/Disable Mobs Causing Corpse To Drop
+	"Bat Corpse" = true
+	"Chicken Corpse" = true
+	"Cow Corpse" = true
+	"Frog Corpse" = true
+	"Goat Corpse" = true
+	"Hoglin Corpse" = true
+	"Pig Corpse" = true
+	"Rabbit Corpse" = true
+	"Sheep Corpse" = true
+	"Squid Corpse" = true
+	"Turtle Corpse" = true
+	"Villager Corpse" = true
+	"Fox Corpse" = true
+	"Puffer Corpse" = true
+	"Llama Corpse" = true
+	"Panda Corpse" = true
+	"Polar Bear Corpse" = true
+	"Salmon Corpse" = true
+	"Dolphin Corpse" = true
+	"Cod Corpse" = true
+	"Camel Corpse" = true
+
+["Boss Corpses"]
+	#Enables the Ender Dragons corpse
+	"Ender Dragon" = true
+	#Enable/Disable End Dragon Armor and its materials
+	"Ender Dragon Armor" = true
+	#Enables the Elder Guardian's corpse
+	"Elder Guardian" = true
+	#Enables the Wither's corpse
+	Wither = true
+

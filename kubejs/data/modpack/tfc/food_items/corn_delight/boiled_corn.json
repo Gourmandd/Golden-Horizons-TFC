@@ -1,0 +1,10 @@
+{
+    "ingredient": {
+      "item": "corn_delight:boiled_corn"
+    },
+    "hunger": 4,
+    "saturation": 1,
+    "decay_modifier": 4,
+    "vegetable": 1,
+    "grain": 1
+}

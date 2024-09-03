@@ -1,0 +1,11 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "slashing": 7,
+  "piercing": 7,
+  "crushing": 2,
+  "ingredient": [
+    {
+      "item": "magistuarmory:chainmail_leggings"
+    }
+  ]
+}

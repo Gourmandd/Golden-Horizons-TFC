@@ -1,0 +1,28 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "replace": false,
+  "values": [
+    "everycomp:af/tfc/acacia_shutter",
+    "tfc:wood/planks/acacia_door",
+    "tfc:wood/planks/acacia_trapdoor",
+    "tfc:wood/planks/acacia_fence",
+    "tfc:wood/planks/acacia_pressure_plate",
+    "tfc:wood/planks/acacia_button",
+    "tfc:wood/planks/acacia_slab",
+    "tfc:wood/planks/acacia_stairs",
+    "everycomp:c/tfc/acacia_window_pane",
+    "everycomp:q/tfc/acacia_ladder",
+    "tfc:wood/sluice/acacia",
+    "tfc:wood/support/acacia",
+    "tfc:wood/sign/acacia",
+    "tfc:wood/hanging_sign/bismuth_bronze/acacia",
+    "tfc:wood/hanging_sign/black_bronze/acacia",
+    "tfc:wood/hanging_sign/bronze/acacia",
+    "tfc:wood/hanging_sign/copper/acacia",
+    "tfc:wood/hanging_sign/wrought_iron/acacia",
+    "tfc:wood/hanging_sign/steel/acacia",
+    "tfc:wood/hanging_sign/black_steel/acacia",
+    "tfc:wood/hanging_sign/blue_steel/acacia",
+    "tfc:wood/hanging_sign/red_steel/acacia"
+  ]
+}

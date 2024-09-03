@@ -1,0 +1,10 @@
+{
+    "ingredient": {
+      "item": "barbequesdelight:raw_mushroom_skewer"
+    },
+    "category": "vegetables",
+    "hunger": 3,
+    "saturation": 1,
+    "decay_modifier": 2,
+    "vegetables": 1
+}

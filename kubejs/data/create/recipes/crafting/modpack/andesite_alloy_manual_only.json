@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "tag": "forge:cobblestone"
+      },
+      {
+        "item": "tfc:mortar"
+      },
+      {
+        "item": "tfc:mortar"
+      },
+      {
+        "item": "minecraft:clay_ball"
+      }
+    ],
+    "result": {
+      "item": "create:andesite_alloy",
+      "count": 2
+    }
+  }

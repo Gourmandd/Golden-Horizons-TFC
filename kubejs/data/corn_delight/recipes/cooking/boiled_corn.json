@@ -1,0 +1,13 @@
+{
+    "type": "farmersdelight:cooking",
+    "ingredients": [
+      {
+        "item": "tfc:food/maize"
+      }
+    ],
+    "result": {
+      "item": "corn_delight:boiled_corn"
+    },
+    "experience": 0.15,
+    "cookingtime": 100
+  }

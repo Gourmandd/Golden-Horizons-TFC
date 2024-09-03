@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:jungle_wood"
+    }
+  ],
+  "result": {
+    "item": "tfc:wood/wood/kapok"
+  }
+}

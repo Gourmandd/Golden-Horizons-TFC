@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tfc:plant/allium"
+    },
+    {
+      "item": "tfc:plant/allium"
+    },
+    {
+      "item": "minecraft:flower_pot"
+    }
+  ],
+  "result": {
+    "item": "caupona:chives_spice_jar"
+  }
+}

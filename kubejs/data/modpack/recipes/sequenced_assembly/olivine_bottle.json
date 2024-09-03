@@ -1,0 +1,68 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+      "item": "tfc:olivine_glass_batch"
+    },
+    "transitionalItem": {
+      "item": "minecraft:glass_pane"
+    },
+    "sequence": [
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "minecraft:glass_pane"
+          },
+          {
+            "item": "tfc:bellows"
+          }
+        ],
+        "results": [
+          {
+            "item": "minecraft:glass_pane"
+          }
+        ],
+        "keepHeldItem": true
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "minecraft:glass_pane"
+          },
+          {
+            "item": "tfc:jacks"
+          }
+        ],
+        "results": [
+          {
+            "item": "minecraft:glass_pane"
+          }
+        ],
+        "keepHeldItem": true
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "minecraft:glass_pane"
+          },
+          {
+            "item": "tfc:gem_saw"
+          }
+        ],
+        "results": [
+          {
+            "item": "minecraft:glass_pane"
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "item": "tfc:olivine_glass_bottle",
+        "chance": 1
+      }
+    ],
+    "loops": 3
+  }

@@ -1,0 +1,18 @@
+{
+    "type":"tfc:heating",
+    "ingredient":{
+        "type":"tfc:not_rotten",
+        "ingredient":{
+            "item":"tfc:food/frog_legs"
+        }
+    },
+    "result_item":{
+        "stack":{
+            "item":"crabbersdelight:cooked_frog_leg"
+        },
+        "modifiers":[
+            "tfc:copy_food"
+        ]
+    },
+    "temperature":200
+}

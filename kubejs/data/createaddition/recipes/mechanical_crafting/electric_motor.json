@@ -1,0 +1,29 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+      "  A  ",
+      " BSB ",
+      "BSRSB",
+      " BCB "
+    ],
+    "key": {
+      "A": {
+        "item": "kubejs:torque_mechanism"
+      },
+      "C": {
+        "item": "createaddition:capacitor"
+      },
+      "B": {
+        "item": "tfc:metal/rod/brass"
+      },
+      "R": {
+        "item": "tfc:metal/rod/steel"
+      },
+      "S": {
+        "item": "createaddition:copper_spool"
+      }
+    },
+    "result": {
+      "item": "createaddition:electric_motor"
+    }
+  }

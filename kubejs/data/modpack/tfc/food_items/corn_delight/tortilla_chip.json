@@ -1,0 +1,9 @@
+{
+    "ingredient": {
+      "item": "corn_delight:tortilla_chip"
+    },
+    "hunger": 3,
+    "saturation": 0,
+    "decay_modifier": 1,
+    "grain": 0.5
+}

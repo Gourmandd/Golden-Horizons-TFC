@@ -1,0 +1,16 @@
+{
+    "type": "tfc:barrel_sealed",
+    "input_item": {
+        "ingredient": {
+            "item": "tfc:blank_disc"
+        }
+    },
+    "input_fluid": {
+        "ingredient": "minecraft:water",
+        "amount": 100
+    },
+    "output_item": {
+        "item": "quark:music_disc_drips"
+    },
+    "duration": 1000
+}

@@ -1,0 +1,13 @@
+{
+    "type": "create:pressing",
+    "ingredients": [
+      {
+        "item": "tfc:grass/silt"
+      }
+    ],
+    "results": [
+      {
+        "item": "tfc:grass_path/silt"
+      }
+    ]
+  }

@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "tfc:ore/cryolite"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:redstone",
+      "count": 8
+    }
+  ],
+  "processingTime": 50
+}

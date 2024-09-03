@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "tfc:powder/salt"
+    },
+    {
+      "fluid": "firmalife:cream",
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "item": "firmalife:food/butter"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+    "type": "barbequesdelight:grilling",
+    "ingredient": {
+      "item": "crabbersdelight:pufferfish_slice"
+    },
+    "output": { 
+      "item": "crabbersdelight:cooked_pufferfish_slice"
+    },
+    "barbecuingTime": 280
+  }

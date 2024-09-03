@@ -1,0 +1,10 @@
+{
+    "type": "barbequesdelight:grilling",
+    "ingredient": {
+      "item": "tfc:food/crappie"
+    },
+    "output": { 
+      "item": "tfc:food/cooked_crappie"
+    },
+    "barbecuingTime": 640
+  }

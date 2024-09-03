@@ -1,0 +1,26 @@
+{
+    "type": "farmersdelight:cooking",
+    "container": {
+      "item": "minecraft:bowl"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item": "farmersdelight:cooked_rice"
+      },
+      {
+        "tag": "forge:crops/onion"
+      },
+      {
+        "item": "crabbersdelight:shrimp"
+      },
+      {
+        "tag": "forge:crops/carrot"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "item": "crabbersdelight:shrimp_fried_rice"
+    }
+  }

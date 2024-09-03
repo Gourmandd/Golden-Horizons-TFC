@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " I ",
+    "GMG",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "item": "create:piston_extension_pole"
+    },
+    "I": {
+      "item": "tfc:metal/ingot/wrought_iron"
+    },
+    "G": {
+      "item": "create:fluid_pipe"
+    },
+    "M": {
+      "item": "kubejs:andesite_machine"
+    }
+  },
+  "result": {
+    "item": "createbigcannons:cannon_drill"
+  }
+}

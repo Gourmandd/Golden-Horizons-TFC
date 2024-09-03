@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "W W",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "tfc:metal/ingot/cast_iron"
+    },
+    "W": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "result": {
+    "item": "create:nozzle"
+  }
+}

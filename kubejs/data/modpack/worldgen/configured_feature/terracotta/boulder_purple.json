@@ -1,0 +1,148 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:boulder",
+  "config": {
+    "states": [
+      {
+        "rock": "tfc:rock/raw/granite",
+        "blocks": [
+          "minecraft:purple_terracotta",
+          "kubejs:terracotta/crushed_purple"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/diorite",
+        "blocks": [
+          "minecraft:purple_terracotta",
+          "kubejs:terracotta/crushed_purple"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/gabbro",
+        "blocks": [
+          "minecraft:purple_terracotta",
+          "kubejs:terracotta/crushed_purple"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/shale",
+        "blocks": [
+          "minecraft:purple_terracotta",
+          "kubejs:terracotta/crushed_purple"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/claystone",
+        "blocks": [
+          "minecraft:purple_terracotta",
+          "kubejs:terracotta/crushed_purple"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/limestone",
+        "blocks": [
+          "minecraft:purple_terracotta",
+          "kubejs:terracotta/crushed_purple"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/conglomerate",
+        "blocks": [
+          "minecraft:purple_terracotta",
+          "kubejs:terracotta/crushed_purple"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/dolomite",
+        "blocks": [
+          "minecraft:purple_terracotta",
+          "kubejs:terracotta/crushed_purple"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/chert",
+        "blocks": [
+          "minecraft:purple_terracotta",
+          "kubejs:terracotta/crushed_purple"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/chalk",
+        "blocks": [
+          "minecraft:purple_terracotta",
+          "kubejs:terracotta/crushed_purple"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/rhyolite",
+        "blocks": [
+          "minecraft:purple_terracotta",
+          "kubejs:terracotta/crushed_purple"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/basalt",
+        "blocks": [
+          "minecraft:purple_terracotta",
+          "kubejs:terracotta/crushed_purple"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/andesite",
+        "blocks": [
+          "minecraft:purple_terracotta",
+          "kubejs:terracotta/crushed_purple"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/dacite",
+        "blocks": [
+          "minecraft:purple_terracotta",
+          "kubejs:terracotta/crushed_purple"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/quartzite",
+        "blocks": [
+          "minecraft:purple_terracotta",
+          "kubejs:terracotta/crushed_purple"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/slate",
+        "blocks": [
+          "minecraft:purple_terracotta",
+          "kubejs:terracotta/crushed_purple"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/phyllite",
+        "blocks": [
+          "minecraft:purple_terracotta",
+          "kubejs:terracotta/crushed_purple"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/schist",
+        "blocks": [
+          "minecraft:purple_terracotta",
+          "kubejs:terracotta/crushed_purple"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/gneiss",
+        "blocks": [
+          "minecraft:purple_terracotta",
+          "kubejs:terracotta/crushed_purple"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/marble",
+        "blocks": [
+          "minecraft:purple_terracotta",
+          "kubejs:terracotta/crushed_purple"
+        ]
+      }
+    ]
+  }
+}

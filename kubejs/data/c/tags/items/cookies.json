@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "firmalife:food/chocolate_chip_cookie",
+        "firmalife:food/sugar_cookie",
+        "farmersdelight:sweet_berry_cookie",
+        "farmersdelight:honey_cookie"
+    ]
+}

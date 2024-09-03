@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "caupona:seared_poultry"
+  },
+  "decay_modifier": 2,
+  "hunger": 14,
+  "saturation": 6,
+  "vegetables": 4,
+  "protein": 3.5
+}

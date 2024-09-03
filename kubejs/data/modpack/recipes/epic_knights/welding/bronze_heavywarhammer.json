@@ -1,0 +1,14 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "magistuarmory:pole"
+  },
+  "second_input": {
+    "item": "tfc:metal/hammer_head/bronze"
+  },
+  "tier": 2,
+  "result": {
+    "item": "magistuarmory:bronze_heavywarhammer"
+  }
+}

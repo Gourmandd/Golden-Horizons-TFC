@@ -1,0 +1,14 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+      {
+        "item": "tfc:rock/cobble/claystone"
+      }
+    ],
+    "results": [
+      {
+        "item": "create:polished_cut_dripstone"
+      }
+    ],
+    "heatRequirement": "heated"
+  }

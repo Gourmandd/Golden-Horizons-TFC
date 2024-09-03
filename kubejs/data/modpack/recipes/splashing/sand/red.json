@@ -1,0 +1,16 @@
+
+{
+    "type": "create:splashing",
+    "ingredients": [
+      {
+        "item": "tfc:sand/red"
+      }
+    ],
+    "results": [
+      {
+        "item": "tfc:powder/hematite",
+        "chance": 0.12
+      }
+    ]
+  }
+  

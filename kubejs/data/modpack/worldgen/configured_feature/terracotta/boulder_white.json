@@ -1,0 +1,148 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:boulder",
+  "config": {
+    "states": [
+      {
+        "rock": "tfc:rock/raw/granite",
+        "blocks": [
+          "minecraft:white_terracotta",
+          "kubejs:terracotta/crushed_white"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/diorite",
+        "blocks": [
+          "minecraft:white_terracotta",
+          "kubejs:terracotta/crushed_white"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/gabbro",
+        "blocks": [
+          "minecraft:white_terracotta",
+          "kubejs:terracotta/crushed_white"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/shale",
+        "blocks": [
+          "minecraft:white_terracotta",
+          "kubejs:terracotta/crushed_white"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/claystone",
+        "blocks": [
+          "minecraft:white_terracotta",
+          "kubejs:terracotta/crushed_white"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/limestone",
+        "blocks": [
+          "minecraft:white_terracotta",
+          "kubejs:terracotta/crushed_white"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/conglomerate",
+        "blocks": [
+          "minecraft:white_terracotta",
+          "kubejs:terracotta/crushed_white"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/dolomite",
+        "blocks": [
+          "minecraft:white_terracotta",
+          "kubejs:terracotta/crushed_white"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/chert",
+        "blocks": [
+          "minecraft:white_terracotta",
+          "kubejs:terracotta/crushed_white"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/chalk",
+        "blocks": [
+          "minecraft:white_terracotta",
+          "kubejs:terracotta/crushed_white"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/rhyolite",
+        "blocks": [
+          "minecraft:white_terracotta",
+          "kubejs:terracotta/crushed_white"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/basalt",
+        "blocks": [
+          "minecraft:white_terracotta",
+          "kubejs:terracotta/crushed_white"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/andesite",
+        "blocks": [
+          "minecraft:white_terracotta",
+          "kubejs:terracotta/crushed_white"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/dacite",
+        "blocks": [
+          "minecraft:white_terracotta",
+          "kubejs:terracotta/crushed_white"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/quartzite",
+        "blocks": [
+          "minecraft:white_terracotta",
+          "kubejs:terracotta/crushed_white"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/slate",
+        "blocks": [
+          "minecraft:white_terracotta",
+          "kubejs:terracotta/crushed_white"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/phyllite",
+        "blocks": [
+          "minecraft:white_terracotta",
+          "kubejs:terracotta/crushed_white"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/schist",
+        "blocks": [
+          "minecraft:white_terracotta",
+          "kubejs:terracotta/crushed_white"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/gneiss",
+        "blocks": [
+          "minecraft:white_terracotta",
+          "kubejs:terracotta/crushed_white"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/marble",
+        "blocks": [
+          "minecraft:white_terracotta",
+          "kubejs:terracotta/crushed_white"
+        ]
+      }
+    ]
+  }
+}

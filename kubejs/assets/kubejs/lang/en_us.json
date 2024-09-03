@@ -1,0 +1,32 @@
+{
+"item.kubejs.ceramic.kaolinite_vessel": "Kaolinite Vessel",
+"item.kubejs.ceramic.kaolinite_jug": "Kaolinite Jug",
+"item.kubejs.ceramic.yixing_vessel": "Yixing Vessel",
+"item.kubejs.ceramic.yixing_jug": "Yixing Jug",
+"item.kubejs.ceramic.porcelain_vessel": "Porcelain Vessel",
+"item.kubejs.ceramic.porcelain_jug": "Porcelain Jug",
+"item.kubejs.ceramic.yellowware_vessel": "Yellowware Vessel",
+"item.kubejs.ceramic.yellowware_jug": "Yellowware Jug",
+"item.kubejs.ceramic.earthenware_vessel": "Earthenware Vessel",
+"item.kubejs.ceramic.earthenware_jug": "Earthenware Jug",
+
+
+
+"metal.modpack.glass_clear": "Clear Glass",
+"metal.modpack.glass/white": "White Glass",
+"metal.modpack.glass/light_gray": "Light Gray Glass",
+"metal.modpack.glass/gray": "Gray Glass",
+"metal.modpack.glass/black": "Black Glass",
+"metal.modpack.glass/brown": "Brown Glass",
+"metal.modpack.glass/red": "Red Glass",
+"metal.modpack.glass/orange": "Orange Glass",
+"metal.modpack.glass/yellow": "Yellow Glass",
+"metal.modpack.glass/lime": "Lime Glass",
+"metal.modpack.glass/green": "Green Glass",
+"metal.modpack.glass/cyan": "Cyan Glass",
+"metal.modpack.glass/light_blue": "Light Blue Glass",
+"metal.modpack.glass/blue": "Blue Glass",
+"metal.modpack.glass/purple": "Purple Glass",
+"metal.modpack.glass/magenta": "Magenta Glass",
+"metal.modpack.glass/pink": "Pink Glass"
+}

@@ -1,0 +1,26 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "kubejs:glass_mold"
+    },
+    {
+      "amount": 800,
+      "fluid": "kubejs:glass/blue"
+    }
+  ],
+  "results": [
+    {
+      "item": {
+        "item": "kubejs:glass_mold",
+        "nbt": {
+          "tank": {
+            "Amount": 800,
+            "FluidName": "kubejs:glass/blue"
+          }
+        }
+      }
+    }
+  ]
+}

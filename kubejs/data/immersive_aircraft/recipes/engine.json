@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " S ",
+      "PBP",
+      "SMS"
+    ],
+    "key": {
+      "P": {
+        "item": "minecraft:piston"
+      },
+      "B": {
+        "item": "create:blaze_burner"
+      },
+      "S": {
+        "item": "tfc:metal/sheet/steel"
+      },
+      "M": {
+        "item": "create:precision_mechanism"
+      }
+    },
+    "result": {
+      "item": "immersive_aircraft:engine"
+    }
+  }

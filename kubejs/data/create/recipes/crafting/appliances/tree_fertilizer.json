@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "tfc:powder/wood_ash"
+      },
+      {
+        "item": "tfc:powder/wood_ash"
+      },
+      {
+        "item": "minecraft:bone_meal"
+      },
+      {
+        "tag": "minecraft:flowers"
+      },
+      {
+        "tag": "minecraft:flowers"
+      }
+    ],
+    "result": {
+      "item": "create:tree_fertilizer"
+    }
+  }

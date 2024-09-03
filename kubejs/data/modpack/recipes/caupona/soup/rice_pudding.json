@@ -1,0 +1,40 @@
+{
+    "type": "tfc:pot",
+    "ingredients": [
+      {
+        "type": "tfc:not_rotten",
+        "ingredient": {
+          "tag": "modpack:rice"
+        }
+      },
+      {
+        "type": "tfc:not_rotten",
+        "ingredient": {
+          "tag": "modpack:rice"
+        }
+      },
+      {
+        "type": "tfc:not_rotten",
+        "ingredient": {
+          "tag": "modpack:rice"
+        }
+      },
+      {
+        "tag": "tfc:sweetener"
+      },
+      {
+        "tag": "tfc:sweetener"
+      }
+    ],
+    "fluid_ingredient": {
+      "ingredient": "caupona:scalded_milk",
+      "amount": 1000
+    },
+    "duration": 1000,
+    "temperature": 300,
+    "fluid_output": {
+        "fluid": "caupona:rice_pudding",
+        "amount": 1000
+      }
+}
+  

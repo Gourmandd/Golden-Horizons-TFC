@@ -1,0 +1,15 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+      "item": "tfc:metal/double_sheet/brass"
+    },
+    "result": {
+      "item": "kubejs:glass_mold"
+    },
+    "tier": 2,
+    "rules": [
+      "bend_last",
+      "bend_second_last",
+      "hit_third_last"
+    ]
+  }

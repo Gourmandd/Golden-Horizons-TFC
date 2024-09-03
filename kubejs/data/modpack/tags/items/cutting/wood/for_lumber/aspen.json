@@ -1,0 +1,28 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "replace": false,
+  "values": [
+    "everycomp:af/tfc/aspen_shutter",
+    "tfc:wood/planks/aspen_door",
+    "tfc:wood/planks/aspen_trapdoor",
+    "tfc:wood/planks/aspen_fence",
+    "tfc:wood/planks/aspen_pressure_plate",
+    "tfc:wood/planks/aspen_button",
+    "tfc:wood/planks/aspen_slab",
+    "tfc:wood/planks/aspen_stairs",
+    "everycomp:c/tfc/aspen_window_pane",
+    "everycomp:q/tfc/aspen_ladder",
+    "tfc:wood/sluice/aspen",
+    "tfc:wood/support/aspen",
+    "tfc:wood/sign/aspen",
+    "tfc:wood/hanging_sign/bismuth_bronze/aspen",
+    "tfc:wood/hanging_sign/black_bronze/aspen",
+    "tfc:wood/hanging_sign/bronze/aspen",
+    "tfc:wood/hanging_sign/copper/aspen",
+    "tfc:wood/hanging_sign/wrought_iron/aspen",
+    "tfc:wood/hanging_sign/steel/aspen",
+    "tfc:wood/hanging_sign/black_steel/aspen",
+    "tfc:wood/hanging_sign/blue_steel/aspen",
+    "tfc:wood/hanging_sign/red_steel/aspen"
+  ]
+}

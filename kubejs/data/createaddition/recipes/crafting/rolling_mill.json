@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "S S",
+      "AMA",
+      "ATA"
+    ],
+    "key": {
+      "S": {
+        "item": "tfc:metal/rod/steel"
+      },
+      "A": {
+        "item": "create:andesite_alloy"
+      },
+      "T": {
+        "item": "kubejs:torque_mechanism"
+      },
+      "M": {
+        "item": "kubejs:andesite_machine"
+      }
+    },
+    "result": {
+      "item": "createaddition:rolling_mill"
+    }
+  }

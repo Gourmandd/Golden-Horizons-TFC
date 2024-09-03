@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "magistuarmory:hilt"
+      },
+      {
+        "item": "magistuarmory:hilt"
+      }
+    ],
+    "result": {
+      "item": "magistuarmory:pole"
+    }
+  }

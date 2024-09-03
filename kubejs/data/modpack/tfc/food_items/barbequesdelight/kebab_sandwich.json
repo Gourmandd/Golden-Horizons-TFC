@@ -1,0 +1,12 @@
+{
+    "ingredient": {
+      "item": "barbequesdelight:kebab_sandwich"
+    },
+    "category": "meat",
+    "hunger": 16,
+    "saturation": 6,
+    "decay_modifier": 1,
+    "protein": 6,
+    "vegetables": 4,
+    "grain": 4
+}

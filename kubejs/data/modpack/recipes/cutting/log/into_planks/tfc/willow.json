@@ -1,0 +1,16 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "tfc:wood/stripped_log/willow"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "item": "tfc:wood/planks/willow",
+      "count": 4
+    }
+  ]
+}

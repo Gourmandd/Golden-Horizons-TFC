@@ -1,0 +1,18 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "tfc:powder/salt"
+      },
+      {
+        "fluid": "minecraft:water",
+        "amount": 100
+      }
+    ],
+    "results": [
+      {
+        "fluid": "tfc:salt_water",
+        "amount": 100
+      }
+    ]
+  }

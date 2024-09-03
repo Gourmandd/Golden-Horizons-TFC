@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TMT",
+    "MTM",
+    "TMT"
+  ],
+  "key": {
+    "T": {
+      "item": "caupona:felsic_tuff"
+    },
+    "M": {
+      "item": "tfc:mortar"
+    }
+  },
+  "result": {
+    "item": "caupona:felsic_tuff_bricks",
+    "count": 8
+  }
+}

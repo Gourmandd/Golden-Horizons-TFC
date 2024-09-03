@@ -1,0 +1,21 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "tfc:food/rye_flour"
+      },
+      {
+        "tag": "tfc:sweetener"
+      },
+      {
+        "fluid": "firmalife:yeast_starter",
+        "amount": 1000
+      }
+    ],
+    "results": [
+      {
+        "item": "firmalife:food/rye_dough",
+        "count": 4
+      }
+    ]
+  }

@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "tfc:ore/rich_bismuthinite"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:crushed_raw_uranium",
+      "chance": 0.70
+    }
+  ],
+  "processingTime": 105
+}

@@ -1,0 +1,28 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "replace": false,
+  "values": [
+    "everycomp:af/tfc/sequoia_shutter",
+    "tfc:wood/planks/sequoia_door",
+    "tfc:wood/planks/sequoia_trapdoor",
+    "tfc:wood/planks/sequoia_fence",
+    "tfc:wood/planks/sequoia_pressure_plate",
+    "tfc:wood/planks/sequoia_button",
+    "tfc:wood/planks/sequoia_slab",
+    "tfc:wood/planks/sequoia_stairs",
+    "everycomp:c/tfc/sequoia_window_pane",
+    "everycomp:q/tfc/sequoia_ladder",
+    "tfc:wood/sluice/sequoia",
+    "tfc:wood/support/sequoia",
+    "tfc:wood/sign/sequoia",
+    "tfc:wood/hanging_sign/bismuth_bronze/sequoia",
+    "tfc:wood/hanging_sign/black_bronze/sequoia",
+    "tfc:wood/hanging_sign/bronze/sequoia",
+    "tfc:wood/hanging_sign/copper/sequoia",
+    "tfc:wood/hanging_sign/wrought_iron/sequoia",
+    "tfc:wood/hanging_sign/steel/sequoia",
+    "tfc:wood/hanging_sign/black_steel/sequoia",
+    "tfc:wood/hanging_sign/blue_steel/sequoia",
+    "tfc:wood/hanging_sign/red_steel/sequoia"
+  ]
+}

@@ -1,0 +1,16 @@
+
+{
+    "type": "create:splashing",
+    "ingredients": [
+      {
+        "item": "tfc:food/barley_flour"
+      }
+    ],
+    "results": [
+      {
+        "item": "tfc:food/barley_dough",
+        "count": 2
+      }
+    ]
+  }
+  

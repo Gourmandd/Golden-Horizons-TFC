@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "P",
+    "M",
+    "I"
+  ],
+  "key": {
+    "I": {
+      "item": "create:brass_hand"
+    },
+    "M": {
+      "item": "kubejs:andesite_machine"
+    },
+    "P": {
+      "item": "create:electron_tube"
+    }
+  },
+  "result": {
+    "item": "create:deployer"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I",
+    "G",
+    "P"
+  ],
+  "key": {
+    "I": {
+      "item": "tfc:metal/ingot/wrought_iron"
+    },
+    "G": {
+      "item": "minecraft:gunpowder"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "item": "simplemusket:cartridge",
+    "count": 24
+  }
+}

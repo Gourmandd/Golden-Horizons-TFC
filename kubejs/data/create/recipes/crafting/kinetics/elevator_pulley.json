@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "KMK",
+    "KPK",
+    "KIK"
+  ],
+  "key": {
+    "I": {
+      "item": "create:precision_mechanism"
+    },
+    "M": {
+      "item": "kubejs:brass_machine"
+    },
+    "K": {
+      "item": "tfc:food/dried_kelp"
+    },
+    "P": {
+      "item": "firmaciv:rope_coil"
+    }
+  },
+  "result": {
+    "item": "create:elevator_pulley"
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "ingredient": {
+      "item": "barbequesdelight:raw_pork_sausage_skewer"
+    },
+    "category": "meat",
+    "hunger": 3,
+    "saturation": 1,
+    "decay_modifier": 2,
+    "protein": 0.5
+}

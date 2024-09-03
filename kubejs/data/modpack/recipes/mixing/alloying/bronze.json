@@ -1,0 +1,21 @@
+
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "tfc:metal/copper",
+      "amount": 9
+    },
+    {
+      "fluid": "tfc:metal/tin",
+      "amount": 1
+    }
+  ],
+  "results": [
+    {
+      "fluid": "tfc:metal/bronze",
+      "amount": 10
+    }
+  ],
+  "heatRequirement": "heated"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "magistuarmory:lamellar_rows"
+  },
+  "second_input": {
+    "item": "minecraft:leather_boots"
+  },
+  "tier": 3,
+  "result": {
+    "item": "magistuarmory:lamellar_boots"
+  }
+}

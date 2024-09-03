@@ -1,0 +1,18 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "replace": false,
+  "values": [
+    "tfc:smooth_sandstone/pink",
+    "tfc:raw_sandstone/pink",
+    "tfc:cut_sandstone/pink",
+    "tfc:smooth_sandstone/pink_wall",
+    "tfc:raw_sandstone/pink_wall",
+    "tfc:cut_sandstone/pink_wall",
+    "tfc:smooth_sandstone/pink_stairs",
+    "tfc:raw_sandstone/pink_stairs",
+    "tfc:cut_sandstone/pink_stairs",
+    "tfc:smooth_sandstone/pink_slab",
+    "tfc:raw_sandstone/pink_slab",
+    "tfc:cut_sandstone/pink_slab"
+  ]
+}

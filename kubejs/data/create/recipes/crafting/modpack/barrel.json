@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LGL",
+    "LCL",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "tag": "tfc:lumber"
+    },
+    "G": {
+      "item": "tfc:glue"
+    },
+    "C": {
+      "tag": "forge:chests/wooden"
+    }
+  },
+  "result": {
+    "item": "minecraft:barrel"
+  }
+}

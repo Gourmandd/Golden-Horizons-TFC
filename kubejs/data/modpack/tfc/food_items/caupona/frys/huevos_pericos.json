@@ -1,0 +1,11 @@
+{
+    "ingredient": {
+      "item": "caupona:huevos_pericos"
+    },
+    "decay_modifier": 2,
+    "hunger": 13,
+    "saturation": 6,
+    "vegetables": 4,
+    "protein": 2.5,
+    "dairy": 0.5
+  }

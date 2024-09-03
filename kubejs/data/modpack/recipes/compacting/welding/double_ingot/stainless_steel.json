@@ -1,0 +1,21 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "firmalife:metal/ingot/stainless_steel"
+    },
+    {
+      "item": "tfc:powder/flux"
+    },
+    {
+      "item": "firmalife:metal/ingot/stainless_steel"
+    }
+  ],
+  "results": [
+    {
+      "item": "firmalife:metal/double_ingot/stainless_steel"
+    }
+  ],
+  "heatRequirement": "heated"
+}

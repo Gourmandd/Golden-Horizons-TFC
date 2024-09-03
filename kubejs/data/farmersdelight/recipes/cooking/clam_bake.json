@@ -1,0 +1,26 @@
+{
+    "type": "farmersdelight:cooking",
+    "cookingtime": 200,
+    "experience": 2.0,
+    "ingredients": [
+      {
+        "item": "crabbersdelight:cooked_clam_meat"
+      },
+      {
+        "item": "crabbersdelight:cooked_clawster"
+      },
+      {
+        "item": "crabbersdelight:cooked_shrimp"
+      },
+      {
+        "tag": "forge:crops/carrot"
+      },
+      {
+        "tag": "forge:crops/onion"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "item": "crabbersdelight:clam_bake"
+    }
+  }

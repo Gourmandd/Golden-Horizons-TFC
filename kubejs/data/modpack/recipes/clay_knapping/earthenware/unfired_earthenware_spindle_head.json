@@ -1,0 +1,17 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:knapping",
+  "knapping_type": "tfc:earthenware",
+  "outside_slot_required": "true",
+  "pattern": [
+    "     ",
+    "  X  ",
+    "XXXXX",
+    "  X  ",
+    "     "
+  ],
+  "result": {
+    "item": "kubejs:ceramic/unfired_earthenware_spindle_head",
+    "count": 1
+  }
+}

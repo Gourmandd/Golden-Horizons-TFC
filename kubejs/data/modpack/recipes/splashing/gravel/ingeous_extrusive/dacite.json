@@ -1,0 +1,16 @@
+
+{
+    "type": "create:splashing",
+    "ingredients": [
+      {
+        "item": "tfc:rock/gravel/dacite"
+      }
+    ],
+    "results": [
+      {
+        "item": "tfc:ore/poor_native_gold",
+        "chance": 0.12
+      }
+    ]
+  }
+  

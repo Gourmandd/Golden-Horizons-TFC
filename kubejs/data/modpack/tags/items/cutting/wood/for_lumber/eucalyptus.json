@@ -1,0 +1,28 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "replace": false,
+  "values": [
+    "everycomp:af/afc/eucalyptus_shutter",
+    "afc:wood/planks/eucalyptus_door",
+    "afc:wood/planks/eucalyptus_trapdoor",
+    "afc:wood/planks/eucalyptus_fence",
+    "afc:wood/planks/eucalyptus_pressure_plate",
+    "afc:wood/planks/eucalyptus_button",
+    "afc:wood/planks/eucalyptus_slab",
+    "afc:wood/planks/eucalyptus_stairs",
+    "everycomp:c/afc/eucalyptus_window_pane",
+    "everycomp:q/afc/eucalyptus_ladder",
+    "afc:wood/sluice/eucalyptus",
+    "afc:wood/support/eucalyptus",
+    "afc:wood/sign/eucalyptus",
+    "afc:wood/hanging_sign/bismuth_bronze/eucalyptus",
+    "afc:wood/hanging_sign/black_bronze/eucalyptus",
+    "afc:wood/hanging_sign/bronze/eucalyptus",
+    "afc:wood/hanging_sign/copper/eucalyptus",
+    "afc:wood/hanging_sign/wrought_iron/eucalyptus",
+    "afc:wood/hanging_sign/steel/eucalyptus",
+    "afc:wood/hanging_sign/black_steel/eucalyptus",
+    "afc:wood/hanging_sign/blue_steel/eucalyptus",
+    "afc:wood/hanging_sign/red_steel/eucalyptus"
+  ]
+}

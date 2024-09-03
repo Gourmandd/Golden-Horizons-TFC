@@ -1,0 +1,21 @@
+{
+    "feature": "modpack:nettles_bush_patch",
+    "placement": [
+      {
+        "type": "tfc:climate",
+        "min_temperature": -3,
+        "max_temperature": 27,
+        "min_rainfall": 200,
+        "max_rainfall": 500,
+        "min_forest": "edge",
+        "max_forest": "old_growth"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "type": "minecraft:rarity_filter",
+        "chance": 30
+      }
+    ]
+  }

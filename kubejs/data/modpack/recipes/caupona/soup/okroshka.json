@@ -1,0 +1,40 @@
+{
+    "type": "tfc:pot",
+    "ingredients": [
+      {
+        "item": "firmalife:ice_shavings"
+      },
+      {
+        "type": "tfc:not_rotten",
+        "ingredient": {
+          "tag": "caupona:meats/meat"
+        }
+      },
+      {
+        "type": "tfc:not_rotten",
+        "ingredient": {
+          "tag": "tfc:foods/vegetables"
+        }
+      },
+      {
+        "type": "tfc:not_rotten",
+        "ingredient": {
+          "tag": "tfc:foods/vegetables"
+        }
+      },
+      {
+        "tag": "modpack:spices"
+      }
+    ],
+    "fluid_ingredient": {
+      "ingredient": "caupona:stock",
+      "amount": 1000
+    },
+    "duration": 1000,
+    "temperature": 300,
+    "fluid_output": {
+        "fluid": "caupona:okroshka",
+        "amount": 1000
+      }
+}
+  

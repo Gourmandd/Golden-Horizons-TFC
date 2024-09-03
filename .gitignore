@@ -1,0 +1,36 @@
+#some of these files may be generated when you run the game and some of these are from mods that are generated while testing
+.vscode
+backups
+crash-reports
+datapacks
+local
+logs
+data
+schematics
+modernfix
+mods
+patchouli_books
+resourcepacks
+saves
+screenshots
+shaderpacks
+.qmenu_opened.marker
+fabricloader.log
+heracles_options.json
+#I doubt license will ever change
+LISENCE
+
+#an options.txt with resourcepacks selected is in the pack
+options.txt
+patchouli_data.json
+profile.json
+rhino.local.properties
+temp.json
+usercache.json
+usernamecache.json
+
+#kubejs
+
+#game should generate this since no edits but its commented to make sure everything is the same
+#kubejs/jsconfig.json
+#kubejs/server_scripts/config

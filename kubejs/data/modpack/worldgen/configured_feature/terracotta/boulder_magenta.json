@@ -1,0 +1,148 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:boulder",
+  "config": {
+    "states": [
+      {
+        "rock": "tfc:rock/raw/granite",
+        "blocks": [
+          "minecraft:magenta_terracotta",
+          "kubejs:terracotta/crushed_magenta"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/diorite",
+        "blocks": [
+          "minecraft:magenta_terracotta",
+          "kubejs:terracotta/crushed_magenta"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/gabbro",
+        "blocks": [
+          "minecraft:magenta_terracotta",
+          "kubejs:terracotta/crushed_magenta"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/shale",
+        "blocks": [
+          "minecraft:magenta_terracotta",
+          "kubejs:terracotta/crushed_magenta"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/claystone",
+        "blocks": [
+          "minecraft:magenta_terracotta",
+          "kubejs:terracotta/crushed_magenta"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/limestone",
+        "blocks": [
+          "minecraft:magenta_terracotta",
+          "kubejs:terracotta/crushed_magenta"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/conglomerate",
+        "blocks": [
+          "minecraft:magenta_terracotta",
+          "kubejs:terracotta/crushed_magenta"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/dolomite",
+        "blocks": [
+          "minecraft:magenta_terracotta",
+          "kubejs:terracotta/crushed_magenta"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/chert",
+        "blocks": [
+          "minecraft:magenta_terracotta",
+          "kubejs:terracotta/crushed_magenta"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/chalk",
+        "blocks": [
+          "minecraft:magenta_terracotta",
+          "kubejs:terracotta/crushed_magenta"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/rhyolite",
+        "blocks": [
+          "minecraft:magenta_terracotta",
+          "kubejs:terracotta/crushed_magenta"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/basalt",
+        "blocks": [
+          "minecraft:magenta_terracotta",
+          "kubejs:terracotta/crushed_magenta"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/andesite",
+        "blocks": [
+          "minecraft:magenta_terracotta",
+          "kubejs:terracotta/crushed_magenta"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/dacite",
+        "blocks": [
+          "minecraft:magenta_terracotta",
+          "kubejs:terracotta/crushed_magenta"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/quartzite",
+        "blocks": [
+          "minecraft:magenta_terracotta",
+          "kubejs:terracotta/crushed_magenta"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/slate",
+        "blocks": [
+          "minecraft:magenta_terracotta",
+          "kubejs:terracotta/crushed_magenta"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/phyllite",
+        "blocks": [
+          "minecraft:magenta_terracotta",
+          "kubejs:terracotta/crushed_magenta"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/schist",
+        "blocks": [
+          "minecraft:magenta_terracotta",
+          "kubejs:terracotta/crushed_magenta"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/gneiss",
+        "blocks": [
+          "minecraft:magenta_terracotta",
+          "kubejs:terracotta/crushed_magenta"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/marble",
+        "blocks": [
+          "minecraft:magenta_terracotta",
+          "kubejs:terracotta/crushed_magenta"
+        ]
+      }
+    ]
+  }
+}

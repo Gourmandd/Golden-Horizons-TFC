@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    " O ",
+    "BBB"
+  ],
+  "key": {
+    "O": {
+      "item": "caupona:opus_incertum"
+    },
+    "B": {
+      "item": "caupona:opus_incertum_slab"
+    }
+  },
+  "result": {
+    "item": "caupona:opus_incertum_caliduct",
+    "count": 4
+  }
+}

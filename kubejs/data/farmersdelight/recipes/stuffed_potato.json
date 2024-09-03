@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+      {
+        "item": "tfc:food/baked_potato"
+      },
+      {
+        "tag": "forge:cooked_beef"
+      },
+      {
+        "item": "firmalife:food/shredded_cheese"
+      }
+    ],
+    "result": {
+      "item": "farmersdelight:stuffed_potato"
+    }
+  }

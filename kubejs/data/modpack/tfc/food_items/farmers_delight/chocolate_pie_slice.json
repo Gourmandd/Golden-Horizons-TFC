@@ -1,0 +1,12 @@
+{
+    "ingredient": {
+      "item": "farmersdelight:chocolate_pie_slice"
+    },
+    "category": "other",
+    "hunger": 6,
+    "saturation": 1,
+    "decay_modifier": 1,
+    "grain": 0.5,
+    "dairy": 0.5,
+    "fruit": 0.5
+  }

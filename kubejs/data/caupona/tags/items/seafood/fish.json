@@ -1,0 +1,16 @@
+{
+    "replace": false,
+    "values": [
+        "tfc:food/crappie",
+        "tfc:food/lake_trout",
+        "tfc:food/largemouth_bass",
+        "tfc:food/rainbow_trout",
+        "tfc:food/smallmouth_bass",
+        "tfc:food/cooked_crappie",
+        "tfc:food/cooked_lake_trout",
+        "tfc:food/cooked_largemouth_bass",
+        "tfc:food/cooked_rainbow_trout",
+        "tfc:food/cooked_smallmouth_bass"
+
+    ]
+}

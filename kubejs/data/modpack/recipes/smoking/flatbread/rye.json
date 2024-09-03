@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smoking",
+    "ingredient": {
+      "item": "tfc:food/rye_dough"
+    },
+    "result": "firmalife:food/rye_flatbread",
+    "experience": 0.0,
+    "cookingtime": 100
+  }

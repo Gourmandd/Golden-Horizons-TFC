@@ -1,0 +1,15 @@
+
+{
+    "type": "create:splashing",
+    "ingredients": [
+      {
+        "item": "firmalife:food/cured_maize"
+      }
+    ],
+    "results": [
+      {
+        "item": "firmalife:food/nixtamal"
+      }
+    ]
+  }
+  

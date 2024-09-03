@@ -1,0 +1,10 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+      "item": "kubejs:felsic_tuff_mixture"
+    },
+    "result_item": {
+      "item": "caupona:felsic_tuff"
+    },
+    "temperature": 1535
+  }

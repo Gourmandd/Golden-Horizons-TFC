@@ -1,0 +1,13 @@
+{
+    "type": "create:pressing",
+    "ingredients": [
+      {
+        "item": "tfc:grass/silty_loam"
+      }
+    ],
+    "results": [
+      {
+        "item": "tfc:grass_path/silty_loam"
+      }
+    ]
+  }

@@ -1,0 +1,26 @@
+{
+  "type": "tfc:soil_disc",
+  "config": {
+    "min_radius": 3,
+    "max_radius": 5,
+    "height": 4,
+    "states": [
+      {
+        "replace": "tfc:dirt/silt",
+        "with": "kubejs:clay/yixing_clay_block"
+      },
+      {
+        "replace": "tfc:dirt/loam",
+        "with": "kubejs:clay/yixing_clay_block"
+      },
+      {
+        "replace": "tfc:dirt/sandy_loam",
+        "with": "kubejs:clay/yixing_clay_block"
+      },
+      {
+        "replace": "tfc:dirt/silty_loam",
+        "with": "kubejs:clay/yixing_clay_block"
+      }
+    ]
+  }
+}

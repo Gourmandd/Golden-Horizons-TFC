@@ -1,0 +1,28 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "replace": false,
+  "values": [
+    "everycomp:af/tfc/douglas_fir_shutter",
+    "tfc:wood/planks/douglas_fir_door",
+    "tfc:wood/planks/douglas_fir_trapdoor",
+    "tfc:wood/planks/douglas_fir_fence",
+    "tfc:wood/planks/douglas_fir_pressure_plate",
+    "tfc:wood/planks/douglas_fir_button",
+    "tfc:wood/planks/douglas_fir_slab",
+    "tfc:wood/planks/douglas_fir_stairs",
+    "everycomp:c/tfc/douglas_fir_window_pane",
+    "everycomp:q/tfc/douglas_fir_ladder",
+    "tfc:wood/sluice/douglas_fir",
+    "tfc:wood/support/douglas_fir",
+    "tfc:wood/sign/douglas_fir",
+    "tfc:wood/hanging_sign/bismuth_bronze/douglas_fir",
+    "tfc:wood/hanging_sign/black_bronze/douglas_fir",
+    "tfc:wood/hanging_sign/bronze/douglas_fir",
+    "tfc:wood/hanging_sign/copper/douglas_fir",
+    "tfc:wood/hanging_sign/wrought_iron/douglas_fir",
+    "tfc:wood/hanging_sign/steel/douglas_fir",
+    "tfc:wood/hanging_sign/black_steel/douglas_fir",
+    "tfc:wood/hanging_sign/blue_steel/douglas_fir",
+    "tfc:wood/hanging_sign/red_steel/douglas_fir"
+  ]
+}

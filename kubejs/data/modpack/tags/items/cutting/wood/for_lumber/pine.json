@@ -1,0 +1,28 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "replace": false,
+  "values": [
+    "everycomp:af/tfc/pine_shutter",
+    "tfc:wood/planks/pine_door",
+    "tfc:wood/planks/pine_trapdoor",
+    "tfc:wood/planks/pine_fence",
+    "tfc:wood/planks/pine_pressure_plate",
+    "tfc:wood/planks/pine_button",
+    "tfc:wood/planks/pine_slab",
+    "tfc:wood/planks/pine_stairs",
+    "everycomp:c/tfc/pine_window_pane",
+    "everycomp:q/tfc/pine_ladder",
+    "tfc:wood/sluice/pine",
+    "tfc:wood/support/pine",
+    "tfc:wood/sign/pine",
+    "tfc:wood/hanging_sign/bismuth_bronze/pine",
+    "tfc:wood/hanging_sign/black_bronze/pine",
+    "tfc:wood/hanging_sign/bronze/pine",
+    "tfc:wood/hanging_sign/copper/pine",
+    "tfc:wood/hanging_sign/wrought_iron/pine",
+    "tfc:wood/hanging_sign/steel/pine",
+    "tfc:wood/hanging_sign/black_steel/pine",
+    "tfc:wood/hanging_sign/blue_steel/pine",
+    "tfc:wood/hanging_sign/red_steel/pine"
+  ]
+}

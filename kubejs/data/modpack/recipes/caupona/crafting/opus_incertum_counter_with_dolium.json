@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B B",
+    "ODO",
+    "OTO"
+  ],
+  "key": {
+    "O": {
+      "item": "caupona:opus_incertum"
+    },
+    "D": {
+      "item": "caupona:stew_pot"
+    },
+    "T": {
+      "tag": "minecraft:terracotta"
+    },
+    "B": {
+      "item": "caupona:opus_incertum_slab"
+    }
+  },
+  "result": {
+    "item": "caupona:opus_incertum_counter_with_dolium"
+  }
+}

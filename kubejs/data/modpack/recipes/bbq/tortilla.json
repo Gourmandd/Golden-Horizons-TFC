@@ -1,0 +1,10 @@
+{
+    "type": "barbequesdelight:grilling",
+    "ingredient": {
+      "item": "corn_delight:tortilla_raw"
+    },
+    "output": { 
+      "item": "corn_delight:tortilla" 
+    },
+    "barbecuingTime": 280
+  }

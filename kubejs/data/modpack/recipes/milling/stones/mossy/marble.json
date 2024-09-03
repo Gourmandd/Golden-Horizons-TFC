@@ -1,0 +1,14 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+      {
+        "item": "tfc:rock/mossy_cobble/marble"
+      }
+    ],
+    "results": [
+      {
+        "item": "tfc:rock/gravel/marble"
+      }
+    ],
+    "processingTime": 75
+  }

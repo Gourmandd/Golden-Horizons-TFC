@@ -1,0 +1,10 @@
+{
+    "ingredient": {
+      "item": "delightfulsandwich:bacon_and_egg_sandwich"
+    },
+    "hunger": 14,
+    "saturation": 4,
+    "decay_modifier": 1,
+    "grain": 1.5,
+    "protein": 4.5
+  }

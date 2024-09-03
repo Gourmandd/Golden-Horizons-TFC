@@ -1,0 +1,16 @@
+{
+    "type": "create:item_application",
+    "ingredients": [
+      {
+        "item": "createbigcannons:medium_cast_mould"
+      },
+      {
+        "tag": "tfc:knives"
+      }
+    ],
+    "results": [
+      {
+        "item": "createbigcannons:sliding_breech_cast_mould"
+      }
+    ]
+  }

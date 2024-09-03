@@ -1,0 +1,12 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "minecraft:red_stained_glass"
+  },
+  "result_fluid": {
+    "fluid": "kubejs:glass/red",
+    "amount": 800
+  },
+  "temperature": 1070
+}

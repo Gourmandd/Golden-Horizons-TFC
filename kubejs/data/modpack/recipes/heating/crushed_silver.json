@@ -1,0 +1,11 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+      "item": "create:crushed_raw_silver"
+    },
+    "result_fluid": {
+      "fluid": "tfc:metal/silver",
+      "amount": 100
+    },
+    "temperature": 1535
+  }

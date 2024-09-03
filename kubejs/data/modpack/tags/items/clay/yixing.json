@@ -1,0 +1,10 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "replace": false,
+  "values": [
+    "kubejs:ceramic/yixing_bricks",
+    "kubejs:ceramic/yixing_brick_stairs",
+    "kubejs:ceramic/yixing_brick_slab",
+    "kubejs:ceramic/yixing_brick_wall"
+  ]
+}

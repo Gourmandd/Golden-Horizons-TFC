@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "B B",
+    "O O"
+  ],
+  "key": {
+    "O": {
+      "item": "caupona:opus_incertum"
+    },
+    "B": {
+      "item": "caupona:opus_incertum_slab"
+    }
+  },
+  "result": {
+    "item": "caupona:opus_incertum_chimney_pot"
+  }
+}

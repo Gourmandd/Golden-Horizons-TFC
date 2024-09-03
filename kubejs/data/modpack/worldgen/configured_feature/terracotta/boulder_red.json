@@ -1,0 +1,148 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:boulder",
+  "config": {
+    "states": [
+      {
+        "rock": "tfc:rock/raw/granite",
+        "blocks": [
+          "minecraft:red_terracotta",
+          "kubejs:terracotta/crushed_red"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/diorite",
+        "blocks": [
+          "minecraft:red_terracotta",
+          "kubejs:terracotta/crushed_red"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/gabbro",
+        "blocks": [
+          "minecraft:red_terracotta",
+          "kubejs:terracotta/crushed_red"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/shale",
+        "blocks": [
+          "minecraft:red_terracotta",
+          "kubejs:terracotta/crushed_red"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/claystone",
+        "blocks": [
+          "minecraft:red_terracotta",
+          "kubejs:terracotta/crushed_red"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/limestone",
+        "blocks": [
+          "minecraft:red_terracotta",
+          "kubejs:terracotta/crushed_red"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/conglomerate",
+        "blocks": [
+          "minecraft:red_terracotta",
+          "kubejs:terracotta/crushed_red"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/dolomite",
+        "blocks": [
+          "minecraft:red_terracotta",
+          "kubejs:terracotta/crushed_red"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/chert",
+        "blocks": [
+          "minecraft:red_terracotta",
+          "kubejs:terracotta/crushed_red"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/chalk",
+        "blocks": [
+          "minecraft:red_terracotta",
+          "kubejs:terracotta/crushed_red"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/rhyolite",
+        "blocks": [
+          "minecraft:red_terracotta",
+          "kubejs:terracotta/crushed_red"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/basalt",
+        "blocks": [
+          "minecraft:red_terracotta",
+          "kubejs:terracotta/crushed_red"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/andesite",
+        "blocks": [
+          "minecraft:red_terracotta",
+          "kubejs:terracotta/crushed_red"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/dacite",
+        "blocks": [
+          "minecraft:red_terracotta",
+          "kubejs:terracotta/crushed_red"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/quartzite",
+        "blocks": [
+          "minecraft:red_terracotta",
+          "kubejs:terracotta/crushed_red"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/slate",
+        "blocks": [
+          "minecraft:red_terracotta",
+          "kubejs:terracotta/crushed_red"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/phyllite",
+        "blocks": [
+          "minecraft:red_terracotta",
+          "kubejs:terracotta/crushed_red"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/schist",
+        "blocks": [
+          "minecraft:red_terracotta",
+          "kubejs:terracotta/crushed_red"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/gneiss",
+        "blocks": [
+          "minecraft:red_terracotta",
+          "kubejs:terracotta/crushed_red"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/marble",
+        "blocks": [
+          "minecraft:red_terracotta",
+          "kubejs:terracotta/crushed_red"
+        ]
+      }
+    ]
+  }
+}

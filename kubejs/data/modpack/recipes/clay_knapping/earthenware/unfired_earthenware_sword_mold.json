@@ -1,0 +1,17 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:knapping",
+  "knapping_type": "tfc:earthenware",
+  "outside_slot_required": "false",
+  "pattern": [
+    "  XXX",
+    "   XX",
+    "X   X",
+    "XX  X",
+    "XXXX "
+  ],
+  "result": {
+    "item": "kubejs:ceramic/unfired_earthenware_sword_mold",
+    "count": 1
+  }
+}

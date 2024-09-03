@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "P",
+    "M",
+    "I"
+  ],
+  "key": {
+    "I": {
+      "item": "tfc:metal/block/wrought_iron"
+    },
+    "M": {
+      "item": "kubejs:andesite_machine"
+    },
+    "P": {
+      "item": "create:shaft"
+    }
+  },
+  "result": {
+    "item": "create:mechanical_press"
+  }
+}

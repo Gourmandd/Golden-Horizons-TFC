@@ -1,0 +1,17 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:knapping",
+  "knapping_type": "tfc:yellowware",
+  "outside_slot_required": "false",
+  "pattern": [
+    " X X ",
+    " XXX ",
+    "     ",
+    " X X ",
+    " XXX "
+  ],
+  "result": {
+    "item": "kubejs:ceramic/unfired_yellowware_flower_pot",
+    "count": 2
+  }
+}

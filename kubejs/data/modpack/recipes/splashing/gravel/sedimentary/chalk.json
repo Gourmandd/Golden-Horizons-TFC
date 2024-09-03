@@ -1,0 +1,16 @@
+
+{
+    "type": "create:splashing",
+    "ingredients": [
+      {
+        "item": "tfc:rock/gravel/chalk"
+      }
+    ],
+    "results": [
+      {
+        "item": "tfc:ore/halite",
+        "chance": 0.12
+      }
+    ]
+  }
+  

@@ -1,0 +1,11 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "slashing": 4,
+  "piercing": 4,
+  "crushing": 3,
+  "ingredient": [
+    {
+      "item": "magistuarmory:norman_helmet"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:knapping",
+  "knapping_type": "tfc:earthenware",
+  "outside_slot_required": "true",
+  "pattern": [
+    "XXXXX",
+    "X  XX",
+    "X  XX",
+    "X  XX",
+    "XXXXX"
+  ],
+  "result": {
+    "item": "kubejs:ceramic/unfired_earthenware_ingot_mold",
+    "count": 2
+  }
+}

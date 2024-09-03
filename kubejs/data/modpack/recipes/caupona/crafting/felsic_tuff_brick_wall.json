@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TTT",
+    "TTT"
+  ],
+  "key": {
+    "T": {
+      "item": "caupona:felsic_tuff_bricks"
+    }
+  },
+  "result": {
+    "item": "caupona:felsic_tuff_bricks_wall",
+    "count": 6
+  }
+}

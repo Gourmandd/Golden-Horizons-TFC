@@ -1,0 +1,17 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/ingot/steel"
+    },
+    "result": {
+        "item": "magistuarmory:steel_ring",
+        "count": 4
+    },
+    "tier": 2,
+    "rules": [
+        "shrink_last",
+        "bend_second_last",
+        "punch_third_last"
+    ],
+    "apply_forging_bonus": false
+}

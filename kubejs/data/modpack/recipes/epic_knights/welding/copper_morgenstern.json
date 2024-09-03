@@ -1,0 +1,14 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "magistuarmory:pole"
+  },
+  "second_input": {
+    "item": "tfc:metal/mace_head/copper"
+  },
+  "tier": 1,
+  "result": {
+    "item": "magistuarmory:copper_morgenstern"
+  }
+}

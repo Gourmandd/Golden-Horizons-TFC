@@ -1,0 +1,43 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:soil_disc",
+  "config": {
+    "min_radius": 3,
+    "max_radius": 7,
+    "height": 5,
+    "states": [
+      {
+        "replace": "tfc:dirt/silt",
+        "with": "kubejs:terracotta/crushed_brown"
+      },
+      {
+        "replace": "tfc:dirt/loam",
+        "with": "kubejs:terracotta/crushed_brown"
+      },
+      {
+        "replace": "tfc:dirt/sandy_loam",
+        "with": "kubejs:terracotta/crushed_brown"
+      },
+      {
+        "replace": "tfc:dirt/silty_loam",
+        "with": "kubejs:terracotta/crushed_brown"
+      },
+      {
+        "replace": "tfc:grass/silt",
+        "with": "kubejs:terracotta/crushed_brown"
+      },
+      {
+        "replace": "tfc:grass/loam",
+        "with": "kubejs:terracotta/crushed_brown"
+      },
+      {
+        "replace": "tfc:grass/sandy_loam",
+        "with": "kubejs:terracotta/crushed_brown"
+      },
+      {
+        "replace": "tfc:grass/silty_loam",
+        "with": "kubejs:terracotta/crushed_brown"
+      }
+    ]
+  }
+}

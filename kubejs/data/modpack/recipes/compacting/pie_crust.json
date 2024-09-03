@@ -1,0 +1,13 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "firmalife:food/pie_dough"
+    }
+  ],
+  "results": [
+    {
+      "item": "farmersdelight:pie_crust"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "tfc:knapping",
+  "knapping_type": "tfc:clay",
+  "outside_slot_required": false,
+  "pattern": [
+    "X X X",
+    "X X X",
+    "X X X",
+    "X X X",
+    "X X X"
+  ],
+  "result": {
+    "item": "kubejs:unfired_shaft",
+    "count": 3
+  }
+}

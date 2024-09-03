@@ -1,0 +1,14 @@
+{
+    "ingredient": {
+      "item": "caupona:stock"
+    },
+    "decay_modifier": 2,
+    "hunger": 6,
+    "saturation": 4,
+    "water": 20,
+    "grain": 0,
+    "fruit": 0,
+    "vegetables": 2,
+    "protein": 2,
+    "dairy": 0
+  }

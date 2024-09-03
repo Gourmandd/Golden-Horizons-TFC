@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB",
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "item": "kubejs:clay/porcelain_clay_ball"
+    }
+  },
+  "result": {
+    "item": "kubejs:clay/porcelain_clay_block"
+  }
+}

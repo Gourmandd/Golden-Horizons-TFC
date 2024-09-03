@@ -1,0 +1,14 @@
+{
+    "type": "tfc:loom",
+    "ingredient": {
+      "ingredient": {
+        "item": "magistuarmory:small_steel_plate"
+      },
+      "count": 8
+    },
+    "result": {
+      "item": "magistuarmory:lamellar_rows"
+    },
+    "steps_required": 32,
+    "in_progress_texture": "tfc:block/metal/bars/wrought_iron"
+  }

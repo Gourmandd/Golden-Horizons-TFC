@@ -1,0 +1,11 @@
+{
+    "ingredient": {
+      "item": "corn_delight:classic_corn_dog"
+    },
+    "hunger": 5,
+    "saturation": 4,
+    "decay_modifier": 2.5,
+    "protein": 1,
+    "grain": 1,
+    "vegetable": 1
+}

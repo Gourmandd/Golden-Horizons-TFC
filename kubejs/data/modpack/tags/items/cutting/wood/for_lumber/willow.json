@@ -1,0 +1,28 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "replace": false,
+  "values": [
+    "everycomp:af/tfc/willow_shutter",
+    "tfc:wood/planks/willow_door",
+    "tfc:wood/planks/willow_trapdoor",
+    "tfc:wood/planks/willow_fence",
+    "tfc:wood/planks/willow_pressure_plate",
+    "tfc:wood/planks/willow_button",
+    "tfc:wood/planks/willow_slab",
+    "tfc:wood/planks/willow_stairs",
+    "everycomp:c/tfc/willow_window_pane",
+    "everycomp:q/tfc/willow_ladder",
+    "tfc:wood/sluice/willow",
+    "tfc:wood/support/willow",
+    "tfc:wood/sign/willow",
+    "tfc:wood/hanging_sign/bismuth_bronze/willow",
+    "tfc:wood/hanging_sign/black_bronze/willow",
+    "tfc:wood/hanging_sign/bronze/willow",
+    "tfc:wood/hanging_sign/copper/willow",
+    "tfc:wood/hanging_sign/wrought_iron/willow",
+    "tfc:wood/hanging_sign/steel/willow",
+    "tfc:wood/hanging_sign/black_steel/willow",
+    "tfc:wood/hanging_sign/blue_steel/willow",
+    "tfc:wood/hanging_sign/red_steel/willow"
+  ]
+}

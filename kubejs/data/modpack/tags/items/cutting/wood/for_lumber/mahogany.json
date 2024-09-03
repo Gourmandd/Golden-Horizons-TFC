@@ -1,0 +1,28 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "replace": false,
+  "values": [
+    "everycomp:af/afc/mahogany_shutter",
+    "afc:wood/planks/mahogany_door",
+    "afc:wood/planks/mahogany_trapdoor",
+    "afc:wood/planks/mahogany_fence",
+    "afc:wood/planks/mahogany_pressure_plate",
+    "afc:wood/planks/mahogany_button",
+    "afc:wood/planks/mahogany_slab",
+    "afc:wood/planks/mahogany_stairs",
+    "everycomp:c/afc/mahogany_window_pane",
+    "everycomp:q/afc/mahogany_ladder",
+    "afc:wood/sluice/mahogany",
+    "afc:wood/support/mahogany",
+    "afc:wood/sign/mahogany",
+    "afc:wood/hanging_sign/bismuth_bronze/mahogany",
+    "afc:wood/hanging_sign/black_bronze/mahogany",
+    "afc:wood/hanging_sign/bronze/mahogany",
+    "afc:wood/hanging_sign/copper/mahogany",
+    "afc:wood/hanging_sign/wrought_iron/mahogany",
+    "afc:wood/hanging_sign/steel/mahogany",
+    "afc:wood/hanging_sign/black_steel/mahogany",
+    "afc:wood/hanging_sign/blue_steel/mahogany",
+    "afc:wood/hanging_sign/red_steel/mahogany"
+  ]
+}

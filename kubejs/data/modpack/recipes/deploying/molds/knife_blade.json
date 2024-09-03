@@ -1,0 +1,19 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "minecraft:clay"
+    },
+    {
+      "tag": "modpack:tools/knife_blade"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "item": "tfc:ceramic/unfired_knife_blade_mold"
+    }
+  ],
+  "keepHeldItem": "true"
+}

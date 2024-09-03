@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+      "west": "create:block/copper_gearbox",
+      "north": "create:block/copper_gearbox",
+      "south": "create:block/copper_gearbox",
+      "east": "create:block/copper_gearbox",
+      "up": "create:block/copper_casing",
+      "down": "create:block/copper_casing",
+      "particle": "create:block/copper_casing"
+    }
+  }

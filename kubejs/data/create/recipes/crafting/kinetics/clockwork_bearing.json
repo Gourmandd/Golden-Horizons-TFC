@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "P",
+    "M",
+    "I"
+  ],
+  "key": {
+    "I": {
+      "item": "create:precision_mechanism"
+    },
+    "M": {
+      "item": "kubejs:brass_machine"
+    },
+    "P": {
+      "tag": "minecraft:wooden_slabs"
+    }
+  },
+  "result": {
+    "item": "create:clockwork_bearing"
+  }
+}

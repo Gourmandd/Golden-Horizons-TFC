@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "minecraft:feather"
+  },
+  "second_input": {
+    "item": "magistuarmory:halfarmor_chestplate"
+  },
+  "tier": 4,
+  "result": {
+    "item": "magistuarmory:wingedhussar_chestplate"
+  }
+}

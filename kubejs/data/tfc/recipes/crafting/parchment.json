@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "tfc:treated_hide"
+      },
+      {
+        "type": "tfc:not_rotten",
+        "ingredient": {
+          "tag": "tfc:foods/flour"
+        }
+      },
+      {
+        "item": "tfc:powder/lime"
+      }
+    ],
+    "result": {
+      "item": "minecraft:paper",
+      "count": 2
+    }
+  }

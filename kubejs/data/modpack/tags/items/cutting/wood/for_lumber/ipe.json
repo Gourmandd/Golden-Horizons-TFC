@@ -1,0 +1,28 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "replace": false,
+  "values": [
+    "everycomp:af/afc/ipe_shutter",
+    "afc:wood/planks/ipe_door",
+    "afc:wood/planks/ipe_trapdoor",
+    "afc:wood/planks/ipe_fence",
+    "afc:wood/planks/ipe_pressure_plate",
+    "afc:wood/planks/ipe_button",
+    "afc:wood/planks/ipe_slab",
+    "afc:wood/planks/ipe_stairs",
+    "everycomp:c/afc/ipe_window_pane",
+    "everycomp:q/afc/ipe_ladder",
+    "afc:wood/sluice/ipe",
+    "afc:wood/support/ipe",
+    "afc:wood/sign/ipe",
+    "afc:wood/hanging_sign/bismuth_bronze/ipe",
+    "afc:wood/hanging_sign/black_bronze/ipe",
+    "afc:wood/hanging_sign/bronze/ipe",
+    "afc:wood/hanging_sign/copper/ipe",
+    "afc:wood/hanging_sign/wrought_iron/ipe",
+    "afc:wood/hanging_sign/steel/ipe",
+    "afc:wood/hanging_sign/black_steel/ipe",
+    "afc:wood/hanging_sign/blue_steel/ipe",
+    "afc:wood/hanging_sign/red_steel/ipe"
+  ]
+}

@@ -1,0 +1,16 @@
+
+{
+    "type": "create:splashing",
+    "ingredients": [
+      {
+        "item": "tfc:food/maize_flour"
+      }
+    ],
+    "results": [
+      {
+        "item": "tfc:food/maize_dough",
+        "count": 2
+      }
+    ]
+  }
+  

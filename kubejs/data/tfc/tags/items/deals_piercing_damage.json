@@ -1,0 +1,28 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "replace": false,
+  "values": [
+    "magistuarmory:copper_stylet",
+    "magistuarmory:pitchfork",
+    "magistuarmory:copper_pike",
+    "magistuarmory:copper_ranseur",
+    "magistuarmory:copper_ahlspiess",
+    "magistuarmory:copper_chivalrylance",
+    "magistuarmory:copper_guisarme",
+    "magistuarmory:copper_concavehalberd",
+    "magistuarmory:steel_stylet",
+    "magistuarmory:steel_pike",
+    "magistuarmory:steel_ranseur",
+    "magistuarmory:steel_ahlspiess",
+    "magistuarmory:steel_chivalrylance",
+    "magistuarmory:steel_guisarme",
+    "magistuarmory:steel_concavehalberd",
+    "magistuarmory:bronze_stylet",
+    "magistuarmory:bronze_pike",
+    "magistuarmory:bronze_ranseur",
+    "magistuarmory:bronze_ahlspiess",
+    "magistuarmory:bronze_chivalrylance",
+    "magistuarmory:bronze_guisarme",
+    "magistuarmory:bronze_concavehalberd"
+  ]
+}

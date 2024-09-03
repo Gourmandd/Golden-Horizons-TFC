@@ -1,0 +1,16 @@
+
+{
+    "type": "create:splashing",
+    "ingredients": [
+      {
+        "item": "tfc:rock/gravel/chert"
+      }
+    ],
+    "results": [
+      {
+        "item": "tfc:ore/bismuthinite",
+        "chance": 0.12
+      }
+    ]
+  }
+  

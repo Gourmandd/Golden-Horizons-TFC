@@ -1,0 +1,18 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "tag": "modpack:cutting/sandstone/yellow"
+    }
+  ],
+  "result": [
+    {
+      "item": "tfc:sand/yellow"
+    }
+  ],
+  "tool": {
+    "type": "farmersdelight:tool_action",
+    "action": "pickaxe_dig"
+  }
+}

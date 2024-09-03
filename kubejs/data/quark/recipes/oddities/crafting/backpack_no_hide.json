@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LSL",
+    "LCL",
+    "LSL"
+  ],
+  "key": {
+    "L": {
+      "tag": "forge:leather"
+    },
+    "C": {
+      "tag": "forge:chests/wooden"
+    },
+    "S": {
+      "item": "tfc:metal/ingot/steel"
+    }
+  },
+  "result": {
+    "item": "quark:backpack"
+  }
+}

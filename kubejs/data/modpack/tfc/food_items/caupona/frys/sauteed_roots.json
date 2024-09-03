@@ -1,0 +1,11 @@
+{
+    "ingredient": {
+      "item": "caupona:sauteed_roots"
+    },
+    "decay_modifier": 2,
+    "hunger": 16,
+    "saturation": 8,
+    "vegetables": 6,
+    "protein": 2,
+    "grain": 1
+  }

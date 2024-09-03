@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    "SCS",
+    "S S"
+  ],
+  "key": {
+    "M": {
+      "item": "caupona:lateres"
+    },
+    "C": {
+      "item": "minecraft:clay"
+    },
+    "S": {
+      "item": "caupona:opus_latericium"
+    }
+  },
+  "result": {
+    "item": "caupona:opus_latericium_kitchen_stove"
+  }
+}

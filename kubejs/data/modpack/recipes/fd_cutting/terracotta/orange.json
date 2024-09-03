@@ -1,0 +1,19 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "tag": "modpack:cutting/terracotta_bricks/orange"
+    }
+  ],
+  "result": [
+    {
+      "item": "minecraft:orange_terracotta",
+      "chance": 0.5
+    }
+  ],
+  "tool": {
+    "type": "farmersdelight:tool_action",
+    "action": "pickaxe_dig"
+  }
+}

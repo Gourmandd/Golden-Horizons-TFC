@@ -1,0 +1,44 @@
+{
+    "type": "farmersdelight:cooking",
+    "container": {
+      "item": "minecraft:bowl"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "type": "tfc:not_rotten",
+        "ingredient": {
+          "item": "minecraft:egg"
+        }
+      },
+      {
+        "type": "tfc:not_rotten",
+        "ingredient": {
+          "item": "minecraft:egg"
+        }
+      },
+      {
+        "type": "tfc:not_rotten",
+        "ingredient": {
+          "tag": "forge:crops/tomato"
+        }
+      },
+      {
+        "type": "tfc:not_rotten",
+        "ingredient": {
+          "tag": "forge:crops/onion"
+        }
+      },
+      {
+        "item": "tfc:powder/salt"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+        "item": "caupona:huevos_pericos",
+        "modifiers": [
+          "tfc:copy_food"
+        ]
+    }
+  }

@@ -1,0 +1,19 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "tfc:olive_paste"
+      },
+      {
+        "fluid": "minecraft:water",
+        "amount": 200
+      }
+    ],
+    "results": [
+      {
+        "fluid": "tfc:olive_oil_water",
+        "amount": 200
+      }
+    ],
+    "heatRequirement": "heated"
+  }

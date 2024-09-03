@@ -1,0 +1,10 @@
+{
+    "ingredient": {
+      "item": "delightfulsandwich:ham_sandwich"
+    },
+    "hunger": 14,
+    "saturation": 7,
+    "decay_modifier": 1,
+    "grain": 1.5,
+    "protein": 10
+  }

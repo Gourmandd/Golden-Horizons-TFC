@@ -1,0 +1,43 @@
+{
+    "type": "tfc:pot",
+    "ingredients": [
+      {
+        "type": "tfc:not_rotten",
+        "ingredient": {
+          "tag": "caupona:seafood/fish"
+        }
+      },
+      {
+        "type": "tfc:not_rotten",
+        "ingredient": {
+          "tag": "caupona:vegetables/roots"
+        }
+      },
+      {
+        "type": "tfc:not_rotten",
+        "ingredient": {
+          "tag": "caupona:vegetables/roots"
+        }
+      },
+      {
+        "type": "tfc:not_rotten",
+        "ingredient": {
+          "tag": "tfc:foods/vegetables"
+        }
+      },
+      {
+        "tag": "modpack:spices"
+      }
+    ],
+    "fluid_ingredient": {
+      "ingredient": "caupona:nail_soup",
+      "amount": 1000
+    },
+    "duration": 1000,
+    "temperature": 300,
+    "fluid_output": {
+        "fluid": "caupona:ukha",
+        "amount": 1000
+      }
+}
+  

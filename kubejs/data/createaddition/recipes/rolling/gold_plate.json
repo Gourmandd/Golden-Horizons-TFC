@@ -1,0 +1,10 @@
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"item": "tfc:metal/rod/gold"
+	},
+	"result": {
+		"item": "createaddition:gold_wire",
+		"count": 2
+	}
+}

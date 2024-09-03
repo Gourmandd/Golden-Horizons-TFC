@@ -1,0 +1,21 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "tfc:metal/sheet/rose_gold"
+    },
+    {
+      "item": "tfc:powder/flux"
+    },
+    {
+      "item": "tfc:metal/sheet/rose_gold"
+    }
+  ],
+  "results": [
+    {
+      "item": "tfc:metal/double_sheet/rose_gold"
+    }
+  ],
+  "heatRequirement": "heated"
+}

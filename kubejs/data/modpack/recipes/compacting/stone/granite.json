@@ -1,0 +1,14 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+      {
+        "item": "tfc:rock/cobble/granite"
+      }
+    ],
+    "results": [
+      {
+        "item": "create:polished_cut_granite"
+      }
+    ],
+    "heatRequirement": "heated"
+  }

@@ -1,0 +1,75 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+      "item": "create:brass_nugget"
+    },
+    "transitionalItem": {
+      "item": "tfc:brass_mechanisms"
+    },
+    "sequence": [
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "tfc:brass_mechanisms"
+          },
+          {
+            "item": "create:large_cogwheel"
+          }
+        ],
+        "results": [
+          {
+            "item": "tfc:brass_mechanisms"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "tfc:brass_mechanisms"
+          },
+          {
+            "item": "tfc:metal/rod/brass"
+          }
+        ],
+        "results": [
+          {
+            "item": "tfc:brass_mechanisms"
+          }
+        ]
+      },
+      {
+        "type": "create:pressing",
+        "ingredients": [
+          {
+            "item": "tfc:brass_mechanisms"
+          }
+        ],
+        "results": [
+          {
+            "item": "tfc:brass_mechanisms"
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "item": "tfc:brass_mechanisms",
+        "chance": 90.0
+      },
+      {
+        "item": "tfc:metal/sheet/brass",
+        "chance": 4.0
+      },
+      {
+        "item": "create:large_cogwheel",
+        "chance": 4.0
+      },
+      {
+        "item": "create:precision_mechanism",
+        "chance": 2.0
+      }
+    ],
+    "loops": 2
+  }

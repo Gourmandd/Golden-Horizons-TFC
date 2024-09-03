@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ISI",
+    "SMS",
+    "GSG"
+  ],
+  "key": {
+    "I": {
+      "item": "tfc:metal/sheet/wrought_iron"
+    },
+    "S": {
+      "item": "create:shaft"
+    },
+    "G": {
+      "item": "minecraft:gunpowder"
+    },
+    "M": {
+      "item": "kubejs:andesite_machine"
+    }
+  },
+  "result": {
+    "item": "createbigcannons:cannon_mount"
+  }
+}

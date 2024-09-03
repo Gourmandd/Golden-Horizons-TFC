@@ -1,0 +1,16 @@
+
+{
+    "type": "create:splashing",
+    "ingredients": [
+      {
+        "item": "tfc:rock/gravel/claystone"
+      }
+    ],
+    "results": [
+      {
+        "item": "tfc:ore/sylvite",
+        "chance": 0.12
+      }
+    ]
+  }
+  

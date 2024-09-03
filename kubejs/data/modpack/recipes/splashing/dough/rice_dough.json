@@ -1,0 +1,16 @@
+
+{
+    "type": "create:splashing",
+    "ingredients": [
+      {
+        "item": "tfc:food/rice_flour"
+      }
+    ],
+    "results": [
+      {
+        "item": "tfc:food/rice_dough",
+        "count": 2
+      }
+    ]
+  }
+  

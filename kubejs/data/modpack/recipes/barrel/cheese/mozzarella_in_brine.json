@@ -1,0 +1,33 @@
+{
+    "type": "tfc:barrel_sealed",
+    "input_item": {
+      "ingredient": {
+        "type": "tfc:not_rotten",
+        "ingredient": "kubejs:mozzarella"
+      }
+    },
+    "input_fluid": {
+      "ingredient": "tfc:brine",
+      "amount": 250
+    },
+    "duration": -1,
+    "on_seal": {
+      "modifiers": [
+        "tfc:copy_input",
+        {
+          "type": "tfc:add_trait",
+          "trait": "tfc:vinegar"
+        }
+      ]
+    },
+    "on_unseal": {
+      "modifiers": [
+        "tfc:copy_input",
+        {
+          "type": "tfc:remove_trait",
+          "trait": "tfc:vinegar"
+        }
+      ]
+    }
+  }
+

@@ -1,0 +1,18 @@
+{
+    "type": "create:filling",
+    "ingredients": [
+      {
+        "item": "tfc:dirt/sandy_loam"
+      },
+      {
+        "amount": 500,
+        "fluid": "minecraft:water"
+      }
+    ],
+    "results": [
+      {
+        "item": "tfc:grass/sandy_loam"
+      }
+    ]
+  }
+  

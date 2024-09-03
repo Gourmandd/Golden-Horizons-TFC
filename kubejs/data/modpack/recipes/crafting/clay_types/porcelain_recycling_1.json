@@ -1,0 +1,12 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "modpack:clay/porcelain_recycling_1"
+    }
+  ],
+  "result": {
+    "item": "kubejs:clay/porcelain_clay_ball"
+  }
+}

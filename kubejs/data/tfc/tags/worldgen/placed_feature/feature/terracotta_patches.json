@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "modpack:terracotta/patch_white",
+    "modpack:terracotta/patch_brown",
+    "modpack:terracotta/patch_green",
+    "modpack:terracotta/patch_orange",
+    "modpack:terracotta/patch_magenta",
+    "modpack:terracotta/patch_red",
+    "modpack:terracotta/patch_black",
+    "modpack:terracotta/patch_light_blue",
+    "modpack:terracotta/patch_yellow",
+    "modpack:terracotta/patch_lime",
+    "modpack:terracotta/patch_pink",
+    "modpack:terracotta/patch_gray",
+    "modpack:terracotta/patch_light_gray",
+    "modpack:terracotta/patch_cyan",
+    "modpack:terracotta/patch_purple",
+    "modpack:terracotta/patch_blue"
+  ]
+}

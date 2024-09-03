@@ -1,0 +1,17 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:knapping",
+  "knapping_type": "tfc:yixing",
+  "outside_slot_required": "false",
+  "pattern": [
+    "  XXX",
+    "   XX",
+    "X   X",
+    "X    ",
+    "XXX  "
+  ],
+  "result": {
+    "item": "kubejs:ceramic/unfired_yixing_saw_mold",
+    "count": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+      {
+        "item": "tfc:rock/mossy_cobble/phyllite"
+      }
+    ],
+    "results": [
+      {
+        "item": "tfc:rock/gravel/phyllite"
+      }
+    ],
+    "processingTime": 75
+  }

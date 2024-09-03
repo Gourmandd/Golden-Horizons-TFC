@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BBB",
+    " O "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bamboo"
+    },
+    "O": {
+      "item": "firmaciv:oar"
+    }
+  },
+  "result": {
+    "item": "minecraft:bamboo_raft"
+  }
+}

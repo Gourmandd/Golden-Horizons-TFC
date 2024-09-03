@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "M M",
+    "S S",
+    "S S"
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:brick_slabs"
+    },
+    "S": {
+      "item": "minecraft:bricks"
+    }
+  },
+  "result": {
+    "item": "caupona:brick_chimney_flue",
+    "count": 2
+  }
+}

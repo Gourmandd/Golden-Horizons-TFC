@@ -1,0 +1,16 @@
+
+{
+    "type": "create:splashing",
+    "ingredients": [
+      {
+        "item": "tfc:rock/gravel/basalt"
+      }
+    ],
+    "results": [
+      {
+        "item": "tfc:ore/poor_native_copper",
+        "chance": 0.12
+      }
+    ]
+  }
+  

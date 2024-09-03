@@ -1,0 +1,11 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+      "item": "create:brass_block"
+    },
+    "result_fluid": {
+      "fluid": "tfc:metal/brass",
+      "amount": 900
+    },
+    "temperature": 930
+  }

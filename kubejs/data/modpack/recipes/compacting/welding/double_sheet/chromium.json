@@ -1,0 +1,21 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "firmalife:metal/sheet/chromium"
+    },
+    {
+      "item": "tfc:powder/flux"
+    },
+    {
+      "item": "firmalife:metal/sheet/chromium"
+    }
+  ],
+  "results": [
+    {
+      "item": "firmalife:metal/double_sheet/chromium"
+    }
+  ],
+  "heatRequirement": "heated"
+}

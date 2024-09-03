@@ -1,0 +1,16 @@
+{
+    "type": "create:item_application",
+    "ingredients": [
+      {
+        "tag": "minecraft:logs"
+      },
+      {
+        "tag": "tfc:chisels"
+      }
+    ],
+    "results": [
+      {
+        "item": "createbigcannons:very_large_cast_mould"
+      }
+    ]
+  }

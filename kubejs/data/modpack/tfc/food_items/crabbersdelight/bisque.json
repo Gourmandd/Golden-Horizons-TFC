@@ -1,0 +1,12 @@
+{
+  "ingredient": {
+    "item": "crabbersdelight:bisque"
+  },
+  "decay_modifier": 1,
+  "hunger": 11,
+  "saturation": 5,
+  "protein": 2.5,
+  "vegetables": 4,
+  "grain": 1,
+  "dairy": 1.5
+}

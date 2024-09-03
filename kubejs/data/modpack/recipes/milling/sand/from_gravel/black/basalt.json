@@ -1,0 +1,14 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+      {
+        "item": "tfc:rock/gravel/basalt"
+      }
+    ],
+    "results": [
+      {
+        "item": "tfc:sand/black"
+      }
+    ],
+    "processingTime": 75
+  }

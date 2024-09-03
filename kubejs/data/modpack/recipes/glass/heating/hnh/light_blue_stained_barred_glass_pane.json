@@ -1,0 +1,12 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "hearth_and_home:light_blue_stained_barred_glass_pane"
+  },
+  "result_fluid": {
+    "fluid": "kubejs:glass/light_blue",
+    "amount": 50
+  },
+  "temperature": 1070
+}

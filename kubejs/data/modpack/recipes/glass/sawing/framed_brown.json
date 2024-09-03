@@ -1,0 +1,16 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "quark:brown_framed_glass"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "count": 8,
+      "item": "quark:brown_framed_glass_pane"
+    }
+  ]
+}

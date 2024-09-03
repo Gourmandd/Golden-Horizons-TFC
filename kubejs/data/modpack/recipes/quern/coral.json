@@ -1,0 +1,9 @@
+{
+    "type": "tfc:quern",
+    "ingredient": {
+        "item": "crabbersdelight:coral_fragments"
+    },
+    "result": {
+      "item": "coralstfc:coral_powder"
+    }
+  }

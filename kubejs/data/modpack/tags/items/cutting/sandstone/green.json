@@ -1,0 +1,18 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "replace": false,
+  "values": [
+    "tfc:smooth_sandstone/green",
+    "tfc:raw_sandstone/green",
+    "tfc:cut_sandstone/green",
+    "tfc:smooth_sandstone/green_wall",
+    "tfc:raw_sandstone/green_wall",
+    "tfc:cut_sandstone/green_wall",
+    "tfc:smooth_sandstone/green_stairs",
+    "tfc:raw_sandstone/green_stairs",
+    "tfc:cut_sandstone/green_stairs",
+    "tfc:smooth_sandstone/green_slab",
+    "tfc:raw_sandstone/green_slab",
+    "tfc:cut_sandstone/green_slab"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "replace": false,
+  "values": [
+    "tfc:rock/bricks/dolomite",
+    "tfc:rock/smooth/dolomite",
+    "tfc:rock/bricks/dolomite_wall",
+    "tfc:rock/smooth/dolomite_wall",
+    "tfc:rock/bricks/dolomite_stairs",
+    "tfc:rock/smooth/dolomite_stairs",
+    "tfc:rock/bricks/dolomite_slab",
+    "tfc:rock/smooth/dolomite_slab",
+    "tfc:rock/mossy_bricks/dolomite",
+    "tfc:rock/mossy_bricks/dolomite_wall",
+    "tfc:rock/mossy_bricks/dolomite_stairs",
+    "tfc:rock/mossy_bricks/dolomite_slab",
+    "tfc:rock/cracked_bricks/dolomite",
+    "tfc:rock/cracked_bricks/dolomite_wall",
+    "tfc:rock/cracked_bricks/dolomite_stairs",
+    "tfc:rock/cracked_bricks/dolomite_slab",
+    "tfc:rock/chiseled/dolomite"
+  ]
+}

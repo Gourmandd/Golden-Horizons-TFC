@@ -1,0 +1,26 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "replace": false,
+  "values": [
+    "kubejs:ceramic/unfired_yellowware_pickaxe_mold",
+    "kubejs:ceramic/unfired_yellowware_axe_mold",
+    "kubejs:ceramic/unfired_yellowware_propick_mold",
+    "kubejs:ceramic/unfired_yellowware_shovel_mold",
+    "kubejs:ceramic/unfired_yellowware_hoe_mold",
+    "kubejs:ceramic/unfired_yellowware_chisel_mold",
+    "kubejs:ceramic/unfired_yellowware_hammer_mold",
+    "kubejs:ceramic/unfired_yellowware_saw_mold",
+    "kubejs:ceramic/unfired_yellowware_javelin_mold",
+    "kubejs:ceramic/unfired_yellowware_scythe_mold",
+    "kubejs:ceramic/unfired_yellowware_knife_mold",
+    "kubejs:ceramic/unfired_yellowware_sword_mold",
+    "kubejs:ceramic/unfired_yellowware_mace_mold",
+    "kubejs:ceramic/unfired_yellowware_vessel",
+    "kubejs:ceramic/unfired_yellowware_bell_mold",
+    "kubejs:ceramic/unfired_yellowware_jug",
+    "kubejs:ceramic/unfired_yellowware_pot",
+    "kubejs:ceramic/unfired_yellowware_spindle_head",
+    "kubejs:ceramic/unfired_yellowware_pan",
+    "kubejs:ceramic/unfired_yellowware_blowpipe"
+  ]
+}

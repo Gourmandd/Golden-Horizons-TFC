@@ -1,0 +1,14 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+      {
+        "item": "tfc:rock/gravel/conglomerate"
+      }
+    ],
+    "results": [
+      {
+        "item": "tfc:sand/brown"
+      }
+    ],
+    "processingTime": 75
+  }

@@ -1,0 +1,10 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "replace": false,
+  "values": [
+    "tfc:mud_bricks/loam",
+    "tfc:mud_bricks/loam_wall",
+    "tfc:mud_bricks/loam_stairs",
+    "tfc:mud_bricks/loam_slab"
+  ]
+}

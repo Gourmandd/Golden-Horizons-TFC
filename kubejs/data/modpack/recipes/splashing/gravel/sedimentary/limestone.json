@@ -1,0 +1,16 @@
+
+{
+    "type": "create:splashing",
+    "ingredients": [
+      {
+        "item": "tfc:rock/gravel/limestone"
+      }
+    ],
+    "results": [ 
+      {
+        "item": "tfc:ore/borax",
+        "chance": 0.12
+      }
+    ]
+  }
+  

@@ -1,0 +1,16 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "tfc:metal/double_ingot/bismuth"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "item": "tfc:metal/ingot/bismuth",
+      "count": 2
+    }
+  ]
+}

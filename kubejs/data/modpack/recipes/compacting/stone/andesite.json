@@ -1,0 +1,14 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+      {
+        "item": "tfc:rock/cobble/andesite"
+      }
+    ],
+    "results": [
+      {
+        "item": "create:polished_cut_andesite"
+      }
+    ],
+    "heatRequirement": "heated"
+  }

@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smoking",
+    "ingredient": {
+      "item": "firmalife:food/hardtack_dough"
+    },
+    "result": "firmalife:food/hardtack",
+    "experience": 0.0,
+    "cookingtime": 100
+  }

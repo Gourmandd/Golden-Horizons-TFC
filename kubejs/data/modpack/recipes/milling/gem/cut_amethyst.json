@@ -1,0 +1,16 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "tfc:gem/amethyst"
+    }
+  ],
+  "results": [
+    {
+      "item": "tfc:powder/amethyst",
+      "count": 4
+    }
+  ],
+  "processingTime": 50
+}

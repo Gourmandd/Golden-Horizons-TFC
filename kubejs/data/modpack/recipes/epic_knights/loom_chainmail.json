@@ -1,0 +1,14 @@
+{
+    "type": "tfc:loom",
+    "ingredient": {
+      "ingredient": {
+        "item": "magistuarmory:steel_ring"
+      },
+      "count": 12
+    },
+    "result": {
+      "item": "magistuarmory:steel_chainmail"
+    },
+    "steps_required": 32,
+    "in_progress_texture": "tfc:block/metal/bars/wrought_iron"
+  }

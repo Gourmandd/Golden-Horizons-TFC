@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "CMC",
+    "   "
+  ],
+  "key": {
+    "C": {
+      "item": "create:large_cogwheel"
+    },
+    "M": {
+      "item": "kubejs:andesite_machine"
+    }
+  },
+  "result": {
+    "item": "create:gearbox"
+  }
+}

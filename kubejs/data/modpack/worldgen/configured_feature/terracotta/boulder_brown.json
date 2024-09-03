@@ -1,0 +1,148 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:boulder",
+  "config": {
+    "states": [
+      {
+        "rock": "tfc:rock/raw/granite",
+        "blocks": [
+          "minecraft:brown_terracotta",
+          "kubejs:terracotta/crushed_brown"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/diorite",
+        "blocks": [
+          "minecraft:brown_terracotta",
+          "kubejs:terracotta/crushed_brown"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/gabbro",
+        "blocks": [
+          "minecraft:brown_terracotta",
+          "kubejs:terracotta/crushed_brown"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/shale",
+        "blocks": [
+          "minecraft:brown_terracotta",
+          "kubejs:terracotta/crushed_brown"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/claystone",
+        "blocks": [
+          "minecraft:brown_terracotta",
+          "kubejs:terracotta/crushed_brown"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/limestone",
+        "blocks": [
+          "minecraft:brown_terracotta",
+          "kubejs:terracotta/crushed_brown"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/conglomerate",
+        "blocks": [
+          "minecraft:brown_terracotta",
+          "kubejs:terracotta/crushed_brown"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/dolomite",
+        "blocks": [
+          "minecraft:brown_terracotta",
+          "kubejs:terracotta/crushed_brown"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/chert",
+        "blocks": [
+          "minecraft:brown_terracotta",
+          "kubejs:terracotta/crushed_brown"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/chalk",
+        "blocks": [
+          "minecraft:brown_terracotta",
+          "kubejs:terracotta/crushed_brown"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/rhyolite",
+        "blocks": [
+          "minecraft:brown_terracotta",
+          "kubejs:terracotta/crushed_brown"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/basalt",
+        "blocks": [
+          "minecraft:brown_terracotta",
+          "kubejs:terracotta/crushed_brown"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/andesite",
+        "blocks": [
+          "minecraft:brown_terracotta",
+          "kubejs:terracotta/crushed_brown"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/dacite",
+        "blocks": [
+          "minecraft:brown_terracotta",
+          "kubejs:terracotta/crushed_brown"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/quartzite",
+        "blocks": [
+          "minecraft:brown_terracotta",
+          "kubejs:terracotta/crushed_brown"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/slate",
+        "blocks": [
+          "minecraft:brown_terracotta",
+          "kubejs:terracotta/crushed_brown"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/phyllite",
+        "blocks": [
+          "minecraft:brown_terracotta",
+          "kubejs:terracotta/crushed_brown"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/schist",
+        "blocks": [
+          "minecraft:brown_terracotta",
+          "kubejs:terracotta/crushed_brown"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/gneiss",
+        "blocks": [
+          "minecraft:brown_terracotta",
+          "kubejs:terracotta/crushed_brown"
+        ]
+      },
+      {
+        "rock": "tfc:rock/raw/marble",
+        "blocks": [
+          "minecraft:brown_terracotta",
+          "kubejs:terracotta/crushed_brown"
+        ]
+      }
+    ]
+  }
+}

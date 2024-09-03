@@ -1,0 +1,16 @@
+
+{
+    "type": "create:splashing",
+    "ingredients": [
+      {
+        "item": "tfc:sand/pink"
+      }
+    ],
+    "results": [
+      {
+        "item": "tfc:powder/kaolinite",
+        "chance": 0.12
+      }
+    ]
+  }
+  

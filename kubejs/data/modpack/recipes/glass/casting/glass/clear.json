@@ -1,0 +1,15 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:casting",
+  "mold": {
+    "item": "kubejs:glass_mold"
+  },
+  "fluid": {
+    "ingredient": "kubejs:glass/clear",
+    "amount": 800
+  },
+  "result": {
+    "item": "minecraft:glass"
+  },
+  "break_chance": 0.01
+}

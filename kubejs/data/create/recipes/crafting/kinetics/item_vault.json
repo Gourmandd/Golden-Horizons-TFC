@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S",
+    "B",
+    "S"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:barrel"
+    },
+    "S": {
+      "item": "tfc:metal/sheet/blue_steel"
+    }
+  },
+  "result": {
+    "item": "create:item_vault",
+    "count": 9
+  }
+}

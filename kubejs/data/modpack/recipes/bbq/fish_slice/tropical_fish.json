@@ -1,0 +1,10 @@
+{
+    "type": "barbequesdelight:grilling",
+    "ingredient": {
+      "item": "crabbersdelight:tropical_fish_slice"
+    },
+    "output": { 
+      "item": "crabbersdelight:cooked_tropical_fish_slice"
+    },
+    "barbecuingTime": 280
+  }

@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "crabbersdelight:kelp_shake"
+  },
+  "decay_modifier": 1,
+  "hunger": 7,
+  "saturation": 4,
+  "protein": 1,
+  "vegetables": 2.5
+}

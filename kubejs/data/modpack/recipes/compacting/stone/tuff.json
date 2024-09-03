@@ -1,0 +1,14 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+      {
+        "item": "tfc:raw_sandstone/brown"
+      }
+    ],
+    "results": [
+      {
+        "item": "create:polished_cut_tuff"
+      }
+    ],
+    "heatRequirement": "heated"
+  }

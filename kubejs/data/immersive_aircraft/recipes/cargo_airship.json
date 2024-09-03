@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "CAC",
+      "CHC",
+      "SSS"
+    ],
+    "key": {
+      "H": {
+        "item": "immersive_aircraft:hull"
+      },
+      "A": {
+        "item": "immersive_aircraft:airship"
+      },
+      "C": {
+        "tag": "forge:chests/wooden"
+      },
+      "S": {
+        "item": "tfc:metal/sheet/steel"
+      }
+    },
+    "result": {
+      "item": "immersive_aircraft:cargo_airship"
+    }
+  }

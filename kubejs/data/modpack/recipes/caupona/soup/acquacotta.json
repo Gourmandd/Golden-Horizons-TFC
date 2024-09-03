@@ -1,0 +1,34 @@
+{
+    "type": "tfc:pot",
+    "ingredients": [
+      {
+        "tag": "caupona:cereals/baked"
+      },
+      {
+        "tag": "caupona:cereals/baked"
+      },
+      {
+        "tag": "caupona:cereals/baked"
+      },
+      {
+        "type": "tfc:not_rotten",
+        "ingredient": {
+          "tag": "tfc:foods/vegetables"
+        }
+      },
+      {
+        "tag": "modpack:spices"
+      }
+    ],
+    "fluid_ingredient": {
+      "ingredient": "caupona:stock",
+      "amount": 1000
+    },
+    "duration": 1000,
+    "temperature": 300,
+    "fluid_output": {
+        "fluid": "caupona:acquacotta",
+        "amount": 1000
+      }
+}
+  

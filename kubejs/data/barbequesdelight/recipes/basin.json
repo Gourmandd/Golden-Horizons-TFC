@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "L": {
+        "tag": "tfc:lumber"
+      },
+      "S": {
+        "tag": "tfc:saws"
+      },
+      "B": {
+        "tag": "minecraft:wooden_slabs"
+      }
+    },
+    "pattern": [
+      "LSL",
+      "BBB"
+    ],
+    "result": {
+      "item": "barbequesdelight:basin"
+    },
+    "show_notification": true
+  }

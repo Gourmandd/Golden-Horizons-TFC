@@ -1,0 +1,16 @@
+
+{
+    "type": "create:splashing",
+    "ingredients": [
+      {
+        "item": "tfc:rock/gravel/gabbro"
+      }
+    ],
+    "results": [
+      {
+        "item": "tfc:ore/kimberlite",
+        "chance": 0.12
+      }
+    ]
+  }
+  

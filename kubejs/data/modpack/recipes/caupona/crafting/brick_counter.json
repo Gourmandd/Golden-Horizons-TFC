@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MM",
+    "SS"
+  ],
+  "key": {
+    "M": {
+      "item": "caupona:lateres"
+    },
+    "S": {
+      "item": "minecraft:brick"
+    }
+  },
+  "result": {
+    "item": "caupona:brick_counter"
+  }
+}

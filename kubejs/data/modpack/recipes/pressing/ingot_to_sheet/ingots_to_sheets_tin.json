@@ -1,0 +1,14 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "tfc:metal/double_ingot/tin"
+    }
+  ],
+  "results": [
+    {
+      "item": "tfc:metal/sheet/tin"
+    }
+  ]
+}

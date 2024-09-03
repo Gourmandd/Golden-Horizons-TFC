@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "crabbersdelight:frog_leg_kebob"
+  },
+  "decay_modifier": 1,
+  "hunger": 10,
+  "saturation": 4,
+  "protein": 2.5,
+  "vegetables": 4
+}

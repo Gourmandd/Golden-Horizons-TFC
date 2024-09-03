@@ -1,0 +1,23 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "tag": "tfc:sweetener"
+      },
+      {
+        "tag": "tfc:foods/flour"
+      },
+      {
+        "item": "firmalife:food/butter"
+      },
+      {
+        "fluid": "minecraft:water",
+        "amount": 1000
+      }
+    ],
+    "results": [
+      {
+        "item": "firmalife:food/pie_dough"
+      }
+    ]
+  }

@@ -1,0 +1,13 @@
+{
+  "type": "create:sandpaper_polishing",
+  "ingredients": [
+    {
+      "item": "tfc:ore/sapphire"
+    }
+  ],
+  "results": [
+    {
+      "item": "tfc:gem/sapphire"
+    }
+  ]
+}

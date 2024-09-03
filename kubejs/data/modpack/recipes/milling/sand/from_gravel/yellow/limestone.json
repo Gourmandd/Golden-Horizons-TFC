@@ -1,0 +1,14 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+      {
+        "item": "tfc:rock/gravel/limestone"
+      }
+    ],
+    "results": [
+      {
+        "item": "tfc:sand/yellow"
+      }
+    ],
+    "processingTime": 75
+  }

@@ -1,0 +1,19 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "tfc:powder/flux"
+      },
+      {
+        "fluid": "minecraft:water",
+        "amount": 500
+      }
+    ],
+    "results": [
+      {
+        "fluid": "tfc:limewater",
+        "amount": 500
+      }
+    ],
+    "heatRequirement": "heated"
+  }

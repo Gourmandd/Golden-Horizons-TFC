@@ -1,0 +1,33 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "tfc:food/maize"
+    },
+    {
+      "tag": "forge:crops/cabbage"
+    },
+    [
+      {
+        "tag": "forge:raw_chicken"
+      },
+      {
+        "tag": "forge:raw_pork"
+      },
+      {
+        "tag": "forge:raw_beef"
+      },
+      {
+        "item": "minecraft:brown_mushroom"
+      }
+    ],
+    {
+      "item": "firmalife:food/shredded_cheese"
+    }
+  ],
+  "result": {
+    "item": "corn_delight:corn_soup"
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

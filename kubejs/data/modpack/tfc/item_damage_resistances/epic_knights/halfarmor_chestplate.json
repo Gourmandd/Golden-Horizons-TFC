@@ -1,0 +1,11 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "slashing": 3,
+  "piercing": 5,
+  "crushing": 5,
+  "ingredient": [
+    {
+      "item": "magistuarmory:halfarmor_chestplate"
+    }
+  ]
+}

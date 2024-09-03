@@ -1,0 +1,15 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:casting",
+  "mold": {
+    "item": "kubejs:glass_pane_mold"
+  },
+  "fluid": {
+    "ingredient": "kubejs:glass/black",
+    "amount": 50
+  },
+  "result": {
+    "item": "minecraft:black_stained_glass_pane"
+  },
+  "break_chance": 0.01
+}

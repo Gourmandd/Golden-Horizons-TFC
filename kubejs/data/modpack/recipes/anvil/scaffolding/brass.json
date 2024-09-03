@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "tag": "forge:ingots/brass"
+  },
+  "result": {
+    "item": "create:brass_scaffolding",
+    "count": 8
+  },
+  "tier": 2,
+  "rules": [
+    "bend_any",
+    "bend_second_last",
+    "upset_last"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "replace": false,
+  "values": [
+    "kubejs:ceramic/unfired_yellowware_brick",
+    "kubejs:ceramic/unfired_yellowware_bowl",
+    "kubejs:ceramic/unfired_yellowware_flower_pot",
+    "kubejs:ceramic/unfired_yellowware_ingot_mold"
+  ]
+}

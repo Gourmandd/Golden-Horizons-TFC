@@ -1,0 +1,11 @@
+{
+    "ingredient": {
+      "item": "corn_delight:cornbread_stuffing"
+    },
+    "hunger": 6,
+    "saturation": 4,
+    "decay_modifier": 2.5,
+    "grain": 3,
+    "vegetable": 2,
+    "fruit": 1
+}

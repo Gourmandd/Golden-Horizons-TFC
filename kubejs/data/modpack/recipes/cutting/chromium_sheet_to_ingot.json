@@ -1,0 +1,15 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "firmalife:metal/double_ingot/chromium"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "item": "firmalife:metal/ingot/chromium",
+      "count": 2
+    }
+  ]
+}

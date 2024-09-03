@@ -1,0 +1,12 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "modpack:clay/yixing_recycling_1"
+    }
+  ],
+  "result": {
+    "item": "kubejs:clay/yixing_clay_ball"
+  }
+}

@@ -1,0 +1,16 @@
+
+{
+    "type": "create:splashing",
+    "ingredients": [
+      {
+        "item": "tfc:rock/gravel/gneiss"
+      }
+    ],
+    "results": [
+      {
+        "item": "tfc:ore/poor_native_silver",
+        "chance": 0.12
+      }
+    ]
+  }
+  

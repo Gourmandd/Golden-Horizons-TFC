@@ -1,0 +1,14 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "tfc:metal/axe_head/copper"
+  },
+  "second_input": {
+    "item": "magistuarmory:copper_pike"
+  },
+  "tier": 1,
+  "result": {
+    "item": "magistuarmory:copper_guisarme"
+  }
+}

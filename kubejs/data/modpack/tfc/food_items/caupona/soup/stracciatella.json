@@ -1,0 +1,14 @@
+{
+    "ingredient": {
+      "item": "caupona:stracciatella"
+    },
+    "decay_modifier": 2,
+    "hunger": 10,
+    "saturation": 4,
+    "water": 20,
+    "grain": 2,
+    "fruit": 0,
+    "vegetables": 8,
+    "protein": 0,
+    "dairy": 4
+  }

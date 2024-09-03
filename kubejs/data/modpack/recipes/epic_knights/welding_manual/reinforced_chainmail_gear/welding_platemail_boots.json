@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "magistuarmory:steel_chainmail"
+  },
+  "second_input": {
+    "item": "minecraft:leather_boots"
+  },
+  "tier": 4,
+  "result": {
+    "item": "magistuarmory:platemail_boots"
+  }
+}

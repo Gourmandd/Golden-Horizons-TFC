@@ -1,0 +1,11 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "slashing": 6,
+  "piercing": 6,
+  "crushing": 3,
+  "ingredient": [
+    {
+      "item": "magistuarmory:lamellar_boots"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+    "type": "tfc:welding",
+    "first_input": {
+      "item": "magistuarmory:steel_chainmail"
+    },
+    "second_input": {
+      "item": "magistuarmory:steel_chainmail"
+    },
+    "tier": 3,
+    "result": {
+      "item": "magistuarmory:chainmail_helmet"
+    }
+  }

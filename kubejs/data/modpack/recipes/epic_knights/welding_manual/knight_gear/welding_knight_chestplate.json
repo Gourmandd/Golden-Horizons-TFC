@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "tfc:metal/double_ingot/wrought_iron"
+  },
+  "second_input": {
+    "item": "magistuarmory:halfarmor_chestplate"
+  },
+  "tier": 3,
+  "result": {
+    "item": "magistuarmory:knight_chestplate"
+  }
+}

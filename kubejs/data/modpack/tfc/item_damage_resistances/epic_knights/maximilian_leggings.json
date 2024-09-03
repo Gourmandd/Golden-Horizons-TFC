@@ -1,0 +1,11 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "slashing": 6,
+  "piercing": 9,
+  "crushing": 9,
+  "ingredient": [
+    {
+      "item": "magistuarmory:maximilian_leggings"
+    }
+  ]
+}

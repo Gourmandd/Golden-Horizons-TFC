@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " II",
+    "BLI",
+    "BB "
+  ],
+  "key": {
+    "I": {
+      "item": "tfc:metal/ingot/wrought_iron"
+    },
+    "L": {
+      "item": "create:large_cogwheel"
+    },
+    "B": {
+      "item": "tfc:metal/ingot/bronze"
+    }
+  },
+  "result": {
+    "item": "immersive_aircraft:industrial_gears"
+  }
+}

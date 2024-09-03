@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "corn_delight:grilled_corn"
+      },
+      {
+        "tag": "tfc:knives"
+      }
+    ],
+    "result": {
+      "item": "corn_delight:popcorn",
+      "count": 4
+    }
+  }

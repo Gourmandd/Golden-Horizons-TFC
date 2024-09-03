@@ -1,0 +1,18 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "tag": "modpack:cutting/wood/for_lumber/acacia"
+    }
+  ],
+  "result": [
+    {
+      "item": "tfc:wood/lumber/acacia"
+    }
+  ],
+  "tool": {
+    "type": "farmersdelight:tool_action",
+    "action": "axe_dig"
+  }
+}

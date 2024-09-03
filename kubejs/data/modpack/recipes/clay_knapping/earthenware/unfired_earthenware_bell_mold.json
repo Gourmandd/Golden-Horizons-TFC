@@ -1,0 +1,17 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:knapping",
+  "knapping_type": "tfc:earthenware",
+  "outside_slot_required": "true",
+  "pattern": [
+    "XXXXX",
+    "XX XX",
+    "X   X",
+    "X   X",
+    "X   X"
+  ],
+  "result": {
+    "item": "kubejs:ceramic/unfired_earthenware_bell_mold",
+    "count": 1
+  }
+}

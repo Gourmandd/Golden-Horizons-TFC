@@ -1,0 +1,13 @@
+{
+    "ingredient": {
+      "item": "corn_delight:corn_soup"
+    },
+    "hunger": 7,
+    "saturation": 5,
+    "decay_modifier": 2.5,
+    "water": 10,
+    "protein": 1.5,
+    "grain": 1.5,
+    "dairy": 1.5,
+    "vegetable": 1.5
+}

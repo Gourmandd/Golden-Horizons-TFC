@@ -1,0 +1,10 @@
+{
+    "type": "barbequesdelight:grilling",
+    "ingredient": {
+      "item": "farmersdelight:salmon_slice"
+    },
+    "output": { 
+      "item": "farmersdelight:cooked_salmon_slice"
+    },
+    "barbecuingTime": 280
+  }

@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "kubejs:unfired_shaft"
+  },
+  "result_item": {
+    "stack": {
+      "item": "kubejs:fired_shaft"
+    }
+  },
+  "temperature": 520
+}

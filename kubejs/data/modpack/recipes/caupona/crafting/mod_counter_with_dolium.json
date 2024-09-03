@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "M M",
+    "CDC",
+    "CTC"
+  ],
+  "key": {
+    "M": {
+      "tag": "tfc:mud"
+    },
+    "T": {
+      "tag": "minecraft:terracotta"
+    },
+    "D": {
+      "item": "caupona:stew_pot"
+    },
+    "C": {
+      "tag": "forge:cobblestone"
+    }
+  },
+  "result": {
+    "item": "caupona:mud_counter_with_dolium"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "ingredient": {
+    "item": "crabbersdelight:seafood_gumbo"
+  },
+  "decay_modifier": 1,
+  "hunger": 14,
+  "saturation": 5,
+  "protein": 4,
+  "vegetables": 2.5,
+  "grain": 1
+}

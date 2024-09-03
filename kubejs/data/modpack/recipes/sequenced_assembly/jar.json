@@ -1,0 +1,85 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+      "tag": "tfc:glass_batches_tier_2"
+    },
+    "transitionalItem": {
+      "item": "minecraft:glass_pane"
+    },
+    "sequence": [
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "minecraft:glass_pane"
+          },
+          {
+            "item": "tfc:bellows"
+          }
+        ],
+        "results": [
+          {
+            "item": "minecraft:glass_pane"
+          }
+        ],
+        "keepHeldItem": true
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "minecraft:glass_pane"
+          },
+          {
+            "item": "tfc:jacks"
+          }
+        ],
+        "results": [
+          {
+            "item": "minecraft:glass_pane"
+          }
+        ],
+        "keepHeldItem": true
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "minecraft:glass_pane"
+          },
+          {
+            "item": "tfc:wool_cloth"
+          }
+        ],
+        "results": [
+          {
+            "item": "minecraft:glass_pane"
+          }
+        ],
+        "keepHeldItem": true
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "minecraft:glass_pane"
+          },
+          {
+            "item": "tfc:gem_saw"
+          }
+        ],
+        "results": [
+          {
+            "item": "minecraft:glass_pane"
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "item": "tfc:empty_jar",
+        "chance": 1
+      }
+    ],
+    "loops": 3
+  }

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WSG",
+    "SW "
+  ],
+  "key": {
+    "S": {
+      "tag": "forge:rods/wooden"
+    },
+    "G": {
+      "item": "tfc:glue"
+    },
+    "W": {
+      "item": "tfc:wool_cloth"
+    }
+  },
+  "result": {
+    "item": "create:white_sail",
+    "count": 8
+  }
+}

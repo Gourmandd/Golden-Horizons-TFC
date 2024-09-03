@@ -1,0 +1,28 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "BiGolo",
+      "uniqueId": "b2d3c5df-c826-4c7d-8c5f-2eb3098d7ada"
+    },
+    "time": 1723297809163,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/mk0bLxLPVj"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "BiGolo",
+      "uniqueId": "b2d3c5df-c826-4c7d-8c5f-2eb3098d7ada"
+    },
+    "time": 1720439049629,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/QS2dpVUscM"
+    }
+  }
+]

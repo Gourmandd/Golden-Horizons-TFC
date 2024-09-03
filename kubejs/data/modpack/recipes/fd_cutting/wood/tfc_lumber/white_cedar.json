@@ -1,0 +1,18 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "tag": "modpack:cutting/wood/for_lumber/white_cedar"
+    }
+  ],
+  "result": [
+    {
+      "item": "tfc:wood/lumber/white_cedar"
+    }
+  ],
+  "tool": {
+    "type": "farmersdelight:tool_action",
+    "action": "axe_dig"
+  }
+}

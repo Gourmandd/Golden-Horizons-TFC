@@ -1,0 +1,18 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "minecraft:clay"
+    },
+    {
+      "tag": "c:ingots"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "item": "tfc:ceramic/unfired_ingot_mold"
+    }
+  ],
+  "keepHeldItem": "true"
+}

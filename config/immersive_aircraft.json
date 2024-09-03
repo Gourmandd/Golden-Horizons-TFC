@@ -1,0 +1,48 @@
+{
+  "enableDropsForNonPlayer": true,
+  "enableCrashExplosion": true,
+  "enableCrashBlockDestruction": true,
+  "enableCrashFire": true,
+  "crashExplosionRadius": 5.0,
+  "crashDamage": 10.0,
+  "preventKillThroughCrash": true,
+  "healthBarRow": 0,
+  "damagePerHealthPoint": 30,
+  "separateCamera": true,
+  "useThirdPersonByDefault": true,
+  "enableTrails": true,
+  "renderDistance": 192.0,
+  "fuelConsumption": 8.0,
+  "windClearWeather": 1.0,
+  "windRainWeather": 3.0,
+  "windThunderWeather": 3.0,
+  "repairSpeed": 0.025,
+  "collisionDamage": true,
+  "burnFuelInCreative": false,
+  "acceptVanillaFuel": false,
+  "useCustomKeybindSystem": true,
+  "showHotbarEngineGauge": true,
+  "weaponsAreDestructive": true,
+  "fuelList": {
+    "minecraft:blaze_powder": 600,
+    "minecraft:charcoal": 1200,
+    "tfc:ore/bituminous_coal": 1800
+  },
+  "validDimensions": {
+    "minecraft:overworld": true,
+    "minecraft:the_end": true,
+    "minecraft:the_nether": true
+  },
+  "gunpowderAmmunition": {
+    "minecraft:gunpowder": 100
+  },
+  "arrowAmmunition": {
+    "minecraft:tipped_arrow": 100,
+    "minecraft:arrow": 100,
+    "minecraft:spectral_arrow": 100
+  },
+  "bombBayAmmunition": {
+    "minecraft:tnt": 100
+  },
+  "version": 1
+}

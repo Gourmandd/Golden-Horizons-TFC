@@ -1,0 +1,19 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "minecraft:clay"
+    },
+    {
+      "tag": "modpack:tools/hammer_head"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "item": "tfc:ceramic/unfired_hammer_head_mold"
+    }
+  ],
+  "keepHeldItem": "true"
+}

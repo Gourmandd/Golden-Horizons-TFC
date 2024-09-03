@@ -1,0 +1,26 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "replace": false,
+  "values": [
+    "kubejs:ceramic/unfired_porcelain_pickaxe_mold",
+    "kubejs:ceramic/unfired_porcelain_axe_mold",
+    "kubejs:ceramic/unfired_porcelain_propick_mold",
+    "kubejs:ceramic/unfired_porcelain_shovel_mold",
+    "kubejs:ceramic/unfired_porcelain_hoe_mold",
+    "kubejs:ceramic/unfired_porcelain_chisel_mold",
+    "kubejs:ceramic/unfired_porcelain_hammer_mold",
+    "kubejs:ceramic/unfired_porcelain_saw_mold",
+    "kubejs:ceramic/unfired_porcelain_javelin_mold",
+    "kubejs:ceramic/unfired_porcelain_scythe_mold",
+    "kubejs:ceramic/unfired_porcelain_knife_mold",
+    "kubejs:ceramic/unfired_porcelain_sword_mold",
+    "kubejs:ceramic/unfired_porcelain_mace_mold",
+    "kubejs:ceramic/unfired_porcelain_vessel",
+    "kubejs:ceramic/unfired_porcelain_bell_mold",
+    "kubejs:ceramic/unfired_porcelain_jug",
+    "kubejs:ceramic/unfired_porcelain_pot",
+    "kubejs:ceramic/unfired_porcelain_spindle_head",
+    "kubejs:ceramic/unfired_porcelain_pan",
+    "kubejs:ceramic/unfired_porcelain_blowpipe"
+  ]
+}

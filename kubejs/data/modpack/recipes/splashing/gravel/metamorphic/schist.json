@@ -1,0 +1,16 @@
+
+{
+    "type": "create:splashing",
+    "ingredients": [
+      {
+        "item": "tfc:rock/gravel/schist"
+      }
+    ],
+    "results": [
+      {
+        "item": "tfc:ore/cinnabar",
+        "chance": 0.12
+      }
+    ]
+  }
+  

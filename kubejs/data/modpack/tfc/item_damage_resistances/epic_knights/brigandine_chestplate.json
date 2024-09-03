@@ -1,0 +1,11 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "slashing": 8,
+  "piercing": 7,
+  "crushing": 4,
+  "ingredient": [
+    {
+      "item": "magistuarmory:brigandine_chestplate"
+    }
+  ]
+}

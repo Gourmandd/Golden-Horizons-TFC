@@ -1,0 +1,14 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "tfc:kaolin_clay"
+      }
+    ],
+    "results": [
+      {
+        "item": "tfc:powder/kaolinite"
+      }
+    ],
+    "heatRequirement": "heated"
+  }

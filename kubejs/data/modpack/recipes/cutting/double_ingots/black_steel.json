@@ -1,0 +1,16 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "tfc:metal/double_ingot/black_steel"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "item": "tfc:metal/ingot/black_steel",
+      "count": 2
+    }
+  ]
+}

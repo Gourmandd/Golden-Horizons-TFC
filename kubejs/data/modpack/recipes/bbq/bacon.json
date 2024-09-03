@@ -1,0 +1,10 @@
+{
+    "type": "barbequesdelight:grilling",
+    "ingredient": {
+      "item": "farmersdelight:bacon"
+    },
+    "output": { 
+      "item": "farmersdelight:cooked_bacon"
+    },
+    "barbecuingTime": 320
+  }
