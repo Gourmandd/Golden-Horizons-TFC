@@ -19,6 +19,8 @@ let colours = [
 ]
 let clay = ["yixing", "earthenware", "yellowware", "porcelain"]
 
+
+//This can be done with loot tables within the datapack
 LootJS.modifiers((event) => {
     colours.forEach(colour => { 
     event.addBlockLootModifier("kubejs:terracotta/crushed_" + colour.low).randomChance(0.25).addLoot("kubejs:terracotta/shard_" + colour.low)
@@ -51,8 +53,8 @@ LootJS.modifiers((event) => {
 
 
     //minecraft glass is hardcoded to not drop anything unless gem saw or silk touch??
-    event.addBlockLootModifier("minecraft:orange_stained_glass").addLoot("minecraft:orange_stained_glass")
-    event.addBlockLootModifier("minecraft:glass").addLoot("minecraft:glass")
+    //event.addBlockLootModifier("minecraft:orange_stained_glass").addLoot("minecraft:orange_stained_glass")
+    //event.addBlockLootModifier("minecraft:glass").addLoot("minecraft:glass")
     //hearth and home
     event.addBlockLootModifier("hearth_and_home:barred_glass").addLoot("hearth_and_home:barred_glass").removeLoot("minecraft:iron_nugget")
     event.addBlockLootModifier("hearth_and_home:barred_glass_pane").addLoot("hearth_and_home:barred_glass_pane").removeLoot("minecraft:iron_nugget")
@@ -61,13 +63,6 @@ LootJS.modifiers((event) => {
 
 
 ServerEvents.recipes(event =>{
-
-//should do this with json
-event.smoking('tfc:dirt/loam', 'tfc:mud/loam')
-event.smoking('tfc:dirt/sandy_loam', 'tfc:mud/sandy_loam')
-event.smoking('tfc:dirt/silty_loam', 'tfc:mud/silty_loam')
-event.smoking('tfc:dirt/silt', 'tfc:mud/silt')
-//till here
 
 event.remove({ type: "minecraft:smelting" })
 event.remove({ type: "spectrum:anvil_crushing" })
@@ -81,7 +76,7 @@ event.remove({type: "caupona:cooking"})
 event.remove({type: "caupona:dolium", mod: "caupona"})
 event.remove({type: "caupona:frying"})
 event.remove({type: "caupona:spice"}) 
-event.remove({mod: "quark", input: Ingredient.of(/.*glass.*/)}) //one day 
+event.remove({mod: "quark", input: Ingredient.of(/.*glass.*/)}) 
 event.remove({mod: "farmersdelight", output: Ingredient.of("crabbersdelight:coral_fragments")})
 event.remove({mod: "estrogen"})
 event.remove({mod: "functionalstorage"})
@@ -94,47 +89,16 @@ event.remove({input: "tfc:metal/ingot/zinc", type: "minecraft:stonecutting"})
 event.remove({mod: "farmersdelight", output: "#forge:stripped_logs"})
 event.remove({mod: "farmersdelight", output: "#forge:stripped_wood"})
 event.remove({mod: "farmersdelight", output: "#tfc:dyes"})
-//event.remove({mod: "farmersdelight", output: "#minecraft:planks",})
 
 event.remove({mod: "hearth_and_home", input: "minecraft:stick", not: {output: "hearth_and_home:shoji"}})
-/*
-event.remove({mod: "magistuarmory", input: "minecraft:cobblestone"})
-event.remove({mod: "magistuarmory", input: "tfc:metal/ingot/silver"})
-event.remove({mod: "magistuarmory", input: "tfc:metal/ingot/tin"})
-event.remove({mod: "magistuarmory", input: "tfc:metal/ingot/gold"})
-event.remove({mod: "magistuarmory", input: "tfc:metal/ingot/wrought_iron"})
-event.remove({mod: "magistuarmory", input: "tfc:metal/ingot/golden"})
-event.remove({mod: "magistuarmory", input: "minecraft:oak_planks"})
-event.remove({mod: "magistuarmory", input: "tfc:gem/diamond"})
-event.remove({mod: "magistuarmory", input: "minecraft:blaze_powder"})
-*/
+
 event.remove({mod: "magistuarmory"})
 
 event.remove({mod: "hearth_and_home", input: "minecraft:glass"})
 })
 
-ServerEvents.recipes(event =>{
-    
-    colours.forEach(colour => { 
-    event.custom({"type": "tfc:landslide", "ingredient": "kubejs:terracotta/crushed_" + colour.low, "result": "kubejs:terracotta/crushed_" + colour.low})
-    event.custom({"type": "create:milling","ingredients": [{"item": "kubejs:terracotta/crushed_" + colour.low}],"results": [{"item": "kubejs:terracotta/shard_" + colour.low},{"item": "kubejs:terracotta/shard_" + colour.low, "chance": 0.5}],"processingTime": 50})
-    event.recipes.tfc.quern("kubejs:terracotta/shard_" + colour.low, "kubejs:terracotta/crushed_" + colour.low)
-    event.shapeless("minecraft:" + colour.low + "_terracotta", ["kubejs:terracotta/shard_" + colour.low, "kubejs:terracotta/shard_" + colour.low, "kubejs:terracotta/shard_" + colour.low, "kubejs:terracotta/shard_" + colour.low])
-})
-
-
-
-})
-
-ServerEvents.tags("block", event =>{
-event.add('tfc:grass_plantable_on', ["kubejs:clay/yixing_clay_block", "kubejs:clay/yellowware_clay_block", "kubejs:clay/porcelain_clay_block", "kubejs:clay/earthenware_clay_block"])
-event.add('tfc:halophyte_plantable_on', ["kubejs:clay/yixing_clay_block", "kubejs:clay/yellowware_clay_block", "kubejs:clay/porcelain_clay_block", "kubejs:clay/earthenware_clay_block"])
-event.add('tfc:sea_bush_plantable_on', ["kubejs:clay/yixing_clay_block", "kubejs:clay/yellowware_clay_block", "kubejs:clay/porcelain_clay_block", "kubejs:clay/earthenware_clay_block"])
-
-})
-
 BlockEvents.rightClicked("farmersdelight:rich_soil", event =>{
-    event.cancel()
+    event.cancel() //cant till the soil anymore. Used for growing mushrooms
 })
 
 TFCEvents.data(event =>{

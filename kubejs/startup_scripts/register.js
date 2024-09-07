@@ -22,7 +22,6 @@ let colours = [
 
 StartupEvents.registry("item", event =>{
 event.create("nettles").displayName("Nettles").food(food => {food.hunger(0)})
-event.create("fish_food").displayName("Fish Food")
 
 event.create("halloumi").displayName("Halloumi").food(food => {food.hunger(0)})
 event.create("fried_halloumi").displayName("Fried Halloumi").food(food => {food.hunger(0)})
@@ -78,4 +77,3 @@ event.create("brass_machine").displayName("Brass Machine").tagBlock("minecraft:m
 
 
 Platform.mods.kubejs.name = 'Horizons'
-//Platform.mods.burnt.name = 'Burnt'

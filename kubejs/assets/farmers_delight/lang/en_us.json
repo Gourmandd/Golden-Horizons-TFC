@@ -8,5 +8,8 @@
     "farmersdelight.jei.info.wild_onions": "",
     "farmersdelight.jei.info.wild_potatoes": "",
     "farmersdelight.jei.info.wild_tomatoes": "",
-    "farmersdelight.jei.info.wild_rice": ""
+    "farmersdelight.jei.info.wild_rice": "",
+
+    "effect.farmersdelight.comfort.description": "You feel calm! You are feeling more healthy.",
+    "effect.farmersdelight.nourishment.description": "You feel full! Your hunger goes down slower."
 }

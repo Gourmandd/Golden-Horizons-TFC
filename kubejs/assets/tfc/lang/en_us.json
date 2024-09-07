@@ -3,5 +3,12 @@
 "tfc.jei.earthenware_knapping": "Earthenware Clay Knapping Recipe",
 "tfc.jei.yellowware_knapping": "Yellowware Clay Knapping Recipe",
 "tfc.jei.porcelain_knapping": "Porcelain Clay Knapping Recipe",
-"tfc.jei.kaolinite_knapping": "Kaolinite Clay Knapping Recipe"
+"tfc.jei.kaolinite_knapping": "Kaolinite Clay Knapping Recipe",
+
+"effect.tfc.pinned.description": "You feel too heavy to move!",
+"effect.tfc.ink.description": "Eew! There is ink EVERYWHERE!",
+"effect.tfc.glow_ink.description": "Eew! There is glowy ink EVERYWHERE!",
+"effect.tfc.overburdened.description": "You feel too heavy to move!",
+"effect.tfc.exhausted.description": "The heavy things you are carrying is burning extra calories!",
+"effect.tfc.thirst.description": "You are getting more thirsty now."
 }
