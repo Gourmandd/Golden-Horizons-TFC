@@ -1,0 +1,19 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "kubejs:terracotta/crushed_light_gray"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:terracotta/shard_light_gray"
+    },
+    {
+      "item": "kubejs:terracotta/shard_light_gray",
+      "chance": 0.5
+    }
+  ],
+  "processingTime": 50
+}

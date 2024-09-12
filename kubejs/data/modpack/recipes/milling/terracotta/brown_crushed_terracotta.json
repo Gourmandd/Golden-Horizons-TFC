@@ -1,0 +1,19 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "kubejs:terracotta/crushed_brown"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:terracotta/shard_brown"
+    },
+    {
+      "item": "kubejs:terracotta/shard_brown",
+      "chance": 0.5
+    }
+  ],
+  "processingTime": 50
+}

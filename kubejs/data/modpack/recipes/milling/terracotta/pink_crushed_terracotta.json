@@ -1,0 +1,19 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "kubejs:terracotta/crushed_pink"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:terracotta/shard_pink"
+    },
+    {
+      "item": "kubejs:terracotta/shard_pink",
+      "chance": 0.5
+    }
+  ],
+  "processingTime": 50
+}

@@ -1,0 +1,15 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:cyan_terracotta"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:terracotta/crushed_cyan"
+    }
+  ],
+  "processingTime": 50
+}

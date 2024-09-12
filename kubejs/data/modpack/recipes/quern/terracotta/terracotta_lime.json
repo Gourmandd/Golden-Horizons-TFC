@@ -1,0 +1,10 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:quern",
+  "ingredient": {
+    "item": "kubejs:terracotta/crushed_lime"
+  },
+  "result": {
+    "item": "kubejs:terracotta/shard_lime"
+  }
+}

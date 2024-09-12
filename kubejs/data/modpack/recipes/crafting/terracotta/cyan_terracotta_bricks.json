@@ -1,0 +1,21 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kubejs:terracotta/shard_cyan"
+    },
+    {
+      "item": "kubejs:terracotta/shard_cyan"
+    },
+    {
+      "item": "kubejs:terracotta/shard_cyan"
+    },
+    {
+      "item": "kubejs:terracotta/shard_cyan"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cyan_terracotta"
+  }
+}

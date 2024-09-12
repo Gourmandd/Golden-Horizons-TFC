@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smoking",
+    "ingredient": {
+      "item": "tfc:mud/loam"
+    },
+    "result": "tfc:dirt/loam",
+    "experience": 0.0,
+    "cookingtime": 100
+  }

@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smoking",
+    "ingredient": {
+      "item": "tfc:mud/silty_loam"
+    },
+    "result": "tfc:dirt/silty_loam",
+    "experience": 0.0,
+    "cookingtime": 100
+  }

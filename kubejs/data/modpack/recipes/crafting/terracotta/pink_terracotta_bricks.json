@@ -1,0 +1,21 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kubejs:terracotta/shard_pink"
+    },
+    {
+      "item": "kubejs:terracotta/shard_pink"
+    },
+    {
+      "item": "kubejs:terracotta/shard_pink"
+    },
+    {
+      "item": "kubejs:terracotta/shard_pink"
+    }
+  ],
+  "result": {
+    "item": "minecraft:pink_terracotta"
+  }
+}

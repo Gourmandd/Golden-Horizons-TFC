@@ -1,0 +1,10 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:quern",
+  "ingredient": {
+    "item": "kubejs:terracotta/crushed_dark_blue"
+  },
+  "result": {
+    "item": "kubejs:terracotta/shard_dark_blue"
+  }
+}
