@@ -30,8 +30,6 @@ temp.json
 usercache.json
 usernamecache.json
 
-#kubejs
-
 #game should generate this since no edits but its commented to make sure everything is the same
 #kubejs/jsconfig.json
 #kubejs/server_scripts/config
