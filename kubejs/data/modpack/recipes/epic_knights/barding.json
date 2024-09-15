@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "JAJ",
+    "CCC",
+    "CCC"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:leather_horse_armor"
+    },
+    "J": {
+      "item": "tfc:jute_fiber"
+    },
+    "C": {
+      "item": "magistuarmory:steel_plate"
+    }
+  },
+  "result": {
+    "item": "magistuarmory:barding"
+  }
+}

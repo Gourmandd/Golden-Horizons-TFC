@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "tfc:metal/hammer_head/wrought_iron"
+  },
+  "second_input": {
+    "item": "magistuarmory:pole"
+  },
+  "tier": 2,
+  "result": {
+    "item": "magistuarmory:blacksmith_hammer"
+  }
+}

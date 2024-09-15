@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  C",
+    " S ",
+    "H  "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "H": {
+      "item": "magistuarmory:hilt"
+    },
+    "C": {
+      "item": "knightsofterrafirma:bronze_guisarme_head"
+    }
+  },
+  "result": {
+    "item": "magistuarmory:bronze_guisarme"
+  }
+}

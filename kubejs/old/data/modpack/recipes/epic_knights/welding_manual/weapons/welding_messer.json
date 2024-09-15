@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "tfc:metal/sword_blade/wrought_iron"
+  },
+  "second_input": {
+    "item": "magistuarmory:hilt"
+  },
+  "tier": 2,
+  "result": {
+    "item": "magistuarmory:messer_sword"
+  }
+}

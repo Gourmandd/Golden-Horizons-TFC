@@ -1,15 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " H",
-    "H "
+    "III",
+    " H ",
+    " H "
   ],
   "key": {
+    "I": {
+      "item": "tfc:metal/rod/wrought_iron"
+    },
     "H": {
       "item": "magistuarmory:hilt"
     }
   },
   "result": {
-    "item": "magistuarmory:pole"
+    "item": "magistuarmory:pitchfork"
   }
 }
