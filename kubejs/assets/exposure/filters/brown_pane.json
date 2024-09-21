@@ -1,0 +1,7 @@
+{
+  "item": {
+    "item": "kubejs:brown_lens"
+  },
+  "tint_color": "#51301A",
+  "shader": "exposure:shaders/brown_tint.json"
+}

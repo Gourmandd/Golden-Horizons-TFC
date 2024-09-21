@@ -1,25 +1,16 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "SPP",
-    "SZZ",
-    "SRR"
-  ],
-  "key": {
-    "S": {
-      "item": "tfc:metal/ingot/sterling_silver"
-    },
-    "R": {
-      "item": "tfc:powder/sulfur"
-    },
-    "P": {
-      "item": "minecraft:paper"
-    },
-    "Z": {
-      "item": "tfc:metal/rod/zinc"
-    }
+  "type": "tfc:barrel_sealed",
+  "input_item": {
+      "ingredient": {
+          "item": "minecraft:paper"
+      }
   },
-  "result": {
-    "item": "exposure:color_film"
-  }
+  "input_fluid": {
+      "ingredient": "afc:latex",
+      "amount": 100
+  },
+  "output_item": {
+      "item": "exposure:color_film"
+  },
+  "duration": 3000
 }

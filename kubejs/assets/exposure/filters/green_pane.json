@@ -1,0 +1,7 @@
+{
+  "item": {
+    "item": "kubejs:green_lens"
+  },
+  "tint_color": "#3B511A",
+  "shader": "exposure:shaders/green_filter.json"
+}

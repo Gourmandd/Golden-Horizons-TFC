@@ -1,0 +1,7 @@
+{
+  "item": {
+    "item": "kubejs:light_blue_lens"
+  },
+  "tint_color": "#6689D3",
+  "shader": "exposure:shaders/light_blue_tint.json"
+}

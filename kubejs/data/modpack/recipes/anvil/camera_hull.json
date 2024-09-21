@@ -1,0 +1,15 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "item": "tfc:metal/double_sheet/wrought_iron"
+  },
+  "result": {
+    "item": "exposure:camera"
+  },
+  "tier": 3,
+  "rules": [
+    "hit_last",
+    "punch_second_last",
+    "bend_any"
+  ]
+}

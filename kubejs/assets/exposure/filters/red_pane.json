@@ -1,0 +1,7 @@
+{
+  "item": {
+    "item": "kubejs:red_lens"
+  },
+  "tint_color": "#B3312C",
+  "shader": "exposure:shaders/red_filter.json"
+}

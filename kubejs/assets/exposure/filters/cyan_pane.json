@@ -1,0 +1,7 @@
+{
+  "item": {
+    "item": "kubejs:cyan_lens"
+  },
+  "tint_color": "#287697",
+  "shader": "exposure:shaders/cyan_tint.json"
+}

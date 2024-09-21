@@ -1,0 +1,7 @@
+{
+  "item": {
+    "item": "kubejs:lime_lens"
+  },
+  "tint_color": "#41CD34",
+  "shader": "exposure:shaders/lime_tint.json"
+}

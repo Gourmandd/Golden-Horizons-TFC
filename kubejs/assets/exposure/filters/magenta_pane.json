@@ -1,0 +1,7 @@
+{
+  "item": {
+    "item": "kubejs:magenta_lens"
+  },
+  "tint_color": "#C354CD",
+  "shader": "exposure:shaders/magenta_tint.json"
+}

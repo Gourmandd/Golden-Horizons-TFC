@@ -1,0 +1,7 @@
+{
+  "item": {
+    "item": "tfc:lens"
+  },
+  "attachment_texture": "exposure:textures/gui/filter/glass.png",
+  "shader": "exposure:shaders/crisp.json"
+}

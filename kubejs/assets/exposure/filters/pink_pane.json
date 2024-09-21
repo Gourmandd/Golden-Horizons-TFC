@@ -1,0 +1,7 @@
+{
+  "item": {
+    "item": "kubejs:pink_lens"
+  },
+  "tint_color": "#D88198",
+  "shader": "exposure:shaders/pink_tint.json"
+}

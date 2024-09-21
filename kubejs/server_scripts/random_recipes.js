@@ -81,7 +81,7 @@ event.remove({mod: "farmersdelight", output: Ingredient.of("crabbersdelight:cora
 event.remove({mod: "estrogen"})
 event.remove({mod: "copycats"})
 event.remove({mod: "functionalstorage"})
-
+//event.remove({type: "create:sequenced_assembly", mod: "exposure"}) I cant remove those recipes even through datapack?
 
 
 event.remove({output: Ingredient.of(/.*lamp.*/), mod: "another_furniture"})

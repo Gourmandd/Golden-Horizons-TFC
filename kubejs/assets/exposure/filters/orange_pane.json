@@ -1,0 +1,7 @@
+{
+  "item": {
+    "item": "kubejs:orange_lens"
+  },
+  "tint_color": "#EB8844",
+  "shader": "exposure:shaders/orange_tint.json"
+}

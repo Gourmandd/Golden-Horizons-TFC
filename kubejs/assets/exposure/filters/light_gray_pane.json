@@ -1,0 +1,7 @@
+{
+  "item": {
+    "item": "kubejs:light_gray_lens"
+  },
+  "tint_color": "#ABABAB",
+  "shader": "exposure:shaders/light_gray_tint.json"
+}

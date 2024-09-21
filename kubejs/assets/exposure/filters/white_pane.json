@@ -1,0 +1,6 @@
+{
+  "item": {
+    "item": "kubejs:white_lens"
+  },
+  "shader": "exposure:shaders/white_tint.json"
+}
