@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "LSL",
+    "LRL",
     "LCL",
-    "LSL"
+    "LBL"
   ],
   "key": {
     "L": {
@@ -12,8 +12,11 @@
     "C": {
       "tag": "forge:chests/wooden"
     },
-    "S": {
-      "item": "tfc:metal/ingot/steel"
+    "R": {
+      "item": "tfc:metal/ingot/red_steel"
+    },
+    "B": {
+      "item": "tfc:metal/ingot/blue_steel"
     }
   },
   "result": {
