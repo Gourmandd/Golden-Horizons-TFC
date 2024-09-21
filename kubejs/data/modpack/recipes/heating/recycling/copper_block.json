@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "modpack:copper_block"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/copper",
+    "amount": 900
+  },
+  "temperature": 1080
+}

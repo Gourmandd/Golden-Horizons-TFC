@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "minecraft:lightning_rod"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/copper",
+    "amount": 150
+  },
+  "temperature": 1080
+}

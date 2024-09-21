@@ -1,0 +1,19 @@
+{
+  "values": [
+    "minecraft:lightning_rod",
+    "minecraft:spyglass",
+    "create:fluid_pipe",
+    "create:mechanical_pump",
+    "create:copper_casing",
+    "create:copper_ladder",
+    "create:copper_bars",
+    "create:copper_scaffolding",
+    "create:item_drain",
+    "create:spout",
+    "create:portable_fluid_interface",
+    "firmalife:copper_pipe",
+    "firmalife:oxidized_copper_pipe",
+    "createaddition:copper_wire",
+    "create:copper_door"
+  ]
+}

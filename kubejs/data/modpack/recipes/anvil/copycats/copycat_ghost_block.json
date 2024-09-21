@@ -1,0 +1,16 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+      "tag": "forge:ingots/zinc"
+    },
+    "result": {
+      "item": "copycats:copycat_ghost_block",
+      "count": 1
+    },
+    "tier": 1,
+    "rules": [
+      "upset_last",
+      "bend_second_last",
+      "bend_third_last"
+    ]
+}

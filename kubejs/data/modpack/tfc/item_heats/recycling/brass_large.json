@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "tag": "modpack:melting/brass_large"
+  },
+  "heat_capacity": 7.857,
+  "forging_temperature": 558,
+  "welding_temperature": 744
+}

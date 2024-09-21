@@ -1,0 +1,14 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "replace": false,
+  "values": [
+    "create:copper_tiles",
+    "create:waxed_copper_tiles",
+    "create:exposed_copper_tiles",
+    "create:waxed_exposed_copper_tiles",
+    "create:weathered_copper_tiles",
+    "create:waxed_weathered_copper_tiles",
+    "create:oxidized_copper_tiles",
+    "create:waxed_oxidized_copper_tiles"
+  ]
+}

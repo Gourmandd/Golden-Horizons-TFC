@@ -1,0 +1,11 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+      "item": "scarves:scarf_stapler"
+    },
+    "result_fluid": {
+      "fluid": "tfc:metal/cast_iron",
+      "amount": 450
+    },
+    "temperature": 1535
+  }

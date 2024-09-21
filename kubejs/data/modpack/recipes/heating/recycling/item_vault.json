@@ -1,0 +1,11 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+      "item": "create:item_vault"
+    },
+    "result_fluid": {
+      "fluid": "tfc:metal/blue_steel",
+      "amount": 25
+    },
+    "temperature": 1540
+  }

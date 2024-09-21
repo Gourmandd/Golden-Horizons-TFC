@@ -1,0 +1,23 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "createaddition:capacitor"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/zinc",
+    "amount": 100
+  },
+  "result_item": {
+    "stack": {
+        "item": "tfc:metal/ingot/copper",
+        "count": 1
+    },
+    "modifiers": [
+        {
+            "type": "tfc:add_heat",
+            "temperature": 420
+        }
+    ]
+  },
+  "temperature": 420
+}

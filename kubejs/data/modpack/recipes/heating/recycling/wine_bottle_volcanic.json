@@ -1,0 +1,11 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+      "item": "firmalife:empty_volcanic_wine_bottle"
+    },
+    "result_fluid": {
+      "fluid": "kubejs:glass/blue",
+      "amount": 400
+    },
+    "temperature": 1070
+  }

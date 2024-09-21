@@ -1,0 +1,24 @@
+{
+  "values": [
+    "tfc:lens",
+    "tfc:lamp_glass",
+    "tfc:silica_glass_bottle",
+    "tfc:olivine_glass_bottle",
+    "tfc:volcanic_glass_bottle",
+    "tfc:hematitic_glass_bottle",
+    "create:framed_glass_door",
+    "create:framed_glass_trapdoor",
+    "firmalife:empty_olivine_wine_bottle",
+    "firmalife:empty_volcanic_wine_bottle",
+    "firmalife:empty_hematitic_wine_bottle",
+    "firmalife:wine_glass",
+    "create:tiled_glass",
+    "create:framed_glass",
+    "create:horizontal_framed_glass",
+    "create:vertical_framed_glass",
+    "create:tiled_glass_pane",
+    "create:framed_glass_pane",
+    "create:horizontal_framed_glass_pane",
+    "create:vertical_framed_glass_pane"
+  ]
+}

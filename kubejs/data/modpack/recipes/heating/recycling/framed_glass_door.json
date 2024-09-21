@@ -1,0 +1,11 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+      "item": "create:framed_glass_door"
+    },
+    "result_fluid": {
+      "fluid": "kubejs:glass/clear",
+      "amount": 800
+    },
+    "temperature": 1070
+  }

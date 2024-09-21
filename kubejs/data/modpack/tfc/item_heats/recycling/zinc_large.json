@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "tag": "modpack:melting/zinc_large"
+  },
+  "heat_capacity": 7.857,
+  "forging_temperature": 924,
+  "welding_temperature": 1232
+}

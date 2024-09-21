@@ -1,0 +1,11 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+      "item": "create:brass_casing"
+    },
+    "result_fluid": {
+      "fluid": "tfc:metal/brass",
+      "amount": 100
+    },
+    "temperature": 930
+  }

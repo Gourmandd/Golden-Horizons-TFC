@@ -1,0 +1,14 @@
+{
+  "values": [
+    "create:brass_casing",
+    "create:crafter_slot_cover",
+    "create:brass_ladder",
+    "create:brass_bars",
+    "create:brass_scaffolding",
+    "create:train_door",
+    "create:train_trapdoor",
+    "create:railway_casing",
+    "create:brass_door",
+    "tfc:crankshaft"
+  ]
+}

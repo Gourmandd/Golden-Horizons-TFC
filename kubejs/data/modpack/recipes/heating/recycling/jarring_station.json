@@ -1,0 +1,11 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+      "item": "firmalife:jarring_station"
+    },
+    "result_fluid": {
+      "fluid": "firmalife:metal/stainless_steel",
+      "amount": 400
+    },
+    "temperature": 1535
+  }

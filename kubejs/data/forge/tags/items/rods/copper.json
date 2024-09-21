@@ -1,6 +1,6 @@
 {
     "replace": true,
     "values": [
-        "tfc:metal/rods/copper"
+        "tfc:metal/rod/copper"
     ]
 }

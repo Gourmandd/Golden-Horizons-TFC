@@ -79,6 +79,7 @@ event.remove({type: "caupona:spice"})
 event.remove({mod: "quark", input: Ingredient.of(/.*glass.*/)}) 
 event.remove({mod: "farmersdelight", output: Ingredient.of("crabbersdelight:coral_fragments")})
 event.remove({mod: "estrogen"})
+event.remove({mod: "copycats"})
 event.remove({mod: "functionalstorage"})
 
 
@@ -109,4 +110,7 @@ TFCEvents.data(event =>{
         climate.maxTemperature(27)
         climate.temperatureWiggle(3)
     }, 'kubejs:nettles_bush')
+})
+
+ServerEvents.tags('item', event => {
 })

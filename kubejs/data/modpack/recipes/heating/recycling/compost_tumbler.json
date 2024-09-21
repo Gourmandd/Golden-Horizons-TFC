@@ -1,0 +1,11 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+      "item": "firmalife:compost_tumbler"
+    },
+    "result_fluid": {
+      "fluid": "tfc:metal/cast_iron",
+      "amount": 400
+    },
+    "temperature": 1535
+  }

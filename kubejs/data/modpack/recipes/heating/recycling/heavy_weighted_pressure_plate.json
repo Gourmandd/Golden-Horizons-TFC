@@ -1,0 +1,11 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+      "item": "minecraft:heavy_weighted_pressure_plate"
+    },
+    "result_fluid": {
+      "fluid": "tfc:metal/cast_iron",
+      "amount": 200
+    },
+    "temperature": 1535
+  }

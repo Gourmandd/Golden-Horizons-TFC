@@ -1,0 +1,14 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "replace": false,
+  "values": [
+    "create:copper_shingle_stairs",
+    "create:waxed_copper_shingle_stairs",
+    "create:exposed_copper_shingle_stairs",
+    "create:waxed_exposed_copper_shingle_stairs",
+    "create:weathered_copper_shingle_stairs",
+    "create:waxed_weathered_copper_shingle_stairs",
+    "create:oxidized_copper_shingle_stairs",
+    "create:waxed_oxidized_copper_shingle_stairs"
+  ]
+}

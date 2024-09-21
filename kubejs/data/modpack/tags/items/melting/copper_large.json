@@ -1,0 +1,7 @@
+{
+  "values": [
+    "create:fluid_tank",
+    "create:copper_backtank",
+    "create:steam_engine"
+  ]
+}
