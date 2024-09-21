@@ -12,7 +12,7 @@ This is a roadmap/todo of sorts and as anything gets done it will be moved to th
 
 - Rebalancing to food values added by the modpack and Farmerls Delight TFC, some guidelines is that crafted food should have the hunger of all its (cooked) Ingredients combined and maybe a bonus, same with nutrition, and bonuses for nutriton, decay time and hunger given to finished meals(so most "meals" in farmers delight and food items at the ends of their crafting trees)
 
-- Proper Exposure support, some work is needed on the recipes, tags and also the data for lenses (see their wiki on github). The coloured lens items exist and have textures but are hidden in EMI.
+- Adding lenses for Exposure cameras that use built-in minecraft and Quark shaders.
 
 - Clean up Kubejs Scripts, most edits to recipes can be done with datapacks, some of these are conveniently labled and some of these will require datagen
 
@@ -23,7 +23,7 @@ These can change or are not fletched out properly. Though some of these are thou
 
 - Expanded soap making, soap is "poured" on the floor and once it sets (like mud bricks) it can be cut and harvested. ✅
 - Similar to the one above but for chalk making, will require a lot of datagen. ✅
-- Additions to the TFC guidebook. Similar to Addons it will have a chapter with modpack related info. Some of the additions could also be adding notes into the guibe book about changes or additions the modpack makes. EX a "note" from the modpack in the mechanical power page on how to look into this before Create since Create power is steam engine exclusive. (low Stress vs High Stress network?) ✅
+- Additions to the TFC guidebook. Similar to Addons it will have a chapter with modpack related info. Some of the additions could also be adding notes into the guide book about changes or additions the modpack makes. EX a "note" from the modpack in the mechanical power page on how to look into this before Create since Create power is steam engine exclusive. (low Stress vs High Stress network?) ✅
 - Adding metals, this might just be done through an addon mod and there are a lot of various ideas, the issues is finding more then 1 or 2 uses for a metal.
 - Adding and making minor compat for a mod that adds radios. (keep in mind that the mod needs to be available on Curseforge **and** Modrinth)
 - HeatJS allows for better TFC x Create compat, in theory the blaze burner can be replaced though how stuff will be done is up in the air.
@@ -33,3 +33,5 @@ These can change or are not fletched out properly. Though some of these are thou
 ## Finished Features
 
 [X] Clay Types 
+[X] Proper Exposure Support
+[X] Epic Knights Compat
