@@ -1,0 +1,20 @@
+{
+    "type": "firmalife:mixing_bowl",
+    "ingredients": [
+      {
+        "tag": "minecraft:sand"
+      },
+      {
+        "item": "tfc:powder/flux"
+      }
+    ],
+    "fluid_ingredient": {
+        "ingredient": "artisanal:molasses",
+        "amount": 200
+      },
+    "output_item": {
+      "item": "tfc:mortar",
+      "count": 64
+    }
+}
+
