@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LR",
+    "LC",
+    "LM"
+  ],
+  "key": {
+    "C": {
+      "item": "tfc:food/potato"
+    },
+    "L": {
+      "item": "createaddition:copper_wire"
+    },
+    "M": {
+      "item": "kubejs:oscillating_mechanism"
+    },
+    "R": {
+      "item": "tfc:metal/rod/steel"
+    }
+  },
+  "result": {
+    "item": "simpleradio:spuddie_talkie"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WSC",
+    "SMS",
+    "CSW"
+  ],
+  "key": {
+    "S": {
+      "item": "tfc:metal/ingot/tin"
+    },
+    "M": {
+      "item": "tfc:metal/rod/brass"
+    },
+    "C": {
+      "item": "create:electron_tube"
+    },
+    "W": {
+      "item": "tfc:metal/rod/copper"
+    }
+  },
+  "result": {
+    "item": "kubejs:oscillating_mechanism"
+  }
+}

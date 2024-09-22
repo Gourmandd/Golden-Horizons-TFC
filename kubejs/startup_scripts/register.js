@@ -33,6 +33,7 @@ event.create("hard_chhurpi").displayName("Hard Chhurpi").food(food => {food.hung
 
 event.create("unfired_shaft").displayName("Unfired Shaft")
 event.create("fired_shaft").displayName("Fired Shaft")
+event.create("oscillating_mechanism").displayName("Oscillating Mechanism")
 event.create("torque_mechanism").displayName("Torque Mechanism")
 
 colours.forEach(colour =>{event.create(colour.low + "_lens").displayName(colour.cap + " Lens")})

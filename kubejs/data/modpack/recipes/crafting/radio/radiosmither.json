@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R ",
+    "ECE",
+    " T "
+  ],
+  "key": {
+    "C": {
+      "item": "create:brass_casing"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    },
+    "T": {
+      "tag": "tfc:workbenches"
+    },
+    "R": {
+      "item": "tfc:metal/rod/steel"
+    }
+  },
+  "result": {
+    "item": "simpleradio:radiosmither"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RDR",
+    "LCL",
+    "WMW"
+  ],
+  "key": {
+    "C": {
+      "item": "create:brass_casing"
+    },
+    "W": {
+      "item": "create:cogwheel"
+    },
+    "D": {
+      "item": "create:display_link"
+    },
+    "L": {
+      "item": "minecraft:lever"
+    },
+    "M": {
+      "item": "kubejs:oscillating_mechanism"
+    },
+    "R": {
+      "item": "tfc:metal/rod/steel"
+    }
+  },
+  "result": {
+    "item": "simpleradio:radio"
+  }
+}
