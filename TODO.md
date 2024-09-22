@@ -25,7 +25,6 @@ These can change or are not fletched out properly. Though some of these are thou
 - Similar to the one above but for chalk making, will require a lot of datagen. ✅
 - Additions to the TFC guidebook. Similar to Addons it will have a chapter with modpack related info. Some of the additions could also be adding notes into the guide book about changes or additions the modpack makes. EX a "note" from the modpack in the mechanical power page on how to look into this before Create since Create power is steam engine exclusive. (low Stress vs High Stress network?) ✅
 - Adding metals, this might just be done through an addon mod and there are a lot of various ideas, the issues is finding more then 1 or 2 uses for a metal.
-- Adding and making minor compat for a mod that adds radios. (keep in mind that the mod needs to be available on Curseforge **and** Modrinth)
 - HeatJS allows for better TFC x Create compat, in theory the blaze burner can be replaced though how stuff will be done is up in the air.
 - Compat with a mod that adds some more in depth butchery system, of any kind. It could even be a "in-house" solution done through KJS though that might be difficult.
 - Expanded ore and chemical processing, without adding gates to existing ore processing AKA just melting the ore. This could be inspired by real life and could include things like slurry and tailing.
@@ -35,3 +34,4 @@ These can change or are not fletched out properly. Though some of these are thou
 [X] Clay Types 
 [X] Proper Exposure Support
 [X] Epic Knights Compat
+[X] Added Simple Radio mod

@@ -1,3 +1,5 @@
+Default Kubejs Readme
+
 Find out more info on the website: https://kubejs.com/
 
 Directory information:
@@ -13,3 +15,7 @@ config - KubeJS config storage. This is also the only directory that scripts can
 exported - Data dumps like texture atlases end up here
 
 You can find type-specific logs in logs/kubejs/ directory
+
+Modpacks Readme
+
+The options.txt is a backup of the default one with resourcepacks enabled, default keybinds can be edited in the file aswell
