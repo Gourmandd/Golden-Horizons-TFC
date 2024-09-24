@@ -6,7 +6,6 @@ Aether
 Aether Redux
 Aether Lost content
 Aether's Delight.
-Aether gravitation
 Deep Aether
 
 Resource Packs: Aether Regenerated,

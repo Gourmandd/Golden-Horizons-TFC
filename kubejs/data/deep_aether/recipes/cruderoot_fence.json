@@ -1,0 +1,20 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PLP",
+    "PLP"
+  ],
+  "key": {
+    "P": {
+      "item": "deep_aether:cruderoot_planks"
+    },
+    "L": {
+      "item": "kubejs:wood/lumber/cruderoot"
+    }
+  },
+  "result": {
+    "item": "deep_aether:cruderoot_fence",
+    "count": 8
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PLP",
+    "PLP"
+  ],
+  "key": {
+    "P": {
+      "item": "aether:skyroot_planks"
+    },
+    "L": {
+      "item": "kubejs:wood/lumber/skyroot"
+    }
+  },
+  "result": {
+    "item": "aether:skyroot_fence",
+    "count": 8
+  }
+}

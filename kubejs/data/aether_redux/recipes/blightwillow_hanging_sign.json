@@ -1,0 +1,21 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S S",
+    "LLL",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "item": "kubejs:wood/lumber/blightwillow"
+    },
+    "S": {
+      "item": "tfc:metal/chain/steel"
+    }
+  },
+  "result": {
+    "item": "aether_redux:blightwillow_hanging_sign",
+    "count": 3
+  }
+}

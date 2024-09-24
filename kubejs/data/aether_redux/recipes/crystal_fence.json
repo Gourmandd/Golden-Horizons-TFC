@@ -1,0 +1,20 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PLP",
+    "PLP"
+  ],
+  "key": {
+    "P": {
+      "item": "aether_redux:crystal_planks"
+    },
+    "L": {
+      "item": "kubejs:wood/lumber/crystal"
+    }
+  },
+  "result": {
+    "item": "aether_redux:crystal_fence",
+    "count": 8
+  }
+}

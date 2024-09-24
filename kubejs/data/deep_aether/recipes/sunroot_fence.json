@@ -1,0 +1,20 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PLP",
+    "PLP"
+  ],
+  "key": {
+    "P": {
+      "item": "deep_aether:sunroot_planks"
+    },
+    "L": {
+      "item": "kubejs:wood/lumber/sunroot"
+    }
+  },
+  "result": {
+    "item": "deep_aether:sunroot_fence",
+    "count": 8
+  }
+}

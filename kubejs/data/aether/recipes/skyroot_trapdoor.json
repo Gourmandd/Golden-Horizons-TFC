@@ -1,0 +1,17 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "item": "kubejs:wood/lumber/skyroot"
+    }
+  },
+  "result": {
+    "item": "aether:skyroot_trapdoor",
+    "count": 3
+  }
+}

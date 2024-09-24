@@ -1,0 +1,21 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL",
+    "LLL",
+    " S "
+  ],
+  "key": {
+    "L": {
+      "item": "kubejs:wood/lumber/cruderoot"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "deep_aether:cruderoot_sign",
+    "count": 3
+  }
+}

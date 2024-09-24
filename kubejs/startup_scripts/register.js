@@ -1,3 +1,4 @@
+
 let colours = [
     {"low": "blue", "cap" : "Blue", "hex" : 0xCDD7FC},
     {"low": "red", "cap" : "Red", "hex" : 0xE29F9F},
@@ -18,7 +19,24 @@ let colours = [
 
 ]
 
+let aether_wood_types = [
+    "skyroot",
+    "fieldsproot",
+    "blightwillow",
+    "cloudcap",
+    "jellyshroom",
+    "crystal",
+    "glacia",
+    "roseroot",
+    "yagroot",
+    "cruderoot",
+    "conberry",
+    "sunroot",
+]
 
+function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
 
 StartupEvents.registry("item", event =>{
 event.create("nettles").displayName("Nettles").food(food => {food.hunger(0)})
@@ -40,6 +58,10 @@ colours.forEach(colour =>{event.create(colour.low + "_lens").displayName(colour.
 /*
 event.create("jerky").displayName("Jerky").food(food => food)
 */
+
+aether_wood_types.forEach(type => {
+    event.create("kubejs:wood/lumber/" + type).displayName(capitalizeFirstLetter(type) + " Lumber")
+})
 
 event.create("soft_bark").displayName("Soft Bark")
 event.create("bark_paper").displayName("Bark Paper").tag("tfc:scrapable")
@@ -75,6 +97,7 @@ event.create("copper_machine").displayName("Copper Machine").tagBlock("minecraft
 event.create("brass_machine").displayName("Brass Machine").tagBlock("minecraft:mineable/pickaxe").tagBlock("minecraft:mineable/axe")
 
 })
+
 
 
 Platform.mods.kubejs.name = 'Horizons'

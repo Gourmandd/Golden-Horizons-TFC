@@ -1,0 +1,20 @@
+{
+    "replace": "false",
+    "values": [
+        "kubejs:wood/lumber/skyroot",
+        "kubejs:wood/lumber/fieldsproot",
+        "kubejs:wood/lumber/blightwillow",
+        "kubejs:wood/lumber/cloudcap",
+        "kubejs:wood/lumber/jellyshroom",
+        "kubejs:wood/lumber/crystal",
+        "kubejs:wood/lumber/glacia",
+        "kubejs:wood/lumber/roseroot",
+        "kubejs:wood/lumber/yagroot",
+        "kubejs:wood/lumber/cruderoot",
+        "kubejs:wood/lumber/conberry",
+        "kubejs:wood/lumber/sunroot",
+        "kubejs:wood/lumber/aerfin",
+        "kubejs:wood/lumber/beladon",
+        "kubejs:wood/lumber/enchanted"
+    ]
+}

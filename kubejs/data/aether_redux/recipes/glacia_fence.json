@@ -1,0 +1,20 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PLP",
+    "PLP"
+  ],
+  "key": {
+    "P": {
+      "item": "aether_redux:glacia_planks"
+    },
+    "L": {
+      "item": "kubejs:wood/lumber/glacia"
+    }
+  },
+  "result": {
+    "item": "aether_redux:glacia_fence",
+    "count": 8
+  }
+}

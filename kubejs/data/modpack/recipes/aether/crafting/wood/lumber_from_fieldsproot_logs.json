@@ -1,0 +1,16 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "aether_redux:fieldsproot_logs"
+    },
+    {
+      "tag": "tfc:saws"
+    }
+  ],
+  "result": {
+    "item": "kubejs:wood/lumber/fieldsproot",
+    "count": 8
+  }
+}

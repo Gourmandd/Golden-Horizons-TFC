@@ -1,0 +1,15 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LL"
+  ],
+  "key": {
+    "L": {
+      "item": "kubejs:wood/lumber/blightwillow"
+    }
+  },
+  "result": {
+    "item": "aether_redux:blightwillow_pressure_plate"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LL"
+  ],
+  "key": {
+    "L": {
+      "item": "kubejs:wood/lumber/fieldsproot"
+    }
+  },
+  "result": {
+    "item": "aether_redux:fieldsproot_pressure_plate"
+  }
+}

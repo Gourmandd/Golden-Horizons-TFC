@@ -1,0 +1,21 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL",
+    "LLL",
+    " S "
+  ],
+  "key": {
+    "L": {
+      "item": "kubejs:wood/lumber/skyroot"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "aether:skyroot_sign",
+    "count": 3
+  }
+}

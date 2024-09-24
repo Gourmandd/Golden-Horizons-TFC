@@ -1,0 +1,14 @@
+{
+    "replace": false,
+    "values": [
+        "#gravitation:aerfin_logs",
+        "#gravitation:beladon_logs",
+        "#gravitation:enchanted_logs",
+        "#aether_redux:glacia_logs",
+        "#aether_redux:crystal_logs",
+        "#aether_redux:jellyshroom_stems",
+        "#aether_redux:cloudcap_stems",
+        "#aether_redux:blightwillow_logs",
+        "#aether_redux:fieldsproot_logs"
+    ]
+}
