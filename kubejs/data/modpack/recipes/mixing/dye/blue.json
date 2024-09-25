@@ -3,7 +3,7 @@
   "type": "create:mixing",
   "ingredients": [
     {
-      "item": "minecraft:dark_blue_dye"
+      "item": "minecraft:blue_dye"
     },
     {
       "fluid": "minecraft:water",
@@ -12,7 +12,7 @@
   ],
   "results": [
     {
-      "fluid": "tfc:dark_blue_dye",
+      "fluid": "tfc:blue_dye",
       "amount": 1000
     }
   ],

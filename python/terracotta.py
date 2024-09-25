@@ -18,7 +18,7 @@ colours = [
     "light_gray",
     "cyan",
     "purple",
-    "dark_blue",
+    "blue",
 ]
 
 def bricks_recipe(colour):

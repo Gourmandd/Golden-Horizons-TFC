@@ -3,7 +3,7 @@
   "type": "create:filling",
   "ingredients": [
     {
-      "item": "firmalife:ceramic/ingot_mold",
+      "item": "tfc:ceramic/ingot_mold",
       "nbt": ""
     },
     {

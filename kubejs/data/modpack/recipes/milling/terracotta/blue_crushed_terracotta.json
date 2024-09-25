@@ -3,12 +3,16 @@
   "type": "create:milling",
   "ingredients": [
     {
-      "item": "minecraft:dark_blue_terracotta"
+      "item": "kubejs:terracotta/crushed_blue"
     }
   ],
   "results": [
     {
-      "item": "kubejs:terracotta/crushed_dark_blue"
+      "item": "kubejs:terracotta/shard_blue"
+    },
+    {
+      "item": "kubejs:terracotta/shard_blue",
+      "chance": 0.5
     }
   ],
   "processingTime": 50

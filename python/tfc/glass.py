@@ -96,18 +96,15 @@ def filling_recipe(resource_location, input_item, input_fluid, amount, output_it
     rm.data(resource_location, {
     "type": "create:filling",
     "ingredients": [
-    {
-        "item": input_item
-    },
+    input_item
+    ,
     {
         "amount": amount,
         "fluid": input_fluid
     }
     ],
     "results": [
-    {
-        "item": output_item
-    }
+        output_item
     ]
     }
     )
@@ -265,14 +262,14 @@ def casting(colour):
     casting_recipe("modpack:recipes/glass/casting/pane/clear", "kubejs:glass/clear", 50, "minecraft:glass_pane", "kubejs:glass_pane_mold")
 
 def filling(colour):
-    filling_recipe("modpack:recipes/glass/filling/pane/" + colour, "kubejs:glass_pane_mold", "kubejs:glass/" + colour, 50, {"item": "kubejs:glass_pane_mold", "nbt": {"tank":{"Amount":50,"FluidName":"kubejs:glass/" + colour}}})
-    filling_recipe("modpack:recipes/glass/filling/glass/" + colour, "kubejs:glass_mold", "kubejs:glass/" + colour, 800, {"item": "kubejs:glass_mold", "nbt": {"tank":{"Amount": 800,"FluidName":"kubejs:glass/" + colour}}})
+    filling_recipe("modpack:recipes/glass/filling/pane/" + colour, {"item": "kubejs:glass_pane_mold", "nbt": ""}, "kubejs:glass/" + colour, 50, {"item": "kubejs:glass_pane_mold", "nbt": {"tank":{"Amount":50,"FluidName":"kubejs:glass/" + colour}}})
+    filling_recipe("modpack:recipes/glass/filling/glass/" + colour, {"item": "kubejs:glass_mold", "nbt": ""}, "kubejs:glass/" + colour, 800, {"item": "kubejs:glass_mold", "nbt": {"tank":{"Amount": 800,"FluidName":"kubejs:glass/" + colour}}})
 
     filling_recipe("modpack:recipes/glass/filling/molten_glass/" + colour, "tfc:powder/flux", "kubejs:glass/" + colour, 800, "kubejs:molten_glass/" + colour )
 
 
-    filling_recipe("modpack:recipes/glass/filling/pane/clear", "kubejs:glass_pane_mold", "kubejs:glass/clear", 50, {"item": "kubejs:glass_pane_mold", "nbt": {"tank":{"Amount":50,"FluidName":"kubejs:glass/clear"}}})
-    filling_recipe("modpack:recipes/glass/filling/glass/clear", "kubejs:glass_mold", "kubejs:glass/clear", 800, {"item": "kubejs:glass_mold", "nbt": {"tank":{"Amount": 800,"FluidName":"kubejs:glass/clear"}}})
+    filling_recipe("modpack:recipes/glass/filling/pane/clear", {"item": "kubejs:glass_pane_mold", "nbt": ""}, "kubejs:glass/clear", 50, {"item": "kubejs:glass_pane_mold", "nbt": {"tank":{"Amount":50,"FluidName":"kubejs:glass/clear"}}})
+    filling_recipe("modpack:recipes/glass/filling/glass/clear", {"item": "kubejs:glass_mold", "nbt": ""}, "kubejs:glass/clear", 800, {"item": "kubejs:glass_mold", "nbt": {"tank":{"Amount": 800,"FluidName":"kubejs:glass/clear"}}})
 
     filling_recipe("modpack:recipes/glass/filling/molten_glass/clear", "tfc:powder/flux", "kubejs:glass/clear", 800, "kubejs:molten_glass/clear" ) 
 
