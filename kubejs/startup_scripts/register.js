@@ -49,6 +49,7 @@ event.create("mozzarella").displayName("Mozzarella").food(food => {food.hunger(0
 event.create("soft_chhurpi").displayName("Soft Chhurpi").food(food => {food.hunger(0)})
 event.create("hard_chhurpi").displayName("Hard Chhurpi").food(food => {food.hunger(0)})
 
+event.create("quicksoil_glass_batch").displayName("Quicksoil Glass Batch")
 event.create("unfired_shaft").displayName("Unfired Shaft")
 event.create("fired_shaft").displayName("Fired Shaft")
 event.create("oscillating_mechanism").displayName("Oscillating Mechanism")
@@ -72,6 +73,7 @@ colours.forEach(colour => {event.create("terracotta/shard_" + colour.low).displa
 
 StartupEvents.registry("fluid", event =>{
 
+//event.create("glass/quicksoil").bucketColor(0xFFB141).thinTexture(0xFFB141).displayName("Molten Quicksoil Glass").bucketColor(0xFFB141).thickTexture(0xFFB141).noBucket().noBlock().tag("tfc:molten_metals").tag("kubejs:molten_glass")
 event.create("brew").bucketColor(0x300C0B).thinTexture(0x300C0B).displayName("Brew")
 event.create("garum").bucketColor(0x321C0B).thinTexture(0x321C0B).displayName("Garum")
 
@@ -91,7 +93,7 @@ event.create("molten_glass/" + colour.low).displayName(colour.cap + " Glass Blob
 })
 event.create("molten_glass/clear").displayName("Clear Glass Blob").color(0xD4FBFB).textureAll("kubejs:block/thick_fluid_flow").tagBlock("minecraft:mineable/pickaxe").soundType("glass").requiresTool(true)
 
-
+event.create("quicksoil_poured_glass").displayName("Quicksoil Poured Glass").soundType("glass").renderType("translucent").box(0,0,0,16,1,16).noValidSpawns(true).transparent(true).defaultTranslucent().hardness(0.3)//.noItem()
 event.create("andesite_machine").displayName("Andesite Machine").tagBlock("minecraft:mineable/pickaxe").tagBlock("minecraft:mineable/axe")
 event.create("copper_machine").displayName("Copper Machine").tagBlock("minecraft:mineable/pickaxe").tagBlock("minecraft:mineable/axe")
 event.create("brass_machine").displayName("Brass Machine").tagBlock("minecraft:mineable/pickaxe").tagBlock("minecraft:mineable/axe")

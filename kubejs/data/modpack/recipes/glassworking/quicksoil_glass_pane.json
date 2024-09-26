@@ -1,0 +1,12 @@
+{
+  "type": "tfc:glassworking",
+  "operations": [
+    "table_pour"
+  ],
+  "batch": {
+    "item": "kubejs:quicksoil_glass_batch"
+  },
+  "result": {
+    "item": "kubejs:quicksoil_poured_glass"
+  }
+}

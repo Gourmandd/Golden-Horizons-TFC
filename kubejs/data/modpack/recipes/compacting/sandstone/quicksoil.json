@@ -1,0 +1,17 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+      {
+        "item": "aether:quicksoil"
+      },
+      {
+        "item": "aether:quicksoil"
+      }
+    ],
+    "results": [
+      {
+        "item": "aether_redux:driftshale"
+      }
+    ],
+    "heatRequirement": "heated"
+  }

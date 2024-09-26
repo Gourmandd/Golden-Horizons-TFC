@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "aether_redux:driftshale"
+    },
+    {
+      "tag": "tfc:chisels"
+    }
+  ],
+  "result": {
+    "item": "aether_redux:polished_driftshale"
+  }
+}
