@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "P  ",
+    "PP ",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "aether:aerogel"
+    }
+  },
+  "result": {
+    "item": "aether:aerogel_stairs",
+    "count": 8
+  }
+}

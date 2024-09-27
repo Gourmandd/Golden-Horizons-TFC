@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "P  ",
+    "PP ",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "deep_aether:cobbled_aseterite"
+    }
+  },
+  "result": {
+    "item": "deep_aether:cobbled_aseterite_stairs",
+    "count": 8
+  }
+}

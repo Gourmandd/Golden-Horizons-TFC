@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "P  ",
+    "PP ",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "aether_redux:gilded_holystone"
+    }
+  },
+  "result": {
+    "item": "aether_redux:gilded_holystone_stairs",
+    "count": 8
+  }
+}

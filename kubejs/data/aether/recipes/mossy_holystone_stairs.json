@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "P  ",
+    "PP ",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "aether:mossy_holystone"
+    }
+  },
+  "result": {
+    "item": "aether:mossy_holystone_stairs",
+    "count": 8
+  }
+}

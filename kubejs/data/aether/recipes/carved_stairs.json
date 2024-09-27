@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "P  ",
+    "PP ",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "aether:carved_stone"
+    }
+  },
+  "result": {
+    "item": "aether:carved_stairs",
+    "count": 8
+  }
+}

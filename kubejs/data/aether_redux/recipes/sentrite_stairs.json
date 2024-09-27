@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "P  ",
+    "PP ",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "aether_redux:sentrite"
+    }
+  },
+  "result": {
+    "item": "aether_redux:sentrite_stairs",
+    "count": 8
+  }
+}
