@@ -1,0 +1,21 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " T ",
+    "TCT",
+    " T "
+  ],
+  "key": {
+    "T": {
+      "item": "minecraft:blue_terracotta"
+    },
+    "C": {
+      "tag": "tfc:chisels"
+    }
+  },
+  "result": {
+    "item": "hearth_and_home:blue_terracotta_bricks",
+    "count": 4
+  }
+}

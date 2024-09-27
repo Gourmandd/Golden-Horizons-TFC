@@ -3,7 +3,8 @@
   "type": "create:filling",
   "ingredients": [
     {
-      "item": "kubejs:glass_pane_mold"
+      "item": "kubejs:glass_pane_mold",
+      "nbt": ""
     },
     {
       "amount": 50,
@@ -12,13 +13,11 @@
   ],
   "results": [
     {
-      "item": {
-        "item": "kubejs:glass_pane_mold",
-        "nbt": {
-          "tank": {
-            "Amount": 50,
-            "FluidName": "kubejs:glass/red"
-          }
+      "item": "kubejs:glass_pane_mold",
+      "nbt": {
+        "tank": {
+          "Amount": 50,
+          "FluidName": "kubejs:glass/red"
         }
       }
     }

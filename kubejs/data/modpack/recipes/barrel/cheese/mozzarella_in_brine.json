@@ -3,7 +3,7 @@
     "input_item": {
       "ingredient": {
         "type": "tfc:not_rotten",
-        "ingredient": "kubejs:mozzarella"
+        "item": "kubejs:mozzarella"
       }
     },
     "input_fluid": {
