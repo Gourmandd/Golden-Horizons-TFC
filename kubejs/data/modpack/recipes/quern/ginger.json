@@ -1,0 +1,10 @@
+{
+    "type": "tfc:quern",
+    "ingredient": {
+        "item": "aethersdelight:ginger"
+    },
+    "result": {
+      "item": "aethersdelight:ginger_spice",
+      "count": 2
+    }
+  }

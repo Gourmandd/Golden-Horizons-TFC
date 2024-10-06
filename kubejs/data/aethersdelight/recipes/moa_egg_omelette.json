@@ -1,0 +1,54 @@
+{
+    "type": "tfc:advanced_shapeless_crafting",
+    "category": "misc",
+    "ingredients": [
+    {
+        "type": "tfc:not_rotten",
+        "ingredient": {
+        "item": "aethersdelight:fried_moa_egg"
+        }
+    },
+    {
+        "type": "tfc:not_rotten",
+        "ingredient": {
+        "item": "aethersdelight:leek"
+        }
+    },
+    {
+        "type": "tfc:not_rotten",
+        "ingredient": {
+        "tag": "forge:vegetables/aether"
+        }
+    },
+    {   
+        "type": "tfc:not_rotten",
+        "ingredient": {
+        "item": "minecraft:bowl"
+        }
+    }
+    ],
+    "result": {
+        "stack": {
+          "item": "aethersdelight:moa_egg_omelette",
+          "count": 1
+        },
+        "modifiers": [
+          {
+            "type": "tfc:meal",
+            "food": {
+              "hunger": 4,
+              "water": 0.5,
+              "saturation": 1,
+              "decay_modifier": 4.5
+            },
+            "portions": [
+              {
+                "nutrient_modifier": 1.3,
+                "water_modifier": 1.3,
+                "saturation_modifier": 1.3
+              }
+            ]
+          }
+        ]
+      }
+  }

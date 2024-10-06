@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "item": "aethersdelight:arkenium_ingot"
+  },
+  "result": {
+    "item": "aethersdelight:arkenium_chain",
+    "count": 16
+  },
+  "tier": 2,
+  "rules": [
+    "hit_any",
+    "hit_any",
+    "draw_last"
+  ]
+}

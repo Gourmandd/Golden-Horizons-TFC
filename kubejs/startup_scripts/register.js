@@ -40,6 +40,7 @@ function capitalizeFirstLetter(string) {
 
 StartupEvents.registry("item", event =>{
 event.create("nettles").displayName("Nettles").food(food => {food.hunger(0)})
+event.create("candied_apple").displayName("Candied Apple").food(food => {food.hunger(0)})
 
 event.create("halloumi").displayName("Halloumi").food(food => {food.hunger(0)})
 event.create("fried_halloumi").displayName("Fried Halloumi").food(food => {food.hunger(0)})
@@ -84,6 +85,8 @@ event.create("glass/clear").displayName("Molten Clear Glass").bucketColor(0xD4FB
 
 StartupEvents.registry("block", event =>{
 
+event.create("arkenium_anvil", "tfc:anvil").displayName("Arkenium Anvil").tier(0).tagBlock("minecraft:mineable/pickaxe").soundType("stone").requiresTool().texture('top', "aethersdelight:block/raw_arkenium_block").texture('side', "aethersdelight:block/arkenium_blast_furnace_top")
+
 event.create("nettles_bush", "tfc:stationary_berry_bush").productItem("kubejs:nettles").lifecycle("january", "healthy").lifecycle("february", "healthy").lifecycle("march", "flowering").lifecycle("april", "flowering").lifecycle("june", "fruiting").lifecycle("july", "fruiting").tagBlock("minecraft:mineable/hoe").hardness(0.5).soundType("grass")
 event.create("felsic_tuff_mixture").displayName("Felsic Tuff Mixture").soundType("sand").tagBlock("minecraft:mineable/shovel")
 
@@ -93,7 +96,7 @@ event.create("molten_glass/" + colour.low).displayName(colour.cap + " Glass Blob
 })
 event.create("molten_glass/clear").displayName("Clear Glass Blob").color(0xD4FBFB).textureAll("kubejs:block/thick_fluid_flow").tagBlock("minecraft:mineable/pickaxe").soundType("glass").requiresTool(true)
 
-event.create("quicksoil_poured_glass").displayName("Quicksoil Poured Glass").soundType("glass").renderType("translucent").box(0,0,0,16,1,16).noValidSpawns(true).transparent(true).defaultTranslucent().hardness(0.3)//.noItem()
+event.create("quicksoil_poured_glass").displayName("Quicksoil Poured Glass").soundType("glass").renderType("translucent").box(0,0,0,16,1,16).noValidSpawns(true).transparent(true).defaultTranslucent().hardness(0.3).tag("c:hidden_from_recipe_viewers")
 event.create("andesite_machine").displayName("Andesite Machine").tagBlock("minecraft:mineable/pickaxe").tagBlock("minecraft:mineable/axe")
 event.create("copper_machine").displayName("Copper Machine").tagBlock("minecraft:mineable/pickaxe").tagBlock("minecraft:mineable/axe")
 event.create("brass_machine").displayName("Brass Machine").tagBlock("minecraft:mineable/pickaxe").tagBlock("minecraft:mineable/axe")

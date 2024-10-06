@@ -102,6 +102,11 @@ BlockEvents.rightClicked("farmersdelight:rich_soil", event =>{
     event.cancel() //cant till the soil anymore. Used for growing mushrooms
 })
 
+// so, I forgot create has a recipe type for this....
+//BlockEvents.rightClicked("aethersdelight:arkenium_block", event =>{
+//    if (event.player.mainHandItem.hasTag("tfc:chisels")){event.block.set("kubejs:arkenium_anvil"); event.cancel}
+//})
+
 TFCEvents.data(event =>{
     event.climateRange(climate => {
         climate.maxHydration(70)
@@ -112,5 +117,3 @@ TFCEvents.data(event =>{
     }, 'kubejs:nettles_bush')
 })
 
-ServerEvents.tags('item', event => {
-})

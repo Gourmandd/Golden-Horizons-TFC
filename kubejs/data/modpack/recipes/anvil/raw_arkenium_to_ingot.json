@@ -1,0 +1,15 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+      "item": "aethersdelight:raw_arkenium"
+    },
+    "result": {
+      "item": "aethersdelight:arkenium_ingot"
+    },
+    "tier": -1,
+    "rules": [
+      "hit_any",
+      "hit_any",
+      "hit_any"
+    ]
+  }

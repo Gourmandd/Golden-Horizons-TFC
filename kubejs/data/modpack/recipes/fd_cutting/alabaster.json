@@ -1,18 +1,17 @@
 {
-  "__comment__": "This file was automatically created by mcresources",
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "tag": "modpack:cutting/alabaster_brick"
+      "item": "aethersdelight:peppermint_candy_dough"
     }
   ],
   "result": [
     {
-      "item": "tfc:alabaster_brick"
+      "item": "aethersdelight:peppermint_candy",
+      "count": 4
     }
   ],
   "tool": {
-    "type": "farmersdelight:tool_action",
-    "action": "pickaxe_dig"
+    "tag": "forge:tools/knives"
   }
 }

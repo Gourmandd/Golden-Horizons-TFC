@@ -46,6 +46,8 @@ replace_materials("#minecraft:fox_food", "#forge:fruits/berries")
 replace_materials("minecraft:dirt", "#minecraft:dirt")
 replace_materials("farmersdelight:cooked_bacon", "firmalife:food/cooked_bacon")
 
+//replace_materials("minecraft:apple", "tfc:foods/apples")
+
 events.replaceInput({input: "minecraft:sand",not:{output: /.*sandstone.*/} }, "minecraft:sand", "#forge:sand")
 
 events.replaceInput({input: "minecraft:string", not:{type: "tfc:loom"}}, "minecraft:string", "#forge:string")

@@ -1,0 +1,15 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+      "item": "aethersdelight:arkenium_ingot"
+    },
+    "result": {
+      "item": "aethersdelight:cookie_cutter_moa"
+    },
+    "tier": 0,
+    "rules": [
+      "hit_last",
+      "bend_any",
+      "punch_third_last"
+    ]
+  }

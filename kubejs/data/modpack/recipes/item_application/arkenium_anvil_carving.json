@@ -1,0 +1,16 @@
+{
+    "type": "create:item_application",
+    "ingredients": [
+      {
+        "item": "aethersdelight:arkenium_block"
+      },
+      {
+        "tag": "tfc:chisels"
+      }
+    ],
+    "results": [
+      {
+        "item": "kubejs:arkenium_anvil"
+      }
+    ]
+  }

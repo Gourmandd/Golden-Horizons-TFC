@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BBB",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "aethersdelight:raw_arkenium"
+    }
+  },
+  "result": {
+    "item": "aethersdelight:raw_arkenium_block"
+  }
+}

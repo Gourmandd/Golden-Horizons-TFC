@@ -1,0 +1,14 @@
+{
+  "type": "firmalife:oven",
+  "ingredient": {
+    "type": "tfc:not_rotten",
+    "ingredient": {
+      "item": "aethersdelight:gingerbread_star_base"
+    }
+  },
+  "result_item": {
+    "item": "aethersdelight:gingerbread_star"
+  },
+  "temperature": 400,
+  "duration": 1000
+}

@@ -1,0 +1,16 @@
+{
+  "type": "tfc:glassworking",
+  "operations": [
+    "blow",
+    "iron",
+    "soda_ash",
+    "pinch",
+    "saw"
+  ],
+  "batch": {
+    "item": "tfc:silica_glass_batch"
+  },
+  "result": {
+    "item": "minecraft:glass_bottle"
+  }
+}
