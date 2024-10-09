@@ -2,19 +2,23 @@
     "type": "firmalife:mixing_bowl",
     "ingredients": [
       {
-        "item": "minecraft:clay_ball"
+        "item": "tfc:powder/salt"
       },
       {
-        "item": "minecraft:clay_ball"
+        "type": "tfc:not_rotten",
+        "ingredient": {"item": "aethersdelight:ginger_spice"}
       },
       {
-        "item": "tfc:powder/kaolinite"
+        "type": "tfc:not_rotten",
+        "ingredient": {"tag": "tfc:foods/flour"}
       },
       {
-        "item": "tfc:powder/kaolinite"
+        "type": "tfc:not_rotten",
+        "ingredient": {"tag": "tfc:sweetener"}
       },
       {
-        "item": "minecraft:bone_meal"
+        "type": "tfc:not_rotten",
+        "ingredient": {"tag": "forge:eggs"}
       }
     ],
     "fluid_ingredient": {
@@ -22,8 +26,8 @@
         "amount": 1000
       },
     "output_item": {
-      "item": "kubejs:clay/porcelain_clay_ball",
-      "count": 2
+      "item": "aethersdelight:gingerbread_dough",
+      "count": 3
     }
 }
 

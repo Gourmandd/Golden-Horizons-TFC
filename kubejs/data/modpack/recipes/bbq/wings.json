@@ -1,10 +1,10 @@
 {
     "type": "barbequesdelight:grilling",
     "ingredient": {
-      "item": "firmalife:food/bacon"
+      "item": "aethersdelight:wing"
     },
     "output": { 
-      "item": "firmalife:food/cooked_bacon"
+      "item": "aethersdelight:cooked_wing"
     },
     "barbecuingTime": 320
   }

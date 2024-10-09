@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {"item": "aether:swet_ball"}
+    },
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {"item": "aether:blue_berry"}
+    }
+  ],
+  "result": {
+    "item": "aethersdelight:swet_soup"
+  }
+}

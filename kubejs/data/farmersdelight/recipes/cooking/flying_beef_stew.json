@@ -1,0 +1,37 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {"item": "aethersdelight:ginger"}
+    },
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": [{"item": "aethersdelight:wing"},{"item": "aethersdelight:cooked_wing"}]
+      
+    },
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": [{"item": "aethersdelight:wing"},{"item": "aethersdelight:cooked_wing"}]
+      
+    },
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {"tag": "modpack:beef"}
+      
+    },
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {"tag": "tfc:sandwich_bread"}
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "aethersdelight:flying_beef_stew"
+  }
+}

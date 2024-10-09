@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {
+        "type": "tfc:not_rotten",
+        "ingredient": {"item": "aether:white_apple"}
+      },
+      "P": {
+        "type": "tfc:not_rotten",
+        "ingredient": {"item": "farmersdelight:pie_crust"}
+        
+      },
+      "S": {
+        "type": "tfc:not_rotten",
+        "ingredient": {"item": "minecraft:sugar"}
+        
+      }
+    },
+    "pattern": [
+      "A",
+      "S",
+      "P"
+    ],
+    "result": {
+      "item": "aethersdelight:white_apple_pie"
+    }
+  }

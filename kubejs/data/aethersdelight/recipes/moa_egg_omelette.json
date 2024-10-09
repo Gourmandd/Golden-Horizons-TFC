@@ -21,10 +21,7 @@
         }
     },
     {   
-        "type": "tfc:not_rotten",
-        "ingredient": {
         "item": "minecraft:bowl"
-        }
     }
     ],
     "result": {
@@ -36,10 +33,10 @@
           {
             "type": "tfc:meal",
             "food": {
-              "hunger": 4,
-              "water": 0.5,
-              "saturation": 1,
-              "decay_modifier": 4.5
+              "hunger": 2,
+              "water": 0,
+              "saturation": 4,
+              "decay_modifier": 9
             },
             "portions": [
               {

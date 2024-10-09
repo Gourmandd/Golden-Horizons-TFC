@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "aethersdelight:raw_moa"
+  },
+  "result_item": {
+    "stack": {
+      "item": "aethersdelight:cooked_moa"
+    }
+  },
+  "temperature": 200
+}

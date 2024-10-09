@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "aethersdelight:raw_wing"
+  },
+  "result_item": {
+    "stack": {
+      "item": "aethersdelight:cooked_wing"
+    }
+  },
+  "temperature": 200
+}

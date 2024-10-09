@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "B": {
+        "type": "tfc:not_rotten",
+        "ingredient": {"item": "aether:enchanted_berry"}
+      },
+      "M": {
+        "type": "tfc:not_rotten",
+        "ingredient": {"item": "farmersdelight:milk_bottle"}
+      },
+      "S": {
+        "type": "tfc:not_rotten",
+        "ingredient": {"tag": "tfc:sweetener"}
+      },
+      "F": {
+        "type": "tfc:not_rotten",
+        "ingredient": {"tag": "tfc:foods/flour"}
+      }
+    },
+    "pattern": [
+      "BSB",
+      "FMF"
+    ],
+    "result": {
+      "count": 2,
+      "item": "aethersdelight:enchanted_berry_muffin"
+    }
+  }

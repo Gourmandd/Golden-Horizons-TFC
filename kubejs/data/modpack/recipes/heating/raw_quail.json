@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "deep_aether:raw_quail"
+  },
+  "result_item": {
+    "stack": {
+      "item": "deep_aether:cooked_quail"
+    }
+  },
+  "temperature": 200
+}

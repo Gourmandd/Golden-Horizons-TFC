@@ -1,10 +1,10 @@
 {
     "type": "barbequesdelight:grilling",
     "ingredient": {
-      "item": "firmalife:food/bacon"
+      "item": "aethersdelight:raw_moa_cuts"
     },
     "output": { 
-      "item": "firmalife:food/cooked_bacon"
+      "item": "aethersdelight:cooked_moa_cuts"
     },
     "barbecuingTime": 320
   }

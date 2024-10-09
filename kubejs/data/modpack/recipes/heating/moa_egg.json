@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "aether:moa_egg"
+  },
+  "result_item": {
+    "stack": {
+      "item": "aethersdelight:fried_moa_egg"
+    }
+  },
+  "temperature": 200
+}

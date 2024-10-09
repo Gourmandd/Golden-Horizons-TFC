@@ -1,10 +1,10 @@
 {
     "type": "barbequesdelight:grilling",
     "ingredient": {
-      "item": "firmalife:food/bacon"
+      "tag": "aether:moa_eggs"
     },
     "output": { 
-      "item": "firmalife:food/cooked_bacon"
+      "item": "aethersdelight:fried_moa_egg"
     },
     "barbecuingTime": 320
   }
