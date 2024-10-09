@@ -3,6 +3,7 @@
     "minecraft:heavy_weighted_pressure_plate",
     "minecraft:iron_door",
     "quark:grate",
+    "minecraft:iron_button",
     "quark:iron_button",
     "tfccanes:refined_walking_cane",
     "afc:tree_tap",
@@ -15,6 +16,7 @@
     "create:redstone_contact",
     "firmalife:pie_pan",
     "firmalife:oven_insulation",
+    "createaddition:spool",
     "createaddition:iron_wire",
     "farmersdelight:iron_knife"
   ]

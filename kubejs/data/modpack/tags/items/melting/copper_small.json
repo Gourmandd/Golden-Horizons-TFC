@@ -7,6 +7,8 @@
     "create:copper_casing",
     "create:copper_ladder",
     "create:copper_bars",
+    "create:copper_nugget",
+    "createaddition:copper_spool",
     "create:copper_scaffolding",
     "create:item_drain",
     "create:spout",

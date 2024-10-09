@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "createaddition:electrum_wire"
+  },
+  "result_fluid": {
+    "fluid": "kubejs:electrum",
+    "amount": 25
+  },
+  "temperature": 1060
+}

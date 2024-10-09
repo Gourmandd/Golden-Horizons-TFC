@@ -1,0 +1,14 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "amount": 100,
+      "fluid": "kubejs:electrum"
+    }
+  ],
+  "results": [
+    {
+      "item": "createaddition:electrum_sheet"
+    }
+  ]
+}

@@ -2,8 +2,10 @@
   "values": [
     "quark:gold_bars",
     "minecraft:light_weighted_pressure_plate",
+    "minecraft:gold_nugget",
     "quark:gold_button",
     "createaddition:gold_wire",
+    "createaddition:gold_spool",
     "create:steam_whistle",
     "create:goggles"
   ]

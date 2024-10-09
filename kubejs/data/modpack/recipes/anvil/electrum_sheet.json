@@ -1,0 +1,15 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "item": "createaddition:electrum_ingot"
+  },
+  "result": {
+    "item": "createaddition:electrum_sheet"
+  },
+  "tier": 2,
+  "rules": [
+    "hit_last",
+    "hit_second_last",
+    "hit_third_last"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "createaddition:electrum_spool"
+  },
+  "result_fluid": {
+    "fluid": "kubejs:electrum",
+    "amount": 100
+  },
+  "result_item": {
+    "stack": {
+        "item": "createaddition:spool",
+        "count": 1
+    },
+    "modifiers": [
+        {
+            "type": "tfc:add_heat",
+            "temperature": 1080
+        }
+    ]
+  },
+  "temperature": 1060
+}

@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "createaddition:electrum_nugget"
+  },
+  "result_fluid": {
+    "fluid": "kubejs:electrum",
+    "amount": 10
+  },
+  "temperature": 1060
+}

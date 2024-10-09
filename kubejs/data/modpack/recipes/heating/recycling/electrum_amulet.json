@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "createaddition:electrum_amulet"
+  },
+  "result_fluid": {
+    "fluid": "kubejs:electrum",
+    "amount": 350
+  },
+  "temperature": 1060
+}

@@ -1,0 +1,15 @@
+{
+  "tier": 1,
+  "fluid": "kubejs:electrum",
+  "melt_temperature": 1060,
+  "specific_heat_capacity": 0.02143,
+  "ingots": {
+    "item": "createaddition:electrum_ingot"
+  },
+  "double_ingots": {
+    "item": "minecraft:netherrack"
+  },
+  "sheets": {
+    "item": "minecraft:netherrack"
+  }
+}

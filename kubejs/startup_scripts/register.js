@@ -75,12 +75,13 @@ colours.forEach(colour => {event.create("terracotta/shard_" + colour.low).displa
 StartupEvents.registry("fluid", event =>{
 
 //event.create("glass/quicksoil").bucketColor(0xFFB141).thinTexture(0xFFB141).displayName("Molten Quicksoil Glass").bucketColor(0xFFB141).thickTexture(0xFFB141).noBucket().noBlock().tag("tfc:molten_metals").tag("kubejs:molten_glass")
-event.create("brew").bucketColor(0x300C0B).thinTexture(0x300C0B).displayName("Brew")
-event.create("garum").bucketColor(0x321C0B).thinTexture(0x321C0B).displayName("Garum")
+event.create("brew").bucketColor(0x300C0B).thinTexture(0x300C0B).displayName("Brew").noBlock()
+event.create("garum").bucketColor(0x321C0B).thinTexture(0x321C0B).displayName("Garum").noBlock()
 
 colours.forEach(colour => {
 event.create("glass/" + colour.low).displayName("Molten " + colour.cap + " Glass").bucketColor(colour.hex).thickTexture(colour.hex).noBucket().noBlock().tag("tfc:molten_metals").tag("kubejs:molten_glass")})
 event.create("glass/clear").displayName("Molten Clear Glass").bucketColor(0xD4FBFB).thickTexture(0xD4FBFB).noBucket().noBlock().tag("tfc:molten_metals").tag("kubejs:molten_glass")
+event.create("electrum").displayName("Electrum").bucketColor(0xFFF10F).thickTexture(0xFFF10F).noBucket().noBlock().tag("tfc:molten_metals")
 })
 
 StartupEvents.registry("block", event =>{

@@ -1,0 +1,16 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+      "item": "tfc:metal/ingot/cast_iron"
+    },
+    "result": {
+      "item": "createaddition:spool",
+      "count": 4
+    },
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "shrink_second_last",
+      "draw_any"
+    ]
+  }
