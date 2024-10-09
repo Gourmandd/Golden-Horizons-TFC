@@ -107,6 +107,21 @@ BlockEvents.rightClicked("farmersdelight:rich_soil", event =>{
 //    if (event.player.mainHandItem.hasTag("tfc:chisels")){event.block.set("kubejs:arkenium_anvil"); event.cancel}
 //})
 
+
+// This could lead to something like a recipe type or just an interaction, could be funny or not funny. But it doesnt work since I dont know how to get the item to drop
+/*
+EntityEvents.death(event =>{
+    let source = event.getSource()
+    let entity = event.getEntity().getName()
+    
+    if (source + "" == "DamageSource (create.crush)" & entity == "translation{key='entity.minecraft.creeper', args=[]}"){
+        event.server.runCommand("/tell @a its a creeper")
+        let position_z = event.getEntity().getPosition().z()
+        event.server.runCommand("/tell @a its a creeper" + position_z)
+    }   
+    //event.server.runCommand("/tell @a " + source)
+})*/
+
 TFCEvents.data(event =>{
     event.climateRange(climate => {
         climate.maxHydration(70)
