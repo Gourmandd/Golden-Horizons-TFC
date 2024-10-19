@@ -54,7 +54,7 @@ def mold_filling(mod, metal):
        {"item": "tfc:ceramic/fire_ingot_mold",
         "nbt": {"tank":{"Amount":100,"FluidName": mod +":metal/" + metal}}},
     ]
-    })
+})
 
 
 def fluid_to_sheet(mod, metal):
