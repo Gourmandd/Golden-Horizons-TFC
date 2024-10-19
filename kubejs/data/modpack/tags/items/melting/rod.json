@@ -1,0 +1,9 @@
+{
+  "values": [
+    "kubejs:metal/rod/aluminium",
+    "kubejs:metal/rod/aluminium_bronze",
+    "kubejs:metal/rod/cast_iron_alloy",
+    "kubejs:metal/rod/harderned_steel",
+    "kubejs:metal/rod/nethersteel"
+  ]
+}

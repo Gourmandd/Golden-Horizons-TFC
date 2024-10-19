@@ -1,0 +1,21 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "kubejs:metal/sheet/cast_iron_alloy"
+    },
+    {
+      "item": "tfc:powder/flux"
+    },
+    {
+      "item": "kubejs:metal/sheet/cast_iron_alloy"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:metal/double_sheet/cast_iron_alloy"
+    }
+  ],
+  "heatRequirement": "heated"
+}

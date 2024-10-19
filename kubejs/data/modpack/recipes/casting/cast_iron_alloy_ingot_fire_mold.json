@@ -1,0 +1,14 @@
+{
+    "type": "tfc:casting",
+    "mold": {
+      "item": "tfc:ceramic/fire_ingot_mold"
+    },
+    "fluid": {
+      "ingredient": "createbigcannons:molten_cast_iron",
+      "amount": 100
+    },
+    "result": {
+      "item": "kubejs:metal/ingot/cast_iron_alloy"
+    },
+    "break_chance": 0.01
+  }

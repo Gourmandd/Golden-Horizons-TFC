@@ -1,0 +1,14 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "kubejs:metal/sheet/cast_iron_alloy"
+  },
+  "second_input": {
+    "item": "kubejs:metal/sheet/cast_iron_alloy"
+  },
+  "tier": 0,
+  "result": {
+    "item": "kubejs:metal/double_sheet/cast_iron_alloy"
+  }
+}

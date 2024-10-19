@@ -1,0 +1,14 @@
+{
+	"type": "tfc:blast_furnace",
+	"fluid": {
+		"ingredient": "kubejs:sentrite",
+		"amount": 1
+	},
+	"result": {
+		"fluid": "kubejs:aluminium",
+		"amount": 1
+	},
+	"catalyst": {
+		"item": "tfc:ore/cryolite"
+	}
+}

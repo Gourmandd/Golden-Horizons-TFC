@@ -1,0 +1,15 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "amount": 200,
+      "fluid": "kubejs:aluminium"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:metal/sheet/aluminium"
+    }
+  ]
+}

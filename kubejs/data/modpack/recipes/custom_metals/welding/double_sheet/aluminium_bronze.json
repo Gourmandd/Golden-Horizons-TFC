@@ -1,0 +1,14 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "kubejs:metal/sheet/aluminium_bronze"
+  },
+  "second_input": {
+    "item": "kubejs:metal/sheet/aluminium_bronze"
+  },
+  "tier": 0,
+  "result": {
+    "item": "kubejs:metal/double_sheet/aluminium_bronze"
+  }
+}

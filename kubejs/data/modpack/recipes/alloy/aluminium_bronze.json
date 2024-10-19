@@ -1,0 +1,26 @@
+{
+  "type": "tfc:alloy",
+  "result": "modpack:aluminium_bronze",
+  "contents": [
+    {
+      "metal": "tfc:zinc",
+      "min": 0.0,
+      "max": 0.1
+    },
+    {
+      "metal": "tfc:tin",
+      "min": 0.0,
+      "max": 0.1
+    },
+    {
+      "metal": "tfc:copper",
+      "min": 0.6,
+      "max": 0.8
+    },
+    {
+      "metal": "modpack:aluminium",
+      "min": 0.2,
+      "max": 0.4
+    }
+  ]
+}

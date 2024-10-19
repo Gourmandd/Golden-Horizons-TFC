@@ -1,0 +1,16 @@
+{
+  "type": "tfc:alloy",
+  "result": "modpack:cast_iron_alloy",
+  "contents": [
+    {
+      "metal": "tfc:nickel",
+      "min": 0.1,
+      "max": 0.3
+    },
+    {
+      "metal": "tfc:cast_iron",
+      "min": 0.7,
+      "max": 0.9
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "kubejs:metal/double_sheet/harderned_steel"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "item": "kubejs:metal/double_ingot/harderned_steel",
+      "count": 2
+    }
+  ]
+}

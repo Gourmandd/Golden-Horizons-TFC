@@ -1,0 +1,21 @@
+{
+  "type": "tfc:alloy",
+  "result": "modpack:nethersteel",
+  "contents": [
+    {
+      "metal": "tfc:red_steel",
+      "min": 0.1,
+      "max": 0.2
+    },
+    {
+      "metal": "tfc:steel",
+      "min": 0.4,
+      "max": 0.8
+    },
+    {
+      "metal": "tfc:bronze",
+      "min": 0.1,
+      "max": 0.2
+    }
+  ]
+}

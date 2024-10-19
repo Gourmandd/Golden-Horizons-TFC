@@ -1,0 +1,9 @@
+{
+  "values": [
+    "kubejs:metal/double_sheet/aluminium",
+    "kubejs:metal/double_sheet/aluminium_bronze",
+    "kubejs:metal/double_sheet/cast_iron_alloy",
+    "kubejs:metal/double_sheet/harderned_steel",
+    "kubejs:metal/double_sheet/nethersteel"
+  ]
+}

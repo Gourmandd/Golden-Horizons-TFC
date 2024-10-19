@@ -1,0 +1,21 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "kubejs:metal/sheet/aluminium"
+    },
+    {
+      "item": "tfc:powder/flux"
+    },
+    {
+      "item": "kubejs:metal/sheet/aluminium"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:metal/double_sheet/aluminium"
+    }
+  ],
+  "heatRequirement": "heated"
+}

@@ -1,0 +1,15 @@
+{
+  "tier": 1,
+  "fluid": "createbigcannons:molten_cast_iron",
+  "melt_temperature": 1535,
+  "specific_heat_capacity": 0.02143,
+  "ingots": {
+    "item": "kubejs:metal/ingot/cast_iron_alloy"
+  },
+  "double_ingots": {
+    "item": "kubejs:metal/double_ingot/cast_iron_alloy"
+  },
+  "sheets": {
+    "item": "kubejs:metal/sheet/cast_iron_alloy"
+  }
+}

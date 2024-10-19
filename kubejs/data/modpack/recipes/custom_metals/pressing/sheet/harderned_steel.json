@@ -1,0 +1,14 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "kubejs:metal/double_ingot/harderned_steel"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:metal/sheet/harderned_steel"
+    }
+  ]
+}

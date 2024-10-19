@@ -1,0 +1,11 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "createaddition:rolling",
+  "input": {
+    "item": "kubejs:metal/ingot/aluminium"
+  },
+  "result": {
+    "item": "kubejs:metal/rod/aluminium",
+    "count": 2
+  }
+}
