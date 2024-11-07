@@ -1,0 +1,11 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+      "item": "createbigcannons:unbored_cast_iron_autocannon_barrel"
+    },
+    "result_fluid": {
+      "fluid": "createbigcannons:molten_cast_iron",
+      "amount": 270
+    },
+    "temperature": 1535
+  }

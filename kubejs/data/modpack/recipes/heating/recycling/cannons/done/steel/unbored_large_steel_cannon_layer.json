@@ -1,0 +1,11 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+      "item": "createbigcannons:unbored_large_steel_cannon_layer"
+    },
+    "result_fluid": {
+      "fluid": "createbigcannons:molten_steel",
+      "amount": 1260
+    },
+    "temperature": 1535
+  }

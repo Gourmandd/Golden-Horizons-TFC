@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "aethersdelight:arkenium_block"
+  },
+  "heat_capacity": 40,
+  "forging_temperature": 921,
+  "welding_temperature": 1228
+}

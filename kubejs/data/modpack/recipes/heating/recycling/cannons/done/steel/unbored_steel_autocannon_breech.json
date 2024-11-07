@@ -1,0 +1,11 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+      "item": "createbigcannons:unbored_steel_autocannon_breech"
+    },
+    "result_fluid": {
+      "fluid": "createbigcannons:molten_steel",
+      "amount": 360
+    },
+    "temperature": 1535
+  }

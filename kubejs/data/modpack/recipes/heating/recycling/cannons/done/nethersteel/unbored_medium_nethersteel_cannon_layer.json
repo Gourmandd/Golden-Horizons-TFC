@@ -1,0 +1,11 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+      "item": "createbigcannons:unbored_medium_nethersteel_cannon_layer"
+    },
+    "result_fluid": {
+      "fluid": "createbigcannons:molten_nethersteel",
+      "amount": 1080
+    },
+    "temperature": 1535
+  }

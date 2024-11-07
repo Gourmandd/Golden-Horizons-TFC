@@ -1,0 +1,11 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+      "item": "createbigcannons:steel_cannon_chamber"
+    },
+    "result_fluid": {
+      "fluid": "createbigcannons:molten_steel",
+      "amount": 2520
+    },
+    "temperature": 1535
+  }

@@ -1,0 +1,11 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+      "item": "createbigcannons:bronze_autocannon_recoil_spring"
+    },
+    "result_fluid": {
+      "fluid": "createbigcannons:molten_bronze",
+      "amount": 360
+    },
+    "temperature": 1535
+  }

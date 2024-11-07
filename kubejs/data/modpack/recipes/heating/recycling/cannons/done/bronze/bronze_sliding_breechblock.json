@@ -1,0 +1,11 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+      "item": "createbigcannons:bronze_sliding_breechblock"
+    },
+    "result_fluid": {
+      "fluid": "createbigcannons:molten_bronze",
+      "amount": 300
+    },
+    "temperature": 1535
+  }

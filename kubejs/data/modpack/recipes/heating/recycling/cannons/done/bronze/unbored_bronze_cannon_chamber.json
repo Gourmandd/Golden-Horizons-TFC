@@ -1,0 +1,11 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+      "item": "createbigcannons:unbored_bronze_cannon_chamber"
+    },
+    "result_fluid": {
+      "fluid": "createbigcannons:molten_bronze",
+      "amount": 1080
+    },
+    "temperature": 1535
+  }

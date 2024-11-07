@@ -1,0 +1,11 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+      "item": "createbigcannons:cast_iron_quickfiring_breech"
+    },
+    "result_fluid": {
+      "fluid": "createbigcannons:molten_cast_iron",
+      "amount": 1110
+    },
+    "temperature": 1535
+  }
