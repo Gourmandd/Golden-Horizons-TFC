@@ -1,0 +1,12 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "kubejs:metal/sheet/harderned_steel"
+  },
+  "result_fluid": {
+    "fluid": "createbigcannons:molten_steel",
+    "amount": 200
+  },
+  "temperature": 1535
+}

@@ -1,5 +1,7 @@
 from mcresources import ResourceManager
 
+import common
+
 rm = ResourceManager("modpack")
 
 metals = [
@@ -180,6 +182,41 @@ def generate():
         rod_anvil("rod/" + metal, metal)
         rolling("rod/" + metal, metal)
 
+        heating_recipes(metal, fluid)
+    generate_tfc_heat_data()
 
+
+metal_info = [
+    {"type": "ingot", "amount": 100, "heat_capacity": 1},
+    {"type": "double_ingot", "amount": 200, "heat_capacity": 1},
+    {"type": "sheet", "amount": 200, "heat_capacity": 1},
+    {"type": "double_sheet", "amount": 400, "heat_capacity": 1},
+    {"type": "rod", "amount": 50, "heat_capacity": 1}
+]
+
+    
+def heating_recipes(metal, fluid):
+    for info in metal_info:
+        common.Recipes.TFC.heating(
+            "heating/" + info["type"] + "/" + metal,
+            {"item": "kubejs:metal/"+ info["type"] +"/" + metal},
+            fluid,
+            info["amount"],
+            1535
+        )
+
+def generate_tfc_heat_data():
+
+    ingots = []
+    double_ingots = []
+    sheets = []
+    double_sheets = []
+    rods = []
+
+    for metal in metals:
+        ingots.append("kubejs:metal/")
+
+
+    rm.data("modpack/tfc/item_heats/custom_metals/", {})
 
 generate()

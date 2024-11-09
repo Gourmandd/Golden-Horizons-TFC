@@ -3,14 +3,9 @@
   "result": "modpack:aluminium_bronze",
   "contents": [
     {
-      "metal": "tfc:zinc",
-      "min": 0.0,
-      "max": 0.1
-    },
-    {
       "metal": "tfc:tin",
-      "min": 0.0,
-      "max": 0.1
+      "min": 0.1,
+      "max": 0.2
     },
     {
       "metal": "tfc:copper",
