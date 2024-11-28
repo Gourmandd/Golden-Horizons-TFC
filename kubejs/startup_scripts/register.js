@@ -56,6 +56,9 @@ StartupEvents.registry("item", event =>{
     event.create("soft_chhurpi").displayName("Soft Chhurpi").food(food => {food.hunger(0)})
     event.create("hard_chhurpi").displayName("Hard Chhurpi").food(food => {food.hunger(0)})
 
+    //event.create("drying_bricks/aether").displayName("Wet Aether Mud Bricks")
+    //event.create("mud_bricks/aether").displayName("Aether Mud Bricks")
+
     event.create("quicksoil_glass_batch").displayName("Quicksoil Glass Batch")
     event.create("unfired_shaft").displayName("Unfired Shaft")
     event.create("fired_shaft").displayName("Fired Shaft")
@@ -120,8 +123,11 @@ StartupEvents.registry("block", event =>{
     event.create("copper_machine").displayName("Copper Machine").tagBlock("minecraft:mineable/pickaxe").tagBlock("minecraft:mineable/axe")
     event.create("brass_machine").displayName("Brass Machine").tagBlock("minecraft:mineable/pickaxe").tagBlock("minecraft:mineable/axe")
 
-
+    event.create("dirt/aether", "tfc:dirt").farmland(farmland =>{farmland.hardness(1)}).soundType("sand").tagBlock("minecraft:mineable/shovel")
+    event.create("clay/aether").soundType("sand").tagBlock("minecraft:mineable/shovel")
+    //event.create("clay_grass/aether").soundType("sand").tagBlock("minecraft:mineable/shovel")
 })
+
 
 
 

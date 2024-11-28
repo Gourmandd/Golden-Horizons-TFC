@@ -15,6 +15,11 @@
 "item.kubejs.ceramic.earthenware_jug": "Earthenware Jug",
 "item.kubejs.ceramic.earthenware_jug.filled": "%s Earthenware Jug",
 
+"block.kubejs.dirt.aether": "Loose Aether Dirt",
+"block.kubejs.dirt.aether_farmland": "Aether Farmland",
+"block.kubejs.dirt.aether_grass": "Aether Grass",
+"block.kubejs.clay.aether": "Aether Clay Dirt",
+"block.kubejs.clay_grass.aether": "Aether Clay Dirt",
 
 "metal.modpack.electrum": "Electrum",
 "metal.modpack.sentrite": "Sentrite",

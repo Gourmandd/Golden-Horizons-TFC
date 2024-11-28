@@ -2,7 +2,7 @@
 #### TODO list of the aether branch
 
 A lot of stuff will be missed on the list, every once in a while stuff will be added.
-Point will be expanded over time)
+Point will be expanded over time
 
 # worldgen
 

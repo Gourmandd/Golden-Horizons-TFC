@@ -4,6 +4,15 @@ const $Vessel = Java.loadClass("net.dries007.tfc.common.items.VesselItem")
 const $Jug = Java.loadClass("net.dries007.tfc.common.items.JugItem")
 const $TFCConfig = Java.loadClass("net.dries007.tfc.config.TFCConfig")
 const $TFCTags = Java.loadClass("net.dries007.tfc.common.TFCTags")
+const $DryingBricksBlock = Java.loadClass("net.dries007.tfc.common.blocks.devices.DryingBricksBlock")
+const $ExtendedProperties = Java.loadClass("net.dries007.tfc.common.blocks.ExtendedProperties")
+const $Mapcolor = Java.loadClass("net.minecraft.world.level.material.MapColor")
+const $SoundType = Java.loadClass("net.minecraft.world.level.block.SoundType")
+const $TFCBlockEntities = Java.loadClass("net.dries007.tfc.common.blockentities.TFCBlockEntities")
+const $TFCItems = Java.loadClass("net.dries007.tfc.common.items.TFCItems")
+const $Item = Java.loadClass("net.minecraft.world.item.Item")
+
+
 
 StartupEvents.registry("item", event =>{
 
@@ -88,6 +97,8 @@ event.create("clay/yixing_clay_block").displayName("Yixing Clay Block").tagBlock
 event.create("clay/porcelain_clay_block").displayName("Porcelain Clay Block").tagBlock("minecraft:mineable/shovel").soundType("wet_grass")
 event.create("clay/earthenware_clay_block").displayName("Earthenware Clay Block").tagBlock("minecraft:mineable/shovel").soundType("wet_grass")
 event.create("clay/yellowware_clay_block").displayName("Yellowware Clay Block").tagBlock("minecraft:mineable/shovel").soundType("wet_grass")
-  
-})
 
+//event.createCustom("drying_bricks/aether", () => new $DryingBricksBlock($ExtendedProperties.of($Mapcolor.DIRT).noCollission().noOcclusion().instabreak().sound($SoundType.STEM).randomTicks().blockEntity($TFCBlockEntities.TICK_COUNTER)))
+//)),
+//new DryingBricksBlock(ExtendedProperties.of(MapColor.DIRT).noCollission().noOcclusion().instabreak().randomTicks().blockEntity(TFCBlockEntities.TICK_COUNTER), variant.getDriedMudBrick()
+})
