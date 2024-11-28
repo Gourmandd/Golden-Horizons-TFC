@@ -7,7 +7,7 @@
   ],
   "key": {
     "I": {
-      "item": "tfc:metal/ingot/wrought_iron"
+      "item": "kubejs:metal/ingot/aluminium"
     },
     "B": {
       "item": "tfc:metal/ingot/bronze"

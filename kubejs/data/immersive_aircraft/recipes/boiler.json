@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "ICI",
+      "ITI",
+      "ISI"
+    ],
+    "key": {
+      "C": {
+        "item": "tfc:metal/sheet/copper"
+      },
+      "I": {
+        "item": "tfc:metal/ingot/copper"
+      },
+      "S": {
+        "item": "tfc:metal/double_sheet/steel"
+      },
+      "T": {
+        "item": "create:fluid_tank"
+      }
+    },
+    "result": {
+      "item": "immersive_aircraft:boiler"
+    }
+  }

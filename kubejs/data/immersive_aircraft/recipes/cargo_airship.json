@@ -16,7 +16,7 @@
         "tag": "forge:chests/wooden"
       },
       "S": {
-        "item": "tfc:metal/sheet/steel"
+        "item": "kubejs:metal/sheet/aluminium"
       }
     },
     "result": {

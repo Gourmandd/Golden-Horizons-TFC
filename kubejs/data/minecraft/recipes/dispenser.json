@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "SSS",
+      "SBS",
+      "SRS"
+    ],
+    "key": {
+      "S": {
+        "tag": "forge:cobblestone"
+      },
+      "B": {
+        "item": "minecraft:bow"
+      },
+      "R": {
+        "item": "minecraft:redstone"
+      }
+    },
+    "result": {
+      "item": "minecraft:dispenser"
+    }
+}

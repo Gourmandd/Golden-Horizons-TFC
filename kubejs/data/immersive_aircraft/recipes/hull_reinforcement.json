@@ -7,13 +7,13 @@
     ],
     "key": {
       "S": {
-        "item": "kubejs:metal/rod/aluminium"
+        "item": "immersive_aircraft:hull"
       },
       "L": {
-        "item": "firmalife:treated_lumber"
+        "item": "tfc:metal/rod/wrought_iron"
       }
     },
     "result": {
-      "item": "immersive_aircraft:hull"
+      "item": "immersive_aircraft:hull_reinforcement"
     }
   }

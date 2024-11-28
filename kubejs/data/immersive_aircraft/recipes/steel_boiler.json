@@ -2,13 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "SSS",
-    "SCS",
-    "SBS"
+    "SCS"
   ],
   "key": {
-    "B": {
-      "item": "minecraft:blast_furnace"
-    },
     "S": {
       "item": "tfc:metal/ingot/steel"
     },
