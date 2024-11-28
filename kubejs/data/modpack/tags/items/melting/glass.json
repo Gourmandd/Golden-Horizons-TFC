@@ -19,6 +19,22 @@
     "create:tiled_glass_pane",
     "create:framed_glass_pane",
     "create:horizontal_framed_glass_pane",
-    "create:vertical_framed_glass_pane"
+    "create:vertical_framed_glass_pane",
+    "kubejs:blue_lens",
+    "kubejs:red_lens",
+    "kubejs:white_lens",
+    "kubejs:light_gray_lens",
+    "kubejs:gray_lens",
+    "kubejs:black_lens",
+    "kubejs:brown_lens",
+    "kubejs:orange_lens",
+    "kubejs:yellow_lens",
+    "kubejs:lime_lens",
+    "kubejs:green_lens",
+    "kubejs:cyan_lens",
+    "kubejs:light_blue_lens",
+    "kubejs:purple_lens",
+    "kubejs:magenta_lens",
+    "kubejs:pink_lens"
   ]
 }

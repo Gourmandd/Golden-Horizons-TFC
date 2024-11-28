@@ -1,0 +1,16 @@
+{
+    "type": "tfc:glassworking",
+    "operations": [
+      "tin",
+      "blow",
+      "stretch",
+      "roll",
+      "saw"
+    ],
+    "batch": {
+      "tag": "tfc:glass_batches_tier_2"
+    },
+    "result": {
+      "item": "kubejs:red_lens"
+    }
+  }

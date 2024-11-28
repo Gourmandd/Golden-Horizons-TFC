@@ -1,12 +1,29 @@
 {
     "type": "create:sequenced_assembly",
     "ingredient": {
-      "item": "tfc:silica_glass_batch"
+      "item": "kubejs:molten_glass/clear"
     },
     "transitionalItem": {
       "item": "minecraft:glass_pane"
     },
     "sequence": [
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "minecraft:glass_pane"
+          },
+          {
+            "item": "tfc:powder/soda_ash"
+          }
+        ],
+        "results": [
+          {
+            "item": "minecraft:glass_pane"
+          }
+        ],
+        "keepHeldItem": true
+      },
       {
         "type": "create:deploying",
         "ingredients": [

@@ -1,0 +1,16 @@
+{
+    "type": "tfc:glassworking",
+    "operations": [
+      "pyrite",
+      "blow",
+      "stretch",
+      "roll",
+      "saw"
+    ],
+    "batch": {
+      "item": "tfc:silica_glass_batch"
+    },
+    "result": {
+      "item": "kubejs:orange_lens"
+    }
+  }

@@ -1,0 +1,15 @@
+{
+    "type": "tfc:glassworking",
+    "operations": [
+      "blow",
+      "stretch",
+      "roll",
+      "saw"
+    ],
+    "batch": {
+      "item": "tfc:hematitic_glass_batch"
+    },
+    "result": {
+      "item": "kubejs:orange_lens"
+    }
+  }

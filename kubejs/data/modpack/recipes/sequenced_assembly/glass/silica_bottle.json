@@ -8,6 +8,23 @@
     },
     "sequence": [
       {
+        "type": "create:filling",
+        "ingredients": [
+          {
+            "item": "minecraft:glass_pane"
+          },
+          {
+            "amount": 400,
+            "fluid": "kubejs:glass/clear"
+          }
+        ],
+        "results": [
+          {
+            "item": "minecraft:glass_pane"
+          }
+        ]
+      },
+      {
         "type": "create:deploying",
         "ingredients": [
           {

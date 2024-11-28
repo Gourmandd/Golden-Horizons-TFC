@@ -1,0 +1,16 @@
+{
+    "type": "tfc:glassworking",
+    "operations": [
+      "gold",
+      "blow",
+      "stretch",
+      "roll",
+      "saw"
+    ],
+    "batch": {
+      "item": "tfc:silica_glass_batch"
+    },
+    "result": {
+      "item": "kubejs:pink_lens"
+    }
+  }

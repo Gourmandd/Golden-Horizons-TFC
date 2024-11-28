@@ -1,0 +1,17 @@
+
+{
+    "type": "tfc:glassworking",
+    "operations": [
+      "ruby",
+      "blow",
+      "stretch",
+      "roll",
+      "saw"
+    ],
+    "batch": {
+      "tag": "tfc:glass_batches_tier_2"
+    },
+    "result": {
+      "item": "kubejs:magenta_lens"
+    }
+  }

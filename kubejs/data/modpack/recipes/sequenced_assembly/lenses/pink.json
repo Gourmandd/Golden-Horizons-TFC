@@ -1,0 +1,103 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "kubejs:molten_glass/pink"
+  },
+  "transitionalItem": {
+    "item": "minecraft:pink_stained_glass_pane"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:pink_stained_glass_pane"
+        },
+        {
+          "item": "tfc:powder/soda_ash"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:pink_stained_glass_pane"
+        }
+      ],
+      "keepHeldItem": true
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:pink_stained_glass_pane"
+        },
+        {
+          "item": "tfc:bellows"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:pink_stained_glass_pane"
+        }
+      ],
+      "keepHeldItem": true
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:pink_stained_glass_pane"
+        },
+        {
+          "item": "tfc:paddle"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:pink_stained_glass_pane"
+        }
+      ],
+      "keepHeldItem": true
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:pink_stained_glass_pane"
+        },
+        {
+          "item": "tfc:wool_cloth"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:pink_stained_glass_pane"
+        }
+      ],
+      "keepHeldItem": true
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:pink_stained_glass_pane"
+        },
+        {
+          "item": "tfc:gem_saw"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:pink_stained_glass_pane"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:pink_lens",
+      "chance": 1
+    }
+  ],
+  "loops": 3
+}

@@ -1,12 +1,29 @@
 {
     "type": "create:sequenced_assembly",
     "ingredient": {
-      "tag": "tfc:glass_batches_tier_2"
+      "item": "tfc:olivine_glass_batch"
     },
     "transitionalItem": {
       "item": "minecraft:glass_pane"
     },
     "sequence": [
+      {
+        "type": "create:filling",
+        "ingredients": [
+          {
+            "item": "minecraft:glass_pane"
+          },
+          {
+            "amount": 400,
+            "fluid": "kubejs:glass/green"
+          }
+        ],
+        "results": [
+          {
+            "item": "minecraft:glass_pane"
+          }
+        ]
+      },
       {
         "type": "create:deploying",
         "ingredients": [
@@ -48,23 +65,6 @@
             "item": "minecraft:glass_pane"
           },
           {
-            "item": "tfc:wool_cloth"
-          }
-        ],
-        "results": [
-          {
-            "item": "minecraft:glass_pane"
-          }
-        ],
-        "keepHeldItem": true
-      },
-      {
-        "type": "create:deploying",
-        "ingredients": [
-          {
-            "item": "minecraft:glass_pane"
-          },
-          {
             "item": "tfc:gem_saw"
           }
         ],
@@ -77,7 +77,7 @@
     ],
     "results": [
       {
-        "item": "tfc:empty_jar",
+        "item": "tfc:olivine_glass_bottle",
         "chance": 1
       }
     ],

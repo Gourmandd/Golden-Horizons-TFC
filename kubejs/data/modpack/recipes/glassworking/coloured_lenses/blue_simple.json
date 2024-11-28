@@ -1,0 +1,15 @@
+{
+    "type": "tfc:glassworking",
+    "operations": [
+      "blow",
+      "stretch",
+      "roll",
+      "saw"
+    ],
+    "batch": {
+      "item": "tfc:volcanic_glass_batch"
+    },
+    "result": {
+      "item": "kubejs:blue_lens"
+    }
+  }

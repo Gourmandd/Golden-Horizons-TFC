@@ -1,0 +1,103 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "kubejs:molten_glass/magenta"
+  },
+  "transitionalItem": {
+    "item": "minecraft:magenta_stained_glass_pane"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:magenta_stained_glass_pane"
+        },
+        {
+          "item": "tfc:powder/soda_ash"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:magenta_stained_glass_pane"
+        }
+      ],
+      "keepHeldItem": true
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:magenta_stained_glass_pane"
+        },
+        {
+          "item": "tfc:bellows"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:magenta_stained_glass_pane"
+        }
+      ],
+      "keepHeldItem": true
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:magenta_stained_glass_pane"
+        },
+        {
+          "item": "tfc:paddle"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:magenta_stained_glass_pane"
+        }
+      ],
+      "keepHeldItem": true
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:magenta_stained_glass_pane"
+        },
+        {
+          "item": "tfc:wool_cloth"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:magenta_stained_glass_pane"
+        }
+      ],
+      "keepHeldItem": true
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:magenta_stained_glass_pane"
+        },
+        {
+          "item": "tfc:gem_saw"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:magenta_stained_glass_pane"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:magenta_lens",
+      "chance": 1
+    }
+  ],
+  "loops": 3
+}
