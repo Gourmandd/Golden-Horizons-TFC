@@ -56,8 +56,10 @@ StartupEvents.registry("item", event =>{
     event.create("soft_chhurpi").displayName("Soft Chhurpi").food(food => {food.hunger(0)})
     event.create("hard_chhurpi").displayName("Hard Chhurpi").food(food => {food.hunger(0)})
 
-    //event.create("drying_bricks/aether").displayName("Wet Aether Mud Bricks")
-    //event.create("mud_bricks/aether").displayName("Aether Mud Bricks")
+    event.create("drying_bricks/aether").displayName("Wet Aether Mud Bricks")
+    event.create("mud_bricks/aether").displayName("Aether Mud Mass")
+
+    event.create("divinite_powder").displayName("Divinite Powder")
 
     event.create("quicksoil_glass_batch").displayName("Quicksoil Glass Batch")
     event.create("unfired_shaft").displayName("Unfired Shaft")
@@ -65,6 +67,9 @@ StartupEvents.registry("item", event =>{
     event.create("oscillating_mechanism").displayName("Oscillating Mechanism")
     event.create("torque_mechanism").displayName("Torque Mechanism")
 
+    event.create("soft_bark").displayName("Soft Bark")
+    event.create("bark_paper").displayName("Bark Paper").tag("tfc:scrapable")
+    
     colours.forEach(colour =>{event.create(colour.low + "_lens").displayName(colour.cap + " Lens")})
     /*
     event.create("jerky").displayName("Jerky").food(food => food)
@@ -74,8 +79,7 @@ StartupEvents.registry("item", event =>{
         event.create("kubejs:wood/lumber/" + type).displayName(capitalizeFirstLetter(type) + " Lumber")
     })
 
-    event.create("soft_bark").displayName("Soft Bark")
-    event.create("bark_paper").displayName("Bark Paper").tag("tfc:scrapable")
+
 
     colours.forEach(colour => {event.create("terracotta/shard_" + colour.low).displayName(colour.cap + " Terracotta Shard")})
 
@@ -94,6 +98,8 @@ StartupEvents.registry("fluid", event =>{
 
     //event.create("glass/quicksoil").bucketColor(0xFFB141).thinTexture(0xFFB141).displayName("Molten Quicksoil Glass").bucketColor(0xFFB141).thickTexture(0xFFB141).noBucket().noBlock().tag("tfc:molten_metals").tag("kubejs:molten_glass")
     event.create("brew").bucketColor(0x300C0B).thinTexture(0x300C0B).displayName("Brew").noBlock().noBucket()
+    event.create("veridium").displayName("Veridium").bucketColor(0x075ab3).thickTexture(0x075ab3).noBucket().noBlock().tag("tfc:molten_metals")
+    event.create("divinite_slurry").bucketColor(0xFFF10F).thinTexture(0xFFF10F).displayName("Divinite Slurry").noBlock().noBucket()
     event.create("garum").bucketColor(0x321C0B).thinTexture(0x321C0B).displayName("Garum").noBlock()
 
     colours.forEach(colour => {
@@ -122,6 +128,8 @@ StartupEvents.registry("block", event =>{
     event.create("andesite_machine").displayName("Andesite Machine").tagBlock("minecraft:mineable/pickaxe").tagBlock("minecraft:mineable/axe")
     event.create("copper_machine").displayName("Copper Machine").tagBlock("minecraft:mineable/pickaxe").tagBlock("minecraft:mineable/axe")
     event.create("brass_machine").displayName("Brass Machine").tagBlock("minecraft:mineable/pickaxe").tagBlock("minecraft:mineable/axe")
+
+    event.create("divinite_contentrate").displayName("Divinite Contentrate").tagBlock("minecraft:mineable/pickaxe").tagBlock("minecraft:mineable/shovel").soundType("sand")
 
     event.create("dirt/aether", "tfc:dirt").farmland(farmland =>{farmland.hardness(1)}).soundType("sand").tagBlock("minecraft:mineable/shovel")
     event.create("clay/aether").soundType("sand").tagBlock("minecraft:mineable/shovel")

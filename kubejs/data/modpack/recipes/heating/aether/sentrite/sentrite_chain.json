@@ -1,11 +1,11 @@
 {
   "type": "tfc:heating",
   "ingredient": {
-    "item": "aether_redux:sentrite_wall"
+    "item": "aether_redux:sentrite_chain"
   },
   "result_fluid": {
     "fluid": "kubejs:sentrite",
-    "amount": 20
+    "amount": 1
   },
   "temperature": 690
 }

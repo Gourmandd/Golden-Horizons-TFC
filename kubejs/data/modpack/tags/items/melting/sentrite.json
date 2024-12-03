@@ -9,6 +9,7 @@
     "aether_redux:sentrite_bricks_slab",
     "aether_redux:sentrite_brick_wall",
     "aether_redux:sentrite_chunk",
-    "aether_redux:refined_sentrite"
+    "aether_redux:refined_sentrite",
+    "aether_redux:sentrite_chain"
   ]
 }

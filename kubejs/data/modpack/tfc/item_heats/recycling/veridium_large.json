@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "tag": "modpack:melting/veridium_large"
+  },
+  "heat_capacity": 7.857,
+  "forging_temperature": 921,
+  "welding_temperature": 1228
+}

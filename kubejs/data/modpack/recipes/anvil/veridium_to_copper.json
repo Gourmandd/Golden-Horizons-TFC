@@ -1,10 +1,10 @@
 {
     "type": "tfc:anvil",
     "input": {
-      "item": "aethersdelight:raw_arkenium"
+      "item": "aether_redux:veridium_ingot"
     },
     "result": {
-      "item": "aethersdelight:arkenium_ingot"
+      "item": "tfc:metal/ingot/copper"
     },
     "tier": -1,
     "rules": [

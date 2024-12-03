@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "aether_redux:veridium_block"
+  },
+  "result_fluid": {
+    "fluid": "kubejs:veridium",
+    "amount": 900
+  },
+  "temperature": 1240
+}

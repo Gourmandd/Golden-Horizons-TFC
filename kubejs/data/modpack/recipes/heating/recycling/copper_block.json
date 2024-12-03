@@ -1,7 +1,7 @@
 {
   "type": "tfc:heating",
   "ingredient": {
-    "tag": "modpack:copper_block"
+    "tag": "modpack:copper_blocks"
   },
   "result_fluid": {
     "fluid": "tfc:metal/copper",

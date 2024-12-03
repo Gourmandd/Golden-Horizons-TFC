@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "aether_redux:divinite_slab"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/gold",
+    "amount": 10
+  },
+  "temperature": 1060
+}

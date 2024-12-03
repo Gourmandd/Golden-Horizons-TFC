@@ -11,11 +11,6 @@
       "metal": "tfc:gold",
       "min": 0.4,
       "max": 0.8
-    },
-    {
-      "metal": "tfc:copper",
-      "min": 0,
-      "max": 0.2
     }
   ]
 }
