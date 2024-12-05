@@ -1,0 +1,308 @@
+{
+	"knightBlackSteel": {
+		"enabled": true,
+		"toughness": 1.25,
+		"chestplateDurability": 850,
+		"chestplateDefense": 8,
+		"leggingsDurability": 800,
+		"leggingsDefense": 5,
+		"bootsDurability": 700,
+		"bootsDefense": 2
+	},
+	"armetBlackSteel": {
+		"enabled": true,
+		"toughness": 1.25,
+		"helmetDurability": 600,
+		"helmetDefense": 3
+	},
+	"stechhelmBlackSteel": {
+		"enabled": true,
+		"toughness": 1.5,
+		"helmetDurability": 800,
+		"helmetDefense": 4
+	},
+	"joustingBlackSteel": {
+		"enabled": true,
+		"toughness": 1.5,
+		"chestplateDurability": 1050,
+		"chestplateDefense": 8,
+		"leggingsDurability": 1000,
+		"leggingsDefense": 6,
+		"bootsDurability": 900,
+		"bootsDefense": 3
+	},
+	"salletBlackSteel": {
+		"enabled": true,
+		"toughness": 1.25,
+		"helmetDurability": 600,
+		"helmetDefense": 3
+	},
+	"gothicBlackSteel": {
+		"enabled": true,
+		"toughness": 1.25,
+		"chestplateDurability": 850,
+		"chestplateDefense": 8,
+		"leggingsDurability": 800,
+		"leggingsDefense": 5,
+		"bootsDurability": 700,
+		"bootsDefense": 2
+	},
+	"maximilianHelmetBlackSteel": {
+		"enabled": true,
+		"toughness": 1.5,
+		"helmetDurability": 800,
+		"helmetDefense": 4
+	},
+	"maximilianBlackSteel": {
+		"enabled": true,
+		"toughness": 1.5,
+		"chestplateDurability": 1050,
+		"chestplateDefense": 8,
+		"leggingsDurability": 1000,
+		"leggingsDefense": 6,
+		"bootsDurability": 900,
+		"bootsDefense": 3
+	},
+	"barbuteBlackSteel": {
+		"enabled": true,
+		"toughness": 0.5,
+		"helmetDurability": 500,
+		"helmetDefense": 2
+	},
+	"halfarmorBlackSteel": {
+		"enabled": true,
+		"toughness": 0.5,
+		"chestplateDurability": 750,
+		"chestplateDefense": 6
+	},
+	"kastenbrustBlackSteel": {
+		"enabled": true,
+		"toughness": 1.25,
+		"chestplateDurability": 850,
+		"chestplateDefense": 8,
+		"leggingsDurability": 800,
+		"leggingsDefense": 5,
+		"bootsDurability": 700,
+		"bootsDefense": 2
+	},
+	"grandBascinetBlackSteel": {
+		"enabled": true,
+		"toughness": 1.25,
+		"helmetDurability": 600,
+		"helmetDefense": 3
+	},
+	"kettlehatBlackSteel": {
+		"enabled": true,
+		"toughness": 0.5,
+		"helmetDurability": 600,
+		"helmetDefense": 3
+	},
+	"platemailBlackSteel": {
+		"enabled": true,
+		"toughness": 0.5,
+		"chestplateDurability": 750,
+		"chestplateDefense": 6,
+		"leggingsDurability": 700,
+		"leggingsDefense": 5,
+		"bootsDurability": 600,
+		"bootsDefense": 2
+	},
+	"ceremonialArmet": {
+		"enabled": true,
+		"toughness": 1.25,
+		"helmetDurability": 550,
+		"helmetDefense": 2
+	},
+	"ceremonial": {
+		"enabled": true,
+		"toughness": 1.25,
+		"chestplateDurability": 670,
+		"chestplateDefense": 7,
+		"bootsDurability": 460,
+		"bootsDefense": 2
+	},
+	"knightBlueSteel": {
+		"enabled": true,
+		"toughness": 3.0,
+		"chestplateDurability": 1050,
+		"chestplateDefense": 8,
+		"leggingsDurability": 1000,
+		"leggingsDefense": 6,
+		"bootsDurability": 900,
+		"bootsDefense": 3
+	},
+	"armetBlueSteel": {
+		"enabled": true,
+		"toughness": 3.0,
+		"helmetDurability": 800,
+		"helmetDefense": 3
+	},
+	"stechhelmBlueSteel": {
+		"enabled": true,
+		"toughness": 3.0,
+		"helmetDurability": 1000,
+		"helmetDefense": 4
+	},
+	"joustingBlueSteel": {
+		"enabled": true,
+		"toughness": 3.0,
+		"chestplateDurability": 1500,
+		"chestplateDefense": 9,
+		"leggingsDurability": 1350,
+		"leggingsDefense": 6,
+		"bootsDurability": 950,
+		"bootsDefense": 3
+	},
+	"salletBlueSteel": {
+		"enabled": true,
+		"toughness": 1.25,
+		"helmetDurability": 275,
+		"helmetDefense": 3
+	},
+	"gothicBlueSteel": {
+		"enabled": true,
+		"toughness": 3.0,
+		"chestplateDurability": 1050,
+		"chestplateDefense": 8,
+		"leggingsDurability": 1000,
+		"leggingsDefense": 6,
+		"bootsDurability": 900,
+		"bootsDefense": 3
+	},
+	"maximilianHelmetBlueSteel": {
+		"enabled": true,
+		"toughness": 3.0,
+		"helmetDurability": 1000,
+		"helmetDefense": 4
+	},
+	"maximilianBlueSteel": {
+		"enabled": true,
+		"toughness": 3.0,
+		"chestplateDurability": 1500,
+		"chestplateDefense": 9,
+		"leggingsDurability": 1350,
+		"leggingsDefense": 6,
+		"bootsDurability": 950,
+		"bootsDefense": 3
+	},
+	"barbuteBlueSteel": {
+		"enabled": true,
+		"toughness": 0.5,
+		"helmetDurability": 600,
+		"helmetDefense": 2
+	},
+	"halfarmorBlueSteel": {
+		"enabled": true,
+		"toughness": 0.5,
+		"chestplateDurability": 900,
+		"chestplateDefense": 6
+	},
+	"kastenbrustBlueSteel": {
+		"enabled": true,
+		"toughness": 3.0,
+		"chestplateDurability": 1050,
+		"chestplateDefense": 8,
+		"leggingsDurability": 1000,
+		"leggingsDefense": 6,
+		"bootsDurability": 900,
+		"bootsDefense": 3
+	},
+	"grandBascinetBlueSteel": {
+		"enabled": true,
+		"toughness": 1.25,
+		"helmetDurability": 275,
+		"helmetDefense": 3
+	},
+	"knightRedSteel": {
+		"enabled": true,
+		"toughness": 3.0,
+		"chestplateDurability": 1050,
+		"chestplateDefense": 8,
+		"leggingsDurability": 1000,
+		"leggingsDefense": 6,
+		"bootsDurability": 900,
+		"bootsDefense": 3
+	},
+	"armetRedSteel": {
+		"enabled": true,
+		"toughness": 1.25,
+		"helmetDurability": 275,
+		"helmetDefense": 3
+	},
+	"stechhelmRedSteel": {
+		"enabled": true,
+		"toughness": 3.0,
+		"helmetDurability": 1000,
+		"helmetDefense": 4
+	},
+	"joustingRedSteel": {
+		"enabled": true,
+		"toughness": 3.0,
+		"chestplateDurability": 1500,
+		"chestplateDefense": 9,
+		"leggingsDurability": 1350,
+		"leggingsDefense": 6,
+		"bootsDurability": 950,
+		"bootsDefense": 3
+	},
+	"salletRedSteel": {
+		"enabled": true,
+		"toughness": 1.25,
+		"helmetDurability": 275,
+		"helmetDefense": 3
+	},
+	"gothicRedSteel": {
+		"enabled": true,
+		"toughness": 3.0,
+		"chestplateDurability": 1050,
+		"chestplateDefense": 8,
+		"leggingsDurability": 1000,
+		"leggingsDefense": 6,
+		"bootsDurability": 900,
+		"bootsDefense": 3
+	},
+	"maximilianHelmetRedSteel": {
+		"enabled": true,
+		"toughness": 3.0,
+		"helmetDurability": 1000,
+		"helmetDefense": 4
+	},
+	"maximilianRedSteel": {
+		"enabled": true,
+		"toughness": 3.0,
+		"chestplateDurability": 1500,
+		"chestplateDefense": 9,
+		"leggingsDurability": 1350,
+		"leggingsDefense": 6,
+		"bootsDurability": 950,
+		"bootsDefense": 3
+	},
+	"barbuteRedSteel": {
+		"enabled": true,
+		"toughness": 0.5,
+		"helmetDurability": 600,
+		"helmetDefense": 2
+	},
+	"halfarmorRedSteel": {
+		"enabled": true,
+		"toughness": 0.5,
+		"chestplateDurability": 900,
+		"chestplateDefense": 6
+	},
+	"kastenbrustRedSteel": {
+		"enabled": true,
+		"toughness": 3.0,
+		"chestplateDurability": 1050,
+		"chestplateDefense": 8,
+		"leggingsDurability": 1000,
+		"leggingsDefense": 6,
+		"bootsDurability": 900,
+		"bootsDefense": 3
+	},
+	"grandBascinetRedSteel": {
+		"enabled": true,
+		"toughness": 1.25,
+		"helmetDurability": 275,
+		"helmetDefense": 3
+	}
+}
