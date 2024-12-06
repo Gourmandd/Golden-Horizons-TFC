@@ -4,9 +4,9 @@
   "disableExtraFoodExhaustion": false,
   "treeLifetimeLength": 4.0,
   "dynamicMiningSpeed": {
-    "disable": true,
-    "speedMultiplication": 1.0,
-    "maxSpeedMultiplication": 8.0
+    "disable": false,
+    "speedMultiplication": 0.5,
+    "maxSpeedMultiplication": 16.0
   },
   "trees": {
     "standardTree": {
