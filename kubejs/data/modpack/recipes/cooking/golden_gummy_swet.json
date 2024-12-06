@@ -1,0 +1,35 @@
+{
+    "type": "farmersdelight:cooking",
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "type": "tfc:not_rotten",
+        "ingredient": {
+          "item": "aether_redux:golden_swet_ball"
+        }
+      },
+      {
+        "type": "tfc:not_rotten",
+        "ingredient": {
+          "item": "aether_redux:golden_swet_ball"
+        }
+      },
+      {
+        "type": "tfc:not_rotten",
+        "ingredient": {
+          "item": "aether_redux:golden_swet_ball"
+        }
+      },
+      {
+        "tag": "tfc:sweetener"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+        "item": "aether:golden_gummy_swet",
+        "modifiers": [
+          "tfc:copy_food"
+        ]
+    }
+  }

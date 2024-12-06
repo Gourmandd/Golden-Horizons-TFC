@@ -1,0 +1,14 @@
+{
+    "type": "tfc:loom",
+    "ingredient": {
+      "ingredient": {
+        "tag": "tfc:high_quality_cloth"
+      },
+      "count": 6
+    },
+    "result": {
+      "item": "aether:white_cape"
+    },
+    "steps_required": 16,
+    "in_progress_texture": "minecraft:block/white_wool"
+  }

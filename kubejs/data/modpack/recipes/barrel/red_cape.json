@@ -1,0 +1,16 @@
+{
+    "type": "tfc:barrel_sealed",
+    "input_item": {
+        "ingredient": {
+            "item": "aether:white_cape"
+        }
+    },
+    "input_fluid": {
+        "ingredient": "tfc:red_dye",
+        "amount": 25
+    },
+    "output_item": {
+        "item": "aether:red_cape"
+    },
+    "duration": 1000
+}

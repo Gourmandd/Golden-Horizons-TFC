@@ -1,7 +1,7 @@
 {
   "type": "tfc:heating",
   "ingredient": {
-    "tag": "aether:moa_egg"
+    "tag": "aether:moa_eggs"
   },
   "result_item": {
     "stack": {

@@ -1,0 +1,14 @@
+{
+    "type": "tfc:loom",
+    "ingredient": {
+      "ingredient": {
+        "item": "aether:cold_aercloud"
+      },
+      "count": 4
+    },
+    "result": {
+      "item": "aether:cold_parachute"
+    },
+    "steps_required": 8,
+    "in_progress_texture": "aether:block/natural/cold_aercloud"
+  }
