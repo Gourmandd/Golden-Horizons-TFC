@@ -47,3 +47,4 @@
 /config/NoChatReports
 /config/voicechat
 
+config/voicechat/username-cache.json

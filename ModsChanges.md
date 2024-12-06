@@ -9,3 +9,7 @@ Aether's Delight.
 Deep Aether
 
 Resource Packs: Aether Regenerated,
+
+# Removed
+
+Notes
