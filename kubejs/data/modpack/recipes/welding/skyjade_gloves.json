@@ -1,0 +1,13 @@
+{
+    "type": "tfc:welding",
+    "first_input": {
+        "item": "deep_aether:skyjade"
+    },
+    "second_input": {
+        "item": "aether:leather_gloves"
+    },
+    "tier": 1,
+    "result": {
+        "item": "deep_aether:skyjade_gloves"
+    }
+}

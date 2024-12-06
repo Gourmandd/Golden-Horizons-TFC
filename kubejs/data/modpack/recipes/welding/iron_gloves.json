@@ -1,0 +1,13 @@
+{
+    "type": "tfc:welding",
+    "first_input": {
+        "item": "tfc:metal/ingot/wrought_iron"
+    },
+    "second_input": {
+        "item": "aether:leather_gloves"
+    },
+    "tier": 1,
+    "result": {
+        "item": "aether:iron_gloves"
+    }
+}

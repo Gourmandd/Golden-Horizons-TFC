@@ -1,0 +1,15 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+      "item": "tfc:metal/double_sheet/gold"
+    },
+    "result": {
+      "item": "aether:golden_ring"
+    },
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "draw_second_last",
+      "punch_third_last"
+    ]
+  }

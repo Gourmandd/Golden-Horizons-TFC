@@ -1,0 +1,16 @@
+{
+  "type": "tfc:knapping",
+  "knapping_type": "tfc:leather",
+  "outside_slot_required": false,
+  "pattern": [
+    "XXX  ",
+    "XXX X",
+    "X   X",
+    "X XXX",
+    "  XXX"
+  ],
+  "result": {
+    "item": "aether:leather_gloves",
+    "count": 1
+  }
+}
