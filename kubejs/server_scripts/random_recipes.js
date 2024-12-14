@@ -26,7 +26,7 @@ ServerEvents.recipes(event =>{
 event.remove({ type: "minecraft:smelting" })
 event.remove({ type: "spectrum:anvil_crushing" })
 event.remove({ type: "create:haunting" })
-event.remove({ type: "create:haunting" })
+event.remove({ type: "aether:repairing" })
 
 event.remove({type: "minecraft:crafting_shaped", mod: "caupona"})
 //event.remove({type: "caupona:aspic_melt" })
@@ -61,10 +61,6 @@ BlockEvents.rightClicked("farmersdelight:rich_soil", event =>{
     event.cancel() //cant till the soil anymore. Used for growing mushrooms
 })
 
-// so, I forgot create has a recipe type for this....
-//BlockEvents.rightClicked("aethersdelight:arkenium_block", event =>{
-//    if (event.player.mainHandItem.hasTag("tfc:chisels")){event.block.set("kubejs:arkenium_anvil"); event.cancel}
-//})
 
 
 // This could lead to something like a recipe type or just an interaction, could be funny or not funny. But it doesnt work since I dont know how to get the item to drop

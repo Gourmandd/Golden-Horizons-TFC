@@ -1,0 +1,7 @@
+{
+  "parent": "tfc:block/groundcover/twig",
+  "textures": {
+    "side": "aether_redux:block/natural/glacia_log",
+    "top": "aether_redux:block/natural/glacia_log_top"
+  }
+}

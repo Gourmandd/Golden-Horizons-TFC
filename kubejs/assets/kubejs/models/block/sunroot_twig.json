@@ -1,0 +1,7 @@
+{
+  "parent": "tfc:block/groundcover/twig",
+  "textures": {
+    "side": "deep_aether:block/sunroot_log",
+    "top": "deep_aether:block/sunroot_log_top"
+  }
+}

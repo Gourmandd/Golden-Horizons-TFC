@@ -1,0 +1,7 @@
+{
+  "parent": "tfc:block/groundcover/twig",
+  "textures": {
+    "side": "aether_redux:block/natural/jellyshroom_stem",
+    "top": "aether_redux:block/natural/jellyshroom_stem_top"
+  }
+}

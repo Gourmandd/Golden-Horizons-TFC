@@ -1,0 +1,7 @@
+{
+  "parent": "tfc:block/groundcover/twig",
+  "textures": {
+    "side": "deep_aether:block/roseroot_log",
+    "top": "deep_aether:block/roseroot_log_top"
+  }
+}

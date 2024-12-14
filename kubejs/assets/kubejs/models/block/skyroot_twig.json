@@ -1,0 +1,7 @@
+{
+  "parent": "tfc:block/groundcover/twig",
+  "textures": {
+    "side": "aether:block/natural/skyroot_log",
+    "top": "aether:block/natural/skyroot_log_top"
+  }
+}
