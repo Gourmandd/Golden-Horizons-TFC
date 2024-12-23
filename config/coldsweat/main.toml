@@ -1,23 +1,53 @@
-#Overrides all other config options for easy difficulty management
-#This value is changed by the in-game config. It does nothing otherwise.
-#Range: 0 ~ 4
-Difficulty = 2
 
-["Details about how the player is affected by temperature"]
+[Difficulty]
 	#Defines the minimum habitable temperature
 	#Range: -Infinity ~ Infinity
-	"Minimum Habitable Temperature" = 0.42857142857142855
+	"Minimum Habitable Temperature" = 0.4
 	#Defines the maximum habitable temperature
 	#Range: -Infinity ~ Infinity
-	"Maximum Habitable Temperature" = 1.619047619047619
+	"Maximum Habitable Temperature" = 1.511111111111111
 	#Rate at which the player's body temperature changes (default: 1.0 (100%))
 	#Range: 0.0 ~ Infinity
 	"Rate Multiplier" = 1.0
 	#Damage dealt to the player when they are too hot or too cold
 	#Range: 0.0 ~ Infinity
 	"Temperature Damage" = 2.0
+	#Sets whether damage scales with difficulty
+	"Damage Scaling" = true
 
-["Item settings"]
+["Temperature Effects"]
+
+	["Temperature Effects".Hot]
+		#Defines the distance at which the player's vision is obscured by heatstroke fog
+		#Set to a value above 64 to disable the effect
+		#Range: 0.0 ~ Infinity
+		"Heatstroke Fog" = 6.0
+
+	["Temperature Effects".Cold]
+		#When set to true, this percentage of the player's hearts will freeze over when they are too cold, preventing regeneration
+		#Represented as a percentage
+		#Range: 0.0 ~ 1.0
+		"Freezing Hearts Percentage" = 0.5
+		#When set to true, the player's attack knockback will be reduced by this amount when they are too cold
+		#Represented as a percentage
+		#Range: 0.0 ~ 1.0
+		"Chilled Knockback Reduction" = 0.5
+		#When set to true, the player's movement speed will be reduced by this amount when they are too cold
+		#Represented as a percentage
+		#Range: 0.0 ~ 1.0
+		"Chilled Movement Slowdown" = 0.5
+		#When set to true, the player's mining speed will be reduced by this amount when they are too cold
+		#Represented as a percentage
+		#Range: 0.0 ~ 1.0
+		"Chilled Mining Speed Reduction" = 0.5
+
+#DO NOT EDIT THE SETTINGS IN THIS SECTION
+[Builtin]
+	#Range: 0 ~ 4
+	Difficulty = 2
+	Version = "2.3.9"
+
+[Items]
 	#Allow fire resistance to block overheating damage
 	"Fire Resistance Immunity" = true
 	#Allow ice resistance to block freezing damage
@@ -25,37 +55,37 @@ Difficulty = 2
 	#Thermometer item is required to see detailed world temperature
 	"Require Thermometer" = true
 
-["Misc temperature-related things"]
-	#Sets whether damage scales with difficulty
-	"Damage Scaling" = true
-	#When set to true, players cannot sleep if they are cold or hot enough to die
-	"Prevent Sleep When in Danger" = true
-
-["Temperature Effects"]
-
-	["Temperature Effects".Hot]
-		#When set to true, the player's view distance will decrease when they are too hot
-		"Heatstroke Fog" = true
-
-	["Temperature Effects".Cold]
-		#When set to true, some of the player's hearts will freeze when they are too cold, preventing regeneration
-		"Freezing Hearts" = true
-		#When set to true, the player's attack knockback will be reduced when they are too cold
-		"Cold Knockback Reduction" = true
-		#When set to true, the player's movement speed will be reduced when they are too cold
-		"Cold Slowness" = true
-		#When set to true, the player's mining speed will be reduced when they are too cold
-		"Cold Mining Fatigue" = true
-
-["Grace Period Details"]
-	#The number of ticks after the player spawns during which they are immune to temperature effects
+["Grace Period"]
+	#The amount of time (in ticks) after the player spawns during which they are immune to temperature effects
 	#Range: > 0
 	"Grace Period Length" = 6000
 	#Enables the grace period
 	"Grace Period Enabled" = true
 
-["Cold Soul Fire"]
-	#Converts damage dealt by Soul Fire to cold damage (default: true)
-	#Does not affect the block's temperature
-	"Cold Soul Fire" = true
+[Misc]
+	#Add TempModifier IDs to this list to disable them
+	#Allows for more granular control of Cold Sweat's features
+	# Run "/temp debug @s <trait>" to see IDs of all modifiers affecting the player
+	#
+	# List of "Vanilla" TempModifier IDs:
+	# cold_sweat:blocks - Disables temperature emitted by blocks
+	# cold_sweat:biomes - Disables biome temperature (makes all biomes temperate)
+	# cold_sweat:underground - Disables temperature changes caused by depth / altitude
+	# cold_sweat:armor - Disables armor insulation
+	# cold_sweat:mount - Disables insulation from riding an entity
+	# cold_sweat:waterskin - Disables the waterskin's temperature effects
+	# cold_sweat:soulspring_lamp - Disables the cooling effect of the soulspring lamp
+	# cold_sweat:water - Disables the cooling effect of water, and the dripping particles from when the player is wet
+	# cold_sweat:air_conditioning - Disables the Warmth and Chill effects from the hearth, boiler, and icebox
+	# cold_sweat:food - Disables temperature effects from eating food
+	# cold_sweat:freezing - Disables the cooling effect of powder snow
+	# cold_sweat:on_fire - Disables the heating effect of being on fire
+	# cold_sweat:soul_sprout - Disables the effects of eating a soul sprout (separate from cold_sweat:food)
+	# cold_sweat:inventory_items - Disables the temperature effects of items in the player's inventory
+	# cold_sweat:entities - Disables the temperature emitted from entities
+	# sereneseasons:season - Disables the temperature effects of seasons from Serene Seasons
+	# armorunder:lining - Disables the temperature effects of armor linings from Armor Underwear
+	# weather2:storm - Disables the temperature effects of storms & weather from Weather 2
+	# curios:curios - Disables the temperature effects of equipped curios
+	"Disabled Temperature Modifiers" = []
 

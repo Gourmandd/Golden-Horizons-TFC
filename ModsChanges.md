@@ -10,6 +10,12 @@ Deep Aether
 
 Resource Packs: Aether Regenerated,
 
+Cold Sweat
+Cold Sweat TFC
+TFC Textiles
+
+Breezy
+
 # Removed
 
 Notes
