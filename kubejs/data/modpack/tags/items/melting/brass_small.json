@@ -10,6 +10,7 @@
     "create:train_trapdoor",
     "create:railway_casing",
     "create:brass_door",
-    "tfc:crankshaft"
+    "tfc:crankshaft",
+    "breezy:gust_gauge"
   ]
 }

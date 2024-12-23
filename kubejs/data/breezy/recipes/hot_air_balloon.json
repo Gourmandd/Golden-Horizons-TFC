@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SSS",
+        "SSS",
+        "BBB"
+    ],
+    "key": {
+        "S": {
+          "item": "immersive_aircraft:sail"
+        },
+        "B": {
+          "item": "tfc:burlap_cloth"
+        }
+      },
+    "result": {
+        "item": "breezy:hot_air_balloon"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "tfc:welding",
+    "first_input": {
+        "item": "minecraft:compass"
+    },
+    "second_input": {
+        "item": "firmaciv:unfinished_nav_clock"
+    },
+    "tier": 1,
+    "result": {
+        "item": "breezy:gust_gauge"
+    }
+}
