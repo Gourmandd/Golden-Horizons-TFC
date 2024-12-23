@@ -1,0 +1,16 @@
+{
+    "replace": false,
+    "values": [
+        "aether:skyroot_planks",
+        "aether_redux:fieldsproot_planks",
+        "aether_redux:blightwillow_planks",
+        "aether_redux:crystal_planks",
+        "aether_redux:glacia_planks",
+        "deep_aether:roseroot_planks",
+        "deep_aether:yagroot_planks",
+        "deep_aether:cruderoot_planks",
+        "deep_aether:conberry_planks",
+        "deep_aether:sunroot_planks",
+        "aether_redux:jellyshroom_planks"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "modpack:aether_wood/stripped_wood"
+  },
+  "result_item": {
+    "item": "tfc:wood/stripped_wood/blackwood"
+  },
+  "temperature": 220
+}

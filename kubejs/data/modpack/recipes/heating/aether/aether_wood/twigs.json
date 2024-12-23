@@ -1,0 +1,10 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "modpack:aether_wood/twigs"
+  },
+  "result_item": {
+    "item": "tfc:wood/twig/blackwood"
+  },
+  "temperature": 220
+}

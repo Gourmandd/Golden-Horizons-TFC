@@ -1,0 +1,16 @@
+{
+    "replace": false,
+    "values": [
+        "aether:skyroot_slab",
+        "aether_redux:fieldsproot_slab",
+        "aether_redux:blightwillow_slab",
+        "aether_redux:crystal_slab",
+        "aether_redux:glacia_slab",
+        "deep_aether:roseroot_slab",
+        "deep_aether:yagroot_slab",
+        "deep_aether:cruderoot_slab",
+        "deep_aether:conberry_slab",
+        "deep_aether:sunroot_slab",
+        "aether_redux:jellyshroom_slab"
+    ]
+}

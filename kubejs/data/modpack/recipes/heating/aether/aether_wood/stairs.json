@@ -1,0 +1,10 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "modpack:aether_wood/stairs"
+  },
+  "result_item": {
+    "item": "tfc:wood/planks/blackwood_stairs"
+  },
+  "temperature": 220
+}

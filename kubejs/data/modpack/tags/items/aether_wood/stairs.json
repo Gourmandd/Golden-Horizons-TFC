@@ -1,0 +1,16 @@
+{
+    "replace": false,
+    "values": [
+        "aether:skyroot_stairs",
+        "aether_redux:fieldsproot_stairs",
+        "aether_redux:blightwillow_stairs",
+        "aether_redux:crystal_stairs",
+        "aether_redux:glacia_stairs",
+        "deep_aether:roseroot_stairs",
+        "deep_aether:yagroot_stairs",
+        "deep_aether:cruderoot_stairs",
+        "deep_aether:conberry_stairs",
+        "deep_aether:sunroot_stairs",
+        "aether_redux:jellyshroom_stairs"
+    ]
+}

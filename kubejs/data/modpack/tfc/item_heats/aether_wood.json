@@ -1,0 +1,14 @@
+{
+  "ingredient":[
+    {"tag": "modpack:aether_wood/planks"},
+    {"tag": "modpack:aether_wood/stripped_logs"},
+    {"tag": "modpack:aether_wood/stripped_wood"},
+    {"tag": "modpack:aether_wood/fence"},
+    {"tag": "modpack:aether_wood/fence_gate"},
+    {"tag": "modpack:aether_wood/slabs"},
+    {"tag": "modpack:aether_wood/stairs"},
+    {"tag": "modpack:aether_wood/lumber"},
+    {"tag": "modpack:aether_wood/twigs"}
+  ],
+  "heat_capacity": 1
+}

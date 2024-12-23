@@ -1,0 +1,16 @@
+{
+    "replace": false,
+    "values": [
+        "aether:skyroot_fence_gate",
+        "aether_redux:fieldsproot_fence_gate",
+        "aether_redux:blightwillow_fence_gate",
+        "aether_redux:crystal_fence_gate",
+        "aether_redux:glacia_fence_gate",
+        "deep_aether:roseroot_fence_gate",
+        "deep_aether:yagroot_fence_gate",
+        "deep_aether:cruderoot_fence_gate",
+        "deep_aether:conberry_fence_gate",
+        "deep_aether:sunroot_fence_gate",
+        "aether_redux:jellyshroom_fence_gate"
+    ]
+}
