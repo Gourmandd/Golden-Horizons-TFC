@@ -1,0 +1,7 @@
+{
+  "type": "tfc:if_then",
+  "config": {
+    "if": "deep_aether:yagroot_tree",
+    "then": "modpack:yagroot_twig_patch"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "type": "tfc:if_then",
+  "config": {
+    "if": "aether_redux:trees/crystal_rare_fruit_tree",
+    "then": "modpack:crystal_twig_patch"
+  }
+}

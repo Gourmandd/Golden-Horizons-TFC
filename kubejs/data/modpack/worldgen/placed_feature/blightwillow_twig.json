@@ -1,0 +1,14 @@
+{
+  "feature": "modpack:blightwillow_twig",
+  "placement": [
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:not",
+        "predicate": {
+          "type": "minecraft:solid"
+        }
+      }
+    }
+  ]
+}

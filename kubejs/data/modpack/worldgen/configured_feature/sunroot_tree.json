@@ -1,0 +1,7 @@
+{
+  "type": "tfc:if_then",
+  "config": {
+    "if": "deep_aether:sunroot_tree",
+    "then": "modpack:sunroot_twig_patch"
+  }
+}
