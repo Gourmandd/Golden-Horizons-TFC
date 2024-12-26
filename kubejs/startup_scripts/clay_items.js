@@ -64,6 +64,9 @@ function register_clay_type_item(type){//FYI to future me, register a clay ball 
     register_clay_type_item({"cap": "Earthenware", "low": "earthenware"})
     register_clay_type_item({"cap": "Yellowware", "low": "yellowware"})
 
+    register_clay_type_item({"cap": "Caelum", "low": "caelum"})
+
+    event.create("clay/caelum_clay_ball").displayName("Caelum Clay Ball").tag("tfc:any_knapping")
 
     event.create("clay/yixing_clay_ball").displayName("Yixing Clay Ball").tag("tfc:any_knapping")
     event.create("clay/porcelain_clay_ball").displayName("Porcelain Clay Ball").tag("tfc:any_knapping")
@@ -83,6 +86,7 @@ StartupEvents.registry("block", event =>{
         event.create("ceramic/"+ type.low + "_brick_wall", "wall").displayName(type.cap + " Brick Wall").property(BlockProperties.IN_WALL).requiresTool(true).tagBlock("minecraft:mineable/pickaxe").soundType("deepslate_bricks")
     }
 
+    register_clay_type_item({"cap": "Caelum", "low": "caelum"})
 
     register_clay_type_item({"cap": "Kaolinite", "low": "kaolinite"})
     register_clay_type_item({"cap": "Yixing", "low": "yixing"})
@@ -95,6 +99,8 @@ StartupEvents.registry("block", event =>{
     event.create("clay/porcelain_clay_block").displayName("Porcelain Clay Block").tagBlock("minecraft:mineable/shovel").soundType("wet_grass")
     event.create("clay/earthenware_clay_block").displayName("Earthenware Clay Block").tagBlock("minecraft:mineable/shovel").soundType("wet_grass")
     event.create("clay/yellowware_clay_block").displayName("Yellowware Clay Block").tagBlock("minecraft:mineable/shovel").soundType("wet_grass")
+
+    event.create("clay/caelum_clay_block").displayName("Caelum Clay Block").tagBlock("minecraft:mineable/shovel").soundType("wet_grass")
 
 })
 
