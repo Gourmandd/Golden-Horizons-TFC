@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": {
+      "feature": "modpack:grass_patch_grass",
+      "placement": []
+    },
+    "features": [
+      {
+        "chance": 0.15,
+        "feature": {
+          "feature": "modpack:grass_patch_rocks",
+          "placement": []
+        }
+      }
+    ]
+  }
+}
