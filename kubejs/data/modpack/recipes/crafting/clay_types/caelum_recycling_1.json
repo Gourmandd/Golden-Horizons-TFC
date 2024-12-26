@@ -1,0 +1,12 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "modpack:clay/caelum_recycling_1"
+    }
+  ],
+  "result": {
+    "item": "kubejs:clay/caelum_clay_ball"
+  }
+}

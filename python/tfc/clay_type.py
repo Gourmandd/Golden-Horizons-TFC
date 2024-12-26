@@ -5,13 +5,16 @@ rm = ResourceManager('modpack')
 # Unused 
 
 clay_types = [
+  "caelum"
+]
+"""
     "kaolinite",
     "yixing",
     "yellowware",
     "earthenware",
     "porcelain"
-]
 
+"""
 tools = [
 "pickaxe",
 "axe",

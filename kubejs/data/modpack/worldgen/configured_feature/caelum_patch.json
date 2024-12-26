@@ -1,0 +1,26 @@
+{
+  "type": "tfc:soil_disc",
+  "config": {
+    "min_radius": 5,
+    "max_radius": 10,
+    "height": 4,
+    "states": [
+      {
+        "replace": "aether:aether_dirt",
+        "with": "kubejs:clay/caelum_clay_block"
+      },
+      {
+        "replace": "aether:aether_grass_block",
+        "with": "kubejs:clay/caelum_clay_block"
+      },
+      {
+        "replace": "aether:enchanted_aether_grass_block",
+        "with": "kubejs:clay/caelum_clay_block"
+      },
+      {
+        "replace": "deep_aether:aether_mud",
+        "with": "kubejs:clay/caelum_clay_block"
+      }
+    ]
+  }
+}

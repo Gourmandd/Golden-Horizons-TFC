@@ -35,7 +35,6 @@ StartupEvents.registry("block", event =>{
     event.create("divinite_contentrate").displayName("Divinite Contentrate").tagBlock("minecraft:mineable/pickaxe").tagBlock("minecraft:mineable/shovel").soundType("sand")
 
     event.create("dirt/aether", "tfc:dirt").farmland(farmland =>{farmland.hardness(1)}).soundType("sand").tagBlock("minecraft:mineable/shovel")
-    event.create("clay/aether").soundType("sand").tagBlock("minecraft:mineable/shovel")
     //event.create("clay_grass/aether").soundType("sand").tagBlock("minecraft:mineable/shovel")
 })
 

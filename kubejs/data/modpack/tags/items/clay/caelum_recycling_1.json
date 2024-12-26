@@ -1,0 +1,10 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "replace": false,
+  "values": [
+    "kubejs:ceramic/unfired_caelum_brick",
+    "kubejs:ceramic/unfired_caelum_bowl",
+    "kubejs:ceramic/unfired_caelum_flower_pot",
+    "kubejs:ceramic/unfired_caelum_ingot_mold"
+  ]
+}

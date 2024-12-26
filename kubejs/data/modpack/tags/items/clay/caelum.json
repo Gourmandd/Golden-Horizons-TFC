@@ -1,0 +1,10 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "replace": false,
+  "values": [
+    "kubejs:ceramic/caelum_bricks",
+    "kubejs:ceramic/caelum_brick_stairs",
+    "kubejs:ceramic/caelum_brick_slab",
+    "kubejs:ceramic/caelum_brick_wall"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:knapping",
+  "knapping_type": "tfc:caelum",
+  "outside_slot_required": "false",
+  "pattern": [
+    "X XXX",
+    "    X",
+    "     ",
+    "    X",
+    "X XXX"
+  ],
+  "result": {
+    "item": "kubejs:ceramic/unfired_caelum_axe_mold",
+    "count": 1
+  }
+}

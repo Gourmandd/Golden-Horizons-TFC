@@ -15,6 +15,10 @@
 "item.kubejs.ceramic.earthenware_jug": "Earthenware Jug",
 "item.kubejs.ceramic.earthenware_jug.filled": "%s Earthenware Jug",
 
+"item.kubejs.ceramic.caelum_vessel": "Earthenware Vessel",
+"item.kubejs.ceramic.caelum_jug": "Earthenware Jug",
+"item.kubejs.ceramic.caelum.filled": "%s Earthenware Jug",
+
 "block.kubejs.dirt.aether": "Loose Aether Dirt",
 "block.kubejs.dirt.aether_farmland": "Aether Farmland",
 "block.kubejs.dirt.aether_grass": "Aether Grass",

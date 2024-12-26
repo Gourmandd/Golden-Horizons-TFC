@@ -15,6 +15,18 @@
           "predicate_type": "minecraft:tag_match",
           "tag": "aether:holystone"
         }
+      },
+      {
+        "state": {
+          "Name": "kubejs:clay/caelum_clay_block",
+          "Properties": {
+            "double_drops": "true"
+          }
+        },
+        "target": {
+          "predicate_type": "minecraft:tag_match",
+          "tag": "aether:aether_dirt"
+        }
       }
     ]
   }
