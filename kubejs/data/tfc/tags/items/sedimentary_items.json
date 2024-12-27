@@ -1,7 +1,6 @@
 {
     "replace": false,
     "values": [
-        "tfc:kaolin_clay",
         "kubejs:loose_holystone_pebble"
     ]
 }

@@ -1,6 +1,6 @@
 {
     "replace": false,
     "values": [
-        "minecraft:nautilus_shell"
+        "kubejs:loose_holystone_pebble"
     ]
 }

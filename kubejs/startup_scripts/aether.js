@@ -20,7 +20,6 @@ function capitalizeFirstLetter(string) {
 StartupEvents.registry("block", event =>{
 
     event.create('loose_holystone_pebble', 'tfc:ground_cover').ore().tagBlock("minecraft:mineable/pickaxe")
-    event.create('loose_mossy_holystone_pebble', 'tfc:ground_cover').ore().tagBlock("minecraft:mineable/pickaxe")
 
     aether_wood_types.forEach(type =>{
 

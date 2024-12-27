@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+        "kubejs:skyroot_twig",
+        "kubejs:fieldsproot_twig",
+        "kubejs:blightwillow_twig",
+        "kubejs:cloudcap_twig",
+        "kubejs:jellyshroom_twig",
+        "kubejs:crystal_twig",
+        "kubejs:glacia_twig",
+        "kubejs:roseroot_twig",
+        "kubejs:yagroot_twig",
+        "kubejs:cruderoot_twig",
+        "kubejs:conberry_twig",
+        "kubejs:sunroot_twig"
+    ]
+}

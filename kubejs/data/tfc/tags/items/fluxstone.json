@@ -1,7 +1,7 @@
 {
     "replace": false,
     "values": [
-        "tfc:kaolin_clay",
+        "minecraft:nautilus_shell",
         "kubejs:loose_holystone_pebble"
     ]
 }
