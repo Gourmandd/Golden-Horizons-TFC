@@ -1,0 +1,8 @@
+{
+    "ingredient": [
+        { "tag": "aether:crafts_skyroot_planks" }
+    ],
+    "duration": 2200,
+    "temperature": 699,
+    "purity": 0.5
+}

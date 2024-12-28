@@ -87,3 +87,9 @@ TFCEvents.data(event =>{
     }, 'kubejs:nettles_bush')
 })
 
+ServerEvents.tags("block", event => {
+    event.remove("minecraft:needs_iron_tool", "aethersdelight:arkenium_ore")
+    event.add("minecraft:needs_stone_tool", "aethersdelight:arkenium_ore")
+
+})
+

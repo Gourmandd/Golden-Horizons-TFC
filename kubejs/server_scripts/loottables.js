@@ -53,7 +53,7 @@ LootJS.modifiers((event) => {
 
     event.addBlockLootModifier("kubejs:clay/caelum_clay_block").removeLoot("kubejs:clay/caelum_clay_block")
     event.addBlockLootModifier("kubejs:clay/caelum_clay_block").randomChance(0.75).addLoot("kubejs:clay/caelum_clay_ball")
-    event.addBlockLootModifier("kubejs:clay/caelum_clay_block").randomChance(1).addLoot("kubejs:clay/caelum_clay_ball")
+    event.addBlockLootModifier("kubejs:clay/caelum_clay_block").randomChance(0.25).addLoot("kubejs:clay/caelum_clay_ball")
 
 
     //minecraft glass is hardcoded to not drop anything unless gem saw or silk touch??
@@ -62,6 +62,8 @@ LootJS.modifiers((event) => {
     //hearth and home
     event.addBlockLootModifier("hearth_and_home:barred_glass").addLoot("hearth_and_home:barred_glass").removeLoot("minecraft:iron_nugget")
     event.addBlockLootModifier("hearth_and_home:barred_glass_pane").addLoot("hearth_and_home:barred_glass_pane").removeLoot("minecraft:iron_nugget")
- 
+    
+    event.addBlockLootModifier("aether_redux:short_aether_grass").removeLoot("minecraft:wheat_seeds").removeLoot("farmersdelight:straw")
+    event.addBlockLootModifier("aether_redux:tall_aether_grass").removeLoot("minecraft:wheat_seeds").removeLoot("farmersdelight:straw")
 })
 

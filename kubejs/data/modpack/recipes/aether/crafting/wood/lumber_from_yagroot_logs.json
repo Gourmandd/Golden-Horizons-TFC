@@ -1,16 +1,19 @@
 {
   "__comment__": "This file was automatically created by mcresources",
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "deep_aether:yagroot_logs"
-    },
-    {
-      "tag": "tfc:saws"
+  "type": "tfc:damage_inputs_shapeless_crafting",
+  "recipe": {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "tag": "deep_aether:yagroot_logs"
+      },
+      {
+        "tag": "tfc:saws"
+      }
+    ],
+    "result": {
+      "item": "kubejs:wood/lumber/yagroot",
+      "count": 8
     }
-  ],
-  "result": {
-    "item": "kubejs:wood/lumber/yagroot",
-    "count": 8
   }
 }

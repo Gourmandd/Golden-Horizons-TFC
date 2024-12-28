@@ -29,13 +29,13 @@ gravitation_wood = [
 '''
 
 def lumber_from_logs(type, mod, tag):
-    rm.crafting_shapeless("aether/crafting/wood/lumber_from_" + type + "_logs", [{"tag": mod + ":" + tag},{"tag": "tfc:saws"}],{"item": "kubejs:wood/lumber/" + type, "count": 8})
+    tfc_damage_input_crafting("aether/crafting/wood/lumber_from_" + type + "_logs", {"tag": mod + ":" + tag},{"tag": "tfc:saws"}, "kubejs:wood/lumber/" + type, 8)
     rm.crafting_shaped("aether/crafting/wood/planks_from_" + type + "_lumber", ["LL","LL"], {"L":{"item":"kubejs:wood/lumber/" + type}},{"item":mod + ":" + type + "_planks"})
 
 def lumber_from_plank_variants(type, mod):
-    rm.crafting_shapeless("aether/crafting/wood/lumber_from_" + type + "_planks", [{"item": mod + ":" + type + "_planks"},{"tag": "tfc:saws"}],{"item": "kubejs:wood/lumber/" + type, "count": 4})
-    rm.crafting_shapeless("aether/crafting/wood/lumber_from_" + type + "_stairs", [{"item": mod + ":" + type + "_stairs"},{"tag": "tfc:saws"}],{"item": "kubejs:wood/lumber/" + type, "count": 3})
-    rm.crafting_shapeless("aether/crafting/wood/lumber_from_" + type + "_slabs", [{"item": mod + ":" + type + "_slab"},{"tag": "tfc:saws"}],{"item": "kubejs:wood/lumber/" + type, "count": 2})
+    tfc_damage_input_crafting("aether/crafting/wood/lumber_from_" + type + "_planks", {"item": mod + ":" + type + "_planks"},{"tag": "tfc:saws"}, "kubejs:wood/lumber/" + type, 4)
+    tfc_damage_input_crafting("aether/crafting/wood/lumber_from_" + type + "_stairs", {"item": mod + ":" + type + "_stairs"},{"tag": "tfc:saws"}, "kubejs:wood/lumber/" + type, 3)
+    tfc_damage_input_crafting("aether/crafting/wood/lumber_from_" + type + "_slabs", {"item": mod + ":" + type + "_slab"},{"tag": "tfc:saws"}, "kubejs:wood/lumber/" + type, 2)
 
 def aether_wood_products(type, mod):
     rm.crafting_shaped(mod + ":" + type + "_fence", ["PLP","PLP"], {"P":{"item":mod + ":" + type + "_planks"},"L":{"item":"kubejs:wood/lumber/" + type}},{"item":mod + ":" + type + "_fence", "count":8 })
@@ -47,7 +47,27 @@ def aether_wood_products(type, mod):
     rm.crafting_shaped(mod + ":" + type + "_hanging_sign", ["S S","LLL","LLL"], {"L":{"item":"kubejs:wood/lumber/" + type}, "S":{"item":"tfc:metal/chain/steel"}},{"item":mod + ":" + type + "_hanging_sign", "count":3 })
     rm.crafting_shaped(mod + ":" + type + "_pressure_plate", ["LL"], {"L":{"item":"kubejs:wood/lumber/" + type}},{"item":mod + ":" + type + "_pressure_plate"})
 
+    #rm.crafting_shapeless("aether/crafting/wood/lumber_from_" + type + "_planks", [{"item": mod + ":" + type + "_planks"},{"tag": "tfc:saws"}],{"item": "kubejs:wood/lumber/" + type, "count": 4})
+    #rm.crafting_shapeless("aether/crafting/wood/lumber_from_" + type + "_stairs", [{"item": mod + ":" + type + "_stairs"},{"tag": "tfc:saws"}],{"item": "kubejs:wood/lumber/" + type, "count": 3})
+    #rm.crafting_shapeless("aether/crafting/wood/lumber_from_" + type + "_slabs", [{"item": mod + ":" + type + "_slab"},{"tag": "tfc:saws"}],{"item": "kubejs:wood/lumber/" + type, "count": 2})
+    #tfc_damage_input_crafting("aether/crafting/wood/lumber_from_" + type + "_planks", {"item": mod + ":" + type + "_planks"},{"tag": "tfc:saws"}, "kubejs:wood/lumber/" + type, 4)
+    #tfc_damage_input_crafting("aether/crafting/wood/lumber_from_" + type + "_stairs", {"item": mod + ":" + type + "_stairs"},{"tag": "tfc:saws"}, "kubejs:wood/lumber/" + type, 3)
+    #tfc_damage_input_crafting("aether/crafting/wood/lumber_from_" + type + "_slabs", {"item": mod + ":" + type + "_slab"},{"tag": "tfc:saws"}, "kubejs:wood/lumber/" + type, 2)
 
+def tfc_damage_input_crafting(location, input_1, input_2, output, count):
+    rm.recipe(location, "tfc:damage_inputs_shapeless_crafting", {
+    "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+        input_1,
+        input_2
+        ],
+        "result": {
+        "item": output,
+        "count": count
+        }
+    }
+})
     
 def generate():
     for type in aether_wood:

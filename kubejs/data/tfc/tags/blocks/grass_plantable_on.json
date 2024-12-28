@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
+        "kubejs:clay/caelum_clay_block", 
         "kubejs:clay/yixing_clay_block", 
         "kubejs:clay/yellowware_clay_block", 
         "kubejs:clay/porcelain_clay_block", 

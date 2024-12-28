@@ -1,16 +1,19 @@
 {
   "__comment__": "This file was automatically created by mcresources",
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "deep_aether:roseroot_slab"
-    },
-    {
-      "tag": "tfc:saws"
+  "type": "tfc:damage_inputs_shapeless_crafting",
+  "recipe": {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "deep_aether:roseroot_slab"
+      },
+      {
+        "tag": "tfc:saws"
+      }
+    ],
+    "result": {
+      "item": "kubejs:wood/lumber/roseroot",
+      "count": 2
     }
-  ],
-  "result": {
-    "item": "kubejs:wood/lumber/roseroot",
-    "count": 2
   }
 }
