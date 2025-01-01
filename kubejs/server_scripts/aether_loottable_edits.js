@@ -1,9 +1,36 @@
+let colours = [
+    {"low": "blue", "cap" : "Blue"},
+    {"low": "red", "cap" : "Red"},
+    {"low": "white", "cap" : "White"},
+    {"low": "light_gray", "cap" : "Light Gray"},
+    {"low": "gray", "cap" : "Gray"},
+    {"low": "black", "cap" : "Black"},
+    {"low": "brown", "cap" : "Brown"},
+    {"low": "orange", "cap" : "Orange"},
+    {"low": "yellow", "cap" : "Yellow"},
+    {"low": "lime", "cap" : "Lime"},
+    {"low": "green", "cap" : "Green"},
+    {"low": "cyan", "cap" : "Cyan"},
+    {"low": "light_blue", "cap" : "Light Blue"},
+    {"low": "purple", "cap" : "Purple"},
+    {"low": "magenta", "cap" : "Magenta"},
+    {"low": "pink", "cap" : "Pink"},
+]
 
 LootJS.modifiers(event => {
     // entities
-    event.addEntityLootModifier("aether:sheepuff").replaceLoot("minecraft:mutton", "tfc:food/mutton", true).addLoot("tfc:medium_raw_hide").randomChance(0.10)
+    colours.forEach(colour =>{
+        event.addEntityLootModifier("aether:sheepuff").removeLoot("minecraft:" + colour.low + "_wool")
+    })
+    event.addEntityLootModifier("deep_aether:quail").replaceLoot("deep_aether:raw_quail", "tfc:food/quail", true)
+    event.addEntityLootModifier("aether:sheepuff").replaceLoot("minecraft:mutton", "tfc:food/mutton", true).addLoot("tfc:medium_sheepskin_hide").randomChance(0.10).removeLoot("#minecraft:wool")
     event.addEntityLootModifier("aether:phyg").replaceLoot("minecraft:porkchop", "tfc:food/pork", true).addLoot("tfc:medium_raw_hide").randomChance(0.10)
     event.addEntityLootModifier("aether:flying_cow").replaceLoot("minecraft:beef", "tfc:food/beef", true).replaceLoot("minecraft:leather", "tfc:large_raw_hide")
+
+    event.addEntityLootModifier("aether:mimic")
+        .replaceLoot("aether:zanite_pickaxe", "tfc:metal/pickaxe/black_bronze", true)
+        .replaceLoot("aether:skyroot_pickaxe", "tfc:metal/pickaxe/copper", true)
+        .replaceLoot("aether:holystone_pickaxe", "tfc:metal/pickaxe/bronze", true)
 
     event.addEntityLootModifier("aether:valkyrie_queen").replaceLoot("minecraft:golden_sword", "createaddition:electrum_amulet", true) // untested
     event.addEntityLootModifier("aether:minic").replaceLoot("aether:skyroot_pickaxe", "tfc:metal/pickaxe/copper", true).replaceLoot("aether:holystone_pickaxe", "tfc:metal/pickaxe/bronze")

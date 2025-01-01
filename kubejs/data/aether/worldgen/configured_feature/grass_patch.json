@@ -12,6 +12,34 @@
           "feature": "modpack:grass_patch_rocks",
           "placement": []
         }
+      },
+      {
+        "chance": 0.01,
+        "feature": {
+          "feature": "modpack:scree/veridium_scree",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.01,
+        "feature": {
+          "feature": "modpack:scree/arkenium_scree",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.01,
+        "feature": {
+          "feature": "modpack:scree/divinite_scree",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.01,
+        "feature": {
+          "feature": "modpack:scree/clorite_scree",
+          "placement": []
+        }
       }
     ]
   }

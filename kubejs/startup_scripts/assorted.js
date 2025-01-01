@@ -35,7 +35,45 @@ StartupEvents.registry("item", event =>{
 
 StartupEvents.registry("block", event =>{
 
-    event.create("nettles_bush", "tfc:stationary_berry_bush").productItem("kubejs:nettles").lifecycle("january", "healthy").lifecycle("february", "healthy").lifecycle("march", "flowering").lifecycle("april", "flowering").lifecycle("june", "fruiting").lifecycle("july", "fruiting").tagBlock("minecraft:mineable/hoe").hardness(0.5).soundType("grass")
+    event.create("nettles_bush", "tfc:stationary_berry_bush")
+        .productItem("kubejs:nettles")
+        .lifecycle("january", "healthy")
+        .lifecycle("february", "healthy")
+        .lifecycle("march", "flowering")
+        .lifecycle("april", "flowering")
+        .lifecycle("june", "fruiting")
+        .lifecycle("july", "fruiting")
+        .tagBlock("minecraft:mineable/hoe")
+        .hardness(0.5)
+        .soundType("grass")
+
+    let bushes = [
+        {"name": "peppermint", "item": "aethersdelight:peppermint_leaf"},
+        {"name": "zanberry", "item": "aether_redux:zanberry"},
+        {"name": "blue_berry", "item": "aether:blue_berry"}
+    ]
+    
+    bushes.forEach(type =>{
+        event.create( type.name + "_bush", "tfc:stationary_berry_bush")
+        .productItem(type.item)
+        .lifecycle("january", "dormant")
+        .lifecycle("february", "healthy")
+        .lifecycle("march", "flowering")
+        .lifecycle("april", "flowering")
+        .lifecycle("may", "fruiting")
+        .lifecycle("june", "fruiting")
+        .lifecycle("july", "fruiting")
+        .lifecycle("august", "fruiting")
+        .lifecycle("september", "flowering")
+        .lifecycle("october", "healthy")
+        .lifecycle("november", "dormant")
+        .lifecycle("december", "dormant")
+        .tagBlock("minecraft:mineable/hoe")
+        .hardness(0.5)
+        .soundType("grass")   
+    })
+
+
     event.create("felsic_tuff_mixture").displayName("Felsic Tuff Mixture").soundType("sand").tagBlock("minecraft:mineable/shovel")
 
     colours.forEach(colour => {

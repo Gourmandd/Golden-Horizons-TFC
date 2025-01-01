@@ -77,15 +77,6 @@ EntityEvents.death(event =>{
     //event.server.runCommand("/tell @a " + source)
 })*/
 
-TFCEvents.data(event =>{
-    event.climateRange(climate => {
-        climate.maxHydration(70)
-        climate.minHydration(10)
-        climate.minTemperature(-3)
-        climate.maxTemperature(27)
-        climate.temperatureWiggle(3)
-    }, 'kubejs:nettles_bush')
-})
 
 ServerEvents.tags("block", event => {
     event.remove("minecraft:needs_iron_tool", "aethersdelight:arkenium_ore")

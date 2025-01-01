@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "kubejs:veridium_scree"
+  },
+  "result_fluid": {
+    "fluid": "tfc:copper",
+    "amount": 20
+  },
+  "temperature": 1240
+}
