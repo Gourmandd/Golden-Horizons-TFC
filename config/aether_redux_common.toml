@@ -23,7 +23,7 @@
 		#Nerfs Gummy Swets, but also makes them craftable. Note: Requires the Aether's Gummy Swet Healing config to be false to properly nerf the hunger effect. Requires datapack reload.
 		"Nerf Gummy Swets" = true
 		#Makes some Aether blocks take a bit longer to break, as they are extremely quick currently
-		"Consistent Mining Speeds" = false
+		"Consistent Mining Speeds" = true
 		#Changes quicksoil between various behaviors. Genesis is the most chaotic, highlands is the most fine-tuned, classic is the original
 		#Allowed Values: classic, genesis, highlands
 		"Quicksoil Movement System" = "highlands"
