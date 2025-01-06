@@ -48,7 +48,7 @@
 	#Enables a slamming sound for mimics when using the new model. Disable if it gets too annoying XD
 	"Mimic Slam Sound Effect" = true
 	#Gives sounds to the other clouds for the Aether: Genesis when it is installed
-	"Aercloud Ability Sounds" = true
+	"Aercloud Ability Sounds" = false
 
 [Internal]
 	#Internal value to do menu changes. Set this to false in modpacks if you want to use your own menu.

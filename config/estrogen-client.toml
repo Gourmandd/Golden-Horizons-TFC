@@ -27,7 +27,7 @@
 	xOffset = -23
 	#.
 	#Custom Splashes on the main menu! Requires resource reload
-	estrogenSplashes = true
+	estrogenSplashes = false
 	#.
 	#Enable the estrogen button in the create screen
 	enabled = true
@@ -37,7 +37,7 @@
 [sounds]
 	#.
 	#Enable ambient music which starts playing on specific moments
-	ambientMusic = true
+	ambientMusic = false
 
 #.
 #Settings for the chest feature (for the local player)
@@ -58,7 +58,7 @@
 	#.
 	#Chest feature physics damping
 	#Range: 0.0 ~ 1.0
-	chestDamping = 0.375
+	chestDamping = 1
 
 #.
 #Settings for the dream block

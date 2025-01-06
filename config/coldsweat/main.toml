@@ -45,7 +45,7 @@
 [Builtin]
 	#Range: 0 ~ 4
 	Difficulty = 2
-	Version = "2.3.9"
+	Version = "2.3.8"
 
 [Items]
 	#Allow fire resistance to block overheating damage

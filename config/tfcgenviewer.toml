@@ -10,7 +10,15 @@ defaultPreviewSize = 3
 #
 loadingIcon = true
 #
-#If a sound should be played when a preview finishes generating
+# If a sound should be played when a preview finishes generating
 #
 dingWhenGenerated = true
+#
+# If the info pane should show a prgress bar while a preview is being generated
+#
+generationProgress = true
+#
+# If errors encountered during preview generation should cancel further generation or simply only be logged
+#
+cancelPreviewOnError = true
 
