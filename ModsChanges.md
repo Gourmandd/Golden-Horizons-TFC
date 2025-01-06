@@ -19,3 +19,15 @@ Breezy
 # Removed
 
 Notes
+
+Syntra Connector
+Trinkets
+Scarves
+Revelationary (disabled by default)
+Connector Extras
+Forgified Fabric API
+
+# Updated 
+
+Create + Addons
+Farmers Delight, and the addons Corn Delight (new content), Barbeque Delight (new content), Crabbers Delight (fixes)
