@@ -1,6 +1,6 @@
 {
   "ingredient": {
-    "item": "aethersdelight:arkenium_anvil"
+    "item": "kubejs:arkenium_anvil"
   },
   "heat_capacity": 40,
   "forging_temperature": 921,
