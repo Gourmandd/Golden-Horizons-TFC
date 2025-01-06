@@ -1,9 +1,11 @@
 {
     "replace": false,
     "values": [
-        "#gravitation:aerfin_logs",
-        "#gravitation:beladon_logs",
-        "#gravitation:enchanted_logs",
+        "#deep_aether:roseroot_logs",
+        "#deep_aether:yagroot_logs",
+        "#deep_aether:cruderoot_logs",
+        "#deep_aether:conberry_logs",
+        "#deep_aether:sunroot_logs",
         "#aether_redux:glacia_logs",
         "#aether_redux:crystal_logs",
         "#aether_redux:jellyshroom_stems",

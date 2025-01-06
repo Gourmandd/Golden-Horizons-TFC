@@ -1,5 +1,5 @@
 {
-  "_comment_": "this recipe for taken straight from firmalife as the tfc recipe type doesnt work with other crafting methods like mixers"
+  "_comment_": "this recipe for taken straight from firmalife as the tfc recipe type doesnt work with other crafting methods like mixers",
   "type": "tfc:extra_products_shapeless_crafting",
   "extra_products": [
     {
