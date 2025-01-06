@@ -52,5 +52,20 @@
 "metal.modpack.glass/blue": "Blue Glass",
 "metal.modpack.glass/purple": "Purple Glass",
 "metal.modpack.glass/magenta": "Magenta Glass",
-"metal.modpack.glass/pink": "Pink Glass"
+"metal.modpack.glass/pink": "Pink Glass",
+
+"block.aether.ambrosium_ore.prospected": "Ambrosium",
+"block.aether.zanite_ore.prospected": "Zanite",
+"block.aether.gravitite_ore.prospected": "Gravitite",
+"block.aether.icestone.prospected": "Icestone",
+
+"block.aether_redux.divinite.prospected": "Divinite",
+"block.aether_redux.sentrite.prospected": "Sentrite",
+"block.aether_redux.veridium_ore.prospected": "Veridium",
+
+"block.deep_aether.aseterite.prospected": "Aseterite",
+"block.deep_aether.raw_clorite.prospected": "Raw Clorite",
+"block.deep_aether.skyjade_ore.prospected": "Skyjade",
+
+"block.aethersdelight.arkenium_ore.prospected": "Arkenium"
 }

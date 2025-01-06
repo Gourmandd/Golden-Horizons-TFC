@@ -1,0 +1,33 @@
+{
+  "ingredient": [
+    {
+      "item": "minecraft:clay"
+    },
+    {
+      "item": "minecraft:clay_ball"
+    },
+    {
+      "item": "tfc:fire_clay"
+    },
+    {
+      "item": "tfc:kaolin_clay"
+    },
+    {
+      "item": "kubejs:clay/earthenware_clay_ball"
+    },
+    {
+      "item": "kubejs:clay/caelum_clay_ball"
+    },
+    {
+      "item": "kubejs:clay/yixing_clay_ball"
+    },
+    {
+      "item": "kubejs:clay/porcelain_clay_ball"
+    },
+    {
+      "item": "kubejs:clay/yellowware_clay_ball"
+    }
+],
+  "size": "small",
+  "weight": "medium"
+}

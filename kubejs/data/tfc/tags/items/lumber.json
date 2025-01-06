@@ -12,9 +12,6 @@
         "kubejs:wood/lumber/yagroot",
         "kubejs:wood/lumber/cruderoot",
         "kubejs:wood/lumber/conberry",
-        "kubejs:wood/lumber/sunroot",
-        "kubejs:wood/lumber/aerfin",
-        "kubejs:wood/lumber/beladon",
-        "kubejs:wood/lumber/enchanted"
+        "kubejs:wood/lumber/sunroot"
     ]
 }

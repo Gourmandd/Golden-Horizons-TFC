@@ -1,0 +1,16 @@
+{
+    "replace": false,
+    "values": [
+        "aether:icestone",
+        "deep_aether:aseterite",
+        "aether_redux:divinite",
+        "deep_aether:raw_clorite",
+        "aether_redux:veridium_ore",
+        "aether_redux:sentrite",
+        "aether:gravitite_ore",
+        "aether:ambrosium_ore",
+        "aether:zanite_ore",
+        "deep_aether:skyjade_ore",
+        "aethersdelight:arkenium_ore"
+    ]
+}

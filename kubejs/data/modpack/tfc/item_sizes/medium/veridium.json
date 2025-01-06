@@ -1,0 +1,12 @@
+{
+  "ingredient": [
+    {
+        "tag": "modpack:melting/veridium_small"
+    },
+    {
+      "tag": "modpack:melting/veridium_large"
+    }
+],
+  "size": "small",
+  "weight": "medium"
+}

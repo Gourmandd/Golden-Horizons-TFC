@@ -23,10 +23,10 @@
             "double_drops": "true"
           }
         },
-        "target": {
-          "predicate_type": "minecraft:tag_match",
-          "tag": "aether:aether_dirt"
-        }
+				"target": {
+					"predicate_type": "minecraft:block_match",
+					"block": "aether:aether_dirt"
+				}
       }
     ]
   }

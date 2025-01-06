@@ -1,0 +1,21 @@
+{
+  "ingredient": [
+    {
+        "item": "aethersdelight:arkenium_ingot"
+    },
+    {
+      "item": "aethersdelight:arkenium_nugget"
+    },
+    {
+      "item": "aethersdelight:arkenium_block"
+    },
+    {
+      "item": "aethersdelight:raw_arkenium_block"
+    },
+    {
+      "item": "aethersdelight:raw_arkenium"
+    }
+  ],
+  "size": "small",
+  "weight": "medium"
+}
