@@ -4,7 +4,7 @@
     "item": "kubejs:veridium_scree"
   },
   "result_fluid": {
-    "fluid": "tfc:copper",
+    "fluid": "tfc:metal/copper",
     "amount": 20
   },
   "temperature": 1240

@@ -5,7 +5,7 @@
   },
   "result_fluid": {
     "fluid": "kubejs:veridium",
-    "amount": 5
+    "amount": 10
   },
   "temperature": 1240
 }
