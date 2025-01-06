@@ -1,0 +1,10 @@
+{
+    "ingredient": {
+      "item": "barbequesdelight:raw_vegetable_skewer"
+    },
+    "hunger": 3,
+    "saturation": 1,
+    "decay_modifier": 2,
+    "fruit": 0.2,
+    "vegetables": 0.2 
+}

@@ -1,0 +1,8 @@
+{
+    "ingredient": [
+        { "item": "corn_delight:corncob" }
+    ],
+    "duration": 300,
+    "temperature": 399,
+    "purity": 0.5
+}

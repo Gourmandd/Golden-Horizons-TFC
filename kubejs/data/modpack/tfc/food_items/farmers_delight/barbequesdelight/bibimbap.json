@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "tag": "modpack:grilled_meat_and_veg_skewers"
+      "item": "barbequesdelight:bibimbap"
     },
     "category": "meat",
     "hunger": 6,
