@@ -1,0 +1,6 @@
+{
+  "parent": "tfc:block/plant/stationary_bush_1",
+  "textures": {
+    "bush": "aethersdelight:block/peppermint_bush_stem"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "tfc:block/plant/stationary_bush_2",
+  "textures": {
+    "bush": "aether:block/natural/berry_bush_stem"
+  }
+}
