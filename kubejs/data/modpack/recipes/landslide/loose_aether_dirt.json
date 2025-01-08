@@ -1,0 +1,5 @@
+{
+  "type": "tfc:landslide",
+  "ingredient": "kubejs:dirt/aether",
+  "result": "kubejs:dirt/aether"
+}

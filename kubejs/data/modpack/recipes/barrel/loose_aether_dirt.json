@@ -2,15 +2,15 @@
     "type": "tfc:barrel_sealed",
     "input_item": {
         "ingredient": {
-            "tag": "tfc:dirt"
+            "item": "kubejs:dirt/aether"
         }
     },
     "input_fluid": {
         "ingredient": "minecraft:water",
-        "amount": 10000
+        "amount": 25
     },
     "output_item": {
-        "item": "kubejs:nettles_bush"
+        "item": "aether:aether_dirt"
     },
-    "duration": 224000
+    "duration": 1000
 }

@@ -47,33 +47,6 @@ StartupEvents.registry("block", event =>{
         .hardness(0.5)
         .soundType("grass")
 
-    let bushes = [
-        {"name": "peppermint", "item": "aethersdelight:peppermint_leaf"},
-        {"name": "zanberry", "item": "aether_redux:zanberry"},
-        {"name": "blue_berry", "item": "aether:blue_berry"}
-    ]
-    
-    bushes.forEach(type =>{
-        event.create( "plant/" + type.name + "_bush", "tfc:stationary_berry_bush")
-        .productItem(type.item)
-        .lifecycle("january", "healthy")
-        .lifecycle("february", "flowering")
-        .lifecycle("march", "fruiting")
-        .lifecycle("april", "flowering")
-        .lifecycle("may", "healthy")
-        .lifecycle("june", "flowering")
-        .lifecycle("july", "fruiting")
-        .lifecycle("august", "flowering")
-        .lifecycle("september", "healthy")
-        .lifecycle("october", "flowering")
-        .lifecycle("november", "fruiting")
-        .lifecycle("december", "flowering")
-        .tagBlock("minecraft:mineable/hoe")
-        .hardness(0.5)
-        .soundType("grass")   
-    })
-
-
     event.create("felsic_tuff_mixture").displayName("Felsic Tuff Mixture").soundType("sand").tagBlock("minecraft:mineable/shovel")
 
     colours.forEach(colour => {

@@ -67,5 +67,30 @@
 "block.deep_aether.raw_clorite.prospected": "Raw Clorite",
 "block.deep_aether.skyjade_ore.prospected": "Skyjade",
 
-"block.aethersdelight.arkenium_ore.prospected": "Arkenium"
+"block.aethersdelight.arkenium_ore.prospected": "Arkenium",
+
+
+"block.kubejs.plant.zanberry_bush": "Zanberry Bush",
+"block.kubejs.plant.peppermint_bush": "Peppermint Bush",
+"block.kubejs.plant.blue_berry_bush": "Sky Berry Bush",
+
+"block.kubejs.plant.wild_ginger": "Wild Ginger",
+"block.kubejs.plant.wild_leek": "Wild Leek",
+"block.kubejs.plant.wild_parsnip": "Wild Parsnip",
+
+"item.kubejs.plant.ginger_seeds": "Ginger Seeds",
+"item.kubejs.plant.leek_seeds": "Leek Seeds",
+"item.kubejs.plant.parsnip_seeds": "Parsnip Seeds",
+"item.kubejs.plant.wynd_oats_seeds": "Wynd Oats Seeds",
+
+
+"block.kubejs.plant.ginger": "Ginger",
+"block.kubejs.plant.leek": "Leek",
+"block.kubejs.plant.parsnip": "Parsnip",
+"block.kubejs.plant.wynd_oats": "Wynd Oats",
+
+"block.kubejs.plant.ginger_dead": "Dead Ginger",
+"block.kubejs.plant.leek_dead": "Dead Leek",
+"block.kubejs.plant.parsnip_dead": "Dead Parsnip",
+"block.kubejs.plant.wynd_oats_dead": "Dead Wynd Oats"
 }
