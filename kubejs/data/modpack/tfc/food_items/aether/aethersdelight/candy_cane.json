@@ -1,8 +1,0 @@
-{
-    "ingredient": {
-      "item": "aether:candy_cane"
-    },
-    "decay_modifier": 0.25,
-    "hunger": 1,
-    "fruit": 0.25
-}

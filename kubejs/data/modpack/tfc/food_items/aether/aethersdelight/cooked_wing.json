@@ -1,9 +1,0 @@
-{
-    "ingredient": {
-      "item": "aethersdelight:cooked_wing"
-    },
-    "decay_modifier": 3,
-    "saturation": 0.5,
-    "protein": 1,
-    "hunger": 4
-}

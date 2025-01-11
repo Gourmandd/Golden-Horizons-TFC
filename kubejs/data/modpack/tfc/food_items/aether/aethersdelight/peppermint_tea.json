@@ -1,9 +1,0 @@
-{
-    "ingredient": {
-      "item": "aethersdelight:peppermint_tea"
-    },
-    "decay_modifier": 1,
-    "fruit": 0.5,
-    "saturation": 1,
-    "hunger": 1
-}

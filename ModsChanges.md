@@ -5,7 +5,6 @@ Mods that were added or removed since last release, used to keep track of mods b
 Aether
 Aether Redux
 Aether Lost content
-Aether's Delight.
 Deep Aether
 
 Resource Packs: Aether Regenerated,

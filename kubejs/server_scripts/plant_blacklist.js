@@ -4,12 +4,8 @@ BlockEvents.placed(event =>{
     //event.player.tell(block)
 
     let aether_plants = [
-        "kubejs:peppermint_bush",
         "kubejs:zanberry_bush",
         "kubejs:blue_berry_bush",
-        "kubejs:plant/ginger",
-        "kubejs:plant/leek",
-        "kubejs:plant/parsnip",
         "kubejs:plant/wynd_oats",
     ]
 

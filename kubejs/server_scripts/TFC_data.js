@@ -11,14 +11,6 @@ TFCEvents.data(event =>{
     event.climateRange(climate => {
         climate.maxHydration(30)
         climate.minHydration(30)
-        climate.minTemperature(-60)
-        climate.maxTemperature(-20)
-        climate.temperatureWiggle(3)
-    }, 'kubejs:plant/peppermint_bush')
-
-    event.climateRange(climate => {
-        climate.maxHydration(30)
-        climate.minHydration(30)
         climate.minTemperature(25)
         climate.maxTemperature(40)
         climate.temperatureWiggle(3)
@@ -32,31 +24,6 @@ TFCEvents.data(event =>{
         climate.temperatureWiggle(3)
     }, 'kubejs:plant/blue_berry_bush')
 
-
-    
-    event.climateRange(climate => {
-        climate.maxHydration(100)
-        climate.minHydration(90)
-        climate.minTemperature(25)
-        climate.maxTemperature(40)
-        climate.temperatureWiggle(3)
-    }, 'kubejs:plant/ginger')
-
-    event.climateRange(climate => {
-        climate.maxHydration(100)
-        climate.minHydration(90)
-        climate.minTemperature(25)
-        climate.maxTemperature(40)
-        climate.temperatureWiggle(3)
-    }, 'kubejs:plant/leek')
-
-    event.climateRange(climate => {
-        climate.maxHydration(100)
-        climate.minHydration(90)
-        climate.minTemperature(25)
-        climate.maxTemperature(40)
-        climate.temperatureWiggle(3)
-    }, 'kubejs:plant/parsnip')
 
     event.climateRange(climate => {
         climate.maxHydration(100)
