@@ -19,7 +19,7 @@
 
 "item.kubejs.ceramic.caelum_vessel": "Caelum Vessel",
 "item.kubejs.ceramic.caelum_jug": "Caelum Jug",
-"item.kubejs.ceramic.caelum.filled": "%s Caelum Jug",
+"item.kubejs.ceramic.caelum_jug.filled": "%s Caelum Jug",
 
 "block.kubejs.dirt.aether": "Loose Aether Dirt",
 "block.kubejs.dirt.aether_farmland": "Aether Farmland",
