@@ -1,9 +1,0 @@
-{
-  "ingredient": {
-    "item": "aether:white_apple"
-  },
-  "hunger": 4,
-  "saturation": 0.5,
-  "decay_modifier": 1.7,
-  "fruit": 1
-}

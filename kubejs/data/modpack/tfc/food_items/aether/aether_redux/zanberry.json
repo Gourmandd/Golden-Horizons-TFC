@@ -1,0 +1,10 @@
+{
+    "ingredient": {
+      "item": "aether_redux:zanberry"
+    },
+    "decay_modifier": 2.4,
+    "saturation": 0.4,
+    "fruit": 0.6,
+    "water": 5,
+    "hunger": 4
+}

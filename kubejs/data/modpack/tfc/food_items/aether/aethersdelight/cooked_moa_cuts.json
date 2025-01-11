@@ -1,0 +1,9 @@
+{
+    "ingredient": {
+      "item": "aethersdelight:cooked_moa_cuts"
+    },
+    "decay_modifier": 3,
+    "saturation": 0.5,
+    "protein": 1,
+    "hunger": 2
+}

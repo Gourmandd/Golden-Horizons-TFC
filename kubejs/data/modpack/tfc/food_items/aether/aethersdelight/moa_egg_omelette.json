@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "aethersdelight:moa_egg_omelette"
+  },
+  "decay_modifier": 2,
+  "protein": 1.5,
+  "vegetables": 2,
+  "saturation": 2,
+  "dairy": 0.3
+}

@@ -1,0 +1,8 @@
+{
+    "ingredient": {
+      "item": "aethersdelight:cooked_parsnip"
+    },
+    "decay_modifier": 2,
+    "vegetables": 1.4,
+    "saturation": 4
+}

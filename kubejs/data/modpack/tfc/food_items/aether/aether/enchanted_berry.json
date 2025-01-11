@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "aether:enchanted_berry"
+  },
+  "decay_modifier": 2.4,
+  "saturation": 1,
+  "fruit": 0.8,
+  "water": 15,
+  "hunger": 4
+}

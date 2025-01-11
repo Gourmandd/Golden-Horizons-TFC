@@ -1,0 +1,9 @@
+{
+    "ingredient": {
+      "item": "aethersdelight:ginger_ale"
+    },
+    "decay_modifier": 0.75,
+    "saturation": 1,
+    "hunger": 1,
+    "fruit": 0.5
+}

@@ -1,0 +1,8 @@
+{
+    "ingredient": {
+      "item": "aethersdelight:gingerbread"
+    },
+    "decay_modifier": 2,
+    "saturation": 2,
+    "grain": 1
+}

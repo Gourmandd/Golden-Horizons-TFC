@@ -1,0 +1,7 @@
+{
+    "ingredient": {
+      "item": "aether_redux:wynd_oats"
+    },
+    "decay_modifier": 0.25,
+    "saturation": 1
+}

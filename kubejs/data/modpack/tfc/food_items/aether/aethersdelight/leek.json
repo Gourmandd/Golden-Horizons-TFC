@@ -1,0 +1,8 @@
+{
+    "ingredient": {
+      "item": "aethersdelight:leek"
+    },
+    "decay_modifier": 2,
+    "vegetables": 1,
+    "saturation": 0.4
+}

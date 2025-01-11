@@ -1,0 +1,9 @@
+{
+    "ingredient": {
+      "item": "aethersdelight:enchanted_berry_muffin"
+    },
+    "decay_modifier": 2,
+    "grain": 1,
+    "saturation": 2,
+    "fruit": 1
+}

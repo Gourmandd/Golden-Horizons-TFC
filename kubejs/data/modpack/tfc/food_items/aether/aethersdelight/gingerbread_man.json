@@ -1,0 +1,8 @@
+{
+    "ingredient": {
+      "item": "aether:gingerbread_man"
+    },
+    "decay_modifier": 1,
+    "grain": 0.5,
+    "saturation": 1
+}

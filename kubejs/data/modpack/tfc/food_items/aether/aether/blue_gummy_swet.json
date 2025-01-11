@@ -1,0 +1,10 @@
+{
+    "ingredient": {
+      "item": "aether:blue_gummy_swet"
+    },
+    "decay_modifier": 1.5,
+    "saturation": 2,
+    "fruit": 1.2,
+    "hunger": 6,
+    "water": 25
+}

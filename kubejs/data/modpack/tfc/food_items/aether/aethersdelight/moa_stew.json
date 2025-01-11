@@ -1,0 +1,10 @@
+{
+    "ingredient": {
+      "item": "aethersdelight:moa_stew"
+    },
+    "decay_modifier": 2,
+    "protein": 1.5,
+    "vegetables": 1.5,
+    "saturation": 2,
+    "water": 10
+}

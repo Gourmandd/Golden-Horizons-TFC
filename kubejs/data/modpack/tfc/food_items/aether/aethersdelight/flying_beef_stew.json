@@ -1,0 +1,10 @@
+{
+    "ingredient": {
+      "item": "aethersdelight:flying_beef_stew"
+    },
+    "decay_modifier": 2,
+    "protein": 3,
+    "grain": 1.5,
+    "saturation": 4,
+    "water": 10
+}

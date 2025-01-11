@@ -1,0 +1,9 @@
+{
+    "ingredient": {
+      "item": "aethersdelight:fried_moa_egg"
+    },
+    "decay_modifier": 2,
+    "protein": 1.5,
+    "dairy": 0.3,
+    "saturation": 0.4
+}

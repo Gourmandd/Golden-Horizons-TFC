@@ -1,0 +1,8 @@
+{
+    "ingredient": {
+      "item": "aethersdelight:parsnip"
+    },
+    "decay_modifier": 0.75,
+    "vegetables": 1,
+    "saturation": 2
+}

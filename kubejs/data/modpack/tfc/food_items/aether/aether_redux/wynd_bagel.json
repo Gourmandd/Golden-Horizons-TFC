@@ -1,0 +1,9 @@
+{
+    "ingredient": {
+      "item": "aether_redux:wynd_bagel"
+    },
+    "decay_modifier": 1,
+    "saturation": 1,
+    "hunger": 4,
+    "grain": 0.8
+}

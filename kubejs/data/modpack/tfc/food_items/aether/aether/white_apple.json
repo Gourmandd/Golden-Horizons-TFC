@@ -1,9 +1,9 @@
 {
   "ingredient": {
-    "item": "aethersdelight:candied_white_apple"
+    "item": "aether:white_apple"
   },
   "hunger": 4,
   "saturation": 0.5,
-  "decay_modifier": 1,
+  "decay_modifier": 1.5,
   "fruit": 1
 }

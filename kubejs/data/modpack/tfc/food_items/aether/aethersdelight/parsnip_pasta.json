@@ -1,0 +1,9 @@
+{
+    "ingredient": {
+      "item": "aethersdelight:parsnip_pasta"
+    },
+    "decay_modifier": 2,
+    "vegetables": 2,
+    "saturation": 4,
+    "grain": 1
+}

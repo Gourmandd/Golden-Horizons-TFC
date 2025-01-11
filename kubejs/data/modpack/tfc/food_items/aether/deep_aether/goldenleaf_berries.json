@@ -1,0 +1,10 @@
+{
+    "ingredient": {
+      "item": "deep_aether:goldenleaf_berries"
+    },
+    "decay_modifier": 2.4,
+    "saturation": 0.4,
+    "fruit": 0.8,
+    "water": 5,
+    "hunger": 4
+}
