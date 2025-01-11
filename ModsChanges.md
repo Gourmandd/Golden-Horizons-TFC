@@ -1,6 +1,6 @@
 Mods that were added or removed since last release, used to keep track of mods being added or removed through the Git Repo. 
 
-# Aether
+# Added
 
 Aether
 Aether Redux
@@ -16,6 +16,13 @@ TFC Textiles
 
 Breezy
 
+TFC Hammer Time
+I ❤️ TFC
+
+Shutters
+Portfolio
+Controlling
+
 # Removed
 
 Notes
@@ -27,7 +34,10 @@ Revelationary (disabled by default)
 Connector Extras
 Forgified Fabric API
 
+Create: Estrogen
+
 # Updated 
 
 Create + Addons
 Farmers Delight, and the addons Corn Delight (new content), Barbeque Delight (new content), Crabbers Delight (fixes)
+TFC Artisanal

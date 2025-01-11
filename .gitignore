@@ -47,4 +47,10 @@
 /config/NoChatReports
 /config/voicechat
 
-config/voicechat/username-cache.json
+/config/voicechat/username-cache.json
+/config/WildfireGender/
+
+#temporary
+/icon.png
+
+
