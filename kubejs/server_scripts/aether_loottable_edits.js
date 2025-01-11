@@ -60,4 +60,13 @@ LootJS.modifiers(event => {
         .replaceLoot("minecraft:golden_sword", "tfc:metal/double_ingot/gold", true)
         .replaceLoot("aether:valkyrie_pickaxe", "tfc:metal/pickaxe/steel", true)
         .replaceLoot("aether:gravitite_pickaxe", "tfc:metal/pickaxe/wrought_iron", true)
+    
+    event.addLootTableModifier("aether:blocks/aether_dirt").replaceLoot("aether:aether_dirt", "kubejs:dirt/aether", true)
+    event.addLootTableModifier("aether:blocks/aether_dirt_path").replaceLoot("aether:aether_dirt", "kubejs:dirt/aether", true)
+    event.addLootTableModifier("aether:blocks/aether_grass_block").replaceLoot("aether:aether_dirt", "kubejs:dirt/aether", true)
+    event.addLootTableModifier("aether:blocks/aether_enchanted_grass_block").replaceLoot("aether:aether_dirt", "kubejs:dirt/aether", true)
+    event.addLootTableModifier("deep_aether:blocks/golden_heights_grass_block").replaceLoot("aether:aether_dirt", "kubejs:dirt/aether", true)
+    event.addLootTableModifier("deep_aether:blocks/golden_heights_dirt_path").replaceLoot("aether:aether_dirt", "kubejs:dirt/aether", true)
+    event.addLootTableModifier("aether_redux:blocks/avelium").replaceLoot("aether:aether_dirt", "kubejs:dirt/aether", true)
+    
 })

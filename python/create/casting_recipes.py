@@ -189,7 +189,6 @@ def deployer_molding(tool):
       "tag": "modpack:tools/" + tool
     }
   ],
-  "processingTime": 50,
   "results": [
     {
       "item": "tfc:ceramic/unfired_" + tool + "_mold"

@@ -5,16 +5,14 @@ rm = ResourceManager('modpack')
 # Unused 
 
 clay_types = [
-  "caelum"
+  "caelum",
+  "kaolinite",
+  "yixing",
+  "yellowware",
+  "earthenware",
+  "porcelain"
 ]
-"""
-    "kaolinite",
-    "yixing",
-    "yellowware",
-    "earthenware",
-    "porcelain"
 
-"""
 tools = [
 "pickaxe",
 "axe",
@@ -108,7 +106,7 @@ def clay_recipes(type: str):
     knapping(type, "kubejs:ceramic/unfired_" + type + "_knife_mold", 1, ["XX XX","X  XX","X  XX","X  XX","X  XX"], "unfired_" + type + "_knife_mold", "true")
     knapping(type, "kubejs:ceramic/unfired_" + type + "_bell_mold", 1, ["XXXXX","XX XX","X   X","X   X","X   X"], "unfired_" + type + "_bell_mold", "true")
     knapping(type, "kubejs:ceramic/unfired_" + type + "_ingot_mold", 2, ["XXXXX","X  XX","X  XX","X  XX","XXXXX"], "unfired_" + type + "_ingot_mold", "true")
-    knapping(type, "kubejs:ceramic/unfired_" + type + "_shovel_mold", 2, ["X   X","X   X","X   X","X   X","XX XX"], "unfired_" + type + "_shovel_mold", "true")
+    knapping(type, "kubejs:ceramic/unfired_" + type + "_shovel_mold", 1, ["X   X","X   X","X   X","X   X","XX XX"], "unfired_" + type + "_shovel_mold", "true")
 
     knapping(type, "kubejs:ceramic/unfired_" + type + "_flower_pot", 2, [" X X "," XXX ","     "," X X "," XXX "], "unfired_" + type + "_flower_pot", "false")
     knapping(type, "kubejs:ceramic/unfired_" + type + "_blowpipe", 1, [" X X "," X X "," XXX "," XXX "," XXX "], "unfired_" + type + "_blowpipe", "true")

@@ -35,7 +35,7 @@ StartupEvents.registry("block", event =>{
 
     event.create("quicksoil_poured_glass").displayName("Quicksoil Poured Glass").soundType("glass").renderType("translucent").box(0,0,0,16,1,16).noValidSpawns(true).transparent(true).defaultTranslucent().hardness(0.3).tag("c:hidden_from_recipe_viewers")
 
-    event.create("dirt/aether", "tfc:dirt").farmland(farmland =>{farmland.hardness(1).soundType("sand").tagBlock("minecraft:mineable/shovel")})
+    event.create("dirt/aether", "tfc:dirt").hardness(0.5).farmland(farmland =>{farmland.hardness(1).soundType("sand").tagBlock("minecraft:mineable/shovel")})
         .soundType("sand").tagBlock("minecraft:mineable/shovel")
 
 
@@ -78,6 +78,9 @@ StartupEvents.registry("block", event =>{
     event.create("plant/parsnip", "tfc:crop").stages(4).productItem("aethersdelight:parsnip").nutrient("phosphorous").soundType("grass").hardness(0.5).tagBlock("minecraft:mineable/hoe")
 
     event.create("plant/wynd_oats", "tfc:crop").stages(5).productItem("aether_redux:wynd_oat_panicle").nutrient("nitrogen").soundType("grass").hardness(0.5).tagBlock("minecraft:mineable/hoe")
+
+
+    //event.create("holystone_aqueduct", "tfc:aqueduct").allowedFluids(["minecraft:water", "tfc:salt_water", "tfc:spring_water"])
 
 })
 
