@@ -8,6 +8,7 @@
         "tfc:food/rainbow_trout",
         "tfc:food/salmon",
         "tfc:food/smallmouth_bass",
-        "tfc:food/cod"
+        "tfc:food/cod",
+        "deep_aether:raw_aerglow_fish"
     ]
 }

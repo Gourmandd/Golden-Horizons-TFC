@@ -1,0 +1,10 @@
+{
+    "type": "tfc:quern",
+    "ingredient": {
+        "item": "aether_redux:wynd_oat_panicle"
+    },
+    "result": {
+      "item": "aether_redux:wynd_oats",
+      "count": 2
+    }
+  }

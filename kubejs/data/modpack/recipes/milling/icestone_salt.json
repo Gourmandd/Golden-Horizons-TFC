@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "aether:icestone"
+    }
+  ],
+  "results": [
+    {
+      "item": "tfc:powder/salt",
+      "count": 2
+    }
+  ],
+  "processingTime": 50
+}

@@ -1,0 +1,22 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+      {
+        "item": "deep_aether:aerglow_blossom"
+      },
+      {
+        "item": "deep_aether:aerglow_blossom"
+      },
+      {
+        "item": "deep_aether:aerglow_blossom"
+      },
+      {
+        "item": "deep_aether:aerglow_blossom"
+      }
+    ],
+    "results": [
+      {
+        "item": "deep_aether:aerglow_blossom_block"
+      }
+    ]
+  }

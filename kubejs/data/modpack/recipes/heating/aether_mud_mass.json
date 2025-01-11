@@ -1,0 +1,10 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "kubejs:drying_bricks/aether"
+  },
+  "result_item": {
+    "item": "kubejs:mud_bricks/aether"
+  },
+  "temperature": 1060
+}

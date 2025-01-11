@@ -1,0 +1,22 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+      {
+        "item": "quark:moss_paste"
+      },
+      {
+        "item": "quark:moss_paste"
+      },
+      {
+        "item": "quark:moss_paste"
+      },
+      {
+        "item": "quark:moss_paste"
+      }
+    ],
+    "results": [
+      {
+        "item": "quark:midori_block"
+      }
+    ]
+  }

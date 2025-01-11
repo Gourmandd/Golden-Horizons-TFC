@@ -17,19 +17,8 @@
     ],
     "results": [
       {
-        "item": "firmalife:food/tomato_sauce"
-      },
-      {
-        "item": "firmalife:food/tomato_sauce"
-      },
-      {
-        "item": "firmalife:food/tomato_sauce"
-      },
-      {
-        "item": "firmalife:food/tomato_sauce"
-      },
-      {
-        "item": "firmalife:food/tomato_sauce"
+        "item": "firmalife:food/tomato_sauce",
+        "count": 5
       }
     ],
     "heatRequirement": "heated"

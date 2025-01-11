@@ -1,0 +1,9 @@
+{
+    "type": "tfc:quern",
+    "ingredient": {
+        "item": "aether_redux:wynd_oats"
+    },
+    "result": {
+      "item": "tfc:food/oat_flour"
+    }
+  }

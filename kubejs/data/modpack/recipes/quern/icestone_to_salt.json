@@ -1,0 +1,10 @@
+{
+    "type": "tfc:quern",
+    "ingredient": {
+        "item": "aether:icestone"
+    },
+    "result": {
+      "item": "tfc:powder/salt",
+      "count": 2
+    }
+  }

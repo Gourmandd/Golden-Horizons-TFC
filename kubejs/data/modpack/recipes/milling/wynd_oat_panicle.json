@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "aether_redux:wynd_oat_panicle"
+    }
+  ],
+  "results": [
+    {
+      "item": "aether_redux:wynd_oats",
+      "count": 2
+    }
+  ],
+  "processingTime": 50
+}

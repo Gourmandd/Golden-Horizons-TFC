@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "firmalife:food/oat_flatbread"
+    },
+    {
+      "item": "aether_redux:wynd_oats"
+    },
+    {
+      "tag": "modpack:food/blue_berrys"
+    }
+  ],
+  "result": {
+    "item": "aether_redux:blueberry_bagel"
+  }
+}

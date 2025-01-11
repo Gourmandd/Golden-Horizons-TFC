@@ -73,9 +73,6 @@
         "createbigcannons:medium_nethersteel_cannon_layer",
         "createbigcannons:large_nethersteel_cannon_layer",
         "createbigcannons:very_large_nethersteel_cannon_layer",
-        "createbigcannons:unbored_nethersteel_sliding_breech",
-        "createbigcannons:incomplete_nethersteel_sliding_breech",
-        "createbigcannons:nethersteel_sliding_breechblock",
         "createbigcannons:unbored_nethersteel_screw_breech",
         "createbigcannons:incomplete_nethersteel_screw_breech",
         "createbigcannons:nethersteel_screw_lock"

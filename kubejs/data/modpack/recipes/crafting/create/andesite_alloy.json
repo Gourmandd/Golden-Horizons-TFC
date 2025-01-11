@@ -11,7 +11,7 @@
         "item": "tfc:mortar"
       },
       {
-        "item": "minecraft:clay_ball"
+        "tag": "modpack:clay_balls"
       }
     ],
     "result": {

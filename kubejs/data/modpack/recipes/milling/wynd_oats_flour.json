@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "aether_redux:wynd_oats"
+    }
+  ],
+  "results": [
+    {
+      "item": "tfc:food/oat_flour"
+    }
+  ],
+  "processingTime": 50
+}
