@@ -19,6 +19,7 @@
     "crop_progress": true,
     "command_block": true,
     "mob_growth": true,
+    "waxed": true,
     "harvest_tool.new_line": false,
     "entity_health.max_for_render": 40,
     "entity_health.show_fractions": false,
@@ -115,7 +116,6 @@
     "candle": true,
     "jack_o_lantern": true,
     "firepit": true,
-    "wet_concrete": true,
     "ingot_pile": true
   },
   "firmaciv": {

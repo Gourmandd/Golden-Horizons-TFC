@@ -25,9 +25,9 @@
 	#Determines the default Minecraft menu style to switch to with the menu theme button
 	"Default Minecraft menu style" = "cumulus_menus:minecraft"
 	#Adds random trivia and tips to the bottom of loading screens
-	"Enables random trivia" = true
+	"Enables random trivia" = false
 	#Makes the extra hearts given by life shards display as silver colored
-	"Enables silver life shard hearts" = true
+	"Enables silver life shard hearts" = false
 	#Disables the Aether's accessories button from appearing in GUIs
 	"Disables the accessories button" = false
 	#The y-coordinate of the Ascending to the Aether and Descending from the Aether text in loading screens
@@ -49,7 +49,7 @@
 	#The y-coordinate of the perks button layout when in the pause menu
 	"Layout y-coordinate in pause menu" = 0
 	#Enables the overlay at the top of the screen for the Hammer of Kingbdogz' cooldown
-	"Enables Hammer of Kingbdogz' cooldown overlay" = true
+	"Enables Hammer of Kingbdogz' cooldown overlay" = false
 
 [Audio]
 	#Sets the minimum delay for the Aether's music manager to use if needing to reset the song delay outside the Aether

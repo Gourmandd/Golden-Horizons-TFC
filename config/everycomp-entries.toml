@@ -103,6 +103,7 @@
 			purple_glacia = true
 			gilded_oak = true
 			blighted_skyroot = true
+			fieldsproot = true
 
 #Disables specific entries
 [entries]
@@ -118,6 +119,7 @@
 			stripped_post = true
 			ladder = true
 			hollow_log = true
+			vertical_slab = true
 
 		[entries.wood_type.hearth_and_home]
 			parquet = true
@@ -141,6 +143,14 @@
 			shutter = true
 			bench = true
 			chair = true
+
+		[entries.wood_type.functionalstorage]
+			1 = true
+			4 = true
+			2 = true
+
+		[entries.wood_type.shutter]
+			shutter = true
 
 	[entries.leaves_type]
 

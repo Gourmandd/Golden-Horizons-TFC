@@ -2,7 +2,9 @@
 #General settings
 [general]
 	#Should this mod add some of its items (CORN!!!) as extra chest loot across Minecraft?
-	genCornLootModifier = true
+	genCornLootModifier = false
 	#Should Novice and Apprentice Farmers trade this mod's crops? (May reduce chances of other trades appearing)
-	villagersTradeCorn = true
+	villagersTradeCorn = false
+	#Should this mod add corn farm to plains and taiga village?
+	genCornFarm = false
 
