@@ -2,7 +2,6 @@
     "values":[
         "kubejs:veridium_scree",
         "kubejs:clorite_scree",
-        "kubejs:divinite_scree",
-        "kubejs:arkenium_scree"
+        "kubejs:divinite_scree"
     ]
 }

@@ -4,6 +4,8 @@
         "deep_aether:iaspove",
         "aether_redux:xaelia_patch",
         "aether_redux:daggerbloom",
-        "aether_redux:fieldsproot_petals"
+        "aether_redux:fieldsproot_petals",
+        "ancient_aether:sky_blues",
+        "ancient_aether:wynd_thistle"
     ]
 }

@@ -1,8 +1,6 @@
 {
     "replace": false,
     "values": [
-        "kubejs:plant/ginger_seeds",
-        "kubejs:plant/leek_seeds",
-        "kubejs:plant/parsnip_seeds"
+        "kubejs:plant/wynd_oats_seeds"
     ]
 }

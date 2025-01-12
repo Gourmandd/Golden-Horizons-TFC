@@ -21,6 +21,7 @@ let colours = [
 
 StartupEvents.registry("item", event =>{
 
+    event.create("saw").displayName("Wrought Iron Sawblade")
     event.create("unfired_shaft").displayName("Unfired Shaft")
     event.create("fired_shaft").displayName("Fired Shaft")
     event.create("oscillating_mechanism").displayName("Oscillating Mechanism")

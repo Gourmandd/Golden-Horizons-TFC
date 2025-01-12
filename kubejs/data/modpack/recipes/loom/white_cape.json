@@ -2,7 +2,7 @@
     "type": "tfc:loom",
     "ingredient": {
       "ingredient": {
-        "tag": "tfc:high_quality_cloth"
+        "item": "tfc:silk_cloth"
       },
       "count": 6
     },

@@ -10,7 +10,6 @@
         "aether:gravitite_ore",
         "aether:ambrosium_ore",
         "aether:zanite_ore",
-        "deep_aether:skyjade_ore",
-        "aethersdelight:arkenium_ore"
+        "deep_aether:skyjade_ore"
     ]
 }
