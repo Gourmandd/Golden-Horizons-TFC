@@ -1,0 +1,20 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LPL",
+    "LPL"
+  ],
+  "key": {
+    "P": {
+      "item": "ancient_aether:sakura_planks"
+    },
+    "L": {
+      "item": "kubejs:wood/lumber/sakura"
+    }
+  },
+  "result": {
+    "item": "ancient_aether:sakura_fence_gate",
+    "count": 2
+  }
+}

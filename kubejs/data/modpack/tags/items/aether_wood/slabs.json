@@ -11,6 +11,8 @@
         "deep_aether:cruderoot_slab",
         "deep_aether:conberry_slab",
         "deep_aether:sunroot_slab",
-        "aether_redux:jellyshroom_slab"
+        "aether_redux:jellyshroom_slab",
+        "ancient_aether:highsproot_slab",
+        "ancient_aether:sakura_slab"
     ]
 }

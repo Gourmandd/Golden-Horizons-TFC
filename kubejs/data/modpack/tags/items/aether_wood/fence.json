@@ -11,6 +11,8 @@
         "deep_aether:cruderoot_fence",
         "deep_aether:conberry_fence",
         "deep_aether:sunroot_fence",
-        "aether_redux:jellyshroom_fence"
+        "aether_redux:jellyshroom_fence",
+        "ancient_aether:highsproot_fence",
+        "ancient_aether:sakura_fence"
     ]
 }

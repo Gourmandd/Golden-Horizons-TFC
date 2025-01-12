@@ -11,6 +11,8 @@
         "kubejs:wood/lumber/cruderoot",
         "kubejs:wood/lumber/conberry",
         "kubejs:wood/lumber/sunroot",
-        "kubejs:wood/lumber/jellyshroom"
+        "kubejs:wood/lumber/jellyshroom",
+        "kubejs:wood/lumber/sakura",
+        "kubejs:wood/lumber/highsproot"
     ]
 }

@@ -11,6 +11,8 @@
         "kubejs:cruderoot_twig",
         "kubejs:conberry_twig",
         "kubejs:sunroot_twig",
-        "kubejs:jellyshroom_twig"
+        "kubejs:jellyshroom_twig",
+        "kubejs:highsproot_twig",
+        "kubejs:sakura_twig"
     ]
 }

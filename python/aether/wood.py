@@ -20,6 +20,11 @@ deep_aether_wood = [
     "conberry",
     "sunroot",    
 ]
+
+ancient_aether_wood = [
+    "highsproot",
+    "sakura"  
+]
 '''
 gravitation_wood = [
     "aerfin",
@@ -94,6 +99,11 @@ def generate():
     for type in aether_redux_wood:
         lumber_from_plank_variants(type, "aether_redux")
         aether_wood_products(type, "aether_redux")
+
+    for type in ancient_aether_wood:
+        lumber_from_plank_variants(type, "ancient_aether")
+        aether_wood_products(type, "ancient_aether")
+        lumber_from_logs(type, "ancient_aether", type + "_logs")
 '''
     for type in gravitation_wood:
         lumber_from_logs(type, "gravitation", type + "_logs")

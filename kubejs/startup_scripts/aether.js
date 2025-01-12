@@ -11,6 +11,8 @@ let aether_wood_types = [
     "cruderoot",
     "conberry",
     "sunroot",
+    "highsproot",
+    "sakura"
 ]
 
 function capitalizeFirstLetter(string) {

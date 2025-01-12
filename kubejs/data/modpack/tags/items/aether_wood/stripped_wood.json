@@ -10,6 +10,8 @@
         "deep_aether:stripped_yagroot_wood",
         "deep_aether:stripped_cruderoot_wood",
         "deep_aether:stripped_conberry_wood",
-        "deep_aether:stripped_sunroot_wood"
+        "deep_aether:stripped_sunroot_wood",
+        "ancient_aether:stripped_highsproot_wood",
+        "ancient_aether:stripped_sakura_wood"
     ]
 }

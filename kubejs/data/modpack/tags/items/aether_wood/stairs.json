@@ -11,6 +11,8 @@
         "deep_aether:cruderoot_stairs",
         "deep_aether:conberry_stairs",
         "deep_aether:sunroot_stairs",
-        "aether_redux:jellyshroom_stairs"
+        "aether_redux:jellyshroom_stairs",
+        "ancient_aether:highsproot_stairs",
+        "ancient_aether:sakura_stairs"
     ]
 }

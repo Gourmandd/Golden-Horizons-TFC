@@ -4,6 +4,7 @@ Mods that were added or removed since last release, used to keep track of mods b
 
 Aether
 Aether Redux
+Ancient Aether
 Aether Lost content
 Deep Aether
 
