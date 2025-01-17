@@ -2,11 +2,11 @@
 	"type": "minecraft:netherrack_replace_blobs",
 	"config": {
 		"state": {
-			"Name": "aether:ambrosium_ore"
+			"Name": "deep_aether:raw_clorite"
 		},
 		"target": {
 			"Name": "aether:holystone"
 		},
-		"radius": 3
+		"radius": 8
 	}
 }

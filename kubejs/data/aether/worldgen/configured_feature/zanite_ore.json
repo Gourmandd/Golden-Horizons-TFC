@@ -1,18 +1,12 @@
 {
-  "type": "minecraft:ore",
-  "config": {
-    "discard_chance_on_air_exposure": 0.0,
-    "size": 32,
-    "targets": [
-      {
-        "state": {
-          "Name": "aether:zanite_ore"
-        },
-        "target": {
-          "predicate_type": "minecraft:tag_match",
-          "tag": "aether:holystone"
-        }
-      }
-    ]
-  }
+	"type": "minecraft:netherrack_replace_blobs",
+	"config": {
+		"state": {
+			"Name": "aether:zanite_ore"
+		},
+		"target": {
+			"Name": "aether:holystone"
+		},
+		"radius": 6
+	}
 }
