@@ -1,0 +1,17 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:knapping",
+  "knapping_type": "tfc:porcelain",
+  "outside_slot_required": "true",
+  "pattern": [
+    "  XXX",
+    "    X",
+    "X   X",
+    "X    ",
+    "XXX  "
+  ],
+  "result": {
+    "item": "tfc_hammer_time:ceramic/unfired_sledgehammer_head_mold",
+    "count": 1
+  }
+}

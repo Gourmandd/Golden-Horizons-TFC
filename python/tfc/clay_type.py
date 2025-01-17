@@ -107,6 +107,15 @@ def clay_recipes(type: str):
     knapping(type, "kubejs:ceramic/unfired_" + type + "_bell_mold", 1, ["XXXXX","XX XX","X   X","X   X","X   X"], "unfired_" + type + "_bell_mold", "true")
     knapping(type, "kubejs:ceramic/unfired_" + type + "_ingot_mold", 2, ["XXXXX","X  XX","X  XX","X  XX","XXXXX"], "unfired_" + type + "_ingot_mold", "true")
     knapping(type, "kubejs:ceramic/unfired_" + type + "_shovel_mold", 1, ["X   X","X   X","X   X","X   X","XX XX"], "unfired_" + type + "_shovel_mold", "true")
+    
+    knapping(type, "tfc:ceramic/unfired_large_vessel", 1, ["X   X","X   X","X   X","X   X","XXXXX"], type + "_large_vessel", "true")
+    knapping(type, "artisanal:ceramic/unfired_small_pot", 1, [" XX  ","XX   ","X X X","  XXX","  XXX"], type + "_small_pot", "true")
+    knapping(type, "firmalife:oven_top", 1, ["XXXXX","XX XX","X   X","X   X","XXXXX"], type + "_oven_top", "true")
+    knapping(type, "firmalife:oven_bottom", 1, ["XX XX","X   X","X   X","XX XX","XXXXX"], type + "_oven_bottom", "true")
+    knapping(type, "firmalife:oven_chimney", 1, ["XXXXX","XX XX","XX XX","XX XX","XXXXX"], type + "_oven_chimney", "true")
+    knapping(type, "tfc:ceramic/unfired_pan", 1, ["     ","X   X","XXXXX"," XXX ","     "], type + "_pan", "true")
+    knapping(type, "tfc_hammer_time:ceramic/unfired_sledgehammer_head_mold", 1, ["  XXX","    X","X   X","X    ","XXX  "], type + "_sledgehammer_head_mold", "true")
+    knapping(type, "tfc_hammer_time:ceramic/unfired_excavator_head_mold", 1, ["XXXXX","X   X","X   X","X   X","X   X"], type + "_excavator_head_mold", "true")
 
     knapping(type, "kubejs:ceramic/unfired_" + type + "_flower_pot", 2, [" X X "," XXX ","     "," X X "," XXX "], "unfired_" + type + "_flower_pot", "false")
     knapping(type, "kubejs:ceramic/unfired_" + type + "_blowpipe", 1, [" X X "," X X "," XXX "," XXX "," XXX "], "unfired_" + type + "_blowpipe", "true")

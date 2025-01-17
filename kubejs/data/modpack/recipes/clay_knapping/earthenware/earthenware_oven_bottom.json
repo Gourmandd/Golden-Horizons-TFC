@@ -1,0 +1,17 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:knapping",
+  "knapping_type": "tfc:earthenware",
+  "outside_slot_required": "true",
+  "pattern": [
+    "XX XX",
+    "X   X",
+    "X   X",
+    "XX XX",
+    "XXXXX"
+  ],
+  "result": {
+    "item": "firmalife:oven_bottom",
+    "count": 1
+  }
+}
