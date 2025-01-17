@@ -27,12 +27,7 @@ LootJS.modifiers(event => {
     event.addEntityLootModifier("aether:phyg").replaceLoot("minecraft:porkchop", "tfc:food/pork", true).addLoot("tfc:medium_raw_hide").randomChance(0.10)
     event.addEntityLootModifier("aether:flying_cow").replaceLoot("minecraft:beef", "tfc:food/beef", true).replaceLoot("minecraft:leather", "tfc:large_raw_hide")
 
-    event.addEntityLootModifier("aether:mimic")
-        .replaceLoot("aether:zanite_pickaxe", "tfc:metal/pickaxe/black_bronze", true)
-        .replaceLoot("aether:skyroot_pickaxe", "tfc:metal/pickaxe/copper", true)
-        .replaceLoot("aether:holystone_pickaxe", "tfc:metal/pickaxe/bronze", true)
-
-    event.addEntityLootModifier("aether:valkyrie_queen").replaceLoot("minecraft:golden_sword", "createaddition:electrum_amulet", true) // untested
+    event.addEntityLootModifier("aether:valkyrie_queen").replaceLoot("minecraft:golden_sword", "createaddition:electrum_amulet", true)
     event.addEntityLootModifier("aether:minic").replaceLoot("aether:skyroot_pickaxe", "tfc:metal/pickaxe/copper", true).replaceLoot("aether:holystone_pickaxe", "tfc:metal/pickaxe/bronze")
     event.addEntityLootModifier("aether_redux:shimmercow").replaceLoot("minecraft:beef", "tfc:food/beef", true).replaceLoot("minecraft:leather", "tfc:large_raw_hide")
     event.addEntityLootModifier("aether_redux:mykapod").replaceLoot("minecraft:slime_ball", "tfc:glue", true)
@@ -44,7 +39,6 @@ LootJS.modifiers(event => {
     event.addLootTableModifier("aether:chests/dungeon/bronze/bronze_dungeon_loot").replaceLoot("aether:zanite_pickaxe", "tfc:metal/pickaxe/black_bronze", true).replaceLoot("aether:skyroot_pickaxe", "tfc:metal/pickaxe/copper", true).replaceLoot("aether:holystone_pickaxe", "tfc:metal/pickaxe/bronze", true)
     */
 
-    event.addLootTableModifier("aether:chests/dungeon/bronze/bronze_dungeon").replaceLoot("aether:zanite_pickaxe", "tfc:metal/pickaxe/black_bronze", true).replaceLoot("aether:skyroot_pickaxe", "tfc:metal/pickaxe/copper", true).replaceLoot("aether:holystone_pickaxe", "tfc:metal/pickaxe/bronze", true)
 
     event.addLootTableModifier("aether:chests/dungeon/gold/gold_dungeon_reward")
         .replaceLoot("minecraft:chainmail_boots", "magistuarmory:chainmail_boots", true)
@@ -52,8 +46,6 @@ LootJS.modifiers(event => {
         .replaceLoot("minecraft:chainmail_chestplate", "magistuarmory:chainmail_chestplate", true)
         .replaceLoot("minecraft:chainmail_helmet", "magistuarmory:chainmail_helmet", true)
 
-    event.addLootTableModifier("aether:chests/dungeon/silver/silver_dungeon")
-    .replaceLoot("aether:zanite_pickaxe", "tfc:metal/pickaxe/black_bronze", true)
     
     event.addLootTableModifier("aether:chests/dungeon/silver/silver_dungeon_reward")
         .replaceLoot("minecraft:iron_sword", "tfc:metal/sword/wrought_iron", true)
@@ -61,12 +53,64 @@ LootJS.modifiers(event => {
         .replaceLoot("aether:valkyrie_pickaxe", "tfc:metal/pickaxe/steel", true)
         .replaceLoot("aether:gravitite_pickaxe", "tfc:metal/pickaxe/wrought_iron", true)
     
-    event.addLootTableModifier("aether:blocks/aether_dirt").replaceLoot("aether:aether_dirt", "kubejs:dirt/aether", true)
-    event.addLootTableModifier("aether:blocks/aether_dirt_path").replaceLoot("aether:aether_dirt", "kubejs:dirt/aether", true)
-    event.addLootTableModifier("aether:blocks/aether_grass_block").replaceLoot("aether:aether_dirt", "kubejs:dirt/aether", true)
-    event.addLootTableModifier("aether:blocks/aether_enchanted_grass_block").replaceLoot("aether:aether_dirt", "kubejs:dirt/aether", true)
-    event.addLootTableModifier("deep_aether:blocks/golden_heights_grass_block").replaceLoot("aether:aether_dirt", "kubejs:dirt/aether", true)
-    event.addLootTableModifier("deep_aether:blocks/golden_heights_dirt_path").replaceLoot("aether:aether_dirt", "kubejs:dirt/aether", true)
-    event.addLootTableModifier("aether_redux:blocks/avelium").replaceLoot("aether:aether_dirt", "kubejs:dirt/aether", true)
+
+
+    let PickaxeLootTables = [
+        "ancient_aether:selectors/sentry_vase",
+        "ancient_aether:chests/dungeon/laboratory/sentry_laboratory_loot",
+        "ancient_aether:chests/dungeon/bronze/bronze_dungeon_miscellaneous",
+        "ancient_aether:chests/dungeon/bronze/bronze_dungeon_loot",
+        "ancient_aether:chests/dungeon/bronze/bronze_dungeon_library",
+        "ancient_aether:chests/settlement_secret",
+        "ancient_aether:chests/camp_generic",
+        "aether:chests/dungeon/silver/silver_dungeon",
+        "aether:chests/dungeon/bronze/bronze_dungeon",
+        "aether:entities/mimic"
+
+    ]
+
+    PickaxeLootTables.forEach(lootTableId =>{
+        event.addLootTableModifier(lootTableId)
+            .replaceLoot("aether:zanite_pickaxe", "tfc:metal/pickaxe/black_bronze", true)
+            .replaceLoot("aether:skyroot_pickaxe", "tfc:metal/pickaxe/copper", true)
+            .replaceLoot("aether:holystone_pickaxe", "tfc:metal/pickaxe/bronze", true)
+    
+    })
+
+
+
+    let DirtLootTables = [
+        "aether:blocks/aether_dirt_path",
+        "aether:blocks/aether_grass_block",
+        "aether:blocks/aether_enchanted_grass_block",
+        "deep_aether:blocks/golden_heights_grass_block",
+        "deep_aether:blocks/golden_heights_dirt_path",
+        "aether_redux:blocks/avelium",
+        "aether:blocks/aether_dirt"
+    ] 
+
+    DirtLootTables.forEach(lootTableId =>{
+        event.addLootTableModifier(lootTableId).replaceLoot("aether:aether_dirt", "kubejs:dirt/aether", true)
+    })
+
+    //torch replacements
+    let torchLootTables = [
+        "aether:chests/dungeon/bronze/bronze_dungeon_disc",
+        "aether:blocks/ambrosium_torch",
+        "aether:chests/dungeon/bronze/bronze_dungeon_loot",
+        "aether:chests/dungeon/bronze/bronze_dungeon_trash",
+        "aether:chests/dungeon/silver/silver_dungeon_disc",
+        "aether:chests/dungeon/silver/silver_dungeon_loot",
+        "aether:chests/dungeon/silver/silver_dungeon_reward",
+        "aether:chests/dungeon/silver/silver_dungeon_trash",
+        "ancient_aether:chests/camp_generic",
+        "ancient_aether:chests/dungeon/laboratory/sentry_laboratory_loot",
+        "ancient_aether:chests/dungeon/bronze/bronze_dungeon_supplies",
+        "ancient_aether:chests/dungeon/bronze/bronze_dungeon_loot",
+    ]
+
+    torchLootTables.forEach(lootTableId =>{
+        event.addLootTableModifier(lootTableId).replaceLoot("aether:ambrosium_torch", "tfc:torch", true)
+    })
     
 })

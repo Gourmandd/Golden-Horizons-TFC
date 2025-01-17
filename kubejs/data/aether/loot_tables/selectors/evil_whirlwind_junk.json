@@ -1,0 +1,42 @@
+{
+    "type":"minecraft:selector",
+    "pools":[
+        {
+            "bonus_rolls":0.0,
+            "entries":[
+                {
+                    "type":"minecraft:item",
+                    "name":"minecraft:feather",
+                    "weight": 5
+                },
+                {
+                    "type":"minecraft:item",
+                    "name":"kubejs:veridium_scree",
+                    "weight": 1
+                },
+                {
+                    "type":"minecraft:item",
+                    "name":"kubejs:divinite_scree",
+                    "weight": 1
+                },
+                {
+                    "type":"minecraft:item",
+                    "name":"kubejs:clorite_scree",
+                    "weight": 1
+                },
+                {
+                    "type":"minecraft:item",
+                    "name":"kubejs:valkyrum_scree",
+                    "weight": 1
+                },
+                {
+                    "type":"minecraft:item",
+                    "name":"aether:ambrosium",
+                    "weight": 1
+                }
+            ],
+        "rolls":1.0
+        }
+    ],
+"random_sequence":"aether:selectors/evil_whirlwind_junk"
+}
