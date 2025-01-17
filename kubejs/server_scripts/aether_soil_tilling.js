@@ -7,7 +7,8 @@ BlockEvents.rightClicked(event =>{
         "aether:aether_dirt", "aether:aether_grass_block",
         "aether:enchanted_aether_grass_block", 
         "aether_redux:avelium", "aether:aether_dirt_path", 
-        "deep_aether:golden_heights_grass_block", "deep_aether:golden_heights_dirt_path"
+        "deep_aether:golden_heights_grass_block", "deep_aether:golden_heights_dirt_path",
+        "aether:aether_farmland"
     ]
     let hoes = Ingredient.of("#minecraft:hoes").stacks
     let hoe_list = []
