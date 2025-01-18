@@ -1,10 +1,5 @@
 {
   "values": [
-    "aether_redux:veridium_ingot",
-    "aether_redux:veridium_nugget",
-    "aether_redux:veridium_dart",
-    "aether_redux:veridium_dart_shooter",
-    "aether_redux:raw_veridium",
     "aether_redux:veridium_shovel",
     "aether_redux:veridium_axe",
     "aether_redux:veridium_hoe",

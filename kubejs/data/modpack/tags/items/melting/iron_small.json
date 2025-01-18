@@ -18,6 +18,26 @@
     "firmalife:oven_insulation",
     "createaddition:spool",
     "createaddition:iron_wire",
-    "farmersdelight:iron_knife"
+    "farmersdelight:iron_knife",
+    "aether:iron_bubble",
+    "aether:iron_ring",
+    "aether:iron_gloves",
+    "aether:iron_pendant",
+    "aether:ice_ring",
+    "aether:ice_pendant",
+    "ancient_aether:valkyrum",
+    "aether_redux:raw_valkyrum",
+    "ancient_aether:valkyrum_ring",
+    "ancient_aether:valkyrum_pendant",
+    "ancient_aether:valkyrum_gloves",
+    "ancient_aether:valkyrum_pickaxe",
+    "ancient_aether:valkyrum_axe",
+    "ancient_aether:valkyrum_shovel",
+    "ancient_aether:valkyrum_hoe",
+    "ancient_aether:valkyrum_leggings",
+    "ancient_aether:valkyrum_boots",
+    "ancient_aether:valkyrum_helmet",
+    "ancient_aether:valkyrum_chestplate",
+    "ancient_aether:valkyrum_lance"
   ]
 }

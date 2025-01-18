@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "modpack:valkyrum_equipment"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/cast_iron",
+    "amount": 300
+  },
+  "temperature": 1535,
+  "use_durability": true
+}

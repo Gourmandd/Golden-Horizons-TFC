@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "aether:golden_pendant"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/gold",
+    "amount": 100
+  },
+  "temperature": 1060
+}
