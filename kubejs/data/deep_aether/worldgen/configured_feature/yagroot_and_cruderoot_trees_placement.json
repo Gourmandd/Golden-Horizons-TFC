@@ -2,7 +2,7 @@
   "type": "minecraft:random_selector",
   "config": {
     "default": {
-      "feature": "modpack:yagroot_tree",
+      "feature": "modpack:deep_aether/yagroot_tree",
       "placement": [
         {
           "type": "minecraft:block_predicate_filter",
@@ -22,7 +22,7 @@
       {
         "chance": 0.25,
         "feature": {
-          "feature": "modpack:cruderoot_tree",
+          "feature": "modpack:deep_aether/cruderoot_tree",
           "placement": [
             {
               "type": "minecraft:block_predicate_filter",
