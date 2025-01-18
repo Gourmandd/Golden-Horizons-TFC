@@ -1,0 +1,10 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "aether_redux:raw_valkyrum_block"
+  },
+  "result_item": {
+    "item": "ancient_aether:valkyrum_block"
+  },
+  "temperature": 1200
+}

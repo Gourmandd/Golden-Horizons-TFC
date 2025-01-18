@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:netherrack_replace_blobs",
+	"config": {
+		"state": {
+			"Name": "ancient_aether:valkyrum_ore"
+		},
+		"target": {
+			"Name": "aether:holystone"
+		},
+		"radius": 8
+	}
+}

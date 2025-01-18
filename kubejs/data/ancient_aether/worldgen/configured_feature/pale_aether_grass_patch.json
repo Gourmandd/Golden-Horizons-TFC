@@ -30,6 +30,13 @@
         {
           "chance": 0.01,
           "feature": {
+            "feature": "modpack:scree/valkyrum_scree",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.01,
+          "feature": {
             "feature": "modpack:scree/clorite_scree",
             "placement": []
           }

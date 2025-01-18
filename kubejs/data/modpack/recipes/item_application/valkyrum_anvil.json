@@ -1,0 +1,16 @@
+{
+    "type": "create:item_application",
+    "ingredients": [
+      {
+        "item": "ancient_aether:valkyrum_block"
+      },
+      {
+        "tag": "tfc:chisels"
+      }
+    ],
+    "results": [
+      {
+        "item": "kubejs:valkyrum_anvil"
+      }
+    ]
+  }

@@ -23,6 +23,13 @@
       {
         "chance": 0.01,
         "feature": {
+          "feature": "modpack:scree/valkyrum_scree",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.01,
+        "feature": {
           "feature": "modpack:scree/divinite_scree",
           "placement": []
         }
