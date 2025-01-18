@@ -1,5 +1,5 @@
 {
-  "feature": "modpack:skyroot_twig",
+  "feature": "modpack:twigs/sunroot_twig",
   "placement": [
     {
       "type": "minecraft:block_predicate_filter",

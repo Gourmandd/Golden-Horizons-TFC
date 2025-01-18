@@ -1,0 +1,7 @@
+{
+  "type": "tfc:if_then",
+  "config": {
+    "if": "ancient_aether:wyndcaps_holiday_tree",
+    "then": "modpack:skyroot_twig_patch"
+  }
+}

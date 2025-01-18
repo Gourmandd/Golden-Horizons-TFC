@@ -1,0 +1,7 @@
+{
+  "type": "tfc:if_then",
+  "config": {
+    "if": "ancient_aether:tall_frosted_highsproot_tree",
+    "then": "modpack:highsproot_twig_patch"
+  }
+}

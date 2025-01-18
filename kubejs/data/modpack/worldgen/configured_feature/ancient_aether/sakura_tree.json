@@ -1,0 +1,7 @@
+{
+  "type": "tfc:if_then",
+  "config": {
+    "if": "ancient_aether:sakura_tree",
+    "then": "modpack:sakura_twig_patch"
+  }
+}

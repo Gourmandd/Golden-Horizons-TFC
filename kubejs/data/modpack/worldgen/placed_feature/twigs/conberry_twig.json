@@ -1,5 +1,5 @@
 {
-  "feature": "modpack:blightwillow_twig",
+  "feature": "modpack:twigs/conberry_twig",
   "placement": [
     {
       "type": "minecraft:block_predicate_filter",

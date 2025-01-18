@@ -1,5 +1,5 @@
 {
-  "feature": "modpack:fieldsproot_twig",
+  "feature": "modpack:twigs/roseroot_twig",
   "placement": [
     {
       "type": "minecraft:block_predicate_filter",

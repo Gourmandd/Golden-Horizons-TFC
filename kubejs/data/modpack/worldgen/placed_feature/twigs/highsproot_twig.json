@@ -1,5 +1,5 @@
 {
-  "feature": "modpack:cloudcap_twig",
+  "feature": "modpack:twigs/highsproot_twig",
   "placement": [
     {
       "type": "minecraft:block_predicate_filter",

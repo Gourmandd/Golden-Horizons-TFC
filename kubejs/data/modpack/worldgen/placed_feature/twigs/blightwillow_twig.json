@@ -1,5 +1,5 @@
 {
-  "feature": "modpack:glacia_twig",
+  "feature": "modpack:twigs/blightwillow_twig",
   "placement": [
     {
       "type": "minecraft:block_predicate_filter",

@@ -1,5 +1,5 @@
 {
-  "feature": "modpack:jellyshroom_twig",
+  "feature": "modpack:twigs/cruderoot_twig",
   "placement": [
     {
       "type": "minecraft:block_predicate_filter",
