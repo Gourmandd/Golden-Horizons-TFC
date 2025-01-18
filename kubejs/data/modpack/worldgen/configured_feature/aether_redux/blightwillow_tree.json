@@ -2,6 +2,6 @@
   "type": "tfc:if_then",
   "config": {
     "if": "aether_redux:trees/blightwillow_tree",
-    "then": "modpack:blightwillow_twig_patch"
+    "then": "modpack:twig_patch/blightwillow_twig_patch"
   }
 }

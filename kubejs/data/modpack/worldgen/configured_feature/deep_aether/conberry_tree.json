@@ -2,6 +2,6 @@
   "type": "tfc:if_then",
   "config": {
     "if": "deep_aether:conberry_tree",
-    "then": "modpack:conberry_twig_patch"
+    "then": "modpack:twig_patch/conberry_twig_patch"
   }
 }

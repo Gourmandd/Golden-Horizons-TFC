@@ -2,6 +2,6 @@
   "type": "tfc:if_then",
   "config": {
     "if": "aether_redux:trees/purple_glacia_tree",
-    "then": "modpack:glacia_twig_patch"
+    "then": "modpack:twig_patch/glacia_twig_patch"
   }
 }

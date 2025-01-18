@@ -2,6 +2,6 @@
   "type": "tfc:if_then",
   "config": {
     "if": "deep_aether:cruderoot_tree",
-    "then": "modpack:cruderoot_twig_patch"
+    "then": "modpack:twig_patch/cruderoot_twig_patch"
   }
 }
