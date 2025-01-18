@@ -64,6 +64,10 @@
 			crystal = true
 			glacia = true
 
+		[types.wood_type.ancient_aether]
+			highsproot = true
+			sakura = true
+
 	[types.leaves_type]
 
 		[types.leaves_type.caupona]
@@ -104,6 +108,14 @@
 			gilded_oak = true
 			blighted_skyroot = true
 			fieldsproot = true
+
+		[types.leaves_type.ancient_aether]
+			crystal_skyroot = true
+			enchanted_skyroot = true
+			skyroot_pine = true
+			blue_skyroot_pine = true
+			highsproot = true
+			sakura = true
 
 #Disables specific entries
 [entries]

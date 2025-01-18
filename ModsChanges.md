@@ -23,9 +23,15 @@ Shutters
 Portfolio
 Controlling
 
+HTs Tree Chop
+Alternative Current
+Distraction Free Recipes
+
 # Removed
 
 Notes
+
+Pandas Falling Tree
 
 Syntra Connector
 Trinkets
