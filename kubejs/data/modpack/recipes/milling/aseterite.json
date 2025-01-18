@@ -7,13 +7,9 @@
   ],
   "results": [
     {
-      "item": "minecraft:quartz",
-      "count": 1
-    },
-    {
-      "item": "minecraft:quartz",
+      "item": "tfc:powder/kaolinite",
       "count": 1,
-      "chance": 0.5
+      "chance": 0.1
     }
   ],
   "processingTime": 50

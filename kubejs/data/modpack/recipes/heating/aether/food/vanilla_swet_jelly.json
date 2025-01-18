@@ -1,11 +1,11 @@
 {
   "type": "tfc:heating",
   "ingredient": {
-    "tag": "aether:moa_eggs"
+    "item": "aether_redux:vanilla_swet_ball"
   },
   "result_item": {
     "stack": {
-      "item": "farmersdelight:fried_egg"
+      "item": "aether_redux:vanilla_swet_jelly"
     }
   },
   "temperature": 200

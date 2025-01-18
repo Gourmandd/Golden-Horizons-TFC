@@ -1,0 +1,9 @@
+{
+    "ingredient": [
+        { "item": "tfc:tree_roots" },
+        { "item": "deep_aether:yagroot_roots" }
+    ],
+    "duration": 400,
+    "temperature": 499,
+    "purity": 1
+}

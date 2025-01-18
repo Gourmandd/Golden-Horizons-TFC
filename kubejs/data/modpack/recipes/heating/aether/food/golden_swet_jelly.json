@@ -1,11 +1,11 @@
 {
   "type": "tfc:heating",
   "ingredient": {
-    "item": "aethersdelight:raw_moa"
+    "item": "aether_redux:golden_swet_ball"
   },
   "result_item": {
     "stack": {
-      "item": "aethersdelight:cooked_moa"
+      "item": "aether_redux:golden_swet_jelly"
     }
   },
   "temperature": 200

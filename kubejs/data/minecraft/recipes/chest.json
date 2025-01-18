@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "P P",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "tag": "modpack:aether_wood/lumber"
+    }
+  },
+  "result": {
+    "item": "tfc:wood/chest/oak"
+  }
+}

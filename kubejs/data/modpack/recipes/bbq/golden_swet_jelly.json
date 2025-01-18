@@ -1,0 +1,10 @@
+{
+    "type": "barbequesdelight:grilling",
+    "ingredient": {
+      "item": "aether_redux:golden_swet_ball"
+    },
+    "output": { 
+      "item": "aether_redux:golden_swet_jelly" 
+    },
+    "barbecuingTime": 160
+  }

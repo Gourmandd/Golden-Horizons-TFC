@@ -1,11 +1,11 @@
 {
   "type": "tfc:heating",
   "ingredient": {
-    "item": "aethersdelight:wing"
+    "item": "deep_aether:quail_egg"
   },
   "result_item": {
     "stack": {
-      "item": "aethersdelight:cooked_wing"
+      "item": "tfc:food/cooked_egg"
     }
   },
   "temperature": 200

@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "aether:white_moa_egg"
+      "tag": "aether:moa_eggs"
     },
     "decay_modifier": 2
 }

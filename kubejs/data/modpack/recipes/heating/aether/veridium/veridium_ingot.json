@@ -4,8 +4,8 @@
     "item": "aether_redux:veridium_ingot"
   },
   "result_fluid": {
-    "fluid": "kubejs:veridium",
-    "amount": 100
+    "fluid": "tfc:metal/copper",
+    "amount": 50
   },
   "temperature": 1240
 }

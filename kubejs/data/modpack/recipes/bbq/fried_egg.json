@@ -4,7 +4,7 @@
       "item": "minecraft:egg"
     },
     "output": { 
-      "item": "farmersdelight:fried_egg"
+      "item": "tfc:food/cooked_egg"
     },
     "barbecuingTime": 200
   }
