@@ -1,0 +1,17 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:knapping",
+  "knapping_type": "tfc:yellowware",
+  "outside_slot_required": "true",
+  "pattern": [
+    "X   X",
+    " XXX ",
+    "X   X",
+    "X   X",
+    " XXX "
+  ],
+  "result": {
+    "item": "caupona:clay_portable_brazier",
+    "count": 1
+  }
+}

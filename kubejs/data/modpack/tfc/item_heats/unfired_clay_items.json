@@ -1,0 +1,11 @@
+{
+  "ingredient": [
+    {
+    "item": "caupona:clay_portable_brazier"
+    },
+    {
+    "item": "caupona:clay_cistern"
+    }
+  ],
+  "heat_capacity": 0.4
+}

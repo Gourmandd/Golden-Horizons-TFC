@@ -1,0 +1,10 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "caupona:clay_cistern"
+  },
+  "result_item": {
+    "item": "caupona:stew_pot"
+  },
+  "temperature": 1399
+}

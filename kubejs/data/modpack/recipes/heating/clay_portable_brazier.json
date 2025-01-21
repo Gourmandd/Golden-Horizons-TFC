@@ -1,0 +1,10 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "caupona:clay_portable_brazier"
+  },
+  "result_item": {
+    "item": "caupona:portable_brazier"
+  },
+  "temperature": 1399
+}
