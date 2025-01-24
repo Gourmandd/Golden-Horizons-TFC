@@ -12,10 +12,56 @@ StartupEvents.registry("item", event =>{
     event.create("food/tomatillo").food(food => {food.hunger(0)})
     event.create("food/ginger").food(food => {food.hunger(0)})
 
-    /*
-    event.create("jerky").displayName("Jerky").food(food => food)
-    */
 
+    
+    event.create("food/ginger_mash").food(food => {food.hunger(0)})
+    event.create("food/dried_ginger").food(food => {food.hunger(0)})
+    event.create("food/ground_ginger").food(food => {food.hunger(0)})
+
+    event.create("food/garlic_mash").food(food => {food.hunger(0)})
+    event.create("food/dried_garlic").food(food => {food.hunger(0)})
+    event.create("food/ground_garlic").food(food => {food.hunger(0)})
+
+
+
+    event.create("food/gingerbread_dough").food(food => {food.hunger(0)})
+
+    //Aether has a gingerbread Man
+    event.create("food/gingerbread_woman").food(food => {food.hunger(0)})
+    event.create("food/gingerbread_star").food(food => {food.hunger(0)})
+    event.create("food/gingerbread_tree").food(food => {food.hunger(0)})
+    event.create("food/gingerbread_creeper").food(food => {food.hunger(0)})
+
+    event.create("food/raw_gingerbread_man").food(food => {food.hunger(0)})
+    event.create("food/raw_gingerbread_woman").food(food => {food.hunger(0)})
+    event.create("food/raw_gingerbread_star").food(food => {food.hunger(0)})
+    event.create("food/raw_gingerbread_tree").food(food => {food.hunger(0)})
+    event.create("food/raw_gingerbread_creeper").food(food => {food.hunger(0)})
+
+
+
+    event.create("food/ginger_tea").food(food => {food.hunger(0).effect("aether:remedy",20 ,1 ,1)})
+
+    event.create("food/salsa_verde").food(food => {food.hunger(0)})
+/*
+    event.create("food/sun_dried_tomatoes").food(food => {food.hunger(0)})
+    event.create("food/raisin").food(food => {food.hunger(0)})
+    event.create("food/jerky").food(food => {food.hunger(0)})
+    event.create("food/stock_fish").food(food => {food.hunger(0)})
+    event.create("food/dried_mushroom").food(food => {food.hunger(0)})
+
+    event.create("food/raisin_cookie").food(food => {food.hunger(0)})
+    
+    event.create("food/pemmican").food(food => {food.hunger(0)})
+    event.create("food/trail_mix").food(food => {food.hunger(0)})
+
+
+    event.create("food/sauerkraut").food(food => {food.hunger(0)})
+    event.create("food/pickled_tomatoes").food(food => {food.hunger(0)})
+*/
+    event.create("food/raisin_cookie").food(food => {food.hunger(0)})
+    event.create("food/baked_onion").food(food => {food.hunger(0)})
+    
 })
 
 StartupEvents.registry("fluid", event =>{

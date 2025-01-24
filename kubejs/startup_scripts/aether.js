@@ -37,16 +37,19 @@ StartupEvents.registry("block", event =>{
 
     event.create("quicksoil_poured_glass").displayName("Quicksoil Poured Glass").soundType("glass").renderType("translucent").box(0,0,0,16,1,16).noValidSpawns(true).transparent(true).defaultTranslucent().hardness(0.3).tag("c:hidden_from_recipe_viewers")
 
+    event.create("valkyrum_ore").soundType("stone").tagBlock("minecraft:mineable/pickaxe").requiresTool().tagBlock("minecraft:needs_stone_tool").hardness(2.5)
+
     event.create("dirt/aether", "tfc:dirt").hardness(0.5).farmland(farmland =>{farmland.hardness(1).soundType("sand").tagBlock("minecraft:mineable/shovel")})
         .soundType("sand").tagBlock("minecraft:mineable/shovel")
 
 
 
     let bushes = [
+        {"name": "nettles", "item": "kubejs:nettles"},
         {"name": "zanberry", "item": "aether_redux:zanberry"},
         {"name": "blue_berry", "item": "tfc:food/blueberry"},
         {"name": "grape", "item": "firmalife:food/red_grapes"},
-        {"name": "snow_berry", "item": "tfc:food/cloudberry"}
+        {"name": "snowberry", "item": "tfc:food/snowberry"}
     ]
     
     bushes.forEach(type =>{
@@ -73,9 +76,9 @@ StartupEvents.registry("block", event =>{
 
     event.create("plant/wild_ginger", "tfc:wild_crop").type("default").seeds("kubejs:plant/ginger_seeds").food("kubejs:food/ginger").soundType("grass").hardness(0.5).tagBlock("minecraft:mineable/hoe")
 
-    event.create("plant/wild_blue_squash", "tfc:wild_crop").type("default").seeds("kubejs:plant/blue_squash_seeds").food("deep_aether:blue_squash").soundType("grass").hardness(0.5).tagBlock("minecraft:mineable/hoe")
-    event.create("plant/wild_green_squash", "tfc:wild_crop").type("default").seeds("kubejs:plant/green_squash_seeds").food("deep_aether:green_squash").soundType("grass").hardness(0.5).tagBlock("minecraft:mineable/hoe")
-    event.create("plant/wild_purple_squash", "tfc:wild_crop").type("default").seeds("kubejs:plant/purple_squash_seeds").food("deep_aether:purple_squash").soundType("grass").hardness(0.5).tagBlock("minecraft:mineable/hoe")
+    event.create("plant/wild_blue_squash", "tfc:wild_crop").type("default").seeds("kubejs:plant/blue_squash_seeds").soundType("grass").hardness(0.5).tagBlock("minecraft:mineable/hoe")
+    event.create("plant/wild_green_squash", "tfc:wild_crop").type("default").seeds("kubejs:plant/green_squash_seeds").soundType("grass").hardness(0.5).tagBlock("minecraft:mineable/hoe")
+    event.create("plant/wild_purple_squash", "tfc:wild_crop").type("default").seeds("kubejs:plant/purple_squash_seeds").soundType("grass").hardness(0.5).tagBlock("minecraft:mineable/hoe")
 
 
     event.create("plant/blue_squash", "tfc:spreading_crop").stages(7).fruitBlock("deep_aether:blue_squash").nutrient("phosphorous").soundType("grass").hardness(0.5).tagBlock("minecraft:mineable/hoe")
@@ -86,7 +89,7 @@ StartupEvents.registry("block", event =>{
 
     event.create("plant/wynd_oats", "tfc:crop").stages(5).productItem("aether_redux:wynd_oat_panicle").nutrient("nitrogen").soundType("grass").hardness(0.5).tagBlock("minecraft:mineable/hoe")
 
-    event.create("plant/tomatillo", "tfc:pickable_crop").stages(5).productItem("kubejs:food/tomatillo").nutrient("nitrogen").soundType("grass").hardness(0.5).tagBlock("minecraft:mineable/hoe")
+    event.create("plant/tomatillo", "tfc:pickable_crop").stages(5).matureFruit("kubejs:food/tomatillo").fruit("kubejs:food/tomatillo").productItem("kubejs:food/tomatillo").nutrient("nitrogen").soundType("grass").hardness(0.5).tagBlock("minecraft:mineable/hoe")
 
 
     //event.create("holystone_aqueduct", "tfc:aqueduct").allowedFluids(["minecraft:water", "tfc:salt_water", "tfc:spring_water"])

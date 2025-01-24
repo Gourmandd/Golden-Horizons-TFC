@@ -1,0 +1,6 @@
+{
+  "parent": "tfc:block/wild_crop/crop_cross",
+  "textures": {
+    "crop": "tfc:block/crop/tomato_age_6_top"
+  }
+}

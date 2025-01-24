@@ -1,3 +1,6 @@
 {
-  "parent": "tfc:block/plant/dead_bush4"
+  "parent": "block/crop",
+  "textures": {
+    "crop": "tfc:block/crop/oat_dead"
+  }
 }

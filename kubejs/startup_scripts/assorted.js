@@ -36,18 +36,6 @@ StartupEvents.registry("item", event =>{
 
 StartupEvents.registry("block", event =>{
 
-    event.create("nettles_bush", "tfc:stationary_berry_bush")
-        .productItem("kubejs:nettles")
-        .lifecycle("january", "healthy")
-        .lifecycle("february", "healthy")
-        .lifecycle("march", "flowering")
-        .lifecycle("april", "flowering")
-        .lifecycle("june", "fruiting")
-        .lifecycle("july", "fruiting")
-        .tagBlock("minecraft:mineable/hoe")
-        .hardness(0.5)
-        .soundType("grass")
-
     event.create("felsic_tuff_mixture").displayName("Felsic Tuff Mixture").soundType("sand").tagBlock("minecraft:mineable/shovel")
 
     colours.forEach(colour => {
