@@ -164,5 +164,5 @@ LootJS.modifiers(event => {
     event.addLootTableModifier("ancient_aether:chests/camp_skyroot").replaceLoot("ancient_aether:ambrosium_campfire", "tfc:torch", true)
     event.addLootTableModifier("ancient_aether:chests/camp_wyndcap").replaceLoot("ancient_aether:ambrosium_campfire", "tfc:torch", true)
 
-    event.addLootTableModifier("lost_aether_content:chests/platinum_treasure_loot").replaceLoot("lost_aether_content:phoenix_pickaxe", "tfc:metal/pickaxe/black_steel", true)
+    event.addLootTableModifier("lost_aether_content:chests/platinum_treasure_loot").replaceLoot("lost_aether_content:phoenix_pickaxe", "tfc:metal/pickaxe/red_steel", true)
 })

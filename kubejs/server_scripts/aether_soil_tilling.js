@@ -13,7 +13,7 @@ BlockEvents.rightClicked(event =>{
     ]
 
     if (aetherDirt.indexOf(event.getBlock().getId()) == -1){
-        console.log("test 1")
+        //console.log("test 1")
         return
     }
 
@@ -39,7 +39,7 @@ BlockEvents.rightClicked(event =>{
     ]
 
     if (blockWhitelist.indexOf(aboveBlock) == -1){
-        console.log("test 3 " + aboveBlock)
+        //console.log("test 3 " + aboveBlock)
         return
     }
 
