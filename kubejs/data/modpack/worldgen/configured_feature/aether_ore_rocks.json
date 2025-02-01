@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:simple_random_selector",
+	"config": {
+		"features": [
+			"modpack:scree/clorite_scree",
+			"modpack:scree/divinite_scree",
+			"modpack:scree/valkyrum_scree",
+			"modpack:scree/veridium_scree"
+		]
+	}
+}

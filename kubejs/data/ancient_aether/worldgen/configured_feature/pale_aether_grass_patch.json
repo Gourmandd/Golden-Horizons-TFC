@@ -14,30 +14,16 @@
           }
         },
         {
-          "chance": 0.01,
+          "chance": 0.04,
           "feature": {
-            "feature": "modpack:scree/veridium_scree",
+            "feature": "modpack:aether_ore_rocks",
             "placement": []
           }
         },
         {
           "chance": 0.01,
           "feature": {
-            "feature": "modpack:scree/divinite_scree",
-            "placement": []
-          }
-        },
-        {
-          "chance": 0.01,
-          "feature": {
-            "feature": "modpack:scree/valkyrum_scree",
-            "placement": []
-          }
-        },
-        {
-          "chance": 0.01,
-          "feature": {
-            "feature": "modpack:scree/clorite_scree",
+            "feature": "modpack:aether_crops",
             "placement": []
           }
         }

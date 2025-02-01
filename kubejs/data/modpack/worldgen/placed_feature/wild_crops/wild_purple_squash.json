@@ -1,0 +1,14 @@
+{
+  "feature": "modpack:wild_crops/wild_purple_squash",
+  "placement": [
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:not",
+        "predicate": {
+          "type": "minecraft:solid"
+        }
+      }
+    }
+  ]
+}

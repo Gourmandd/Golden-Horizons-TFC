@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:simple_random_selector",
+	"config": {
+		"features": [
+			"modpack:wild_crops/wild_ginger_patch",
+			"modpack:wild_crops/wild_tomatillo_patch",
+			"modpack:wild_crops/wild_blue_squash_patch",
+			"modpack:wild_crops/wild_green_squash_patch",
+			"modpack:wild_crops/wild_purple_squash_patch"
+		]
+	}
+}
