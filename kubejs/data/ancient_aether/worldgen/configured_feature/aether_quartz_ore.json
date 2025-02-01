@@ -2,7 +2,7 @@
 	"type": "minecraft:netherrack_replace_blobs",
 	"config": {
 		"state": {
-			"Name": "kubejs:valkyrum_ore"
+			"Name": "ancient_aether:aether_quartz_ore"
 		},
 		"target": {
 			"Name": "aether:holystone"

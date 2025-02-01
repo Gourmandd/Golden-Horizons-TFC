@@ -10,6 +10,8 @@
         "aether:gravitite_ore",
         "aether:ambrosium_ore",
         "aether:zanite_ore",
-        "deep_aether:skyjade_ore"
+        "deep_aether:skyjade_ore",
+        "kubejs:valkyrum_ore",
+        "ancient_aether:aether_quartz_ore"
     ]
 }

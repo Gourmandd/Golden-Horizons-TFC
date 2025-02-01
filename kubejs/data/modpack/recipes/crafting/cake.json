@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    "SES",
+    "DDD"
+  ],
+  "key": {
+    "S": {
+      "tag": "tfc:sweetener"
+    },
+    "M": {
+      "item": "farmersdelight:milk_bottle"
+    },
+    "E": {
+      "tag": "forge:eggs"
+    },
+    "D": {
+      "tag": "firmalife:foods/extra_dough"
+    }
+  },
+  "result": {
+    "item": "minecraft:cake"
+  }
+}

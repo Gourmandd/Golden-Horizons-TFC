@@ -3,7 +3,7 @@
     "ingredient": {
       "item": "kubejs:drying_bricks/aether"
     },
-    "result": "kubejs:mud_brick/aether",
+    "result": "kubejs:mud_bricks/aether",
     "experience": 0.0,
     "cookingtime": 100
   }

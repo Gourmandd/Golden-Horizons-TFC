@@ -1,0 +1,16 @@
+{
+    "replace": false,
+    "values": [
+        "#tfc:pickaxes",
+        "#tfc:axes",
+        "#tfc:hoes",
+        "#tfc:shovels",
+        "#tfc:saws",
+        "#tfc:chisels",
+        "#tfc:scythes",
+        "#tfc:hammers",
+        "#forge:tools/knives",
+        "#tfc_hammer_time:sledgehammers",
+        "#tfc_hammer_time:excavators"
+    ]
+}

@@ -67,30 +67,70 @@
 "block.deep_aether.raw_clorite.prospected": "Raw Clorite",
 "block.deep_aether.skyjade_ore.prospected": "Skyjade",
 
-"block.aethersdelight.arkenium_ore.prospected": "Arkenium",
+"block.kubejs.valkyrum_ore.prospected": "Valkyrum Ore",
+"block.ancient_aether.aether_quartz_ore.prospected": "Aether Quartz Ore",
 
 
 "block.kubejs.plant.zanberry_bush": "Zanberry Bush",
-"block.kubejs.plant.peppermint_bush": "Peppermint Bush",
 "block.kubejs.plant.blue_berry_bush": "Sky Berry Bush",
+"block.kubejs.plant.grape_bush": "Grape Bush",
+"block.kubejs.plant.snowberry_bush": "Aether Snow Berry Bush",
 
 "block.kubejs.plant.wild_ginger": "Wild Ginger",
-"block.kubejs.plant.wild_leek": "Wild Leek",
-"block.kubejs.plant.wild_parsnip": "Wild Parsnip",
+"block.kubejs.plant.wild_tomatillo": "Wild Tomatillo",
+"block.kubejs.plant.wild_green_squash": "Wild Green Squash",
+"block.kubejs.plant.wild_blue_squash": "Wild Blue Squash",
+"block.kubejs.plant.wild_purple_squash": "Wild Purple Squash",
 
 "item.kubejs.plant.ginger_seeds": "Ginger Seeds",
-"item.kubejs.plant.leek_seeds": "Leek Seeds",
-"item.kubejs.plant.parsnip_seeds": "Parsnip Seeds",
+"item.kubejs.plant.tomatillo_seeds": "Tomatillo Seeds",
+"item.kubejs.plant.green_squash_seeds": "Green Squash Seeds",
+"item.kubejs.plant.purple_squash_seeds": "Purple Squash Seeds",
+"item.kubejs.plant.blue_squash_seeds": "Blue Squash Seeds",
 "item.kubejs.plant.wynd_oats_seeds": "Wynd Oats Seeds",
 
-
+"block.kubejs.plant.purple_squash": "Purple Squash",
+"block.kubejs.plant.blue_squash": "Blue Squash",
+"block.kubejs.plant.green_squash": "Green Squash",
+"block.kubejs.plant.tomatillo": "Tomatillo",
 "block.kubejs.plant.ginger": "Ginger",
-"block.kubejs.plant.leek": "Leek",
-"block.kubejs.plant.parsnip": "Parsnip",
 "block.kubejs.plant.wynd_oats": "Wynd Oats",
 
+"block.kubejs.plant.blue_squash_dead": "Dead Blue Squash",
+"block.kubejs.plant.purple_squash_dead": "Dead Purple Squash",
+"block.kubejs.plant.green_squash_dead": "Dead Green Squash",
+"block.kubejs.plant.tomatillo_dead": "Dead Tomatillo",
 "block.kubejs.plant.ginger_dead": "Dead Ginger",
-"block.kubejs.plant.leek_dead": "Dead Leek",
-"block.kubejs.plant.parsnip_dead": "Dead Parsnip",
-"block.kubejs.plant.wynd_oats_dead": "Dead Wynd Oats"
+"block.kubejs.plant.wynd_oats_dead": "Dead Wynd Oats",
+
+"item.kubejs.food.ginger": "Ginger Root",
+"item.kubejs.food.tomatillo": "Tomatillo",
+
+"item.kubejs.food.ginger_mash": "Ginger Mash",
+"item.kubejs.food.dried_ginger": "Dried Ginger",
+"item.kubejs.food.ground_ginger": "Ground Ginger",
+
+"item.kubejs.food.garlic_mash": "Garlic Mash",
+"item.kubejs.food.dried_garlic": "Dried Garlic",
+"item.kubejs.food.ground_garlic": "Ground Garlic",
+
+"item.kubejs.food.ginger_tea": "Ginger Tea",
+"item.kubejs.food.salsa_verde": "Salsa Verde",
+"item.kubejs.food.raisin_cookie": "Raisin Cookie",
+"item.kubejs.food.raisins": "Raisins",
+"item.kubejs.food.baked_onion": "Baked Onion",
+"item.kubejs.food.gingerbread_dough": "Gingerbread Dough",
+
+"item.kubejs.food.gingerbread_woman": "Gingerbread Woman",
+"item.kubejs.food.gingerbread_tree": "Gingerbread Tree",
+"item.kubejs.food.gingerbread_star": "Gingerbread Star",
+"item.kubejs.food.gingerbread_creeper": "Gingerbread Creeper",
+
+"item.kubejs.food.raw_gingerbread_man": "Raw Gingerbread Man",
+"item.kubejs.food.raw_gingerbread_woman": "Raw Gingerbread Woman",
+"item.kubejs.food.raw_gingerbread_tree": "Raw Gingerbread Tree",
+"item.kubejs.food.raw_gingerbread_star": "Raw Gingerbread Star",
+"item.kubejs.food.raw_gingerbread_creeper": "Raw Gingerbread Creeper"
+
+
 }
