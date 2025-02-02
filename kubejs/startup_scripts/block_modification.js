@@ -30,10 +30,10 @@ deep_aether_wood.forEach(type => {log_variant_modification("deep_aether", type, 
 
 
 function log_variant_modification(mod, type, log, wood){
-    event.modify(mod + ":stripped_" + type + "_" + log, block => {block.requiresTool = true})
-    event.modify(mod + ":" + type + "_" + log, block => {block.requiresTool = true})
-    event.modify(mod + ":stripped_" + type + "_" + wood, block => {block.requiresTool = true})
-    event.modify(mod + ":" + type + "_" + wood, block => {block.requiresTool = true})
+    event.modify(mod + ":stripped_" + type + "_" + log, block => {block.requiresTool = true, block.destroySpeed = 7.5})
+    event.modify(mod + ":" + type + "_" + log, block => {block.requiresTool = true, block.destroySpeed = 7.5})
+    event.modify(mod + ":stripped_" + type + "_" + wood, block => {block.requiresTool = true, block.destroySpeed = 7.5})
+    event.modify(mod + ":" + type + "_" + wood, block => {block.requiresTool = true, block.destroySpeed = 7.5})
 }
 
 
@@ -56,6 +56,21 @@ let misc_wood_modification = [
     "deep_aether:stripped_yagroot_wall",
     "deep_aether:rotton_roseroot_log"
 ]
-misc_wood_modification.forEach(type =>{event.modify(type, block => {block.requiresTool = true})})
+misc_wood_modification.forEach(type =>{event.modify(type, block => {block.requiresTool = true, block.destroySpeed = 7.5})})
 
+let aether_ores = [
+    "deep_aether:raw_clorite",
+    "aether_redux:divinite",
+    "deep_aether:aseterite",
+    "aether:ambrosium_ore",
+    "aether:zanite_ore",
+    "aether:gravitite_ore",
+    "aether_redux:veridium_ore",
+    "ancient_aether:valkyrum_ore",
+    "ancient_aether:aether_quartz_ore",
+    "deep_aether:skyjade_ore",
+    "kubejs:valkyrum_ore"
+]
+
+aether_ores.forEach(type =>{event.modify(type, block => {block.destroySpeed = 4})})
 })

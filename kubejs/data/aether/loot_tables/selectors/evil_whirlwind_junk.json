@@ -31,7 +31,7 @@
                 },
                 {
                     "type":"minecraft:item",
-                    "name":"aether:ambrosium",
+                    "name":"aether:ambrosium_shard",
                     "weight": 1
                 }
             ],

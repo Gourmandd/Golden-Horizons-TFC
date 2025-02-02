@@ -1,8 +1,8 @@
 {
   "type": "tfc:soil_disc",
   "config": {
-    "min_radius": 5,
-    "max_radius": 10,
+    "min_radius": 1,
+    "max_radius": 3,
     "height": 4,
     "states": [
       {

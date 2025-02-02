@@ -59,7 +59,7 @@ StartupEvents.registry("item", event =>{
     event.create("food/sauerkraut").food(food => {food.hunger(0)})
     event.create("food/pickled_tomatoes").food(food => {food.hunger(0)})
 */
-    event.create("food/raisin_cookie").food(food => {food.hunger(0)})
+    //event.create("food/raisin_cookie").food(food => {food.hunger(0)})
     event.create("food/baked_onion").food(food => {food.hunger(0)})
     
 })

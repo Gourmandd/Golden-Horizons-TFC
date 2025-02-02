@@ -7,8 +7,8 @@
       "count": 24
     },
     "result": {
-      "item": "kubejs:bark_paper"
+      "item": "tfc:unrefined_paper"
     },
-    "steps_required": 24,
+    "steps_required": 32,
     "in_progress_texture": "minecraft:block/oak_log"
   }
