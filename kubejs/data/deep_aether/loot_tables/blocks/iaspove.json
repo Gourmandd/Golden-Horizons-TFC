@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "deep_aether:iasprove",
+          "name": "deep_aether:iaspove",
           "conditions": [
             {
               "condition": "minecraft:match_tool",
