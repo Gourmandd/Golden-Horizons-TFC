@@ -1,0 +1,32 @@
+{
+    "type": "farmersdelight:cooking",
+    "container": {
+      "item": "minecraft:bottle"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "type": "tfc:not_rotten",
+        "ingredient": {
+          "tag": "kubejs:food/ground_ginger"
+        }
+      },
+      {
+        "type": "tfc:not_rotten",
+        "ingredient": {
+          "tag": "kubejs:food/ground_ginger"
+        }
+      },
+      {
+        "tag": "tfc:sweetener"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+        "item": "kubejs:food/ginger_tea",
+        "modifiers": [
+          "tfc:copy_food"
+        ]
+    }
+  }

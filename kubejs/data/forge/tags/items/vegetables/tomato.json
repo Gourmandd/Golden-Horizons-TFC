@@ -1,7 +1,6 @@
 {
     "replace": false,
     "values": [
-        "tfc:food/tomato",
         "kubejs:food/tomatillo"
     ]
 }

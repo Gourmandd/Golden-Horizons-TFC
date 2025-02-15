@@ -1,0 +1,32 @@
+{
+    "type": "farmersdelight:cooking",
+    "container": {
+      "item": "minecraft:bowl"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "type": "tfc:not_rotten",
+        "ingredient": {
+          "item": "kubejs:food/tomatillo"
+        }
+      },
+      {
+        "type": "tfc:not_rotten",
+        "ingredient": {
+          "item": "kubejs:food/tomatillo"
+        }
+      },
+      {
+        "item": "tfc:powder/salt"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+        "item": "kubejs:food/salsa_verde",
+        "modifiers": [
+          "tfc:copy_food"
+        ]
+    }
+  }

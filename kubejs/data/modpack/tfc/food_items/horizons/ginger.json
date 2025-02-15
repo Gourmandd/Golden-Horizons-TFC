@@ -3,7 +3,7 @@
       "item": "kubejs:food/ginger"
     },
     "category": "other",
-    "hunger": 1,
+    "hunger": 4,
     "vegetables": 1,
     "fruit": 0.2,
     "saturation": 1,

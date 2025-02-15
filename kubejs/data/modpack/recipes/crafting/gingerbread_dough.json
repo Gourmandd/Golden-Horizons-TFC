@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "tfc:foods/flour"
+    },
+    {
+      "tag": "tfc:sweetener"
+    },
+    {
+      "item": "kubejs:food/ground_ginger"
+    }
+  ],
+  "result": {
+    "item": "kubejs:food/gingerbread_dough"
+  }
+}

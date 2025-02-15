@@ -2,13 +2,13 @@
     "type": "create:mixing",
     "ingredients": [
       {
-        "item": "tfc:food/tomato"
+        "tag": "forge:vegetables/tomato"
       },
       {
         "item": "tfc:powder/salt"
       },
       {
-        "item": "tfc:food/garlic"
+        "tag": "forge:vegetables/garlic"
       },
       {
         "fluid": "minecraft:water",
