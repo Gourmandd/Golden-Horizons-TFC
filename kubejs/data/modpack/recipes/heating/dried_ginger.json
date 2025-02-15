@@ -1,0 +1,18 @@
+{
+    "type":"tfc:heating",
+    "ingredient":{
+        "type":"tfc:not_rotten",
+        "ingredient":{
+            "item":"kubejs:food/ginger_mash"
+        }
+    },
+    "result_item":{
+        "stack":{
+            "item":"kubejs:food/dried_ginger"
+        },
+        "modifiers":[
+            "tfc:copy_food"
+        ]
+    },
+    "temperature":200
+}

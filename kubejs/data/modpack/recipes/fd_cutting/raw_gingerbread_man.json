@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "kubejs:food/gingerbread_dough"
+    }
+  ],
+  "result": [
+    {
+      "item": "kubejs:food/raw_gingerbread_man",
+      "count": 4
+    }
+  ],
+  "tool": {
+    "item": "kubejs:food/gingerbread_man_cutter"
+  }
+}

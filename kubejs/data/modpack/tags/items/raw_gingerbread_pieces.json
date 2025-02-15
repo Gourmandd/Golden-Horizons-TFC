@@ -1,0 +1,10 @@
+{
+    "values":[
+        "kubejs:food/gingerbread_dough",
+        "kubejs:food/raw_gingerbread_man",
+        "kubejs:food/raw_gingerbread_woman",
+        "kubejs:food/raw_gingerbread_tree",
+        "kubejs:food/raw_gingerbread_star",
+        "kubejs:food/raw_gingerbread_creeper"
+    ]
+}

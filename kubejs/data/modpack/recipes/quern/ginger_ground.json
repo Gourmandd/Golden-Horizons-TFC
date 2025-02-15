@@ -1,0 +1,9 @@
+{
+    "type": "tfc:quern",
+    "ingredient": {
+        "item": "kubejs:food/dried_ginger"
+    },
+    "result": {
+      "item": "kubejs:food/ground_ginger"
+    }
+  }

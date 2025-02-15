@@ -1,0 +1,9 @@
+{
+    "ingredient": {
+      "item": "kubejs:food/garlic_mash"
+    },
+    "category": "other",
+    "hunger": 2,
+    "vegetables": 0.5,
+    "decay_modifier": 3
+  }

@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "kubejs:food/ginger"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:food/ginger_mash",
+      "count": 2
+    }
+  ],
+  "processingTime": 50
+}

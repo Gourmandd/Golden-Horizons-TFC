@@ -1,0 +1,7 @@
+{
+    "ingredient": {
+      "tag": "modpack:raw_gingerbread_pieces"
+    },
+    "decay_modifier": 3,
+    "hunger": 1
+}

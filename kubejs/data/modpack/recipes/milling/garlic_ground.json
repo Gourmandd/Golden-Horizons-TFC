@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "tfc:food/dried_garlic"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:food/ground_garlic"
+    }
+  ],
+  "processingTime": 50
+}

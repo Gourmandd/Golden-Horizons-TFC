@@ -1,0 +1,11 @@
+{
+    "ingredient": {
+      "tag": "modpack:gingerbread_pieces"
+    },
+    "decay_modifier": 2,
+    "saturation": 1,
+    "hunger": 1,
+    "grain": 0.5,
+    "vegetables": 0.1,
+    "fruit": 0.1
+}

@@ -1,0 +1,10 @@
+{
+    "type": "tfc:quern",
+    "ingredient": {
+        "item": "tfc:food/garlic"
+    },
+    "result": {
+      "item": "kubejs:food/garlic_mash",
+      "count": 2
+    }
+  }

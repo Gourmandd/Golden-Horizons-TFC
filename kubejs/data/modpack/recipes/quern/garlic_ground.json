@@ -1,0 +1,9 @@
+{
+    "type": "tfc:quern",
+    "ingredient": {
+        "item": "tfc:food/dried_garlic"
+    },
+    "result": {
+      "item": "kubejs:food/ground_garlic"
+    }
+  }

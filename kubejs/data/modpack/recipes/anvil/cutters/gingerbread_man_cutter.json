@@ -1,0 +1,15 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+      "item": "tfc:metal/double_ingot/copper"
+    },
+    "result": {
+      "item": "kubejs:food/gingerbread_man_cutter"
+    },
+    "tier": 2,
+    "rules": [
+      "upset_last",
+      "bend_second_last",
+      "hit_third_last"
+    ]
+  }

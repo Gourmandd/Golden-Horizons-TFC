@@ -1,0 +1,14 @@
+{
+  "type": "firmalife:oven",
+  "ingredient": {
+    "type": "tfc:not_rotten",
+    "ingredient": {
+      "item": "kubejs:food/raw_gingerbread_man"
+    }
+  },
+  "result_item": {
+    "item": "aether:gingerbread_man"
+  },
+  "temperature": 400,
+  "duration": 1000
+}
