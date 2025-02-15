@@ -2,7 +2,7 @@ BlockEvents.modification(event => {
 
 //event.modify('minecraft:stone', block => {block.requiresTool(true)})
 
-let aether_wood = ["skyroot"]
+//let aether_wood = ["skyroot"]
 
 let aether_redux_wood = [
     "fieldsproot",
@@ -22,7 +22,7 @@ let deep_aether_wood = [
     "sunroot",    
 ]
 
-aether_wood.forEach(type => {log_variant_modification("aether", type, "log", "wood")});
+//aether_wood.forEach(type => {log_variant_modification("aether", type, "log", "wood")});
 aether_redux_wood.forEach(type => {log_variant_modification("aether_redux", type, "log", "wood")});
 aether_redux_stems.forEach(type => {log_variant_modification("aether_redux", type, "stem", "hyphae")});
 deep_aether_wood.forEach(type => {log_variant_modification("deep_aether", type, "log", "wood")});
