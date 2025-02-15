@@ -1,4 +1,3 @@
-
 let colours = [
     {"low": "blue", "cap" : "Blue", "hex" : 0xCDD7FC},
     {"low": "red", "cap" : "Red", "hex" : 0xE29F9F},
@@ -28,10 +27,14 @@ StartupEvents.registry("item", event =>{
     event.create("torque_mechanism").displayName("Torque Mechanism")
 
     event.create("soft_bark").displayName("Soft Bark")
-    event.create("bark_paper").displayName("Bark Paper").tag("tfc:scrapable")
     
     colours.forEach(colour => {event.create("terracotta/shard_" + colour.low).displayName(colour.cap + " Terracotta Shard")})
 
+    event.create("food/gingerbread_man_cutter").displayName("Gingerbread Man Cutter").unstackable().maxDamage(64)
+    event.create("food/gingerbread_woman_cutter").displayName("Gingerbread Woman Cutter").unstackable().maxDamage(64)
+    event.create("food/gingerbread_star_cutter").displayName("Gingerbread Star Cutter").unstackable().maxDamage(64)
+    event.create("food/gingerbread_tree_cutter").displayName("Gingerbread Tree Cutter").unstackable().maxDamage(64)
+    event.create("food/gingerbread_creeper_cutter").displayName("Gingerbread Creeper Cutter").unstackable().maxDamage(64)
 })
 
 StartupEvents.registry("block", event =>{

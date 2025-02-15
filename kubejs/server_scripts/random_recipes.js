@@ -1,3 +1,6 @@
+try {
+console.info("Random Recipes loaded")
+
 let colours = [
     {"low": "blue", "cap" : "Blue"},
     {"low": "red", "cap" : "Red"},
@@ -17,8 +20,6 @@ let colours = [
     {"low": "pink", "cap" : "Pink"},
 
 ]
-let clay = ["yixing", "earthenware", "yellowware", "porcelain"]
-
 
 
 ServerEvents.recipes(event =>{
@@ -84,3 +85,6 @@ ServerEvents.tags("block", event => {
 
 })
 
+} catch(e) {
+    console.log(e)
+}

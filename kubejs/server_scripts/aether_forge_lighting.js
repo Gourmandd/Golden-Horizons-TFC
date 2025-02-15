@@ -1,5 +1,7 @@
 // counld be improved with some work
 
+console.info("Aether Forge Lighting loaded")
+
 BlockEvents.rightClicked("tfc:charcoal_forge", event =>{
 
     let dimension = String(event.player.getLevel().getDimension().getPath())

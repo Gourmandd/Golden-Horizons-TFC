@@ -1,3 +1,5 @@
+try {
+console.info("Disabled Interactions loaded")
 
 BlockEvents.rightClicked(event =>{
 
@@ -22,3 +24,7 @@ BlockEvents.rightClicked(event =>{
     event.getPlayer().playNotifySound("minecraft:block.note_block.bell", "blocks", 1, 1)
     event.cancel()
 })
+
+} catch(e) {
+    console.log(e)
+}

@@ -1,4 +1,4 @@
-
+try {
 /*
 TFCEvents.registerClimateModel(event => {
     event.registerClimateModel("kubejs:aether", model => {
@@ -23,3 +23,12 @@ TFCEvents.registerClimateModel(event => {
     })
 })
 */
+
+
+
+    console.info("loaded aether climate model")
+    
+    } catch(e) {
+        console.log(e)
+    }
+    

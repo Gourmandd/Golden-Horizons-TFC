@@ -1,5 +1,7 @@
-
+try {
 // Idea inspired by @Talerzykmoth in https://discord.com/channels/432522930610765835/432522930610765837/1330472744390885387
+
+console.info("Pig Zombification loaded")
 
 ItemEvents.entityInteracted(event =>{
     
@@ -39,3 +41,7 @@ ItemEvents.entityInteracted(event =>{
     event.player.tell("That was a mistake...")
 
 })
+
+} catch(e) {
+    console.log(e)
+}

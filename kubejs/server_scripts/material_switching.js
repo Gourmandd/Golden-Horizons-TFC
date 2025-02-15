@@ -1,3 +1,6 @@
+try {
+console.info("Material Switching loaded")
+
 ServerEvents.recipes(events =>{
 
 function replace_materials(material, new_material){
@@ -53,3 +56,7 @@ events.replaceInput({input: "minecraft:sand",not:{output: /.*sandstone.*/} }, "m
 events.replaceInput({input: "minecraft:string", not:{type: "tfc:loom"}}, "minecraft:string", "#forge:string")
 events.replaceOutput({output: "minecraft:string"}, "minecraft:string", "#forge:string")
 })
+
+} catch(e) {
+    console.log(e)
+}

@@ -1,4 +1,6 @@
 //This can be done with loot tables within the datapack
+try{
+console.info("Loot Tables loaded")
 
 let colours = [
     {"low": "blue", "cap" : "Blue"},
@@ -67,3 +69,6 @@ LootJS.modifiers((event) => {
     event.addBlockLootModifier("aether_redux:tall_aether_grass").removeLoot("minecraft:wheat_seeds").removeLoot("farmersdelight:straw")
 })
 
+} catch(e) {
+    console.log(e)
+}

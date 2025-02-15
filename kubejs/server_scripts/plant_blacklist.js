@@ -1,11 +1,12 @@
+try {
+console.info("Plant Blacklist loaded")
+
 BlockEvents.placed(event =>{
 
     let block = event.getBlock().getId()
     //event.player.tell(block)
 
     let aether_plants = [
-        "kubejs:zanberry_bush",
-        "kubejs:blue_berry_bush",
         "kubejs:plant/wynd_oats",
     ]
 
@@ -63,5 +64,8 @@ BlockEvents.placed(event =>{
         cancel_block_place("The Aether's air is too thin for it to live!")
     }
 
-
 })
+
+} catch(e) {
+    console.log(e)
+}

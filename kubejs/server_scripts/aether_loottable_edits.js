@@ -1,3 +1,6 @@
+try {
+console.info("Aether Loot Table Edits loaded")
+
 let colours = [
     {"low": "blue", "cap" : "Blue"},
     {"low": "red", "cap" : "Red"},
@@ -18,6 +21,7 @@ let colours = [
 ]
 
 LootJS.modifiers(event => {
+
     // entities
     colours.forEach(colour =>{
         event.addEntityLootModifier("aether:sheepuff").removeLoot("minecraft:" + colour.low + "_wool")
@@ -33,6 +37,11 @@ LootJS.modifiers(event => {
     event.addEntityLootModifier("aether:minic").replaceLoot("aether:skyroot_pickaxe", "tfc:metal/pickaxe/copper", true).replaceLoot("aether:holystone_pickaxe", "tfc:metal/pickaxe/bronze")
     event.addEntityLootModifier("aether_redux:shimmercow").replaceLoot("minecraft:beef", "tfc:food/beef", true).replaceLoot("minecraft:leather", "tfc:large_raw_hide").addLoot("firmalife:rennet").addLoot("artisanal:suet").addLoot("minecraft:bone")
     event.addEntityLootModifier("aether_redux:mykapod").replaceLoot("minecraft:slime_ball", "tfc:glue", true)
+
+    event.addEntityLootModifier("aether:blue_swet").replaceLoot("minecraft:sugar", "artisanal:perishable_sugar", true)
+    event.addEntityLootModifier("aether:golden_swet").replaceLoot("minecraft:sugar", "artisanal:perishable_sugar", true)
+    event.addEntityLootModifier("aether_redux:vanilla_swet").replaceLoot("minecraft:sugar", "artisanal:perishable_sugar", true)
+    event.addEntityLootModifier("ancient_aether:festive_swet").replaceLoot("minecraft:sugar", "artisanal:perishable_sugar", true)
 
     // chests
     /*
@@ -165,4 +174,10 @@ LootJS.modifiers(event => {
     event.addLootTableModifier("ancient_aether:chests/camp_wyndcap").replaceLoot("ancient_aether:ambrosium_campfire", "tfc:torch", true)
 
     event.addLootTableModifier("lost_aether_content:chests/platinum_treasure_loot").replaceLoot("lost_aether_content:phoenix_pickaxe", "tfc:metal/pickaxe/red_steel", true)
+
+
 })
+
+} catch(e) {
+    console.log(e)
+}

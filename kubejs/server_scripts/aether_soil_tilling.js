@@ -1,3 +1,6 @@
+try {
+console.info("Aether Soil Tilling loaded")
+
 BlockEvents.rightClicked(event =>{
 
     //event.player.tell(event.player.mainHandItem.id)
@@ -47,3 +50,7 @@ BlockEvents.rightClicked(event =>{
     event.getBlock().set("kubejs:dirt/aether_farmland")
 
 })
+
+} catch(e) {
+    console.log(e)
+}

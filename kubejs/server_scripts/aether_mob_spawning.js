@@ -1,4 +1,6 @@
 // replaced by aether_mob_breeding.js in startup scripts
+try {
+console.info("Aether Mob Spawning loaded")
 
 /*EntityEvents.spawned(event => {
 
@@ -48,3 +50,7 @@
     chanced_remove_entity(true)
 
 })*/
+
+} catch(e) {
+    console.log(e)
+}
