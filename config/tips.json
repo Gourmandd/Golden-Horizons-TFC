@@ -1,7 +1,10 @@
 {
   "defaultCycleTime": 10000,
   "ignoredNamespaces": [
-    "tipsmod"
+    "tipsmod",
+    "aether",
+    "deep_aether",
+    "aether_redux"
   ],
   "ignoredTips": [],
   "hideUnlocalizedTips": false,

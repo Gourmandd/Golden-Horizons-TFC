@@ -118,5 +118,5 @@
 	#
 	# Registers additional models into forge's special model registry.
 	# For Pack Makers: this is needed if you want your custom item models to render when used for panning (if they are not already used somewhere else and added automatically in that case)
-	additionalSpecialModels = []
+	additionalSpecialModels = ["modpack:block/metal/full/aluminium", "modpack:block/metal/full/aluminium_bronze", "modpack:block/metal/full/harderned_steel", "modpack:block/metal/full/nethersteel", "modpack:block/metal/full/cast_iron_alloy"]
 

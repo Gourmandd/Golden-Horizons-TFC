@@ -76,7 +76,7 @@
 	algorithm = "LOGARITHMIC"
 	#How to round the number of chops needed to fell a tree; this is more meaningful for smaller trees
 	#Allowed Values: DOWN, NEAREST, UP
-	rounding = "NEAREST"
+	rounding = "DOWN"
 	#Felling a tree can require more chops than the number of blocks in the tree
 	canRequireMoreChopsThanBlocks = false
 
@@ -84,16 +84,16 @@
 	[chopCounting.logarithmic]
 		#Determines the number of chops required to fell a tree; higher values require more chops for bigger trees
 		#Range: 0.0 ~ 10000.0
-		a = 4
+		a = 1
 
 	#See https://github.com/hammertater/treechop/#linear
 	[chopCounting.linear]
 		#The number of chops per block required to fell a tree; if chopsPerBlock = 0.5, it will take 50 chops to fell a 100 block tree
 		#Range: 0.0 ~ 7.0
-		chopsPerBlock = 0.25
+		chopsPerBlock = 0.1
 		#The base number of chops required to fell a tree regardless of its size
 		#Range: -10000.0 ~ 10000.0
-		baseNumChops = 0.0
+		baseNumChops = 1
 
 [compatibility]
 	#https://www.curseforge.com/minecraft/mc-mods/carry-on

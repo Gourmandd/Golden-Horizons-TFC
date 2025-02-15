@@ -1,0 +1,290 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = debugscreen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1737929371137
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:a05adb96-1610-4e5e-afa1-6215571cef3e-1737929360045] = [groups:][instances:]
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
+element {
+  interactable = true
+  source = Time: {"placeholder":"realtimeday"} {"placeholder":"realtimemonth"} {"placeholder":"realtimeyear"}%n%MC Version: {"placeholder":"mcversion"}%n%Forge Version: {"placeholder":"loaderver"}%n%Loaded Mods: {"placeholder":"loadedmods"}%n%Render Distance: {"placeholder":"minecraft_option_value","values":{"name":"renderDistance"}}%n%Simulation Distance: {"placeholder":"minecraft_option_value","values":{"name":"simulationDistance"}}%n%%n%GPU: {"placeholder":"gpuinfo"}%n%CPU: {"placeholder":"cpuinfo"}%n%FPS: {"placeholder":"fps"}%n%OS Name: {"placeholder":"osname"}%n%%n%
+  source_mode = direct
+  shadow = true
+  scale = 1.0
+  base_color = #FFFFFFFF
+  text_border = 2
+  line_spacing = 2
+  enable_scrolling = true
+  auto_line_wrapping = true
+  remove_html_breaks = true
+  code_block_single_color = #737373FF
+  code_block_multi_color = #565656FF
+  headline_line_color = #A9A9A9FF
+  separation_line_color = #A9A9A9FF
+  hyperlink_color = #0771FCFF
+  quote_color = #818181FF
+  quote_indent = 8.0
+  quote_italic = false
+  bullet_list_dot_color = #A9A9A9FF
+  bullet_list_indent = 8.0
+  bullet_list_spacing = 3.0
+  parse_markdown = true
+  element_type = text_v2
+  instance_identifier = 86488b9d-181b-47b7-b67e-823eb5f1ff83-1737927481665
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 954
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -322
+  y = 20
+  width = 200
+  height = 146
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 8b089143-d760-4d0e-b78c-48a4394fbc41-1737927481665
+  [loading_requirement_container_meta:8b089143-d760-4d0e-b78c-48a4394fbc41-1737927481665] = [groups:][instances:]
+}
+
+element {
+  interactable = true
+  source = Important Notes:%n%%n%If RAM usage is 90-100% nearly constantly. You Can:%n%Restart the game.%n%Lower Render And/Or Simulation Distance.%n%Increase RAM, I recommend 4GB of ram.%n%%n%If CPU Usage is 90-100% You could try:%n%If RAM usage is high then follow that first.%n%Lower Render And/Or Simulation Distance.%n%Run Spark profiler, and either with help or by yourself try to spot unnatural usage.%n%%n%You can try to install the Observable mod espacially if this is on a Server.%n%%n%There are known issues with mods on MacOS and specifically ARM Macs%n%One of these mods is TFC Caelum, which can be safely removed on your side.
+  source_mode = direct
+  shadow = true
+  scale = 1.0
+  base_color = #FFFFFFFF
+  text_border = 2
+  line_spacing = 2
+  enable_scrolling = true
+  auto_line_wrapping = true
+  remove_html_breaks = true
+  code_block_single_color = #737373FF
+  code_block_multi_color = #565656FF
+  headline_line_color = #A9A9A9FF
+  separation_line_color = #A9A9A9FF
+  hyperlink_color = #0771FCFF
+  quote_color = #818181FF
+  quote_indent = 8.0
+  quote_italic = false
+  bullet_list_dot_color = #A9A9A9FF
+  bullet_list_indent = 8.0
+  bullet_list_spacing = 3.0
+  parse_markdown = true
+  element_type = text_v2
+  instance_identifier = 09b3ea1a-92dd-472e-932f-cb74b76baa97-1737928014960
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 954
+  sticky_anchor = false
+  anchor_point = mid-right
+  x = -206
+  y = -99
+  width = 210
+  height = 280
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = acd8acd8-90c6-4408-a44e-f1e8414a6bd4-1737928014960
+  [loading_requirement_container_meta:acd8acd8-90c6-4408-a44e-f1e8414a6bd4-1737928014960] = [groups:][instances:]
+}
+
+element {
+  bar_color = #5295FFFF
+  background_color = #ABC8F7FF
+  direction = right
+  progress_for_element_anchor = false
+  progress_source = {"placeholder":"percentram"}
+  value_mode = percentage
+  element_type = progress_bar
+  instance_identifier = a0247917-2f3c-46cf-8338-7f4827aeafe5-1737928856207
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 954
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -87
+  y = 139
+  width = 172
+  height = 12
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 5126270e-bc0d-4f90-92f0-a8faca9b40f4-1737928856207
+  [loading_requirement_container_meta:5126270e-bc0d-4f90-92f0-a8faca9b40f4-1737928856207] = [groups:][instances:]
+}
+
+element {
+  interactable = true
+  source = RAM Usage % : {"placeholder":"percentram"}
+  source_mode = direct
+  shadow = true
+  scale = 1.0
+  base_color = #FFFFFFFF
+  text_border = 2
+  line_spacing = 2
+  enable_scrolling = true
+  auto_line_wrapping = true
+  remove_html_breaks = true
+  code_block_single_color = #737373FF
+  code_block_multi_color = #565656FF
+  headline_line_color = #A9A9A9FF
+  separation_line_color = #A9A9A9FF
+  hyperlink_color = #0771FCFF
+  quote_color = #818181FF
+  quote_indent = 8.0
+  quote_italic = false
+  bullet_list_dot_color = #A9A9A9FF
+  bullet_list_indent = 8.0
+  bullet_list_spacing = 3.0
+  parse_markdown = true
+  element_type = text_v2
+  instance_identifier = 0171ae73-cc42-4a32-86fe-641cfe976cd4-1737929013808
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 954
+  sticky_anchor = false
+  anchor_point = element
+  anchor_point_element = a0247917-2f3c-46cf-8338-7f4827aeafe5-1737928856207
+  x = -2
+  y = -13
+  width = 95
+  height = 18
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = f1c7d160-0350-4e30-b451-02a27a582134-1737929013808
+  [loading_requirement_container_meta:f1c7d160-0350-4e30-b451-02a27a582134-1737929013808] = [groups:][instances:]
+}
+
+element {
+  bar_color = #5295FFFF
+  background_color = #ABC8F7FF
+  direction = right
+  progress_for_element_anchor = false
+  progress_source = {"placeholder":"oscpu"}
+  value_mode = percentage
+  element_type = progress_bar
+  instance_identifier = fe7760f9-4129-4d59-bd34-0c78752a58e0-1737929072779
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 954
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -87
+  y = 114
+  width = 172
+  height = 12
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 5126270e-bc0d-4f90-92f0-a8faca9b40f4-1737928856207
+  [loading_requirement_container_meta:5126270e-bc0d-4f90-92f0-a8faca9b40f4-1737928856207] = [groups:][instances:]
+}
+
+element {
+  interactable = true
+  source = CPU Usage % : {"placeholder":"oscpu"}
+  source_mode = direct
+  shadow = true
+  scale = 1.0
+  base_color = #FFFFFFFF
+  text_border = 2
+  line_spacing = 2
+  enable_scrolling = true
+  auto_line_wrapping = true
+  remove_html_breaks = true
+  code_block_single_color = #737373FF
+  code_block_multi_color = #565656FF
+  headline_line_color = #A9A9A9FF
+  separation_line_color = #A9A9A9FF
+  hyperlink_color = #0771FCFF
+  quote_color = #818181FF
+  quote_indent = 8.0
+  quote_italic = false
+  bullet_list_dot_color = #A9A9A9FF
+  bullet_list_indent = 8.0
+  bullet_list_spacing = 3.0
+  parse_markdown = true
+  element_type = text_v2
+  instance_identifier = 76c5624c-e377-4abf-b2bf-6414d397915c-1737929072779
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 954
+  sticky_anchor = false
+  anchor_point = element
+  anchor_point_element = a0247917-2f3c-46cf-8338-7f4827aeafe5-1737928856207
+  x = -2
+  y = -38
+  width = 95
+  height = 18
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = f1c7d160-0350-4e30-b451-02a27a582134-1737929013808
+  [loading_requirement_container_meta:f1c7d160-0350-4e30-b451-02a27a582134-1737929013808] = [groups:][instances:]
+}
+

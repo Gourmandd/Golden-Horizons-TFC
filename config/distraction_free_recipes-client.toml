@@ -7,4 +7,7 @@
 #.
 #Show a message prompting the user to search to view recipes.
 "Show Help Text" = true
+#.
+#Shows a button for the user to toggle recipe hiding on and off.
+"Show Toggle Button" = true
 

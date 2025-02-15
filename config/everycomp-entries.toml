@@ -31,18 +31,6 @@
 			white_cedar = true
 			willow = true
 
-		[types.wood_type.afc]
-			baobab = true
-			eucalyptus = true
-			mahogany = true
-			hevea = true
-			tualang = true
-			teak = true
-			cypress = true
-			fig = true
-			ironwood = true
-			ipe = true
-
 		[types.wood_type.caupona]
 			walnut = true
 
@@ -67,6 +55,18 @@
 		[types.wood_type.ancient_aether]
 			highsproot = true
 			sakura = true
+
+		[types.wood_type.afc]
+			baobab = true
+			eucalyptus = true
+			mahogany = true
+			hevea = true
+			tualang = true
+			teak = true
+			cypress = true
+			fig = true
+			ironwood = true
+			ipe = true
 
 	[types.leaves_type]
 
