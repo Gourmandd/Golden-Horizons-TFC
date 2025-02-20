@@ -1,0 +1,21 @@
+{
+  "type": "tfc:damage_inputs_shapeless_crafting",
+  "recipe": {
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "aether_redux:jellyshroom_stems"
+    },
+    {
+      "tag": "aether_redux:jellyshroom_stems"
+    },
+    {
+      "tag": "tfc:saws"
+    }
+  ],
+  "result": {
+    "item": "kubejs:wood/support/jellyshroom",
+    "count": 8
+    }
+  }
+}

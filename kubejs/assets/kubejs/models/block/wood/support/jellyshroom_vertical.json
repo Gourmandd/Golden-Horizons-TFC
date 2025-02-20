@@ -1,0 +1,8 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "parent": "tfc:block/wood/support/vertical_vex",
+  "textures": {
+    "texture": "aether_redux:block/natural/jellyshroom_stem",
+    "top": "aether_redux:block/natural/jellyshroom_stem_top"
+  }
+}

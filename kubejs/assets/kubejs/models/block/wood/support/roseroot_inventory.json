@@ -1,0 +1,9 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "parent": "tfc:block/wood/support/inventory_vex",
+  "textures": {
+    "vertical": "deep_aether:block/stripped_roseroot_log",
+    "horizontal": "deep_aether:block/stripped_roseroot_log",
+    "top": "deep_aether:block/stripped_roseroot_log_top"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "parent": "tfc:block/wood/support/connection_vex",
+  "textures": {
+    "texture": "aether_redux:block/natural/stripped_blightwillow_log",
+    "top": "aether_redux:block/natural/stripped_blightwillow_log_top"
+  }
+}

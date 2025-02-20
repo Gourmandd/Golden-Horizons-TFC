@@ -95,6 +95,9 @@ StartupEvents.registry("block", event =>{
     //event.create("holystone_aqueduct", "tfc:aqueduct").allowedFluids(["minecraft:water", "tfc:salt_water", "tfc:spring_water"])
     // crashes when other aqueduct flows water into this one
 
+    aether_wood_types.forEach(type =>{
+        event.create("wood/support/" + type, "tfc:support").woodSoundType()
+    })
 })
 
 StartupEvents.registry("item", event =>{

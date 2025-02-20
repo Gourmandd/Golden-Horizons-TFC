@@ -1,0 +1,9 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "parent": "tfc:block/wood/support/inventory_vex",
+  "textures": {
+    "vertical": "ancient_aether:block/stripped_highsproot_log",
+    "horizontal": "ancient_aether:block/stripped_highsproot_log",
+    "top": "ancient_aether:block/stripped_highsproot_log_top"
+  }
+}

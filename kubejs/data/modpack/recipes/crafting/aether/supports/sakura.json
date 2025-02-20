@@ -1,0 +1,21 @@
+{
+  "type": "tfc:damage_inputs_shapeless_crafting",
+  "recipe": {
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "ancient_aether:sakura_logs"
+    },
+    {
+      "tag": "ancient_aether:sakura_logs"
+    },
+    {
+      "tag": "tfc:saws"
+    }
+  ],
+  "result": {
+    "item": "kubejs:wood/support/sakura",
+    "count": 8
+    }
+  }
+}

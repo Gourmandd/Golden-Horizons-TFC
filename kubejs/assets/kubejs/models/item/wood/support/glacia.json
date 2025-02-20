@@ -1,0 +1,7 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "parent": "kubejs:block/wood/support/glacia_inventory",
+  "textures": {
+    "layer0": "kubejs:item/wood/support/glacia"
+  }
+}

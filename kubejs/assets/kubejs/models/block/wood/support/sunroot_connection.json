@@ -1,0 +1,8 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "parent": "tfc:block/wood/support/connection_vex",
+  "textures": {
+    "texture": "deep_aether:block/stripped_sunroot_log",
+    "top": "deep_aether:block/stripped_sunroot_log_top"
+  }
+}
