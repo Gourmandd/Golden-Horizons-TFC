@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NGN",
+    "LCL",
+    "NGN"
+  ],
+  "key": {
+    "C": {
+      "item": "create:andesite_casing"
+    },
+    "G": {
+      "item": "create:cogwheel"
+    },
+    "L": {
+      "item": "create:large_cogwheel"
+    },
+    "N": {
+      "item": "create:copper_nugget"
+    }
+  },
+  "result": {
+    "item": "kubejs:andesite_machine"
+  }
+}

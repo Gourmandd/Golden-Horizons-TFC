@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NGN",
+    "LCL",
+    "NGN"
+  ],
+  "key": {
+    "C": {
+      "item": "create:copper_casing"
+    },
+    "G": {
+      "item": "create:cogwheel"
+    },
+    "L": {
+      "item": "create:large_cogwheel"
+    },
+    "N": {
+      "item": "firmalife:beeswax"
+    }
+  },
+  "result": {
+    "item": "kubejs:copper_machine"
+  }
+}

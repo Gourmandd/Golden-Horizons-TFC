@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WSC",
+    "SMS",
+    "CSW"
+  ],
+  "key": {
+    "S": {
+      "item": "tfc:metal/ingot/steel"
+    },
+    "M": {
+      "item": "tfc:brass_mechanisms"
+    },
+    "C": {
+      "item": "create:large_cogwheel"
+    },
+    "W": {
+      "item": "create:cogwheel"
+    }
+  },
+  "result": {
+    "item": "kubejs:torque_mechanism"
+  }
+}
