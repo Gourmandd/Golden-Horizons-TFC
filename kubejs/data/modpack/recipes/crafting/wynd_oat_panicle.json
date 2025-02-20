@@ -1,0 +1,36 @@
+{
+  "type": "tfc:extra_products_shapeless_crafting",
+  "extra_products": [
+    {
+      "item": "tfc:straw"
+    }
+  ],
+  "recipe": {
+    "type": "tfc:damage_inputs_shapeless_crafting",
+    "recipe": {
+      "type": "tfc:advanced_shapeless_crafting",
+      "ingredients": [
+        {
+          "type": "tfc:not_rotten",
+          "ingredient": {
+            "item": "aether_redux:wynd_oat_panicle"
+          }
+        },
+        {
+          "tag": "tfc:knives"
+        }
+      ],
+      "primary_ingredient": {
+        "item": "tfc:food/wheat"
+      },
+      "result": {
+        "stack": {
+          "item": "aether_redux:wynd_oats"
+        },
+        "modifiers": [
+          "tfc:copy_food"
+        ]
+      }
+    }
+  }
+}
