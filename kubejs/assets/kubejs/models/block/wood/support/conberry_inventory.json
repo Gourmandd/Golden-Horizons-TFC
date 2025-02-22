@@ -2,8 +2,8 @@
   "__comment__": "This file was automatically created by mcresources",
   "parent": "tfc:block/wood/support/inventory_vex",
   "textures": {
-    "vertical": "deep_aether:block/stripped_cruderoot_log",
-    "horizontal": "deep_aether:block/stripped_cruderoot_log",
-    "top": "deep_aether:block/stripped_cruderoot_log_top"
+    "vertical": "deep_aether:block/stripped_conberry_log",
+    "horizontal": "deep_aether:block/stripped_conberry_log",
+    "top": "deep_aether:block/stripped_conberry_log_top"
   }
 }

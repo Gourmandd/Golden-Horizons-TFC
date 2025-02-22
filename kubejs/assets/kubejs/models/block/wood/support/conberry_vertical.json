@@ -2,7 +2,7 @@
   "__comment__": "This file was automatically created by mcresources",
   "parent": "tfc:block/wood/support/vertical_vex",
   "textures": {
-    "texture": "deep_aether:block/stripped_cruderoot_log",
-    "top": "deep_aether:block/stripped_cruderoot_log_top"
+    "texture": "deep_aether:block/stripped_conberry_log",
+    "top": "deep_aether:block/stripped_conberry_log_top"
   }
 }

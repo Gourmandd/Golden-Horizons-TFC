@@ -33,7 +33,7 @@ aether_wood_assets = [
     {"type":"roseroot", "base": "deep_aether:block/stripped_roseroot_log", "top": "deep_aether:block/stripped_roseroot_log_top"},
     {"type":"yagroot", "base": "deep_aether:block/stripped_yagroot_log", "top": "deep_aether:block/stripped_yagroot_log_top"},
     {"type":"cruderoot", "base": "deep_aether:block/stripped_cruderoot_log", "top": "deep_aether:block/stripped_cruderoot_log_top"},
-    {"type":"conberry", "base": "deep_aether:block/stripped_cruderoot_log", "top": "deep_aether:block/stripped_cruderoot_log_top"},
+    {"type":"conberry", "base": "deep_aether:block/stripped_conberry_log", "top": "deep_aether:block/stripped_conberry_log_top"},
     {"type":"sunroot", "base": "deep_aether:block/stripped_sunroot_log", "top": "deep_aether:block/stripped_sunroot_log_top"},
     {"type":"highsproot", "base": "ancient_aether:block/stripped_highsproot_log", "top": "ancient_aether:block/stripped_highsproot_log_top"},
     {"type":"sakura", "base": "ancient_aether:block/stripped_sakura_log", "top": "ancient_aether:block/stripped_sakura_log_top"},
