@@ -98,6 +98,8 @@ StartupEvents.registry("block", event =>{
     aether_wood_types.forEach(type =>{
         event.create("wood/support/" + type, "tfc:support").woodSoundType()
     })
+
+    
 })
 
 StartupEvents.registry("item", event =>{

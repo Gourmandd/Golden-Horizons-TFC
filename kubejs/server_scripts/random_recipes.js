@@ -64,7 +64,8 @@ BlockEvents.rightClicked("farmersdelight:rich_soil", event =>{
 
 
 
-// This could lead to something like a recipe type or just an interaction, could be funny or not funny. But it doesnt work since I dont know how to get the item to drop
+// This could lead to something like a recipe type or just an interaction, could be funny or not funny. 
+// But it doesnt work since I dont know how to get the item to drop
 /*
 EntityEvents.death(event =>{
     let source = event.getSource()
