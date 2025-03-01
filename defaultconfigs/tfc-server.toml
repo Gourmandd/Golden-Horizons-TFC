@@ -143,13 +143,13 @@ familiarityDecayLimit = 0.3
 		#
 		# Number of ticks required for a torch to burn out (1000 = 1 in game hour = 50 seconds), default is 72 hours. Set to -1 to disable torch burnout.
 		#Range: > -1
-		torchTicks = 72000
+		torchTicks = 120000
 
 	[blocks.candle]
 		#
 		# Number of ticks required for a candle to burn out (1000 = 1 in game hour = 50 seconds), default is 264 hours. Set to -1 to disable candle burnout.
 		#Range: > -1
-		candleTicks = 264000
+		candleTicks = 336000
 
 	[blocks.dryingBricks]
 		#
@@ -194,7 +194,7 @@ familiarityDecayLimit = 0.3
 		#
 		# The number of pixels that the anvil's result may be off by, but still count as recipe completion. By default this requires pixel perfect accuracy.
 		#Range: 0 ~ 150
-		anvilAcceptableWorkRange = 0
+		anvilAcceptableWorkRange = 1
 		#
 		# The minimum efficiency (ratio of number of steps taken / minimum number of steps required) that must be passed for a item to be considered 'Modestly Forged'.
 		#Range: 1.0 ~ 1.7976931348623157E308
