@@ -10,12 +10,19 @@ Deep Aether
 
 Resource Packs: Aether Regenerated,
 
-Cold Sweat
-Cold Sweat TFC
-TFC Textiles
+AI Improvements
+Advancements Optimiser
+Fast Ip Ping
+Better ping display
+Ping Wheel
+Saturn
+Radium
+Sodium Dynamic Lights
 
 Breezy
 
+TFC Precision Prospecting
+TFC casting with channels
 TFC Hammer Time
 I ❤️ TFC
 
