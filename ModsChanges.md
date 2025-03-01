@@ -2,55 +2,6 @@ Mods that were added or removed since last release, used to keep track of mods b
 
 # Added
 
-Aether
-Aether Redux
-Ancient Aether
-Aether Lost content
-Deep Aether
-
-Resource Packs: Aether Regenerated,
-
-AI Improvements
-Advancements Optimiser
-Fast Ip Ping
-Better ping display
-Ping Wheel
-Saturn
-Radium
-Sodium Dynamic Lights
-
-Breezy
-
-TFC Precision Prospecting
-TFC casting with channels
-TFC Hammer Time
-I ❤️ TFC
-
-Shutters
-Portfolio
-Controlling
-
-HTs Tree Chop
-Alternative Current
-Distraction Free Recipes
-
 # Removed
 
-Notes
-
-Pandas Falling Tree
-
-Syntra Connector
-Trinkets
-Scarves
-Revelationary (disabled by default)
-Connector Extras
-Forgified Fabric API
-
-Create: Estrogen
-
 # Updated 
-
-Create + Addons
-Farmers Delight, and the addons Corn Delight (new content), Barbeque Delight (new content), Crabbers Delight (fixes)
-TFC Artisanal
