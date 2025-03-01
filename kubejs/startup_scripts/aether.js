@@ -33,9 +33,9 @@ StartupEvents.registry("block", event =>{
 
     })
 
-    event.create("valkyrum_anvil", "tfc:anvil").displayName("Valkyrum Anvil").tier(0).tagBlock("minecraft:mineable/pickaxe").soundType("stone").requiresTool().texture('top', "ancient_aether:block/valkyrum_block").texture('side', "ancient_aether:block/valkyrum_block").texture('particle', "ancient_aether:block/valkyrum_block")
+    event.create("valkyrum_anvil", "tfc:anvil").tier(0).tagBlock("minecraft:mineable/pickaxe").soundType("stone").requiresTool().texture('top', "ancient_aether:block/valkyrum_block").texture('side', "ancient_aether:block/valkyrum_block").texture('particle', "ancient_aether:block/valkyrum_block")
 
-    event.create("quicksoil_poured_glass").displayName("Quicksoil Poured Glass").soundType("glass").renderType("translucent").box(0,0,0,16,1,16).noValidSpawns(true).transparent(true).defaultTranslucent().hardness(0.3).tag("c:hidden_from_recipe_viewers")
+    event.create("quicksoil_poured_glass").soundType("glass").renderType("translucent").box(0,0,0,16,1,16).noValidSpawns(true).transparent(true).defaultTranslucent().hardness(0.3).tag("c:hidden_from_recipe_viewers")
 
     event.create("valkyrum_ore").soundType("stone").tagBlock("minecraft:mineable/pickaxe").requiresTool().tagBlock("minecraft:needs_stone_tool").hardness(2.5)
 
@@ -104,17 +104,17 @@ StartupEvents.registry("block", event =>{
 
 StartupEvents.registry("item", event =>{
 
-    event.create("drying_bricks/aether").displayName("Wet Aether Mud Bricks")
-    event.create("mud_bricks/aether").displayName("Aether Mud Bricks")
+    event.create("drying_bricks/aether")
+    event.create("mud_bricks/aether")
 
-    event.create("quicksoil_glass_batch").displayName("Quicksoil Glass Batch")
+    event.create("quicksoil_glass_batch")
 
     aether_wood_types.forEach(type => {
-        event.create("kubejs:wood/lumber/" + type).displayName(capitalizeFirstLetter(type) + " Lumber")
+        event.create("kubejs:wood/lumber/" + type)
     })
 
 })
 
 StartupEvents.registry("fluid", event =>{
-    event.create("veridium").displayName("Veridium").bucketColor(0x075ab3).thickTexture(0x075ab3).noBucket().noBlock().tag("tfc:molten_metals")
+    event.create("veridium").bucketColor(0x075ab3).thickTexture(0x075ab3).noBucket().noBlock().tag("tfc:molten_metals")
 })

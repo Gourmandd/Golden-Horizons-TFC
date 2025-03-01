@@ -2,6 +2,6 @@ const $WritableBookItem = Java.loadClass("net.minecraft.world.item.WritableBookI
 
 StartupEvents.registry("item", event =>{
 
-    event.createCustom("stone_tablet", () => new $WritableBookItem(new $ItemProperties().stacksTo(1))).displayName("Stone Tablet")
+    event.createCustom("wax_tablet", () => new $WritableBookItem(new $ItemProperties().stacksTo(1)))
 
 })

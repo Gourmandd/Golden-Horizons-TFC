@@ -14,6 +14,9 @@ BlockEvents.rightClicked(event =>{
         "minecraft:anvil",
         "minecraft:brewing_stand",
         "minecraft:beacon",
+        "minecraft:enchanting_table",
+        "aether:altar",
+        "aether:freezer"
     ]
 
     if (InteractionBlacklist.indexOf(event.getBlock().getId()) == -1){
