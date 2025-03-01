@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
+        "aether_redux:mykapod_shell_chunk",
         "minecraft:nautilus_shell",
         "kubejs:loose_holystone_pebble"
     ]

@@ -1,0 +1,15 @@
+{
+    "type": "tfc:loom",
+    "ingredient": {
+      "ingredient": {
+        "item": "minecraft:bamboo"
+      },
+      "count": 16
+    },
+    "result": {
+      "item": "hearth_and_home:bamboo_mat",
+      "count": 4
+    },
+    "steps_required": 16,
+    "in_progress_texture": "hearth_and_home:block/bamboo_mat"
+  }

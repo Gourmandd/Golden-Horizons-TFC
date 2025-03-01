@@ -1,18 +1,21 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-      " B ",
-      "SSS"
+      "LSL",
+      "P P"
     ],
     "key": {
       "S": {
         "tag": "forge:smooth_stone"
       },
-      "B": {
-        "item": "tfc:metal/rod/brass"
+      "L": {
+        "tag": "tfc:lumber"
+      },
+      "P": {
+        "tag": "minecraft:planks"
       }
     },
     "result": {
-      "item": "minecraft:brewing_stand"
+      "item": "minecraft:grindstone"
     }
   }

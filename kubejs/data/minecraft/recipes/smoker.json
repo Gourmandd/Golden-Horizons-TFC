@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "LLL",
+      "LFL",
+      "LLL"
+    ],
+    "key": {
+      "F": {
+        "item": "minecraft:furnace"
+      },
+      "L": {
+        "tag": "tfc:lumber"
+      }
+    },
+    "result": {
+      "item": "minecraft:smoker"
+    }
+  }

@@ -38,6 +38,8 @@
     "ancient_aether:valkyrum_boots",
     "ancient_aether:valkyrum_helmet",
     "ancient_aether:valkyrum_chestplate",
-    "ancient_aether:valkyrum_lance"
+    "ancient_aether:valkyrum_lance",
+    "quark:abacus",
+    "quark:trowel"
   ]
 }

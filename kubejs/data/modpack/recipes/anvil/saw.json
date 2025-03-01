@@ -1,0 +1,15 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+      "item": "tfc:metal/double_sheet/wrought_iron"
+    },
+    "result": {
+      "item": "kubejs:saw"
+    },
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "bend_second_last",
+      "hit_third_last"
+    ]
+  }

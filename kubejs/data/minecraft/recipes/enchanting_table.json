@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " B ",
+      "DRD",
+      "OOO"
+    ],
+    "key": {
+      "O": {
+        "item": "minecraft:obsidian"
+      },
+      "R": {
+        "item": "minecraft:red_wool"
+      },
+      "D": {
+        "item": "tfc:gem/diamond"
+      },
+      "B": {
+        "item": "minecraft:book"
+      }
+    },
+    "result": {
+      "item": "minecraft:enchanting_table"
+    }
+  }

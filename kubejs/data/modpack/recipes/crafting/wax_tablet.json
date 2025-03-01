@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LWL",
+    "LRL",
+    "LWL"
+  ],
+  "key": {
+    "L": {
+      "tag": "tfc:lumber"
+    },
+    "W": {
+      "item": "firmalife:beeswax"
+    },
+    "R": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "result": {
+    "item": "kubejs:wax_tablet"
+  }
+}

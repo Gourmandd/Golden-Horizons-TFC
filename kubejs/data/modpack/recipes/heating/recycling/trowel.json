@@ -1,0 +1,11 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+      "item": "quark:trowel"
+    },
+    "result_fluid": {
+      "fluid": "tfc:metal/cast_iron",
+      "amount": 200
+    },
+    "temperature": 1535
+  }

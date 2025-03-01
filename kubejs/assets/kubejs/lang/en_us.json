@@ -1,4 +1,24 @@
 {
+
+"modpack.item_functionality": "This Item's Funtionality Has Been Removed!!",
+"create.recipe.fan_haunting": "Bulk Freezing",
+
+"item.kubejs.wood.lumber.skyroot": "Skyroot Lumber",
+"item.kubejs.wood.lumber.fieldsproot": "Fieldsproot Lumber",
+"item.kubejs.wood.lumber.blightwillow": "Blightwillow Lumber",
+"item.kubejs.wood.lumber.Glacia": "Glacia Lumber",
+"item.kubejs.wood.lumber.crystal": "Crystal Lumber",
+"item.kubejs.wood.lumber.sunroot": "Sunroot Lumber",
+"item.kubejs.wood.lumber.cruderoot": "Cruderoot Lumber",
+"item.kubejs.wood.lumber.conberry": "Conberry Lumber",
+"item.kubejs.wood.lumber.cloudcap": "Cloudcap Lumber",
+"item.kubejs.wood.lumber.jellyshroom": "Jellyshroom Lumber",
+"item.kubejs.wood.lumber.highsproot": "Highsproot Lumber",
+"item.kubejs.wood.lumber.sakura": "Sakura Lumber",
+"item.kubejs.wood.lumber.yagroot": "Yagroot Lumber",
+"item.kubejs.wood.lumber.roseroot": "Roseroot Lumber",
+
+
 "item.kubejs.ceramic.kaolinite_vessel": "Kaolinite Vessel",
 "item.kubejs.ceramic.kaolinite_jug": "Kaolinite Jug",
 "item.kubejs.ceramic.kaolinite_jug.filled": "%s Kaolinite Jug",
@@ -16,6 +36,20 @@
 "item.kubejs.ceramic.earthenware_jug.filled": "%s Earthenware Jug",
 
 "item.kubejs.loose_holystone_pebble": "Loose Holystone Rock",
+
+"block.kubejs.valyrum_anvil": "Valkyrum Anvil",
+
+"item.kubejs.drying_bricks.aether": "Wet Aether Mud Bricks",
+"item.kubejs.mud_bricks.aether": "Aether Mud Bricks",
+
+"item.kubejs.quicksoil_glass_batch": "Quicksoil Glass Batch",
+
+"item.kubejs.wax_tablet": "Wax Tablet",
+
+"item.kubejs.veridium_scree": "Veridium Scree",
+"item.kubejs.clorite_scree": "Clorite Scree",
+"item.kubejs.divinite_scree": "Divinite Scree",
+"item.kubejs.valkyrum_scree": "Valkyrum Scree",
 
 "item.kubejs.ceramic.caelum_vessel": "Caelum Vessel",
 "item.kubejs.ceramic.caelum_jug": "Caelum Jug",

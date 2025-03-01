@@ -1,0 +1,12 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+      "item": "minecraft:brick"
+    },
+    "result_item": {
+      "stack": {
+        "item": "minecraft:nether_brick"
+      }
+    },
+    "temperature": 1535
+  }

@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "DDD",
+      " I ",
+      "III"
+    ],
+    "key": {
+      "D": {
+        "item": "tfc:metal/double_ingot/cast_iron"
+      },
+      "I": {
+        "item": "tfc:metal/ingot/cast_iron"
+      }
+    },
+    "result": {
+      "item": "minecraft:anvil"
+    }
+  }

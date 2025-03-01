@@ -1,3 +1,18 @@
 {
-"type": "forge:disabled"
-}
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " W ",
+      "SSS"
+    ],
+    "key": {
+      "S": {
+        "tag": "forge:smooth_stone"
+      },
+      "W": {
+        "item": "kubejs:saw"
+      }
+    },
+    "result": {
+      "item": "minecraft:stonecutter"
+    }
+  }

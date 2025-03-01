@@ -2,7 +2,7 @@
   "type": "create:milling",
   "ingredients": [
     {
-      "item": "tfc:food/dried_garlic"
+      "item": "kubejs:food/dried_garlic"
     }
   ],
   "results": [

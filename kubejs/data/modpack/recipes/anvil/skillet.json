@@ -1,0 +1,15 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+      "item": "tfc:metal/double_sheet/cast_iron"
+    },
+    "result": {
+      "item": "farmersdelight:skillet"
+    },
+    "tier": 2,
+    "rules": [
+      "bend_last",
+      "punch_second_last",
+      "draw_third_last"
+    ]
+  }

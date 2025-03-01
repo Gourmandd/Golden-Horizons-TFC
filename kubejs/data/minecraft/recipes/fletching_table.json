@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "FK ",
+      "PP ",
+      "PP "
+    ],
+    "key": {
+      "P": {
+        "tag": "minecraft:planks"
+      },
+      "F": {
+        "item": "artisanal:quill"
+      },
+      "K": {
+        "tag": "tfc:knives"
+      }
+    },
+    "result": {
+      "item": "minecraft:fletching_table"
+    }
+  }

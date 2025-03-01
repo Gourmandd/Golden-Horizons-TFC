@@ -1,0 +1,15 @@
+{
+    "type": "tfc:loom",
+    "ingredient": {
+      "ingredient": {
+        "item": "hearth_and_home:bamboo_mat"
+      },
+      "count": 8
+    },
+    "result": {
+      "item": "hearth_and_home:woven_bamboo",
+      "count": 4
+    },
+    "steps_required": 12,
+    "in_progress_texture": "hearth_and_home:block/bamboo_mat"
+  }
