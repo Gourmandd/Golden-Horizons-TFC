@@ -1,0 +1,18 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "aether:cold_aercloud"
+    }
+  ],
+  "results": [
+    {
+      "item": "aether:golden_aercloud",
+      "chance": 0.5
+    },
+    {
+      "item": "aether:blue_aercloud",
+      "chance": 0.5
+    }
+  ]
+}

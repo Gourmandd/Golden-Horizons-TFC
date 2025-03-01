@@ -1,0 +1,13 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "minecraft:music_disc_pigstep"
+    }
+  ],
+  "results": [
+    {
+      "item": "deep_aether:music_disc_nabooru"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "aether:iron_ring"
+    }
+  ],
+  "results": [
+    {
+      "item": "aether:ice_ring"
+    }
+  ]
+}

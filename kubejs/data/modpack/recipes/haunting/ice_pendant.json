@@ -1,0 +1,13 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "aether:iron_pendant"
+    }
+  ],
+  "results": [
+    {
+      "item": "aether:ice_pendant"
+    }
+  ]
+}

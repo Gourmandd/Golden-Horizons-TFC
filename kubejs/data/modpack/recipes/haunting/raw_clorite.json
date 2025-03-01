@@ -1,0 +1,13 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "deep_aether:raw_clorite"
+    }
+  ],
+  "results": [
+    {
+      "item": "deep_aether:clorite"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "firmalife:ice_shavings"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:packed_ice"
+    }
+  ]
+}

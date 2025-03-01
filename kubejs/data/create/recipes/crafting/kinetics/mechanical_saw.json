@@ -7,7 +7,7 @@
   ],
   "key": {
     "I": {
-      "item": "tfc:metal/sheet/wrought_iron"
+      "item": "kubejs:saw"
     },
     "T": {
       "item": "kubejs:torque_mechanism"

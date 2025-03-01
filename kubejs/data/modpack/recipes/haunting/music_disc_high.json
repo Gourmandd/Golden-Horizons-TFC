@@ -1,0 +1,13 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "aether:music_disc_chinchilla"
+    }
+  ],
+  "results": [
+    {
+      "item": "aether:music_disc_high"
+    }
+  ]
+}

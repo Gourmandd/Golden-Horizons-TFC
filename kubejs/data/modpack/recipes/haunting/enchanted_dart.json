@@ -1,0 +1,13 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "aether:golden_dart"
+    }
+  ],
+  "results": [
+    {
+      "item": "aether:enchanted_dart"
+    }
+  ]
+}

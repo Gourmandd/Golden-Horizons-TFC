@@ -1,0 +1,13 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "tfc:food/tomato"
+    }
+  ],
+  "results": [
+    {
+      "item": "farmersdelight:rotten_tomato"
+    }
+  ]
+}
