@@ -1,0 +1,11 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+      "item": "quark:iron_ladder"
+    },
+    "result_fluid": {
+      "fluid": "tfc:metal/cast_iron",
+      "amount": 6
+    },
+    "temperature": 1535
+  }
