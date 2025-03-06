@@ -1,11 +1,11 @@
 {
   "type": "tfc:heating",
   "ingredient": {
-    "item": "ancient_aether:valkyrum_ring"
+    "item": "aether:zanite_ring"
   },
   "result_fluid": {
     "fluid": "tfc:metal/cast_iron",
     "amount": 100
   },
-  "temperature": 1535
+  "temperature": 1540
 }

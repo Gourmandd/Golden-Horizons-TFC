@@ -1,7 +1,7 @@
 {
     "type": "tfc:anvil",
     "input": {
-      "item": "aether_redux:gravitite_block"
+      "item": "aether_redux:gravitite_ingot"
     },
     "result": {
       "item": "deep_aether:gravitite_ring"

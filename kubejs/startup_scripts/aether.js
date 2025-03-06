@@ -91,6 +91,15 @@ StartupEvents.registry("block", event =>{
 
     event.create("plant/tomatillo", "tfc:pickable_crop").stages(5).matureFruit("kubejs:food/tomatillo").fruit("kubejs:food/tomatillo").productItem("kubejs:food/tomatillo").nutrient("nitrogen").soundType("grass").hardness(0.5).tagBlock("minecraft:mineable/hoe")
 
+    event.create("plant/goldenleaf_bush", "tfc:spreading_berry_bush").maxHeight(4)
+        .lifecycle('april', 'flowering')
+        .lifecycle('may', 'fruiting')
+        .lifecycle('june', 'fruiting')
+        .lifecycle('july', 'flowering')
+        .lifecycle('august', 'healthy')
+        .lifecycle('september', 'flowering')
+        .lifecycle('october', 'fruiting')
+        .lifecycle('november', 'flowering')
 
     //event.create("holystone_aqueduct", "tfc:aqueduct").allowedFluids(["minecraft:water", "tfc:salt_water", "tfc:spring_water"])
     // crashes when other aqueduct flows water into this one
@@ -117,4 +126,6 @@ StartupEvents.registry("item", event =>{
 
 StartupEvents.registry("fluid", event =>{
     event.create("veridium").bucketColor(0x075ab3).thickTexture(0x075ab3).noBucket().noBlock().tag("tfc:molten_metals")
+    event.create("gravitite").bucketColor(0xFE75D2).thickTexture(0xFE75D2).noBucket().noBlock().tag("tfc:molten_metals")
+    event.create("stratus").bucketColor(0xFE75D2).thickTexture(0xECB4FE).noBucket().noBlock().tag("tfc:molten_metals")
 })

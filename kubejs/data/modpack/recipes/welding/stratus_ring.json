@@ -1,0 +1,13 @@
+{
+    "type": "tfc:welding",
+    "first_input": {
+        "item": "deep_aether:stratus_ingot"
+    },
+    "second_input": {
+        "item": "deep_aether:gravitite_ring"
+    },
+    "tier": 1,
+    "result": {
+        "item": "deep_aether:stratus_ring"
+    }
+}

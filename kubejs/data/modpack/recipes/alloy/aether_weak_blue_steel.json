@@ -1,0 +1,26 @@
+{
+  "type": "tfc:alloy",
+  "result": "tfc:weak_blue_steel",
+  "contents": [
+    {
+      "metal": "tfc:sterling_silver",
+      "min": 0.1,
+      "max": 0.15
+    },
+    {
+      "metal": "tfc:bismuth_bronze",
+      "min": 0.1,
+      "max": 0.15
+    },
+    {
+      "metal": "tfc:steel",
+      "min": 0.20,
+      "max": 0.30
+    },
+    {
+      "metal": "modpack:gravitite",
+      "min": 0.40,
+      "max": 0.50
+    }
+  ]
+}

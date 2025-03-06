@@ -1,10 +1,10 @@
 {
     "type": "tfc:welding",
     "first_input": {
-        "item": "tfc:gem/diamond"
+        "item": "tfc:powder/diamond"
     },
     "second_input": {
-        "item": "aether:leather_gloves"
+        "item": "aether:iron_gloves"
     },
     "tier": 1,
     "result": {

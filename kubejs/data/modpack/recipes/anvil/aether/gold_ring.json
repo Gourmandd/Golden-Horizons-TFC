@@ -1,7 +1,7 @@
 {
     "type": "tfc:anvil",
     "input": {
-      "item": "tfc:metal/double_sheet/gold"
+      "item": "tfc:metal/ingot/gold"
     },
     "result": {
       "item": "aether:golden_ring"
