@@ -1,0 +1,8 @@
+{
+  "filters": [
+    {
+      "id": "/emi:/crafting/repairing/",
+      "category": "minecraft:crafting"
+    }
+  ]
+}
