@@ -1,7 +1,7 @@
 {
     "type": "barbequesdelight:grilling",
     "ingredient": {
-      "item": "tfc:food/frog_leg"
+      "item": "tfc:food/frog_legs"
     },
     "output": { 
       "item": "crabbersdelight:cooked_frog_leg" 
