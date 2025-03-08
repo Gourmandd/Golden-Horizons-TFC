@@ -1,12 +1,12 @@
 {
   "type": "tfc:heating",
   "ingredient": {
-    "item": "ancient_aether:valkyrum_pendant"
+    "item": "deep_aether:stratus_sword"
   },
   "result_fluid": {
-    "fluid": "tfc:metal/cast_iron",
+    "fluid": "kubejs:stratus",
     "amount": 200
   },
-  "temperature": 1535,
+  "temperature": 1540,
   "use_durability": true
 }

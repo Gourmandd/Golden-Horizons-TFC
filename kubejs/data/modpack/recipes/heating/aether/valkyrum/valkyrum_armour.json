@@ -1,11 +1,11 @@
 {
   "type": "tfc:heating",
   "ingredient": {
-    "item": "ancient_aether:valkyrum_pendant"
+    "tag": "modpack:melting/equipment/valkyrum_armour" 
   },
   "result_fluid": {
     "fluid": "tfc:metal/cast_iron",
-    "amount": 200
+    "amount": 300
   },
   "temperature": 1535,
   "use_durability": true

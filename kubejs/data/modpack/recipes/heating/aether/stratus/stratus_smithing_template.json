@@ -1,11 +1,11 @@
 {
   "type": "tfc:heating",
   "ingredient": {
-    "item": "deep_aether:stratus_gloves"
+    "item": "deep_aether:stratus_smithing_template"
   },
   "result_fluid": {
     "fluid": "kubejs:stratus",
-    "amount": 100
+    "amount": 300
   },
   "temperature": 1540
 }

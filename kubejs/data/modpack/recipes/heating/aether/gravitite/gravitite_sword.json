@@ -7,5 +7,6 @@
     "fluid": "kubejs:gravitite",
     "amount": 200
   },
-  "temperature": 1535
+  "temperature": 1535,
+  "use_durability": true
 }

@@ -1,11 +1,11 @@
 {
   "type": "tfc:heating",
   "ingredient": {
-    "tag": "modpack:veridium_equipment"
+    "tag": "modpack:melting/equipment/veridium_tools" 
   },
   "result_fluid": {
     "fluid": "tfc:metal/copper",
-    "amount": 300
+    "amount": 100
   },
   "temperature": 1240,
   "use_durability": true

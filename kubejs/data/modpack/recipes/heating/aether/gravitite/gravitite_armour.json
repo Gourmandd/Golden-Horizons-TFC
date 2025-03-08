@@ -1,11 +1,12 @@
 {
   "type": "tfc:heating",
   "ingredient": {
-    "item": "aether:gravitite_leggings"
+    "tag": "modpack:melting/equipment/gravitite_armour" 
   },
   "result_fluid": {
     "fluid": "kubejs:gravitite",
     "amount": 300
   },
-  "temperature": 1535
+  "temperature": 1535,
+  "use_durability": true
 }

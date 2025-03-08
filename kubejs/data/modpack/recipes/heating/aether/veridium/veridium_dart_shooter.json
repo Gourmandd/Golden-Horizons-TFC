@@ -7,5 +7,6 @@
     "fluid": "kubejs:veridium",
     "amount": 100
   },
-  "temperature": 1240
+  "temperature": 1240,
+  "use_durability": true
 }

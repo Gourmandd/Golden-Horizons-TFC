@@ -1,16 +1,8 @@
 {
   "values": [
     "aether:gravitite_sword",
-    "aether:gravitite_shovel",
-    "aether:gravitite_hoe",
-    "aether:gravitite_axe",
-    "aether:gravitite_pickaxe",
-    "aether:gravitite_boots",
-    "aether:gravitite_helmet",
-    "aether:gravitite_chestplate",
-    "aether:gravitite_leggings",
-    "aether:gravitite_gloves",
-    "deep_aether:gravitite_ring",
+    "#modpack:melting/equipment/gravitite_armour",
+    "#modpack:melting/equipment/gravitite_tools",
     "aether_redux:gravitite_ingot",
     "aether_redux:raw_gravitite"
   ]
