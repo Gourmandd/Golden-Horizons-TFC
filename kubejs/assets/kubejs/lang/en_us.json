@@ -214,5 +214,20 @@
 "tfc.recipe.barrel.modpack.barrel.sugarcane_juice": "Clarifying Sugarcane Juice",
 "tfc.recipe.barrel.modpack.barrel.cheese.halloumi": "Making Halloumi From Goat Curd",
 "tfc.recipe.barrel.modpack.barrel.cheese.mozzarella": "Making Halloumi From Cow Curd",
-"tfc.recipe.barrel.modpack.barrel.cheese.soft_chhurpi": "Making Halloumi From Yak Curd"
+"tfc.recipe.barrel.modpack.barrel.cheese.soft_chhurpi": "Making Halloumi From Yak Curd",
+
+"block.kubejs.wood.twig.skyroot": "Skyroot Twig",
+"block.kubejs.wood.twig.fieldsproot": "Fieldsproot Twig",
+"block.kubejs.wood.twig.blightwillow": "Blightwillow Twig",
+"block.kubejs.wood.twig.cloudcap": "Cloudcap Twig",
+"block.kubejs.wood.twig.jellyshroom": "Jellyshroom Twig",
+"block.kubejs.wood.twig.crystal": "Crystal Twig",
+"block.kubejs.wood.twig.glacia": "Glacia Twig",
+"block.kubejs.wood.twig.roseroot": "Roseroot Twig",
+"block.kubejs.wood.twig.yagroot": "Yagroot Twig",
+"block.kubejs.wood.twig.cruderoot": "Cruderoot Twig",
+"block.kubejs.wood.twig.conberry": "Conberry Twig",
+"block.kubejs.wood.twig.sunroot": "Sunroot Twig",
+"block.kubejs.wood.twig.highsproot": "Highsproot Twig",
+"block.kubejs.wood.twig.sakura": "Sakura Twig"
 }

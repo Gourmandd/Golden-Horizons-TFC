@@ -29,7 +29,7 @@ StartupEvents.registry("block", event =>{
 
     aether_wood_types.forEach(type =>{
 
-        event.create( type + '_twig', 'tfc:ground_cover').twig().tagBlock("minecraft:mineable/axe")
+        event.create( 'wood/twig/' + type, 'tfc:ground_cover').twig().tagBlock("minecraft:mineable/axe")
 
     })
 

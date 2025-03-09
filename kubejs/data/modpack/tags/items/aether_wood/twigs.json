@@ -1,18 +1,18 @@
 {
     "replace": false,
     "values": [
-        "kubejs:skyroot_twig",
-        "kubejs:fieldsproot_twig",
-        "kubejs:blightwillow_twig",
-        "kubejs:crystal_twig",
-        "kubejs:glacia_twig",
-        "kubejs:roseroot_twig",
-        "kubejs:yagroot_twig",
-        "kubejs:cruderoot_twig",
-        "kubejs:conberry_twig",
-        "kubejs:sunroot_twig",
-        "kubejs:jellyshroom_twig",
-        "kubejs:highsproot_twig",
-        "kubejs:sakura_twig"
+        "kubejs:wood/twig/skyroot",
+        "kubejs:wood/twig/fieldsproot",
+        "kubejs:wood/twig/blightwillow",
+        "kubejs:wood/twig/crystal",
+        "kubejs:wood/twig/glacia",
+        "kubejs:wood/twig/roseroot",
+        "kubejs:wood/twig/yagroot",
+        "kubejs:wood/twig/cruderoot",
+        "kubejs:wood/twig/conberry",
+        "kubejs:wood/twig/sunroot",
+        "kubejs:wood/twig/jellyshroom",
+        "kubejs:wood/twig/highsproot",
+        "kubejs:wood/twig/sakura"
     ]
 }
