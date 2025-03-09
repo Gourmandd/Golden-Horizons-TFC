@@ -8,7 +8,7 @@ let metal_items = [
 
 StartupEvents.registry("item", event =>{
     function register_metal_items(metal){
-        event.create("kubejs:metal/ingot/" + metal.name).displayName(metal.displayName + " Ingot").tag("tfc:pileable_ingots")
+        event.create("kubejs:metal/ingot/" + metal.name).displayName(metal.displayName + " Ingot")
         event.create("kubejs:metal/double_ingot/" + metal.name).displayName(metal.displayName + " Double Ingot").tag("forge:double_ingots").tag("tfc:pileable_double_ingots")
         event.create("kubejs:metal/sheet/" + metal.name).displayName(metal.displayName + " Sheet").tag("forge:sheets").tag("tfc:pileable_sheets")
         event.create("kubejs:metal/double_sheet/" + metal.name).displayName(metal.displayName + " Double Sheet").tag("forge:double_sheets")
