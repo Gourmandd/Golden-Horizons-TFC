@@ -7,7 +7,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "tfc:food/blueberry"
+					"name": "kubejs:plant/zanberry_bush"
 				}
 			],
 			"conditions": [
