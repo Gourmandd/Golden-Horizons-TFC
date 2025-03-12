@@ -1,6 +1,0 @@
-{
-  "parent": "tfc:block/plant/stationary_bush_2",
-  "textures": {
-    "bush": "firmalife:block/crop/grape_leaves_flowering"
-  }
-}

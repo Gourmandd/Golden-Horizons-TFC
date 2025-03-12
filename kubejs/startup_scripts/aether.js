@@ -48,7 +48,6 @@ StartupEvents.registry("block", event =>{
         {"name": "nettles", "item": "kubejs:nettles"},
         {"name": "zanberry", "item": "aether_redux:zanberry"},
         {"name": "blue_berry", "item": "tfc:food/blueberry"},
-        {"name": "grape", "item": "firmalife:food/red_grapes"},
         {"name": "snowberry", "item": "tfc:food/snowberry"}
     ]
     
@@ -91,7 +90,7 @@ StartupEvents.registry("block", event =>{
 
     event.create("plant/tomatillo", "tfc:pickable_crop").stages(5).matureFruit("kubejs:food/tomatillo").fruit("kubejs:food/tomatillo").productItem("kubejs:food/tomatillo").nutrient("nitrogen").soundType("grass").hardness(0.5).tagBlock("minecraft:mineable/hoe")
 
-    event.create("plant/goldenleaf_bush", "tfc:spreading_berry_bush").maxHeight(4)
+    event.create("plant/goldenleaf_bush", "tfc:spreading_berry_bush").maxHeight(4).productItem("deep_aether:goldenleaf_berries")
         .lifecycle('april', 'flowering')
         .lifecycle('may', 'fruiting')
         .lifecycle('june', 'fruiting')
