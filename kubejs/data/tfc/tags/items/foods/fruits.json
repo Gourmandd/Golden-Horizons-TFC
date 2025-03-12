@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
+        "aether:white_apple",
         "deep_aether:goldenleaf_berries",
         "aether:blue_berry",
         "aether:enchanted_berry",
