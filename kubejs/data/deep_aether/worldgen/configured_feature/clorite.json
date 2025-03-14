@@ -1,12 +1,4 @@
 {
-	"type": "minecraft:netherrack_replace_blobs",
-	"config": {
-		"state": {
-			"Name": "deep_aether:raw_clorite"
-		},
-		"target": {
-			"Name": "aether:holystone"
-		},
-		"radius": 8
-	}
+	"type": "minecraft:no_op",
+	"config": {}
 }

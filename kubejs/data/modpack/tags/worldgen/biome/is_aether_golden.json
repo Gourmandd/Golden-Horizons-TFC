@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "deep_aether:golden_grove",
+        "deep_aether:golden_heights",
+        "aether_redux:gilded_grasslands",
+        "aether_redux:gilded_groves"
+    ]
+}

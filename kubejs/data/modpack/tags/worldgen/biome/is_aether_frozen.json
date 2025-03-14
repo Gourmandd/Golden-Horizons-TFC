@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "aether_redux:frosted_forests",
+        "aether_redux:glacial_tundra",
+        "ancient_aether:festive_wyndcap_taiga",
+        "ancient_aether:wyndcap_clearing",
+        "ancient_aether:wyndcap_taiga"
+    ]
+}

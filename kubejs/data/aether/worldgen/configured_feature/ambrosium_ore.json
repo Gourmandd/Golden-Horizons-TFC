@@ -1,12 +1,4 @@
 {
-	"type": "minecraft:netherrack_replace_blobs",
-	"config": {
-		"state": {
-			"Name": "aether:ambrosium_ore"
-		},
-		"target": {
-			"Name": "aether:holystone"
-		},
-		"radius": 3
-	}
+	"type": "minecraft:no_op",
+	"config": {}
 }

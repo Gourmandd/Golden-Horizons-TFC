@@ -1,12 +1,4 @@
 {
-	"type": "minecraft:netherrack_replace_blobs",
-	"config": {
-		"state": {
-			"Name": "aether_redux:veridium_ore"
-		},
-		"target": {
-			"Name": "aether:holystone"
-		},
-		"radius": 5
-	}
+	"type": "minecraft:no_op",
+	"config": {}
 }

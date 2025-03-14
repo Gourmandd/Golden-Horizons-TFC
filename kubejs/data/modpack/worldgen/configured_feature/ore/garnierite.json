@@ -1,0 +1,32 @@
+{
+  "type": "tfc:cluster_vein",
+  "config": {
+    "rarity": 30,
+    "density": 0.6,
+    "min_y": 20,
+    "max_y": 300,
+    "size": 20,
+      "random_name": "garnierite_ore",
+      "blocks": [
+        {
+          "replace": [
+            "aether:holystone"
+          ],
+          "with": [
+            {
+              "weight": 25,
+              "block": "kubejs:ore/rich_garnierite/holystone"
+            },
+            {
+              "weight": 50,
+              "block": "kubejs:ore/normal_garnierite/holystone"
+            },
+            {
+              "weight": 25,
+              "block": "kubejs:ore/poor_garnierite/holystone"
+            }
+          ]
+        }
+      ]
+    }
+  }

@@ -37,8 +37,6 @@ StartupEvents.registry("block", event =>{
 
     event.create("quicksoil_poured_glass").soundType("glass").renderType("translucent").box(0,0,0,16,1,16).noValidSpawns(true).transparent(true).defaultTranslucent().hardness(0.3).tag("c:hidden_from_recipe_viewers")
 
-    event.create("valkyrum_ore").soundType("stone").tagBlock("minecraft:mineable/pickaxe").requiresTool().tagBlock("minecraft:needs_stone_tool").hardness(2.5)
-
     event.create("dirt/aether", "tfc:dirt").hardness(0.5).farmland(farmland =>{farmland.hardness(1).soundType("sand").tagBlock("minecraft:mineable/shovel")})
         .soundType("sand").tagBlock("minecraft:mineable/shovel")
 
@@ -106,8 +104,38 @@ StartupEvents.registry("block", event =>{
     aether_wood_types.forEach(type =>{
         event.create("wood/support/" + type, "tfc:support").woodSoundType()
     })
-
     
+    let graded_ore = [
+        "valkyrum",
+        "veridium",
+        "sphalerite",
+        "garnierite",
+    ]
+
+    let ore = [
+        "cinnabar",
+        "lapis_lazuli",
+        "gypsum",
+        "saltpeter",
+        "cryolite",
+        "graphite"
+    ]
+    
+    function CreateOre(name){
+        event.create(name).soundType("stone").tagBlock("minecraft:mineable/pickaxe").requiresTool().hardness(4.0).defaultCutout()
+            .tagBlock("forge:ores").tagBlock("minecraft:needs_stone_tool")
+    }
+    ore.forEach(ore =>{
+        CreateOre("ore/" + ore + "/holystone")
+    })
+
+    graded_ore.forEach(ore =>{
+        CreateOre("ore/rich_" + ore + "/holystone")
+        CreateOre("ore/normal_" + ore + "/holystone")
+        CreateOre("ore/poor_" + ore + "/holystone")
+    })
+
+    //event.create("valkyrum_ore").soundType("stone").tagBlock("minecraft:mineable/pickaxe").requiresTool().tagBlock("minecraft:needs_stone_tool").hardness(4.0)
 })
 
 StartupEvents.registry("item", event =>{
