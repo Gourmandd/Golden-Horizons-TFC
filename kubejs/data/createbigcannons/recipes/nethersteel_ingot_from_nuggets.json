@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "createbigcannons:nethersteel_nugget"
+    },
+    {
+      "item": "createbigcannons:nethersteel_nugget"
+    },
+    {
+      "item": "createbigcannons:nethersteel_nugget"
+    },
+    {
+      "item": "createbigcannons:nethersteel_nugget"
+    },
+    {
+      "item": "createbigcannons:nethersteel_nugget"
+    },
+    {
+      "item": "createbigcannons:nethersteel_nugget"
+    },
+    {
+      "item": "createbigcannons:nethersteel_nugget"
+    },
+    {
+      "item": "createbigcannons:nethersteel_nugget"
+    },
+    {
+      "item": "createbigcannons:nethersteel_nugget"
+    }
+  ],
+  "result": {
+    "item": "kubejs:metal/ingot/nethersteel"
+  }
+}
