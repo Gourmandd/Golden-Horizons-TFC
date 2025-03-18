@@ -1,0 +1,22 @@
+{
+    "replace": false,
+    "values": [
+        "#quark:hollow_logs",
+        "#deep_aether:roseroot_logs",
+        "#deep_aether:yagroot_logs",
+        "#deep_aether:cruderoot_logs",
+        "#deep_aether:conberry_logs",
+        "#deep_aether:sunroot_logs",
+        "#aether_redux:crystal_logs",
+        "#aether_redux:glacia_logs",
+        "#aether_redux:fieldsproot_logs",
+        "#aether_redux:blightwillow_logs",
+        "aether_redux:sporing_blightwillow_log",
+        "aether_redux:blightwillow_log_wall",
+        "aether_redux:stripped_blightwillow_log_wall",
+        "#ancient_aether:sakura_logs",
+        "#ancient_aether:highsproot_logs",
+        "#aether:skyroot_logs",
+        "aether:golden_oak_log"
+    ]
+}
