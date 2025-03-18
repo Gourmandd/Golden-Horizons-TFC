@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        "kubejs:ore/normal_garnierite/holystone",
+        "kubejs:ore/rich_garnierite/holystone",
+        "kubejs:ore/poor_garnierite/holystone",
+        "kubejs:ore/cinnabar/holystone",
+        "kubejs:ore/cryolite/holystone",
+        "kubejs:ore/halite/holystone",
+        "kubejs:ore/lapis_lazuli/holystone",
+        "kubejs:ore/opal/holystone"
+    ]
+}

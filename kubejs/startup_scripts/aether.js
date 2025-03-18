@@ -1,4 +1,4 @@
-let aether_wood_types = [
+const AETHER_WOOD_TYPES = [
     "skyroot",
     "fieldsproot",
     "blightwillow",
@@ -27,7 +27,7 @@ StartupEvents.registry("block", event =>{
     event.create('divinite_scree', 'tfc:ground_cover').ore().tagBlock("minecraft:mineable/pickaxe").soundType("stone")
     event.create('valkyrum_scree', 'tfc:ground_cover').ore().tagBlock("minecraft:mineable/pickaxe").soundType("stone")
 
-    aether_wood_types.forEach(type =>{
+    AETHER_WOOD_TYPES.forEach(type =>{
 
         event.create( 'wood/twig/' + type, 'tfc:ground_cover').twig().tagBlock("minecraft:mineable/axe")
 
@@ -42,14 +42,14 @@ StartupEvents.registry("block", event =>{
 
 
 
-    let bushes = [
+    const BUSHES = [
         {"name": "nettles", "item": "kubejs:nettles"},
         {"name": "zanberry", "item": "aether_redux:zanberry"},
         {"name": "blue_berry", "item": "tfc:food/blueberry"},
         {"name": "snowberry", "item": "tfc:food/snowberry"}
     ]
     
-    bushes.forEach(type =>{
+    BUSHES.forEach(type =>{
         event.create( "plant/" + type.name + "_bush", "tfc:stationary_berry_bush")
         .productItem(type.item)
         .lifecycle("january", "healthy")
@@ -101,40 +101,91 @@ StartupEvents.registry("block", event =>{
     //event.create("holystone_aqueduct", "tfc:aqueduct").allowedFluids(["minecraft:water", "tfc:salt_water", "tfc:spring_water"])
     // crashes when other aqueduct flows water into this one
 
-    aether_wood_types.forEach(type =>{
+    AETHER_WOOD_TYPES.forEach(type =>{
         event.create("wood/support/" + type, "tfc:support").woodSoundType()
     })
     
-    let graded_ore = [
-        "valkyrum",
-        "veridium",
-        "sphalerite",
-        "garnierite",
+    const ORE_GRADES = [
+        "rich",
+        "normal",
+        "poor"
     ]
 
-    let ore = [
+    const AETHER_GRADED_ORE = [
+        "valkyrum",
+        "veridium",
+    ]
+
+    const GRADED_ORE = [
+        "malachite",
+        "bismuthinite",
+        "magnetite",
+        "sphalerite",
+        "garnierite",
+        //unused for holystone
+        "native_copper",
+        "native_gold",
+        "native_silver",
+        "cassiterite",
+        "limonite",
+        "tetrahedrite",
+        "hematite",
+        "chromite"
+        //unused for holystone
+    ]
+
+    const ORE = [
+        "pyrite",
         "cinnabar",
         "lapis_lazuli",
         "gypsum",
         "saltpeter",
         "cryolite",
-        "graphite"
+        "graphite",
+        //unused for holystone
+        "bituminous_coal",
+        "lignite",
+        "sulfur",
+        "sylvite",
+        "borax",
+        "halite",
+        "amethyst",
+        "diamond",
+        "emerald",
+        "opal",
+        "ruby",
+        "sapphire",
+        "topaz"
+        //unused for holystone
     ]
     
-    function CreateOre(name){
-        event.create(name).soundType("stone").tagBlock("minecraft:mineable/pickaxe").requiresTool().hardness(4.0).defaultCutout()
-            .tagBlock("forge:ores").tagBlock("minecraft:needs_stone_tool")
+    function CreateOre(name, rock){
+        event.create(name + "/" + rock)
+            .soundType("stone")
+            .requiresTool()
+            .tagBlock("minecraft:mineable/pickaxe")
+            .tagBlock("forge:ores")
+            .tagBlock("minecraft:needs_stone_tool")
+            .opaque(true)
+            .hardness(1.5)
+            .resistance(4)
+            .renderType('cutout')
     }
-    ore.forEach(ore =>{
-        CreateOre("ore/" + ore + "/holystone")
+    ORE.forEach(ore =>{
+        CreateOre("ore/" + ore, "holystone")
     })
 
-    graded_ore.forEach(ore =>{
-        CreateOre("ore/rich_" + ore + "/holystone")
-        CreateOre("ore/normal_" + ore + "/holystone")
-        CreateOre("ore/poor_" + ore + "/holystone")
+    GRADED_ORE.forEach(ore =>{
+        ORE_GRADES.forEach(grade =>{
+            CreateOre("ore/" + grade + "_" + ore, "holystone")
+        })
     })
 
+    AETHER_GRADED_ORE.forEach(ore =>{
+        ORE_GRADES.forEach(grade =>{
+            CreateOre("ore/" + grade + "_" + ore, "holystone")
+        })
+    })
     //event.create("valkyrum_ore").soundType("stone").tagBlock("minecraft:mineable/pickaxe").requiresTool().tagBlock("minecraft:needs_stone_tool").hardness(4.0)
 })
 
@@ -145,7 +196,7 @@ StartupEvents.registry("item", event =>{
 
     event.create("quicksoil_glass_batch")
 
-    aether_wood_types.forEach(type => {
+    AETHER_WOOD_TYPES.forEach(type => {
         event.create("kubejs:wood/lumber/" + type)
     })
 

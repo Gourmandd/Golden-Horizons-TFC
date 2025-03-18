@@ -1,6 +1,0 @@
-{
-    "type": "forge:add_features",
-    "biomes": "#aether:is_aether",
-    "features": "#modpack:aether_ore",
-    "step": "underground_decoration"
-}

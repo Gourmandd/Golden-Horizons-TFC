@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "kubejs:ore/emerald/holystone",
+        "kubejs:ore/topaz/holystone",
+        "kubejs:ore/amethyst/holystone"
+    ]
+}

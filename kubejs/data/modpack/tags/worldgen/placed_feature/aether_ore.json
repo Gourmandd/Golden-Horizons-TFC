@@ -20,6 +20,10 @@
         "modpack:ore/saltpeter",
         "modpack:ore/garnierite",
         "modpack:ore/lapis_lazuli",
-        "modpack:ore/aseterite"
+        "modpack:ore/aseterite",
+        "modpack:ore/malachite",
+        "modpack:ore/magnetite",
+        "modpack:ore/bismuthinite",
+        "modpack:ore/pyrite"
     ]
 }
