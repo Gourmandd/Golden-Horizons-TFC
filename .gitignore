@@ -19,6 +19,7 @@
 /heracles_options.json
 /config/spark/tmp/
 *.pyc
+*.bak
 /map_atlases/
 fancymenu_data/last_world.fmdata
 

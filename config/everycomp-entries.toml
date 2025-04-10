@@ -37,21 +37,6 @@
 		[types.wood_type.aether]
 			skyroot = true
 
-		[types.wood_type.deep_aether]
-			roseroot = true
-			yagroot = true
-			cruderoot = true
-			conberry = true
-			sunroot = true
-
-		[types.wood_type.aether_redux]
-			fieldsproot = true
-			blightwillow = true
-			cloudcap = true
-			jellyshroom = true
-			crystal = true
-			glacia = true
-
 		[types.wood_type.ancient_aether]
 			highsproot = true
 			sakura = true
@@ -67,6 +52,21 @@
 			fig = true
 			ironwood = true
 			ipe = true
+
+		[types.wood_type.deep_aether]
+			roseroot = true
+			yagroot = true
+			cruderoot = true
+			conberry = true
+			sunroot = true
+
+		[types.wood_type.aether_redux]
+			fieldsproot = true
+			blightwillow = true
+			cloudcap = true
+			jellyshroom = true
+			crystal = true
+			glacia = true
 
 	[types.leaves_type]
 
@@ -91,24 +91,6 @@
 			holiday = true
 			decorated_holiday = true
 
-		[types.leaves_type.deep_aether]
-			roseroot = true
-			flowering_roseroot = true
-			blue_roseroot = true
-			flowering_blue_roseroot = true
-			yagroot = true
-			cruderoot = true
-			conberry = true
-			sunroot = true
-
-		[types.leaves_type.aether_redux]
-			blightwillow = true
-			glacia = true
-			purple_glacia = true
-			gilded_oak = true
-			blighted_skyroot = true
-			fieldsproot = true
-
 		[types.leaves_type.ancient_aether]
 			crystal_skyroot = true
 			enchanted_skyroot = true
@@ -116,6 +98,24 @@
 			blue_skyroot_pine = true
 			highsproot = true
 			sakura = true
+
+		[types.leaves_type.aether_redux]
+			fieldsproot = true
+			gilded_oak = true
+			blighted_skyroot = true
+			purple_glacia = true
+			blightwillow = true
+			glacia = true
+
+		[types.leaves_type.deep_aether]
+			flowering_roseroot = true
+			blue_roseroot = true
+			flowering_blue_roseroot = true
+			roseroot = true
+			yagroot = true
+			cruderoot = true
+			conberry = true
+			sunroot = true
 
 #Disables specific entries
 [entries]

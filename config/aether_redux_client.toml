@@ -28,7 +28,7 @@
 
 		[Rendering.GUI.Menu]
 			#Current folder used for the menu panorama
-			"Menu Directory" = "skyfields"
+			"Menu Directory" = "dungeon"
 			#Which menu panorama directories to cycle between. Make empty to disable cycling logic
 			"Menu Choices" = ["skyfields", "dungeon", "blight", "cloudcaps", "gilded"]
 			#Randomize menu panorama ranther than cycling in order.
@@ -48,7 +48,7 @@
 	#Enables a slamming sound for mimics when using the new model. Disable if it gets too annoying XD
 	"Mimic Slam Sound Effect" = true
 	#Gives sounds to the other clouds for the Aether: Genesis when it is installed
-	"Aercloud Ability Sounds" = false
+	"Aercloud Ability Sounds" = true
 
 [Internal]
 	#Internal value to do menu changes. Set this to false in modpacks if you want to use your own menu.
