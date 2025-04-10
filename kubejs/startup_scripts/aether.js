@@ -15,9 +15,66 @@ const AETHER_WOOD_TYPES = [
     "sakura"
 ]
 
-function capitalizeFirstLetter(string) {
-    return string.charAt(0).toUpperCase() + string.slice(1);
-}
+const ORE_GRADES = [
+    "rich",
+    "normal",
+    "poor"
+]
+
+const AETHER_GRADED_ORE = [
+    "valkyrum",
+    "veridium",
+]
+
+const GRADED_ORE = [
+    "malachite",
+    "bismuthinite",
+    "magnetite",
+    "sphalerite",
+    "garnierite",
+    //unused for holystone
+    "native_copper",
+    "native_gold",
+    "native_silver",
+    "cassiterite",
+    "limonite",
+    "tetrahedrite",
+    "hematite",
+    "chromite"
+    //unused for holystone
+]
+
+const ORE = [
+    "pyrite",
+    "cinnabar",
+    "lapis_lazuli",
+    "gypsum",
+    "saltpeter",
+    "cryolite",
+    "graphite",
+    //unused for holystone
+    "bituminous_coal",
+    "lignite",
+    "sulfur",
+    "sylvite",
+    "borax",
+    "halite",
+    "amethyst",
+    "diamond",
+    "emerald",
+    "opal",
+    "ruby",
+    "sapphire",
+    "topaz"
+    //unused for holystone
+]
+
+const BUSHES = [
+    {"name": "nettles", "item": "kubejs:nettles"},
+    {"name": "zanberry", "item": "aether_redux:zanberry"},
+    {"name": "blue_berry", "item": "tfc:food/blueberry"},
+    {"name": "snowberry", "item": "tfc:food/snowberry"}
+]
 
 StartupEvents.registry("block", event =>{
 
@@ -35,19 +92,10 @@ StartupEvents.registry("block", event =>{
 
     event.create("valkyrum_anvil", "tfc:anvil").tier(0).tagBlock("minecraft:mineable/pickaxe").soundType("stone").requiresTool().texture('top', "ancient_aether:block/valkyrum_block").texture('side', "ancient_aether:block/valkyrum_block").texture('particle', "ancient_aether:block/valkyrum_block")
 
-    event.create("quicksoil_poured_glass").soundType("glass").renderType("translucent").box(0,0,0,16,1,16).noValidSpawns(true).transparent(true).defaultTranslucent().hardness(0.3).tag("c:hidden_from_recipe_viewers")
+    //event.create("quicksoil_poured_glass").soundType("glass").renderType("translucent").box(0,0,0,16,1,16).noValidSpawns(true).transparent(true).defaultTranslucent().hardness(0.3).tag("c:hidden_from_recipe_viewers")
 
     event.create("dirt/aether", "tfc:dirt").hardness(0.5).farmland(farmland =>{farmland.hardness(1).soundType("sand").tagBlock("minecraft:mineable/shovel")})
         .soundType("sand").tagBlock("minecraft:mineable/shovel")
-
-
-
-    const BUSHES = [
-        {"name": "nettles", "item": "kubejs:nettles"},
-        {"name": "zanberry", "item": "aether_redux:zanberry"},
-        {"name": "blue_berry", "item": "tfc:food/blueberry"},
-        {"name": "snowberry", "item": "tfc:food/snowberry"}
-    ]
     
     BUSHES.forEach(type =>{
         event.create( "plant/" + type.name + "_bush", "tfc:stationary_berry_bush")
@@ -104,60 +152,6 @@ StartupEvents.registry("block", event =>{
     AETHER_WOOD_TYPES.forEach(type =>{
         event.create("wood/support/" + type, "tfc:support").woodSoundType()
     })
-    
-    const ORE_GRADES = [
-        "rich",
-        "normal",
-        "poor"
-    ]
-
-    const AETHER_GRADED_ORE = [
-        "valkyrum",
-        "veridium",
-    ]
-
-    const GRADED_ORE = [
-        "malachite",
-        "bismuthinite",
-        "magnetite",
-        "sphalerite",
-        "garnierite",
-        //unused for holystone
-        "native_copper",
-        "native_gold",
-        "native_silver",
-        "cassiterite",
-        "limonite",
-        "tetrahedrite",
-        "hematite",
-        "chromite"
-        //unused for holystone
-    ]
-
-    const ORE = [
-        "pyrite",
-        "cinnabar",
-        "lapis_lazuli",
-        "gypsum",
-        "saltpeter",
-        "cryolite",
-        "graphite",
-        //unused for holystone
-        "bituminous_coal",
-        "lignite",
-        "sulfur",
-        "sylvite",
-        "borax",
-        "halite",
-        "amethyst",
-        "diamond",
-        "emerald",
-        "opal",
-        "ruby",
-        "sapphire",
-        "topaz"
-        //unused for holystone
-    ]
     
     function CreateOre(name, rock){
         event.create(name + "/" + rock)

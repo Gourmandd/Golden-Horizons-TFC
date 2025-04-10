@@ -1,0 +1,6 @@
+{
+    "type": "forge:add_features",
+    "biomes": "#aether:is_aether",
+    "features": "modpack:grass/grass_patch_rocks",
+    "step": "vegetal_decoration"
+}

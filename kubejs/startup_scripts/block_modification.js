@@ -4,17 +4,17 @@ BlockEvents.modification(event => {
 
 //let aether_wood = ["skyroot"]
 
-let aether_redux_wood = [
+const AETHER_WOOD = [
     "fieldsproot",
     "blightwillow",
     "crystal",
     "glacia",    
 ]
-let aether_redux_stems = [
+const AETHER_REDUX_STEMS = [
     "cloudcap",
     "jellyshroom",    
 ]
-let deep_aether_wood = [
+const DEEP_AETHER_WOOD = [
     "roseroot",
     "yagroot",
     "cruderoot",
@@ -22,22 +22,7 @@ let deep_aether_wood = [
     "sunroot",    
 ]
 
-//aether_wood.forEach(type => {log_variant_modification("aether", type, "log", "wood")});
-aether_redux_wood.forEach(type => {log_variant_modification("aether_redux", type, "log", "wood")});
-aether_redux_stems.forEach(type => {log_variant_modification("aether_redux", type, "stem", "hyphae")});
-deep_aether_wood.forEach(type => {log_variant_modification("deep_aether", type, "log", "wood")});
-
-
-
-function log_variant_modification(mod, type, log, wood){
-    event.modify(mod + ":stripped_" + type + "_" + log, block => {block.requiresTool = true, block.destroySpeed = 7.5})
-    event.modify(mod + ":" + type + "_" + log, block => {block.requiresTool = true, block.destroySpeed = 7.5})
-    event.modify(mod + ":stripped_" + type + "_" + wood, block => {block.requiresTool = true, block.destroySpeed = 7.5})
-    event.modify(mod + ":" + type + "_" + wood, block => {block.requiresTool = true, block.destroySpeed = 7.5})
-}
-
-
-let misc_wood_modification = [
+const misc_wood_modification = [
     "aether:golden_oak_wood",
     "aether:golden_oak_log",
     "aether_redux:blightwillow_log_wall",
@@ -56,9 +41,8 @@ let misc_wood_modification = [
     "deep_aether:stripped_yagroot_wall",
     "deep_aether:rotton_roseroot_log"
 ]
-misc_wood_modification.forEach(type =>{event.modify(type, block => {block.requiresTool = true, block.destroySpeed = 7.5})})
 
-let aether_ores = [
+const aether_ores = [
     "deep_aether:raw_clorite",
     "aether_redux:divinite",
     "deep_aether:aseterite",
@@ -71,6 +55,22 @@ let aether_ores = [
     "deep_aether:skyjade_ore",
     "kubejs:valkyrum_ore"
 ]
+
+//aether_wood.forEach(type => {log_variant_modification("aether", type, "log", "wood")});
+AETHER_WOOD.forEach(type => {log_variant_modification("aether_redux", type, "log", "wood")});
+AETHER_REDUX_STEMS.forEach(type => {log_variant_modification("aether_redux", type, "stem", "hyphae")});
+DEEP_AETHER_WOOD.forEach(type => {log_variant_modification("deep_aether", type, "log", "wood")});
+
+
+
+function log_variant_modification(mod, type, log, wood){
+    event.modify(mod + ":stripped_" + type + "_" + log, block => {block.requiresTool = true, block.destroySpeed = 7.5})
+    event.modify(mod + ":" + type + "_" + log, block => {block.requiresTool = true, block.destroySpeed = 7.5})
+    event.modify(mod + ":stripped_" + type + "_" + wood, block => {block.requiresTool = true, block.destroySpeed = 7.5})
+    event.modify(mod + ":" + type + "_" + wood, block => {block.requiresTool = true, block.destroySpeed = 7.5})
+}
+
+misc_wood_modification.forEach(type =>{event.modify(type, block => {block.requiresTool = true, block.destroySpeed = 7.5})})
 
 aether_ores.forEach(type =>{event.modify(type, block => {block.destroySpeed = 4})})
 })

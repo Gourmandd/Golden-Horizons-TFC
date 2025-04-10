@@ -38,10 +38,10 @@ LootJS.modifiers(event => {
     event.addEntityLootModifier("aether_redux:shimmercow").replaceLoot("minecraft:beef", "tfc:food/beef", true).replaceLoot("minecraft:leather", "tfc:large_raw_hide").addLoot("firmalife:rennet").addLoot("artisanal:suet").addLoot("minecraft:bone")
     event.addEntityLootModifier("aether_redux:mykapod").replaceLoot("minecraft:slime_ball", "tfc:glue", true)
 
-    event.addEntityLootModifier("aether:blue_swet").replaceLoot("minecraft:sugar", "artisanal:perishable_sugar", true)
-    event.addEntityLootModifier("aether:golden_swet").replaceLoot("minecraft:sugar", "artisanal:perishable_sugar", true)
-    event.addEntityLootModifier("aether_redux:vanilla_swet").replaceLoot("minecraft:sugar", "artisanal:perishable_sugar", true)
-    event.addEntityLootModifier("ancient_aether:festive_swet").replaceLoot("minecraft:sugar", "artisanal:perishable_sugar", true)
+    event.addEntityLootModifier("aether:blue_swet").replaceLoot("minecraft:sugar", "artisanal:perishable_sugar", true).randomChance(0.10)
+    event.addEntityLootModifier("aether:golden_swet").replaceLoot("minecraft:sugar", "artisanal:perishable_sugar", true).randomChance(0.10)
+    event.addEntityLootModifier("aether_redux:vanilla_swet").replaceLoot("minecraft:sugar", "artisanal:perishable_sugar", true).randomChance(0.10)
+    event.addEntityLootModifier("ancient_aether:festive_swet").replaceLoot("minecraft:sugar", "artisanal:perishable_sugar", true).randomChance(0.10)
 
     // chests
     /*

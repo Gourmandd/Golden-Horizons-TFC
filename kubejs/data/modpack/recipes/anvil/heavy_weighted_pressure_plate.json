@@ -1,0 +1,15 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+      "item": "tfc:metal/double_ingot/wrought_iron"
+    },
+    "result": {
+      "item": "minecraft:heavy_weighted_pressure_plate"
+    },
+    "tier": 2,
+    "rules": [
+      "bend_last",
+      "hit_second_last",
+      "hit_third_last"
+    ]
+  }
