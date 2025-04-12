@@ -1,0 +1,9 @@
+{
+    "type": "emi:info",
+    "stacks": [
+      "item:tfc:gem/diamond",
+      "item:tfc:ore/diamond",
+      "item:tfc:powder/diamond"
+    ],
+    "text": "modpack.info.gem.diamond"
+  }

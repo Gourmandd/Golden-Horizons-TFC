@@ -1,9 +1,0 @@
-{
-    "ingredient": {
-      "item": "kubejs:food/ground_ginger"
-    },
-    "category": "other",
-    "hunger": 2,
-    "vegetables": 0.5,
-    "decay_modifier": 0.5
-  }

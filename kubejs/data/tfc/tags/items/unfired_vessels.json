@@ -2,7 +2,6 @@
   "__comment__": "This file was automatically created by mcresources",
   "replace": false,
   "values": [
-    "kubejs:ceramic/unfired_caelum_vessel",
     "kubejs:ceramic/unfired_kaolinite_vessel",
     "kubejs:ceramic/unfired_yixing_vessel",
     "kubejs:ceramic/unfired_yellowware_vessel",

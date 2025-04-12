@@ -1,9 +1,0 @@
-{
-    "ingredient": {
-      "item": "aether_redux:oatmeal"
-    },
-    "decay_modifier": 2,
-    "saturation": 2,
-    "hunger": 4,
-    "grain": 1.5
-}

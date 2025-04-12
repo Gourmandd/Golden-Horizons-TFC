@@ -1,0 +1,11 @@
+{
+    "type": "emi:info",
+    "stacks": [
+      "item:kubejs:metal/ingot/aluminium_bronze",
+      "item:kubejs:metal/double_ingot/aluminium_bronze",
+      "item:kubejs:metal/sheet/aluminium_bronze",
+      "item:kubejs:metal/double_sheet/aluminium_bronze",
+      "item:kubejs:metal/rod/aluminium_bronze"
+    ],
+    "text": "modpack.info.metal.aluminium_bronze"
+  }

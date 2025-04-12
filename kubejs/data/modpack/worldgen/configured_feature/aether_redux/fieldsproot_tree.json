@@ -1,7 +1,0 @@
-{
-  "type": "tfc:if_then",
-  "config": {
-    "if": "aether_redux:trees/fieldsproot_tree",
-    "then": "modpack:twig_patch/fieldsproot_twig_patch"
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "tier": 1,
-  "fluid": "kubejs:veridium",
-  "melt_temperature": 1240,
-  "specific_heat_capacity": 0.02143,
-  "ingots": {
-    "item": "aether_redux:veridium_ingot"
-  }
-}

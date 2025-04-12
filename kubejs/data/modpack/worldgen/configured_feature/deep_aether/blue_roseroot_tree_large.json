@@ -1,7 +1,0 @@
-{
-  "type": "tfc:if_then",
-  "config": {
-    "if": "deep_aether:blue_roseroot_tree_large",
-    "then": "modpack:twig_patch/roseroot_twig_patch"
-  }
-}

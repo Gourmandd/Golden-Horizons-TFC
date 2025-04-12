@@ -1,0 +1,11 @@
+{
+    "type": "emi:info",
+    "stacks": [
+      "item:firmalife:metal/ingot/stainless_steel",
+      "item:firmalife:metal/double_ingot/stainless_steel",
+      "item:firmalife:metal/sheet/stainless_steel",
+      "item:firmalife:metal/double_sheet/stainless_steel",
+      "item:firmalife:metal/rod/stainless_steel"
+    ],
+    "text": "modpack.info.metal.stainless_steel"
+  }

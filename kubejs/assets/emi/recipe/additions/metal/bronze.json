@@ -1,0 +1,21 @@
+{
+    "type": "emi:info",
+    "stacks": [
+      "item:tfc:metal/ingot/black_bronze",
+      "item:tfc:metal/double_ingot/black_bronze",
+      "item:tfc:metal/sheet/black_bronze",
+      "item:tfc:metal/double_sheet/black_bronze",
+      "item:tfc:metal/rod/black_bronze",
+      "item:tfc:metal/ingot/bismuth_bronze",
+      "item:tfc:metal/double_ingot/bismuth_bronze",
+      "item:tfc:metal/sheet/bismuth_bronze",
+      "item:tfc:metal/double_sheet/bismuth_bronze",
+      "item:tfc:metal/rod/bismuth_bronze",
+      "item:tfc:metal/ingot/bronze",
+      "item:tfc:metal/double_ingot/bronze",
+      "item:tfc:metal/sheet/bronze",
+      "item:tfc:metal/double_sheet/bronze",
+      "item:tfc:metal/rod/bronze"
+    ],
+    "text": "modpack.info.metal.bronze"
+  }

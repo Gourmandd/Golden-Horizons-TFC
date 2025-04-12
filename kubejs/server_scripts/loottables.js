@@ -65,8 +65,6 @@ LootJS.modifiers((event) => {
     event.addBlockLootModifier("hearth_and_home:barred_glass").addLoot("hearth_and_home:barred_glass").removeLoot("minecraft:iron_nugget")
     event.addBlockLootModifier("hearth_and_home:barred_glass_pane").addLoot("hearth_and_home:barred_glass_pane").removeLoot("minecraft:iron_nugget")
     
-    event.addBlockLootModifier("aether_redux:short_aether_grass").removeLoot("minecraft:wheat_seeds").removeLoot("farmersdelight:straw")
-    event.addBlockLootModifier("aether_redux:tall_aether_grass").removeLoot("minecraft:wheat_seeds").removeLoot("farmersdelight:straw")
 })
 
 } catch(e) {

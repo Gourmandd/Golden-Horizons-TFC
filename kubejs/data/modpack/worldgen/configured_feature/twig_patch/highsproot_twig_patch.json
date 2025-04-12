@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:random_patch",
-  "config": {
-    "tries": 6,
-    "xz_spread": 6,
-    "y_spread": 0,
-    "feature": "modpack:twigs/highsproot_twig"
-  }
-}

@@ -26,8 +26,6 @@ ServerEvents.recipes(event =>{
 
 event.remove({ type: "minecraft:smelting" })
 //event.remove({ type: "spectrum:anvil_crushing" })
-event.remove({ type: "aether:repairing" })
-
 event.remove({type: "minecraft:crafting_shaped", mod: "caupona"})
 //event.remove({type: "caupona:aspic_melt" })
 event.remove({type: "caupona:boiling" })
@@ -37,8 +35,6 @@ event.remove({type: "caupona:frying"})
 event.remove({type: "caupona:spice"}) 
 event.remove({mod: "quark", input: Ingredient.of(/.*glass.*/)}) 
 event.remove({mod: "farmersdelight", output: Ingredient.of("crabbersdelight:coral_fragments")})
-event.remove({type: "aether:freezing"})
-event.remove({type: "aether:enchanting"})
 event.remove({mod: "copycats"})
 event.remove({mod: "functionalstorage"})
 //event.remove({type: "create:sequenced_assembly", mod: "exposure"}) I cant remove those recipes even through datapack?

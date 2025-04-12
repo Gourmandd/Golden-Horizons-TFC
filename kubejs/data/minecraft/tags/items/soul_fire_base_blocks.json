@@ -1,10 +1,6 @@
 {
     "replace": true,
     "values": [
-        "minecraft:blue_ice",
-        "aether:icestone",
-        "aether:ambrosium_block",
-        "aether:holystone",
-        "#aether:aether_dirt"
+        "minecraft:blue_ice"
     ]
 }

@@ -1,0 +1,13 @@
+{
+    "type": "emi:info",
+    "stacks": [
+      "item:tfc:ore/small_garnierite",
+      "item:tfc:metal/ingot/nickel",
+      "item:tfc:metal/double_ingot/nickel",
+      "item:tfc:metal/sheet/nickel",
+      "item:tfc:metal/double_sheet/nickel",
+      "item:tfc:metal/rod/nickel",
+      "item:tfc:powder/garnierite"
+    ],
+    "text": "modpack.info.metal.nickel"
+  }

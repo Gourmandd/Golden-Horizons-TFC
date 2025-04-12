@@ -1,9 +1,0 @@
-{
-    "ingredient": {
-      "item": "kubejs:food/dried_garlic"
-    },
-    "category": "other",
-    "hunger": 2,
-    "vegetables": 0.5,
-    "decay_modifier": 1
-  }

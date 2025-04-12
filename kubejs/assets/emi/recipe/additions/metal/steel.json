@@ -1,0 +1,13 @@
+{
+    "type": "emi:info",
+    "stacks": [
+      "item:tfc:metal/ingot/pig_iron",
+      "item:tfc:metal/ingot/high_carbon_steel",
+      "item:tfc:metal/ingot/steel",
+      "item:tfc:metal/double_ingot/steel",
+      "item:tfc:metal/sheet/steel",
+      "item:tfc:metal/double_sheet/steel",
+      "item:tfc:metal/rod/steel"
+    ],
+    "text": "modpack.info.metal.steel"
+  }

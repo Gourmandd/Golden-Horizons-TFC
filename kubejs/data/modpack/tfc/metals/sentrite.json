@@ -1,9 +1,0 @@
-{
-  "tier": 1,
-  "fluid": "kubejs:sentrite",
-  "melt_temperature": 690,
-  "specific_heat_capacity": 0.02143,
-  "ingots": {
-    "item": "aether_redux:refined_sentrite"
-  }
-}

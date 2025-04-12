@@ -1,7 +1,0 @@
-{
-  "type": "tfc:if_then",
-  "config": {
-    "if": "ancient_aether:fancy_enchanted_skyroot_tree",
-    "then": "modpack:twig_patch/skyroot_twig_patch"
-  }
-}

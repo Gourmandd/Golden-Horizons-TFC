@@ -1,8 +1,0 @@
-{
-    "ingredient": [
-        { "item": "aether:ambrosium_shard" }
-    ],
-    "duration": 600,
-    "temperature": 950,
-    "purity": 0.5
-}

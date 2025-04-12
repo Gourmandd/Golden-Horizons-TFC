@@ -1,0 +1,9 @@
+{
+    "type": "emi:info",
+    "stacks": [
+      "item:tfc:gem/amethyst",
+      "item:tfc:ore/amethyst",
+      "item:tfc:powder/amethyst"
+    ],
+    "text": "modpack.info.gem.amethyst"
+  }

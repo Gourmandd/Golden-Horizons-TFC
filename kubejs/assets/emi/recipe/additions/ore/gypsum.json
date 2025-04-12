@@ -1,0 +1,8 @@
+{
+    "type": "emi:info",
+    "stacks": [
+      "item:tfc:ore/gypsum",
+      "item:tfc:alabaster/raw"
+    ],
+    "text": "modpack.info.ore.gypsum"
+  }

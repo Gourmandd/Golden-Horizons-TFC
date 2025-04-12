@@ -1,9 +1,0 @@
-{
-    "ingredient": {
-      "item": "deep_aether:cooked_aerglow_fish"
-    },
-    "decay_modifier": 2.4,
-    "saturation": 1,
-    "protein": 2,
-    "hunger": 4
-}

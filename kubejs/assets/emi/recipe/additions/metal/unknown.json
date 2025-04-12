@@ -1,0 +1,7 @@
+{
+    "type": "emi:info",
+    "stacks": [
+      "item:tfc:metal/ingot/unknown"
+    ],
+    "text": "modpack.info.metal.unknown"
+  }

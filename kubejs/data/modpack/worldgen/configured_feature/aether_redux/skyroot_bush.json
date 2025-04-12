@@ -1,7 +1,0 @@
-{
-  "type": "tfc:if_then",
-  "config": {
-    "if": "aether_redux:patch/skyroot_bush",
-    "then": "modpack:twig_patch/skyroot_twig_patch"
-  }
-}

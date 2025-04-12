@@ -1,0 +1,9 @@
+{
+    "type": "emi:info",
+    "stacks": [
+      "item:tfc:gem/sapphire",
+      "item:tfc:ore/sapphire",
+      "item:tfc:powder/sapphire"
+    ],
+    "text": "modpack.info.gem.sapphire"
+  }

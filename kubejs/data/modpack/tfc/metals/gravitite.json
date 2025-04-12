@@ -1,9 +1,0 @@
-{
-  "tier": 1,
-  "fluid": "kubejs:gravitite",
-  "melt_temperature": 1535,
-  "specific_heat_capacity": 0.02143,
-  "ingots": {
-    "item": "aether_redux:gravitite_ingot"
-  }
-}

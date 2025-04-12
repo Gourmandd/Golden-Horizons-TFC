@@ -13,8 +13,6 @@
         "quark:polished_tuff",
         "minecraft:polished_deepslate",
         "minecraft:polished_blackstone",
-        "deep_aether:polished_aseterite",
-        "deep_aether:polished_clorite",
         "create:polished_cut_granite",
         "create:polished_cut_diorite",
         "create:polished_cut_calcite",
@@ -28,7 +26,6 @@
         "create:polished_cut_ochrum",
         "create:polished_cut_scoria",
         "create:polished_cut_veridium",
-        "deep_aether:chiseled_holystone",
         "hearth_and_home:chiseled_calcite",
         "minecraft:smooth_stone"
     ]

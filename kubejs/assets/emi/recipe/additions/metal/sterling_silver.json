@@ -1,0 +1,11 @@
+{
+    "type": "emi:info",
+    "stacks": [
+      "item:tfc:metal/ingot/sterling_silver",
+      "item:tfc:metal/double_ingot/sterling_silver",
+      "item:tfc:metal/sheet/sterling_silver",
+      "item:tfc:metal/double_sheet/sterling_silver",
+      "item:tfc:metal/rod/sterling_silver"
+    ],
+    "text": "modpack.info.metal.sterling_silver"
+  }

@@ -1,9 +1,0 @@
-{
-  "tier": 1,
-  "fluid": "kubejs:stratus",
-  "melt_temperature": 1540,
-  "specific_heat_capacity": 0.02143,
-  "ingots": {
-    "item": "deep_aether:stratus_ingot"
-  }
-}

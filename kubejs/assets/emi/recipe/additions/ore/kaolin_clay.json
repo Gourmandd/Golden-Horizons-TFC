@@ -1,0 +1,10 @@
+{
+    "type": "emi:info",
+    "stacks": [
+      "item:tfc:kaolin_clay",
+      "item:tfc:powder/kaolinite",
+      "item:tfc:fire_clay",
+      "item:kubejs:clay/porcelain_clay_ball"
+    ],
+    "text": "modpack.info.ore.kaolin_clay"
+  }

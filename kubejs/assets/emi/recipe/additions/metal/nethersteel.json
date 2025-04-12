@@ -1,0 +1,11 @@
+{
+    "type": "emi:info",
+    "stacks": [
+      "item:kubejs:metal/ingot/nethersteel",
+      "item:kubejs:metal/double_ingot/nethersteel",
+      "item:kubejs:metal/sheet/nethersteel",
+      "item:kubejs:metal/double_sheet/nethersteel",
+      "item:kubejs:metal/rod/nethersteel"
+    ],
+    "text": "modpack.info.metal.nethersteel"
+  }

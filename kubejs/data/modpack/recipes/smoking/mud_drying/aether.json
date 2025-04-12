@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:smoking",
-    "ingredient": {
-      "item": "deep_aether:aether_mud"
-    },
-    "result": "aether:aether_dirt",
-    "experience": 0.0,
-    "cookingtime": 100
-  }

@@ -1,0 +1,9 @@
+{
+    "type": "emi:info",
+    "stacks": [
+      "item:tfc:gem/ruby",
+      "item:tfc:ore/ruby",
+      "item:tfc:powder/ruby"
+    ],
+    "text": "modpack.info.gem.ruby"
+  }

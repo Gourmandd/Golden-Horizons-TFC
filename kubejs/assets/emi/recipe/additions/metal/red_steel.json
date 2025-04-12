@@ -1,0 +1,13 @@
+{
+    "type": "emi:info",
+    "stacks": [
+      "item:tfc:metal/ingot/weak_red_steel",
+      "item:tfc:metal/ingot/high_carbon_red_steel",
+      "item:tfc:metal/ingot/red_steel",
+      "item:tfc:metal/double_ingot/red_steel",
+      "item:tfc:metal/sheet/red_steel",
+      "item:tfc:metal/double_sheet/red_steel",
+      "item:tfc:metal/rod/red_steel"
+    ],
+    "text": "modpack.info.metal.red_steel"
+  }

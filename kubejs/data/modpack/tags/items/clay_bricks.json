@@ -4,7 +4,6 @@
         "kubejs:ceramic/kaolinite_brick",
         "kubejs:ceramic/yixing_brick",
         "kubejs:ceramic/yellowware_brick",
-        "kubejs:ceramic/caelum_brick",
         "kubejs:ceramic/earthenware_brick",
         "kubejs:ceramic/porcelain_brick"
     ]

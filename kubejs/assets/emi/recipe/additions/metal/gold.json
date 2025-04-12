@@ -1,0 +1,13 @@
+{
+    "type": "emi:info",
+    "stacks": [
+      "item:tfc:ore/small_native_gold",
+      "item:tfc:metal/ingot/gold",
+      "item:tfc:metal/double_ingot/gold",
+      "item:tfc:metal/sheet/gold",
+      "item:tfc:metal/double_sheet/gold",
+      "item:tfc:metal/rod/gold",
+      "item:tfc:powder/native_gold"
+    ],
+    "text": "modpack.info.metal.gold"
+  }

@@ -1,0 +1,8 @@
+{
+    "type": "emi:info",
+    "stacks": [
+      "item:tfc:ore/halite",
+      "item:tfc:powder/salt"
+    ],
+    "text": "modpack.info.ore.salt"
+  }

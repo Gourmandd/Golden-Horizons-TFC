@@ -1,0 +1,9 @@
+{
+    "type": "emi:info",
+    "stacks": [
+      "item:tfc:gem/pyrite",
+      "item:tfc:ore/pyrite",
+      "item:tfc:powder/pyrite"
+    ],
+    "text": "modpack.info.gem.pyrite"
+  }

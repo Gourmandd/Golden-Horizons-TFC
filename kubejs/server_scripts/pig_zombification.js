@@ -9,8 +9,7 @@ ItemEvents.entityInteracted(event =>{
 
     let MobWhitelist = [
         "tfc:pig",
-        "minecraft:pig",
-        "aether:phyg"
+        "minecraft:pig"
     ]
     if (MobWhitelist.indexOf(Target.type) == -1){
         //event.player.tell("not pig is " + Target.type ) //debug

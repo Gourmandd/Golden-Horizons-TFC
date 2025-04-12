@@ -1,8 +1,0 @@
-{
-    "replace": false,
-    "values": [
-        "kubejs:ore/ruby/holystone",
-        "kubejs:ore/sapphire/holystone",
-        "kubejs:ore/diamond/holystone"
-    ]
-}

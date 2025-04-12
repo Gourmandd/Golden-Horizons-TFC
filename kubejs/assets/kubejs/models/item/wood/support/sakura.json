@@ -1,7 +1,0 @@
-{
-  "__comment__": "This file was automatically created by mcresources",
-  "parent": "kubejs:block/wood/support/sakura_inventory",
-  "textures": {
-    "layer0": "kubejs:item/wood/support/sakura"
-  }
-}

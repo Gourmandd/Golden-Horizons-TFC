@@ -1,0 +1,13 @@
+{
+    "type": "emi:info",
+    "stacks": [
+      "item:tfc:ore/small_native_silver",
+      "item:tfc:metal/ingot/silver",
+      "item:tfc:metal/double_ingot/silver",
+      "item:tfc:metal/sheet/silver",
+      "item:tfc:metal/double_sheet/silver",
+      "item:tfc:metal/rod/silver",
+      "item:tfc:powder/native_silver"
+    ],
+    "text": "modpack.info.metal.silver"
+  }

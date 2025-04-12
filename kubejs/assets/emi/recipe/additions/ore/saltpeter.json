@@ -1,0 +1,8 @@
+{
+    "type": "emi:info",
+    "stacks": [
+      "item:tfc:ore/saltpeter",
+      "item:tfc:powder/saltpeter"
+    ],
+    "text": "modpack.info.ore.saltpeter"
+  }

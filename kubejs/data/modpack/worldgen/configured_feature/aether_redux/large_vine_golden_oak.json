@@ -1,7 +1,0 @@
-{
-  "type": "tfc:if_then",
-  "config": {
-    "if": "aether_redux:trees/large_vine_golden_oak",
-    "then": "modpack:twig_patch/skyroot_twig_patch"
-  }
-}

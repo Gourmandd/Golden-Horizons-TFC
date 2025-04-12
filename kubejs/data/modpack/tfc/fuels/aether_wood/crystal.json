@@ -1,8 +1,0 @@
-{
-    "ingredient": [
-        { "tag": "aether_redux:crystal_logs" }
-    ],
-    "duration": 2200,
-    "temperature": 720,
-    "purity": 0.4
-}

@@ -1,8 +1,0 @@
-{
-    "ingredient": [
-        { "tag": "aether_redux:glacia_logs" }
-    ],
-    "duration": 1000,
-    "temperature": 760,
-    "purity": 0.4
-}

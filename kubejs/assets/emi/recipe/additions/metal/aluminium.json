@@ -1,0 +1,11 @@
+{
+    "type": "emi:info",
+    "stacks": [
+      "item:kubejs:metal/ingot/aluminium",
+      "item:kubejs:metal/double_ingot/aluminium",
+      "item:kubejs:metal/sheet/aluminium",
+      "item:kubejs:metal/double_sheet/aluminium",
+      "item:kubejs:metal/rod/aluminium"
+    ],
+    "text": "modpack.info.metal.aluminium"
+  }

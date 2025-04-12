@@ -1,6 +1,7 @@
 try {
 console.info("Plant Blacklist loaded")
 
+/*
 BlockEvents.placed(event =>{
 
     let block = event.getBlock().getId()
@@ -65,6 +66,7 @@ BlockEvents.placed(event =>{
     }
 
 })
+*/
 
 } catch(e) {
     console.log(e)

@@ -1,0 +1,11 @@
+{
+    "type": "emi:info",
+    "stacks": [
+      "item:kubejs:metal/ingot/cast_iron_alloy",
+      "item:kubejs:metal/double_ingot/cast_iron_alloy",
+      "item:kubejs:metal/sheet/cast_iron_alloy",
+      "item:kubejs:metal/double_sheet/cast_iron_alloy",
+      "item:kubejs:metal/rod/cast_iron_alloy"
+    ],
+    "text": "modpack.info.metal.cast_iron_alloy"
+  }

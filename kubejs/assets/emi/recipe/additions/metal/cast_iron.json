@@ -1,0 +1,11 @@
+{
+    "type": "emi:info",
+    "stacks": [
+      "item:tfc:metal/ingot/cast_iron",
+      "item:tfc:metal/double_ingot/cast_iron",
+      "item:tfc:metal/sheet/cast_iron",
+      "item:tfc:metal/double_sheet/cast_iron",
+      "item:tfc:metal/rod/cast_iron"
+    ],
+    "text": "modpack.info.metal.cast_iron"
+  }

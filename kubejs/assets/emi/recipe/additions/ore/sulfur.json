@@ -1,0 +1,8 @@
+{
+    "type": "emi:info",
+    "stacks": [
+      "item:tfc:ore/sulfur",
+      "item:tfc:powder/sulfur"
+    ],
+    "text": "modpack.info.ore.sulfur"
+  }

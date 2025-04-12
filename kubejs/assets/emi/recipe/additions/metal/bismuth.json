@@ -1,0 +1,13 @@
+{
+    "type": "emi:info",
+    "stacks": [
+      "item:tfc:ore/small_bismuthinite",
+      "item:tfc:metal/ingot/bismuth",
+      "item:tfc:metal/double_ingot/bismuth",
+      "item:tfc:metal/sheet/bismuth",
+      "item:tfc:metal/double_sheet/bismuth",
+      "item:tfc:metal/rod/bismuth",
+      "item:tfc:powder/bismuthinite"
+    ],
+    "text": "modpack.info.metal.bismuth"
+  }

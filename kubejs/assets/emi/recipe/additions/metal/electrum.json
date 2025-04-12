@@ -1,0 +1,11 @@
+{
+    "type": "emi:info",
+    "stacks": [
+      "item:createaddition:electrum_ingot",
+      "item:createaddition:electrum_sheet",
+      "item:createaddition:electrum_wire",
+      "item:createaddition:electrum_rod",
+      "item:createaddition:electrum_nugget"
+    ],
+    "text": "modpack.info.metal.electrum"
+  }

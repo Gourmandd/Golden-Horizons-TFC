@@ -1,0 +1,8 @@
+{
+    "type": "emi:info",
+    "stacks": [
+      "item:tfc:ore/sylvite",
+      "item:tfc:powder/sylvite"
+    ],
+    "text": "modpack.info.ore.sylvite"
+  }

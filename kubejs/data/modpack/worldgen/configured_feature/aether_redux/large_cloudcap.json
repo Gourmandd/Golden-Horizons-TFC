@@ -1,7 +1,0 @@
-{
-  "type": "tfc:if_then",
-  "config": {
-    "if": "aether_redux:trees/large_cloudcap",
-    "then": "modpack:twig_patch/cloudcap_twig_patch"
-  }
-}
