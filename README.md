@@ -22,6 +22,10 @@ There is a discord server which you can find on the Modrinth page. Though so far
 The python folder contains the scripts that generated all the json files with the MCresources comment at the top.
 The config folders have configs for mods that are not in the modpack, they are a leftover from testing. 
 
+## Aether
+
+Work on adding the Aether and addons happens on the aether branch, it has its own TODO list
+
 ## Installing the pack from github
 
 This might be incomplete
