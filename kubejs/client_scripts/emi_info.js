@@ -1,5 +1,5 @@
 const ROCK_DATA = {
-  "granite": {"desc":  "Granite is a hard, rock used decoratively|", "type": "Felsic Igneous Intrusive"},
+  "granite": {"desc":  "Granite is a hard, rock used decoratively!", "type": "Felsic Igneous Intrusive"},
   "diorite": {"desc":  "Diorite has been used since the Neolithic!", "type": "Ingeous Intrusive"},
   "gabbro": {"desc":  "Gabbro is a low silica rock, in which diamonds can form!", "type": "Mafic Ingeous Intrusive"},
   "shale": {"desc":  "Shale is known for spliting into layers easily!", "type": "Sedimentary"},

@@ -1,7 +1,7 @@
 {
 	"type": "tfc:blast_furnace",
 	"fluid": {
-		"ingredient": "kubejs:sentrite",
+		"ingredient": "kubejs:aluminium_slurry",
 		"amount": 1
 	},
 	"result": {

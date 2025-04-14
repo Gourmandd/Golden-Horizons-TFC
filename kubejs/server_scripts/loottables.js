@@ -53,11 +53,6 @@ LootJS.modifiers((event) => {
     event.addBlockLootModifier("hearth_and_home:"+colour.low+"_stained_barred_glass_pane").addLoot("hearth_and_home:"+colour.low+"_stained_barred_glass_pane").removeLoot("minecraft:iron_nugget")
     })
 
-    event.addBlockLootModifier("kubejs:clay/caelum_clay_block").removeLoot("kubejs:clay/caelum_clay_block")
-    event.addBlockLootModifier("kubejs:clay/caelum_clay_block").randomChance(0.10).addLoot("kubejs:clay/caelum_clay_ball")
-    event.addBlockLootModifier("kubejs:clay/caelum_clay_block").randomChance(0.20).addLoot("kubejs:clay/caelum_clay_ball")
-    event.addBlockLootModifier("kubejs:clay/caelum_clay_block").randomChance(1).addLoot("kubejs:clay/caelum_clay_ball")
-
     //minecraft glass is hardcoded to not drop anything unless gem saw or silk touch??
     //event.addBlockLootModifier("minecraft:orange_stained_glass").addLoot("minecraft:orange_stained_glass")
     //event.addBlockLootModifier("minecraft:glass").addLoot("minecraft:glass")
