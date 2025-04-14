@@ -2,7 +2,9 @@ from mcresources import ResourceManager
 
 rm = ResourceManager('modpack')
 
-# Unused 
+#
+# Mostly ported to KJS, all left is client script stuff
+#
 
 clay_types = [
   "caelum",

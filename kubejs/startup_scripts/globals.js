@@ -241,3 +241,27 @@ global.KUBEJS_METALS = [
     "harderned_steel",
     "nethersteel",
   ]
+
+global.CUSTOM_CLAY_TYPES = [
+  "kaolinite",
+  "yixing",
+  "yellowware",
+  "earthenware",
+  "porcelain"
+]
+
+global.TFC_TOOL_TYPES = [
+  "pickaxe",
+  "axe",
+  "propick",
+  "shovel",
+  "hoe",
+  "chisel",
+  "hammer",
+  "saw",
+  "javelin",
+  "scythe",
+  "knife",
+  "sword",
+  "mace"
+]
