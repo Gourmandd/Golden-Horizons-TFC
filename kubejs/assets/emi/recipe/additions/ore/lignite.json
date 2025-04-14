@@ -1,7 +1,0 @@
-{
-    "type": "emi:info",
-    "stacks": [
-      "item:tfc:ore/lignite"
-    ],
-    "text": "modpack.info.ore.lignite"
-  }

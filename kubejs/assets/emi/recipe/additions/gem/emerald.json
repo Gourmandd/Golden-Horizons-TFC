@@ -1,9 +1,0 @@
-{
-    "type": "emi:info",
-    "stacks": [
-      "item:tfc:gem/emerald",
-      "item:tfc:ore/emerald",
-      "item:tfc:powder/emerald"
-    ],
-    "text": "modpack.info.gem.emerald"
-  }

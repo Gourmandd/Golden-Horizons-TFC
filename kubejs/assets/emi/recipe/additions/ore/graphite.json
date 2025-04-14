@@ -1,8 +1,0 @@
-{
-    "type": "emi:info",
-    "stacks": [
-      "item:tfc:ore/graphite",
-      "item:tfc:powder/graphite"
-    ],
-    "text": "modpack.info.ore.graphite"
-  }

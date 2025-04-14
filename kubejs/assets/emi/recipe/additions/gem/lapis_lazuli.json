@@ -1,9 +1,0 @@
-{
-    "type": "emi:info",
-    "stacks": [
-      "item:tfc:gem/lapis_lazuli",
-      "item:tfc:ore/lapis_lazuli",
-      "item:tfc:powder/lapis_lazuli"
-    ],
-    "text": "modpack.info.gem.lapis_lazuli"
-  }

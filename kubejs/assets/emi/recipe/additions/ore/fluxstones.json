@@ -1,8 +1,0 @@
-{
-    "type": "emi:info",
-    "stacks": [
-      "item:tfc:ore/borax",
-      "item:tfc:powder/flux"
-    ],
-    "text": "modpack.info.ore.fluxstones"
-  }

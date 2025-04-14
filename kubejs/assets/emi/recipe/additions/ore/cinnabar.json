@@ -1,9 +1,0 @@
-{
-    "type": "emi:info",
-    "stacks": [
-      "item:tfc:ore/cryolite",
-      "item:tfc:ore/cinnabar",
-      "item:minecraft:redstone"
-    ],
-    "text": "modpack.info.ore.redstone"
-  }

@@ -1,9 +1,0 @@
-{
-    "type": "emi:info",
-    "stacks": [
-      "item:tfc:gem/topaz",
-      "item:tfc:ore/topaz",
-      "item:tfc:powder/topaz"
-    ],
-    "text": "modpack.info.gem.topaz"
-  }

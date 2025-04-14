@@ -1,7 +1,0 @@
-{
-    "type": "emi:info",
-    "stacks": [
-      "item:tfc:ore/bituminous_coal"
-    ],
-    "text": "modpack.info.ore.bituminous_coal"
-  }

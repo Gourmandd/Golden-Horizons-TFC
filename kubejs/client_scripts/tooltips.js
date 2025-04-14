@@ -20,9 +20,3 @@ ItemEvents.tooltip(event =>{
     })
 
 })
-
-
-// I am not able to change this no matter what I do?
-ClientEvents.highPriorityAssets(event =>{
-    event.addLang("create.recipe.fan_haunting", "Bulk Freezing")
-})

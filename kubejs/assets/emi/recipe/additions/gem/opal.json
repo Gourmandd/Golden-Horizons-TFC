@@ -1,9 +1,0 @@
-{
-    "type": "emi:info",
-    "stacks": [
-      "item:tfc:gem/opal",
-      "item:tfc:ore/opal",
-      "item:tfc:powder/opal"
-    ],
-    "text": "modpack.info.gem.opal"
-  }
