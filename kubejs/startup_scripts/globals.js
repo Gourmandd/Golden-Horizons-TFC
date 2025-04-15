@@ -205,6 +205,8 @@ global.FIRMALIFE_GRAPES = [
 
 global.TFC_METALS = [
     "bismuth",
+    "bismuth_bronze",
+    "black_bronze",
     "black_steel",
     "blue_steel",
     "red_steel", 
@@ -213,14 +215,12 @@ global.TFC_METALS = [
     "bronze",
     "copper",
     "gold",
-    "cast_iron",
     "nickel",
     "rose_gold",
     "silver",
     "steel",
     "sterling_silver",
     "tin",
-    "unknown",
     "wrought_iron",
     "zinc"
   ]
@@ -231,7 +231,8 @@ global.FIRMALIFE_METALS = [
   ]
 
 global.OTHER_METALS = [
-    "electrum"
+    "electrum",
+    "unknown"
   ]
 
 global.KUBEJS_METALS = [
@@ -265,3 +266,176 @@ global.TFC_TOOL_TYPES = [
   "sword",
   "mace"
 ]
+
+global.DYE_COLOURS = [
+  "white",
+  "brown",
+  "green",
+  "orange",
+  "magenta",
+  "red",
+  "black",
+  "light_blue",
+  "yellow",
+  "lime",
+  "pink",
+  "gray",
+  "light_gray",
+  "cyan",
+  "purple",
+  "blue",
+]
+
+global.SIGN_METALS = [
+  "bronze",
+  "bismuth_bronze",
+  "black_bronze",
+  "copper",
+  "wrought_iron",
+  "steel",
+  "black_steel",
+  "red_steel",
+  "blue_steel"
+]
+
+global.CASTABLE_METALS = [
+  "bronze",
+  "bismuth_bronze",
+  "black_bronze",
+  "copper"
+]
+
+global.MELTING_POINTS = {
+  "bismuth": 270,
+  "bismuth_bronze": 985,
+  "black_bronze": 1070,
+  "black_steel": 1485,
+  "blue_steel": 1540,
+  "red_steel": 1540, 
+  "brass": 930,
+  "cast_iron": 1535,
+  "bronze": 950,
+  "copper": 1080,
+  "gold": 1060,
+  "nickel": 1453,
+  "rose_gold": 960,
+  "silver": 961,
+  "steel": 1540,
+  "sterling_silver": 950,
+  "tin": 230,
+  "unknown": 400,
+  "wrought_iron": 1535,
+  "zinc": 420,
+  "chromium": 1250,
+  "stainless_steel": 1540,
+  "aluminium": 1535,
+  "aluminium_bronze": 1535,
+  "cast_iron_alloy": 1535,
+  "harderned_steel": 1535,
+  "nethersteel": 1535,
+  "electrum": 1060,
+  "pig_iron": 1535
+}
+
+global.CAUPONA_ASPICS = [
+    "nettle_soup",
+    "mushroom_soup",
+    "bisque",
+    "borscht",
+    "stock",
+    "seaweed_soup",
+    "stracciatella",
+    "vegetable_soup",
+    "egg_drop_soup",
+    "fish_soup",
+    "goulash",
+    "meat_soup",
+    "poultry_soup",
+    "pumpkin_soup"
+]
+
+global.TFC_MAKES_DYE_TAGS = [
+    "white",
+    "brown",
+    "red",
+    "orange",
+    "yellow",
+    "green",
+    "light_blue",
+    "purple",
+    "magenta",
+    "pink"
+]
+
+global.TFC_FLOUR_TYPES = [
+  "barley",
+  "maize",
+  "rye",
+  "rice",
+  "oat",
+  "wheat"
+]
+
+global.ORE_GRADES = [
+  "normal",
+  "poor",
+  "rich",
+  "small"
+]
+
+global.RAW_METALS = [
+  "bismuth",
+  "tin",
+  "nickel",
+  "chromium",
+  "cast_iron",
+  "copper",
+  "gold",
+  "silver",
+  "zinc"
+]
+
+global.RAW_METALS_ORES = {
+  "bismuth": "bismuthinite",
+  "tin": "cassiterite",
+  "nickel": "garnierite",
+  "chromium": "chromite",
+  "cast_iron": ["hematite", "limonite", "magnetite"],
+  "copper": ["malachite", "native_copper", "tetrahedrite"],
+  "gold": "native_gold",
+  "silver": "native_silver",
+  "zinc": "sphalerite"
+}
+
+global.TFC_SAND_COLOURS = [
+  "black",
+  "brown",
+  "green",
+  "pink",
+  "white",
+  "yellow",
+  "red"
+]
+
+global.TFC_ROCKS_TO_SAND_COLOURS = {
+  "granite": "pink",
+  "diorite": "black",
+  "gabbro": "brown",
+  "shale": "yellow",
+  "claystone": "brown",
+  "limestone": "yellow",
+  "conglomerate": "brown",
+  "dolomite": "black",
+  "chert": "red",
+  "chalk": "white",
+  "rhyolite": "black",
+  "basalt": "black",
+  "andesite": "brown",
+  "dacite": "black",
+  "quartzite": "pink",
+  "slate": "yellow",
+  "phyllite": "green",
+  "schist": "green",
+  "gneiss": "green",
+  "marble": "white"
+}

@@ -17,7 +17,7 @@ ServerEvents.recipes(event =>{
             .id("modpack:knapping/" + type + "/" + fileName)
     }
 
-    global.CLAY_TYPES.forEach(type =>{
+    global.CUSTOM_CLAY_TYPES.forEach(type =>{
 
         knapping(type, "kubejs:ceramic/unfired_" + type + "_chisel_mold", 1, ["XX XX","XX XX","XX XX","XX XX","XX XX"], "unfired_" + type + "_chisel_mold", true)
         knapping(type, "kubejs:ceramic/unfired_" + type + "_pickaxe_mold", 1, ["XXXXX","X   X"," XXX ", "XXXXX", "XXXXX"], "unfired_" + type + "_pickaxe_mold", true)
@@ -111,7 +111,7 @@ ServerEvents.recipes(event =>{
 
 
 ServerEvents.tags("item", event =>{
-    global.CLAY_TYPES.forEach(type => {
+    global.CUSTOM_CLAY_TYPES.forEach(type => {
         
         global.TFC_TOOL_TYPES.forEach(tool =>{
             event.add("tfc:unfired_molds", "kubejs:ceramic/unfired_" + type + "_" + tool + "_mold")
@@ -164,7 +164,7 @@ TFCEvents.data(event =>{
         event.itemHeat(item, capacity, 0 , 0 , "modpack:clay/" + fileName)
     }
 
-    global.CLAY_TYPES.forEach(type =>{
+    global.CUSTOM_CLAY_TYPES.forEach(type =>{
 
         basic_item_heat(type + "_blowpipe", "kubejs:ceramic/unfired_" + type + "_blowpipe", 0.6)
         basic_item_heat(type + "_flower_pot", "kubejs:ceramic/unfired_" + type + "_flower_pot", 0.6)
