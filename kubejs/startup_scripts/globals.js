@@ -276,6 +276,22 @@ global.TFC_TOOL_TYPES = [
   "mace"
 ]
 
+global.TFC_TOOL_HEADS = {
+  "pickaxe": "head",
+  "axe": "head",
+  "propick": "head",
+  "shovel": "head",
+  "hoe": "head",
+  "chisel": "head",
+  "hammer": "head",
+  "saw": "blade",
+  "javelin": "head",
+  "scythe": "blade",
+  "knife": "blade",
+  "sword": "blade",
+  "mace": "head",
+}
+
 global.DYE_COLOURS = [
   "white",
   "brown",
@@ -295,7 +311,7 @@ global.DYE_COLOURS = [
   "blue",
 ]
 
-global.SIGN_METALS = [
+global.TOOL_METALS = [
   "bronze",
   "bismuth_bronze",
   "black_bronze",
