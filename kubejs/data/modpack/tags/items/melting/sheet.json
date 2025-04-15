@@ -1,9 +1,0 @@
-{
-  "values": [
-    "kubejs:metal/sheet/aluminium",
-    "kubejs:metal/sheet/aluminium_bronze",
-    "kubejs:metal/sheet/cast_iron_alloy",
-    "kubejs:metal/sheet/harderned_steel",
-    "kubejs:metal/sheet/nethersteel"
-  ]
-}

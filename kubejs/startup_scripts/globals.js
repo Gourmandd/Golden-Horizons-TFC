@@ -243,6 +243,15 @@ global.KUBEJS_METALS = [
     "nethersteel",
   ]
 
+global.METAL_FLUIDS = {
+  "aluminium":"kubejs:aluminium",
+  "aluminium_bronze":"createbigcannons:molten_bronze",
+  "harderned_steel":"createbigcannons:molten_steel",
+  "cast_iron_alloy":"createbigcannons:molten_cast_iron",
+  "nethersteel":"createbigcannons:molten_nethersteel",
+  "electrum": "kubejs:electrum"
+}
+
 global.CUSTOM_CLAY_TYPES = [
   "kaolinite",
   "yixing",
@@ -328,13 +337,14 @@ global.MELTING_POINTS = {
   "zinc": 420,
   "chromium": 1250,
   "stainless_steel": 1540,
-  "aluminium": 1535,
-  "aluminium_bronze": 1535,
+  "aluminium": 780,
+  "aluminium_bronze": 1180,
   "cast_iron_alloy": 1535,
-  "harderned_steel": 1535,
-  "nethersteel": 1535,
+  "harderned_steel": 1585,
+  "nethersteel": 1615,
   "electrum": 1060,
-  "pig_iron": 1535
+  "pig_iron": 1535,
+  "glass": 1070,
 }
 
 global.CAUPONA_ASPICS = [

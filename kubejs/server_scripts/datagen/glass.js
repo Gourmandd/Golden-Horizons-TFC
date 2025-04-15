@@ -144,3 +144,12 @@ ServerEvents.tags("item", event =>{
         "#tfc:glass_batches"   
     ])
 })
+
+TFCEvents.data(event =>{
+    
+    global.DYE_COLOURS.forEach(colour => {
+        event.metal("kubejs:glass/" + colour, global.MELTING_POINTS["glass"], 0.02143, 
+            null, null, null, 1, "modpack:glass/" + colour
+        )
+    })
+})

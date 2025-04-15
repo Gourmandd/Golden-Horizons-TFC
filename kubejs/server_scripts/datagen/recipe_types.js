@@ -86,6 +86,19 @@ function doliumRestingFluid(event, fluid, fluidAmount, outputItem, id){
     }}).id("modpack:dolium_resting/" + id)
 }
 
+function rolling(event, input, output, outputAmount, id){
+  event.custom({
+      "type": "createaddition:rolling",
+      "input": {
+        "item": input
+      },
+      "result": {
+        "item": output,
+        "count": outputAmount
+      }
+    }).id("modpack:rolling/" + id)
+}
+
 /*
 def aspic_from_soup_dolium(soup):
     rm.recipe("caupona/"+ soup + "_dolium_aspic","caupona:dolium",

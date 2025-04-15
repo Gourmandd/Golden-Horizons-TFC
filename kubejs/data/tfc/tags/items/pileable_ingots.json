@@ -1,11 +1,6 @@
 {
     "replace": false,
     "values": [
-        "createaddition:electrum_ingot",
-        "kubejs:metal/ingot/aluminium",
-        "kubejs:metal/ingot/aluminium_bronze",
-        "kubejs:metal/ingot/nethersteel",
-        "kubejs:metal/ingot/harderned_steel",
-        "kubejs:metal/ingot/cast_iron_alloy"
+        "createaddition:electrum_ingot"
     ]
 }
