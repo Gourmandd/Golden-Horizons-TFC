@@ -1,33 +1,11 @@
 try {
 console.info("Random Recipes loaded")
 
-let colours = [
-    {"low": "blue", "cap" : "Blue"},
-    {"low": "red", "cap" : "Red"},
-    {"low": "white", "cap" : "White"},
-    {"low": "light_gray", "cap" : "Light Gray"},
-    {"low": "gray", "cap" : "Gray"},
-    {"low": "black", "cap" : "Black"},
-    {"low": "brown", "cap" : "Brown"},
-    {"low": "orange", "cap" : "Orange"},
-    {"low": "yellow", "cap" : "Yellow"},
-    {"low": "lime", "cap" : "Lime"},
-    {"low": "green", "cap" : "Green"},
-    {"low": "cyan", "cap" : "Cyan"},
-    {"low": "light_blue", "cap" : "Light Blue"},
-    {"low": "purple", "cap" : "Purple"},
-    {"low": "magenta", "cap" : "Magenta"},
-    {"low": "pink", "cap" : "Pink"},
-
-]
-
-
 ServerEvents.recipes(event =>{
 
 event.remove({ type: "minecraft:smelting" })
 //event.remove({ type: "spectrum:anvil_crushing" })
 event.remove({type: "minecraft:crafting_shaped", mod: "caupona"})
-//event.remove({type: "caupona:aspic_melt" })
 event.remove({type: "caupona:boiling" })
 event.remove({type: "caupona:cooking"})
 event.remove({type: "caupona:dolium", mod: "caupona"})
@@ -37,8 +15,6 @@ event.remove({mod: "quark", input: Ingredient.of(/.*glass.*/)})
 event.remove({mod: "farmersdelight", output: Ingredient.of("crabbersdelight:coral_fragments")})
 event.remove({mod: "copycats"})
 event.remove({mod: "functionalstorage"})
-//event.remove({type: "create:sequenced_assembly", mod: "exposure"}) I cant remove those recipes even through datapack?
-
 
 event.remove({output: Ingredient.of(/.*lamp.*/), mod: "another_furniture"})
 event.remove({input: "tfc:metal/ingot/zinc", type: "minecraft:stonecutting"})
@@ -74,13 +50,6 @@ EntityEvents.death(event =>{
     }   
     //event.server.runCommand("/tell @a " + source)
 })*/
-
-
-ServerEvents.tags("block", event => {
-    event.remove("minecraft:needs_iron_tool", "aethersdelight:arkenium_ore")
-    event.add("minecraft:needs_stone_tool", "aethersdelight:arkenium_ore")
-
-})
 
 } catch(e) {
     console.log(e)

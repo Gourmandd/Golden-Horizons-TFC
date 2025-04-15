@@ -50,11 +50,6 @@ ServerEvents.recipes(event =>{
         event.recipes.create.milling(Item.of("tfc:sand/" + colour, 1), Item.of("tfc:raw_sandstone/" + colour, 1)).processingTime(50).id("modpack:milling/raw_sandstone/" + colour)
     })
 
-    global.DYE_COLOURS.forEach(colour =>{
-        event.recipes.create.crushing("kubejs:terracotta/crushed_" + colour, "minecraft:" + colour + "_terracotta").processingTime(75).id("modpack:crushing/terracotta/" + colour)
-        event.recipes.create.crushing(["kubejs:terracotta/shard_" + colour, Item.of("kubejs:terracotta/shard_" + colour).withChance(0.5)], "kubejs:terracotta/crushed_" + colour).processingTime(75).id("modpack:crushing/crushed_terracotta/" + colour)
-    })
-
     global.RAW_METALS.forEach(metal =>{
 
         global.ORE_GRADES.forEach(grade =>{
