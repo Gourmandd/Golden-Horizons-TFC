@@ -3,13 +3,13 @@
     "type": "create:splashing",
     "ingredients": [
       {
-        "item": "tfc:rock/gravel/andesite"
+        "item": "tfc:rock/gravel/slate"
       }
     ],
     "results": [
       {
-        "item": "tfc:ore/poor_hematite",
-        "chance": 0.12
+        "item": "tfc:ore/poor_tetrahedrite",
+        "chance": 0.02
       }
     ]
   }

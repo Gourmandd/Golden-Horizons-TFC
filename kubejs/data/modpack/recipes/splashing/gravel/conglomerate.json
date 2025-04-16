@@ -3,13 +3,13 @@
     "type": "create:splashing",
     "ingredients": [
       {
-        "item": "tfc:rock/gravel/marble"
+        "item": "tfc:rock/gravel/conglomerate"
       }
     ],
     "results": [
       {
-        "item": "tfc:ore/poor_malachite",
-        "chance": 0.12
+        "item": "tfc:ore/gypsum",
+        "chance": 0.02
       }
     ]
   }

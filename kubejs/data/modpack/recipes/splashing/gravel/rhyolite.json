@@ -3,13 +3,13 @@
     "type": "create:splashing",
     "ingredients": [
       {
-        "item": "tfc:rock/gravel/gneiss"
+        "item": "tfc:rock/gravel/rhyolite"
       }
     ],
     "results": [
       {
-        "item": "tfc:ore/poor_native_silver",
-        "chance": 0.12
+        "item": "tfc:ore/poor_sphalerite",
+        "chance": 0.02
       }
     ]
   }

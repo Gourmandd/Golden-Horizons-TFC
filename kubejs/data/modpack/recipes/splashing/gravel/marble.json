@@ -3,13 +3,13 @@
     "type": "create:splashing",
     "ingredients": [
       {
-        "item": "tfc:rock/gravel/schist"
+        "item": "tfc:rock/gravel/marble"
       }
     ],
     "results": [
       {
-        "item": "tfc:ore/cinnabar",
-        "chance": 0.12
+        "item": "tfc:ore/poor_malachite",
+        "chance": 0.02
       }
     ]
   }

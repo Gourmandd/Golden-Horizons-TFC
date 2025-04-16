@@ -3,13 +3,13 @@
     "type": "create:splashing",
     "ingredients": [
       {
-        "item": "tfc:rock/gravel/basalt"
+        "item": "tfc:rock/gravel/quartzite"
       }
     ],
     "results": [
       {
-        "item": "tfc:ore/poor_native_copper",
-        "chance": 0.12
+        "item": "tfc:ore/sulfur",
+        "chance": 0.02
       }
     ]
   }

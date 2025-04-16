@@ -3,13 +3,13 @@
     "type": "create:splashing",
     "ingredients": [
       {
-        "item": "tfc:rock/gravel/shale"
+        "item": "tfc:rock/gravel/chert"
       }
     ],
     "results": [
       {
-        "item": "tfc:ore/poor_magnetite",
-        "chance": 0.12
+        "item": "tfc:ore/poor_bismuthinite",
+        "chance": 0.02
       }
     ]
   }

@@ -3,13 +3,13 @@
     "type": "create:splashing",
     "ingredients": [
       {
-        "item": "tfc:rock/gravel/gabbro"
+        "item": "tfc:rock/gravel/shale"
       }
     ],
     "results": [
       {
-        "item": "tfc:ore/kimberlite",
-        "chance": 0.12
+        "item": "tfc:ore/poor_magnetite",
+        "chance": 0.02
       }
     ]
   }
