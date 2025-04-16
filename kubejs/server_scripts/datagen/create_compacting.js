@@ -27,4 +27,9 @@ ServerEvents.recipes(event =>{
         event.recipes.create.compacting("kubejs:metal/sheet/" + metal, Fluid.of(global.METAL_FLUIDS[metal], 200)).heatRequirement("heated")
             .id("modpack:compacting/sheet/" + metal)
     })
+
+    global.TFC_SAND_COLOURS.forEach(colour =>{
+        event.recipes.create.compacting("tfc:raw_sandstone/" + colour, ["tfc:sand/" + colour, "tfc:sand/" + colour])
+            .id("modpack:compacting/sand/" + colour)
+    })
 })

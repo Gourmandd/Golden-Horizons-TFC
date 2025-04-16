@@ -433,6 +433,22 @@ global.RAW_METALS_ORES = {
   "zinc": "sphalerite"
 }
 
+global.ORE_TO_METAL = {
+  "bismuthinite": "bismuth",
+  "cassiterite": "tin",
+  "garnierite": "nickel",
+  "chromite": "chromium",
+  "hematite": "cast_iron",
+  "limonite": "cast_iron",
+  "magnetite": "cast_iron",
+  "malachite": "copper",
+  "native_copper": "copper",
+  "tetrahedrite": "copper",
+  "native_gold": "gold",
+  "native_silver": "silver",
+  "sphalerite": "zinc",
+}
+
 global.TFC_SAND_COLOURS = [
   "black",
   "brown",
@@ -465,3 +481,10 @@ global.TFC_ROCKS_TO_SAND_COLOURS = {
   "gneiss": "green",
   "marble": "white"
 }
+
+global.TFC_SOIL_TYPES = [
+  "loam",
+  "sandy_loam",
+  "silt",
+  "silty_loam"
+]
