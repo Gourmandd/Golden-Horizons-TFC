@@ -69,15 +69,15 @@ const ORE_DATA = {
 }
 
 const GEM_DATA = {
-  ".emerald": "Emeralds are a green gemstone, they are found in igneous extrusive rocks!",
-  ".topaz": "Topaz are a rich, yellow gemstone, they are found in igneous extrusive rocks!",
-  ".ruby": "Rubies are a red gemstone, they are found by panning!",
-  ".opal": "Opals are an iridescent gemstone, they are found in rivers around igneous extrusive and sedimentary rocks!",
-  ".diamond": "Diamonds are a light blue gemstone, they are found in gabbro rocks!",
-  ".lapis_lazuli": "Lapis Lazuli are a dark blue gemstone, they are found in limestone and marble rocks!",
-  ".sapphire": "Sapphires are a blue gemstone, they are found in rare hot springs!",
-  ".pyrite": "Pyrites are a pale yellow gemstone, they are found in igneous extrusive, and igneous intrusive rocks!",
-  ".amethyst": "Amethysts are a purple gemstone, they are found in rivers around metamorphic and sedimentary rocks!",
+  "emerald": "Emeralds are a green gemstone. They are found in igneous extrusive rocks!",
+  "topaz": "Topaz are a rich, yellow gemstone. They are found in igneous extrusive rocks!",
+  "ruby": "Rubies are a red gemstone. They are found by panning!",
+  "opal": "Opals are an iridescent gemstone. They are found in rivers around igneous extrusive and sedimentary rocks!",
+  "diamond": "Diamonds are a light blue gemstone. They are found in gabbro rocks!",
+  "lapis_lazuli": "Lapis Lazuli are a dark blue gemstone. They are found in limestone and marble rocks!",
+  "sapphire": "Sapphires are a blue gemstone. They are found in rare hot springs!",
+  "pyrite": "Pyrites are a pale yellow gemstone. They are found in igneous extrusive, and igneous intrusive rocks!",
+  "amethyst": "Amethysts are a purple gemstone. They are found in rivers around metamorphic and sedimentary rocks!",
 }
 
 const METAL_DATA = {
