@@ -14,6 +14,7 @@ ClientEvents.lang("en_us", event =>{
     })
 
     global.DYE_COLOURS.forEach(colour =>{
-        event.add("metal.modpack.glass/" + colour, nameProcessing(colour))
+        event.add("metal.modpack.glass/" + colour, nameProcessing(colour) + " Glass")
     })
+    event.add("metal.modpack.glass/clear", "Clear Glass")
 })
