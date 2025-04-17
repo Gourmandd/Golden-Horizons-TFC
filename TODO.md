@@ -4,6 +4,10 @@ This is a roadmap/todo of sorts and as anything gets done it will be moved to th
 
 # Planned Features/tweaks
 
+- Integration of custom clay types with molds added by TFC addons.
+
+- Port and fix up datagen for farmers delight cutting board recipes.
+
 - A way to get potion effects, this will be done through Caupona and its way to give potion effects to ingredients (Probably done through [This Way](https://github.com/TeamMoegMC/Caupona/wiki/Spice-Recipe) or [This Way](https://github.com/TeamMoegMC/Caupona/wiki/Full-guide-to-add-frying-&-cooking-recipe#ingredient-handling), both links are to Cauponas wiki on github), A modpack:brew_ingredients tag already exists which is a list of items that could be possibly be ingredients for the "brews". Some guidelines are about 30 seconds of effect should be the max, as 9 ingredients can be used at one time and level 2 effects should be handed out rarely.
 
 - Rebalance Create-TFC integration.

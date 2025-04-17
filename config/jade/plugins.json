@@ -40,7 +40,7 @@
     "harvest_tool.creative": false,
     "horse_stats": true,
     "item_tooltip": true,
-    "entity_health": true,
+    "entity_health": false,
     "enchantment_power": true,
     "zombie_villager": true,
     "villager_profession": true,

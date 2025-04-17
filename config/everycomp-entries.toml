@@ -34,13 +34,6 @@
 		[types.wood_type.caupona]
 			walnut = true
 
-		[types.wood_type.aether]
-			skyroot = true
-
-		[types.wood_type.ancient_aether]
-			highsproot = true
-			sakura = true
-
 		[types.wood_type.afc]
 			baobab = true
 			eucalyptus = true
@@ -53,20 +46,28 @@
 			ironwood = true
 			ipe = true
 
-		[types.wood_type.deep_aether]
-			roseroot = true
-			yagroot = true
-			cruderoot = true
-			conberry = true
-			sunroot = true
-
-		[types.wood_type.aether_redux]
-			fieldsproot = true
-			blightwillow = true
-			cloudcap = true
-			jellyshroom = true
-			crystal = true
-			glacia = true
+		[types.wood_type.spectrum]
+			ivory_noxwood = true
+			slate_noxwood = true
+			ebony_noxwood = true
+			chestnut_noxwood = true
+			white = true
+			orange = true
+			magenta = true
+			light_blue = true
+			yellow = true
+			lime = true
+			pink = true
+			gray = true
+			light_gray = true
+			cyan = true
+			purple = true
+			blue = true
+			brown = true
+			green = true
+			red = true
+			black = true
+			weeping_gala = true
 
 	[types.leaves_type]
 
@@ -83,39 +84,26 @@
 			yellow_blossom = true
 			red_blossom = true
 
-		[types.leaves_type.aether]
-			skyroot = true
-			golden_oak = true
-			crystal = true
-			crystal_fruit = true
-			holiday = true
-			decorated_holiday = true
-
-		[types.leaves_type.ancient_aether]
-			crystal_skyroot = true
-			enchanted_skyroot = true
-			skyroot_pine = true
-			blue_skyroot_pine = true
-			highsproot = true
-			sakura = true
-
-		[types.leaves_type.aether_redux]
-			fieldsproot = true
-			gilded_oak = true
-			blighted_skyroot = true
-			purple_glacia = true
-			blightwillow = true
-			glacia = true
-
-		[types.leaves_type.deep_aether]
-			flowering_roseroot = true
-			blue_roseroot = true
-			flowering_blue_roseroot = true
-			roseroot = true
-			yagroot = true
-			cruderoot = true
-			conberry = true
-			sunroot = true
+		[types.leaves_type.spectrum]
+			white = true
+			orange = true
+			magenta = true
+			light_blue = true
+			yellow = true
+			lime = true
+			pink = true
+			gray = true
+			light_gray = true
+			cyan = true
+			purple = true
+			blue = true
+			brown = true
+			green = true
+			red = true
+			black = true
+			weeping_gala = true
+			nephrite_blossom = true
+			spirit_sallow = true
 
 #Disables specific entries
 [entries]
