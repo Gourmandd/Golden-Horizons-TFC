@@ -1,6 +1,7 @@
 
 ServerEvents.recipes(event =>{
 
+    /*
     global.TFC_METALS.forEach(metal =>{
         event.recipes.create.pressing("tfc:metal/sheet/" + metal, "tfc:metal/double_ingot/" + metal)
             .id("modpack:pressing/sheet/" + metal)
@@ -14,7 +15,7 @@ ServerEvents.recipes(event =>{
     global.KUBEJS_METALS.forEach(metal =>{
         event.recipes.create.pressing("kubejs:metal/sheet/" + metal, "kubejs:metal/double_ingot/" + metal)
             .id("modpack:pressing/sheet/" + metal)
-    })
+    })*/
 
     global.TFC_SOIL_TYPES.forEach(type =>{
         event.recipes.create.pressing("tfc:grass_path/" + type ,"tfc:dirt/" + type).id("modpack:pressing/soil/" + type)

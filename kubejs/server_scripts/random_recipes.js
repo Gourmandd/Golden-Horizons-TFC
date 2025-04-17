@@ -5,6 +5,11 @@ ServerEvents.recipes(event =>{
 
     //event.remove({ type: "spectrum:anvil_crushing" })
     event.remove({type: "minecraft:crafting_shaped", mod: "caupona"})
+    event.remove({type: "vintageimprovements:coiling" })
+    event.remove({type: "vintageimprovements:vacuumizing" })
+    event.remove({type: "vintageimprovements:pressurizing" })
+    event.remove({type: "create:pressing", mod: "vintageimprovements" })
+    event.remove({type: "createaddition:rolling", mod: "vintageimprovements" })
     event.remove({type: "caupona:boiling" })
     event.remove({type: "caupona:cooking"})
     event.remove({type: "caupona:dolium", mod: "caupona"})

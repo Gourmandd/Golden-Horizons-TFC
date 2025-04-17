@@ -1,0 +1,16 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+      "item": "tfc:metal/rod/wrought_iron"
+    },
+    "result": {
+      "item": "vintageimprovements:iron_spring",
+      "count": 2
+    },
+    "tier": 2,
+    "rules": [
+      "bend_last",
+      "punch_second_last",
+      "bend_third_last"
+    ]
+  }
