@@ -2,9 +2,9 @@
   "credit": "Made with Blockbench",
   "parent": "block/block",
   "textures": {
-      "0": "kubejs:block/clay/kaolinite_clay_block",
-      "1": "kubejs:block/clay/kaolinite_clay_block",
-      "particle": "kubejs:block/clay/kaolinite_clay_block"
+      "0": "tfc:block/white_kaolin_clay",
+      "1": "tfc:block/white_kaolin_clay",
+      "particle": "tfc:block/white_kaolin_clay"
   },
   "elements": [
       {

@@ -352,6 +352,7 @@ const GENERAL = [
   {"name": "charcoal", "stacks": ["item:minecraft:charcoal"], "desc": "Charcoal is a good, simple fuel source! See the TFC guide book on how to make a charcoal pit!"},
   {"name": "grapes", "stacks": ["item:firmalife:seeds/red_grape", "item:firmalife:seeds/white_grape", "item:firmalife:grape_trellis_post"], "desc": "Grapes grow on a trellis, see the TFC guide book for more information!"},
   {"name": "compost", "stacks": COMPOST_BROWN, "desc": "These items give a lot of 'brown' points in the composter!"},
+  {"name": "canoe_wood", "stacks": ["item:tfc:wood/log/douglas_fir","item:tfc:wood/log/pine","item:tfc:wood/log/palm","item:tfc:wood/log/spruce","item:tfc:wood/log/sequoia","item:tfc:wood/log/kapok","item:tfc:wood/log/mangrove","item:tfc:wood/log/white_cedar","item:tfc:wood/log/willow",], "desc": "These logs can be used to make canoes!"},
 ]
 
 ClientEvents.highPriorityAssets(event =>{

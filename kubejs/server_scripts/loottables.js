@@ -3,15 +3,6 @@ try{
 console.info("Loot Tables loaded")
 
 
-let clay = global.CUSTOM_CLAY_TYPES
-
-
-let index = clay.indexOf("kaolinite");
-if (index > -1) {
-  clay.splice(index, 1)
-}
-console.log(clay)
-
 LootJS.modifiers((event) => {
     global.DYE_COLOURS.forEach(colour => { 
     event.addBlockLootModifier("kubejs:terracotta/crushed_" + colour).randomChance(0.25).addLoot("kubejs:terracotta/shard_" + colour)
@@ -32,7 +23,9 @@ LootJS.modifiers((event) => {
     event.addBlockLootModifier("hearth_and_home:barred_glass").addLoot("hearth_and_home:barred_glass").removeLoot("minecraft:iron_nugget")
     event.addBlockLootModifier("hearth_and_home:barred_glass_pane").addLoot("hearth_and_home:barred_glass_pane").removeLoot("minecraft:iron_nugget")
 
-   clay.forEach(type => {
+    global.CUSTOM_CLAY_TYPES.forEach(type => {
+
+    if (type == "kaolinite"){return}
     event.addBlockLootModifier("kubejs:clay/" + type + "_clay_block").removeLoot("kubejs:clay/" + type + "_clay_block")
     event.addBlockLootModifier("kubejs:clay/" + type + "_clay_block").randomChance(0.50).addLoot("kubejs:clay/" + type + "_clay_ball")
     event.addBlockLootModifier("kubejs:clay/" + type + "_clay_block").randomChance(0.50).addLoot("kubejs:clay/" + type + "_clay_ball")
