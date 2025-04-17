@@ -66,7 +66,7 @@ StartupEvents.registry("item", event =>{
 
 StartupEvents.registry("fluid", event =>{
 
+    event.create("boiled_water").bucketColor(0xB2E0FE).thinTexture(0xB2E0FE).displayName("Boiled Water").noBlock()
     event.create("brew").bucketColor(0x300C0B).thinTexture(0x300C0B).displayName("Brew").noBlock().noBucket()
     event.create("garum").bucketColor(0x321C0B).thinTexture(0x321C0B).displayName("Garum").noBlock()
-
 })

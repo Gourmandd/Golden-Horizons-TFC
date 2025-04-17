@@ -1,0 +1,14 @@
+{
+    "type": "artisanal:scalable_pot",
+    "ingredients": [],
+    "fluid_ingredient": {
+      "ingredient": "minecraft:water",
+      "amount": 100
+    },
+    "duration": 1200,
+    "temperature": 300,
+    "fluid_output": {
+      "fluid": "kubejs:boiled_water",
+      "amount": 50
+    }
+}

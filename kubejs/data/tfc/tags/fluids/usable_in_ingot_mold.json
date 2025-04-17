@@ -4,8 +4,6 @@
         "createbigcannons:molten_cast_iron",
         "createbigcannons:molten_bronze",
         "createbigcannons:molten_steel",
-        "createbigcannons:molten_nethersteel",
-        "kubejs:aluminium",
-        "kubejs:electrum"
+        "createbigcannons:molten_nethersteel"
     ]
 }
