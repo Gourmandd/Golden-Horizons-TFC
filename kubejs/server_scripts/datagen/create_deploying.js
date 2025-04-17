@@ -34,7 +34,7 @@ ServerEvents.recipes(event =>{
         }
         event.recipes.create.deploying(Item.of("kubejs:ceramic/unfired_" + type + "_ingot_mold", 2), ["kubejs:clay/" + type + "_clay_block", "#forge:ingots"])
             .id("modpack:deploying/mold_pressing/ingot/" + type)
-        event.recipes.create.deploying(Item.of("kubejs:ceramic/unfired_" + type + "_bell_mold", 2), ["kubejs:clay/" + type + "_clay_block", "#modpack:bells"])
+        event.recipes.create.deploying(Item.of("kubejs:ceramic/unfired_" + type + "_bell_mold"), ["kubejs:clay/" + type + "_clay_block", "#modpack:bells"])
             .id("modpack:deploying/mold_pressing/bell/" + type)
     })
 
@@ -47,7 +47,7 @@ ServerEvents.recipes(event =>{
     event.recipes.create.deploying(Item.of("tfc:ceramic/unfired_ingot_mold", 2), ["minecraft:clay", "#forge:ingots"])
         .id("modpack:deploying/mold_pressing/ingot/clay")
 
-    event.recipes.create.deploying(Item.of("tfc:ceramic/unfired_bell_mold", 2), ["minecraft:clay", "#modpack:bells"])
+    event.recipes.create.deploying(Item.of("tfc:ceramic/unfired_bell_mold"), ["minecraft:clay", "#modpack:bells"])
         .id("modpack:deploying/mold_pressing/bell/clay")
 
     event.recipes.create.deploying(Item.of("tfc:ceramic/unfired_fire_ingot_mold", 2), ["tfc:fire_clay_block", "#forge:ingots"])

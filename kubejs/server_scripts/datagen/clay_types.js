@@ -12,7 +12,7 @@ ServerEvents.recipes(event =>{
     }
 
     function knapping(type, result, count, shape, fileName, slot){
-        event.recipes.tfc.knapping( count + "x " + result , "tfc:" + type, shape)
+        event.recipes.tfc.knapping(Item.of(result, count) , "tfc:" + type, shape)
             .outsideSlotRequired(slot)
             .id("modpack:knapping/" + type + "/" + fileName)
     }

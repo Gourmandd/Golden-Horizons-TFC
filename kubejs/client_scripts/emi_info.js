@@ -308,11 +308,11 @@ let METALS = [
   {"name": "zinc", "stacks": ["item:tfc:ore/small_sphalerite","item:tfc:powder/sphalerite"].concat(get_metal_items("tfc", "zinc"))},
 ]
 
-let fluxstones = global.FLUXSTONES
+let FLUXSTONES = global.FLUXSTONES
 let ORES = [
   {"name": "bituminous_coal", "stacks": ["item:tfc:ore/bituminous_coal"]},
   {"name": "redstone", "stacks": ["item:tfc:ore/cryolite","item:tfc:ore/cinnabar","item:minecraft:redstone"]},
-  {"name": "fluxstones", "stacks": fluxstones},
+  {"name": "fluxstones", "stacks": FLUXSTONES},
   {"name": "graphite", "stacks": ["item:tfc:ore/graphite","item:tfc:powder/graphite"]},
   {"name": "gypsum", "stacks": ["item:tfc:ore/gypsum","item:tfc:alabaster/raw"]},
   {"name": "salt", "stacks": ["item:tfc:ore/halite","item:tfc:powder/salt"]},
@@ -324,6 +324,7 @@ let ORES = [
 ]
 
 const FIRESTARTERS = ["item:tfc:firestarter", "item:minecraft:flint_and_steel", "item:artisanal:stone/flint_and/pyrite", "item:artisanal:stone/flint_and/cut_pyrite", "item:artisanal:metal/flint_and/black_steel", "item:artisanal:metal/flint_and/red_steel", "item:artisanal:metal/flint_and/blue_steel"]
+const COMPOST_BROWN =  ["item:tfc:groundcover/humus", "item:tfc:groundcover/dead_grass", "item:tfc:groundcover/driftwood", "item:tfc:groundcover/pinecone", "item:minecraft:paper", "item:tfc:melon", "item:tfc:pumpkin", "item:tfc:jute_fiber","item:artisanal:dry_bagasse"]
 const GENERAL = [
   //{"name": "", "stacks": []},
   {"name": "mud", "stacks": ["item:tfc:mud/silt","item:tfc:mud/sandy_loam","item:tfc:mud/loam","item:tfc:mud/silty_loam"], "desc": "Mud can be obtained though crafting, and in swamps."},
@@ -350,7 +351,7 @@ const GENERAL = [
   {"name": "firestarters", "stacks": FIRESTARTERS, "desc": "These tools can be used to start fires!"},
   {"name": "charcoal", "stacks": ["item:minecraft:charcoal"], "desc": "Charcoal is a good, simple fuel source! See the TFC guide book on how to make a charcoal pit!"},
   {"name": "grapes", "stacks": ["item:firmalife:seeds/red_grape", "item:firmalife:seeds/white_grape", "item:firmalife:grape_trellis_post"], "desc": "Grapes grow on a trellis, see the TFC guide book for more information!"},
-
+  {"name": "compost", "stacks": COMPOST_BROWN, "desc": "These items give a lot of 'brown' points in the composter!"},
 ]
 
 ClientEvents.highPriorityAssets(event =>{

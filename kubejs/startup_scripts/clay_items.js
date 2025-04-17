@@ -7,93 +7,60 @@ const $TFCTags = Java.loadClass("net.dries007.tfc.common.TFCTags")
 
 
 
-let mold_types = [
-    {"cap": "Chisel", "low": "chisel"},
-    {"cap": "Pickaxe", "low": "pickaxe"},
-    {"cap": "Axe", "low": "axe"},
-    {"cap": "Hoe", "low": "hoe"},
-    {"cap": "Sword", "low": "sword"},
-    {"cap": "Saw", "low": "saw"},
-    {"cap": "Scythe", "low": "scythe"},
-    {"cap": "Propick", "low": "propick"},
-    {"cap": "Shovel", "low": "shovel"},
-    {"cap": "Hammer", "low": "hammer"},
-    {"cap": "Javelin", "low": "javelin"},
-    {"cap": "Mace", "low": "mace"},
-    {"cap": "Knife", "low": "knife"},
-    {"cap": "Bell", "low": "bell"},
-    {"cap": "Ingot", "low": "ingot"},
-]
-
-
-
 StartupEvents.registry("item", event =>{
 
+    global.CUSTOM_CLAY_TYPES.forEach(type =>{
 
+        event.create("ceramic/unfired_"+ type + "_blowpipe").displayName("Unfired " + nameProcessing(type) + " Blowpipe")
+        event.create("ceramic/unfired_"+ type + "_flower_pot").displayName("Unfired "+ nameProcessing(type) + " Flower Pot")
+        event.create("ceramic/unfired_"+ type + "_bowl").displayName("Unfired "+ nameProcessing(type) + " Bowl")
+        event.create("ceramic/unfired_"+ type + "_pan").displayName("Unfired "+ nameProcessing(type) + " Pan")
+        event.create("ceramic/unfired_"+ type + "_spindle_head").displayName("Unfired "+ nameProcessing(type) + " Spindle Head")
+        event.create("ceramic/unfired_"+ type + "_pot").displayName("Unfired "+ nameProcessing(type) + " Pot")
 
-function register_clay_type_item(type){//FYI to future me, register a clay ball and block item seperatly as im not adding optional stuff to this function
+        //event.create("ceramic/unfired_"+ type + "_large_vessel").displayName("Unfired "+ type + " Large Vessel") What? large vessel is a block
 
-    mold_types.forEach(mold_type =>{
-        event.create("ceramic/unfired_"+ type.low + "_" + mold_type.low + "_mold").displayName("Unfired " + type.cap + " " + mold_type.cap + " Mold")
+        event.create("ceramic/unfired_"+ type + "_brick").displayName("Unfired "+ nameProcessing(type) + " Brick")
+        event.create("ceramic/"+ type + "_brick").displayName(""+ nameProcessing(type) + " Brick")
+
+        event.createCustom("ceramic/"+ type +"_vessel", () => new $Vessel(new $ItemProperties().stacksTo(1))).displayName("Unfired "+ nameProcessing(type) + " Vessel")
+        event.createCustom("ceramic/"+ type +"_jug", () => new $Jug(new $ItemProperties().stacksTo(1), $TFCConfig.SERVER.jugCapacity, $TFCTags.Fluids.USABLE_IN_JUG)).displayName("Unfired "+ nameProcessing(type) + " Jug")
+
+        event.create("ceramic/unfired_"+ type + "_vessel").displayName("Unfired "+ nameProcessing(type) + " Vessel")
+        event.create("ceramic/unfired_"+ type + "_jug").displayName("Unfired "+ nameProcessing(type) + " Jug")
+
+        event.create("ceramic/unfired_"+ type + "_bell_mold").displayName("Unfired " + nameProcessing(type) + " Bell Mold")
+        event.create("ceramic/unfired_"+ type + "_ingot_mold").displayName("Unfired " + nameProcessing(type) + " Ingot Mold")
+
+        global.TFC_TOOL_TYPES.forEach(mold_type =>{
+            event.create("ceramic/unfired_"+ type + "_" + mold_type + "_mold").displayName("Unfired " + nameProcessing(type) + " " + nameProcessing(mold_type) + " Mold")
+        })
+
+        if (type == "kaolinite"){
+            return
+        } else {
+            event.create("clay/" + type + "_clay_ball").displayName(nameProcessing(type) + " Clay Ball").tag("tfc:any_knapping")
+        }
     })
-
-    event.create("ceramic/unfired_"+ type.low + "_blowpipe").displayName("Unfired " + type.cap + " Blowpipe")
-    event.create("ceramic/unfired_"+ type.low + "_flower_pot").displayName("Unfired "+ type.cap + " Flower Pot")
-    event.create("ceramic/unfired_"+ type.low + "_bowl").displayName("Unfired "+ type.cap + " Bowl")
-    event.create("ceramic/unfired_"+ type.low + "_pan").displayName("Unfired "+ type.cap + " Pan")
-    event.create("ceramic/unfired_"+ type.low + "_spindle_head").displayName("Unfired "+ type.cap + " Spindle Head")
-    event.create("ceramic/unfired_"+ type.low + "_pot").displayName("Unfired "+ type.cap + " Pot")
-
-    //event.create("ceramic/unfired_"+ type + "_large_vessel").displayName("Unfired "+ type + " Large Vessel") What? large vessel is a block
-
-    event.create("ceramic/unfired_"+ type.low + "_brick").displayName("Unfired "+ type.cap + " Brick")
-    event.create("ceramic/"+ type.low + "_brick").displayName(""+ type.cap + " Brick")
-
-    event.createCustom("ceramic/"+ type.low +"_vessel", () => new $Vessel(new $ItemProperties().stacksTo(1))).displayName("Unfired "+ type.cap + " Vessel")
-    event.createCustom("ceramic/"+ type.low +"_jug", () => new $Jug(new $ItemProperties().stacksTo(1), $TFCConfig.SERVER.jugCapacity, $TFCTags.Fluids.USABLE_IN_JUG)).displayName("Unfired "+ type.cap + " Jug")
-
-    event.create("ceramic/unfired_"+ type.low + "_vessel").displayName("Unfired "+ type.cap + " Vessel")
-    event.create("ceramic/unfired_"+ type.low + "_jug").displayName("Unfired "+ type.cap + " Jug")
-}
-
-
-// template for the type argument {"cap": "", "low": ""} the fact that I have to do this to remind myself says a lot about this code
-    register_clay_type_item({"cap": "Kaolinite", "low": "kaolinite"})
-    register_clay_type_item({"cap": "Yixing", "low": "yixing"})
-    register_clay_type_item({"cap": "Porcelain", "low": "porcelain"})
-    register_clay_type_item({"cap": "Earthenware", "low": "earthenware"})
-    register_clay_type_item({"cap": "Yellowware", "low": "yellowware"})
-
-    event.create("clay/yixing_clay_ball").displayName("Yixing Clay Ball").tag("tfc:any_knapping")
-    event.create("clay/porcelain_clay_ball").displayName("Porcelain Clay Ball").tag("tfc:any_knapping")
-    event.create("clay/earthenware_clay_ball").displayName("Earthenware Clay Ball").tag("tfc:any_knapping")
-    event.create("clay/yellowware_clay_ball").displayName("Yellowware Clay Ball").tag("tfc:any_knapping")
-
 })
 
 
 
 StartupEvents.registry("block", event =>{
 
-    function register_clay_type_item(type){
-        event.create("ceramic/"+ type.low + "_bricks").displayName(type.cap + " Bricks").requiresTool(true).tagBlock("minecraft:mineable/pickaxe").soundType("deepslate_bricks")
-        event.create("ceramic/"+ type.low + "_brick_slab", "slab").displayName(type.cap + " Brick Slab").property(BlockProperties.SLAB_TYPE).requiresTool(true).tagBlock("minecraft:mineable/pickaxe").soundType("deepslate_bricks")
-        event.create("ceramic/"+ type.low + "_brick_stairs", "stairs").displayName(type.cap + " Brick Stairs").property(BlockProperties.STAIRS_SHAPE).requiresTool(true).tagBlock("minecraft:mineable/pickaxe").soundType("deepslate_bricks")
-        event.create("ceramic/"+ type.low + "_brick_wall", "wall").displayName(type.cap + " Brick Wall").property(BlockProperties.IN_WALL).requiresTool(true).tagBlock("minecraft:mineable/pickaxe").soundType("deepslate_bricks")
-    }
+    global.CUSTOM_CLAY_TYPES.forEach(type =>{
 
-    register_clay_type_item({"cap": "Kaolinite", "low": "kaolinite"})
-    register_clay_type_item({"cap": "Yixing", "low": "yixing"})
-    register_clay_type_item({"cap": "Porcelain", "low": "porcelain"})
-    register_clay_type_item({"cap": "Earthenware", "low": "earthenware"})
-    register_clay_type_item({"cap": "Yellowware", "low": "yellowware"})
-
-
-    event.create("clay/yixing_clay_block").displayName("Yixing Clay Block").tagBlock("minecraft:mineable/shovel").soundType("wet_grass")
-    event.create("clay/porcelain_clay_block").displayName("Porcelain Clay Block").tagBlock("minecraft:mineable/shovel").soundType("wet_grass")
-    event.create("clay/earthenware_clay_block").displayName("Earthenware Clay Block").tagBlock("minecraft:mineable/shovel").soundType("wet_grass")
-    event.create("clay/yellowware_clay_block").displayName("Yellowware Clay Block").tagBlock("minecraft:mineable/shovel").soundType("wet_grass")
-
+        event.create("ceramic/"+ type + "_bricks").displayName(nameProcessing(type) + " Bricks").requiresTool(true).tagBlock("minecraft:mineable/pickaxe").soundType("deepslate_bricks")
+        event.create("ceramic/"+ type + "_brick_slab", "slab").displayName(nameProcessing(type) + " Brick Slab").property(BlockProperties.SLAB_TYPE).requiresTool(true).tagBlock("minecraft:mineable/pickaxe").soundType("deepslate_bricks")
+        event.create("ceramic/"+ type + "_brick_stairs", "stairs").displayName(nameProcessing(type) + " Brick Stairs").property(BlockProperties.STAIRS_SHAPE).requiresTool(true).tagBlock("minecraft:mineable/pickaxe").soundType("deepslate_bricks")
+        event.create("ceramic/"+ type + "_brick_wall", "wall").displayName(nameProcessing(type) + " Brick Wall").property(BlockProperties.IN_WALL).requiresTool(true).tagBlock("minecraft:mineable/pickaxe").soundType("deepslate_bricks")
+        
+        if (type == "kaolinite"){
+            return
+        } else {
+            event.create("clay/" + type + "_clay_block").displayName(nameProcessing(type) + " Clay Block").tagBlock("minecraft:mineable/shovel").soundType("wet_grass")
+        }
+    })
 })
 
 

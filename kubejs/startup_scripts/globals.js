@@ -1,5 +1,13 @@
 //priority: 10
 
+function nameProcessing(name){
+  name = name.replace("_", " ")
+  name = name.replace("_", " ")
+  name = name.replace(/(^\w|\s\w)/g, m => m.toUpperCase())
+  //console.log(name)
+  return name
+}
+
 global.CROPS = [
     "barley",
     "oat",
@@ -310,6 +318,25 @@ global.DYE_COLOURS = [
   "purple",
   "blue",
 ]
+
+global.COLOUR_TO_HEX = {
+  "blue": 0xCDD7FC,
+  "red": 0xE29F9F,
+  "white": 0xEEF8FA,
+  "light_gray": 0xCDD2DA,
+  "gray": 0x92959B,
+  "black": 0x383A3D,
+  "brown": 0x8D6B55,
+  "orange": 0xFBAB60,
+  "yellow": 0xFFF189,
+  "lime": 0xBBF378,
+  "green": 0x5AA256,
+  "cyan": 0x92C9BB,
+  "light_blue": 0xA3D8DF,
+  "purple": 0xA884E1,
+  "magenta": 0xC684E1,
+  "pink": 0xF2A4E0,
+}
 
 global.TOOL_METALS = [
   "bronze",

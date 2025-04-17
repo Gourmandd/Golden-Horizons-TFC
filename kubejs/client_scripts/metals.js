@@ -5,7 +5,7 @@ ClientEvents.lang("en_us", event =>{
         name = name.replace("_", " ")
         name = name.replace("_", " ")
         name = name.replace(/(^\w|\s\w)/g, m => m.toUpperCase())
-        console.log(name)
+        //console.log(name)
         return name
     }
 
@@ -14,6 +14,6 @@ ClientEvents.lang("en_us", event =>{
     })
 
     global.DYE_COLOURS.forEach(colour =>{
-        event.add("metal.modpack.glass." + colour, nameProcessing(colour))
+        event.add("metal.modpack.glass/" + colour, nameProcessing(colour))
     })
 })
