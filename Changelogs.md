@@ -2,6 +2,59 @@
 
 All of the changelogs since 0.1 that was posted on Modrinth
 
+# Golden Horizons 1.7
+
+This release sees a pretty big changes in the modpack, the Aether X TFC compatibiity has been abandoned due to technical issue probably within the Aether or Addon, or other mods in the modpack. Technical/backend changes have also occured. Due to (ironically) greater stability Im thinking of doing TFC compatibility with Spectrum. Spectrum and the mods needed for it are included in this update so that people can report any issues earlier.
+
+## New content
+
+- EMI info tabs have been added for a large amont of items, every stone type, ore, gem, metal, and crops have a info page.
+- Create casings are now made with Firmalife treated wood blocks.
+- Updated modpack textures.
+- Aluminium is now refined from kaolinite, it is used for aircraft. (Changes to make kaolin easier to find might come soon).
+- Custom clay types have better compatibility in recipes now.
+- Vintage improvement is a create addon with various new recipes types, they have been integrated into the modpack with more to come.
+- Small tweaks to game menu. (removed a button from main menu, and pause menu, and added a few icons).
+- You can now boil water! **There is no penalty to drinking "dirty" water**. Boiled water gives you regeneration for 10 seconds (liable to change) when drunk from a jug. 
+- Create splashing recipe to turn gravel and sand into minerals have been rebalanced.
+- Recipes types that are not used, or self explanitary (Example. Automated shaped crafting is just crafting, again, in another recipe tab) were removed from view (they still exist in the game).
+- Recipes for terracotta shingles and bricks were changed.
+- A greeting message to the player, when they join a world has been added. (a way to make this optional might come soon)
+- Jade no longer shows how much health a mob has, for immersion, PVP and other reasons.
+- A large amount of the modpacks scripts now use common values and functions, this makes it easier to write scripts for the modpacks development.
+- I have done no benchmarking so take with with a grain of salt, but performance may have improved after removing Aether + Addons.
+
+## Modlist changes
+
+Added
+
+- Vintage Improvements.
+- Fog looks modern now. (optional)
+- Kubejs Create.
+- Kubejs Vintage Improvements.
+- Spectrum (no compat for TFC yet)
+- - Revelationary
+- - Modonomicon
+- - Cardinal Components API
+- - Trinkets
+- - Sintra Connector
+- - Forgified Fabric API
+- - Connector Extras
+
+Removed
+
+- Aether
+- Ancient Aether
+- Deep Aether
+- Aether Redux
+- Structure Gel API
+
+## Enjoy :3
+
+I certainly won't. I am the one who has to write datagen code for adding ores to TFC worldgen now. XD
+
+- _Gourmand (Discord), Gourmandd (GitHub)
+
 # Golden Horizons 1.6
 
 ## New content
