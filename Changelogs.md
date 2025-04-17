@@ -49,6 +49,8 @@ Removed
 - Aether Redux
 - Structure Gel API
 
+The Aether Regenetared Resource pack was removed as its no longer needed.
+
 ## Enjoy :3
 
 I certainly won't. I am the one who has to write datagen code for adding ores to TFC worldgen now. XD
