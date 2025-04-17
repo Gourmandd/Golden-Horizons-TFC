@@ -1,0 +1,10 @@
+{
+    "ingredient": {
+      "item": "kubejs:fried_halloumi"
+    },
+    "category": "other",
+    "dairy": 2,
+    "hunger": 4,
+    "saturation": 4,
+    "decay_modifier": 1
+  }
