@@ -1,0 +1,22 @@
+{
+    "type": "spectrum:titration_barrel",
+    "ingredients": [
+      {
+        "item": "firmalife:food/roasted_cocoa_beans",
+        "count": 4
+      },
+      {
+        "item": "spectrum:clotted_cream",
+        "count": 1
+      },
+      {
+        "tag": "forge:fruits/berries/red",
+        "count": 2
+      }
+    ],
+    "min_fermentation_time_hours": 4,
+    "result": {
+      "item": "spectrum:fresh_chocolate",
+      "count": 8
+    }
+  }
