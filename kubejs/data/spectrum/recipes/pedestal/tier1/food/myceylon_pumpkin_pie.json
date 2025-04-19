@@ -24,7 +24,7 @@
         "item": "minecraft:sugar"
       },
       "P": {
-        "tag": "forge:fruits/apple"
+        "tag": "tfc:foods/apples"
       },
       "A": {
         "item": "spectrum:amaranth_grains"
