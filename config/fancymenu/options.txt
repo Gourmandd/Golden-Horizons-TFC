@@ -27,7 +27,7 @@ B:game_intro_fade_out = 'true';
 B:show_custom_window_icon = 'false';
 S:custom_window_icon_macos = '';
 S:custom_window_icon_32 = '';
-S:custom_window_title = 'Golden Horizons 1.6 for 1.20.1';
+S:custom_window_title = 'Golden Horizons 1.8 for 1.20.1';
 S:custom_window_icon_16 = '';
 
 
