@@ -1,0 +1,28 @@
+{
+    "type": "spectrum:pedestal",
+    "time": 80,
+    "tier": "basic",
+    "magenta": 0,
+    "yellow": 0,
+    "cyan": 4,
+    "black": 0,
+    "white": 0,
+    "experience": 2.0,
+    "pattern": [
+      "S",
+      "L"
+    ],
+    "key": {
+      "S": {
+        "tag": "c:string"
+      },
+      "L": {
+        "item": "minecraft:leather"
+      }
+    },
+    "result": {
+      "item": "minecraft:bundle",
+      "count": 1
+    },
+    "required_advancement": "spectrum:hidden/collect_shards/topaz"
+  }

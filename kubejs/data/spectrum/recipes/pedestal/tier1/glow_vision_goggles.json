@@ -1,0 +1,32 @@
+{
+    "type": "spectrum:pedestal",
+    "time": 200,
+    "tier": "basic",
+    "cyan": 0,
+    "magenta": 2,
+    "yellow": 2,
+    "white": 0,
+    "black": 0,
+    "experience": 2.0,
+    "pattern": [
+      "RCR",
+      "GRG"
+    ],
+    "key": {
+      "C": {
+        "item": "create:goggles"
+      },
+      "G": {
+        "item": "minecraft:glow_ink_sac"
+      },
+      "R": {
+        "item": "minecraft:leather"
+      }
+    },
+    "result": {
+      "item": "spectrum:glow_vision_goggles",
+      "count": 1
+    },
+    "required_advancement": "spectrum:unlocks/trinkets/glow_vision_goggles"
+  }
+  

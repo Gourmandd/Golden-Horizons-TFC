@@ -1,4 +1,4 @@
-
+//priority: 1
 ClientEvents.lang("en_us", event =>{
 
     function nameProcessing(name){

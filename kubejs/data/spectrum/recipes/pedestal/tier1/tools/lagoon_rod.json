@@ -1,0 +1,40 @@
+{
+    "type": "spectrum:pedestal",
+    "time": 180,
+    "tier": "basic",
+    "cyan": 1,
+    "magenta": 0,
+    "yellow": 0,
+    "white": 0,
+    "black": 0,
+    "experience": 0.5,
+    "pattern": [
+      "  B",
+      " BS",
+      "B M"
+    ],
+    "key": {
+      "B": {
+        "item": "minecraft:smooth_basalt"
+      },
+      "S": {
+        "tag": "c:string"
+      },
+      "M": {
+        "item": "spectrum:mermaids_gem"
+      }
+    },
+    "result": {
+      "item": "spectrum:lagoon_rod",
+      "nbt": {
+        "Enchantments": [
+          {
+            "id": "minecraft:lure",
+            "lvl": "3s"
+          }
+        ]
+      },
+      "count": 1
+    },
+    "required_advancement": "spectrum:unlocks/equipment/lagoon_rod"
+  }

@@ -1,0 +1,38 @@
+{
+    "type": "spectrum:pedestal",
+    "time": 160,
+    "tier": "basic",
+    "cyan": 2,
+    "magenta": 0,
+    "yellow": 4,
+    "black": 0,
+    "white": 0,
+    "experience": 1.0,
+    "pattern": [
+      "JBJ",
+      "EME",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "spectrum:amaranth_grains"
+      },
+      "J": {
+        "item": "spectrum:jaramel"
+      },
+      "E": {
+        "tag": "c:eggs"
+      },
+      "M": {
+        "tag": "c:milk"
+      },
+      "B": {
+        "tag": "forge:fruits/berries/red"
+      }
+    },
+    "result": {
+      "item": "spectrum:ashen_tart",
+      "count": 1
+    },
+    "required_advancement": "spectrum:unlocks/food/tarts"
+  }

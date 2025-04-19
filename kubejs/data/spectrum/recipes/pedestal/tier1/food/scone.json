@@ -1,0 +1,31 @@
+{
+    "type": "spectrum:pedestal_shapeless",
+    "time": 50,
+    "tier": "basic",
+    "cyan": 0,
+    "magenta": 0,
+    "yellow": 0,
+    "black": 0,
+    "white": 0,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item": "spectrum:amaranth_grains"
+      },
+      {
+        "tag": "c:eggs"
+      },
+      {
+        "tag": "forge:fruits/berries/red"
+      },
+      {
+        "item": "spectrum:clotted_cream"
+      }
+    ],
+    "result": {
+      "item": "spectrum:scone",
+      "count": 2
+    },
+    "required_advancement": "spectrum:collect_amaranth_bushel"
+  }
+  

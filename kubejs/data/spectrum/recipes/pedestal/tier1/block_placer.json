@@ -1,0 +1,35 @@
+{
+    "type": "spectrum:pedestal",
+    "time": 200,
+    "tier": "basic",
+    "cyan": 4,
+    "magenta": 0,
+    "yellow": 0,
+    "white": 0,
+    "black": 0,
+    "experience": 1.0,
+    "pattern": [
+      "CCC",
+      "RTB",
+      "BBB"
+    ],
+    "key": {
+      "R": {
+        "item": "minecraft:redstone"
+      },
+      "T": {
+        "item": "spectrum:topaz_shard"
+      },
+      "B": {
+        "item": "spectrum:polished_calcite"
+      },
+      "C": {
+        "item": "tfc:metal/ingot/copper"
+      }
+    },
+    "result": {
+      "item": "spectrum:block_placer",
+      "count": 1
+    },
+    "required_advancement": "spectrum:unlocks/redstone/block_placer"
+  }

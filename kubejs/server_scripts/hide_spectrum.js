@@ -3,7 +3,7 @@
 
 ServerEvents.tags("item", event =>{
 
-    const SPECTRUM_HIDDEN = true
+    const SPECTRUM_HIDDEN = false
 
     if (SPECTRUM_HIDDEN){
         event.add("c:hidden_from_recipe_viewers", 

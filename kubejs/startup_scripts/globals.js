@@ -83,6 +83,38 @@ global.ROCK_TYPES = [
     "marble"
   ]
 
+global.SEDIMENTARY_ROCKS = [
+  "shale",
+  "claystone",
+  "limestone",
+  "conglomerate",
+  "dolomite",
+  "chert",
+  "chalk"
+]
+
+global.METAMORPHIC_ROCKS = [
+  "quartzite",
+  "slate",
+  "phyllite",
+  "schist",
+  "gneiss",
+  "marble"
+]
+
+global.IGNEOUS_EXTRUSIVE_ROCKS = [
+  "rhyolite",
+  "basalt",
+  "andesite",
+  "dacite",
+]
+
+global.IGNEOUS_INTRUSIVE_ROCKS = [
+  "granite",
+  "diorite",
+  "gabbro",
+]
+
 global.FLUXSTONES = [
     "item:tfc:ore/borax","item:tfc:powder/flux","item:tfc:food/shellfish","item:tfc:groundcover/mollusk",
     "item:tfc:groundcover/clam","item:minecraft:scute","item:tfc:groundcover/mussel","item:tfc:groundcover/sea_urchin",
@@ -514,4 +546,22 @@ global.TFC_SOIL_TYPES = [
   "sandy_loam",
   "silt",
   "silty_loam"
+]
+
+// These are Spectrum ores that will be integrated into TFC worldgen
+global.SPECTRUM_OVERWORLD_ORES = [
+  "shimmerstone",
+  "azurite",
+  "stratine",
+  "paltaeria"
+]
+
+// Deeper Down unique ores
+global.SPECTRUM_DEEPERDOWN_ORES = [
+  
+]
+
+// TFC ores that will appear in the Deeper Down
+global.TFC_DEEPERDOWN_ORES = [
+  
 ]

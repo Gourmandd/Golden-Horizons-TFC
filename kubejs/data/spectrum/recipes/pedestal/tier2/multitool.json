@@ -1,0 +1,38 @@
+{
+    "type": "spectrum:pedestal",
+    "time": 600,
+    "tier": "simple",
+    "cyan": 1,
+    "magenta": 1,
+    "yellow": 1,
+    "white": 0,
+    "black": 0,
+    "experience": 2,
+    "pattern": [
+      "III",
+      "IS ",
+      " S "
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:stick"
+      },
+      "I": {
+        "item": "tfc:metal/ingot/wrought_iron"
+      }
+    },
+    "result": {
+      "item": "spectrum:multitool",
+      "nbt": {
+        "Enchantments": [
+          {
+            "id": "minecraft:efficiency",
+            "lvl": "1s"
+          }
+        ]
+      },
+      "count": 1
+    },
+    "required_advancement": "spectrum:build_basic_pedestal_structure"
+  }
+  

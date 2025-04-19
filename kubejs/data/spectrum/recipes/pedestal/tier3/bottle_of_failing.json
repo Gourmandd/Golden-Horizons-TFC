@@ -1,0 +1,36 @@
+{
+    "type": "spectrum:pedestal",
+    "time": 800,
+    "tier": "advanced",
+    "cyan": 1,
+    "magenta": 1,
+    "yellow": 1,
+    "black": 1,
+    "white": 0,
+    "experience": 2.0,
+    "pattern": [
+      "FSF",
+      "PBP",
+      "FSF"
+    ],
+    "key": {
+      "S": {
+        "item": "spectrum:stratine_fragments"
+      },
+      "F": {
+        "item": "tfc:rotten_compost"
+      },
+      "P": {
+        "item": "minecraft:quartz"
+      },
+      "B": {
+        "item": "quark:bottled_cloud"
+      }
+    },
+    "result": {
+      "item": "spectrum:bottle_of_failing",
+      "count": 1
+    },
+    "required_advancement": "spectrum:unlocks/items/bottle_of_failing"
+  }
+  

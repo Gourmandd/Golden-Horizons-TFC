@@ -1,0 +1,15 @@
+{
+    "replace": false,
+    "values": [
+      "tfc:inverted_badlands",
+      "tfc:badlands",
+      "tfc:tidal_flats",
+      "tfc:rolling_hills",
+      "tfc:hills",
+      "tfc:plains",
+      "tfc:plateau",
+      "tfc:lowlands",
+      "tfc:low_canyons"
+    ]
+  }
+  

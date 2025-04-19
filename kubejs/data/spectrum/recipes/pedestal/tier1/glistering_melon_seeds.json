@@ -1,0 +1,32 @@
+{
+    "type": "spectrum:pedestal",
+    "time": 200,
+    "tier": "basic",
+    "magenta": 0,
+    "yellow": 8,
+    "cyan": 0,
+    "black": 0,
+    "white": 0,
+    "experience": 1,
+    "pattern": [
+      "VGV",
+      "GMG",
+      "VGV"
+    ],
+    "key": {
+      "G": {
+        "item": "tfc:metal/ingot/gold"
+      },
+      "M": {
+        "item": "tfc:seeds/melon"
+      },
+      "V": {
+        "item": "spectrum:vegetal"
+      }
+    },
+    "result": {
+      "item": "spectrum:glistering_melon_seeds",
+      "count": 1
+    },
+    "required_advancement": "spectrum:collect_vegetal"
+  }

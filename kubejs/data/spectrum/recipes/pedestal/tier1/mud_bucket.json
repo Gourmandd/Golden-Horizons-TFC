@@ -1,0 +1,35 @@
+{
+    "type": "spectrum:pedestal",
+    "time": 240,
+    "tier": "basic",
+    "magenta": 0,
+    "yellow": 0,
+    "cyan": 2,
+    "black": 0,
+    "white": 0,
+    "experience": 1.0,
+    "pattern": [
+      "DMD",
+      "CBC",
+      "DCD"
+    ],
+    "key": {
+      "D": {
+        "tag": "tfc:dirt"
+      },
+      "C": {
+        "tag": "tfc:mud"
+      },
+      "B": {
+        "item": "minecraft:bucket"
+      },
+      "M": {
+        "item": "spectrum:mermaids_gem"
+      }
+    },
+    "result": {
+      "item": "spectrum:mud_bucket",
+      "count": 1
+    },
+    "required_advancement": "spectrum:unlocks/blocks/mud"
+  }

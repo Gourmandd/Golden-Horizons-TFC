@@ -1,0 +1,33 @@
+{
+    "type": "spectrum:pedestal",
+    "time": 1200,
+    "tier": "simple",
+    "cyan": 0,
+    "magenta": 6,
+    "yellow": 2,
+    "white": 0,
+    "black": 0,
+    "experience": 2.0,
+    "pattern": [
+      " LM",
+      " SL",
+      "S  "
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:stick"
+      },
+      "M": {
+        "item": "quark:moss_paste"
+      },
+      "L": {
+        "item": "spectrum:lime_pigment"
+      }
+    },
+    "result": {
+      "item": "spectrum:natures_staff",
+      "count": 1
+    },
+    "required_advancement": "spectrum:unlocks/items/natures_staff"
+  }
+  
