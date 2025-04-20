@@ -1,0 +1,28 @@
+{
+    "type": "spectrum:fusion_shrine",
+    "time": 600,
+    "experience": 4.0,
+    "fluid": {
+      "fluid": "minecraft:water"
+    },
+    "ingredients": [
+      {
+        "item": "spectrum:raw_azurite",
+        "count": 4
+      },
+      {
+        "item": "spectrum:neolith"
+      },
+      {
+        "item": "tfc:gem/diamond"
+      }
+    ],
+    "result": {
+      "item": "spectrum:refined_azurite"
+    },
+    "required_advancement": "spectrum:unlocks/resources/refined_azurite",
+    "world_conditions": [],
+    "start_crafting_effect": "nothing",
+    "during_crafting_effects": [],
+    "finish_crafting_effect": "single_visual_explosion_on_shrine"
+  }

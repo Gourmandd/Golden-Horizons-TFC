@@ -1,0 +1,31 @@
+{
+    "type": "spectrum:fusion_shrine",
+    "time": 1200,
+    "experience": 4.0,
+    "fluid": {
+      "fluid": "minecraft:lava"
+    },
+    "ingredients": [
+      {
+        "item": "minecraft:netherite_scrap"
+      },
+      {
+        "item": "tfc:metal/ingot/gold"
+      },
+      {
+        "item": "spectrum:midnight_aberration"
+      }
+    ],
+    "result": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "required_advancement": "spectrum:unlocks/resources/netherite_ingot",
+    "world_conditions": [],
+    "start_crafting_effect": "nothing",
+    "during_crafting_effects": [
+      "nothing",
+      "visual_explosions_on_shrine"
+    ],
+    "finish_crafting_effect": "single_visual_explosion_on_shrine",
+    "description": "spectrum.recipe.fusion_shrine.explanation.netherite_ingot"
+  }
