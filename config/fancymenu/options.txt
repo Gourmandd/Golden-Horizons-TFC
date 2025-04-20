@@ -7,7 +7,7 @@ B:force_fullscreen = 'false';
 
 ##[customization]
 
-B:modpack_mode = 'true';
+B:modpack_mode = 'false';
 B:show_customization_overlay = 'true';
 B:advanced_customization_mode = 'false';
 
@@ -24,11 +24,11 @@ B:game_intro_fade_out = 'true';
 
 ##[window]
 
-B:show_custom_window_icon = 'false';
-S:custom_window_icon_macos = '';
-S:custom_window_icon_32 = '';
+B:show_custom_window_icon = 'true';
+S:custom_window_icon_macos = '/config/fancymenu/assets/icon_mac_os.icns';
+S:custom_window_icon_32 = '/config/fancymenu/assets/32x_icon.png';
 S:custom_window_title = 'Golden Horizons 1.8 for 1.20.1';
-S:custom_window_icon_16 = '';
+S:custom_window_icon_16 = '/config/fancymenu/assets/16x_icon.png';
 
 
 ##[multiplayer_screen]
