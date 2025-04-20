@@ -1,0 +1,10 @@
+{
+    "type": "spectrum:primordial_fire_burning",
+    "secret": true,
+    "ingredient": {
+      "item": "tfc:torch"
+    },
+    "result": {
+      "item": "tfc:dead_torch"
+    }
+  }

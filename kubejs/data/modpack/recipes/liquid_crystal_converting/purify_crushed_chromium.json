@@ -1,0 +1,11 @@
+{
+    "type": "spectrum:liquid_crystal_converting",
+    "required_advancement": "spectrum:unlocks/blocks/liquid_crystal",
+    "ingredient": {
+      "item": "create:crushed_raw_aluminium"
+    },
+    "result": {
+      "item": "tfc:powder/sulfur",
+      "count": 1
+    }
+  }

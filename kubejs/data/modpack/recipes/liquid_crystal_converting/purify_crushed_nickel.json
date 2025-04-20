@@ -1,0 +1,11 @@
+{
+    "type": "spectrum:liquid_crystal_converting",
+    "required_advancement": "spectrum:unlocks/blocks/liquid_crystal",
+    "ingredient": {
+      "item": "create:crushed_raw_nickel"
+    },
+    "result": {
+      "item": "tfc:powder/graphite",
+      "count": 1
+    }
+  }

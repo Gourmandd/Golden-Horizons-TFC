@@ -1,0 +1,11 @@
+{
+    "type": "spectrum:liquid_crystal_converting",
+    "required_advancement": "spectrum:unlocks/blocks/liquid_crystal",
+    "ingredient": {
+      "item": "create:crushed_raw_tin"
+    },
+    "result": {
+      "item": "tfc:powder/native_gold",
+      "count": 1
+    }
+  }

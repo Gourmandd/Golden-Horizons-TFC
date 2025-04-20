@@ -1,0 +1,17 @@
+{
+    "type": "spectrum:potion_workshop_crafting",
+    "base_ingredient": {
+      "item": "minecraft:bucket"
+    },
+    "use_up_base_ingredient": true,
+    "color": 4268288,
+    "ingredient1": {
+      "tag": "tfc:dirt"
+    },
+    "ingredient2": {
+      "tag": "tfc:mud"
+    },
+    "result": {
+      "item": "spectrum:mud_bucket"
+    }
+  }

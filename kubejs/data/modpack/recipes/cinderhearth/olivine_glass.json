@@ -1,0 +1,14 @@
+{
+    "type": "spectrum:cinderhearth",
+    "ingredient": {
+      "item": "tfc:olivine_glass_batch"
+    },
+    "results": [
+      {
+        "item": "minecraft:green_stained_glass",
+        "count": 1
+      }
+    ],
+    "experience": 0.2,
+    "time": 100
+  }

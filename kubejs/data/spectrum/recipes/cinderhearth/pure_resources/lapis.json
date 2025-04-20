@@ -1,0 +1,20 @@
+{
+    "type": "spectrum:cinderhearth",
+    "ingredient": {
+      "item": "spectrum:pure_lapis"
+    },
+    "results": [
+      {
+        "item": "tfc:gem/lapis_lazuli",
+        "count": 4
+      },
+      {
+        "item": "tfc:gem/lapis_lazuli",
+        "count": 1,
+        "chance": 0.5
+      }
+    ],
+    "experience": 0.5,
+    "time": 200,
+    "required_advancement": "spectrum:lategame/collect_pure_resource"
+  }

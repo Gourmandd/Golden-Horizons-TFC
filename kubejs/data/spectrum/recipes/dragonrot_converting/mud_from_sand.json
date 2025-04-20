@@ -1,0 +1,10 @@
+{
+    "type": "spectrum:dragonrot_converting",
+    "ingredient": {
+      "tag": "minecraft:sand"
+    },
+    "result": {
+      "item": "tfc:mud/sandy_loam",
+      "count": 1
+    }
+  }

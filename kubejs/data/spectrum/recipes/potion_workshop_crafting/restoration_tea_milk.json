@@ -1,0 +1,27 @@
+{
+  "type": "spectrum:potion_workshop_crafting",
+  "group": "restoration_tea",
+  "base_ingredient": {
+    "item": "minecraft:glass_bottle"
+  },
+  "use_up_base_ingredient": true,
+  "secret": true,
+  "color": 5807774,
+  "ingredient1": {
+    "item": "spectrum:jade_vine_petals"
+  },
+  "ingredient2": {
+    "item": "firmalife:food/roasted_cocoa_beans"
+  },
+  "ingredient3": {
+    "tag": "c:milk"
+  },
+  "result": {
+    "item": "spectrum:restoration_tea",
+    "nbt": {
+      "Milk": true
+    },
+    "count": 1
+  },
+  "required_advancement": "spectrum:unlocks/food/restoration_tea"
+}

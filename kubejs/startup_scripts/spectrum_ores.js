@@ -19,11 +19,12 @@ StartupEvents.registry("block", event =>{
             .tagBlock("forge:ores")
             .tagBlock(tierTag)
             .opaque(true)
-            .hardness(1.5)
+            .hardness(1.5) 
             .resistance(4)
             .renderType('cutout')
             .displayName(nameProcessing(rock) + " " + nameProcessing(name))
             .tagBlock("tfc:prospectable")
+            .tagBlock("precisionprospecting:prospectable_mineral")
     }
 
     const SPECTRUM_ORE_DATA = {
