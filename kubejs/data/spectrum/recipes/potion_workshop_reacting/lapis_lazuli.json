@@ -1,0 +1,9 @@
+{
+    "type": "spectrum:potion_workshop_reacting",
+    "item": "tfc:gem/lapis_lazuli",
+    "modifiers": {
+      "flat_yield_bonus": 0.5
+    },
+    "required_advancement": "spectrum:midgame/brew_potion_in_potion_workshop"
+  }
+  

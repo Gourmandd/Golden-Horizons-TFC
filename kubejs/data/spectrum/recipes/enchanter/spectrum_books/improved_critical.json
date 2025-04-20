@@ -1,0 +1,54 @@
+{
+    "type": "spectrum:enchanter",
+    "time": 300,
+    "required_experience": 100,
+    "ingredients": [
+      {
+        "item": "minecraft:book"
+      },
+      {
+        "item": "spectrum:black_pigment"
+      },
+      {
+        "item": "spectrum:black_pigment"
+      },
+      {
+        "item": "tfc:metal/ingot/wrought_iron"
+      },
+      {
+        "item": "minecraft:flint"
+      },
+      {
+        "item": "spectrum:black_pigment"
+      },
+      {
+        "item": "spectrum:black_pigment"
+      },
+      {
+        "item": "tfc:metal/ingot/wrought_iron"
+      },
+      {
+        "item": "minecraft:flint"
+      }
+    ],
+    "result": {
+      "item": "minecraft:enchanted_book",
+      "nbt": {
+        "StoredEnchantments": [
+          {
+            "id": "spectrum:improved_critical",
+            "lvl": "1s"
+          }
+        ]
+      }
+    },
+    "required_advancement": "spectrum:unlocks/enchantments/improved_critical",
+    "fabric:load_conditions": [
+      {
+        "condition": "spectrum:enchantments_exist",
+        "values": [
+          "spectrum:improved_critical"
+        ]
+      }
+    ]
+  }

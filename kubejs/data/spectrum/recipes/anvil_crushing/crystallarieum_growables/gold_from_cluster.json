@@ -1,0 +1,16 @@
+{
+  "type": "spectrum:anvil_crushing",
+  "ingredient": {
+    "item": "spectrum:gold_cluster"
+  },
+  "crushedItemsPerPointOfDamage": 1.0,
+  "experience": 3.0,
+  "result": {
+    "item": "tfc:metal/ingot/gold",
+    "count": 6
+  },
+  "particleEffectIdentifier": "explosion",
+  "soundEventIdentifier": "block.amethyst_cluster.break",
+  "group": "crystallarieum_growable_crushing",
+  "required_advancement": "spectrum:unlocks/blocks/crystallarieum"
+}

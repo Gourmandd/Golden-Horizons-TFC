@@ -1,0 +1,14 @@
+{
+    "type": "spectrum:anvil_crushing",
+    "ingredient": {
+      "item": "minecraft:golden_horse_armor"
+    },
+    "crushedItemsPerPointOfDamage": 0.2,
+    "experience": 0.0,
+    "result": {
+      "item": "tfc:metal/ingot/gold",
+      "count": 3
+    },
+    "particleEffectIdentifier": "cloud",
+    "soundEventIdentifier": "block.metal.break"
+  }

@@ -1,0 +1,65 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "transitionalItem": {
+      "item": "railways:track_incomplete_phantom"
+    },
+    "sequence": [
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "railways:track_incomplete_phantom"
+          },
+          {
+            "item": "tfc:metal/ingot/wrought_iron"
+          }
+        ],
+        "results": [
+          {
+            "item": "railways:track_incomplete_phantom"
+          }
+        ],
+        "keepHeldItem": true
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "railways:track_incomplete_phantom"
+          },
+          {
+            "item": "tfc:metal/ingot/wrought_iron"
+          }
+        ],
+        "results": [
+          {
+            "item": "railways:track_incomplete_phantom"
+          }
+        ],
+        "keepHeldItem": true
+      },
+      {
+        "type": "create:pressing",
+        "ingredients": [
+          {
+            "item": "railways:track_incomplete_phantom"
+          }
+        ],
+        "results": [
+          {
+            "item": "railways:track_incomplete_phantom"
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "item": "railways:track_phantom",
+        "chance": 32
+      }
+    ],
+    "loops": 1
+  }
