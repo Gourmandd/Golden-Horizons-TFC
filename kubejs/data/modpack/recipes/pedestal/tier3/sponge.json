@@ -1,0 +1,30 @@
+{
+  "type": "spectrum:pedestal",
+  "time": 1000,
+  "tier": "advanced",
+  "cyan": 4,
+  "magenta": 0,
+  "yellow": 4,
+  "black": 0,
+  "white": 0,
+  "experience": 1.0,
+  "skip_recipe_remainders": true,
+  "pattern": [
+    "PAP",
+    "APA",
+    "PAP"
+  ],
+  "key": {
+    "A": {
+      "item": "spectrum:raw_azurite"
+    },
+    "P": {
+      "item": "coralstfc:coral_powder"
+    }
+  },
+  "result": {
+    "item": "minecraft:sponge",
+    "count": 1
+  },
+  "required_advancement": "spectrum:midgame/collect_azurite"
+}

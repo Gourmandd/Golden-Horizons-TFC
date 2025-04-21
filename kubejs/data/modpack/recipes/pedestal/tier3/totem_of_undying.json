@@ -1,0 +1,39 @@
+{
+  "type": "spectrum:pedestal",
+  "time": 1200,
+  "tier": "advanced",
+  "cyan": 4,
+  "magenta": 0,
+  "yellow": 4,
+  "black": 4,
+  "white": 0,
+  "experience": 2.0,
+  "skip_recipe_remainders": true,
+  "pattern": [
+    "VGV",
+    "ENE",
+    "GCG"
+  ],
+  "key": {
+    "V": {
+      "item": "spectrum:vegetal"
+    },
+    "N": {
+      "item": "spectrum:bottle_of_failing"
+    },
+    "G": {
+      "item": "tfc:metal/double_ingot/rose_gold"
+    },
+    "E": {
+      "item": "tfc:gem/emerald"
+    },
+    "C": {
+      "item": "spectrum:midnight_chip"
+    }
+  },
+  "result": {
+    "item": "minecraft:totem_of_undying",
+    "count": 1
+  },
+  "required_advancement": "spectrum:midgame/collect_midnight_chip"
+}
