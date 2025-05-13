@@ -1,0 +1,12 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+      "item": "architects_palette:nether_brass_blend"
+    },
+    "result_item": {
+      "stack": {
+        "item": "architects_palette:nether_brass_ingot"
+      }
+    },
+    "temperature": 1435
+  }

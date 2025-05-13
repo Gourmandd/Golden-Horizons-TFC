@@ -1,0 +1,10 @@
+{
+    "type": "spectrum:midnight_solution_converting",
+    "ingredient": {
+      "item": "tfc:rock/raw/andesite"
+    },
+    "result": {
+      "item": "architects_palette:esoterrack",
+      "count": 1
+    }
+  }

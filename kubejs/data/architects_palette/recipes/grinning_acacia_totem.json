@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "SAS",
+      " A "
+    ],
+    "key": {
+      "A": {
+        "item": "tfc:wood/stripped_log/acacia"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "architects_palette:grinning_acacia_totem",
+      "count": 2
+    }
+  }

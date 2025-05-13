@@ -1,0 +1,12 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+      "item": "architects_palette:wardstone_blend"
+    },
+    "result_item": {
+      "stack": {
+        "item": "architects_palette:wardstone_brick"
+      }
+    },
+    "temperature": 1535
+  }

@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "SSS",
+      "SOS",
+      "SSS"
+    ],
+    "key": {
+      "O": {
+        "item": "minecraft:redstone"
+      },
+      "S": {
+        "tag": "forge:stone_bricks"
+      }
+    },
+    "result": {
+      "item": "architects_palette:redstone_ore_bricks",
+      "count": 8
+    }
+  }

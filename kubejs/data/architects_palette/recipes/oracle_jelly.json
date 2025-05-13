@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [ 
+    {
+        "item": "minecraft:clay_ball"
+    },
+    {
+        "item": "tfc:powder/amethyst"
+    },
+    {
+        "item": "minecraft:sugar"
+    }, 
+    {
+        "item": "tfc:glue"
+    }
+    ],
+    "result": {
+        "item": "architects_palette:oracle_jelly",
+        "count": 4
+    }
+}

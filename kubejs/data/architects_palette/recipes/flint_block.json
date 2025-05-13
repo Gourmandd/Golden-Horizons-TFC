@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "BMB",
+      "MBM",
+      "BMB"
+    ],
+    "key": {
+      "B": {
+        "item": "minecraft:flint"
+      },
+      "M": {
+        "item": "tfc:mortar"
+      }
+    },
+    "result": {
+      "item": "architects_palette:flint_block",
+      "count": 4
+    }
+  }

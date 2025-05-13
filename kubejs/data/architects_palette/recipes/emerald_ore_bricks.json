@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "SSS",
+      "SOS",
+      "SSS"
+    ],
+    "key": {
+      "O": {
+        "item": "tfc:gem/emerald"
+      },
+      "S": {
+        "tag": "forge:stone_bricks"
+      }
+    },
+    "result": {
+      "item": "architects_palette:emerald_ore_bricks",
+      "count": 8
+    }
+  }

@@ -1,0 +1,12 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+      "item": "architects_palette:sunmetal_blend"
+    },
+    "result_item": {
+      "stack": {
+        "item": "architects_palette:sunmetal_brick"
+      }
+    },
+    "temperature": 1365
+  }

@@ -1,0 +1,16 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+      "item": "tfc:metal/sheet/wrought_iron"
+    },
+    "result": {
+      "item": "architects_palette:sheet_metal_block",
+      "count": 2
+    },
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "bend_second_last",
+      "punch_third_last"
+    ]
+  }

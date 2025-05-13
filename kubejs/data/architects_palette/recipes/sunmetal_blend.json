@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [ 
+    {
+        "item": "minecraft:clay_ball"
+    },
+        {
+        "item": "minecraft:clay_ball"
+    },
+    {
+        "item": "minecraft:gold_nugget"
+    },
+    {
+        "item": "minecraft:gold_nugget"
+    },
+    {
+        "item": "tfc:powder/hematite"
+    }
+    ],
+    "result": {
+        "item": "architects_palette:sunmetal_blend",
+        "count": 2
+    }
+}

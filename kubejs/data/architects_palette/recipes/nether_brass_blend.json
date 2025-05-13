@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [ 
+    {
+        "item": "minecraft:clay_ball"
+    },
+    {
+        "item": "minecraft:clay_ball"
+    },
+    {
+        "item": "minecraft:gold_nugget"
+    },
+    {
+        "item": "create:copper_nugget"
+    },
+    {
+        "item": "tfc:powder/cassiterite"
+    }
+    ],
+    "result": {
+        "item": "architects_palette:nether_brass_blend",
+        "count": 2
+    }
+}

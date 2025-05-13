@@ -1,0 +1,10 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+      "item": "architects_palette:abyssaline_lamp"
+    },
+    "result_item": {
+      "item": "architects_palette:hadaline_lamp"
+    },
+    "temperature": 1535
+  }

@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "SA"
+    ],
+    "key": {
+      "A": {
+        "item": "tfc:wood/leaves/acacia"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "architects_palette:acacia_totem_wing",
+      "count": 2
+    }
+  }

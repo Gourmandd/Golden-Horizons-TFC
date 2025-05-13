@@ -1,0 +1,10 @@
+{
+    "type": "spectrum:midnight_solution_converting",
+    "ingredient": {
+      "item": "architects_palette:rotten_flesh_block"
+    },
+    "result": {
+      "item": "architects_palette:entrails",
+      "count": 1
+    }
+  }

@@ -1,0 +1,20 @@
+{
+    "type": "tfc:damage_inputs_shapeless_crafting",
+    "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [ 
+        {
+            "item": "minecraft:end_stone_bricks"
+        },
+        {
+            "item": "minecraft:purple_dye"
+        }, 
+        {
+            "tag": "tfc:chisels"
+        }
+        ],
+        "result": {
+            "item": "architects_palette:choral_end_stone_bricks"
+        }
+    }
+}

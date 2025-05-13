@@ -1,0 +1,17 @@
+{
+  "ingredient": [
+    {
+      "item": "architects_palette:algal_blend"
+    },
+    {
+      "item": "architects_palette:sunmetal_blend"
+    },
+    {
+      "item": "architects_palette:nether_brass_blend"
+    },
+    {
+      "item": "architects_palette:wardstone_blend"
+    }
+  ],
+  "heat_capacity": 0.4
+}

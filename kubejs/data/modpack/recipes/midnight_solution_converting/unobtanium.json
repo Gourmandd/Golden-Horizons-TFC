@@ -1,0 +1,10 @@
+{
+    "type": "spectrum:midnight_solution_converting",
+    "ingredient": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "result": {
+      "item": "architects_palette:unobtanium",
+      "count": 1
+    }
+  }

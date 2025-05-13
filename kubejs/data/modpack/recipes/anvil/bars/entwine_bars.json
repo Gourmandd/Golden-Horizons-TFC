@@ -1,0 +1,16 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+      "item": "architects_palette:entwine_rod"
+    },
+    "result": {
+      "item": "architects_palette:entwine_bars",
+      "count": 4
+    },
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ]
+  }

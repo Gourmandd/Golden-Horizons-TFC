@@ -1,0 +1,12 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+      "item": "architects_palette:algal_blend"
+    },
+    "result_item": {
+      "stack": {
+        "item": "architects_palette:algal_brick"
+      }
+    },
+    "temperature": 1385
+  }

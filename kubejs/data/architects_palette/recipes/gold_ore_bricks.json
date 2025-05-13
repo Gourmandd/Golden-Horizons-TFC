@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "SSS",
+      "SOS",
+      "SSS"
+    ],
+    "key": {
+      "O": {
+        "item": "tfc:metal/ingot/gold"
+      },
+      "S": {
+        "tag": "forge:stone_bricks"
+      }
+    },
+    "result": {
+      "item": "architects_palette:gold_ore_bricks",
+      "count": 8
+    }
+  }

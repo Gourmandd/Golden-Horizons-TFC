@@ -1,0 +1,10 @@
+{
+    "type": "spectrum:midnight_solution_converting",
+    "ingredient": {
+      "item": "tfc:rock/raw/diorite"
+    },
+    "result": {
+      "item": "architects_palette:nebulite",
+      "count": 1
+    }
+  }

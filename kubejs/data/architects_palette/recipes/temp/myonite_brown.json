@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "SSS",
+      "SMS",
+      "SSS"
+    ],
+    "key": {
+      "M": {
+        "tag": "c:mushrooms"
+      },
+      "S": {
+        "tag": "forge:stone"
+      }
+    },
+    "result": {
+      "item": "architects_palette:myonite",
+      "count": 8
+    }
+  }

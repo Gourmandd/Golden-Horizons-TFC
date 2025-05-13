@@ -1,0 +1,10 @@
+{
+    "type": "spectrum:midnight_solution_converting",
+    "ingredient": {
+      "item": "minecraft:clay"
+    },
+    "result": {
+      "item": "architects_palette:warpstone",
+      "count": 1
+    }
+  }

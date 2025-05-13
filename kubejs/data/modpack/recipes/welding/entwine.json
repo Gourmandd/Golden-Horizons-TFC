@@ -1,0 +1,14 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "tfc:metal/ingot/wrought_iron"
+  },
+  "second_input": {
+    "item": "minecraft:ender_pearl"
+  },
+  "tier": 3,
+  "result": {
+    "item": "architects_palette:entwine_rod",
+    "count": 8
+  }
+}

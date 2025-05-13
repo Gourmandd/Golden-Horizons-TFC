@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [ 
+    {
+        "item": "minecraft:clay_ball"
+    },
+    {
+        "item": "minecraft:clay_ball"
+    },
+    {
+        "item": "minecraft:charcoal"
+    }, 
+    {
+        "item": "minecraft:quartz"
+    }
+    ],
+    "result": {
+        "item": "architects_palette:cerebral_plate",
+        "count": 4
+    }
+}

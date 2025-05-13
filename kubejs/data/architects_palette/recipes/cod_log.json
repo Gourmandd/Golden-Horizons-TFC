@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FF",
+    "FF"
+  ],
+  "key": {
+    "F": {
+      "item": "tfc:food/cod"
+    }
+  },
+  "result": {
+    "item": "architects_palette:cod_log",
+    "amount": 6
+  }
+}
