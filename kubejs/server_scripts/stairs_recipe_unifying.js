@@ -10,10 +10,14 @@ ServerEvents.recipes(event =>{
     // Thank you to the original author! KJS example scripts continue to be helpful!
     event.forEachRecipe({ type: 'minecraft:crafting_shaped', output: '#minecraft:stairs' }, r => {
         let ingredients = r.originalRecipeIngredients // returns a List<Ingredient>
-        let output = r.originalRecipeResult        // returns an ItemStack
+        let output = r.originalRecipeResult    // returns an ItemStack
         event.shaped(Item.of(output.id, 8), ['S  ', 'SS ', 'SSS' ], { S: ingredients[0] }).id(r.getId())
+        
+        // stairs can be returned to blocks at 4 stairs to 3 blocks 
+        event.shaped(Item.of(ingredients[0], 3), ['SS', 'SS'], { S: output.id }).id("modpack:stairs_to_blocks/" + Item.of(ingredients[0]).getId().replace(":", "/"))
       })
 })
+
 
 ServerEvents.tags("item", event =>{
   global.DYE_COLOURS.forEach(colour =>{

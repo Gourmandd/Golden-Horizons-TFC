@@ -10,6 +10,7 @@ ServerEvents.recipes(event =>{
         "quark:myalite": "quark:polished_myalite",
         "quark:shale": "quark:polished_shale",
         "minecraft:calcite": "quark:polished_calcite",
+        "minecraft:calcite": "hearth_and_home:polished_calcite",
         "minecraft:dripstone_block": "quark:polished_dripstone",
         "minecraft:tuff": "quark:polished_tuff",
         "minecraft:cobbled_deepslate": "minecraft:polished_deepslate",
@@ -32,16 +33,24 @@ ServerEvents.recipes(event =>{
         "create:ochrum": "create:cut_ochrum",
         "create:scorchia": "create:cut_scorchia",
         "create:veridium": "create:cut_veridium",
+
+        "architects_palette:abyssaline": "architects_palette:abyssaline_plating",
+        "architects_palette:hadaline": "architects_palette:hadaline_plating",
+
+        "architects_palette:nebulite": "architects_palette:polished_nebulite",
+        "minecraft:glowstone": "architects_palette:polished_glowstone"
     }
 
     Object.keys(STONE_POLISHING).forEach(entry =>{
         let id = "modpack:crafting/shapeless/polishing/" + Item.of(STONE_POLISHING[entry]).getMod() + "/" + entry.split(":").pop()
         event.recipes.tfc.damage_inputs_shapeless_crafting(
-            event.shapeless(STONE_POLISHING[entry] ,[entry ,"#tfc:chisels"])
+            event.shapeless(STONE_POLISHING[entry] ,[entry ,"#create:sandpaper"])
         ).id(id)
     })
 
     const BRICKS_MAKING = {
+        "minecraft:netherrack": "quark:netherrack_bricks",
+        "minecraft:end_stone": "minecraft:end_stone_bricks",
         "minecraft:stone": "minecraft:stone_bricks",
         "minecraft:granite": "quark:granite_bricks",
         "minecraft:diorite": "quark:diorite_bricks",
@@ -63,6 +72,31 @@ ServerEvents.recipes(event =>{
         "spectrum:exposed_polished_shale_clay": "spectrum:exposed_shale_clay_bricks",
         "spectrum:weathered_polished_shale_clay": "spectrum:weathered_shale_clay_bricks",
         "spectrum:polished_basal_marble": "spectrum:basal_marble_bricks",
+
+        "minecraft:packed_ice": "architects_palette:polished_packed_ice",
+        "architects_palette:nether_brass_block": "architects_palette:cut_nether_brass",
+        "architects_palette:flint_block": "architects_palette:flint_tiles",
+        "minecraft:bone_block": "architects_palette:osseous_bricks",
+        "architects_palette:withered_bone_block": "architects_palette:withered_osseous_bricks",
+        "minecraft:basalt": "architects_palette:basalt_tiles",
+        "quark:dripstone_bricks": "architects_palette:dripstone_bricks",
+        "quark:calcite_bricks": "architects_palette:calcite_bricks",
+        "quark:tuff_bricks": "architects_palette:tuff_bricks",
+        "architects_palette:esoterrack": "architects_palette:esoterrack_bricks",
+        "architects_palette:wardstone": "architects_palette:wardstone_bricks",
+        "architects_palette:onyx": "architects_palette:onyx_bricks",
+        "architects_palette:moonshale": "architects_palette:moonshale_bricks",
+        "architects_palette:cerebral_block": "architects_palette:cerebral_tiles",
+        "architects_palette:oracle_block": "architects_palette:oracle_bricks",
+        "architects_palette:oracle_bricks": "architects_palette:oracle_tiles",
+        "architects_palette:olivestone_bricks": "architects_palette:olivestone_tiles",
+        "architects_palette:abyssaline": "architects_palette:abyssaline_bricks",
+        "architects_palette:abyssaline_bricks": "architects_palette:abyssaline_tiles",
+
+        "architects_palette:hadaline": "architects_palette:hadaline_bricks",
+        "architects_palette:hadaline_bricks": "architects_palette:hadaline_tiles"
+
+
     }
 
     Object.keys(BRICKS_MAKING).forEach(entry =>{

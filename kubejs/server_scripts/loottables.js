@@ -38,6 +38,23 @@ LootJS.modifiers((event) => {
     event.addBlockLootModifier("quark:midori_pillar").addLoot("quark:moss_paste").removeLoot("quark:midori_pillar")
     event.addBlockLootModifier("quark:midori_block_stairs").addLoot("quark:moss_paste").removeLoot("quark:midori_block_stairs")
     event.addBlockLootModifier("quark:midori_block_slab").addLoot("quark:moss_paste").removeLoot("quark:midori_block_slab")
+
+
+    global.DYE_COLOURS.forEach(colour =>{
+        event.addBlockLootModifier("spectrum:" + colour + "_sapling").replaceLoot("minecraft:oak_sapling", "tfc:wood/sapling/oak")
+        event.addBlockLootModifier("spectrum:" + colour + "_leaves").replaceLoot("minecraft:oak_sapling", "tfc:wood/sapling/oak").replaceLoot("minecraft:oak_leaves", "tfc:wood/leaves/oak")
+        event.addBlockLootModifier("spectrum:" + colour + "_log").replaceLoot("minecraft:oak_log", "tfc:wood/log/oak")
+        event.addBlockLootModifier("spectrum:stripped_" + colour + "_log").replaceLoot("minecraft:stripped_oak_log", "tfc:wood/stripped_log/oak")
+        event.addBlockLootModifier("spectrum:" + colour + "_wood").replaceLoot("minecraft:oak_wood", "tfc:wood/wood/oak")
+        event.addBlockLootModifier("spectrum:stripped_" + colour + "_wood").replaceLoot("minecraft:stripped_oak_wood", "tfc:wood/stripped_wood/oak")
+        event.addBlockLootModifier("spectrum:" + colour + "_planks").replaceLoot("minecraft:oak_planks", "tfc:wood/planks/oak")
+        event.addBlockLootModifier("spectrum:" + colour + "_stairs").replaceLoot("minecraft:oak_stairs", "tfc:wood/planks/oak_stairs")
+        event.addBlockLootModifier("spectrum:" + colour + "_pressure_plate").replaceLoot("minecraft:oak_pressure_plate", "tfc:wood/planks/oak_pressure_plate")
+        event.addBlockLootModifier("spectrum:" + colour + "_slab").replaceLoot("minecraft:oak_slab", "tfc:wood/planks/oak_slab")
+        event.addBlockLootModifier("spectrum:" + colour + "_fence").replaceLoot("minecraft:oak_fence", "tfc:wood/planks/oak_fence")
+        event.addBlockLootModifier("spectrum:" + colour + "_fence_gate").replaceLoot("minecraft:oak_fence_gate", "tfc:wood/planks/oak_fence_gate")
+        event.addBlockLootModifier("spectrum:" + colour + "_button").replaceLoot("minecraft:oak_button", "tfc:wood/planks/oak_button")
+    })
 })
 
 } catch(e) {
