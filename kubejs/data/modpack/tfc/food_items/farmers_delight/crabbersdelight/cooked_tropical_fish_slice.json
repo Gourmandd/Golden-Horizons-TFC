@@ -1,9 +1,0 @@
-{
-    "ingredient": {
-      "item": "crabbersdelight:cooked_tropical_fish_slice"
-    },
-    "decay_modifier": 3,
-    "hunger": 3,
-    "saturation": 2,
-    "protein": 0.5
-}

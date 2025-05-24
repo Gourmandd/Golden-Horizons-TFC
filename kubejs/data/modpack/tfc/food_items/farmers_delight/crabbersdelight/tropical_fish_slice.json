@@ -1,8 +1,0 @@
-{
-    "ingredient": {
-      "item": "crabbersdelight:tropical_fish_slice"
-    },
-    "decay_modifier": 3,
-    "hunger": 3,
-    "protein": 0.5
-}

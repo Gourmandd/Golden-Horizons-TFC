@@ -1,9 +1,0 @@
-{
-  "ingredient": {
-    "item": "crabbersdelight:cooked_crab"
-  },
-  "decay_modifier": 5,
-  "hunger": 3,
-  "saturation": 1,
-  "protein": 0.5
-}

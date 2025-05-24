@@ -1,8 +1,0 @@
-{
-    "ingredient": {
-      "item": "crabbersdelight:raw_clam_meat"
-    },
-    "decay_modifier": 3,
-    "hunger": 3,
-    "protein": 0.5
-}
