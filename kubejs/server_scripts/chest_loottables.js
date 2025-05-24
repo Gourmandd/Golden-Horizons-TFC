@@ -59,6 +59,7 @@ LootJS.modifiers((event) => {
         "minecraft:iron_chestplate": "tfc:metal/chestplate/wrought_iron",
         "minecraft:iron_leggings": "tfc:metal/leggings/wrought_iron",
         "minecraft:iron_boots": "tfc:metal/boots/wrought_iron",
+        "farmersdelight:iron_knife": "tfc:metal/knife/wrought_iron",
         "minecraft:diamond_sword": "tfc:metal/sword/black_steel",
         "minecraft:diamond_hoe": "tfc:metal/hoe/black_steel",
         "minecraft:diamond_axe": "tfc:metal/axe/black_steel",

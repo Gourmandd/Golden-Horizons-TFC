@@ -52,17 +52,17 @@ ServerEvents.tags("item", event =>{
 })
 
 ServerEvents.recipes(event =>{
-    event.recipes.tfc.heating("#modpack:copper_shingles", 1080).resultFluid(Fluid.of("tfc:metal/copper", 50))
-    event.recipes.tfc.heating("#modpack:copper_shingle_stairs", 1080).resultFluid(Fluid.of("tfc:metal/copper", 25))
-    event.recipes.tfc.heating("#modpack:copper_shingle_slabs", 1080).resultFluid(Fluid.of("tfc:metal/copper", 25))
-    event.recipes.tfc.heating("#modpack:copper_tiles", 1080).resultFluid(Fluid.of("tfc:metal/copper", 50))
-    event.recipes.tfc.heating("#modpack:copper_tile_stairs", 1080).resultFluid(Fluid.of("tfc:metal/copper", 25))
-    event.recipes.tfc.heating("#modpack:copper_tile_slabs", 1080).resultFluid(Fluid.of("tfc:metal/copper", 25))
-    event.recipes.tfc.heating("#modpack:cut_copper_roofs", 1080).resultFluid(Fluid.of("tfc:metal/copper", 25))
-    event.recipes.tfc.heating("#modpack:cut_copper_blocks", 1080).resultFluid(Fluid.of("tfc:metal/copper", 50))
-    event.recipes.tfc.heating("#modpack:cut_copper_stairs", 1080).resultFluid(Fluid.of("tfc:metal/copper", 25))
-    event.recipes.tfc.heating("#modpack:cut_copper_slabs", 1080).resultFluid(Fluid.of("tfc:metal/copper", 25))
-    event.recipes.tfc.heating("#modpack:copper_shutters", 1080).resultFluid(Fluid.of("tfc:metal/copper", 50))
+    event.recipes.tfc.heating("#modpack:copper_shingles", 1080).resultFluid(Fluid.of("tfc:metal/copper", 50)).id("modpack:heating/melting/copper_shingles")
+    event.recipes.tfc.heating("#modpack:copper_shingle_stairs", 1080).resultFluid(Fluid.of("tfc:metal/copper", 25)).id("modpack:heating/melting/copper_shingle_stairs")
+    event.recipes.tfc.heating("#modpack:copper_shingle_slabs", 1080).resultFluid(Fluid.of("tfc:metal/copper", 25)).id("modpack:heating/melting/copper_shingle_slabs")
+    event.recipes.tfc.heating("#modpack:copper_tiles", 1080).resultFluid(Fluid.of("tfc:metal/copper", 50)).id("modpack:heating/melting/copper_tiles")
+    event.recipes.tfc.heating("#modpack:copper_tile_stairs", 1080).resultFluid(Fluid.of("tfc:metal/copper", 25)).id("modpack:heating/melting/copper_tile_stairs")
+    event.recipes.tfc.heating("#modpack:copper_tile_slabs", 1080).resultFluid(Fluid.of("tfc:metal/copper", 25)).id("modpack:heating/melting/copper_tile_slabs")
+    event.recipes.tfc.heating("#modpack:cut_copper_roofs", 1080).resultFluid(Fluid.of("tfc:metal/copper", 25)).id("modpack:heating/melting/cut_copper_roofs")
+    event.recipes.tfc.heating("#modpack:cut_copper_blocks", 1080).resultFluid(Fluid.of("tfc:metal/copper", 50)).id("modpack:heating/melting/cut_copper_blocks")
+    event.recipes.tfc.heating("#modpack:cut_copper_stairs", 1080).resultFluid(Fluid.of("tfc:metal/copper", 25)).id("modpack:heating/melting/cut_copper_stairs")
+    event.recipes.tfc.heating("#modpack:cut_copper_slabs", 1080).resultFluid(Fluid.of("tfc:metal/copper", 25)).id("modpack:heating/melting/cut_copper_slabs")
+    event.recipes.tfc.heating("#modpack:copper_shutters", 1080).resultFluid(Fluid.of("tfc:metal/copper", 50)).id("modpack:heating/melting/copper_shutters")
 })
 
 TFCEvents.data(event =>{
