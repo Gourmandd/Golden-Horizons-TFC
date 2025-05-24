@@ -508,6 +508,79 @@ global.ORE_TO_METAL = {
   "sphalerite": "zinc",
 }
 
+global.TFC_ORES = [
+  "bismuthinite",
+  "cassiterite",
+  "garnierite",
+  "hematite",
+  "limonite",
+  "magnetite",
+  "malachite",
+  "native_copper",
+  "tetrahedrite",
+  "native_gold",
+  "native_silver",
+  "sphalerite",
+]
+
+global.FIRMALIFE_ORES = [
+  "chromite",
+]
+
+global.ORE_MINING_TIERS = {
+  "bismuthinite": "tfc:needs_copper_tool",
+  "cassiterite": "tfc:needs_copper_tool",
+  "garnierite": "tfc:bronze_tool",
+  "chromite": "tfc:needs_copper_tool",
+  "hematite": "tfc:needs_copper_tool",
+  "limonite": "tfc:needs_copper_tool",
+  "magnetite": "tfc:needs_copper_tool",
+  "malachite": "tfc:needs_copper_tool",
+  "native_copper": "tfc:needs_copper_tool",
+  "tetrahedrite": "tfc:needs_copper_tool",
+  "native_gold": "tfc:needs_copper_tool",
+  "native_silver": "tfc:needs_copper_tool",
+  "sphalerite": "tfc:needs_copper_tool",
+  "amethyst": "tfc:needs_steel_tool",
+  "diamond": "tfc:needs_black_steel_tool",
+  "emerald": "tfc:needs_steel_tool",
+  "lapis_lazuli": "tfc:needs_bronze_tool",
+  "opal": "tfc:needs_bronze_tool",
+  "pyrite": "tfc:needs_copper_tool",
+  "ruby": "tfc:needs_black_steel_tool",
+  "sapphire": "tfc:needs_black_steel_tool",
+  "topaz": "tfc:needs_steel_tool",
+  "sylvite": "tfc:needs_copper_tool",
+  "saltpeter": "tfc:needs_copper_tool",
+  "halite": "tfc:needs_bronze_tool",
+  "cryolite": "tfc:needs_bronze_tool",
+  "cinnabar": "tfc:needs_bronze_tool",
+  "sulfur": "tfc:needs_copper_tool",
+  "graphite": "tfc:needs_copper_tool",
+  "lignite": "tfc:needs_copper_tool",
+  "bituminous_coal": "tfc:needs_copper_tool",
+  "gypsum": "tfc:needs_copper_tool",
+  "borax": "tfc:needs_copper_tool",
+  "shimmerstone": "tfc:needs_copper_tool",
+  "azurite": "tfc:needs_steel_tool",
+  "stratine": "tfc:needs_steel_tool",
+  "paltaeria": "tfc:needs_black_steel_tool",
+  "malachite": "tfc:needs_steel_tool",
+}
+
+global.TFC_MINERALS = [
+  "sylvite",
+  "saltpeter",
+  "halite",
+  "cryolite",
+  "cinnabar",
+  "sulfur",
+  "graphite",
+  "lignite",
+  "bituminous_coal",
+  "gypsum",
+  "borax",
+]
 global.TFC_SAND_COLOURS = [
   "black",
   "brown",
@@ -557,11 +630,19 @@ global.SPECTRUM_OVERWORLD_ORES = [
 ]
 
 // Deeper Down unique ores
-global.SPECTRUM_DEEPERDOWN_ORES = [
-  
+global.SPECTRUM_DEEPER_DOWN_ORES = [
+  "malachite"
 ]
 
 // TFC ores that will appear in the Deeper Down
 global.TFC_DEEPERDOWN_ORES = [
   
+]
+
+global.DEEPER_DOWN_ROCK_TYPES = [
+  "argillite",
+  "nephelinite",
+  "blackslag",
+  "travertine",
+  "picrite_basalt",
 ]

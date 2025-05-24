@@ -27,18 +27,66 @@ StartupEvents.registry("block", event =>{
             .tagBlock("precisionprospecting:prospectable_mineral")
     }
 
-    const SPECTRUM_ORE_DATA = {
-        "shimmerstone": {"drop": "spectrum:shimmerstone_gem", "tier": "tfc:needs_copper_tool"},
-        "azurite": {"drop": "spectrum:raw_azurite", "tier": "tfc:needs_steel_tool"},
-        "stratine": {"drop": "spectrum:stratine_fragments", "tier": "tfc:needs_steel_tool"},
-        "paltaeria": {"drop": "spectrum:paltaeria_fragments", "tier": "tfc:needs_black_steel_tool"}
-    }
+    const DEEPER_DOWN_STONES = [
+        "argillite", //classic stone
+        "nephelinite", //deepslate
+        "blackslag", //blackslag
+        "travertine", //dripstone
+        "picrite_basalt" //basal marble
+    ]
+
+    const ORE_BLOCK_GRADES = [
+        "normal",
+        "poor",
+        "rich",
+    ]
 
     global.SPECTRUM_OVERWORLD_ORES.forEach(ore => {
         global.ROCK_TYPES.forEach(rockType =>{
-            createOre(ore, rockType, SPECTRUM_ORE_DATA[ore].tier)
+            createOre(ore, rockType, global.ORE_MINING_TIERS[ore])
+        })
+
+        DEEPER_DOWN_STONES.forEach(rockType =>{
+            createOre(ore, rockType, global.ORE_MINING_TIERS[ore])
         })
     })
+
+    global.SPECTRUM_DEEPER_DOWN_ORES.forEach(ore =>{
+        global.ROCK_TYPES.forEach(rockType =>{
+            createOre(ore, rockType, global.ORE_MINING_TIERS[ore])
+        })
+
+        DEEPER_DOWN_STONES.forEach(rockType =>{
+            createOre(ore, rockType, global.ORE_MINING_TIERS[ore])
+        })
+    })
+
+    // generate TFC ores with deeper down stones.
+    DEEPER_DOWN_STONES.forEach(rockType =>{
+
+        global.TFC_GEMS.forEach(ore =>{
+            createOre(ore, rockType, global.ORE_MINING_TIERS[ore])
+        })
+
+        global.TFC_MINERALS.forEach(ore =>{
+            createOre(ore, rockType, global.ORE_MINING_TIERS[ore])
+        })
+
+        global.TFC_ORES.forEach(ore =>{
+            ORE_BLOCK_GRADES.forEach(grade =>{
+                createOre(grade + "_" + ore, rockType, global.ORE_MINING_TIERS[ore])
+            })
+        })
+
+        global.FIRMALIFE_ORES.forEach(ore =>{
+            ORE_BLOCK_GRADES.forEach(grade =>{
+                createOre(grade + "_" + ore, rockType, global.ORE_MINING_TIERS[ore])
+            })
+        })
+    })
+    
+
+
     
     //event.createCustom("kubejs:shimmerore", new $ShimmerstoneOreBlock($FabricBlockSettings.copyOf($Blocks.IRON_ORE).ticksRandomly(), $UniformInt.CODEC.intRange(2, 4), $SpectrumAdvancements.REVEAL_SHIMMERSTONE, $Blocks.STONE.defaultBlockState) )
 
