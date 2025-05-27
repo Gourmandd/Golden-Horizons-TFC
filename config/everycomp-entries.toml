@@ -69,6 +69,9 @@
 			black = true
 			weeping_gala = true
 
+		[types.wood_type.architects_palette]
+			twisted = true
+
 	[types.leaves_type]
 
 		[types.leaves_type.caupona]
@@ -104,6 +107,9 @@
 			weeping_gala = true
 			nephrite_blossom = true
 			spirit_sallow = true
+
+		[types.leaves_type.architects_palette]
+			twisted = true
 
 #Disables specific entries
 [entries]
@@ -151,6 +157,13 @@
 
 		[entries.wood_type.shutter]
 			shutter = true
+
+		[entries.wood_type.architects_palette]
+			board_stairs = true
+			railing = true
+			board_slab = true
+			boards = true
+			board_wall = true
 
 	[entries.leaves_type]
 
