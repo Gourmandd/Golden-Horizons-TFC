@@ -1,0 +1,12 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+      "item": "minecraft:calcite"
+    },
+    "result_item": {
+      "stack": {
+        "item": "spectrum:polished_calcite"
+      }
+    },
+    "temperature": 1535
+  }
