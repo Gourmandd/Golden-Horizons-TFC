@@ -1,0 +1,16 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+      "item": "createaddition:copper_wire"
+    },
+    "result": {
+      "item": "simpleradio:copper_wire",
+      "count": 2
+    },
+    "tier": 1,
+    "rules": [
+      "bend_last",
+      "upset_second_last",
+      "hit_third_last"
+    ]
+  }

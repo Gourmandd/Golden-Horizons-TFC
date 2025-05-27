@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RDR",
+    "LCL",
+    " M "
+  ],
+  "key": {
+    "C": {
+      "item": "create:brass_casing"
+    },
+    "D": {
+      "item": "create:display_board"
+    },
+    "L": {
+      "tag": "minecraft:buttons"
+    },
+    "M": {
+      "item": "kubejs:oscillating_mechanism"
+    },
+    "R": {
+      "item": "tfc:metal/rod/copper"
+    }
+  },
+  "result": {
+    "item": "simpleradio:transmitter"
+  }
+}

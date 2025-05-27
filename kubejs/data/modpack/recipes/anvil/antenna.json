@@ -1,0 +1,16 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+      "item": "tfc:metal/double_ingot/wrought_iron"
+    },
+    "result": {
+      "item": "simpleradio:antenna",
+      "count": 8
+    },
+    "tier": 3,
+    "rules": [
+      "bend_last",
+      "upset_second_last",
+      "hit_third_last"
+    ]
+  }
