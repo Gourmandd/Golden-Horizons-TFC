@@ -1,0 +1,133 @@
+{
+  "music.game": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "tfc:music/m0-dreams_of_the_phae",
+        "weight": 3,
+        "stream": true
+      },
+      {
+        "name": "tfc:music/m1-firmavista",
+        "weight": 3,
+        "stream": true
+      },
+      {
+        "name": "tfc:music/m2-sycamore_heights",
+        "weight": 3,
+        "stream": true
+      },
+      {
+        "name": "tfc:music/m3-terrafirmacraft",
+        "weight": 3,
+        "stream": true
+      },
+      {
+        "name": "tfc:music/m4-through_the_willows",
+        "weight": 3,
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative1",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative6",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "music/game/key",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano2",
+        "stream": true
+      }
+    ]
+  },
+  "music.menu": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "tfc:music/m0-dreams_of_the_phae",
+        "stream": true
+      },
+      {
+        "name": "tfc:music/m1-firmavista",
+        "stream": true
+      },
+      {
+        "name": "tfc:music/m2-sycamore_heights",
+        "stream": true
+      },
+      {
+        "name": "tfc:music/m3-terrafirmacraft",
+        "stream": true
+      },
+      {
+        "name": "tfc:music/m4-through_the_willows",
+        "stream": true
+      }
+    ]
+  }
+}
