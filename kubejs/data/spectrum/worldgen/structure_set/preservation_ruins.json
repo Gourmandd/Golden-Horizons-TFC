@@ -1,18 +1,18 @@
 {
-    "placement": {
-      "type": "tfc:climate",
-      "spacing": 6,
-      "separation": 4,
-      "salt": 1646207470,
-      "climate": {
-          "min_temperature": 0,
-          "max_rainfall": 400
-      }
-    },
-    "structures": [
-      {
-        "structure": "spectrum:preservation_ruins",
-        "weight": 1
-      }
-    ]
-  }
+  "placement": {
+    "type": "tfc:climate",
+    "salt": 10387312,
+    "separation": 14,
+    "spacing": 16,
+	"climate": {
+		"min_temperature": 0,
+		"max_rainfall": 400
+	}
+  },
+  "structures": [
+    {
+      "structure": "spectrum:preservation_ruins",
+      "weight": 1
+    }
+  ]
+}
