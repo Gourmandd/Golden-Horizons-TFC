@@ -56,3 +56,5 @@ config/voicechat/username-cache.json
 #temporary
 /icon.png
 
+servers.dat
+servers.dat_old
