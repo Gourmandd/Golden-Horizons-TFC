@@ -2,6 +2,57 @@
 
 All of the changelogs since 0.1 that was posted on Modrinth
 
+# Golden Horizons 1.8 
+
+This update sees a good few random bits and bobs, mostly from mod updates. The beginning of the TFC x Spectrum compatibility has been implemented, Spectrum's early to mid-game should be fully accessable (keep in mind that the ores are a bit tricky to find). No compatibility other than recipes has been made to the lategame, while "the place" is accessable I havn't touched it at all. Some minor nitpicks also need to be sorted out with Spectrums earlygame. Create v6 in the modpack is on the horizon, Create Big Cannons just released a beta release that is compatible.
+
+I'm considering making a public Trello board for ideas and concepts, aswell as tracking certain features. Any thoughts?
+I don't think I can make the board items publically editable but ping me and I can make a suggestion item for you, plus it means you don't need a Trello account.
+
+## New content
+
+- Spectrum's worldgen features are now seen in the world, watch out for mysterious rocks and basalt spheres!
+- Almost full recipes compatibility for Spectrum with TFC, most recipe types were checked over.
+- Added Architects Palette and made all its recipes compatible.
+- Reworked how to get polished and brick blocks from other mods and vanilla. (considering making it an in-world interaction?)
+- Loot table auto compatibility script, this might have been the hardest part of adding structures: making sure players didn't get vanilla items instead of TFC ones.
+- New hand-drawn modpack icon. 
+- Fixed a few misc recipes like for cannon parts, that were unobtainable or missing.
+- Added TFC music support to Now Playing (it shows the right name and artist)
+- I want feedback on this, Vanilla music (only C418 tracks) has been added as a uncommon track to play instead of just having the 4 same TFC tracks playing. Menu Music is the same (except for a little secret).
+- Updated TFC Artisanal, did some minor additions to its new content.
+- Updated Simple Voice Radios, this is a large update and the create themed resource pack has been removed since it was for a much older version of the mod. (I might try to make something similar.)
+
+## Modlist changes
+
+Added
+
+- Firmaciv+
+- Async Locate
+- Flevorium
+- Now playing
+- Forge CIT (support for resource packs, but also for an idea I have)
+- Architects Palette
+
+Removed
+- Crabbers Delight (didn't really fit in with everything else, and bit of a pain to configure)
+- TFC canes (content overlap with Sacks and Such)
+
+Resourcepacks
+
+Disabled by default. I added my new resource pack that changes the TFC bush models.
+
+## Enjoy :3
+
+I'm hoping to add some new crops next update.
+
+"the place" will require so many worldgen tweaks... This is going to be a headache.
+Atleast I already know what I'm doing because of the "Aether incident".
+
+- _Gourmand (Discord), Gourmandd (GitHub)
+
+
+
 # Golden Horizons 1.7
 
 This release sees a pretty big changes in the modpack, the Aether X TFC compatibiity has been abandoned due to technical issue probably within the Aether or Addon, or other mods in the modpack. Technical/backend changes have also occured. Due to (ironically) greater stability Im thinking of doing TFC compatibility with Spectrum. Spectrum and the mods needed for it are included in this update so that people can report any issues earlier.
