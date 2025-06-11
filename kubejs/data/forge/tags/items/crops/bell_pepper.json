@@ -1,0 +1,8 @@
+{
+    "replace": true,
+    "values": [
+        "tfc:food/green_bell_pepper",
+        "tfc:food/red_bell_pepper",
+        "tfc:food/yellow_bell_pepper"
+    ]
+}

@@ -1,0 +1,47 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 400,
+  "experience": 2.0,
+  "ingredients": [
+    {
+      "item": "rusticdelight:batter"
+    },
+    {
+      "type": "tfc:not_rotten",
+        "ingredient": {
+          "item": "farmersdelight:milk_bottle"
+        }
+    },
+    {
+      "type": "tfc:not_rotten",
+        "ingredient": {
+          "item": "firmalife:food/roasted_cocoa_beans"
+        }
+    },
+    {
+      "type": "tfc:not_rotten",
+        "ingredient": {
+          "item": "firmalife:food/roasted_cocoa_beans"
+        }
+    },
+    {
+      "type": "tfc:not_rotten",
+        "ingredient": {
+          "item": "firmalife:food/roasted_cocoa_beans"
+        }
+    },
+    {
+      "type": "tfc:not_rotten",
+        "ingredient": {
+          "item": "firmalife:food/roasted_cocoa_beans"
+        }
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "item": "rusticdelight:chocolate_pancakes"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "type": "tfc:not_rotten",
+        "ingredient": {
+          "item": "tfc:food/yellow_bell_pepper"
+        }
+    },
+    {
+      "type": "tfc:not_rotten",
+        "ingredient": {
+          "item": "tfc:food/yellow_bell_pepper"
+        }
+    },
+    {
+      "type": "tfc:not_rotten",
+        "ingredient": {
+          "item": "tfc:food/cooked_rice"
+        }
+    }
+  ],
+  "result": {
+    "item": "rusticdelight:bell_pepper_roll_yellow"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "ingredient": {
-    "item": "tfc:food/maize"
+    "tag": "modpack:heatable_food"
   },
   "heat_capacity": 1
 }

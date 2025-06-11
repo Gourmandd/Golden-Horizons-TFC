@@ -1,0 +1,15 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "type": "tfc:not_rotten",
+    "ingredient": {
+      "item": "tfc:food/green_bell_pepper"
+    }
+  },
+  "result_item": {
+    "stack": {
+      "item": "rusticdelight:roasted_bell_pepper_green"
+    }
+  },
+  "temperature": 200
+}
