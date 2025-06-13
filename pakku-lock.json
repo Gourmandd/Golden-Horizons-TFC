@@ -4,6 +4,7 @@
         "1.20.1"
     ],
     "loaders": {
+        "fabric": "0.16.14",
         "forge": "47.3.6"
     },
     "projects": [
@@ -4595,8 +4596,8 @@
                 "modrinth": "ihearttfc"
             },
             "name": {
-                "curseforge": "I ❤ TFC",
-                "modrinth": "I ❤ TFC"
+                "curseforge": "I \u2764 TFC",
+                "modrinth": "I \u2764 TFC"
             },
             "id": {
                 "curseforge": "1118578",
@@ -4793,8 +4794,8 @@
                 "curseforge": "jade"
             },
             "name": {
-                "modrinth": "Jade 🔍",
-                "curseforge": "Jade 🔍"
+                "modrinth": "Jade \ud83d\udd0d",
+                "curseforge": "Jade \ud83d\udd0d"
             },
             "id": {
                 "modrinth": "nvQzSEkH",
