@@ -1,0 +1,10 @@
+{
+    "type": "tfc:quern",
+    "ingredient": {
+        "item": "spectrum:amaranth_bushel"
+    },
+    "result": {
+      "item": "spectrum:amaranth_grains",
+      "count": 2
+    }
+  }
