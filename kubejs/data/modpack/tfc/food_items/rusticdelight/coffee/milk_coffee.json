@@ -1,0 +1,10 @@
+{
+    "ingredient": {
+      "item": "rusticdelight:milk_coffee"
+    },
+    "hunger": 4,
+    "saturation": 1,
+    "decay_modifier": 8,
+    "dairy": 1.2
+  }
+  

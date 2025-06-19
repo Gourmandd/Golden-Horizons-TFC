@@ -1,0 +1,10 @@
+{
+    "ingredient": {
+      "item": "rusticdelight:syrup_sandwich"
+    },
+    "hunger": 4,
+    "saturation": 6,
+    "decay_modifier": 4,
+    "grain": 1.2
+  }
+  

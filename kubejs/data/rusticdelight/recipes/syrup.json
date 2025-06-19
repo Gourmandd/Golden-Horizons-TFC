@@ -1,0 +1,40 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredients": [
+    [
+      {
+        "type": "tfc:not_rotten",
+          "ingredient": {
+            "tag": "forge:fruits/berries"
+          }
+      },
+      {
+        "type": "tfc:not_rotten",
+          "ingredient": {
+            "tag": "tfc:foods/apples"
+          }
+      },
+      {
+        "type": "tfc:not_rotten",
+          "ingredient": {
+            "item": "tfc:food/beet"
+          }
+      }
+    ],
+    {
+      "type": "tfc:not_rotten",
+        "ingredient": {
+          "tag": "tfc:sweetener"
+        }
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "item": "rusticdelight:syrup"
+  }
+}

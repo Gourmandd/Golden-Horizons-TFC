@@ -1,0 +1,10 @@
+{
+    "ingredient": {
+      "item": "rusticdelight:bell_pepper_soup"
+    },
+    "hunger": 4,
+    "saturation": 2,
+    "decay_modifier": 3,
+    "vegetables": 2.4
+  }
+  

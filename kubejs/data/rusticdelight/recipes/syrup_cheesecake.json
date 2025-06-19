@@ -1,0 +1,42 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "TTT",
+        "MMM",
+        "SCS"
+    ],
+    "key": {
+        "C": {
+            "type": "tfc:not_rotten",
+                "ingredient": {
+                "item": "farmersdelight:pie_crust"
+                }
+        },
+        "M": {
+            "type": "tfc:fluid_item",
+            "fluid_ingredient": {
+                "ingredient": {
+                "tag": "tfc:milks"
+                },
+                "amount": 100
+            }
+        },
+        "S": {
+            "type": "tfc:not_rotten",
+                "ingredient": {
+                "tag": "tfc:sweetener"
+                }
+        },
+        "T": {
+            "type": "tfc:not_rotten",
+                "ingredient": {
+                "item": "rusticdelight:syrup"
+                }
+        }
+    },
+    "result": {
+        "item": "rusticdelight:syrup_cheesecake"
+    },
+    "show_notification": true
+}

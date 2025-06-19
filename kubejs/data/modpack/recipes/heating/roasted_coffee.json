@@ -1,0 +1,15 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "type": "tfc:not_rotten",
+    "ingredient": {
+      "item": "rusticdelight:coffee_beans"
+    }
+  },
+  "result_item": {
+    "stack": {
+      "item": "rusticdelight:roasted_coffee_beans"
+    }
+  },
+  "temperature": 200
+}

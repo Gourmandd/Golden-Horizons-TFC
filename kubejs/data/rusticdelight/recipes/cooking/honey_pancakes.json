@@ -1,0 +1,47 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 400,
+  "experience": 2.0,
+  "ingredients": [
+    {
+      "type": "tfc:not_rotten",
+        "ingredient": {
+          "item": "rusticdelight:batter"
+        }
+    },
+    {
+      "item": "firmalife:raw_honey"
+    },
+    {
+      "type": "tfc:not_rotten",
+        "ingredient": {
+          "tag": "forge:fruit/berries"
+        }
+    },
+    {
+      "type": "tfc:not_rotten",
+        "ingredient": {
+          "tag": "forge:fruit/berries"
+        }
+    },
+    {
+      "type": "tfc:not_rotten",
+        "ingredient": {
+          "tag": "tfc:sweetener"
+        }
+    },
+    {
+      "type": "tfc:not_rotten",
+        "ingredient": {
+          "tag": "tfc:sweetener"
+        }
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "item": "rusticdelight:honey_pancakes"
+  }
+}

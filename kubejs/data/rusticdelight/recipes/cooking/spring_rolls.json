@@ -1,0 +1,36 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "type": "tfc:not_rotten",
+        "ingredient": {
+          "item": "rusticdelight:cooking_oil"
+        }
+    },
+    {
+      "type": "tfc:not_rotten",
+        "ingredient": {
+          "tag": "forge:dough"
+        }
+    },
+    {
+      "type": "tfc:not_rotten",
+        "ingredient": {
+          "tag": "forge:salad_ingredients"
+        }
+    },
+    {
+      "type": "tfc:not_rotten",
+        "ingredient": {
+          "tag": "farmersdelight:cabbage_roll_ingredients"
+        }
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "count": 2,
+    "item": "rusticdelight:spring_rolls"
+  }
+}

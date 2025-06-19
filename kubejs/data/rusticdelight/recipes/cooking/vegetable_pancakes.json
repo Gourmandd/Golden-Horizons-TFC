@@ -1,0 +1,53 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 400,
+  "experience": 2.0,
+  "ingredients": [
+    {
+      "type": "tfc:not_rotten",
+        "ingredient": {
+          "item": "rusticdelight:batter"
+        }
+    },
+    {
+      "type": "tfc:fluid_item",
+      "fluid_ingredient": {
+        "ingredient": {
+          "tag": "tfc:milks"
+        },
+        "amount": 100
+      }
+    },
+    {
+      "type": "tfc:not_rotten",
+        "ingredient": {
+          "tag": "forge:vegetables"
+        }
+    },
+    {
+      "type": "tfc:not_rotten",
+        "ingredient": {
+          "tag": "forge:vegetables"
+        }
+    },
+    {
+      "type": "tfc:not_rotten",
+        "ingredient": {
+          "tag": "forge:salad_ingredients"
+        }
+    },
+    {
+      "type": "tfc:not_rotten",
+        "ingredient": {
+          "tag": "forge:salad_ingredients"
+        }
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "item": "rusticdelight:vegetable_pancakes"
+  }
+}

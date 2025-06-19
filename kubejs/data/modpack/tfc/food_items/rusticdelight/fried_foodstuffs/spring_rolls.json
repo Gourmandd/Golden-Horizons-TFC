@@ -1,0 +1,11 @@
+{
+    "ingredient": {
+      "item": "rusticdelight:spring_rolls"
+    },
+    "hunger": 4,
+    "saturation": 1,
+    "decay_modifier": 2,
+    "vegetables": 2,
+    "grain": 1.5
+  }
+  

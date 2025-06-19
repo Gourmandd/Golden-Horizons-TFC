@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "CCC",
+        "CTC",
+        "CCC"
+    ],
+    "key": {
+        "C": {
+            "type": "tfc:not_rotten",
+                "ingredient": {
+                "item": "firmalife:food/sugar_cookie"
+                }
+        },
+        "T": {
+            "type": "tfc:not_rotten",
+                "ingredient": {
+                "item": "tfc:food/cherry"
+                }
+        }
+    },
+    "result": {
+        "item": "rusticdelight:cherry_blossom_cookie",
+        "count": 8
+    },
+    "show_notification": true
+}

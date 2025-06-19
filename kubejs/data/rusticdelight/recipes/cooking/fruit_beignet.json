@@ -1,0 +1,35 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "type": "tfc:not_rotten",
+        "ingredient": {
+          "item": "rusticdelight:cooking_oil"
+        }
+    },
+    {
+      "type": "tfc:not_rotten",
+        "ingredient": {
+          "tag": "tfc:foods/dough"
+        }
+    },
+    {
+      "type": "tfc:not_rotten",
+        "ingredient": {
+          "tag": "forge:fruit/berries"
+        }
+    },
+    {
+      "type": "tfc:not_rotten",
+        "ingredient": {
+          "tag": "tfc:sweetener"
+        }
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "item": "rusticdelight:fruit_beignet"
+  }
+}

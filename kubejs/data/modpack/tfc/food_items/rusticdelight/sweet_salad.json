@@ -1,0 +1,11 @@
+{
+    "ingredient": {
+      "item": "rusticdelight:sweet_salad"
+    },
+    "hunger": 4,
+    "saturation": 1,
+    "decay_modifier": 4,
+    "vegetables": 2,
+    "fruit": 2
+  }
+  

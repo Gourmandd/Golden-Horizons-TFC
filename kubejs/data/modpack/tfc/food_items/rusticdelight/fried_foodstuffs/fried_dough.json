@@ -1,0 +1,10 @@
+{
+    "ingredient": {
+      "item": "rusticdelight:fried_dough"
+    },
+    "hunger": 4,
+    "saturation": 1.5,
+    "decay_modifier": 2,
+    "grain": 1.5
+  }
+  

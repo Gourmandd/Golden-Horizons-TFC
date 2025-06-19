@@ -1,0 +1,50 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 400,
+  "experience": 2.0,
+  "ingredients": [
+    {
+      "type": "tfc:not_rotten",
+        "ingredient": {
+          "item": "rusticdelight:batter"
+        }
+    },
+    {
+      "type": "tfc:not_rotten",
+        "ingredient": {
+          "item": "rusticdelight:syrup"
+        }
+    },
+    {
+      "type": "tfc:not_rotten",
+        "ingredient": {
+          "item": "tfc:food/pumpkin_chunks"
+        }
+    },
+    {
+      "type": "tfc:not_rotten",
+        "ingredient": {
+          "item": "tfc:food/pumpkin_chunks"
+        }
+    },
+    {
+      "type": "tfc:not_rotten",
+        "ingredient": {
+          "item": "tfc:food/pumpkin_chunks"
+        }
+    },
+    {
+      "type": "tfc:not_rotten",
+        "ingredient": {
+          "item": "tfc:food/pumpkin_chunks"
+        }
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "item": "rusticdelight:pumpkin_pancakes"
+  }
+}

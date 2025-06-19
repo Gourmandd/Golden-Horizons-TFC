@@ -1,0 +1,12 @@
+{
+    "ingredient": {
+      "item": "rusticdelight:pumpkin_pancake"
+    },
+    "hunger": 6,
+    "saturation": 2,
+    "decay_modifier": 6,
+    "grain": 0.8,
+    "dairy": 0.3,
+    "vegetables": 0.5
+  }
+  

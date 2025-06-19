@@ -1,0 +1,12 @@
+{
+    "ingredient": {
+      "item": "rusticdelight:potato_salad"
+    },
+    "hunger": 5,
+    "saturation": 1.5,
+    "decay_modifier": 4,
+    "vegetables": 1.5,
+    "dairy": 1.1,
+    "protein": 0.3
+  }
+  

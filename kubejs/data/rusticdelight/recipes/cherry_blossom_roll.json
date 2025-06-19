@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "type": "tfc:not_rotten",
+        "ingredient": {
+          "item": "tfc:food/cherry"
+        }
+    },
+    {
+      "type": "tfc:not_rotten",
+        "ingredient": {
+          "item": "tfc:food/cherry"
+        }
+    },
+    {
+      "type": "tfc:not_rotten",
+        "ingredient": {
+          "item": "tfc:food/cooked_rice"
+        }
+    }
+  ],
+  "result": {
+    "item": "rusticdelight:cherry_blossom_roll"
+  }
+}

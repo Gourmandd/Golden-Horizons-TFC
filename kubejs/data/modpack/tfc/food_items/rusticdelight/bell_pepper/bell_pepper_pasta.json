@@ -1,0 +1,11 @@
+{
+    "ingredient": {
+      "item": "rusticdelight:bell_pepper_pasta"
+    },
+    "hunger": 6,
+    "saturation": 3,
+    "decay_modifier": 3,
+    "vegetables": 2.4,
+    "grain": 2
+  }
+  

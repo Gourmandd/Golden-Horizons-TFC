@@ -1,0 +1,38 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 400,
+  "experience": 1.0,
+  "ingredients": [
+    {
+        "type": "tfc:not_rotten",
+            "ingredient": {
+                "item": "tfc:food/beef"
+            }
+    },
+    {
+        "type": "tfc:not_rotten",
+            "ingredient": {
+                "item": "rusticdelight:roasted_coffee_beans"
+            }
+    },
+    {
+        "type": "tfc:not_rotten",
+            "ingredient": {
+                "item": "tfc:food/carrot"
+            }
+    },
+    {
+        "type": "tfc:not_rotten",
+            "ingredient": {
+                "item": "tfc:food/potato"
+            }
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "rusticdelight:coffee_braised_beef"
+  }
+}

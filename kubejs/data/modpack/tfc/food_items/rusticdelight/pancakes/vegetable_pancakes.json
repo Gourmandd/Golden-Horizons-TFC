@@ -1,0 +1,12 @@
+{
+    "ingredient": {
+      "item": "rusticdelight:vegetable_pancakes"
+    },
+    "hunger": 1,
+    "saturation": 8,
+    "decay_modifier": 6,
+    "grain": 3.2,
+    "dairy": 1.2,
+    "vegetables": 4
+  }
+  

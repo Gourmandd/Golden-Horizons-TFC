@@ -1,0 +1,38 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "type": "tfc:not_rotten",
+        "ingredient": {
+          "item": "rusticdelight:cooking_oil"
+        }
+    },
+    {
+      "type": "tfc:not_rotten",
+        "ingredient": {
+          "item": "rusticdelight:batter"
+        }
+    },
+    {
+      "type": "tfc:not_rotten",
+        "ingredient": {
+          "tag": "forge:raw_fishes/calamari"
+        }
+    },
+    {
+      "type": "tfc:not_rotten",
+        "ingredient": {
+          "item": "tfc:food/tomato"
+        }
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "rusticdelight:fried_calamari"
+  }
+}

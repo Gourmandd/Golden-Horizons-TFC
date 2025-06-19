@@ -1,0 +1,38 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "type": "tfc:not_rotten",
+        "ingredient": {
+          "item": "tfc:food/green_bell_pepper"
+        }
+    },
+    {
+      "type": "tfc:not_rotten",
+        "ingredient": {
+          "tag": "forge:grain/rice"
+        }
+    },
+    {
+      "type": "forge:difference",
+        "base": {
+            "type": "tfc:not_rotten",
+                "ingredient": {
+                    "tag": "farmersdelight:cabbage_roll_ingredients"
+                }
+        },
+        "subtracted": {
+            "type": "tfc:not_rotten",
+                "ingredient": {
+                    "tag": "forge:vegetables/bell_pepper"
+                }
+      }
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "rusticdelight:stuffed_bell_pepper_green"
+  }
+}

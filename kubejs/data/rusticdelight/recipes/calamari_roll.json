@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "type": "tfc:not_rotten",
+        "ingredient": {
+          "item": "rusticdelight:calamari_slice"
+        }
+    },
+    {
+      "type": "tfc:not_rotten",
+        "ingredient": {
+          "item": "rusticdelight:calamari_slice"
+        }
+    },
+    {
+      "type": "tfc:not_rotten",
+        "ingredient": {
+          "item": "tfc:food/cooked_rice"
+        }
+    }
+  ],
+  "result": {
+    "item": "rusticdelight:calamari_roll"
+  }
+}

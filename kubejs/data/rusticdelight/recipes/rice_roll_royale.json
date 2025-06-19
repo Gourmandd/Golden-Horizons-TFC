@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+        "type": "tfc:not_rotten",
+            "ingredient": {
+                "item": "farmersdelight:kelp_roll_slice"
+            }
+    },
+    {
+        "type": "tfc:not_rotten",
+            "ingredient": {
+                "item": "farmersdelight:kelp_roll_slice"
+            }
+    },
+    {
+        "type": "tfc:not_rotten",
+            "ingredient": {
+                "item": "farmersdelight:kelp_roll_slice"
+            }
+    },
+    {
+        "type": "tfc:not_rotten",
+            "ingredient": {
+                "item": "rusticdelight:bell_pepper_roll_green"
+            }
+    },
+    {
+        "type": "tfc:not_rotten",
+            "ingredient": {
+                "item": "rusticdelight:bell_pepper_roll_yellow"
+            }
+    },
+    {
+        "type": "tfc:not_rotten",
+            "ingredient": {
+                "item": "rusticdelight:bell_pepper_roll_red"
+            }
+    },
+    {
+        "type": "tfc:not_rotten",
+            "ingredient": {
+                "item": "rusticdelight:calamari_roll"
+            }
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+        "type": "tfc:not_rotten",
+            "ingredient": {
+                "item": "rusticdelight:cherry_blossom_roll"
+            }
+    }
+  ],
+  "result": {
+    "item": "rusticdelight:rice_roll_royale"
+  }
+}

@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "CCC",
+        "CTC",
+        "CCC"
+    ],
+    "key": {
+        "C": {
+            "type": "tfc:not_rotten",
+                "ingredient": {
+                "item": "firmalife:food/sugar_cookie"
+                }
+        },
+        "T": {
+            "type": "tfc:not_rotten",
+                "ingredient": {
+                "item": "rusticdelight:roasted_coffee_beans"
+                }
+        }
+    },
+    "result": {
+        "item": "rusticdelight:coffee_cookie",
+        "count": 8
+    },
+    "show_notification": true
+}

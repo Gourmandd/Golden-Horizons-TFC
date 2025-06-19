@@ -1,0 +1,12 @@
+{
+    "ingredient": {
+      "item": "rusticdelight:fried_dumplings"
+    },
+    "hunger": 4,
+    "saturation": 1.5,
+    "decay_modifier": 2,
+    "protein": 1.5,
+    "vegetables": 2,
+    "grain": 1.5
+  }
+  
