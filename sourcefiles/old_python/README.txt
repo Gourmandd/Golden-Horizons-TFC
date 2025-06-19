@@ -1,1 +1,0 @@
-Python Datagen is being removed from this modpack, these scripts will be convered to KubeJS and will be removed in time.
