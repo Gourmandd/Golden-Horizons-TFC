@@ -15,31 +15,21 @@ You can report issues here on github or on Discord. Espacially if its a crash yo
 
 This section is being worked on.
 
-There is a discord server which you can find on the Modrinth page. Though so far most discussion lives on the Content Forum on the TerraFirmaCraft discord server **Note**: *please do not ask for support or about suggestions for modpack specific things in the general of the Terrafirmacraft server*, ask on the thread in the "**Content**" channel, the server has had a few issues like that with other modpacks before.
+There is a discord server which you can find on the Modrinth page. Though so far, most discussion lives on the Content Forum on the TerraFirmaCraft discord server **Note**: *please do not ask for support or about suggestions for modpack specific things in the general of the Terrafirmacraft server*, ask on the thread in the "**Content**" channel, the server has had a few issues like that with other modpacks before.
 
 ## Some Notes
 
-The python folder contains the scripts that generated all the json files with the MCresources comment at the top.
-The config folders have configs for mods that are not in the modpack, they are a leftover from testing. 
+To add, remove, or update mods see Pakku documentation, which allows for version controlled mod management if used with Git. (https://juraj-hrivnak.github.io/Pakku/home.html)
 
-## Aether
+Some assets are licensed under ARR, these are just art assets such as pack icons. (See LICENSE file for more info)
 
-Work on adding the Aether and addons happens on the aether branch, it has its own TODO list
+## Building/Exporting the pack
 
-## Installing the pack from github
+1. Download/install dependancies. Python and Pakku. (See instructions for Pakku here: https://juraj-hrivnak.github.io/Pakku/installing-pakku.html)
 
-This might be incomplete
+2. Clone the repository, you don't need to nessesarily do this in the .minecraft folder in a launcher such as Prism Launcher.
 
-A guide if you might want to install the "bleeding edge" of the modpack for any reason like development or for things not yet in a release.
+3. Run the "build-modpack.py" Python script. It will use Pakku to export a .zip (for Curseforge), .mrpack (for Modrinth), and another .zip but for servers (not distributed).
 
-This will go over how to edit the previous release with whatever new changes.
-Other ways like "splicing" the modpacks import file might be possible with some extra files and support that will be added at some point (the manifest and modlist files)
-
-1. Install the newest release with a launcher of your choice, and download the modpack either through the launcher or import the modpack file (.zip for Curseforge, .mcpack for modrinth, other launchers may support both or none). You might have and want to launch game once to make sure everything is fine.
-
-2. If there are any mods that were updated, removed or added since the latest release, make those changes (you can check the commit history)
-
-3. Download the latest files from github, if you have experience with git you may be able to get it to do this for you. Otherwise download the **config**, **default configs**, **kubejs** and **emi.json** files and replace the ones in the modpacks folder. Make sure to not "merge" the files since that will keep files that were removed, best way would be to delete the existing ones and then add the new ones in.
-
-4. Run the game and have a look whether the new changes and old stuff stuff still work. Things to watch out for are, Kubejs scripts (warnings in chat), if modpack datapack is loaded (check recipes, example: Farmer's Delight compost) and if modpack resources are loaded. (If there are no tips, or if you search @kubejs in EMI there are a lot of items are missing their textures)
-
+Pakku may give you an error if you don't provide an Curseforge API key, used to download mods for the server pack which is only really recommened for server operators who want to install the pack on a server.
+ 
