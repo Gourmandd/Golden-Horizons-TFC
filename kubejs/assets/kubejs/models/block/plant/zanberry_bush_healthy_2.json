@@ -1,6 +1,0 @@
-{
-  "parent": "tfc:block/plant/stationary_bush_2",
-  "textures": {
-    "bush": "aether_redux:block/natural/zanberry_bush_stem"
-  }
-}

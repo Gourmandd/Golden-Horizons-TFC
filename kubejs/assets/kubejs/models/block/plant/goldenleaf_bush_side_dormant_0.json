@@ -1,7 +1,0 @@
-{
-    "parent": "tfc:block/plant/berry_bush_side_0",
-    "textures": {
-      "cane": "deep_aether:block/golden_vines",
-      "bush": "deep_aether:block/golden_vines_plant"
-    }
-  }

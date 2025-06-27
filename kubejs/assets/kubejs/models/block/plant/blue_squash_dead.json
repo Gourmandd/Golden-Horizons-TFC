@@ -1,6 +1,0 @@
-{
-  "parent": "block/crop",
-  "textures": {
-    "crop": "tfc:block/crop/pumpkin_dead_young"
-  }
-}

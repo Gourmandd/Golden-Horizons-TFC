@@ -1,6 +1,0 @@
-{
-  "parent": "tfc:block/plant/stationary_bush_2",
-  "textures": {
-    "bush": "tfc:block/berry_bush/dry_snowberry_bush"
-  }
-}

@@ -1,0 +1,18 @@
+{
+  "type": "tfc:damage_inputs_shapeless_crafting",
+  "recipe": {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "tfc:spindle"
+      },
+      {
+        "item": "rusticdelight:cotton_boll"
+      }
+    ],
+    "result": {
+      "item": "minecraft:string",
+      "count": 6
+    }
+  }
+}

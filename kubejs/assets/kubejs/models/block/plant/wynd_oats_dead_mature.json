@@ -1,6 +1,0 @@
-{
-  "parent": "block/crop",
-  "textures": {
-    "crop": "tfc:block/crop/oat_dead"
-  }
-}

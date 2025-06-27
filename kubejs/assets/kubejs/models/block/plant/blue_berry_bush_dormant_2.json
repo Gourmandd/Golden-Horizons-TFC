@@ -1,6 +1,0 @@
-{
-  "parent": "tfc:block/plant/stationary_bush_2",
-  "textures": {
-    "bush": "tfc:block/plant/dead_bush/dead_bush0"
-  }
-}
