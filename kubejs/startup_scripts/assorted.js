@@ -17,6 +17,9 @@ StartupEvents.registry("item", event =>{
     event.create("food/gingerbread_star_cutter").displayName("Gingerbread Star Cutter").unstackable().maxDamage(64)
     event.create("food/gingerbread_tree_cutter").displayName("Gingerbread Tree Cutter").unstackable().maxDamage(64)
     event.create("food/gingerbread_creeper_cutter").displayName("Gingerbread Creeper Cutter").unstackable().maxDamage(64)
+
+    event.create("raw_aluminium_mixture").displayName("Raw Aluminium Mixture")
+    event.create("aluminium_nugget").displayName("Aluminium Nugget")
 })
 
 StartupEvents.registry("block", event =>{

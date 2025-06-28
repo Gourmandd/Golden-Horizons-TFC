@@ -1,0 +1,13 @@
+{
+	"type":"createaddition:charging",
+	"input": {
+      	"item": "kubejs:raw_aluminium_mixture",
+		"count": 1
+	},
+	"result": {
+		"item": "kubejs:aluminium_nugget",
+		"count": 1
+	},
+	"energy": 1000,
+	"maxChargeRate": 200
+}

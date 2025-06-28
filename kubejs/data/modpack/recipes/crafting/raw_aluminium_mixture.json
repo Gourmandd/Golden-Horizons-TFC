@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tfc:powder/kaolinite"
+    },
+    {
+      "item": "tfc:powder/kaolinite"
+    },
+    {
+      "item": "tfc:powder/kaolinite"
+    },
+    {
+      "item": "tfc:powder/kaolinite"
+    },
+    {
+      "item": "tfc:powder/kaolinite"
+    },
+    {
+      "item": "tfc:powder/kaolinite"
+    },
+    {
+      "item": "tfc:powder/kaolinite"
+    },
+    {
+      "item": "tfc:powder/kaolinite"
+    },
+    {
+      "item": "minecraft:redstone"
+    }
+  ],
+  "result": {
+    "item": "kubejs:raw_aluminium_mixture",
+    "count": 4
+  }
+}
