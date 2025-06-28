@@ -1,79 +1,78 @@
 {
-  "background_u_index": 0,
-  "background_v_index": 0,
-  "category": "modpack:general",
-  "description": "book.modpack.guide.content_mods.description",
-  "hide_while_locked": false,
-  "icon": {
-    "height": 16,
-    "texture": "minecraft:textures/item/nether_star.png",
-    "width": 16
-  },
-  "name": "book.modpack.guide.general.content_mods.name",
-  "pages": [
-    {
-      "type": "modonomicon:text",
-      "anchor": "",
-      "condition": {
-        "type": "modonomicon:none"
-      },
-      "show_title_separator": true,
-      "text": "book.modpack.guide.general.content_mods.page1.text",
-      "title": "book.modpack.guide.general.content_mods.page1.title",
-      "use_markdown_in_title": false
-    },
-    {
-      "type": "modonomicon:image",
-      "border": true,
-      "images": [
-      "tfc:textures/gui/book/biomes/rolling_hills_with_river.png"
-      ],
-      "text": "book.modpack.guide.general.content_mods.page2.text",
-      "title": "book.modpack.guide.general.content_mods.page2.title"
-    },
-    {
-      "type": "modonomicon:image",
-      "border": true,
-      "images": [
-      "tfc:textures/gui/book/biomes/rolling_hills_with_river.png"
-      ],
-      "text": "book.modpack.guide.general.content_mods.page3.text",
-      "title": "book.modpack.guide.general.content_mods.page3.title"
-    },
-    {
-      "type": "modonomicon:image",
-      "border": true,
-      "images": [
-      "tfc:textures/gui/book/biomes/rolling_hills_with_river.png"
-      ],
-      "text": "book.modpack.guide.general.content_mods.page4.text",
-      "title": "book.modpack.guide.general.content_mods.page4.title"
-    },
-    {
-      "type": "modonomicon:image",
-      "border": true,
-      "images": [
-      "tfc:textures/gui/book/biomes/rolling_hills_with_river.png"
-      ],
-      "text": "book.modpack.guide.general.content_mods.page5.text",
-      "title": "book.modpack.guide.general.content_mods.page5.title"
-    },
-    {
-      "type": "modonomicon:image",
-      "border": true,
-      "images": [
-      "tfc:textures/gui/book/biomes/rolling_hills_with_river.png"
-      ],
-      "text": "book.modpack.guide.general.content_mods.page6.text",
-      "title": "book.modpack.guide.general.content_mods.page6.title"
-    }
-  ],
-  "show_when_any_parent_unlocked": false,
-  "parents": [
-    {
-      "entry": "modpack:general/intro"
-    }
-  ],
-  "x": 3,
-  "y": 0
+	"background_u_index": 0,
+	"background_v_index": 0,
+	"category": "modpack:general",
+	"description": "book.modpack.guide.content_mods.description",
+	"hide_while_locked": false,
+	"icon": {
+		"height": 16,
+		"texture": "minecraft:textures/item/nether_star.png",
+		"width": 16
+	},
+	"name": "book.modpack.guide.general.content_mods.name",
+	"pages": [
+		{
+			"type": "modonomicon:text",
+			"condition": {
+				"type": "modonomicon:none"
+			},
+			"show_title_seperator": true,
+			"text": "book.modpack.guide.general.content_mods.page1.text",
+			"title": "book.modpack.guide.general.content_mods.page1.title",
+			"use_markdown_in_title": false
+		},
+		{
+			"type": "modonomicon:image",
+			"border": true,
+			"images": [
+				"tfc:textures/gui/book/biomes/rolling_hills_with_river.png"
+			],
+			"text": "book.modpack.guide.general.content_mods.page2.text",
+			"title": "book.modpack.guide.general.content_mods.page2.title"
+		},
+		{
+			"type": "modonomicon:image",
+			"border": true,
+			"images": [
+				"tfc:textures/gui/book/biomes/rolling_hills_with_river.png"
+			],
+			"text": "book.modpack.guide.general.content_mods.page3.text",
+			"title": "book.modpack.guide.general.content_mods.page3.title"
+		},
+		{
+			"type": "modonomicon:image",
+			"border": true,
+			"images": [
+				"tfc:textures/gui/book/biomes/rolling_hills_with_river.png"
+			],
+			"text": "book.modpack.guide.general.content_mods.page4.text",
+			"title": "book.modpack.guide.general.content_mods.page4.title"
+		},
+		{
+			"type": "modonomicon:image",
+			"border": true,
+			"images": [
+				"tfc:textures/gui/book/biomes/rolling_hills_with_river.png"
+			],
+			"text": "book.modpack.guide.general.content_mods.page5.text",
+			"title": "book.modpack.guide.general.content_mods.page5.title"
+		},
+		{
+			"type": "modonomicon:image",
+			"border": true,
+			"images": [
+				"tfc:textures/gui/book/biomes/rolling_hills_with_river.png"
+			],
+			"text": "book.modpack.guide.general.content_mods.page6.text",
+			"title": "book.modpack.guide.general.content_mods.page6.title"
+		}
+	],
+	"show_when_any_parent_unlocked": true,
+	"parents": [
+		{
+			"entry": "modpack:general/intro"
+		}
+	],
+	"x": 3,
+	"y": 0
 }
