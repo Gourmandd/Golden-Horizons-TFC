@@ -1,12 +1,12 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "WSG",
-    "SW "
+    "WLG",
+    "LW "
   ],
   "key": {
-    "S": {
-      "tag": "forge:rods/wooden"
+    "L": {
+      "tag": "tfc:lumber"
     },
     "G": {
       "item": "tfc:glue"
