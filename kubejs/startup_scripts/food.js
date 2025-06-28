@@ -38,10 +38,6 @@ StartupEvents.registry("item", event =>{
     event.create("food/raw_gingerbread_tree").food(food => {food.hunger(0)})
     event.create("food/raw_gingerbread_creeper").food(food => {food.hunger(0)})
 
-
-
-    event.create("food/ginger_tea").food(food => {food.hunger(0).effect("aether:remedy",20 ,1 ,1)})
-
     event.create("food/salsa_verde").food(food => {food.hunger(0)})
 /*
     event.create("food/sun_dried_tomatoes").food(food => {food.hunger(0)})
