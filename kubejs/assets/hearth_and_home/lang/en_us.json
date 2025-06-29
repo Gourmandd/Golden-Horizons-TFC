@@ -1,7 +1,7 @@
 {
     "block.hearth_and_home.stone_column": "Argillite Column",
-    "block.hearth_and_home.cobblestone_bricks": "Argillite Cobble Bricks",
-    "block.hearth_and_home.cobblestone_brick_stairs": "Argillite Cobble Brick Stairs",
-    "block.hearth_and_home.cobblestone_brick_slab": "Argillite Cobble Brick Slab",
-    "block.hearth_and_home.cobblestone_brick_wall": "Argillite Cobble Brick Wall"
+    "block.hearth_and_home.cobblestone_bricks": "Small Argillite Cobble Bricks",
+    "block.hearth_and_home.cobblestone_brick_stairs": "Small Argillite Cobble Brick Stairs",
+    "block.hearth_and_home.cobblestone_brick_slab": "Small Argillite Cobble Brick Slab",
+    "block.hearth_and_home.cobblestone_brick_wall": "Small Argillite Cobble Brick Wall"
 }

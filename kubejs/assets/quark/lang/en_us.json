@@ -11,5 +11,9 @@
     "block.quark.dripstone_block_stairs": "Travertine Stairs",
     "block.quark.dripstone_block_slab": "Travertine Slab",
     "block.quark.polished_dripstone_slab": "Polished Travertine Slab",
-    "block.quark.polished_dripstone_stairs": "Polished Travertine Stairs"
+    "block.quark.polished_dripstone_stairs": "Polished Travertine Stairs",
+    "block.quark.cobblestone_bricks": "Large Argillite Cobble Bricks",
+    "block.quark.cobblestone_brick_stairs": "Large Argillite Cobble Brick Stairs",
+    "block.quark.cobblestone_brick_slab": "Large Argillite Cobble Slab",
+    "block.quark.cobblestone_brick_wall": "Large Argillite Brick Wall"
 }

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BMB",
+    "MBM",
+    "BMB"
+  ],
+  "key": {
+    "B": {
+      "item": "kubejs:brick/travertine"
+    },
+    "M": {
+      "item": "tfc:mortar"
+    }
+  },
+  "result": {
+    "item": "quark:dripstone_bricks"
+  }
+}

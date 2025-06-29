@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  C",
+    " C ",
+    "C  "
+  ],
+  "key": {
+    "C": {
+      "item": "kubejs:rock/cobble/argillite"
+    }
+  },
+  "result": {
+    "item": "alekiroofs:cobblestone_roofing",
+    "count": 6
+  }
+}

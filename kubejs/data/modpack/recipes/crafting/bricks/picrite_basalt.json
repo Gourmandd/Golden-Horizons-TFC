@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BMB",
+    "MBM",
+    "BMB"
+  ],
+  "key": {
+    "B": {
+      "item": "kubejs:brick/picrite_basalt"
+    },
+    "M": {
+      "item": "tfc:mortar"
+    }
+  },
+  "result": {
+    "item": "spectrum:basal_marble_bricks"
+  }
+}

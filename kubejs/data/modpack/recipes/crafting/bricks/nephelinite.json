@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BMB",
+    "MBM",
+    "BMB"
+  ],
+  "key": {
+    "B": {
+      "item": "kubejs:brick/nephelinite"
+    },
+    "M": {
+      "item": "tfc:mortar"
+    }
+  },
+  "result": {
+    "item": "minecraft:deepslate_bricks"
+  }
+}

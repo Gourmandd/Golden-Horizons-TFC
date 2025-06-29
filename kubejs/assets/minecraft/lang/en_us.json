@@ -27,6 +27,10 @@
     "block.minecraft.cobblestone_stairs": "Argillite Cobble Stairs",
     "block.minecraft.cobblestone_slab": "Argillite Cobble Slab",
     "block.minecraft.cobblestone_wall": "Argillite Cobble Wall",
+    "block.minecraft.mossy_cobblestone": "Mossy Argillite Cobble",
+    "block.minecraft.mossy_cobblestone_stairs": "Mossy Argillite Cobble Stairs",
+    "block.minecraft.mossy_cobblestone_slab": "Mossy Argillite Cobble Slab",
+    "block.minecraft.mossy_cobblestone_wall": "Mossy Argillite Cobble Wall",
     "block.minecraft.stone": "Raw Argillite",
     "block.minecraft.stone_stairs": "Raw Argillite Stairs",
     "block.minecraft.stone_slab": "Argillite Slab",
@@ -49,5 +53,6 @@
     "block.minecraft.infested_stone_bricks": "Infested Argillite Bricks",
     "block.minecraft.infested_mossy_stone_bricks": "Infested Mossy Argillite Bricks",
     "block.minecraft.infested_cracked_stone_bricks": "Infested Cracked Argillite Bricks",
-    "block.minecraft.infested_chiseled_stone_bricks": "Infested Chiseled Argillite Bricks"
+    "block.minecraft.infested_chiseled_stone_bricks": "Infested Chiseled Argillite Bricks",
+    "block.minecraft.gravel": "Argillite Gravel"
 }

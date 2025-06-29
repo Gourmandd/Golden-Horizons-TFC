@@ -1,7 +1,6 @@
 ServerEvents.recipes(event =>{
 
     const STONE_POLISHING = {
-        "minecraft:stone": "minecraft:smooth_stone",
         "minecraft:granite": "minecraft:polished_granite",
         "minecraft:diorite": "minecraft:polished_diorite",
         "minecraft:andesite": "minecraft:polished_andesite",
@@ -13,7 +12,7 @@ ServerEvents.recipes(event =>{
         "minecraft:calcite": "hearth_and_home:polished_calcite",
         "minecraft:dripstone_block": "quark:polished_dripstone",
         "minecraft:tuff": "quark:polished_tuff",
-        "minecraft:cobbled_deepslate": "minecraft:polished_deepslate",
+        "kubejs:rock/cobble/nephelinite": "minecraft:polished_deepslate",
         "minecraft:blackstone": "minecraft:polished_blackstone",
         "minecraft:basalt": "minecraft:polished_basalt",
 
@@ -49,29 +48,27 @@ ServerEvents.recipes(event =>{
     })
 
     const BRICKS_MAKING = {
+        "minecraft:stone": "minecraft:smooth_stone",
         "minecraft:netherrack": "quark:netherrack_bricks",
         "minecraft:end_stone": "minecraft:end_stone_bricks",
-        "minecraft:stone": "minecraft:stone_bricks",
         "minecraft:granite": "quark:granite_bricks",
         "minecraft:diorite": "quark:diorite_bricks",
         "minecraft:andesite": "quark:andesite_bricks",
+        "kubejs:rock/cobble/argillite": "quark:cobblestone_bricks",
+        "quark:cobblestone_bricks": "hearth_and_home:cobblestone_bricks",
         "quark:limestone": "quark:limestone_bricks",
         "quark:shale": "quark:shale_bricks",
         "quark:myalite": "quark:myalite_bricks",
         "quark:jasper": "quark:jasper_bricks",
         "minecraft:tuff": "quark:tuff_bricks",
         "minecraft:calcite": "quark:calcite_bricks",
-        "minecraft:dripstone_block": "quark:dripstone_bricks",
-        "minecraft:deepslate": "minecraft:deepslate_bricks",
         "minecraft:blackstone": "minecraft:polished_blackstone_bricks",
         "minecraft:deepslate_bricks": "minecraft:deepslate_tiles",
         "spectrum:polished_basalt": "spectrum:basalt_bricks",
         "spectrum:polished_calcite": "spectrum:calcite_bricks",
-        "spectrum:polished_blackslag": "spectrum:blackslag_bricks",
         "spectrum:polished_shale_clay": "spectrum:shale_clay_bricks",
         "spectrum:exposed_polished_shale_clay": "spectrum:exposed_shale_clay_bricks",
         "spectrum:weathered_polished_shale_clay": "spectrum:weathered_shale_clay_bricks",
-        "spectrum:polished_basal_marble": "spectrum:basal_marble_bricks",
 
         "minecraft:packed_ice": "architects_palette:polished_packed_ice",
         "architects_palette:nether_brass_block": "architects_palette:cut_nether_brass",

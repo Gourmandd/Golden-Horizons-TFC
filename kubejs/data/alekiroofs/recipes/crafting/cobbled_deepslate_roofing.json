@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  C",
+    " C ",
+    "C  "
+  ],
+  "key": {
+    "C": {
+      "item": "kubejs:rock/cobble/nephelinite"
+    }
+  },
+  "result": {
+    "item": "alekiroofs:cobbled_deepslate_roofing",
+    "count": 6
+  }
+}

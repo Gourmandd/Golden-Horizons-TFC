@@ -33,3 +33,22 @@ ServerEvents.recipes(event =>{
         event.recipes.tfc.collapse("tfc:rock/cobble/" + rock_type, "kubejs:rock/mortared_cobble/" + rock_type)
     })
 })  
+
+LootJS.modifiers(event =>{
+
+    event.addBlockLootModifier("minecraft:stone").replaceLoot("minecraft:cobblestone", Item.of("kubejs:rock/loose/argillite", 3)).addLoot("kubejs:rock/loose/argillite").randomChance(0.25)
+    event.addBlockLootModifier("minecraft:deepslate").replaceLoot("minecraft:cobbled_deepslate", Item.of("kubejs:rock/loose/nephelinite", 3)).addLoot("kubejs:rock/loose/nephelinite").randomChance(0.25)
+    event.addBlockLootModifier("minecraft:dripstone_block").replaceLoot("minecraft:dripstone_block", Item.of("kubejs:rock/loose/travertine",3)).addLoot("kubejs:rock/loose/travertine").randomChance(0.25)
+    event.addBlockLootModifier("spectrum:blackslag").replaceLoot("spectrum:cobbled_blackslag", Item.of("kubejs:rock/loose/blackslag", 3)).addLoot("kubejs:rock/loose/blackslag").randomChance(0.25)
+    event.addBlockLootModifier("spectrum:basal_marble").replaceLoot("spectrum:basal_marble", Item.of("kubejs:rock/loose/picrite_basalt", 3)).addLoot("kubejs:rock/loose/picrite_basalt").randomChance(0.25)
+
+    event.addBlockLootModifier("minecraft:cobbled_deepslate").replaceLoot("minecraft:cobbled_deepslate", Item.of("kubejs:rock/cobble/nephelinite"))
+    event.addBlockLootModifier("minecraft:cobbled_deepslate_slab").replaceLoot("minecraft:cobbled_deepslate_slab", Item.of("kubejs:rock/cobble/nephelinite_slab"))
+    event.addBlockLootModifier("minecraft:cobbled_deepslate_stairs").replaceLoot("minecraft:cobbled_deepslate_stairs", Item.of("kubejs:rock/cobble/nephelinite_stairs"))
+    event.addBlockLootModifier("minecraft:cobbled_deepslate_wall").replaceLoot("minecraft:cobbled_deepslate_wall", Item.of("kubejs:rock/cobble/nephelinite_wall"))
+
+    event.addBlockLootModifier("minecraft:cobblestone").replaceLoot("minecraft:cobblestone", Item.of("kubejs:rock/cobble/argillite"))
+    event.addBlockLootModifier("minecraft:cobblestone_slab").replaceLoot("minecraft:cobblestone_slab", Item.of("kubejs:rock/cobble/argillite_slab"))
+    event.addBlockLootModifier("minecraft:cobblestone_stairs").replaceLoot("minecraft:cobblestone_stairs", Item.of("kubejs:rock/cobble/argillite_stairs"))
+    event.addBlockLootModifier("minecraft:cobblestone_wall").replaceLoot("minecraft:cobblestone_wall", Item.of("kubejs:rock/cobble/argillite_wall"))
+})  
