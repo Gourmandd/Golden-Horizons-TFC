@@ -51,4 +51,9 @@ LootJS.modifiers(event =>{
     event.addBlockLootModifier("minecraft:cobblestone_slab").replaceLoot("minecraft:cobblestone_slab", Item.of("kubejs:rock/cobble/argillite_slab"))
     event.addBlockLootModifier("minecraft:cobblestone_stairs").replaceLoot("minecraft:cobblestone_stairs", Item.of("kubejs:rock/cobble/argillite_stairs"))
     event.addBlockLootModifier("minecraft:cobblestone_wall").replaceLoot("minecraft:cobblestone_wall", Item.of("kubejs:rock/cobble/argillite_wall"))
+    
+    event.addBlockLootModifier("spectrum:shimmel").replaceLoot("spectrum:cobbled_blackslag", Item.of("kubejs:rock/loose/blackslag", 3)).addLoot("kubejs:rock/loose/blackslag").randomChance(0.25)
+    event.addBlockLootModifier("spectrum:sawblade_grass").replaceLoot("spectrum:cobbled_blackslag", Item.of("kubejs:rock/loose/blackslag", 3)).addLoot("kubejs:rock/loose/blackslag").randomChance(0.25)
+    event.addBlockLootModifier("spectrum:overgrown_blackslag").replaceLoot("spectrum:cobbled_blackslag", Item.of("kubejs:rock/loose/blackslag", 3)).addLoot("kubejs:rock/loose/blackslag").randomChance(0.25)
+    event.addBlockLootModifier("spectrum:ashen_blackslag").replaceLoot("spectrum:cobbled_blackslag", Item.of("kubejs:rock/loose/blackslag", 3)).addLoot("kubejs:rock/loose/blackslag").randomChance(0.25)
 })  
