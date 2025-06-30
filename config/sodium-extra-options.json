@@ -24,12 +24,13 @@
     "sky_colors": true
   },
   "render_settings": {
-    "fog_type": "DEFAULT",
+    "fog_type": "MOD_COMPAT",
     "fog_distance": 0,
     "fog_start": 100,
     "multi_dimension_fog_control": false,
     "dimensionFogDistance": {
-      "minecraft:overworld": 0
+      "minecraft:overworld": 0,
+      "spectrum:deeper_down": 0
     },
     "light_updates": true,
     "item_frame": true,
