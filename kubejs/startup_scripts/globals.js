@@ -635,7 +635,7 @@ global.SPECTRUM_DEEPER_DOWN_ORES = [
 ]
 
 // TFC ores that will appear in the Deeper Down
-global.TFC_DEEPERDOWN_ORES = [
+global.TFC_DEEPER_DOWN_ORES = [
   
 ]
 
@@ -701,4 +701,12 @@ global.STONE_TO_COBBLESTONE_TEXTURE = {
   "schist": "tfc:block/rock/cobble/schist",
   "gneiss": "tfc:block/rock/cobble/gneiss",
   "marble": "tfc:block/rock/cobble/marble"
+}
+
+global.CUSTOM_ROCK_MODELS = {
+  "argillite": "minecraft:block/stone",
+  "nephelinite": "minecraft:block/deepslate",
+  "blackslag": "spectrum:block/blackslag",
+  "travertine": "minecraft:block/dripstone_block",
+  "picrite_basalt": "spectrum:block/basal_marble",
 }

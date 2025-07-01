@@ -15,6 +15,8 @@ StartupEvents.registry("block", event =>{
     })
 
     global.DEEPER_DOWN_ROCK_TYPES.forEach(rock_type =>{
+        event.create("kubejs:rock/hardened/" + rock_type).model(global.CUSTOM_ROCK_MODELS[rock_type]).displayName("Hardened " + nameProcessing(rock_type)).soundType("stone").tagBlock("minecraft:mineable/pickaxe").tagItem("forge:stone")
+
         event.create("kubejs:rock/cobble/" + rock_type).textureAll(global.STONE_TO_COBBLESTONE_TEXTURE[rock_type]).displayName(nameProcessing(rock_type) + " Cobble").soundType("stone").tagBlock("minecraft:mineable/pickaxe").tagItem("forge:cobblestone/normal").tagBlock("tfc:can_landslide")
         event.create("kubejs:rock/cobble/" + rock_type + "_slab", "slab").textureAll(global.STONE_TO_COBBLESTONE_TEXTURE[rock_type]).displayName(nameProcessing(rock_type) + " Cobble Slab").soundType("stone").tagBlock("minecraft:mineable/pickaxe")
         event.create("kubejs:rock/cobble/" + rock_type + "_stairs", "stairs").textureAll(global.STONE_TO_COBBLESTONE_TEXTURE[rock_type]).displayName(nameProcessing(rock_type) + " Cobble Stairs").soundType("stone").tagBlock("minecraft:mineable/pickaxe")
