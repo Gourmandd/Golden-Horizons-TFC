@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "L",
+    "B"
+  ],
+  "key": {
+    "L": {
+      "item": "create:redstone_link"
+    },
+    "B": {
+      "item": "minecraft:barrel"
+    }
+  },
+  "result": {
+    "item": "create:stock_link",
+    "count": 1
+  }
+}

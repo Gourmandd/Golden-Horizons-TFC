@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " I ",
+    "IPI",
+    "RIR"
+  ],
+  "key": {
+    "I": {
+      "item": "tfc:metal/rod/wrought_iron"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "P": {
+      "item": "create:cardboard_block"
+    }
+  },
+  "result": {
+    "item": "create:packager",
+    "count": 1
+  }
+}

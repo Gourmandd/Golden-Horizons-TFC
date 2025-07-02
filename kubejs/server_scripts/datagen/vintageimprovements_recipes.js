@@ -1,6 +1,8 @@
 
+
+// Vinatge improvements doesn't have a Create v6 1.20.1 version so has been removed for now.
 ServerEvents.recipes(event =>{
-    
+    /*
     global.TFC_METALS.forEach(metal =>{
         event.recipes.vintageimprovements.hammering("tfc:metal/sheet/" + metal, "tfc:metal/double_ingot/" + metal).anvilBlock("tfc:metal/anvil/steel").hammerBlows(5)
             .id("modpack:hammering/sheet/" + metal)
@@ -46,5 +48,32 @@ ServerEvents.recipes(event =>{
     
     event.recipes.vintageimprovements.curving("tfc:metal/bucket/red_steel", "tfc:metal/sheet/red_steel")
         .id("modpack:curving/red_steel_bucket")
+    */
 
+    // replacement recipes
+    const HAMMERING = {
+        "tfc:raw_iron_bloom": "tfc:refined_iron_bloom",
+        "tfc:refined_iron_bloom": "tfc:metal/ingot/wrought_iron",
+        "tfc:metal/ingot/pig_iron": "tfc:metal/ingot/high_carbon_steel",
+        "tfc:metal/ingot/high_carbon_steel": "tfc:metal/ingot/steel",
+        "tfc:metal/ingot/high_carbon_black_steel": "tfc:metal/ingot/black_steel",
+        "tfc:metal/ingot/high_carbon_red_steel": "tfc:metal/ingot/red_steel",
+        "tfc:metal/ingot/high_carbon_blue_steel": "tfc:metal/ingot/blue_steel"
+    }
+
+    Object.keys(HAMMERING).forEach(key => {
+        event.recipes.create.sequenced_assembly(
+            Item.of(HAMMERING[key]),
+            Item.of(key),
+            [
+                event.recipes.create.pressing(key, key),
+                event.recipes.create.pressing(key, key),
+                event.recipes.create.pressing(key, key),
+                event.recipes.create.pressing(key, key),
+                event.recipes.create.pressing(key, key)
+            ]
+        )
+        .id("modpack:sequenced_assembly/hammering/" + key.replace(":", "/"))
+        .transitionalItem(key)
+    })
 })

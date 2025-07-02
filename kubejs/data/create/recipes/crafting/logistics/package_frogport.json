@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "G",
+    "B",
+    "A"
+  ],
+  "key": {
+    "G": {
+      "item": "tfc:glue"
+    },
+    "B": {
+      "item": "minecraft:barrel"
+    },
+    "A": {
+      "item": "tfc:metal/double_sheet/wrought_iron"
+    }
+  },
+  "result": {
+    "item": "create:package_frogport",
+    "count": 1
+  }
+}
