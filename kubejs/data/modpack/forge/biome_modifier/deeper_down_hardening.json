@@ -1,0 +1,6 @@
+{
+    "type": "forge:add_features",
+    "biomes": "#spectrum:in_deeper_down",
+    "features": "modpack:hardening",
+    "step": "top_layer_modification"
+}

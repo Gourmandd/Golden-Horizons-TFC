@@ -1,3 +1,7 @@
 {
-    "effect.caupona.hyperactive.description": "Your energy levels are higher! Your mining and movement speed get a boost."
+    "effect.caupona.hyperactive.description": "Your energy levels are higher! Your mining and movement speed get a boost.",
+    "block.caupona.felsic_tuff_bricks": "Felsic Tuff Bricks",
+    "block.caupona.felsic_tuff_bricks_wall": "Felsic Tuff Brick Wall",
+    "block.caupona.felsic_tuff_bricks_stairs": "Felsic Tuff Brick Stairs",
+    "block.caupona.felsic_tuff_bricks_slab": "Felsic Tuff Brick Slab"
 }

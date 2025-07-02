@@ -1,7 +1,22 @@
-//This can be done with loot tables within the datapack
+
 try{
 console.info("Loot Tables loaded")
 
+let REMOVE_DIRT = [ //according to the logs this is somehow being redeclared. So its not a const for now.
+    "minecraft:dirt",
+    "minecraft:grass_block",
+    "minecraft:podzol",
+    "minecraft:mycelium",
+    "minecraft:farmland"
+]
+
+let CORAL_TYPES = [
+    "fire",
+    "bubble",
+    "tube",
+    "brain",
+    "horn"
+]
 
 LootJS.modifiers((event) => {
     global.DYE_COLOURS.forEach(colour => { 
@@ -16,6 +31,17 @@ LootJS.modifiers((event) => {
     event.addBlockLootModifier("hearth_and_home:"+colour+"_stained_barred_glass_pane").addLoot("hearth_and_home:"+colour+"_stained_barred_glass_pane").removeLoot("minecraft:iron_nugget")
     })
 
+    CORAL_TYPES.forEach(type =>{
+        event.addBlockLootModifier(`minecraft:${type}_coral`).removeLoot(`minecraft:${type}_coral`).addLoot(`tfc:coral/${type}_coral`)
+        event.addBlockLootModifier(`minecraft:dead_${type}_coral`).removeLoot(`minecraft:dead_${type}_coral`).addLoot(`tfc:coral/${type}_dead_coral`)
+        event.addBlockLootModifier(`minecraft:${type}_coral_fan`).removeLoot(`minecraft:${type}_coral_fan`).addLoot(`tfc:coral/${type}_coral_fan`)
+        event.addBlockLootModifier(`minecraft:dead_${type}_coral_fan`).removeLoot(`minecraft:dead_${type}_coral_fan`).addLoot(`tfc:coral/${type}_dead_coral_fan`)
+    })
+
+    REMOVE_DIRT.forEach(blockID =>{
+        event.addBlockLootModifier(blockID).replaceLoot("minecraft:dirt", "tfc:dirt/loam")
+    })
+
     //minecraft glass is hardcoded to not drop anything unless gem saw or silk touch??
     //event.addBlockLootModifier("minecraft:orange_stained_glass").addLoot("minecraft:orange_stained_glass")
     //event.addBlockLootModifier("minecraft:glass").addLoot("minecraft:glass")
@@ -25,7 +51,7 @@ LootJS.modifiers((event) => {
 
     global.CUSTOM_CLAY_TYPES.forEach(type => {
 
-    if (type == "kaolinite"){return}
+    if (type == "kaolinite"){return} //guard statement, kaolin already has its own clay blocks.
     event.addBlockLootModifier("kubejs:clay/" + type + "_clay_block").removeLoot("kubejs:clay/" + type + "_clay_block")
     event.addBlockLootModifier("kubejs:clay/" + type + "_clay_block").randomChance(0.50).addLoot("kubejs:clay/" + type + "_clay_ball")
     event.addBlockLootModifier("kubejs:clay/" + type + "_clay_block").randomChance(0.50).addLoot("kubejs:clay/" + type + "_clay_ball")

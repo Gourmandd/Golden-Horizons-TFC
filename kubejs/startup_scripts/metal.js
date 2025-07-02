@@ -13,6 +13,4 @@ StartupEvents.registry("fluid", event =>{
     
     event.create("electrum").displayName("Electrum").bucketColor(0xFFF10F).thickTexture(0xFFF10F).noBucket().noBlock().tag("tfc:molten_metals")
     event.create("aluminium").displayName("Aluminium").bucketColor(0xCDD6DA).thickTexture(0xCDD6DA).noBucket().noBlock().tag("tfc:molten_metals")
-    event.create("aluminium_slurry").displayName("Aluminium Slurry").bucketColor(0x8F5B5D).thinTexture(0x8F5B5D).noBucket().noBlock().tag("tfc:molten_metals")
-
 })

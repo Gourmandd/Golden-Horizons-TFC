@@ -1,0 +1,10 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+      "item": "architects_palette:chiseled_abyssaline_bricks"
+    },
+    "result_item": {
+      "item": "architects_palette:chiseled_hadaline_bricks"
+    },
+    "temperature": 1535
+  }
