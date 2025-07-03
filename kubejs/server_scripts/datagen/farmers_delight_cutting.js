@@ -220,6 +220,6 @@ ServerEvents.recipes(event =>{
     })
 
     global.ROCK_TYPES.forEach(rock => {
-        cutting(`${NAMESPACE}:fd_cutting/rock/${rock}`, `${NAMESPACE}:cutting/rock/${rock}`, `tfc:rock/loose/${rock}`, 0.5, 1, "pickaxe_dig")
+        cutting(`${NAMESPACE}:fd_cutting/rock/${rock}`, `${NAMESPACE}:cutting/rock/${rock}`, "tag", `tfc:rock/loose/${rock}`, "pickaxe_dig", 0.5, 1)
     })
 })
