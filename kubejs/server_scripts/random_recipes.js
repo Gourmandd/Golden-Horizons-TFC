@@ -21,6 +21,8 @@ ServerEvents.recipes(event =>{
     event.remove({mod: "simpleradio"})
     event.remove({mod: "copycats"})
     event.remove({mod: "functionalstorage"})
+    event.remove({mod: "everycomp", type: "farmersdelight:cutting"})
+
 
     event.remove({output: Ingredient.of(/.*lamp.*/), mod: "another_furniture"})
     event.remove({input: "tfc:metal/ingot/zinc", type: "minecraft:stonecutting"})

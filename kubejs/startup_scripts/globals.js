@@ -8,6 +8,9 @@ function nameProcessing(name){
   return name
 }
 
+global.NAMESPACE = "modpack"
+global.REGISTRY_NAMESPACE = "kubejs"
+
 global.CROPS = [
     "barley",
     "oat",
@@ -169,7 +172,74 @@ global.AFC_WOOD_TYPES = [
     "fig",
     "ironwood",
     "ipe"
+]
+
+global.OVERWORLD_WOOD_TYPES = [
+    "acacia",
+    "ash",
+    "aspen",
+    "birch",
+    "blackwood",
+    "chestnut",
+    "douglas_fir",
+    "hickory",
+    "kapok",
+    "mangrove",
+    "maple",
+    "oak",
+    "palm",
+    "pine",
+    "rosewood",
+    "sequoia",
+    "spruce",
+    "sycamore",
+    "white_cedar",
+    "willow",
+    "baobab",
+    "eucalyptus",
+    "mahogany",
+    "hevea",
+    "tualang",
+    "teak",
+    "cypress",
+    "fig",
+    "ironwood",
+    "ipe"
   ]
+
+global.WOOD_TYPE_TO_MOD = {
+    "acacia": "tfc",
+    "ash": "tfc",
+    "aspen": "tfc",
+    "birch": "tfc",
+    "blackwood": "tfc",
+    "chestnut": "tfc",
+    "douglas_fir": "tfc",
+    "hickory": "tfc",
+    "kapok": "tfc",
+    "mangrove": "tfc",
+    "maple": "tfc",
+    "oak": "tfc",
+    "palm": "tfc",
+    "pine": "tfc",
+    "rosewood": "tfc",
+    "sequoia": "tfc",
+    "spruce": "tfc",
+    "sycamore": "tfc",
+    "white_cedar": "tfc",
+    "willow": "tfc",
+    "baobab": "afc",
+    "eucalyptus": "afc",
+    "mahogany": "afc",
+    "hevea": "afc",
+    "tualang": "afc",
+    "teak": "afc",
+    "cypress": "afc",
+    "fig": "afc",
+    "ironwood": "afc",
+    "ipe": "afc"
+}
+
 
 global.BUSH_PRODUCTS = {
     "blackberry": ["item:tfc:food/blackberry"],
