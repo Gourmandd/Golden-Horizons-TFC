@@ -7,7 +7,7 @@
   ],
   "key": {
     "L": {
-      "tag": "forge:leather"
+      "item": "sns:reinforced_fabric"
     },
     "C": {
       "tag": "forge:chests/wooden"

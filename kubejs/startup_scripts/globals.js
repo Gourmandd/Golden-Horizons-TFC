@@ -780,3 +780,26 @@ global.CUSTOM_ROCK_MODELS = {
   "travertine": "minecraft:block/dripstone_block",
   "picrite_basalt": "spectrum:block/basal_marble",
 }
+
+global.DEEPER_DOWN_ROCK_STONES = {
+  "argillite": "minecraft:stone",
+  "nephelinite": "minecraft:deepslate",
+  "blackslag": "spectrum:blackslag",
+  "travertine": "minecraft:dripstone_block",
+  "picrite_basalt": "spectrum:basal_marble",
+}
+
+global.NOXWOODS = [
+  "chestnut",
+  "ivory",
+  "slate",
+  "ebony"
+]
+
+global.SPECTRUM_WOODS = [
+  "chestnut",
+  "ivory",
+  "slate",
+  "ebony",
+  "weeping_gala"
+]
