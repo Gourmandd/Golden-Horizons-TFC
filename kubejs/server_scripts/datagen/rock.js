@@ -19,6 +19,9 @@ ServerEvents.recipes(event =>{
         event.shaped(Item.of(`kubejs:rock/cobble/${rock_type}` + "_slab", 6), ["XXX"], {"X": `kubejs:rock/cobble/${rock_type}`})
             .id(`modpack:crafting/rock/${rock_type}_slab`)
 
+        event.shaped(Item.of(`kubejs:rock/hardened/${rock_type}`, 2), ["RMR", "MRM", "RMR"], {"R": global.DEEPER_DOWN_ROCK_STONES[rock_type], "M": "tfc:mortar"})
+            .id(`modpack:crafting/rock/hardened/${rock_type}`)
+
         event.recipes.tfc.damage_inputs_shapeless_crafting(
             event.recipes.minecraft.crafting_shapeless(Item.of(`kubejs:brick/${rock_type}`, 1), [Item.of(`kubejs:rock/loose/${rock_type}`, 1), "#tfc:chisels"])
                 .id(`modpack:crafting/rock/${rock_type}_brick`)
