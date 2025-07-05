@@ -1,5 +1,5 @@
 ServerEvents.recipes(event =>{
-
+    
     const STONE_POLISHING = {
         "minecraft:granite": "minecraft:polished_granite",
         "minecraft:diorite": "minecraft:polished_diorite",
@@ -41,7 +41,7 @@ ServerEvents.recipes(event =>{
     }
 
     Object.keys(STONE_POLISHING).forEach(entry =>{
-        let id = "modpack:crafting/shapeless/polishing/" + Item.of(STONE_POLISHING[entry]).getMod() + "/" + entry.split(":").pop()
+        let id = `modpack:crafting/shapeless/polishing/${Item.of(STONE_POLISHING[entry]).getMod()}` + "/" + entry.split(":").pop()
         event.recipes.tfc.damage_inputs_shapeless_crafting(
             event.shapeless(STONE_POLISHING[entry] ,[entry ,"#create:sandpaper"])
         ).id(id)
@@ -97,7 +97,7 @@ ServerEvents.recipes(event =>{
     }
 
     Object.keys(BRICKS_MAKING).forEach(entry =>{
-        let id = "modpack:crafting/shapeless/bricks/" + Item.of(BRICKS_MAKING[entry]).getMod() + "/" + entry.split(":").pop()
+        let id = `modpack:crafting/shapeless/bricks/${Item.of(BRICKS_MAKING[entry]).getMod()}` + "/" + entry.split(":").pop()
         event.recipes.tfc.damage_inputs_shapeless_crafting(
             event.shapeless(BRICKS_MAKING[entry] ,[entry ,"#tfc:chisels"])
         ).id(id)

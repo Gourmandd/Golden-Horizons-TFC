@@ -2,6 +2,7 @@
 
 // Vinatge improvements doesn't have a Create v6 1.20.1 version so has been removed for now.
 ServerEvents.recipes(event =>{
+
     /*
     global.TFC_METALS.forEach(metal =>{
         event.recipes.vintageimprovements.hammering("tfc:metal/sheet/" + metal, "tfc:metal/double_ingot/" + metal).anvilBlock("tfc:metal/anvil/steel").hammerBlows(5)
@@ -73,7 +74,7 @@ ServerEvents.recipes(event =>{
                 event.recipes.create.pressing(key, key)
             ]
         )
-        .id("modpack:sequenced_assembly/hammering/" + key.replace(":", "/"))
+        .id(`modpack:sequenced_assembly/hammering/${key.replace(":", "/")}`)
         .transitionalItem(key)
     })
 })

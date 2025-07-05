@@ -33,11 +33,11 @@ const ROCK_TYPES = [
 ]
 
 ROCK_TYPES.forEach(rockType =>{
-  shimmerstone_ores.push("kubejs:ore/shimmerstone/" + rockType)
-  azurite_ores.push("kubejs:ore/azurite/" + rockType)
-  stratine_ores.push("kubejs:ore/stratine/" + rockType)
-  paltaeria_ores.push("kubejs:ore/paltaeria/" + rockType)
-  malachite_ores.push("kubejs:ore/malachite/" + rockType)
+  shimmerstone_ores.push(`kubejs:ore/shimmerstone/${rockType}`)
+  azurite_ores.push(`kubejs:ore/azurite/${rockType}`)
+  stratine_ores.push(`kubejs:ore/stratine/${rockType}`)
+  paltaeria_ores.push(`kubejs:ore/paltaeria/${rockType}`)
+  malachite_ores.push(`kubejs:ore/malachite/${rockType}`)
 })
 
 BlockEvents.broken(event =>{

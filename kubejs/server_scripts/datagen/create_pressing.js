@@ -18,7 +18,7 @@ ServerEvents.recipes(event =>{
     })*/
 
     global.TFC_SOIL_TYPES.forEach(type =>{
-        event.recipes.create.pressing("tfc:grass_path/" + type ,"tfc:dirt/" + type).id("modpack:pressing/soil/" + type)
-        event.recipes.create.pressing("tfc:grass_path/" + type ,"tfc:grass/" + type).id("modpack:pressing/grass/" + type)
+        event.recipes.create.pressing(`tfc:grass_path/${type}` ,`tfc:dirt/${type}`).id(`modpack:pressing/soil/${type}`)
+        event.recipes.create.pressing(`tfc:grass_path/${type}` ,`tfc:grass/${type}`).id(`modpack:pressing/grass/${type}`)
     })
 })

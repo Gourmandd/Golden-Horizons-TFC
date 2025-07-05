@@ -21,7 +21,7 @@ ServerEvents.recipes(event =>{
 
 ServerEvents.tags("item", event =>{
   global.DYE_COLOURS.forEach(colour =>{
-    event.add("minecraft:stairs", ["hearth_and_home:" + colour + "_shingle_stairs", "hearth_and_home:" + colour + "_terracotta_brick_stairs"])
+    event.add("minecraft:stairs", [`hearth_and_home:${colour}_shingle_stairs`, `hearth_and_home:${colour}_terracotta_brick_stairs`])
     event.add("minecraft:stairs", ["hearth_and_home:shingle_stairs", "hearth_and_home:terracotta_brick_stairs"])
     })
 

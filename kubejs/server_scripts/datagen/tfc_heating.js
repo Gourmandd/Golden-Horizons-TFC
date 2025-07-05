@@ -17,12 +17,20 @@ ServerEvents.recipes(event =>{
     ]
 
     POWDERS.forEach(ore =>{
-        event.recipes.tfc.heating("tfc:powder/" + ore, global.MELTING_POINTS[global.ORE_TO_METAL[ore]]).resultFluid(Fluid.of("tfc:metal/" + global.ORE_TO_METAL[ore], 5))
-            .id("modpack:heating/powder/" + ore)
+        event.recipes.tfc.heating(`tfc:powder/${ore}`, global.MELTING_POINTS[global.ORE_TO_METAL[ore]])
+            .resultFluid(Fluid.of(`tfc:metal/${global.ORE_TO_METAL[ore]}`, 5))
+            .id(`modpack:heating/powder/${ore}`)
     })
 
     global.TOOL_METALS.forEach(metal =>{
-        event.recipes.tfc.heating("artisanal:metal/can_opener/" + metal, global.MELTING_POINTS[metal]).resultFluid(Fluid.of("tfc:metal/" + metal, 200)).useDurability(true)
-            .id("modpack:heating/can_opener/" + metal)
+        event.recipes.tfc.heating(`artisanal:metal/can_opener/${metal}`, global.MELTING_POINTS[metal])
+            .resultFluid(Fluid.of(`tfc:metal/${metal}`, 200))
+            .id(`modpack:heating/can_opener/${metal}`)
+            .useDurability(true)
+
+        event.recipes.tfc.heating(`#modpack:hanging_signs/metal/${metal}`, global.MELTING_POINTS[metal])
+            .resultFluid(Fluid.of(`tfc:metal/${metal}`, 4))
+            .id(`modpack:heating/hanging_sign/${metal}`)
+
     })
 })

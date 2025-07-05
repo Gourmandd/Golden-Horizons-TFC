@@ -1,5 +1,5 @@
 try {
-// priority: 0
+// priority: 100
 
 // Visit the wiki for more info - https://kubejs.com/
 

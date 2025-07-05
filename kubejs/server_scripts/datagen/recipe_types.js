@@ -1,4 +1,4 @@
-//priority: 1
+//priority: 10
 
 // ---------------------------------------------- //
 // Contains common functions for recipes and data //
@@ -23,7 +23,7 @@ function cutting(event, input, output, action, id){
         "tool": {
           "type": "farmersdelight:tool_action",
           "action": action
-        }}).id("modpack:cutting_board/" + id)
+        }}).id(`modpack:cutting_board/${id}`)
 }
 
 //artisanal TFC scaleable pot recipe
@@ -45,7 +45,7 @@ function scaleablePotRecipeFluid(event, input, inputFluid, fluidAmount, outputFl
           "fluid": outputFluid,
           "amount": outputAmount
         },
-    }).id("modpack:scalable_pot/" + id)
+    }).id(`modpack:scalable_pot/${id}`)
 }
 
 function scaleablePotRecipeItem(event, input, inputFluid, fluidAmount, outputItem, duration, temperature, id){
@@ -67,7 +67,7 @@ function scaleablePotRecipeItem(event, input, inputFluid, fluidAmount, outputIte
             "item": outputItem,
           }
         ]
-    }).id("modpack:scalable_pot/" + id)
+    }).id(`modpack:scalable_pot/${id}`)
 }
 
 function doliumRestingFluid(event, fluid, fluidAmount, outputItem, id){
@@ -83,7 +83,7 @@ function doliumRestingFluid(event, fluid, fluidAmount, outputItem, id){
       "type": "forge:nbt",
       "count": 1,
       "item": outputItem
-    }}).id("modpack:dolium_resting/" + id)
+    }}).id(`modpack:dolium_resting/${id}`)
 }
 
 function rolling(event, input, output, outputAmount, id){
@@ -96,7 +96,7 @@ function rolling(event, input, output, outputAmount, id){
         "item": output,
         "count": outputAmount
       }
-    }).id("modpack:rolling/" + id)
+    }).id(`modpack:rolling/${id}`)
 }
 
 /*

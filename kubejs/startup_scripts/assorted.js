@@ -10,7 +10,7 @@ StartupEvents.registry("item", event =>{
 
     event.create("soft_bark").displayName("Soft Bark")
     
-    global.DYE_COLOURS.forEach(colour => {event.create("terracotta/shard_" + colour).displayName(nameProcessing(colour) + " Terracotta Shard")})
+    global.DYE_COLOURS.forEach(colour => {event.create(`terracotta/shard_${colour}`).displayName(`${nameProcessing(colour)} Terracotta Shard`)})
 
     event.create("food/gingerbread_man_cutter").displayName("Gingerbread Man Cutter").unstackable().maxDamage(64)
     event.create("food/gingerbread_woman_cutter").displayName("Gingerbread Woman Cutter").unstackable().maxDamage(64)
@@ -27,7 +27,15 @@ StartupEvents.registry("block", event =>{
     event.create("felsic_tuff_mixture").displayName("Felsic Tuff Mixture").soundType("sand").tagBlock("minecraft:mineable/shovel")
 
     global.DYE_COLOURS.forEach(colour => {
-        event.create("terracotta/crushed_" + colour).displayName(nameProcessing(colour) + " Crushed Terracotta").tagBlock("minecraft:mineable/pickaxe").tagBlock("minecraft:mineable/shovel").soundType("sand").requiresTool(true).tagBlock("tfc:can_landslide").tagBlock("minecraft:sand").tagBlock("tfc:grass_plantable")
+        event.create(`terracotta/crushed_${colour}`)
+            .displayName(`${nameProcessing(colour)} Crushed Terracotta`)
+            .soundType("sand")
+            .requiresTool(true)
+            .tagBlock("minecraft:mineable/pickaxe")
+            .tagBlock("minecraft:mineable/shovel")
+            .tagBlock("tfc:can_landslide")
+            .tagBlock("minecraft:sand")
+            .tagBlock("tfc:grass_plantable")
     })
 
     event.create("andesite_machine").displayName("Andesite Machine").tagBlock("minecraft:mineable/pickaxe").tagBlock("minecraft:mineable/axe")
