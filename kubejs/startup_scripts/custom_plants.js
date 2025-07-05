@@ -6,17 +6,20 @@ StartupEvents.registry("block", event =>{
 
     event.create("kubejs:plant/wild_cotton", "tfc:wild_crop")
         .soundType("grass")
-        .tagBlock("minecraft:mineable/hoe")
+        .tagBlock("tfc:mineable_with_sharp_tool")
+        .tagBlock("tfc:plants")
         .seeds("kubejs:plant/cotton_seeds")
         .food("rusticdelight:cotton_boll")
         .model("rusticdelight:block/wild_cotton")
         .hardness(0.5)
         .deadModel("tfc:block/plant/dead_bush4")
+
     
 
     event.create("kubejs:plant/wild_coffee", "tfc:wild_crop")
         .soundType("grass")
-        .tagBlock("minecraft:mineable/hoe")
+        .tagBlock("tfc:mineable_with_sharp_tool")
+        .tagBlock("tfc:plants")
         .seeds("kubejs:plant/coffee_seeds")
         .food("rusticdelight:coffee_beans")
         .model("rusticdelight:block/wild_coffee")
