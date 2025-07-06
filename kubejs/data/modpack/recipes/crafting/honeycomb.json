@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "firmalife:beeswax"
+      },
+      {
+        "item": "firmalife:raw_honey"
+      }
+    ],
+    "result": {
+      "item": "minecraft:honeycomb",
+      "count": 1
+    }
+  }
+

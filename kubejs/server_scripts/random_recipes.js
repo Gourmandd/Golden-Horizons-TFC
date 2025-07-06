@@ -39,6 +39,7 @@ ServerEvents.recipes(event =>{
     event.remove({ type: "minecraft:smelting" , not: {mod: "spectrum"} })
     event.remove({ type: "minecraft:blasting" ,  input: "#c:ores"})
 
+    event.replaceInput({item: "minecraft:honeycomb", not: {output: "minecraft:honeycomb_block"}}, "minecraft:honeycomb", "firmalife:beeswax")
 })
 
 BlockEvents.rightClicked("farmersdelight:rich_soil", event =>{

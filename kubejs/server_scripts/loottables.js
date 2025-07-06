@@ -2,23 +2,33 @@
 try{
 console.info("Loot Tables loaded")
 
-let REMOVE_DIRT = [ //according to the logs this is somehow being redeclared. So its not a const for now.
-    "minecraft:dirt",
-    "minecraft:grass_block",
-    "minecraft:podzol",
-    "minecraft:mycelium",
-    "minecraft:farmland"
-]
-
-let CORAL_TYPES = [
-    "fire",
-    "bubble",
-    "tube",
-    "brain",
-    "horn"
-]
 
 LootJS.modifiers((event) => {
+
+    const REMOVE_DIRT = [ //according to the logs this is somehow being redeclared. So its not a const for now.
+        "minecraft:dirt", // maybe making this local to the event could work
+        "minecraft:grass_block",
+        "minecraft:podzol",
+        "minecraft:mycelium",
+        "minecraft:farmland"
+    ]
+
+    const CORAL_TYPES = [
+        "fire",
+        "bubble",
+        "tube",
+        "brain",
+        "horn"
+    ]
+
+    const REMOVE_SEEDS = [
+        "minecraft:grass",
+        "minecraft:tall_grass",
+        "minecraft:fern",
+        "minecraft:large_fern"
+    ]
+
+
     global.DYE_COLOURS.forEach(colour => { 
     event.addBlockLootModifier(`kubejs:terracotta/crushed_${colour}`).randomChance(0.25).addLoot(`kubejs:terracotta/shard_${colour}`)
     event.addBlockLootModifier(`kubejs:terracotta/crushed_${colour}`).randomChance(0.5).addLoot(`kubejs:terracotta/shard_${colour}`)
@@ -42,6 +52,10 @@ LootJS.modifiers((event) => {
         event.addBlockLootModifier(blockID).replaceLoot("minecraft:dirt", "tfc:dirt/loam")
     })
 
+    REMOVE_SEEDS.forEach(blockID => {
+        event.addBlockLootModifier(blockID).removeLoot("minecraft:wheat_seeds")
+    })
+
     //minecraft glass is hardcoded to not drop anything unless gem saw or silk touch??
     //event.addBlockLootModifier("minecraft:orange_stained_glass").addLoot("minecraft:orange_stained_glass")
     //event.addBlockLootModifier("minecraft:glass").addLoot("minecraft:glass")
@@ -52,11 +66,11 @@ LootJS.modifiers((event) => {
     global.CUSTOM_CLAY_TYPES.forEach(type => {
 
     if (type == "kaolinite"){return} //guard statement, kaolin already has its own clay blocks.
-    event.addBlockLootModifier(`kubejs:clay/${type}_clay_block`).removeLoot(`kubejs:clay/${type}_clay_block`)
-    event.addBlockLootModifier(`kubejs:clay/${type}_clay_block`).randomChance(0.50).addLoot(`kubejs:clay/${type}_clay_ball`)
-    event.addBlockLootModifier(`kubejs:clay/${type}_clay_block`).randomChance(0.50).addLoot(`kubejs:clay/${type}_clay_ball`)
-    event.addBlockLootModifier(`kubejs:clay/${type}_clay_block`).randomChance(1).addLoot(`kubejs:clay/${type}_clay_ball`)
-    event.addBlockLootModifier(`kubejs:clay/${type}_clay_block`).randomChance(1).addLoot(`kubejs:clay/${type}_clay_ball`)
+        event.addBlockLootModifier(`kubejs:clay/${type}_clay_block`).removeLoot(`kubejs:clay/${type}_clay_block`)
+        event.addBlockLootModifier(`kubejs:clay/${type}_clay_block`).randomChance(0.50).addLoot(`kubejs:clay/${type}_clay_ball`)
+        event.addBlockLootModifier(`kubejs:clay/${type}_clay_block`).randomChance(0.50).addLoot(`kubejs:clay/${type}_clay_ball`)
+        event.addBlockLootModifier(`kubejs:clay/${type}_clay_block`).randomChance(1).addLoot(`kubejs:clay/${type}_clay_ball`)
+        event.addBlockLootModifier(`kubejs:clay/${type}_clay_block`).randomChance(1).addLoot(`kubejs:clay/${type}_clay_ball`)
     }) 
 
     event.addBlockLootModifier("tfc:plant/moss").removeLoot("tfc:plant/moss").randomChance(0.25).addLoot("quark:moss_paste")
