@@ -12,12 +12,6 @@ StartupEvents.registry("item", event =>{
     
     global.DYE_COLOURS.forEach(colour => {event.create(`terracotta/shard_${colour}`).displayName(`${nameProcessing(colour)} Terracotta Shard`)})
 
-    event.create("food/gingerbread_man_cutter").displayName("Gingerbread Man Cutter").unstackable().maxDamage(64)
-    event.create("food/gingerbread_woman_cutter").displayName("Gingerbread Woman Cutter").unstackable().maxDamage(64)
-    event.create("food/gingerbread_star_cutter").displayName("Gingerbread Star Cutter").unstackable().maxDamage(64)
-    event.create("food/gingerbread_tree_cutter").displayName("Gingerbread Tree Cutter").unstackable().maxDamage(64)
-    event.create("food/gingerbread_creeper_cutter").displayName("Gingerbread Creeper Cutter").unstackable().maxDamage(64)
-
     event.create("raw_aluminium_mixture").displayName("Raw Aluminium Mixture")
     event.create("aluminium_nugget").displayName("Aluminium Nugget")
 })
