@@ -123,28 +123,22 @@
     "tfc_chest": true,
     "barrel": true
   },
-  "treechop": {
-    "plugin": true,
-    "show_tree_block_counts": true,
-    "show_num_chops_remaining": true
-  },
   "jadeaddons": {
     "equipment_requirement": ""
   },
-  "exposure": {
-    "lightroom": true,
-    "photograph_frame": true
-  },
-  "create": {
+  "jadeaddons.create": {
     "filter": true,
     "backtank_capacity": true,
     "goggles.requires_goggles": true,
     "goggles": false,
     "blaze_burner": true,
     "exact_block": true,
-    "crafting_blueprint": true,
     "goggles.detailed": false,
     "placard": true
+  },
+  "exposure": {
+    "lightroom": true,
+    "photograph_frame": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -163,5 +157,8 @@
   },
   "barbequesdelight": {
     "grill": true
+  },
+  "afc": {
+    "tap": true
   }
 }
