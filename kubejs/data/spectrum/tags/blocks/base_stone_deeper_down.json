@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "kubejs:rock/raw/nephelinite",
+    "kubejs:rock/raw/argillite",
+    "kubejs:rock/raw/blackslag",
+    "kubejs:rock/hardened/nephelinite",
+    "kubejs:rock/hardened/argillite",
+    "kubejs:rock/hardened/blackslag"
+  ]
+}

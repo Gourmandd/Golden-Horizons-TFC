@@ -29,6 +29,15 @@ ServerEvents.recipes(event =>{
 
         event.recipes.tfc.landslide(`kubejs:rock/cobble/${rock_type}`, `kubejs:rock/cobble/${rock_type}`)
         event.recipes.tfc.collapse(`kubejs:rock/cobble/${rock_type}`, `kubejs:rock/mortared_cobble/${rock_type}`)
+        event.recipes.tfc.collapse(`kubejs:rock/cobble/${rock_type}`, global.DEEPER_DOWN_ROCK_STONES[rock_type])
+
+        event.recipes.tfc.landslide("spectrum:black_materia", "spectrum:black_materia")
+        event.recipes.tfc.collapse(`kubejs:rock/cobble/blackslag`, "spectrum:shimmel")
+        event.recipes.tfc.collapse(`kubejs:rock/cobble/blackslag`, "spectrum:sawblade_grass")
+        event.recipes.tfc.collapse(`kubejs:rock/cobble/blackslag`, "spectrum:overgrown_blackslag")
+        event.recipes.tfc.collapse(`kubejs:rock/cobble/blackslag`, "spectrum:ashen_blackslag")
+        event.recipes.tfc.collapse("spectrum:slush", "spectrum:overgrown_slush")
+        event.recipes.tfc.collapse("spectrum:slush", "spectrum:slush")
     })
 
     global.ROCK_TYPES.forEach(rock_type =>{
@@ -59,3 +68,35 @@ LootJS.modifiers(event =>{
     event.addBlockLootModifier("spectrum:overgrown_blackslag").replaceLoot("spectrum:cobbled_blackslag", Item.of(`kubejs:rock/loose/blackslag`, 3)).addLoot(`kubejs:rock/loose/blackslag`).randomChance(0.25)
     event.addBlockLootModifier("spectrum:ashen_blackslag").replaceLoot("spectrum:cobbled_blackslag", Item.of(`kubejs:rock/loose/blackslag`, 3)).addLoot(`kubejs:rock/loose/blackslag`).randomChance(0.25)
 })  
+
+ServerEvents.tags("block", event => {
+    
+    global.DEEPER_DOWN_ROCK_TYPES.forEach(rock_type => {
+
+        event.add("tfc:rock/hardened", global.DEEPER_DOWN_ROCK_STONES[rock_type])
+        event.add("tfc:breaks_when_isolated", global.DEEPER_DOWN_ROCK_STONES[rock_type])
+        event.add("tfc:can_collapse", global.DEEPER_DOWN_ROCK_STONES[rock_type])
+        event.add("tfc:can_trigger_collapse", global.DEEPER_DOWN_ROCK_STONES[rock_type])
+        event.add("tfc:can_start_collapse", global.DEEPER_DOWN_ROCK_STONES[rock_type])
+    })
+
+    const LOOSE_MATERIAL = [
+        "spectrum:black_materia",
+        "spectrum:shimmel",
+        "spectrum:sawblade_grass",
+        "spectrum:overgrown_blackslag",
+        "spectrum:ashen_blackslag",
+        "spectrum:overgrown_slush",
+        "spectrum:slush"
+    ]
+
+    LOOSE_MATERIAL.forEach(block => {
+        event.add("tfc:can_collapse", block)
+        event.add("tfc:can_trigger_collapse", block)
+        event.add("tfc:can_start_collapse", block)
+    })
+
+    event.add("tfc:can_landslide", "spectrum:black_materia")
+    event.add("minecraft:big_dripleaf_placeable", "#tfc:rock/hardened")
+    event.add("spectrum:nightdew_soils", "#tfc:rock/hardened")
+})
