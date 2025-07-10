@@ -1,0 +1,2 @@
+These files are the files that are included in exports, so move them to parent directory (to override the old files, like your options file) and then run build.
+You might not have to do this if you never ran the modpack, as the files that come with the repository should be the ones that are in exports.

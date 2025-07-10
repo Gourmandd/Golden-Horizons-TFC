@@ -2,6 +2,55 @@
 
 All of the changelogs since 0.1 that was posted on Modrinth
 
+# Golden Horizons 1.9
+
+After this update the mod list is nearly finalised. I am thinking of setting up a Java profiler and seeing if anything uses more RAM than is worth it. The integration of Spectrum is going well, I wouldn't recommend going to its dimension yet since I dont have hardened stone and collapses to working properly but almost everything else is ready.
+
+## New Content
+
+- Rustic Delight was added, allowing you to make many new food items using existing items like peppers and calamari. (and ingredients for batter, which can be used for pancakes!)
+- Create has been updated to version 6, some recipes were edited to be more reasonable. (given vaults are made from blue steel and were used in some recipes.)
+- Rustic Delight adds two crops, which has been given the TFC crop treatment. You can find Cotton in warm and medium-rainfall areas and Coffee in warm and dry areas.
+- When placing cobblestone with mortar in your off-hand or by right-clicking it with mortar, you can mortar the cobblestone meaning it no longer landslides. (it still collapses like raw stone.)
+- Create mod windmills and water wheels are now craftable, and usable, just place the waterwheels in the river the same as you would with TFC ones, (and not like you normal do with Create waterwheels).
+- Aluminium can now to made, by charging "raw aluminium mixture" which is made from kaolinite and redstone. This aluminium is used for aircraft.
+- You can now craft honeycomb, should allow a few more building blocks and a few recipes to be made.
+- You now use Firmalife's beeswax instead of honeycomb to wax copper blocks.
+- [CHANGE] Hammering of blooms and weak steel is now done with presses since Vintage Improvements has not updated.
+
+## Spectrum Integration
+
+- Spectrum's wooden blocks now craft into and use lumber like in TFC.
+- Amaranth has been made into a proper TFC like crop.
+- The stone types found in the dimension act like other TFC stones, having cobblestone and loose rocks and so on.
+- These stone types also had some of their names changed:
+Vanilla stone -> Argillite
+Deepslate -> Nephelinite
+Dripstone -> Travertine
+Basal Marble -> Picrite Basalt
+- Enchanter had some obsolete enchantments removed.
+- Spectrum's structures should use TFC blocks when applicable. (some vanilla blocks just drop TFC variants, such as flowers since TFC's barely bloom.)
+- The dimensions worldgen was slightly adapted to use TFC blocks (stone blobs use TFC stones and the hard-coded large ore veins had their block swapped.)
+
+## Modlist Changes
+
+- Create and addons updated to newest versions.
+- Added Create: Picky Wheels
+- Added Rustic Delight
+- Added Block Swap
+- Added TFC Water Flasks
+- Removed Vintage Improvements
+- Removed Vintage Kubejs
+- [RESOURCE PACK] Removed Lopy's Copper Coating
+- [RESOURCE PACK] Added Old Copper Stuffs
+
+## Enjoy :)
+
+The "expanded" scope of the modpack is seemingly getting close to being finished, custom content and suggestions will be more of a priority. I might try to look into this idea expanding soap and chalk making: https://tree.taiga.io/project/gourmandd-golden-horizons-ideas-suggestions/us/30?kanban-status=10332830 .
+
+- _Gourmand (Discord), Gourmandd (GitHub)
+
+
 # Golden Horizons 1.8 
 
 This update sees a good few random bits and bobs, mostly from mod updates. The beginning of the TFC x Spectrum compatibility has been implemented, Spectrum's early to mid-game should be fully accessable (keep in mind that the ores are a bit tricky to find). No compatibility other than recipes has been made to the lategame, while "the place" is accessable I havn't touched it at all. Some minor nitpicks also need to be sorted out with Spectrums earlygame. Create v6 in the modpack is on the horizon, Create Big Cannons just released a beta release that is compatible.
