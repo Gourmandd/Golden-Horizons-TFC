@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "modpack:clay_balls"
+      "tag": "forge:clay_balls"
     },
     {
       "tag": "forge:cobblestone"
     },
     {
-      "tag": "modpack:clay_bricks"
+      "tag": "forge:clay_bricks"
     }
   ],
   "result": {

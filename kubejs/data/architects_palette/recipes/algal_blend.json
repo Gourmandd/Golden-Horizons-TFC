@@ -8,7 +8,7 @@
         "item": "minecraft:clay_ball"
     },
     {
-        "tag": "modpack:kelp"
+        "tag": "forge:raw_kelp"
     }
     ],
     "result": {

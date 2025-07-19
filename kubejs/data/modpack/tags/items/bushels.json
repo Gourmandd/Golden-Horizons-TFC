@@ -6,6 +6,7 @@
         "tfc:food/rye",
         "tfc:food/rice",
         "tfc:food/barley",
-        "tfc:food/maize"
+        "tfc:food/maize",
+        "spectrum:amaranth_bushel"
     ]
 }

@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:kelp",
+        "tfc:plant/winged_kelp",
+        "tfc:plant/leafy_kelp"
+    ]
+}

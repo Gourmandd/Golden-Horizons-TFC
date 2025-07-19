@@ -1,7 +1,6 @@
 {
     "replace": false,
     "values": [
-
         "tfc:bronze_bell",
         "tfc:brass_bell",
         "minecraft:bell"

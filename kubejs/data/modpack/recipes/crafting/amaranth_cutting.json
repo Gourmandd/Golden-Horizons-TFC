@@ -1,0 +1,36 @@
+{
+  "type": "tfc:extra_products_shapeless_crafting",
+  "extra_products": [
+    {
+      "item": "tfc:straw"
+    }
+  ],
+  "recipe": {
+    "type": "tfc:damage_inputs_shapeless_crafting",
+    "recipe": {
+      "type": "tfc:advanced_shapeless_crafting",
+      "ingredients": [
+        {
+          "type": "tfc:not_rotten",
+          "ingredient": {
+            "item": "spectrum:amaranth_bushel"
+          }
+        },
+        {
+          "tag": "tfc:knives"
+        }
+      ],
+      "primary_ingredient": {
+        "item": "spectrum:amaranth_bushel"
+      },
+      "result": {
+        "stack": {
+          "item": "spectrum:amaranth_grains"
+        },
+        "modifiers": [
+          "tfc:copy_food"
+        ]
+      }
+    }
+  }
+}
