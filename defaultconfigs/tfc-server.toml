@@ -810,7 +810,7 @@ familiarityDecayLimit = 0.3
 	[mechanics.fluids]
 		#
 		# If true, TFC buckets that naturally place sources (colored steel) will place sources. If false, this behavior is disabled.
-		enableBucketsPlacingSources = true
+		enableBucketsPlacingSources1 = true
 
 	[mechanics.vanillaChanges]
 		#
@@ -833,7 +833,7 @@ familiarityDecayLimit = 0.3
 		enableVanillaGolems = false
 		#
 		# If true, vanilla monsters are able to spawn. If false, the 'enableVanillaMonstersOnSurface' config option is not used, and all spawns are denied.
-		enableVanillaMonsters = true
+		enableVanillaMonsters = false
 		#
 		# If true, vanilla monsters will spawn on the surface instead of just underground. If false, vanilla monsters will not spawn on the surface.
 		enableVanillaMonstersOnSurface = false

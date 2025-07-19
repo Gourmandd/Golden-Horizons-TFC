@@ -1,0 +1,16 @@
+{
+  "type": "spectrum:potion_workshop_crafting",
+  "base_ingredient": {
+    "item": "tfc:wooden_bucket"
+  },
+  "use_up_base_ingredient": true,
+  "color": 16774110,
+  "ingredient1": {
+    "item": "spectrum:milky_resin"
+  },
+  "result": {
+    "item": "tfc:wooden_bucket",
+    "nbt": "{\"fluid\": {\"Amount\": 1000, \"FluidName\": \"firmalife:coconut_milk\"} }"
+    },
+  "required_advancement": "spectrum:hidden/collect_milky_resin"
+}

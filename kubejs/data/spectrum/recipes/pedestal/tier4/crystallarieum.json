@@ -1,0 +1,38 @@
+{
+  "type": "spectrum:pedestal",
+  "time": 1200,
+  "tier": "complex",
+  "cyan": 8,
+  "magenta": 16,
+  "yellow": 0,
+  "black": 0,
+  "white": 4,
+  "experience": 8.0,
+  "pattern": [
+    "ILI",
+    "CPC",
+    "BPB"
+  ],
+  "key": {
+    "I": {
+      "item": "spectrum:bismuth_crystal"
+    },
+    "C": {
+      "item": "spectrum:polished_calcite"
+    },
+    "B": {
+      "item": "spectrum:polished_basalt"
+    },
+    "P": {
+      "tag": "spectrum:pigment_blocks"
+    },
+    "L": {
+      "item": "spectrum:mermaids_gem"
+    }
+  },
+  "result": {
+    "item": "spectrum:crystallarieum",
+    "count": 1
+  },
+  "required_advancement": "spectrum:unlocks/blocks/crystallarieum"
+}

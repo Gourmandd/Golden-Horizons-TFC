@@ -1,0 +1,16 @@
+{
+  "type": "spectrum:potion_workshop_crafting",
+  "base_ingredient": {
+    "item": "tfc:wooden_bucket"
+  },
+  "use_up_base_ingredient": true,
+  "color": 2451682,
+  "ingredient1": {
+    "item": "spectrum:light_blue_pigment",
+    "count": 4
+  },
+  "result": {
+    "item": "tfc:wooden_bucket",
+    "nbt": "{\"fluid\": {\"Amount\": 1000, \"FluidName\": \"minecraft:water\"} }"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "type": "spectrum:pedestal",
+  "time": 240,
+  "tier": "advanced",
+  "magenta": 1,
+  "yellow": 1,
+  "cyan": 1,
+  "black": 1,
+  "white": 0,
+  "experience": 1.0,
+  "pattern": [
+    "PMP",
+    "SBS",
+    "YMY"
+  ],
+  "key": {
+    "P": {
+      "item": "spectrum:pink_pigment"
+    },
+    "Y": {
+      "item": "spectrum:yellow_pigment"
+    },
+    "B": {
+      "item": "tfc:metal/sheet/red_steel"
+    },
+    "S": {
+      "item": "spectrum:shimmerstone_gem"
+    },
+    "M": {
+      "item": "spectrum:mermaids_gem"
+    }
+  },
+  "result": {
+    "item": "tfc:metal/bucket/red_steel",
+    "nbt": "{\"fluid\": {\"Amount\": 1000, \"FluidName\": \"spectrum:liquid_crystal\"} }",
+    "count": 1
+  },
+  "required_advancement": "spectrum:unlocks/blocks/liquid_crystal"
+}
