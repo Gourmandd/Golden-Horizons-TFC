@@ -1,11 +1,11 @@
 {
     "type": "tfc:cluster_vein",
     "config": {
-      "rarity": 60,
+      "rarity": 80,
       "density": 0.3,
       "min_y": 0,
       "max_y": 100,
-      "size": 30,
+      "size": 20,
       "random_name": "shimmerstone_ore",
       "blocks": [
         {
