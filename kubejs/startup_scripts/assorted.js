@@ -21,6 +21,7 @@ StartupEvents.registry("block", event =>{
     event.create("felsic_tuff_mixture").displayName("Felsic Tuff Mixture").soundType("sand").tagBlock("minecraft:mineable/shovel")
 
     global.DYE_COLOURS.forEach(colour => {
+
         event.create(`terracotta/crushed_${colour}`)
             .displayName(`${nameProcessing(colour)} Crushed Terracotta`)
             .soundType("sand")
@@ -38,6 +39,22 @@ StartupEvents.registry("block", event =>{
     
 })
 
+StartupEvents.registry("fluid", event => {
+
+    event.create("shale_clay_slurry")
+        .displayName("Shale Clay Slurry")
+        .bucketColor(0x4E4664)
+        .thinTexture(0x4E4664)
+        .noBucket()
+        .noBlock()
+
+    event.create("filtered_shale_clay_slurry")
+        .displayName("Filtered Shale Clay Slurry")
+        .bucketColor(0x746D89)
+        .thinTexture(0x746D89)
+        .noBucket()
+        .noBlock()
+})
 
 
 
