@@ -1,7 +1,7 @@
 {
     "type": "spectrum:midnight_solution_converting",
     "ingredient": {
-      "tag": "modpack:clay_balls"
+      "tag": "forge:clay_balls"
     },
     "result": {
       "item": "tfc:glue",
