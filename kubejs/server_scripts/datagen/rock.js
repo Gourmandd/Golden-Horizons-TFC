@@ -1,3 +1,87 @@
+
+// This will be move somewhere else but it will be here for now.
+
+/* Ore guide
+
+Sedimentary
+- Malachite (carbonic)
+- Bismuthinite
+- Magnetite
+- Limonite
+- Lignite (surface)
+- Bituminius Coal (surface)
+- Saltpeter (surface)
+- Gypsum (surface)
+- Halite (surface)
+- Amethyst (in river)
+- Opal (in river)
+
+Igneous Intrusive
+- Cassiterite
+- Native Gold
+- Garnierite (small)
+- Sphalerite
+- Sulfur (lava level)
+- Emerald
+
+Igneous Extrusive
+- Native Copper
+- Native Gold
+- Hematite
+- Sphalerite (small)
+- Opal (in river)
+
+Metamorphic
+- Tetrrahedrite
+- Bismuthinite
+- Sulfur (lava level)
+- Amethyst (in river)
+
+Limestone - Borax - Lapis Lazuli
+Shale - Sylvite - Borax
+Claystone - Sylvite - Borax
+Chert - Sylvite
+Gabbro - Garnierite - Diamond
+Granite - Native Silver - Cryolite
+Diorite - Native Silver - Cryolite
+Schist - Native Silver - Graphite - Cinnabar
+Gneiss - Native Silver - Graphite - Cinnabar
+Marble - Graphite - Lapis Lazuli
+Quartzite - Graphite - Cinnabar
+Phyllite - Cinnabar
+
+DD Rock Types
+
+Travertine - Sedimentary
+Argillite - Sedimentary
+Blackslag - Igneous Extrusive
+Nephelinite - Igneous Extrusive
+Picrite Basalt - Igneous Extrusive
+
+Andesite, Gabbro, Granite, Diorite available in small clusters.
+
+DD Ore generation
+
+Igneous Extrusive (Includes Andesite)
+- Native Copper
+- Native Gold
+- Hematite
+- Sphalerite (small)
+- Shimmerstone
+- Malachite
+
+Sedimentary
+- Bismuthinite
+- Magnetite
+- Limonite
+- Paltaeria (small)
+
+Granite - Native Silver - Cryolite
+Diorite - Native Silver - Cryolite
+Gabbro - Garnierite - Diamond
+
+*/
+
 ServerEvents.recipes(event =>{
 
     global.DEEPER_DOWN_ROCK_TYPES.forEach(rock_type =>{
@@ -30,15 +114,15 @@ ServerEvents.recipes(event =>{
         event.recipes.tfc.landslide(`kubejs:rock/cobble/${rock_type}`, `kubejs:rock/cobble/${rock_type}`)
         event.recipes.tfc.collapse(`kubejs:rock/cobble/${rock_type}`, `kubejs:rock/mortared_cobble/${rock_type}`)
         event.recipes.tfc.collapse(`kubejs:rock/cobble/${rock_type}`, global.DEEPER_DOWN_ROCK_STONES[rock_type])
-
-        event.recipes.tfc.landslide("spectrum:black_materia", "spectrum:black_materia")
-        event.recipes.tfc.collapse(`kubejs:rock/cobble/blackslag`, "spectrum:shimmel")
-        event.recipes.tfc.collapse(`kubejs:rock/cobble/blackslag`, "spectrum:sawblade_grass")
-        event.recipes.tfc.collapse(`kubejs:rock/cobble/blackslag`, "spectrum:overgrown_blackslag")
-        event.recipes.tfc.collapse(`kubejs:rock/cobble/blackslag`, "spectrum:ashen_blackslag")
-        event.recipes.tfc.collapse("spectrum:slush", "spectrum:overgrown_slush")
-        event.recipes.tfc.collapse("spectrum:slush", "spectrum:slush")
     })
+
+    event.recipes.tfc.landslide("spectrum:black_materia", "spectrum:black_materia")
+    event.recipes.tfc.collapse(`kubejs:rock/cobble/blackslag`, "spectrum:shimmel")
+    event.recipes.tfc.collapse(`kubejs:rock/cobble/blackslag`, "spectrum:sawblade_grass")
+    event.recipes.tfc.collapse(`kubejs:rock/cobble/blackslag`, "spectrum:overgrown_blackslag")
+    event.recipes.tfc.collapse(`kubejs:rock/cobble/blackslag`, "spectrum:ashen_blackslag")
+    event.recipes.tfc.collapse("spectrum:slush", "spectrum:overgrown_slush")
+    event.recipes.tfc.collapse("spectrum:slush", "spectrum:slush")
 
     global.ROCK_TYPES.forEach(rock_type =>{
         event.recipes.tfc.collapse(`tfc:rock/cobble/${rock_type}`, `kubejs:rock/mortared_cobble/${rock_type}`)
@@ -73,11 +157,14 @@ ServerEvents.tags("block", event => {
     
     global.DEEPER_DOWN_ROCK_TYPES.forEach(rock_type => {
 
-        event.add("tfc:rock/hardened", global.DEEPER_DOWN_ROCK_STONES[rock_type])
+        //event.add("tfc:rock/hardened", global.DEEPER_DOWN_ROCK_STONES[rock_type])
         event.add("tfc:breaks_when_isolated", global.DEEPER_DOWN_ROCK_STONES[rock_type])
         event.add("tfc:can_collapse", global.DEEPER_DOWN_ROCK_STONES[rock_type])
         event.add("tfc:can_trigger_collapse", global.DEEPER_DOWN_ROCK_STONES[rock_type])
         event.add("tfc:can_start_collapse", global.DEEPER_DOWN_ROCK_STONES[rock_type])
+
+        event.add("tfc:can_collapse", `kubejs:rock/hardened/${rock_type}`)
+        event.add("tfc:can_trigger_collapse", `kubejs:rock/hardened/${rock_type}`)
     })
 
     const LOOSE_MATERIAL = [

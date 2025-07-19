@@ -6,6 +6,8 @@ StartupEvents.registry("item", event =>{
 
         event.create(`rock/loose/${rock_type}`)
             .displayName(`Loose ${nameProcessing(rock_type)} Rock`)
+            .tag("tfc:any_knapping")
+            .tag("tfc:rock_knapping")
         
         event.create(`brick/${rock_type}`)
             .displayName(`${nameProcessing(rock_type)} Brick`)
