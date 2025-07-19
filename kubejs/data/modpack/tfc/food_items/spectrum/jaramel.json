@@ -1,0 +1,15 @@
+{
+    "ingredient": {
+      "item": "spectrum:jaramel"
+    },
+    "category": "other",
+    "hunger": 2,
+    "saturation": 1,
+    "water": 0,
+    "decay_modifier": 0.75,
+    "grain": 0,
+    "dairy": 0,
+    "vegetables": 0.1,
+    "fruit": 0.1,
+    "protein": 0
+  }

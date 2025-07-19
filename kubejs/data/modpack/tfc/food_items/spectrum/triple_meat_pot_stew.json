@@ -1,0 +1,15 @@
+{
+    "ingredient": {
+      "item": "spectrum:triple_meat_pot_stew"
+    },
+    "category": "other",
+    "hunger": 8,
+    "saturation": 6,
+    "water": 10,
+    "decay_modifier": 2,
+    "grain": 0,
+    "dairy": 2,
+    "vegetables": 0.5,
+    "fruit": 0,
+    "protein": 6
+  }

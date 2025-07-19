@@ -1,0 +1,15 @@
+{
+    "ingredient": {
+      "item": "spectrum:dragonbone_broth"
+    },
+    "category": "other",
+    "hunger": 4,
+    "saturation": 4,
+    "water": 10,
+    "decay_modifier": 2,
+    "grain": 0,
+    "dairy": 0,
+    "vegetables": 1,
+    "fruit": 2,
+    "protein": 2
+  }

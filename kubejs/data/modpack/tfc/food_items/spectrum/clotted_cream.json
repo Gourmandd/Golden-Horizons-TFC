@@ -1,0 +1,15 @@
+{
+    "ingredient": {
+      "item": "spectrum:clotted_cream"
+    },
+    "category": "other",
+    "hunger": 4,
+    "saturation": 1,
+    "water": 0,
+    "decay_modifier": 0.75,
+    "grain": 0,
+    "dairy": 1,
+    "vegetables": 0,
+    "fruit": 0,
+    "protein": 0.3
+  }

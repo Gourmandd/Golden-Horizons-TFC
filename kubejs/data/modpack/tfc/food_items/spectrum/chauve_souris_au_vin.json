@@ -1,0 +1,15 @@
+{
+    "ingredient": {
+      "item": "spectrum:chauve_souris_au_vin"
+    },
+    "category": "other",
+    "hunger": 6,
+    "saturation": 3,
+    "water": 0,
+    "decay_modifier": 2,
+    "grain": 0.3,
+    "dairy": 0.5,
+    "vegetables": 0.3,
+    "fruit": 2,
+    "protein": 2.5
+  }

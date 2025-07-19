@@ -1,0 +1,15 @@
+{
+    "ingredient": {
+      "item": "spectrum:peaches_flambe"
+    },
+    "category": "other",
+    "hunger": 4,
+    "saturation": 6,
+    "water": 10,
+    "decay_modifier": 2,
+    "grain": 0,
+    "dairy": 1,
+    "vegetables": 0.5,
+    "fruit": 4,
+    "protein": 0
+  }

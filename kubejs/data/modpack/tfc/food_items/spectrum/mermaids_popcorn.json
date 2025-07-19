@@ -1,0 +1,15 @@
+{
+    "ingredient": {
+      "item": "spectrum:mermaids_popcorn"
+    },
+    "category": "other",
+    "hunger": 4,
+    "saturation": 6,
+    "water": 0,
+    "decay_modifier": 2,
+    "grain": 4,
+    "dairy": 0,
+    "vegetables": 0,
+    "fruit": 0,
+    "protein": 0
+  }

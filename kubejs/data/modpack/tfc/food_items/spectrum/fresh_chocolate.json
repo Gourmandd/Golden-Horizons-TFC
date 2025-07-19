@@ -1,0 +1,15 @@
+{
+    "ingredient": {
+      "item": "spectrum:fresh_chocolate"
+    },
+    "category": "other",
+    "hunger": 2,
+    "saturation": 1,
+    "water": 1,
+    "decay_modifier": 0.75,
+    "grain": 0.3,
+    "dairy": 0.5,
+    "vegetables": 0,
+    "fruit": 0.3,
+    "protein": 0.1
+  }

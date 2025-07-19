@@ -1,0 +1,15 @@
+{
+    "ingredient": {
+      "item": "spectrum:bodacious_berry_bar"
+    },
+    "category": "other",
+    "hunger": 4,
+    "saturation": 6,
+    "water": 0,
+    "decay_modifier": 1,
+    "grain": 0.3,
+    "dairy": 2,
+    "vegetables": 0,
+    "fruit": 2,
+    "protein": 0.3
+  }

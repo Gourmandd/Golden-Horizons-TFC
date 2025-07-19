@@ -1,0 +1,15 @@
+{
+    "ingredient": {
+      "item": "spectrum:myceylon_pumpkin_pie"
+    },
+    "category": "other",
+    "hunger": 6,
+    "saturation": 4,
+    "water": 0,
+    "decay_modifier": 1,
+    "grain": 2,
+    "dairy": 1,
+    "vegetables": 0.5,
+    "fruit": 1,
+    "protein": 0
+  }

@@ -1,0 +1,15 @@
+{
+    "ingredient": {
+      "item": "spectrum:junket"
+    },
+    "category": "other",
+    "hunger": 2,
+    "saturation": 1,
+    "water": 15,
+    "decay_modifier": 1,
+    "grain": 0.1,
+    "dairy": 1,
+    "vegetables": 0,
+    "fruit": 0,
+    "protein": 0.1
+  }

@@ -1,0 +1,15 @@
+{
+    "ingredient": {
+      "item": "spectrum:banyash"
+    },
+    "category": "other",
+    "hunger": 4,
+    "saturation": 4,
+    "water": 10,
+    "decay_modifier": 2,
+    "grain": 0,
+    "dairy": 0,
+    "vegetables": 2,
+    "fruit": 1,
+    "protein": 2.5
+  }

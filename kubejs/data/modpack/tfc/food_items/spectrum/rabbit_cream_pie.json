@@ -1,0 +1,15 @@
+{
+    "ingredient": {
+      "item": "spectrum:rabbit_cream_pie"
+    },
+    "category": "other",
+    "hunger": 4,
+    "saturation": 6,
+    "water": 5,
+    "decay_modifier": 2,
+    "grain": 2,
+    "dairy": 1,
+    "vegetables": 0.3,
+    "fruit": 0,
+    "protein": 0
+  }

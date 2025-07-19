@@ -1,0 +1,15 @@
+{
+    "ingredient": {
+      "item": "spectrum:fishcake"
+    },
+    "category": "other",
+    "hunger": 4,
+    "saturation": 6,
+    "water": 0,
+    "decay_modifier": 2,
+    "grain": 0,
+    "dairy": 0,
+    "vegetables": 0.3,
+    "fruit": 0,
+    "protein": 1.5
+  }

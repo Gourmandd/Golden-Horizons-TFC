@@ -1,0 +1,15 @@
+{
+    "ingredient": {
+      "item": "spectrum:honey_pastry"
+    },
+    "category": "other",
+    "hunger": 4,
+    "saturation": 2,
+    "water": 0,
+    "decay_modifier": 1,
+    "grain": 2,
+    "dairy": 0,
+    "vegetables": 0,
+    "fruit": 0,
+    "protein": 0.3
+  }

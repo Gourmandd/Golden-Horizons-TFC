@@ -1,0 +1,15 @@
+{
+    "ingredient": {
+      "item": "spectrum:restoration_tea"
+    },
+    "category": "other",
+    "hunger": 0,
+    "saturation": 1,
+    "water": 10,
+    "decay_modifier": 2,
+    "grain": 0.5,
+    "dairy": 0,
+    "vegetables": 0,
+    "fruit": 0,
+    "protein": 0
+  }

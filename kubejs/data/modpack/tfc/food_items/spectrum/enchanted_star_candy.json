@@ -1,0 +1,15 @@
+{
+    "ingredient": {
+      "item": "spectrum:purple_star_candy"
+    },
+    "category": "other",
+    "hunger": 2,
+    "saturation": 0,
+    "water": 0,
+    "decay_modifier": 0.5,
+    "grain": 2,
+    "dairy": 0,
+    "vegetables": 0,
+    "fruit": 0,
+    "protein": 0
+  }

@@ -1,0 +1,23 @@
+{
+    "ingredient": [
+        {
+            "item": "spectrum:jaramel_trifle"
+        },
+        {
+            "item": "spectrum:monster_trifle"
+        },
+        {
+            "item": "spectrum:demon_trifle"
+        }
+    ],
+    "category": "other",
+    "hunger": 6,
+    "saturation": 4,
+    "water": 0,
+    "decay_modifier": 1,
+    "grain": 2,
+    "dairy": 0,
+    "vegetables": 0,
+    "fruit": 0.5,
+    "protein": 0
+  }

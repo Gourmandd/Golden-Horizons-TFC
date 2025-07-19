@@ -1,0 +1,15 @@
+{
+    "ingredient": {
+      "item": "spectrum:milky_resin"
+    },
+    "category": "other",
+    "hunger": 2,
+    "saturation": 1,
+    "water": 0,
+    "decay_modifier": 2,
+    "grain": 0,
+    "dairy": 1.5,
+    "vegetables": 0,
+    "fruit": 0,
+    "protein": 0.3
+  }

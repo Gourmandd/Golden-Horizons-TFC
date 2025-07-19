@@ -1,0 +1,15 @@
+{
+    "ingredient": {
+      "item": "spectrum:slushslide"
+    },
+    "category": "other",
+    "hunger": 1,
+    "saturation": 1,
+    "water": 5,
+    "decay_modifier": 2,
+    "grain": 0.2,
+    "dairy": 1,
+    "vegetables": 0.2,
+    "fruit": 0.2,
+    "protein": 0.2
+  }

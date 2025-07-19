@@ -1,0 +1,15 @@
+{
+    "ingredient": {
+      "item": "spectrum:scone"
+    },
+    "category": "other",
+    "hunger": 2,
+    "saturation": 1,
+    "water": 0,
+    "decay_modifier": 2,
+    "grain": 1,
+    "dairy": 1,
+    "vegetables": 0,
+    "fruit": 1,
+    "protein": 0.5
+  }

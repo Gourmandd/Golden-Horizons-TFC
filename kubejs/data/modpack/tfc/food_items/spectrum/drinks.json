@@ -1,0 +1,50 @@
+{
+    "ingredient": [
+        {
+            "item": "spectrum:bristle_mead"
+        },
+        {
+            "item": "spectrum:morchella"
+        },
+        {
+            "item": "spectrum:freigeist"
+        },
+        {
+            "item": "spectrum:infused_beverage"
+        },
+        {
+            "item": "spectrum:pure_alcohol"
+        },
+        {
+            "item": "spectrum:reprise"
+        },
+        {
+            "item": "spectrum:pure_alcohol"
+        },
+        {
+            "item": "spectrum:suspicious_brew"
+        },
+        {
+            "item": "spectrum:jade_wine"
+        },
+        {
+            "item": "spectrum:chrysocolla"
+        },
+        {
+            "item": "spectrum:aqua_regia"
+        },
+        {
+            "item": "spectrum:evernectar"
+        }
+    ],
+    "category": "other",
+    "hunger": 0,
+    "saturation": 2,
+    "water": 25,
+    "decay_modifier": 0.05,
+    "grain": 0,
+    "dairy": 0,
+    "vegetables": 0,
+    "fruit": 0.1,
+    "protein": 0
+  }

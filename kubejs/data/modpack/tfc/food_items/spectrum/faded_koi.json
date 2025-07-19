@@ -1,0 +1,15 @@
+{
+    "ingredient": {
+      "item": "spectrum:faded_koi"
+    },
+    "category": "other",
+    "hunger": 6,
+    "saturation": 6,
+    "water": 0,
+    "decay_modifier": 2,
+    "grain": 0,
+    "dairy": 0,
+    "vegetables": 0,
+    "fruit": 0,
+    "protein": 1.5
+  }

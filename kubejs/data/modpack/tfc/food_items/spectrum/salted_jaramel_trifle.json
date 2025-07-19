@@ -1,0 +1,15 @@
+{
+    "ingredient": {
+        "item": "spectrum:salted_jaramel_trifle"
+    },
+    "category": "other",
+    "hunger": 6,
+    "saturation": 4,
+    "water": 0,
+    "decay_modifier": 0.8,
+    "grain": 2,
+    "dairy": 0,
+    "vegetables": 0,
+    "fruit": 0.5,
+    "protein": 0
+  }

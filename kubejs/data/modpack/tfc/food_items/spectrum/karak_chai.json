@@ -1,0 +1,15 @@
+{
+    "ingredient": {
+      "item": "spectrum:karak_chai"
+    },
+    "category": "other",
+    "hunger": 0,
+    "saturation": 1,
+    "water": 10,
+    "decay_modifier": 2,
+    "grain": 0,
+    "dairy": 0.5,
+    "vegetables": 0,
+    "fruit": 0,
+    "protein": 0
+  }

@@ -1,0 +1,15 @@
+{
+    "ingredient": {
+      "item": "spectrum:sedatives"
+    },
+    "category": "other",
+    "hunger": 1,
+    "saturation": 1,
+    "water": 5,
+    "decay_modifier": 0.75,
+    "grain": 0,
+    "dairy": 0,
+    "vegetables": 0.3,
+    "fruit": 0,
+    "protein": 0
+  }

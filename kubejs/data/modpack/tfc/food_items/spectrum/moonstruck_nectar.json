@@ -1,0 +1,15 @@
+{
+    "ingredient": {
+      "item": "spectrum:moonstruck_nectar"
+    },
+    "category": "other",
+    "hunger": 2,
+    "saturation": 0,
+    "water": 0,
+    "decay_modifier": 0.25,
+    "grain": 0,
+    "dairy": 0,
+    "vegetables": 0,
+    "fruit": 0,
+    "protein": 0
+  }

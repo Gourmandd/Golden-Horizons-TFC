@@ -1,0 +1,15 @@
+{
+    "ingredient": {
+      "item": "spectrum:meatloaf_sandwich"
+    },
+    "category": "other",
+    "hunger": 4,
+    "saturation": 4,
+    "water": 0,
+    "decay_modifier": 2,
+    "grain": 1,
+    "dairy": 1,
+    "vegetables": 0.5,
+    "fruit": 0,
+    "protein": 1
+  }

@@ -1,0 +1,15 @@
+{
+    "ingredient": {
+      "item": "spectrum:triple_meat_pot_pie"
+    },
+    "category": "other",
+    "hunger": 8,
+    "saturation": 6,
+    "water": 0,
+    "decay_modifier": 0.75,
+    "grain": 2,
+    "dairy": 1.5,
+    "vegetables": 0,
+    "fruit": 0,
+    "protein": 6
+  }

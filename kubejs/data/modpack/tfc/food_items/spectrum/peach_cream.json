@@ -1,0 +1,15 @@
+{
+    "ingredient": {
+      "item": "spectrum:peach_cream"
+    },
+    "category": "other",
+    "hunger": 4,
+    "saturation": 4,
+    "water": 10,
+    "decay_modifier": 2,
+    "grain": 0.5,
+    "dairy": 1,
+    "vegetables": 0,
+    "fruit": 1.5,
+    "protein": 0
+  }

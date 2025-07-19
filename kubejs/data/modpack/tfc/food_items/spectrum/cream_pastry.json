@@ -1,0 +1,15 @@
+{
+    "ingredient": {
+      "item": "spectrum:cream_pastry"
+    },
+    "category": "other",
+    "hunger": 4,
+    "saturation": 6,
+    "water": 0,
+    "decay_modifier": 2,
+    "grain": 3,
+    "dairy": 2,
+    "vegetables": 0,
+    "fruit": 0,
+    "protein": 1
+  }

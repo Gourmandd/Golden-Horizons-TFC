@@ -1,0 +1,15 @@
+{
+    "ingredient": {
+      "item": "spectrum:berliner"
+    },
+    "category": "other",
+    "hunger": 4,
+    "saturation": 8,
+    "water": 0,
+    "decay_modifier": 1.5,
+    "grain": 2,
+    "dairy": 2.5,
+    "vegetables": 0,
+    "fruit": 0,
+    "protein": 1
+  }

@@ -1,0 +1,15 @@
+{
+    "ingredient": {
+      "item": "spectrum:mellow_shallot_soup"
+    },
+    "category": "other",
+    "hunger": 4,
+    "saturation": 4,
+    "water": 10,
+    "decay_modifier": 2,
+    "grain": 0,
+    "dairy": 0,
+    "vegetables": 1.5,
+    "fruit": 0,
+    "protein": 0
+  }

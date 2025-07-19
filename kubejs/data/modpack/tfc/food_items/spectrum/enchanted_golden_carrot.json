@@ -1,0 +1,15 @@
+{
+    "ingredient": {
+      "item": "spectrum:enchanted_golden_carrot"
+    },
+    "category": "other",
+    "hunger": 4,
+    "saturation": 10,
+    "water": 0,
+    "decay_modifier": 0,
+    "grain": 0,
+    "dairy": 0,
+    "vegetables": 4,
+    "fruit": 0,
+    "protein": 0
+  }
