@@ -4095,32 +4095,8 @@
             },
             "files": [
                 {
-                    "type": "curseforge",
-                    "file_name": "Firmalife-1.20.1-2.1.19.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "neoforge",
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6539/645/Firmalife-1.20.1-2.1.19.jar",
-                    "id": "6539645",
-                    "parent_id": "453394",
-                    "hashes": {
-                        "sha1": "10a33eb2e568207ade545676ea744cb6b429d8cf",
-                        "md5": "f84e578a7cc607a70c33ed1972e55767"
-                    },
-                    "required_dependencies": [
-                        "302973"
-                    ],
-                    "size": 4601850,
-                    "date_published": "2025-05-17T16:15:39.383Z"
-                },
-                {
                     "type": "modrinth",
-                    "file_name": "Firmalife-1.20.1-2.1.19.jar",
+                    "file_name": "Firmalife-1.20.1-2.1.21.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -4129,18 +4105,42 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/5bKeBHw2/versions/tw6j36vR/Firmalife-1.20.1-2.1.19.jar",
-                    "id": "tw6j36vR",
+                    "url": "https://cdn.modrinth.com/data/5bKeBHw2/versions/UwgG4DYC/Firmalife-1.20.1-2.1.21.jar",
+                    "id": "UwgG4DYC",
                     "parent_id": "5bKeBHw2",
                     "hashes": {
-                        "sha512": "8c5014da76fc05fa04ea20519ebb882df86a2506fd7094baad0ac5ef4b9941122dedf8556ffc72495147a56da22089d5f3db29df473e926448d5830a3577f3ee",
-                        "sha1": "10a33eb2e568207ade545676ea744cb6b429d8cf"
+                        "sha512": "e514abd47658b725c644c440c456909b22aaef2fd2c5a880430991399603ced4ca56612666dc3d31e1226188d67de04febcddd1ed7e0f117c1fe7178de206a71",
+                        "sha1": "eb8493c32134d58bb63d85fb7664fe10556628f0"
                     },
                     "required_dependencies": [
                         "JaCEZUhg"
                     ],
-                    "size": 4601850,
-                    "date_published": "2025-05-17T16:15:43.828318Z"
+                    "size": 4628505,
+                    "date_published": "2025-07-08T01:40:53.393391Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "Firmalife-1.20.1-2.1.21.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6742/946/Firmalife-1.20.1-2.1.21.jar",
+                    "id": "6742946",
+                    "parent_id": "453394",
+                    "hashes": {
+                        "sha1": "eb8493c32134d58bb63d85fb7664fe10556628f0",
+                        "md5": "e2acee0939ae270dfabe0ca45f3cacb6"
+                    },
+                    "required_dependencies": [
+                        "302973"
+                    ],
+                    "size": 4628505,
+                    "date_published": "2025-07-08T01:40:49.807Z"
                 }
             ]
         },
@@ -4713,8 +4713,8 @@
                 "modrinth": "ihearttfc"
             },
             "name": {
-                "curseforge": "I \u2764 TFC",
-                "modrinth": "I \u2764 TFC"
+                "curseforge": "I ❤ TFC",
+                "modrinth": "I ❤ TFC"
             },
             "id": {
                 "curseforge": "1118578",
@@ -4911,8 +4911,8 @@
                 "curseforge": "jade"
             },
             "name": {
-                "modrinth": "Jade \ud83d\udd0d",
-                "curseforge": "Jade \ud83d\udd0d"
+                "modrinth": "Jade 🔍",
+                "curseforge": "Jade 🔍"
             },
             "id": {
                 "modrinth": "nvQzSEkH",
@@ -8407,7 +8407,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "artisanal-1.6.1.jar",
+                    "file_name": "artisanal-1.6.2.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -8415,18 +8415,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6616/401/artisanal-1.6.1.jar",
-                    "id": "6616401",
+                    "url": "https://edge.forgecdn.net/files/6730/792/artisanal-1.6.2.jar",
+                    "id": "6730792",
                     "parent_id": "1059361",
                     "hashes": {
-                        "sha1": "a4b147df10a577a9636a7bad7aef32d257d6c253",
-                        "md5": "20a9b55e968ea50235cff64087a59439"
+                        "sha1": "0ffde20e87960390274bf62d54cfed2e8f04c0a7",
+                        "md5": "cc53bd12617325a20d0fd96fb9417777"
                     },
                     "required_dependencies": [
                         "302973"
                     ],
-                    "size": 3129177,
-                    "date_published": "2025-06-05T05:43:59.190Z"
+                    "size": 3129395,
+                    "date_published": "2025-07-04T20:06:36.043Z"
                 }
             ]
         },
@@ -8830,7 +8830,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "TerraFirmaCraft-Forge-1.20.1-3.2.15.jar",
+                    "file_name": "TerraFirmaCraft-Forge-1.20.1-3.2.16.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -8839,22 +8839,22 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/JaCEZUhg/versions/fyidRM2Q/TerraFirmaCraft-Forge-1.20.1-3.2.15.jar",
-                    "id": "fyidRM2Q",
+                    "url": "https://cdn.modrinth.com/data/JaCEZUhg/versions/9KLbGimV/TerraFirmaCraft-Forge-1.20.1-3.2.16.jar",
+                    "id": "9KLbGimV",
                     "parent_id": "JaCEZUhg",
                     "hashes": {
-                        "sha512": "82bf73b51c3c8ae4065ddf124706df165a0c4e387175f1d51a6dbdad5064a4476a8d2dbfa16100f4bf294f7e7607d438df3d3c7ea5218c18eeb395152d6bedab",
-                        "sha1": "259142aff0520d8ef4096a07ca7a097426fffc2c"
+                        "sha512": "40c6488fbabf77522739d5b49798b7506fdaff75e9ab969e400431ce44ad47e5fe561f98aa0793e72d2300584a98cd8741229cc3449eed99e0359bb6d75fc363",
+                        "sha1": "c87cab744f1e6e17cbe7fa596f3566ac5d904270"
                     },
                     "required_dependencies": [
                         "nU0bVIaL"
                     ],
-                    "size": 49673516,
-                    "date_published": "2025-06-15T23:52:00.691400Z"
+                    "size": 47450381,
+                    "date_published": "2025-07-06T22:20:39.823132Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "TerraFirmaCraft-Forge-1.20.1-3.2.15.jar",
+                    "file_name": "TerraFirmaCraft-Forge-1.20.1-3.2.16.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -8863,18 +8863,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6656/48/TerraFirmaCraft-Forge-1.20.1-3.2.15.jar",
-                    "id": "6656048",
+                    "url": "https://edge.forgecdn.net/files/6739/107/TerraFirmaCraft-Forge-1.20.1-3.2.16.jar",
+                    "id": "6739107",
                     "parent_id": "302973",
                     "hashes": {
-                        "sha1": "259142aff0520d8ef4096a07ca7a097426fffc2c",
-                        "md5": "b43c87813350666fd6b8c4a8413ada2f"
+                        "sha1": "c87cab744f1e6e17cbe7fa596f3566ac5d904270",
+                        "md5": "ac46fb177d94e9729c0fa4e7c116dedd"
                     },
                     "required_dependencies": [
                         "306770"
                     ],
-                    "size": 49673516,
-                    "date_published": "2025-06-15T23:51:55.120Z"
+                    "size": 47450381,
+                    "date_published": "2025-07-06T22:20:34.050Z"
                 }
             ]
         },
