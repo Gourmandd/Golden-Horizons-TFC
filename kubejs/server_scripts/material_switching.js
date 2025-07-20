@@ -18,7 +18,6 @@ replace_materials("create:zinc_ingot", "tfc:metal/ingot/zinc")
 replace_materials("create:brass_ingot", "tfc:metal/ingot/brass")
 replace_materials("minecraft:diamond", "tfc:gem/diamond")
 replace_materials("minecraft:emerald", "tfc:gem/emerald")
-replace_materials("minecraft:amethyst_shard", "tfc:gem/amethyst")
 replace_materials("minecraft:lapis_lazuli", "tfc:gem/lapis_lazuli")
 
 replace_materials("#createbigcannons:ingot_steel", "tfc:metal/ingot/steel")
@@ -55,6 +54,16 @@ events.replaceInput({input: "minecraft:sand",not:{output: /.*sandstone.*/} }, "m
 
 events.replaceInput({input: "minecraft:string", not:{type: "tfc:loom"}}, "minecraft:string", "#forge:string")
 events.replaceOutput({output: "minecraft:string"}, "minecraft:string", "#forge:string")
+
+events.replaceInput(
+    [
+        { input: "minecraft:amethyst_shard", output: "minecraft:calibrated_sculk_sensor" },
+        { input: "minecraft:amethyst_shard", mod: "create" }
+    ],
+    "minecraft:amethyst_shard", "tfc:gem/amethyst"
+)
+
+events.replaceOutput({output: "minecraft:amethyst_shard", not: {mod: "spectrum"}}, "minecraft:amethyst_shard", "tfc:gem/amethyst")
 })
 
 } catch(e) {
