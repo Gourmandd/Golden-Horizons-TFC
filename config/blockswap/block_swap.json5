@@ -103,15 +103,17 @@ to make editing this file much easier.
 		"minecraft:deepslate_redstone_ore": "kubejs:ore/cinnabar/nephelinite",
 		"minecraft:redstone_ore": "kubejs:ore/cinnabar/argillite",
 		"spectrum:blackslag_redstone_ore": "kubejs:ore/cinnabar/blackslag",
-		"minecraft:deepslate_diamond_ore": "kubejs:ore/diamond/nephelinite",
-		"minecraft:diamond_ore": "kubejs:ore/diamond/argillite",
-		"spectrum:blackslag_diamond_ore": "kubejs:ore/diamond/blackslag",
+		"minecraft:deepslate_diamond_ore": "kubejs:ore/lignite/nephelinite",
+		"minecraft:diamond_ore": "kubejs:ore/lignite/argillite",
+		"spectrum:blackslag_diamond_ore": "kubejs:ore/lignite/blackslag",
 		"minecraft:raw_iron_block": "kubejs:ore/rich_limonite/nephelinite",
 		"minecraft:raw_gold_block": "kubejs:ore/rich_native_gold/nephelinite",
 		"minecraft:raw_copper_block": "kubejs:ore/rich_native_copper/nephelinite",
 		"minecraft:andesite": "tfc:rock/raw/andesite"
 		"minecraft:granite": "tfc:rock/raw/granite"
 		"minecraft:diorite": "tfc:rock/raw/diorite",
-		"minecraft:tuff": "tfc:rock/raw/schist"
+		"minecraft:tuff": "tfc:rock/raw/gabbro"
+		"minecraft:sand": "tfc:sand/green",
+		"minecraft:gravel": "tfc:rock/gravel/andesite"
 	}
 }
