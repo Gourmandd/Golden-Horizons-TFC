@@ -1,53 +1,64 @@
+const $TFCConfig = Java.loadClass("net.dries007.tfc.config.TFCConfig")
+
+const BUCKET_CAPACITY = $TFCConfig.SERVER.woodenBucketCapacity.get()
+const JUG_CAPACITY = $TFCConfig.SERVER.jugCapacity.get()
+const SILICA_BOTTLE_CAPACITY = $TFCConfig.SERVER.silicaGlassBottleCapacity.get()
+const HEMATITIC_BOTTLE_CAPACITY = $TFCConfig.SERVER.hematiticGlassBottleCapacity.get()
+const OLIVINE_BOTTLE_CAPACITY = $TFCConfig.SERVER.olivineGlassBottleCapacity.get()
+const VOLCANIC_BOTTLE_CAPACITY = $TFCConfig.SERVER.volcanicGlassBottleCapacity.get()
+
+const SPECTRUM_FLUID_BLOCKS = [
+    "spectrum:titration_barrel",
+    "spectrum:fusion_shrine_basalt",
+    "spectrum:fusion_shrine_calcite"
+]
+
+const FLUID_CONTAINERS = [
+    "tfc:wooden_bucket",
+    "tfc:metal/bucket/red_steel",
+    "tfc:metal/bucket/blue_steel",
+    "tfc:ceramic/jug",
+    "kubejs:ceramic/yixing_jug",
+    "kubejs:ceramic/earthenware_jug",
+    "kubejs:ceramic/yellowware_jug",
+    "kubejs:ceramic/porcelain_jug",
+    "tfc:silica_glass_bottle",
+    "tfc:hematitic_glass_bottle",
+    "tfc:volcanic_glass_bottle",
+    "tfc:olivine_glass_bottle",
+]
+
+const FLUID_CONTAINER_CAPACITY = {
+    "tfc:wooden_bucket": BUCKET_CAPACITY,
+    "tfc:metal/bucket/red_steel": BUCKET_CAPACITY,
+    "tfc:metal/bucket/blue_steel": BUCKET_CAPACITY,
+    "tfc:ceramic/jug": JUG_CAPACITY,
+    "kubejs:ceramic/yixing_jug": JUG_CAPACITY,
+    "kubejs:ceramic/earthenware_jug": JUG_CAPACITY,
+    "kubejs:ceramic/yellowware_jug": JUG_CAPACITY,
+    "kubejs:ceramic/porcelain_jug": JUG_CAPACITY,
+    "tfc:silica_glass_bottle": SILICA_BOTTLE_CAPACITY,
+    "tfc:hematitic_glass_bottle": HEMATITIC_BOTTLE_CAPACITY,
+    "tfc:volcanic_glass_bottle": VOLCANIC_BOTTLE_CAPACITY,
+    "tfc:olivine_glass_bottle": OLIVINE_BOTTLE_CAPACITY,
+}
+
+
 BlockEvents.rightClicked(event =>{
 
-    const SPECTRUM_FLUID_BLOCKS = [
-        "spectrum:titration_barrel",
-        "spectrum:fusion_shrine_basalt",
-        "spectrum:fusion_shrine_calcite"
-    ]
-
-    if (SPECTRUM_FLUID_BLOCKS.indexOf(event.block) == -1){
+    if (SPECTRUM_FLUID_BLOCKS.indexOf(event.block.id) == -1){
         return
-    }
-
-    const FLUID_CONTAINERS = [
-        "tfc:wooden_bucket",
-        "tfc:metal/bucket/red_steel",
-        "tfc:metal/bucket/blue_steel",
-        "tfc:ceramic/jug",
-        "kubejs:ceramic/yixing_jug",
-        "kubejs:ceramic/earthenware_jug",
-        "kubejs:ceramic/yellowware_jug",
-        "kubejs:ceramic/porcelain_jug",
-        "tfc:silica_glass_bottle",
-        "tfc:hematitic_glass_bottle",
-        "tfc:volcanic_glass_bottle",
-        "tfc:olivine_glass_bottle",
-    ]
-    
-    const FLUID_CONTAINER_CAPACITY = {
-        "tfc:wooden_bucket": 1000,
-        "tfc:metal/bucket/red_steel": 1000,
-        "tfc:metal/bucket/blue_steel": 1000,
-        "tfc:ceramic/jug": 100,
-        "kubejs:ceramic/yixing_jug": 100,
-        "kubejs:ceramic/earthenware_jug": 100,
-        "kubejs:ceramic/yellowware_jug": 100,
-        "kubejs:ceramic/porcelain_jug": 100,
-        "tfc:silica_glass_bottle": 500,
-        "tfc:hematitic_glass_bottle": 500,
-        "tfc:volcanic_glass_bottle": 500,
-        "tfc:olivine_glass_bottle": 500,
     }
     
     if (FLUID_CONTAINERS.indexOf(event.item.id) == -1){
         return
     }
 
-    let entityData = event.block.getEntityData()
 
+    let entityData = event.block.getEntityData()
     let blockFluidName = entityData.get("FluidVariant").fluid
     let blockFluidAmount = entityData.getLong("FluidAmount")
+
 
     if (event.item.nbt == null){
         OffloadFluidFromContainer()
@@ -74,13 +85,14 @@ BlockEvents.rightClicked(event =>{
 
         entityData.putLong("FluidAmount", remainderFluidAmount)
 
-        if (remainderFluidAmount = 0){
+        if (remainderFluidAmount == 0){
             entityData.put("FluidVariant",  {"fluid": "minecraft:empty"})
         }
 
         event.block.setEntityData(entityData)
 
         event.cancel()
+        return
     }
 
 
@@ -125,5 +137,6 @@ BlockEvents.rightClicked(event =>{
         }
 
         event.cancel()
+        return
     }
 })
