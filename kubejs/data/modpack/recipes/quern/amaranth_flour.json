@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "item": "spectrum:amaranth_grains"
+  },
+  "result": {
+    "item": "kubejs:food/amaranth_flour",
+    "count": 1
+  }
+}

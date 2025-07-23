@@ -9,6 +9,7 @@ StartupEvents.registry("item", event =>{
     event.create("soft_chhurpi").displayName("Soft Chhurpi").food(food => {food.hunger(0)})
     event.create("hard_chhurpi").displayName("Hard Chhurpi").food(food => {food.hunger(0)})
 
+    event.create("food/amaranth_flour").displayName("Amaranth Flour").food(food => {food.hunger(0)})
 })
 
 StartupEvents.registry("fluid", event =>{

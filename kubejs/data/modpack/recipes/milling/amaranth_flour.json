@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "spectrum:amaranth_grains"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:food/amaranth_flour",
+      "count": 1
+    }
+  ],
+  "processingTime": 50
+}

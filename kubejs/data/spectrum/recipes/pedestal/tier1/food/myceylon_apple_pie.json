@@ -27,7 +27,7 @@
         "tag": "caupona:vegetables/pumpkin"
       },
       "A": {
-        "item": "spectrum:amaranth_grains"
+        "item": "kubejs:food/amaranth_flour"
       }
     },
     "result": {

@@ -15,7 +15,7 @@
     ],
     "key": {
       "A": {
-        "item": "spectrum:amaranth_grains"
+        "item": "kubejs:food/amaranth_flour"
       },
       "J": {
         "item": "spectrum:jaramel"

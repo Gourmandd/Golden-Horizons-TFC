@@ -27,7 +27,7 @@
         "tag": "tfc:foods/apples"
       },
       "A": {
-        "item": "spectrum:amaranth_grains"
+        "item": "kubejs:food/amaranth_flour"
       }
     },
     "result": {

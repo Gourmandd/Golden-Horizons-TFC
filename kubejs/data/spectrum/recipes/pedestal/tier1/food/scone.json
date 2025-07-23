@@ -10,7 +10,7 @@
     "experience": 1.0,
     "ingredients": [
       {
-        "item": "spectrum:amaranth_grains"
+        "item": "kubejs:food/amaranth_flour"
       },
       {
         "tag": "c:eggs"
