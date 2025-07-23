@@ -1,0 +1,15 @@
+{
+    "type": "tfc:casting",
+    "mold": {
+        "item": "lithiccoins:ceramic/coin_mold"
+    },
+    "fluid": {
+        "ingredient": "kubejs:electrum",
+        "amount": 100
+    },
+    "result": {
+        "item": "lithiccoins:blank_coin/electrum",
+        "count": 4
+    },
+    "break_chance": 0.1
+}       

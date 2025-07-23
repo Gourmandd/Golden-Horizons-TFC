@@ -1,0 +1,31 @@
+{
+	"replace": false,
+	"values": [
+		"#lithiccoins:coins/bronze",
+		"#lithiccoins:coins/black_bronze",
+		"#lithiccoins:coins/bismuth_bronze",
+		"#lithiccoins:coins/copper",
+		"#lithiccoins:coins/tin",
+		"#lithiccoins:coins/gold",
+		"#lithiccoins:coins/silver",
+		"#lithiccoins:coins/cast_iron",
+		"#lithiccoins:coins/zinc",
+		"#lithiccoins:coins/bismuth",
+		"#lithiccoins:coins/wrought_iron",
+		"#lithiccoins:coins/constantan",
+		"#lithiccoins:coins/uranium",
+		"#lithiccoins:coins/lead",
+		"#lithiccoins:coins/nickel",
+		"#lithiccoins:coins/electrum",
+		"#lithiccoins:coins/brass",
+		"#lithiccoins:coins/rose_gold",
+		"#lithiccoins:coins/sterling_silver",
+		"#lithiccoins:coins/aluminum",
+		"#lithiccoins:coins/chromium",
+		"#lithiccoins:coins/stainless_steel",
+		"#lithiccoins:coins/steel",
+		"#lithiccoins:coins/red_steel",
+		"#lithiccoins:coins/blue_steel",
+		"#lithiccoins:coins/black_steel"
+	]
+}

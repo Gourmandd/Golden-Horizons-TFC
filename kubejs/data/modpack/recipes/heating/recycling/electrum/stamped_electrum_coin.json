@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "lithiccoins:coins/electrum"
+  },
+  "result_fluid": {
+    "fluid": "kubejs:electrum",
+    "amount": 20
+  },
+  "temperature": 1060
+}
