@@ -46,6 +46,10 @@ const FLUID_CONTAINER_CAPACITY = {
 
 BlockEvents.rightClicked(event =>{
 
+    if (event.item.count > 1){
+        return
+    }
+
     if (SPECTRUM_FLUID_BLOCKS.indexOf(event.block.id) == -1){
         return
     }
@@ -69,7 +73,7 @@ BlockEvents.rightClicked(event =>{
 
 
     function OffloadFluidFromContainer(){
-        
+
         let amountToTake = 0
         let remainderFluidAmount = 0
 
@@ -91,6 +95,7 @@ BlockEvents.rightClicked(event =>{
 
         event.block.setEntityData(entityData)
 
+        event.getPlayer().playNotifySound("minecraft:item.bucket.fill", "blocks", 1, 1)
         event.cancel()
         return
     }
@@ -136,6 +141,7 @@ BlockEvents.rightClicked(event =>{
             event.item.nbt.fluid.putInt("Amount", fluidRemainder / 81) //Divide by 81 to get milibuckets back
         }
 
+        event.getPlayer().playNotifySound("minecraft:item.bucket.empty", "blocks", 1, 1)
         event.cancel()
         return
     }
