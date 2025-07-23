@@ -14,8 +14,11 @@ ServerEvents.recipes(event =>{
             .id(`modpack:compacting/double_ingot/${metal}`)
         event.recipes.create.compacting(`tfc:metal/double_sheet/${metal}`, [`tfc:metal/sheet/${metal}`, `tfc:metal/sheet/${metal}`, "tfc:powder/flux"]).heatRequirement("heated")
             .id(`modpack:compacting/double_sheet/${metal}`)
-        event.recipes.create.compacting(`tfc:metal/sheet/${metal}`, Fluid.of(`tfc:metal/${metal}`, 200)).heatRequirement("heated")
-            .id(`modpack:compacting/sheet/${metal}`)
+
+        if (metal != "wrought_iron"){
+            event.recipes.create.compacting(`tfc:metal/sheet/${metal}`, Fluid.of(`tfc:metal/${metal}`, 200)).heatRequirement("heated")
+                .id(`modpack:compacting/sheet/${metal}`)
+        }
     })
 
     global.FIRMALIFE_METALS.forEach(metal =>{

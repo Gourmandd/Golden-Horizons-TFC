@@ -16,5 +16,14 @@ ServerEvents.recipes(event =>{
         event.recipes.create.compacting(`minecraft:${colour}_dye`, Fluid.of(`tfc:${colour}_dye`, 1000))
             .heatRequirement("heated")
             .id(`modpack:compacting/dye/${colour}`)
+        
+        event.recipes.tfc.barrel_sealed(1000)
+            .inputFluid(Fluid.of(`tfc:${colour}_dye`, 25))
+            .inputItem("#modpack:unfired_vessels")
+            .outputItem(`tfc:ceramic/${colour}_unfired_vessel`)
+            .id(`tfc:barrel/dye/${colour}_glazed_vessel`)
+        
+        event.shapeless(`tfc:ceramic/${colour}_unfired_vessel`, ["#modpack:unfired_vessels", `minecraft:${colour}_dye`])
+            .id(`tfc:crafting/ceramic/${colour}_unfired_vessel`)
     })
 })

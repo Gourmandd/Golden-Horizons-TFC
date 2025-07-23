@@ -1,0 +1,10 @@
+{
+    "values":[
+        "tfc:ceramic/unfired_vessel",
+        "kubejs:ceramic/unfired_earthenware_vessel",
+        "kubejs:ceramic/unfired_yixing_vessel",
+        "kubejs:ceramic/unfired_yellowware_vessel",
+        "kubejs:ceramic/unfired_porcelain_vessel",
+        "kubejs:ceramic/unfired_kaolinite_vessel"
+    ]
+}
