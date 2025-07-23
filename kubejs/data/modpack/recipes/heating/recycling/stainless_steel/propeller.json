@@ -4,8 +4,8 @@
     "item": "create:propeller"
   },
   "result_fluid": {
-    "fluid": "tfc:metal/cast_iron",
+    "fluid": "firmalife:metal/stainless_steel",
     "amount": 800
   },
-  "temperature": 1535
+  "temperature": 1540
 }
