@@ -2275,6 +2275,76 @@
             ]
         },
         {
+            "pakku_id": "tvRilgRwekLtN71k",
+            "pakku_links": [
+                "xhty9zSfGt09eljH"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "create-mechanical-extruder",
+                "modrinth": "create-mechanical-extruder"
+            },
+            "name": {
+                "curseforge": "Create Mechanical Extruder",
+                "modrinth": "Create Mechanical Extruder"
+            },
+            "id": {
+                "curseforge": "686100",
+                "modrinth": "hGAlcCDJ"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "create_mecanical_extruder-1.20.1-1.6.10-6.0.6.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6657/454/create_mecanical_extruder-1.20.1-1.6.10-6.0.6.jar",
+                    "id": "6657454",
+                    "parent_id": "686100",
+                    "hashes": {
+                        "sha1": "83121a1170ad824ed3e993ec447d080bf5306533",
+                        "md5": "c471f57c079a0e11ec4dd543243dd6c5"
+                    },
+                    "required_dependencies": [
+                        "328085"
+                    ],
+                    "size": 512838,
+                    "date_published": "2025-06-16T12:27:33.427Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "create_mecanical_extruder-1.20.1-1.6.10-6.0.6.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/hGAlcCDJ/versions/VNMBNgGY/create_mecanical_extruder-1.20.1-1.6.10-6.0.6.jar",
+                    "id": "VNMBNgGY",
+                    "parent_id": "hGAlcCDJ",
+                    "hashes": {
+                        "sha512": "c66c12e16e36868abfaba29cccfdca703fd93e80b1768ba77a55b0b156bc6b6663b9e97bdf7928496a8a8f83277871a177a78f65e43e4b9829b124a0d81ebdf3",
+                        "sha1": "83121a1170ad824ed3e993ec447d080bf5306533"
+                    },
+                    "required_dependencies": [
+                        "LNytGWDc"
+                    ],
+                    "size": 512838,
+                    "date_published": "2025-06-16T12:27:40.863445Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "O46lDqXbS6ZVDdTo",
             "pakku_links": [
                 "xhty9zSfGt09eljH"
@@ -5451,6 +5521,74 @@
                     "required_dependencies": [],
                     "size": 54205,
                     "date_published": "2025-05-09T21:58:59.424591Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "Go9bmk9TsBUnzgvx",
+            "pakku_links": [
+                "gI41j4PgMazbBVQt",
+                "IsGQ5ieIhnvFTiLM"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "lithic-coins",
+                "modrinth": "lithic-coins"
+            },
+            "name": {
+                "curseforge": "Lithic Coins",
+                "modrinth": "Lithic Coins"
+            },
+            "id": {
+                "curseforge": "993733",
+                "modrinth": "sjWLlt1b"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "lithiccoins-1.1.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5872/796/lithiccoins-1.1.1.jar",
+                    "id": "5872796",
+                    "parent_id": "993733",
+                    "hashes": {
+                        "sha1": "823e92df97308f292d54f64dca9e44686b0e00bf",
+                        "md5": "8e901a1ef7ceb48948e2c8701b274f3d"
+                    },
+                    "required_dependencies": [
+                        "453394",
+                        "302973"
+                    ],
+                    "size": 4101325,
+                    "date_published": "2024-11-03T21:53:14.073Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "lithiccoins-1.1.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/sjWLlt1b/versions/IOYoidHo/lithiccoins-1.1.1.jar",
+                    "id": "IOYoidHo",
+                    "parent_id": "sjWLlt1b",
+                    "hashes": {
+                        "sha512": "d8af615fd6a4934dee7b925d94ef08e9c934c103a236e4256cdb5cdbc6dc67cbc4cc6d5eb37af55aff75caf039b400a45e505cbc43f84a143f27cf687d2c044f",
+                        "sha1": "823e92df97308f292d54f64dca9e44686b0e00bf"
+                    },
+                    "required_dependencies": [],
+                    "size": 4101325,
+                    "date_published": "2025-01-07T19:20:43.509248Z"
                 }
             ]
         },
@@ -9005,6 +9143,43 @@
                     "required_dependencies": [],
                     "size": 622068,
                     "date_published": "2024-06-24T17:04:00.648306Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "AfJRCgxUMXa7aylc",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "tool-belt"
+            },
+            "name": {
+                "curseforge": "Tool Belt"
+            },
+            "id": {
+                "curseforge": "260262"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ToolBelt-1.20.1-1.20.02.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5929/61/ToolBelt-1.20.1-1.20.02.jar",
+                    "id": "5929061",
+                    "parent_id": "260262",
+                    "hashes": {
+                        "sha1": "3e4e2d2e3ee9486de4c6b64bcf8f25d87d55fc92",
+                        "md5": "040527fce7ada8c7ea90430e89541ac6"
+                    },
+                    "required_dependencies": [],
+                    "size": 253567,
+                    "date_published": "2024-11-22T20:33:59.630Z"
                 }
             ]
         },
