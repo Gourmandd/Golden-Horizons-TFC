@@ -1,9 +1,0 @@
-{
-  "__comment__": "This file was automatically created by mcresources",
-  "parent": "tfc:block/wood/support/inventory_vex",
-  "textures": {
-    "vertical": "deep_aether:block/stripped_conberry_log",
-    "horizontal": "deep_aether:block/stripped_conberry_log",
-    "top": "deep_aether:block/stripped_conberry_log_top"
-  }
-}

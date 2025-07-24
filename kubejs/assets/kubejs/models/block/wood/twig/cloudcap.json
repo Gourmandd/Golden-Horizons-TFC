@@ -1,7 +1,0 @@
-{
-  "parent": "tfc:block/groundcover/twig",
-  "textures": {
-    "side": "aether_redux:block/natural/cloudcap_stem",
-    "top": "aether_redux:block/natural/cloudcap_stem_top"
-  }
-}

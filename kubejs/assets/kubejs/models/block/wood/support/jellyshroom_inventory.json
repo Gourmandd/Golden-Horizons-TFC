@@ -1,9 +1,0 @@
-{
-  "__comment__": "This file was automatically created by mcresources",
-  "parent": "tfc:block/wood/support/inventory_vex",
-  "textures": {
-    "vertical": "aether_redux:block/natural/jellyshroom_stem",
-    "horizontal": "aether_redux:block/natural/jellyshroom_stem",
-    "top": "aether_redux:block/natural/jellyshroom_stem_top"
-  }
-}

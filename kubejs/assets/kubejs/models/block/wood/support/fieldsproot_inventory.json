@@ -1,9 +1,0 @@
-{
-  "__comment__": "This file was automatically created by mcresources",
-  "parent": "tfc:block/wood/support/inventory_vex",
-  "textures": {
-    "vertical": "aether_redux:block/natural/stripped_fieldsproot_log",
-    "horizontal": "aether_redux:block/natural/stripped_fieldsproot_log",
-    "top": "aether_redux:block/natural/stripped_fieldsproot_log_top"
-  }
-}

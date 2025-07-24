@@ -1,9 +1,0 @@
-{
-  "__comment__": "This file was automatically created by mcresources",
-  "parent": "tfc:block/wood/support/inventory_vex",
-  "textures": {
-    "vertical": "ancient_aether:block/stripped_sakura_log",
-    "horizontal": "ancient_aether:block/stripped_sakura_log",
-    "top": "ancient_aether:block/stripped_sakura_log_top"
-  }
-}

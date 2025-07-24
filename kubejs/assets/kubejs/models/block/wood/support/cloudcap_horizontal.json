@@ -1,7 +1,0 @@
-{
-  "__comment__": "This file was automatically created by mcresources",
-  "parent": "tfc:block/wood/support/horizontal_vex",
-  "textures": {
-    "texture": "aether_redux:block/natural/stripped_cloudcap_stem"
-  }
-}
