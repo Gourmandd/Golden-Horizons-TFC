@@ -130,6 +130,12 @@ ServerEvents.recipes(event =>{
 })  
 
 LootJS.modifiers(event =>{
+    
+    global.DEEPER_DOWN_ROCK_TYPES.forEach(rockType => {
+            event.addBlockLootModifier(`kubejs:rock/hardened/${rockType}`).replaceLoot(`kubejs:rock/hardened/${rockType}`, Item.of(`kubejs:rock/loose/${rockType}`, 3)).addLoot(`kubejs:rock/loose/${rockType}`).randomChance(0.25)
+
+    })
+
 
     event.addBlockLootModifier("minecraft:stone").replaceLoot("minecraft:cobblestone", Item.of(`kubejs:rock/loose/argillite`, 3)).addLoot(`kubejs:rock/loose/argillite`).randomChance(0.25)
     event.addBlockLootModifier("minecraft:deepslate").replaceLoot("minecraft:cobbled_deepslate", Item.of(`kubejs:rock/loose/nephelinite`, 3)).addLoot(`kubejs:rock/loose/nephelinite`).randomChance(0.25)

@@ -27,7 +27,9 @@ StartupEvents.registry("block", event =>{
             .tagBlock("forge:stone")
     })
 
+
     global.DEEPER_DOWN_ROCK_TYPES.forEach(rock_type =>{
+        
 
         event.create(`rock/hardened/${rock_type}`)
             .model(global.CUSTOM_ROCK_MODELS[rock_type])
@@ -35,6 +37,7 @@ StartupEvents.registry("block", event =>{
             .soundType("stone")
             .tagBlock("minecraft:mineable/pickaxe")
             .tagItem("forge:stone")
+            .requiresTool(true)
 
         event.create(`rock/cobble/${rock_type}`)
             .textureAll(global.STONE_TO_COBBLESTONE_TEXTURE[rock_type])
@@ -43,23 +46,27 @@ StartupEvents.registry("block", event =>{
             .tagBlock("minecraft:mineable/pickaxe")
             .tagItem("forge:cobblestone/normal")
             .tagBlock("tfc:can_landslide")
+            .requiresTool(true)
 
         event.create(`rock/cobble/${rock_type}_slab`, "slab")
             .textureAll(global.STONE_TO_COBBLESTONE_TEXTURE[rock_type])
             .displayName(`${nameProcessing(rock_type)} Cobble Slab`)
             .soundType("stone")
             .tagBlock("minecraft:mineable/pickaxe")
+            .requiresTool(true)
 
         event.create(`rock/cobble/${rock_type}_stairs`, "stairs")
             .textureAll(global.STONE_TO_COBBLESTONE_TEXTURE[rock_type])
             .displayName(`${nameProcessing(rock_type)} Cobble Stairs`)
             .soundType("stone")
             .tagBlock("minecraft:mineable/pickaxe")
+            .requiresTool(true)
 
         event.create(`rock/cobble/${rock_type}_wall`, "wall")
             .textureAll(global.STONE_TO_COBBLESTONE_TEXTURE[rock_type])
             .displayName(`${nameProcessing(rock_type)} Cobble Wall`)
             .soundType("stone")
             .tagBlock("minecraft:mineable/pickaxe")
+            .requiresTool(true)
     })
 })
