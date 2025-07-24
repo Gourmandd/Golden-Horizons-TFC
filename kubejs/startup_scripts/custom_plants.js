@@ -13,8 +13,8 @@ StartupEvents.registry("block", event =>{
         .model("rusticdelight:block/wild_cotton")
         .hardness(0.5)
         .deadModel("tfc:block/plant/dead_bush4")
+        .type("default")
 
-    
 
     event.create("kubejs:plant/wild_coffee", "tfc:wild_crop")
         .soundType("grass")
@@ -25,6 +25,19 @@ StartupEvents.registry("block", event =>{
         .model("rusticdelight:block/wild_coffee")
         .hardness(0.5)
         .deadModel("tfc:block/plant/dead_bush3")
+        .type("default")
+
+
+    event.create("kubejs:plant/wild_amaranth", "tfc:wild_crop")
+        .soundType("grass")
+        .tagBlock("tfc:mineable_with_sharp_tool")
+        .tagBlock("tfc:plants")
+        .seeds("kubejs:plant/amaranth_seeds")
+        .food("spectrum:amaranth_bushel")
+        .model("kubejs:block/plant/amaranth_5")
+        .hardness(0.5)
+        .doubleDeadModels("minecraft:block/air", "tfc:block/plant/dead_bush_large")
+        .type("double")
 
         
     event.create("kubejs:plant/cotton", "tfc:crop")

@@ -1,0 +1,6 @@
+{
+    "type": "forge:add_features",
+    "biomes": "spectrum:crystal_gardens",
+    "features": "modpack:plant/wild_crop/amaranth_patch",
+    "step": "vegetal_decoration"
+}
