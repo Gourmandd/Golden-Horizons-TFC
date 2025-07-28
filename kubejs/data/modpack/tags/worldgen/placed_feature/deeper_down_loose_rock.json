@@ -1,0 +1,10 @@
+{
+	"replace": true,
+	"values": [
+		"modpack:rock/loose/nephelinite",
+		"modpack:rock/loose/argillite",
+		"modpack:rock/loose/travertine",
+		"modpack:rock/loose/picrite_basalt",
+		"modpack:rock/loose/blackslag"
+	]
+}

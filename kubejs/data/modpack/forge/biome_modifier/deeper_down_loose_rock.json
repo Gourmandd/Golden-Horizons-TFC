@@ -1,0 +1,6 @@
+{
+    "type": "forge:add_features",
+    "biomes": "#spectrum:in_deeper_down",
+    "features": "#modpack:deeper_down_loose_rock",
+    "step": "vegetal_decoration"
+}

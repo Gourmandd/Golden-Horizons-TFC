@@ -1,13 +1,6 @@
-
-
 StartupEvents.registry("item", event =>{
 
     global.DEEPER_DOWN_ROCK_TYPES.forEach(rock_type =>{
-
-        event.create(`rock/loose/${rock_type}`)
-            .displayName(`Loose ${nameProcessing(rock_type)} Rock`)
-            .tag("tfc:any_knapping")
-            .tag("tfc:rock_knapping")
         
         event.create(`brick/${rock_type}`)
             .displayName(`${nameProcessing(rock_type)} Brick`)
@@ -17,10 +10,12 @@ StartupEvents.registry("item", event =>{
 StartupEvents.registry("block", event =>{
 
     Object.keys(global.STONE_TO_COBBLESTONE).forEach(rock_type =>{
+
         event.create(`rock/mortared_cobble/${rock_type}`)
             .textureAll(global.STONE_TO_COBBLESTONE_TEXTURE[rock_type])
             .displayName(`Mortared ${nameProcessing(rock_type)}`)
-            .soundType("stone").tagBlock("minecraft:mineable/pickaxe")
+            .soundType("stone")
+            .tagBlock("minecraft:mineable/pickaxe")
             .tagBlock("tfc:can_collapse")
             .tagBlock("tfc:can_trigger_collapse")
             .tagBlock("tfc:can_start_collapse")
@@ -30,12 +25,23 @@ StartupEvents.registry("block", event =>{
 
     global.DEEPER_DOWN_ROCK_TYPES.forEach(rock_type =>{
         
+        event.create(`rock/loose/${rock_type}`, "tfc:loose_rock")
+            .displayName(`Loose ${nameProcessing(rock_type)} Rock`)
+            .tagItem("tfc:any_knapping")
+            .tagItem("tfc:rock_knapping")
+            .tagBlock("minecraft:mineable/pickaxe")
+            .tagBlock("tfc:loose_rocks")
+            .rockTypeModel("sedimentary")
+            .soundType("stone")
+            .textureAll(global.CUSTOM_ROCK_MODELS[rock_type])
+
 
         event.create(`rock/hardened/${rock_type}`)
             .model(global.CUSTOM_ROCK_MODELS[rock_type])
             .displayName(`Hardened ${nameProcessing(rock_type)}`)
             .soundType("stone")
             .tagBlock("minecraft:mineable/pickaxe")
+            .tagBlock("spectrum:nightdew_soils")
             .tagItem("forge:stone")
             .requiresTool(true)
 
@@ -45,6 +51,7 @@ StartupEvents.registry("block", event =>{
             .soundType("stone")
             .tagBlock("minecraft:mineable/pickaxe")
             .tagItem("forge:cobblestone/normal")
+            .tagBlock("spectrum:nightdew_soils")
             .tagBlock("tfc:can_landslide")
             .requiresTool(true)
 
