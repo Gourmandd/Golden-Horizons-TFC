@@ -51,16 +51,16 @@ StartupEvents.registry("block", event => {
                 .tagBlock("tfc:twigs")
                 .tagBlock("tfc:can_be_snow_piled")
             
-            event.create(`wood/support/${wood}_noxwood`, "tfc:support")
+            event.create(`wood/support/${wood}`, "tfc:support")
                 .displayName(`${nameProcessing(wood)} Noxwood Support`)
                 .tagBlock("minecraft:mineable/axe")
                 .tagBlock("tfc:support_beams")
                 .tagItem("tfc:support_beams")
-                .model(`kubejs:block/wood/support/${wood}_noxcap_vertical`)
-                .connectionModel(`kubejs:block/wood/support/${wood}_noxcap_connection`)
+                .model(`kubejs:block/wood/support/${wood}_vertical`)
+                .connectionModel(`kubejs:block/wood/support/${wood}_connection`)
                 .horizontal(block => {
                     block.displayName(`Horizontal ${nameProcessing(wood)} Noxwood Support`)
-                    block.model(`kubejs:block/wood/support/${wood}_noxcap_horizontal`)
+                    block.model(`kubejs:block/wood/support/${wood}_horizontal`)
                 })
 
         } else {
