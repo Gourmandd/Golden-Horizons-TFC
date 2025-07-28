@@ -1,0 +1,7 @@
+{
+  "type": "tfc:if_then",
+  "config": {
+    "if": "spectrum:noxfungi/chestnut",
+    "then": "modpack:wood/twig/chestnut_noxwood"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "type": "tfc:if_then",
+  "config": {
+    "if": "spectrum:noxfungi/slate",
+    "then": "modpack:wood/twig/slate_noxwood"
+  }
+}

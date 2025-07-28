@@ -1,0 +1,9 @@
+{
+    "feature": "modpack:wood/twig/weeping_gala",
+    "placement": [
+        {
+            "type": "minecraft:rarity_filter",
+            "chance": 1
+        }
+    ]
+}

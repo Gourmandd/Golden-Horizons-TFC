@@ -1,0 +1,7 @@
+{
+  "type": "tfc:if_then",
+  "config": {
+    "if": "spectrum:noxfungi/ivory",
+    "then": "modpack:wood/twig/ivory_noxwood"
+  }
+}

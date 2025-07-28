@@ -1,0 +1,7 @@
+{
+  "parent": "tfc:block/groundcover/twig",
+  "textures": {
+    "side": "spectrum:block/weeping_gala_log",
+    "top": "spectrum:block/weeping_gala_log_top"
+  }
+}

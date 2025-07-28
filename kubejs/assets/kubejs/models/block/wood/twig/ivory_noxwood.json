@@ -1,0 +1,7 @@
+{
+  "parent": "tfc:block/groundcover/twig",
+  "textures": {
+    "side": "spectrum:block/ivory_noxcap_stem",
+    "top": "spectrum:block/ivory_noxcap_stem_top"
+  }
+}

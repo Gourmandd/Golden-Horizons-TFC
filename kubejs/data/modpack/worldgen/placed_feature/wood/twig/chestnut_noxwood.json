@@ -1,0 +1,9 @@
+{
+    "feature": "modpack:wood/twig/chestnut_noxwood",
+    "placement": [
+        {
+            "type": "minecraft:rarity_filter",
+            "chance": 1
+        }
+    ]
+}
