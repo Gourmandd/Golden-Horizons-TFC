@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+        "spectrum:shale_clay",
+        "spectrum:shimmel",
+        "spectrum:slush",
+        "spectrum:black_materia",
+        "spectrum:overgrown_blackslag",
+        "spectrum:overgrown_slush",
+        "spectrum:sawblade_grass",
+        "spectrum:pyrite",
+        "spectrum:black_sludge",
+        "spectrum:rock_crystal",
+        "spectrum:ash",
+        "spectrum:rotten_ground"
+    ]
+}

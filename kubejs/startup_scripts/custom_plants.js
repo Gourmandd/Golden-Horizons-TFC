@@ -67,6 +67,7 @@ StartupEvents.registry("block", event =>{
             block.hardness(0.5)
         })
     
+
     event.create("kubejs:plant/amaranth", "tfc:double_crop")
         .stages(2)
         .doubleStages(3)
@@ -80,4 +81,24 @@ StartupEvents.registry("block", event =>{
             block.tagBlock("minecraft:mineable/hoe")
             block.hardness(0.5)
         })
+
+
+    event.create("kubejs:plant/sawblade_holly_bush", "tfc:stationary_berry_bush")
+        .displayName("Sawblade Holly Bush")
+        .soundType("grass")
+        .hardness(0.5)
+        .tagBlock("minecraft:mineable/hoe")
+        .productItem("spectrum:sawblade_holly_berry")
+
+
+    event.create("kubejs:plant/aloe_bush", "tfc:stationary_berry_bush")
+        .displayName("Aloe Bush")
+        .soundType("grass")
+        .hardness(0.5)
+        .tagBlock("minecraft:mineable/hoe")
+        .productItem("spectrum:aloe_leaf")
+        
+
+    
+
 })
