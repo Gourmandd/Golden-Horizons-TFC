@@ -1,0 +1,33 @@
+{
+    "type": "tfc:cluster_vein",
+    "config": {
+      "rarity": 5,
+      "density": 0.8,
+      "min_y": -220,
+      "max_y": -64,
+      "size": 10,
+      "random_name": "paltaeria_ore",
+      "blocks": [
+        {
+          "replace": [
+            "minecraft:dripstone_block"
+          ],
+          "with": [
+            {
+              "block": "kubejs:ore/paltaeria/travertine"
+            }
+          ]
+        },
+        {
+          "replace": [
+            "minecraft:stone"
+          ],
+          "with": [
+            {
+              "block": "kubejs:ore/paltaeria/argillite"
+            }
+          ]
+        }
+      ]
+    }
+  }

@@ -1,0 +1,89 @@
+{
+    "type": "tfc:cluster_vein",
+    "config": {
+      "rarity": 5,
+      "density": 0.25,
+      "min_y": -220,
+      "max_y": -64,
+      "size": 15,
+      "random_name": "native_gold_ore",
+      "blocks": [
+        {
+          "replace": [
+            "minecraft:deepslate"
+          ],
+          "with": [
+            {
+              "block": "kubejs:ore/poor_native_gold/nephelinite",
+              "weight": 35
+            },
+            {
+              "block": "kubejs:ore/normal_native_gold/nephelinite",
+              "weight": 40
+            },
+            {
+              "block": "kubejs:ore/rich_native_gold/nephelinite",
+              "weight": 25
+            }
+          ]
+        },
+        {
+          "replace": [
+            "spectrum:blackslag"
+          ],
+          "with": [
+            {
+              "block": "kubejs:ore/poor_native_gold/blackslag",
+              "weight": 35
+            },
+            {
+              "block": "kubejs:ore/normal_native_gold/blackslag",
+              "weight": 40
+            },
+            {
+              "block": "kubejs:ore/rich_native_gold/blackslag",
+              "weight": 25
+            }
+          ]
+        },
+        {
+          "replace": [
+            "spectrum:basal_marble"
+          ],
+          "with": [
+            {
+              "block": "kubejs:ore/poor_native_gold/picrite_basalt",
+              "weight": 35
+            },
+            {
+              "block": "kubejs:ore/normal_native_gold/picrite_basalt",
+              "weight": 40
+            },
+            {
+              "block": "kubejs:ore/rich_native_gold/picrite_basalt",
+              "weight": 25
+            }
+          ]
+        },
+        {
+          "replace": [
+            "tfc:rock/raw/andesite"
+          ],
+          "with": [
+            {
+              "block": "tfc:ore/poor_native_gold/andesite",
+              "weight": 35
+            },
+            {
+              "block": "tfc:ore/normal_native_gold/andesite",
+              "weight": 40
+            },
+            {
+              "block": "tfc:ore/rich_native_gold/andesite",
+              "weight": 25
+            }
+          ]
+        }
+      ]
+    }
+  }

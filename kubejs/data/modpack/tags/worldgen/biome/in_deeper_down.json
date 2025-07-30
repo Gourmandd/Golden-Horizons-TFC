@@ -1,0 +1,13 @@
+{
+	"replace": true,
+	"values": [
+		"spectrum:deep_dripstone_caves",
+		"spectrum:noxshroom_forest",
+		"spectrum:crystal_gardens",
+		"spectrum:deep_barrens",
+		"spectrum:dragonrot_swamp",
+		"spectrum:black_langast",
+		"spectrum:razor_edge",
+		"spectrum:howling_spires"
+	]
+}

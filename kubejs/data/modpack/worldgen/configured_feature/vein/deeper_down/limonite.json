@@ -1,0 +1,51 @@
+{
+    "type": "tfc:cluster_vein",
+    "config": {
+      "rarity": 5,
+      "density": 0.4,
+      "min_y": -220,
+      "max_y": -64,
+      "size": 20,
+      "random_name": "limonite_ore",
+      "blocks": [
+        {
+          "replace": [
+            "minecraft:dripstone_block"
+          ],
+          "with": [
+            {
+              "block": "kubejs:ore/poor_limonite/travertine",
+              "weight": 15
+            },
+            {
+              "block": "kubejs:ore/normal_limonite/travertine",
+              "weight": 35
+            },
+            {
+              "block": "kubejs:ore/rich_limonite/travertine",
+              "weight": 45
+            }
+          ]
+        },
+        {
+          "replace": [
+            "minecraft:stone"
+          ],
+          "with": [
+            {
+              "block": "kubejs:ore/poor_limonite/argillite",
+              "weight": 15
+            },
+            {
+              "block": "kubejs:ore/normal_limonite/argillite",
+              "weight": 35
+            },
+            {
+              "block": "kubejs:ore/rich_limonite/argillite",
+              "weight": 45
+            }
+          ]
+        }
+      ]
+    }
+  }

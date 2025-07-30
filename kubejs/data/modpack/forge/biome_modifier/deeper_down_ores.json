@@ -1,6 +1,6 @@
 {
     "type": "forge:add_features",
     "biomes": "#modpack:in_deeper_down",
-    "features": "modpack:hardening",
-    "step": "top_layer_modification"
+    "features": "#modpack:deeper_down_ores",
+    "step": "underground_ores"
 }

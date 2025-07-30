@@ -1,0 +1,53 @@
+{
+    "type": "tfc:cluster_vein",
+    "config": {
+      "rarity": 5,
+      "density": 0.4,
+      "min_y": -320,
+      "max_y": -160,
+      "size": 10,
+      "random_name": "malachite_ore",
+      "blocks": [
+        {
+          "replace": [
+            "minecraft:deepslate"
+          ],
+          "with": [
+            {
+              "block": "kubejs:ore/malachite/nephelinite"
+            }
+          ]
+        },
+        {
+          "replace": [
+            "spectrum:blackslag"
+          ],
+          "with": [
+            {
+              "block": "kubejs:ore/malachite/blackslag"
+            }
+          ]
+        },
+        {
+          "replace": [
+            "spectrum:basal_marble"
+          ],
+          "with": [
+            {
+              "block": "kubejs:ore/malachite/picrite_basalt"
+            }
+          ]
+        },
+        {
+          "replace": [
+            "tfc:rock/raw/andesite"
+          ],
+          "with": [
+            {
+              "block": "kubejs:ore/malachite/andesite"
+            }
+          ]
+        }
+      ]
+    }
+  }

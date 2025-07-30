@@ -1,0 +1,19 @@
+{
+	"replace": true,
+	"values": [
+		"modpack:vein/deeper_down/bismuth",
+		"modpack:vein/deeper_down/cryolite",
+		"modpack:vein/deeper_down/diamond",
+		"modpack:vein/deeper_down/garnierite",
+		"modpack:vein/deeper_down/hematite",
+		"modpack:vein/deeper_down/limonite",
+		"modpack:vein/deeper_down/malachite",
+		"modpack:vein/deeper_down/native_copper",
+		"modpack:vein/deeper_down/native_gold",
+		"modpack:vein/deeper_down/native_silver",
+		"modpack:vein/deeper_down/paltaeria",
+		"modpack:vein/deeper_down/shimmerstone",
+		"modpack:vein/deeper_down/sphalerite",
+		"modpack:vein/deeper_down/stratine"
+	]
+}
