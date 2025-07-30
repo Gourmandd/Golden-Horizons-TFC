@@ -1,33 +1,17 @@
 {
-    "type": "tfc:cluster_vein",
-    "config": {
-      "rarity": 1,
-      "density": 0.8,
-      "min_y": -220,
-      "max_y": -64,
-      "size": 10,
-      "random_name": "stratine_ore",
-      "blocks": [
-        {
-          "replace": [
-            "minecraft:dripstone_block"
-          ],
-          "with": [
-            {
-              "block": "kubejs:ore/stratine/travertine"
-            }
-          ]
-        },
-        {
-          "replace": [
-            "minecraft:stone"
-          ],
-          "with": [
-            {
-              "block": "kubejs:ore/stratine/argillite"
-            }
-          ]
-        }
-      ]
-    }
+  "type": "tfc:geode",
+  "config": {
+    "outer": "tfc:rock/hardened/basalt",
+    "middle": "kubejs:rock/hardened/argillite",
+    "inner": [
+      {
+        "data": "kubejs:ore/stratine/argillite",
+        "weight": 2
+      },
+      {
+        "data": "kubejs:rock/hardened/argillite",
+        "weight": 2
+      }
+    ]
   }
+}

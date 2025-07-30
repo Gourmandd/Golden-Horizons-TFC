@@ -1,32 +1,25 @@
 {
-    "type": "tfc:cluster_vein",
-    "config": {
-      "rarity": 5,
-      "density": 0.6,
-      "min_y": -320,
-      "max_y": -64,
-      "size": 30,
-      "random_name": "garnierite_ore",
-      "blocks": [
-        {
-          "replace": [
-            "tfc:rock/raw/gabbro"
-          ],
-          "with": [
-            {
-              "block": "tfc:ore/poor_garnierite/gabbro",
-              "weight": 15
-            },
-            {
-              "block": "tfc:ore/normal_garnierite/gabbro",
-              "weight": 25
-            },
-            {
-              "block": "tfc:ore/rich_garnierite/gabbro",
-              "weight": 35
-            }
-          ]
-        }
-      ]
-    }
+  "type": "tfc:geode",
+  "config": {
+    "outer": "tfc:rock/hardened/basalt",
+    "middle": "tfc:ore/poor_garnierite/gabbro",
+    "inner": [
+      {
+        "data": "tfc:ore/rich_garnierite/gabbro",
+        "weight": 1
+      },
+      {
+        "data": "tfc:ore/normal_garnierite/gabbro",
+        "weight": 2
+      },
+      {
+        "data": "tfc:ore/poor_garnierite/gabbro",
+        "weight": 1
+      },
+      {
+        "data": "tfc:rock/hardened/gabbro",
+        "weight": 2
+      }
+    ]
   }
+}

@@ -1,51 +1,25 @@
 {
-    "type": "tfc:cluster_vein",
-    "config": {
-      "rarity": 5,
-      "density": 0.6,
-      "min_y": -320,
-      "max_y": -64,
-      "size": 40,
-      "random_name": "bismuth_ore",
-      "blocks": [
-        {
-          "replace": [
-            "minecraft:dripstone_block"
-          ],
-          "with": [
-            {
-              "block": "kubejs:ore/poor_bismuthinite/travertine",
-              "weight": 15
-            },
-            {
-              "block": "kubejs:ore/normal_bismuthinite/travertine",
-              "weight": 25
-            },
-            {
-              "block": "kubejs:ore/rich_bismuthinite/travertine",
-              "weight": 35
-            }
-          ]
-        },
-        {
-          "replace": [
-            "minecraft:stone"
-          ],
-          "with": [
-            {
-              "block": "kubejs:ore/poor_bismuthinite/argillite",
-              "weight": 15
-            },
-            {
-              "block": "kubejs:ore/normal_bismuthinite/argillite",
-              "weight": 25
-            },
-            {
-              "block": "kubejs:ore/rich_bismuthinite/argillite",
-              "weight": 35
-            }
-          ]
-        }
-      ]
-    }
+  "type": "tfc:geode",
+  "config": {
+    "outer": "tfc:rock/hardened/basalt",
+    "middle": "kubejs:ore/poor_bismuthinite/argillite",
+    "inner": [
+      {
+        "data": "kubejs:ore/rich_bismuthinite/argillite",
+        "weight": 1
+      },
+      {
+        "data": "kubejs:ore/normal_bismuthinite/argillite",
+        "weight": 2
+      },
+      {
+        "data": "kubejs:ore/poor_bismuthinite/argillite",
+        "weight": 1
+      },
+      {
+        "data": "kubejs:rock/hardened/argillite",
+        "weight": 2
+      }
+    ]
   }
+}

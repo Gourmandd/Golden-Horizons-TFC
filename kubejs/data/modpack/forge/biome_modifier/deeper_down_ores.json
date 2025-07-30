@@ -2,5 +2,5 @@
     "type": "forge:add_features",
     "biomes": "#modpack:in_deeper_down",
     "features": "#modpack:deeper_down_ores",
-    "step": "underground_ores"
+    "step": "underground_decoration"
 }

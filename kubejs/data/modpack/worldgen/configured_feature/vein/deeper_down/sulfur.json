@@ -1,11 +1,11 @@
 {
   "type": "tfc:geode",
   "config": {
-    "outer": "tfc:rock/hardened/schist",
+    "outer": "tfc:rock/hardened/basalt",
     "middle": "tfc:rock/hardened/gabbro",
     "inner": [
       {
-        "data": "tfc:ore/diamond/gabbro",
+        "data": "tfc:ore/sulfur/gabbro",
         "weight": 1
       },
       {
