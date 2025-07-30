@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "spectrum:block/saw_blade_bush2"
+    "layer0": "spectrum:block/sawblade_holly_bush2"
   }
 }
