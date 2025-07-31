@@ -104,8 +104,8 @@ LootJS.modifiers((event) => {
         "farmersdelight:tomato_seeds": "tfc:seeds/tomato",
         "farmersdelight:cabbage": "tfc:food/cabbage",
         "farmersdelight:cabbage_seeds": "tfc:seeds/cabbage",
-        "spectrum:amaranth_grains": "kubejs:plant/seeds/amaranth",
-        "spectrum:amaranth_bushel": "kubejs:plant/seeds/amaranth"
+        "spectrum:amaranth_grains": "kubejs:plant/amaranth_seeds",
+        "spectrum:glistering_melon_seeds": "kubejs:plant/glistering_melon_seeds"
     }
     
     Object.keys(ITEM_REPLACEMENTS).forEach(key =>{

@@ -97,6 +97,33 @@ StartupEvents.registry("block", event =>{
         .hardness(0.5)
         .tagBlock("minecraft:mineable/hoe")
         .productItem("spectrum:aloe_leaf")
+
+    // nothing (textures, models) wants to work. I tried the same thing as the Aether project with the resource pack jsons which used the same builder.
+    // it didnt work, maybe suggesting a regression?
+    
+    event.create("kubejs:plant/glistering_melon", "tfc:spreading_crop")
+        .model(0, "kubejs:block/plant/cotton_age_0")
+        .model(1, "kubejs:block/plant/cotton_age_0")
+        .model(2, "kubejs:block/plant/cotton_age_0")
+        .model(3, "kubejs:block/plant/cotton_age_0")
+        .model(4, "kubejs:block/plant/cotton_age_0")
+        .model(5, "kubejs:block/plant/cotton_age_0")
+        .model(6, "kubejs:block/plant/cotton_age_0")
+        .model(7, "kubejs:block/plant/cotton_age_0")
+        .model(8, "kubejs:block/plant/cotton_age_0")
+        .model("kubejs:block/plant/cotton_age_0")
+        .displayName("Glistering Melon")
+        .stages(7)
+        .soundType("grass")
+        .hardness(0.5)
+        .tagBlock("minecraft:mineable/hoe")
+        .fruitBlock("spectrum:glistering_melon")
+        .deadBlock(block =>{
+            block.soundType("grass")
+            block.tagBlock("minecraft:mineable/hoe")
+            block.hardness(0.5)
+        })
+    
         
 
     
