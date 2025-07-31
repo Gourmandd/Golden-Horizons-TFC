@@ -803,3 +803,11 @@ global.SPECTRUM_WOODS = [
   "ebony",
   "weeping_gala"
 ]
+
+global.SPECTRUM_GEMSTONES = [
+  "onyx",
+  "moonstone",
+  "citrine",
+  "amethyst",
+  "topaz"
+]
