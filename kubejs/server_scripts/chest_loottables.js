@@ -4,7 +4,7 @@ console.info("Loot Tables loaded")
 
 LootJS.modifiers((event) => {
 
-    const ITEM_REPLACEMENTS = {
+    let ITEM_REPLACEMENTS = {
         "minecraft:iron_ingot": "tfc:metal/ingot/wrought_iron",
         "minecraft:copper_ingot": "tfc:metal/ingot/copper",
         "minecraft:gold_ingot": "tfc:metal/ingot/gold",
@@ -105,8 +105,12 @@ LootJS.modifiers((event) => {
         "farmersdelight:cabbage": "tfc:food/cabbage",
         "farmersdelight:cabbage_seeds": "tfc:seeds/cabbage",
         "spectrum:amaranth_grains": "kubejs:plant/amaranth_seeds",
-        "spectrum:glistering_melon_seeds": "kubejs:plant/glistering_melon_seeds"
+        "spectrum:glistering_melon_seeds": "kubejs:plant/glistering_melon_seeds",
     }
+
+    global.DYE_COLOURS.forEach(colour => {
+        ITEM_REPLACEMENTS[`minecraft:${colour}_candle`] = `tfc:candle/${colour}`
+    })
     
     Object.keys(ITEM_REPLACEMENTS).forEach(key =>{
         event.addLootTypeModifier(LootType.CHEST).replaceLoot(Item.of(key), Item.of(ITEM_REPLACEMENTS[key]), true)
