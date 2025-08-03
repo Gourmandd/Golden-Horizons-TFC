@@ -1,14 +1,1 @@
-{
-  "type": "spectrum:anvil_crushing",
-  "ingredient": {
-    "item": "kubejs:rock/cobble/argillite"
-  },
-  "crushedItemsPerPointOfDamage": 2,
-  "experience": 0.05,
-  "result": {
-    "item": "minecraft:gravel",
-    "count": 1
-  },
-  "particleEffectIdentifier": "cloud",
-  "soundEventIdentifier": "block.stone.break"
-}
+{"type":"forge:disabled")

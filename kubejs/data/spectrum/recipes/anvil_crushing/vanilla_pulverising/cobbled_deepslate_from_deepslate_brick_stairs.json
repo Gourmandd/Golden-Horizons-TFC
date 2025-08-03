@@ -1,14 +1,1 @@
-{
-  "type": "spectrum:anvil_crushing",
-  "ingredient": {
-    "item": "minecraft:deepslate_brick_stairs"
-  },
-  "crushedItemsPerPointOfDamage": 0.8,
-  "experience": 0,
-  "result": {
-    "item": "kubejs:rock/cobble/nephelinite",
-    "count": 1
-  },
-  "particleEffectIdentifier": "cloud",
-  "soundEventIdentifier": "block.deepslate.break"
-}
+{"type":"forge:disabled")
