@@ -24,7 +24,7 @@
     "sky_colors": true
   },
   "render_settings": {
-    "fog_type": "MOD_COMPAT",
+    "fog_type": "DEFAULT",
     "fog_distance": 0,
     "fog_start": 100,
     "multi_dimension_fog_control": false,
@@ -56,7 +56,7 @@
     "advancement_toast": true,
     "recipe_toast": true,
     "system_toast": true,
-    "tutorial_toast": true,
+    "tutorial_toast": false,
     "instant_sneak": false,
     "prevent_shaders": false,
     "steady_debug_hud": true,
