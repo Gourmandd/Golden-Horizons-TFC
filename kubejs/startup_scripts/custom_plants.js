@@ -42,7 +42,7 @@ StartupEvents.registry("block", event =>{
         
     event.create("kubejs:plant/cotton", "tfc:crop")
         .stages(3)
-        .productItem("rusticdelight:cotton_boll")
+        .existingProductItem("rusticdelight:cotton_boll")
         .nutrient("potassium")
         .soundType("grass")
         .tagBlock("minecraft:mineable/hoe")
@@ -56,7 +56,7 @@ StartupEvents.registry("block", event =>{
 
     event.create("kubejs:plant/coffee", "tfc:crop")
         .stages(5)
-        .productItem("rusticdelight:coffee_beans")
+        .existingProductItem("rusticdelight:coffee_beans")
         .nutrient("potassium")
         .soundType("grass")
         .tagBlock("minecraft:mineable/hoe")
@@ -71,7 +71,7 @@ StartupEvents.registry("block", event =>{
     event.create("kubejs:plant/amaranth", "tfc:double_crop")
         .stages(2)
         .doubleStages(3)
-        .productItem("spectrum:amaranth_bushel")
+        .existingProductItem("spectrum:amaranth_bushel")
         .nutrient("potassium")
         .soundType("grass")
         .tagBlock("minecraft:mineable/hoe")
@@ -98,8 +98,6 @@ StartupEvents.registry("block", event =>{
         .tagBlock("minecraft:mineable/hoe")
         .productItem("spectrum:aloe_leaf")
 
-    // nothing (textures, models) wants to work. I tried the same thing as the Aether project with the resource pack jsons which used the same builder.
-    // it didnt work, maybe suggesting a regression?
     
     event.create("kubejs:plant/glistering_melon", "tfc:spreading_crop")
         .model(0, "kubejs:block/plant/cotton_age_0")
