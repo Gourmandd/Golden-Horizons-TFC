@@ -28,7 +28,7 @@ settings = json.loads(settings_file.read())
 settings_file.close()
 
 # set main menu subtitle to version.
-menu_version_file = open('.pakku/client-overrides/config/fancymenu/assets/version.txt', 'w')
+menu_version_file = open('config/fancymenu/assets/version.txt', 'w')
 menu_version_file.write("Version: " + settings["version"])
 menu_version_file.close()
 
