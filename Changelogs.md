@@ -2,6 +2,37 @@
 
 All of the changelogs since 0.1 that was posted on Modrinth
 
+# Golden Horizons 1.10
+
+This is a largely QoL update, mods that fill in some niches like trading, automation and inventory management. A lot of Spectrum's core content was been integrated, and it is possible to go through its entire "main" progression now. (certain features still need a lot of work. like memories & mob heads.). 
+
+## New Content
+
+- Lithic Coins has been added, it allows you to mint coins out of any metal with features like designs, year minted, and basic security. Very hard, but not impossible to counterfeit.
+- Toolbelt was added, it adds a toolbelt that can store tools which you can easily cycle through to save on inventory space.
+- Create: Mechanical Extruder was added, allowing you to automate the production of Ingeous rocks, though with Extrusive Igneous rock taking far longer to form.
+- Create mod propellers are now made with stainless steel. (want feedback on this, I feel gating it )
+- Mods have been updated (Terrafirmacraft, Firmalife, Artisanal, Water Flasks, Immersive Aircraft, Modernfix & a few more)
+
+## Spectrum integration
+
+- You can now make supports out of Spectrum's wood types
+- The Glisterng Melon crop now acts like any other TFC crop.
+- The quern can now grind Spectrum gemstones into powder.
+- Blocks that hold fluid now work with TFC fluid containers.
+- Amaranth can be ground into flour which can be used to preserve it and is now used in place of grains in many recipes.
+- Anvil crushing will have a rework that has been started, but not finished.
+- The Deeper Down is now considered "playable", its world generation has had many changes to better fit into TFC (including making it possible for collapses to happen!) Such as:
+- Loose rock and twigs spawn in the Deeper Down.
+- Wild Amaranth now generates in the Crystal Gardens.
+- Aloe and Sawblade Berry bushes have TFC like variants that generate replacing the old ones.
+- Ores now generate (but inside of geodes, usually made of hardened basalt or schist).
+
+## Bug Fixes
+
+- Added some items to tags and made certain recipes use tags (unfired vessels, etc)
+- leather straps from Epic Knights and Sack n Such have been unified.
+
 # Golden Horizons 1.9
 
 After this update the mod list is nearly finalised. I am thinking of setting up a Java profiler and seeing if anything uses more RAM than is worth it. The integration of Spectrum is going well, I wouldn't recommend going to its dimension yet since I dont have hardened stone and collapses to working properly but almost everything else is ready.
