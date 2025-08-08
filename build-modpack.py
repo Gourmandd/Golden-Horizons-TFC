@@ -1,14 +1,35 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 import os
 import json
 import shutil
 import glob
+import argparse
+
+pakku_command: str = "pakku"
+
+
+# Run "python ./build-modpack.py" if you have pakku installed on yout system (recommended)
+# Or run "python ./build-modpack.py --pakku-location={path/to/pakku.jar}" and replace "{path/to/pakku.jar}" with where your pakku.jar is downloaded.
+# if you don't specify a file location ("python ./build-modpack.py --pakku-location=") it will default to "~/Downloads/pakku.jar" which 
 
 # This script aims to run on any OS, make an Github issue if this is not the case.
-# Do not run in your instance folder, clone the repo to its own folder and then build. 
-# You need Pakku installed on your system: https://juraj-hrivnak.github.io/Pakku/installing-pakku.html
-# You will most likely need a Curseforge API key. (see the Pakku documentation)
+# Do not run in your game instance folder, clone the repo to its own folder and then run this in that folder. (this script overrides user configs)
+# You may need a Curseforge API key. (see the Pakku documentation)
+
+
+parser = argparse.ArgumentParser(description = "Build Modpack", formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+parser.add_argument("-p","--pakku-location", required = False, type = str, help = "The file path of pakku.jar")
+args = parser.parse_args()
+
+
+if type(args.pakku_location) is str:
+
+    if not args.pakku_location.endswith(".jar"):
+        raise ValueError("pakku location is not a jar.")
+    else:
+        pakku_command = "java -jar " + args.pakku_location
+
 
 print("Step: Editing settings.")
 
@@ -47,7 +68,6 @@ for file in glob.iglob(FOLDER + "overrides/" + '**/*', recursive= True):
     file_name = file.split("/")
     file_name.reverse()
     file_name = file_name[0]
-    print(file_name)
 
     if file_name == "README":
         pass
@@ -62,12 +82,12 @@ edit_loaders({"forge":"47.3.6"})
 
 
 # change modpack version in Pakku.
-os.system("pakku cfg -v " + settings["version"])
+os.system(pakku_command + " cfg -v " + settings["version"])
 
 
 print("Step: Exporting modpack.")
 # Export Curseforge, Modrinth and a server pack. 
-os.system("pakku export") 
+os.system(pakku_command + " export") 
 
 
 
