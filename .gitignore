@@ -31,6 +31,13 @@ fancymenu_data/last_world.fmdata
 /usercache.json
 /usernamecache.json
 
+# user settings
+/options.txt
+/emi.json
+/config/emi.css
+/config/fancymenu/options.txt
+/config/fancymenu/assets/version.txt
+
 #game should generate this since no edits but its commented to make sure everything is the same
 #kubejs/jsconfig.json
 #kubejs/server_scripts/config
@@ -40,7 +47,6 @@ fancymenu_data/last_world.fmdata
 /config/everycomp-hazardous.properties
 /config/screenshot_viewer-client.toml
 /config/fabric/indigo-renderer.properties
-/config/modernfix-mixins.properties
 #/config/embeddium-fingerprint.json
 #/config/embeddium-mixins.properties
 /config/NoChatReports
