@@ -29,24 +29,28 @@ StartupEvents.registry("block", event =>{
         .displayName("Decorational Wooden Bucket")
         .defaultTranslucent()
         .notSolid()
+        .tagBlock("minecraft:mineable/axe")
 
     event.create("deco_bucket/red_steel")
         .displayName("Decorational Red Steel Bucket")
         .soundType("stone")
         .defaultTranslucent()
         .notSolid()
+        .tagBlock("minecraft:mineable/pickaxe")
 
     event.create("deco_bucket/blue_steel")
         .displayName("Decorational Blue Steel Bucket")
         .soundType("stone")
         .defaultTranslucent()
         .notSolid()
+        .tagBlock("minecraft:mineable/pickaxe")
 
     event.create("deco_bucket/wrought_iron")
         .displayName("Decorational Wrought Iron Bucket")
         .soundType("stone")
         .defaultTranslucent()
         .notSolid()
+        .tagBlock("minecraft:mineable/pickaxe")
 
 
     event.create("felsic_tuff_mixture").displayName("Felsic Tuff Mixture").soundType("sand").tagBlock("minecraft:mineable/shovel")
