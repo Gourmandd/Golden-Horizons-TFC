@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kubejs:deco_bucket/wrought_iron"
+    }
+  ],
+  "result": {
+    "item": "kubejs:metal/bucket/wrought_iron",
+    "count": 1
+  }
+}

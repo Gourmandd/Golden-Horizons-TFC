@@ -1,7 +1,7 @@
 {
   "type": "spectrum:potion_workshop_crafting",
   "base_ingredient": {
-    "item": "tfc:metal/sheet/red_steel"
+    "item": "kubejs:deco_bucket/red_steel"
   },
   "use_up_base_ingredient": true,
   "color": 14907183,

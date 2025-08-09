@@ -1,0 +1,36 @@
+{
+  "added": [
+    {
+      "stack": "item:kubejs:metal/bucket/wrought_iron{fluid:{Amount:1000,FluidName:\"minecraft:lava\"}}",
+      "after": "item:kubejs:metal/bucket/wrought_iron"
+    },
+    {
+      "stack": "item:kubejs:metal/bucket/wrought_iron{fluid:{Amount:1000,FluidName:\"spectrum:liquid_crystal\"}}",
+      "after": "item:kubejs:metal/bucket/wrought_iron"
+    },
+    {
+      "stack": "item:kubejs:metal/bucket/wrought_iron{fluid:{Amount:1000,FluidName:\"spectrum:midnight_solution\"}}",
+      "after": "item:kubejs:metal/bucket/wrought_iron"
+    },
+    {
+      "stack": "item:kubejs:metal/bucket/wrought_iron{fluid:{Amount:1000,FluidName:\"spectrum:mud\"}}",
+      "after": "item:kubejs:metal/bucket/wrought_iron"
+    },
+    {
+      "stack": "item:tfc:metal/bucket/red_steel{fluid:{Amount:1000,FluidName:\"spectrum:dragonrot\"}}",
+      "after": "item:tfc:metal/bucket/red_steel"
+    },
+    {
+      "stack": "item:tfc:metal/bucket/blue_steel{fluid:{Amount:1000,FluidName:\"spectrum:dragonrot\"}}",
+      "after": "item:tfc:metal/bucket/blue_steel"
+    },
+    {
+      "stack": "item:tfc:wooden_bucket{fluid:{Amount:1000,FluidName:\"firmalife:coconut_milk\"}}",
+      "after": "item:tfc:wooden_bucket"
+    },
+    {
+      "stack": "item:tfc:wooden_bucket{fluid:{Amount:1000,FluidName:\"minecraft:water\"}}",
+      "after": "item:tfc:wooden_bucket"
+    }
+  ]
+}

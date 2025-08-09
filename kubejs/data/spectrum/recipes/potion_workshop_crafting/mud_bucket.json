@@ -1,7 +1,7 @@
 {
     "type": "spectrum:potion_workshop_crafting",
     "base_ingredient": {
-      "item": "tfc:metal/sheet/blue_steel"
+      "item": "kubejs:deco_bucket/wrought_iron"
     },
     "use_up_base_ingredient": true,
     "color": 4268288,
@@ -12,7 +12,7 @@
       "tag": "tfc:mud"
     },
     "result": {
-      "item": "tfc:metal/bucket/blue_steel",
+      "item": "kubejs:metal/bucket/wrought_iron",
       "nbt": "{\"fluid\": {\"Amount\": 1000, \"FluidName\": \"spectrum:mud\"} }"
     }
   }

@@ -1,0 +1,15 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "item": "tfc:metal/sheet/wrought_iron"
+  },
+  "result": {
+    "item": "kubejs:metal/bucket/wrought_iron"
+  },
+  "tier": 3,
+  "rules": [
+    "bend_last",
+    "bend_second_last",
+    "bend_third_last"
+  ]
+}

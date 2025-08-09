@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tfc:metal/bucket/red_steel"
+    }
+  ],
+  "result": {
+    "item": "kubejs:deco_bucket/red_steel",
+    "count": 1
+  }
+}

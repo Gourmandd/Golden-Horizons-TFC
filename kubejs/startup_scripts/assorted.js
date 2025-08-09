@@ -1,5 +1,4 @@
 
-
 StartupEvents.registry("item", event =>{
 
     event.create("saw").displayName("Wrought Iron Sawblade")
@@ -14,11 +13,44 @@ StartupEvents.registry("item", event =>{
 
     event.create("raw_aluminium_mixture").displayName("Raw Aluminium Mixture")
     event.create("aluminium_nugget").displayName("Aluminium Nugget")
+
+    event.create("metal/bucket/wrought_iron", "tfc:fluid_container")
+        .displayName("Wrought Iron Bucket")
+        .canPlaceLiquid(true)
+        .canPlaceLiquidSource(true)
+        .capacity(1000)
+        .fluidTagAccept("modpack:usable_in_wrought_iron_bucket")
 })
 
 StartupEvents.registry("block", event =>{
+    
+
+    event.create("deco_bucket/wooden")
+        .displayName("Decorational Wooden Bucket")
+        .defaultTranslucent()
+        .notSolid()
+
+    event.create("deco_bucket/red_steel")
+        .displayName("Decorational Red Steel Bucket")
+        .soundType("stone")
+        .defaultTranslucent()
+        .notSolid()
+
+    event.create("deco_bucket/blue_steel")
+        .displayName("Decorational Blue Steel Bucket")
+        .soundType("stone")
+        .defaultTranslucent()
+        .notSolid()
+
+    event.create("deco_bucket/wrought_iron")
+        .displayName("Decorational Wrought Iron Bucket")
+        .soundType("stone")
+        .defaultTranslucent()
+        .notSolid()
+
 
     event.create("felsic_tuff_mixture").displayName("Felsic Tuff Mixture").soundType("sand").tagBlock("minecraft:mineable/shovel")
+
 
     global.DYE_COLOURS.forEach(colour => {
 
@@ -55,7 +87,6 @@ StartupEvents.registry("fluid", event => {
         .noBucket()
         .noBlock()
 })
-
 
 
 Platform.mods.kubejs.name = 'Horizons'

@@ -1,7 +1,7 @@
 {
   "type": "spectrum:potion_workshop_crafting",
   "base_ingredient": {
-    "item": "tfc:wooden_bucket"
+    "item": "kubejs:deco_bucket/wooden"
   },
   "use_up_base_ingredient": true,
   "color": 2451682,

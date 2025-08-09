@@ -21,7 +21,7 @@
       "item": "spectrum:yellow_pigment"
     },
     "B": {
-      "item": "tfc:metal/sheet/blue_steel"
+      "item": "kubejs:deco_bucket/wrought_iron"
     },
     "S": {
       "item": "spectrum:shimmerstone_gem"
@@ -31,7 +31,7 @@
     }
   },
   "result": {
-    "item": "tfc:metal/bucket/blue_steel",
+    "item": "kubejs:metal/bucket/wrought_iron",
     "nbt": "{\"fluid\": {\"Amount\": 1000, \"FluidName\": \"spectrum:liquid_crystal\"} }",
     "count": 1
   },

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tfc:wooden_bucket"
+    }
+  ],
+  "result": {
+    "item": "kubejs:deco_bucket/wooden",
+    "count": 1
+  }
+}

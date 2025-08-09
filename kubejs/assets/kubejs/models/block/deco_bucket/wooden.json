@@ -1,0 +1,9 @@
+{
+	"parent": "tfc:block/ceramic/large_vessel_a_opened",
+	"textures": {
+		"top": "tfc:block/wood/planks/birch",
+		"side": "tfc:block/wood/planks/birch",
+		"bottom": "tfc:block/wood/planks/birch",
+		"walls_inside": "tfc:block/wood/planks/birch"
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"replace": true,
+	"values": [
+		"#tfc:usable_in_jug",
+		"minecraft:lava",
+		"spectrum:liquid_mud",
+		"spectrum:liquid_crystal",
+		"spectrum:midnight_solution"
+	]
+}

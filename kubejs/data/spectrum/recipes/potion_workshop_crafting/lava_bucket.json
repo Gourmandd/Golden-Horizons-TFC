@@ -6,7 +6,7 @@
     "use_up_base_ingredient": false,
     "color": 13387304,
     "ingredient1": {
-      "item": "tfc:metal/sheet/blue_steel"
+      "item": "kubejs:deco_bucket/wrought_iron"
     },
     "ingredient2": {
       "tag": "forge:magma_block"
@@ -15,7 +15,7 @@
       "item": "spectrum:orange_pigment"
     },
     "result": {
-      "item": "tfc:metal/bucket/blue_steel",
+      "item": "kubejs:metal/bucket/wrought_iron",
       "nbt": "{\"fluid\": {\"Amount\": 1000, \"FluidName\": \"minecraft:lava\"} }"
     }
   }
