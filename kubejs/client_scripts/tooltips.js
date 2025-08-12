@@ -7,7 +7,6 @@ ItemEvents.tooltip(event =>{
         "minecraft:blast_furnace",
         "minecraft:grindstone",
         "minecraft:brewing_stand",
-        "minecraft:beacon",
         "minecraft:enchanting_table",
         "minecraft:fletching_table",
     ]

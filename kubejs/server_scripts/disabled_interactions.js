@@ -13,8 +13,7 @@ BlockEvents.rightClicked(event =>{
         "minecraft:chipped_anvil",
         "minecraft:anvil",
         "minecraft:brewing_stand",
-        "minecraft:beacon",
-        "minecraft:enchanting_table",
+        "minecraft:enchanting_table"
     ]
 
     if (InteractionBlacklist.indexOf(event.getBlock().getId()) == -1){
