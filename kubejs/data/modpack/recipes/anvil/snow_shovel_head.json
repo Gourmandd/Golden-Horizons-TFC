@@ -1,0 +1,16 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+      "item": "firmalife:metal/sheet/stainless_steel"
+    },
+    "result": {
+      "item": "kubejs:tool/snow_shovel_head"
+    },
+    "tier": 4,
+    "rules": [
+      "bend_last",
+      "punch_second_last",
+      "upset_third_last"
+    ],
+  "apply_forging_bonus": true
+  }

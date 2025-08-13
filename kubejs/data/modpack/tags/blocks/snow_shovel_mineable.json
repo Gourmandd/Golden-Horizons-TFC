@@ -1,0 +1,10 @@
+{
+	"replace": true,
+	"values": [
+		"minecraft:snow",
+		"minecraft:snow_block",
+		"spectrum:ash",
+		"spectrum:ash_pile",
+		"tfc:snow_pile"
+	]
+}

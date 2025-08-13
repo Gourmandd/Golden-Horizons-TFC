@@ -20,7 +20,16 @@ StartupEvents.registry("item", event =>{
         .canPlaceLiquidSource(true)
         .capacity(1000)
         .fluidTagAccept("modpack:usable_in_wrought_iron_bucket")
+    
+    event.create("tool/snow_shovel_head").displayName("Snow Shovel Head")
+
+    event.create("tool/snow_shovel", "tfc:tool")
+        .displayName("Snow Shovel")
+        .mineableBlocksTag("modpack:snow_shovel_mineable")
+        .unstackable()
+        .maxDamage(3200)
 })
+
 
 StartupEvents.registry("block", event =>{
     
@@ -31,6 +40,7 @@ StartupEvents.registry("block", event =>{
         .notSolid()
         .tagBlock("minecraft:mineable/axe")
 
+
     event.create("deco_bucket/red_steel")
         .displayName("Decorational Red Steel Bucket")
         .soundType("stone")
@@ -38,12 +48,14 @@ StartupEvents.registry("block", event =>{
         .notSolid()
         .tagBlock("minecraft:mineable/pickaxe")
 
+
     event.create("deco_bucket/blue_steel")
         .displayName("Decorational Blue Steel Bucket")
         .soundType("stone")
         .defaultTranslucent()
         .notSolid()
         .tagBlock("minecraft:mineable/pickaxe")
+
 
     event.create("deco_bucket/wrought_iron")
         .displayName("Decorational Wrought Iron Bucket")
@@ -69,11 +81,12 @@ StartupEvents.registry("block", event =>{
             .tagBlock("tfc:grass_plantable")
     })
 
+
     event.create("andesite_machine").displayName("Andesite Machine").tagBlock("minecraft:mineable/pickaxe").tagBlock("minecraft:mineable/axe")
     event.create("copper_machine").displayName("Copper Machine").tagBlock("minecraft:mineable/pickaxe").tagBlock("minecraft:mineable/axe")
     event.create("brass_machine").displayName("Brass Machine").tagBlock("minecraft:mineable/pickaxe").tagBlock("minecraft:mineable/axe")
-    
 })
+
 
 StartupEvents.registry("fluid", event => {
 
