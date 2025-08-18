@@ -1,5 +1,6 @@
 //priority: 10
 
+//global.nameProcessing = (name) =>
 function nameProcessing(name){
   name = name.replace("_", " ")
   name = name.replace("_", " ")
@@ -811,3 +812,39 @@ global.SPECTRUM_GEMSTONES = [
   "amethyst",
   "topaz"
 ]
+
+/*
+global.BURNED_BLOCKS_DICT = {}
+
+// Adding stuff to BURNED_BLOCKS_DICT
+StartupEvents.init(event => {
+
+  global.TFC_WOOD_TYPES.forEach(woodType => {
+    global.BURNED_BLOCKS_DICT[`tfc:wood/planks/${woodType}`] = "kubejs:wood/planks/charred"
+
+    global.BURNED_BLOCKS_DICT[`tfc:wood/log/${woodType}`] = "kubejs:wood/log/charred"
+    global.BURNED_BLOCKS_DICT[`tfc:wood/stripped_log/${woodType}`] = "kubejs:wood/log/charred"
+    global.BURNED_BLOCKS_DICT[`tfc:wood/wood/${woodType}`] = "kubejs:wood/log/charred"
+    global.BURNED_BLOCKS_DICT[`tfc:wood/stripped_wood/${woodType}`] = "kubejs:wood/log/charred"
+  })
+
+  global.AFC_WOOD_TYPES.forEach(woodType => {
+    global.BURNED_BLOCKS_DICT[`afc:wood/planks/${woodType}`] = "kubejs:wood/planks/charred"
+
+    global.BURNED_BLOCKS_DICT[`afc:wood/log/${woodType}`] = "kubejs:wood/log/charred"
+    global.BURNED_BLOCKS_DICT[`afc:wood/stripped_log/${woodType}`] = "kubejs:wood/log/charred"
+    global.BURNED_BLOCKS_DICT[`afc:wood/wood/${woodType}`] = "kubejs:wood/log/charred"
+    global.BURNED_BLOCKS_DICT[`afc:wood/stripped_wood/${woodType}`] = "kubejs:wood/log/charred"
+  })
+
+  global.DYE_COLOURS.forEach(colour => {
+    global.BURNED_BLOCKS_DICT[`spectrum:${colour}_planks`] = "kubejs:wood/planks/charred"
+
+    global.BURNED_BLOCKS_DICT[`spectrum:${colour}_log`] = "kubejs:wood/log/charred"
+    global.BURNED_BLOCKS_DICT[`spectrum:stripped_${colour}_log`] = "kubejs:wood/log/charred"
+    global.BURNED_BLOCKS_DICT[`spectrum:${colour}_wood`] = "kubejs:wood/log/charred"
+    global.BURNED_BLOCKS_DICT[`spectrum:stripped_${colour}_wood`] = "kubejs:wood/log/charred"
+  })
+
+})
+  */
