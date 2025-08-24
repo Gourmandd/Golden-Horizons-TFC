@@ -86,7 +86,10 @@
 "block.kubejs.plant.coffee": "Coffee",
 "block.kubejs.plant.cotton": "Cotton",
 "block.kubejs.plant.amaranth": "Amaranth",
+"block.kubejs.plant.glistering_melon": "Glistering Melon",
 
+
+"block.kubejs.plant.glistering_melon_dead": "Dead Glisterning Melon",
 "block.kubejs.plant.coffee_dead": "Dead Coffee",
 "block.kubejs.plant.cotton_dead": "Dead Cotton",
 "block.kubejs.plant.amaranth_dead": "Dead Amaranth",

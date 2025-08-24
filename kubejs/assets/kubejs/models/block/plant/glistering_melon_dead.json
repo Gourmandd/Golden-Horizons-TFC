@@ -1,3 +1,6 @@
 {
-  "parent": "tfc:block/plant/dead_bush1"
+  "parent": "tfc:block/crop/spreading_crop_side",
+  "textures": {
+    "crop": "tfc:block/crop/melon_side_dead"
+  }
 }

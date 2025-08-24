@@ -110,7 +110,6 @@ StartupEvents.registry("block", event =>{
         .model(7, "kubejs:block/plant/cotton_age_0")
         .model(8, "kubejs:block/plant/cotton_age_0")
         .model("kubejs:block/plant/cotton_age_0")
-        .displayName("Glistering Melon")
         .stages(7)
         .soundType("grass")
         .hardness(0.5)
