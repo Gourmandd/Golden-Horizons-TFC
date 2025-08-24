@@ -41,7 +41,7 @@
 [categories]
 	automation = true
 	building = true
-	management = false
+	management = true
 	tools = true
 	tweaks = true
 	world = true
@@ -285,7 +285,7 @@
 	"Automatic Tool Restock" = false
 	"Easy Transfering" = false
 	"Expanded Item Interactions" = false
-	"Hotbar Changer" = false
+	"Hotbar Changer" = true
 	"Inventory Sorting" = false
 	"Item Sharing" = false
 	"Quick Armor Swapping" = false
