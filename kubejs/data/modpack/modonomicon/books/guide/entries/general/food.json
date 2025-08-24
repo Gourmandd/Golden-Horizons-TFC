@@ -1,0 +1,39 @@
+{
+	"background_u_index": 0,
+	"background_v_index": 0,
+	"category": "modpack:general",
+	"description": "book.modpack.guide.general.food.description",
+	"hide_while_locked": true,
+	"icon": {
+		"height": 16,
+		"texture": "minecraft:textures/item/carrot.png",
+		"width": 16
+	},
+	"name": "book.modpack.guide.general.food.name",
+	"pages": [
+		{
+			"type": "modonomicon:text",
+			"anchor": "",
+			"use_markdown_title": false,
+			"show_title_separator": true,
+			"text": "book.modpack.guide.general.food.page1.text",
+			"title": "book.modpack.guide.general.food.name"
+		},
+		{
+			"type": "modonomicon:text",
+			"anchor": "",
+			"use_markdown_title": false,
+			"show_title_separator": true,
+			"text": "book.modpack.guide.general.food.page2.text",
+			"title": "book.modpack.guide.general.food.name"
+		}
+	],
+	"show_when_any_parent_unlocked": false,
+	"parents": [
+		{
+			"entry": "modpack:general/intro"
+		}
+	],
+	"x": 2,
+	"y": -2
+}

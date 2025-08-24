@@ -1,0 +1,41 @@
+{
+  "type": "modonomicon:dense",
+  "pattern": [
+    [
+      "       ",
+      " RC0PS ",
+      "       "
+    ],
+    [
+      "GGGGGGG",
+      "GGGGGGG",
+      "GGGGGGG"
+    ]
+  ],
+  "mapping": {
+    "G":  {
+      "type": "modonomicon:block",
+      "block": "tfc:clay_grass/loam"
+    },
+    "0":  {
+      "type": "modonomicon:block",
+      "block": "tfc:plant/athyrium_fern"
+    },
+    "C":  {
+      "type": "modonomicon:block",
+      "block": "tfc:plant/canna"
+    },
+    "R":  {
+      "type": "modonomicon:block",
+      "block": "tfc:plant/goldenrod"
+    },
+    "P":  {
+      "type": "modonomicon:block",
+      "block": "tfc:plant/pampas_grass"
+    },
+    "S":  {
+      "type": "modonomicon:block",
+      "block": "tfc:plant/perovskia"
+    }
+  }
+}

@@ -1,40 +1,27 @@
 {
-  "background_u_index": 0,
-  "background_v_index": 0,
-  "category": "modpack:general",
-  "description": "book.modpack.guide.general.intro.description",
-  "hide_while_locked": false,
-  "icon": {
-    "height": 16,
-    "texture": "minecraft:textures/item/nether_star.png",
-    "width": 16
-  },
-  "name": "book.modpack.guide.general.intro.name",
-  "pages": [
-    {
-      "type": "modonomicon:text",
-      "anchor": "",
-      "condition": {
-        "type": "modonomicon:none"
-      },
-      "show_title_separator": true,
-      "text": "book.modpack.guide.general.intro.page1.text",
-      "title": "book.modpack.guide.general.intro.page1.title",
-      "use_markdown_in_title": false
-    },
-    {
-      "type": "modonomicon:text",
-      "anchor": "",
-      "condition": {
-        "type": "modonomicon:none"
-      },
-      "show_title_separator": true,
-      "text": "book.modpack.guide.general.intro.page2.text",
-      "title": "",
-      "use_markdown_in_title": false
-    }
-  ],
-  "show_when_any_parent_unlocked": true,
-  "x": 0,
-  "y": 0
+	"background_u_index": 0,
+	"background_v_index": 0,
+	"category": "modpack:general",
+	"description": "book.modpack.guide.general.intro.description",
+	"hide_while_locked": true,
+	"icon": {
+		"height": 16,
+		"texture": "minecraft:textures/item/nether_star.png",
+		"width": 16
+	},
+	"name": "book.modpack.guide.general.intro.name",
+	"pages": [
+		{
+			"type": "modonomicon:text",
+			"anchor": "",
+			"use_markdown_title": false,
+			"show_title_separator": true,
+			"text": "book.modpack.guide.general.intro.page1.text",
+			"title": "book.modpack.guide.general.intro.page1.title"
+		}
+	],
+	"show_when_any_parent_unlocked": false,
+	"parents": [],
+	"x": 0,
+	"y": 0
 }

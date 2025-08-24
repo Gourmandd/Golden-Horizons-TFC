@@ -1,26 +1,45 @@
 {
+"modpack.test" : "Test lang",
+
+"book.modpack.guide.general.intro.name": "Waking Up",
+"book.modpack.guide.general.intro.description": "You open your eyes to see a new world.",
+"book.modpack.guide.general.intro.page1.title": "Waking Up",
+"book.modpack.guide.general.intro.page1.text": "I opened my eyes, and a world unfolds in front of me. I shall discover all there is to discover.",
+
+"book.modpack.guide.general.info.name": "Info",
+"book.modpack.guide.general.info.description": "Important info.",
+"book.modpack.guide.general.info.page1.title": "Info",
+"book.modpack.guide.general.info.page1.text": "This guide books goal is to try to ease you into this world and into the Terrafirmacraft mod and others.\\\n\\\nTo unlock new entries just do things, explore and gather resources. Hints are available. \\\n The Terrafirmacraft guide book is also still available",
+"book.modpack.guide.general.info.page2.title": "Info",
+"book.modpack.guide.general.info.page2.text": "If you don't know already; In your inventory menu on the right side there is a menu where you can search items, You can use [R] and [U] to browse recipes.",
+
+
+"book.modpack.guide.general.sticks_and_stones.name": "Sticks and Stones",
+"book.modpack.guide.general.sticks_and_stones.description": "Making my first tools.",
+"book.modpack.guide.general.sticks_and_stones.page1.title": "Sticks and Stones",
+"book.modpack.guide.general.sticks_and_stones.page1.text": "By bashing two stones against each other I can make complex tools.",
+"book.modpack.guide.general.sticks_and_stones.page2.title": "Stone Axe",
+"book.modpack.guide.general.sticks_and_stones.page2.text": "Such a sharp blade can chop a tree down! \\\n\\\n (twigs can be found near trees)",
+"book.modpack.guide.general.sticks_and_stones.page3.title": "Stone Knife",
+"book.modpack.guide.general.sticks_and_stones.page3.text": "I can use this to harvest straw from grass!",
+
+"book.modpack.guide.general.clay.name": "Locating Clay",
+"book.modpack.guide.general.clay.description": "About a new material.",
+"book.modpack.guide.general.clay.page1.text": "These plants have a shared secret under them!",
+"book.modpack.guide.general.clay.page2.text": "While walking around I noticed some soil to be much more elastic around certain groups of plants. I can form shapes out of this clay!",
+
+"book.modpack.guide.general.food.name": "Food and Water",
+"book.modpack.guide.general.food.description": "Keeping yourself sustained.",
+"book.modpack.guide.general.food.page1.text": "Around me I noticed that there are wild crops, berries and also animals. I won't be hungry for a while. \\\n\\\nThough I should eat a variety of nutrients to keep healthy!",
+"book.modpack.guide.general.food.page2.text": "To satisfy my thirst I can drink from any water source, with no penalties \\\n \\\n (unless I had a delicious mouthful of ocean water)",
+
+"book.modpack.guide.general.firepit.name": "Making Fires",
+"book.modpack.guide.general.firepit.description": "Let there be cooked meat!.",
+"book.modpack.guide.general.firepit.page1.text": "By dropping a pile of items: \\\n- A log, \\\n- at least 3 stick and \\\n- any amount of straw \\\n\\\n Then igniting them with firestarters I can make a fire pit!",
+"book.modpack.guide.general.firepit.page2.text": "To keep it going it needs a steady source of logs and can be relight.",
+"book.modpack.guide.general.firepit.page3.text": "I can only cook one item at once though.",
+
 "book.modpack.guide.general.name": "General",
-"book.modpack.guide.general.intro.name": "Introduction",
-"book.modpack.guide.general.intro.description": "Introduction to this book.",
-"book.modpack.guide.general.intro.page1.title": "Welcome To Golden Horizons!",
-"book.modpack.guide.general.intro.page1.text": "This is a modpack that aims to create a handcrafted reimagining of Minecraft & Mods.",
-"book.modpack.guide.general.intro.page2.text": "On the left side are categories, these will fill up with information as you gain advancements.",
-
-"book.modpack.guide.general.content_mods.name": "Major Mods",
-"book.modpack.guide.general.content_mods.description": "Introduction to the major mods.",
-"book.modpack.guide.general.content_mods.page1.title": "Major Mods",
-"book.modpack.guide.general.content_mods.page1.text": "There are various large content mods, this is where most of your journey, technology and progression will come from.",
-"book.modpack.guide.general.content_mods.page2.text": "Terrafirmacraft wants to create an immersive world based on believability.",
-"book.modpack.guide.general.content_mods.page2.title": "Terrafirmacraft",
-"book.modpack.guide.general.content_mods.page3.text": "Create is a tech mod based on creating aesthetically pleasing factories.",
-"book.modpack.guide.general.content_mods.page3.title": "Create",
-"book.modpack.guide.general.content_mods.page4.text": "Spectrum is a magic mod, with a long progression where you discover things hidden the world.",
-"book.modpack.guide.general.content_mods.page4.title": "Spectrum",
-"book.modpack.guide.general.content_mods.page5.text": "Farmer's Delight & addons provide a massive amount of food items.",
-"book.modpack.guide.general.content_mods.page5.title": "Farmer's Delight",
-"book.modpack.guide.general.content_mods.page6.text": "Capouna adds various food items and cooking equipment, adding many stylish blocks.",
-"book.modpack.guide.general.content_mods.page6.title": "Caupona",
-
 
 "book.modpack.guide.botany.name": "Botany",
 
