@@ -107,6 +107,12 @@ ServerEvents.recipes(event =>{
         item_heating(`heating/clay/${type}/brick`, `kubejs:ceramic/unfired_${type}_brick`, `kubejs:ceramic/${type}_brick`, 1399)
         item_heating(`heating/clay/${type}/vessel`, `kubejs:ceramic/unfired_${type}_vessel`, `kubejs:ceramic/${type}_vessel`, 1399)
         item_heating(`heating/clay/${type}/jug`, `kubejs:ceramic/unfired_${type}_jug`, `kubejs:ceramic/${type}_jug`, 1399)
+
+        event.recipes.tfc.damage_inputs_shapeless_crafting(
+            event.recipes.shapeless(
+                `kubejs:ceramic/unfired_${type}_brick`, [`#artisanal:brick_molds`, Item.of(`kubejs:clay/${type}_clay_ball`), Item.of(`kubejs:clay/${type}_clay_ball`)]
+            )
+        ).id(`modpack:crafting/shapeless/brick_molds/${type}_bricks`)
     })
 })
 
