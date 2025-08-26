@@ -1,0 +1,16 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+      "item": "tfc:metal/chain/steel"
+    },
+    "result": {
+      "item": "minecraft:chain",
+      "count": 1
+    },
+    "tier": 4,
+    "rules": [
+      "hit_any",
+      "hit_any",
+      "punch_any"
+    ]
+  }
