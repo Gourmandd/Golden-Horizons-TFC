@@ -1,5 +1,6 @@
-
-// This will be move somewhere else but it will be here for now.
+// ------------------------------------------------- //
+// Recipes and loottables for deeper down rock types //
+// ------------------------------------------------- //
 
 ServerEvents.recipes(event =>{
 

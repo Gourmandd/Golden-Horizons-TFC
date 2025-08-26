@@ -1,3 +1,6 @@
+// ---------------------- //
+// Bulk loottable changes //
+// ---------------------- //
 
 try{
 console.info("Loot Tables loaded")

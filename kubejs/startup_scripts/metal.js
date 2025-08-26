@@ -1,3 +1,7 @@
+// --------------------------------------------- //
+// Registers items and fluids for custom metals  //
+// --------------------------------------------- //
+
 StartupEvents.registry("item", event =>{
 
     global.KUBEJS_METALS.forEach(metal =>{

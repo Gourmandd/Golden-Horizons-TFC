@@ -1,3 +1,7 @@
+// ---------------------------------------- //
+// Registers various food items and fluids  //
+// ---------------------------------------- //
+
 StartupEvents.registry("item", event =>{
     event.create("nettles").displayName("Nettles").food(food => {food.hunger(0)})
 

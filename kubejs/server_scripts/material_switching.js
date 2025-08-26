@@ -1,3 +1,7 @@
+// ------------------------------------------ //
+// Bulk Swapping of materials used in recipes //
+// ------------------------------------------ //
+
 try {
 console.info("Material Switching loaded")
 

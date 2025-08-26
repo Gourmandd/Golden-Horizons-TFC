@@ -1,3 +1,7 @@
+// -------------------------------------------------- //
+// WIP Script for blacklisting plants from dimensions //
+// -------------------------------------------------- //
+
 try {
 console.info("Plant Blacklist loaded")
 

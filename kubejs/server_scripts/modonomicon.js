@@ -1,5 +1,14 @@
 //priority: 10
 
+// ----------------------------------------- //
+// Datagen for creating modonomicon entries  //
+// ----------------------------------------- //
+
+
+// TODO
+// - A way to create category
+// - A way to generate book.json
+
 const TEST_LANG = "modpack.test"
 const BOOK_NAMESPACE = "modpack"
 const BOOKNAME = "guide"

@@ -1,3 +1,7 @@
+// ---------------------------------------------- //
+// Adding potion and other effects to eating food //
+// ---------------------------------------------- //
+
 ItemEvents.foodEaten("spectrum:sawblade_holly_berry", event =>{
 
     // The reasoning for this is that in one of the cookbooks they are mentioned to be poisonous

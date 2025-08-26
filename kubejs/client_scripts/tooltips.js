@@ -1,3 +1,6 @@
+// -------------------------------------- //
+// Adds info tooltips for less confusion  //
+// -------------------------------------- //
 
 ItemEvents.tooltip(event =>{
 

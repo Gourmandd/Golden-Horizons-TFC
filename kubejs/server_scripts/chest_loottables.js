@@ -1,3 +1,7 @@
+// -------------------------------------- //
+// Replaces items within chest loottables //
+// -------------------------------------- //
+
 try{
 console.info("Loot Tables loaded")
 

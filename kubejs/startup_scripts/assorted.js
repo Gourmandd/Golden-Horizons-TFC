@@ -1,3 +1,6 @@
+// -------------------------------------------- //
+// Assorted Registry and Startup Script Stuff   //
+// -------------------------------------------- //
 
 StartupEvents.registry("item", event =>{
 

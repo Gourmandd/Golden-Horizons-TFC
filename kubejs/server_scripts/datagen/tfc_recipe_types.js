@@ -1,3 +1,7 @@
+// --------------------------------------- //
+// TFCified brick and smooth stone recipes //
+// --------------------------------------- //
+
 ServerEvents.recipes(event =>{
     
     const STONE_POLISHING = {

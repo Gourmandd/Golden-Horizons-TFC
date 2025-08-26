@@ -2,6 +2,7 @@
 
 TFCEvents.data(event => {
 
+    // Supports need data to function
     global.DYE_COLOURS.forEach(colour => {
         event.support(`kubejs:wood/support/${colour}`, 2, 2, 4)
     })

@@ -1,3 +1,7 @@
+// ---------------------------------------- //
+// Disabled interacting with certain blocks //
+// ---------------------------------------- // 
+
 try {
 console.info("Disabled Interactions loaded")
 

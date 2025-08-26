@@ -1,4 +1,9 @@
 //priority: 1
+
+// ---------------------------------- //
+// Generates assets for custom metals //
+// ---------------------------------- //
+
 ClientEvents.lang("en_us", event =>{
 
     function nameProcessing(name){

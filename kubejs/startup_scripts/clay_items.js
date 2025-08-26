@@ -1,3 +1,6 @@
+// -------------------------------------- //
+// Registers Items for custom clay types  //
+// -------------------------------------- //
 
 const $ItemProperties = Java.loadClass('net.minecraft.world.item.Item$Properties')
 const $Vessel = Java.loadClass("net.dries007.tfc.common.items.VesselItem")

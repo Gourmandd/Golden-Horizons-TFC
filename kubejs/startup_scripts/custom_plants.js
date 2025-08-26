@@ -1,6 +1,6 @@
-
-
-
+// -------------------------------------------- //
+// Registers wild and living crops and plants   //
+// -------------------------------------------- //
 
 StartupEvents.registry("block", event =>{
 
@@ -100,16 +100,6 @@ StartupEvents.registry("block", event =>{
 
     
     event.create("kubejs:plant/glistering_melon", "tfc:spreading_crop")
-        .model(0, "kubejs:block/plant/cotton_age_0")
-        .model(1, "kubejs:block/plant/cotton_age_0")
-        .model(2, "kubejs:block/plant/cotton_age_0")
-        .model(3, "kubejs:block/plant/cotton_age_0")
-        .model(4, "kubejs:block/plant/cotton_age_0")
-        .model(5, "kubejs:block/plant/cotton_age_0")
-        .model(6, "kubejs:block/plant/cotton_age_0")
-        .model(7, "kubejs:block/plant/cotton_age_0")
-        .model(8, "kubejs:block/plant/cotton_age_0")
-        .model("kubejs:block/plant/cotton_age_0")
         .stages(7)
         .soundType("grass")
         .hardness(0.5)

@@ -16,12 +16,14 @@ ServerEvents.recipes(event =>{
         "sphalerite",
     ]
 
+    // Melting powders
     POWDERS.forEach(ore =>{
         event.recipes.tfc.heating(`tfc:powder/${ore}`, global.MELTING_POINTS[global.ORE_TO_METAL[ore]])
             .resultFluid(Fluid.of(`tfc:metal/${global.ORE_TO_METAL[ore]}`, 5))
             .id(`modpack:heating/powder/${ore}`)
     })
 
+    // Melting hanging signs and Artisanal can openers
     global.TOOL_METALS.forEach(metal =>{
 
         if (metal == "wrought_iron"){

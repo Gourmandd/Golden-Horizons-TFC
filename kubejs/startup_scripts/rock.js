@@ -1,3 +1,7 @@
+// --------------------------------------- //
+// Registers various stone related blocks  //
+// --------------------------------------- //
+
 StartupEvents.registry("item", event =>{
 
     global.DEEPER_DOWN_ROCK_TYPES.forEach(rock_type =>{

@@ -1,3 +1,9 @@
+// ----------------------------- //
+// Generates data for revelation //
+// ----------------------------- //
+
+// Making a "builder" could be a more sane way of generating revelations
+
 ServerEvents.highPriorityData(event =>{
     // "kubejs:ore/shimmerstone/granite": "tfc:rock/raw/granite"
 

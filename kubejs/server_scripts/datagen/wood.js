@@ -2,6 +2,7 @@
 
 ServerEvents.recipes(event =>{
 
+    // recycling recipes for custom wood types
     function lumberRecipes(wood){
 
         event.recipes.tfc.damage_inputs_shapeless_crafting(
@@ -22,7 +23,7 @@ ServerEvents.recipes(event =>{
     }
     
 
-
+    // Wooden Support recycling
     global.OVERWORLD_WOOD_TYPES.forEach(type => {
         event.recipes.tfc.damage_inputs_shapeless_crafting(
             event.shapeless(Item.of(`${global.WOOD_TYPE_TO_MOD[type]}:wood/lumber/${type}`, 2), [Item.of(`${global.WOOD_TYPE_TO_MOD[type]}:wood/support/${type}`), "#tfc:saws"])
@@ -30,7 +31,7 @@ ServerEvents.recipes(event =>{
     })
 
 
-
+    // Wooden Support recycling & Crafting
     global.DYE_COLOURS.forEach(colour => {
         event.recipes.tfc.damage_inputs_shapeless_crafting(
             event.shapeless(Item.of(`kubejs:wood/support/${colour}`, 8), [`#spectrum:${colour}_logs`, "#tfc:saws"])
@@ -42,7 +43,7 @@ ServerEvents.recipes(event =>{
     })
 
 
-
+     // Wooden Support recycling & Crafting
     global.SPECTRUM_WOODS.forEach(type => {
 
         if (global.NOXWOODS.indexOf(type) > -1){
@@ -68,7 +69,7 @@ ServerEvents.recipes(event =>{
     })
 
 
-
+    // TFCified wood block crafting
     global.DYE_COLOURS.forEach(colour => {
         
 
@@ -93,7 +94,7 @@ ServerEvents.recipes(event =>{
     })
 
 
-
+    // TFCified wood block crafting
     global.SPECTRUM_WOODS.forEach(wood => {
 
         if (global.NOXWOODS.indexOf(wood) > -1){
@@ -176,7 +177,7 @@ ServerEvents.recipes(event =>{
 
 
 ServerEvents.tags("item", event =>{
-
+    // fixing a AFC bug
     global.AFC_WOOD_TYPES.forEach(type =>{
         event.add("tfc:support_beams", `afc:wood/support/${type}`)
     })

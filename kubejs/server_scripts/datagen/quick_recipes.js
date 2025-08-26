@@ -1,7 +1,5 @@
 try {
 
-// Quick and dirty recipes that can be ported to python datagen easily
-
 console.info("Quick Recipes loaded")
 
 //I cant get this working in json

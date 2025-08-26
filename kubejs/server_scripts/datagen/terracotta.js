@@ -1,7 +1,6 @@
 
 ServerEvents.recipes(event => {
 
-
     global.DYE_COLOURS.forEach(colour =>{
         
         event.shapeless(Item.of(`minecraft:${colour}_terracotta`), [

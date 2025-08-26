@@ -1,3 +1,7 @@
+// --------------------------------------------- //
+// WIP Script for custom fire burning mechanics  //
+// --------------------------------------------- //
+
 /*
 let MoonlightEventsHelper = Java.loadClass("net.mehvahdjukaar.moonlight.api.events.MoonlightEventsHelper")
 let IFireConsumeBlockEvent = Java.loadClass("net.mehvahdjukaar.moonlight.api.events.IFireConsumeBlockEvent")

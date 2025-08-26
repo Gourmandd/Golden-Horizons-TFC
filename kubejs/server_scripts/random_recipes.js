@@ -1,3 +1,7 @@
+// --------------------- //
+// Bulk edits to recipes //
+// --------------------- //
+
 try {
 console.info("Random Recipes loaded")
 

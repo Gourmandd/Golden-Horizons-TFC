@@ -1,3 +1,7 @@
+// -------------------------------------------------------------- //
+// Makes the Show Shovel break a 3x3x3 area of whitelisted blocks //
+// -------------------------------------------------------------- //
+
 BlockEvents.broken(event => {
 
     if (event.player.isCrouching()){
@@ -5,10 +9,10 @@ BlockEvents.broken(event => {
     }
     
     if (event.player.mainHandItem.id != "kubejs:tool/snow_shovel"){
-        //event.player.tell("test 1")
         return
     }
     
+    //whitelisted blocks
     let taggedBlocks = [
         "minecraft:snow",
 		"minecraft:snow_block",
@@ -18,10 +22,7 @@ BlockEvents.broken(event => {
     ]
 
     if (taggedBlocks.indexOf(event.block.id) == -1){
-        //event.player.tell("test 2")
         return
-    } else {
-        //event.player.tell("test 3")
     }
 
     let {block} = event
@@ -38,18 +39,15 @@ BlockEvents.broken(event => {
 
 
                 if (x == 0 && y == 0 && z == 0){
-                    //event.player.tell("test 4")
                     // we know the origin block already
                 } else {
 
                     let checkBlock = event.level.getBlock(checkX, checkY, checkZ)
 
-                    //event.player.tell(checkBlock.id + checkBlock.pos)
                     console.log(checkBlock.pos)
 
                     if (taggedBlocks.indexOf(checkBlock.id) > -1){
                         event.level.destroyBlock(checkBlock.getPos(), true, event.getPlayer())
-                        //event.player.tell("test 5, broke block:" + checkX + "," + checkY + "," + checkZ)
                     }
                 }
                 

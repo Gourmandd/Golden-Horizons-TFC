@@ -1,3 +1,6 @@
+// ------------------------------------------------ //
+// Script for adding mob head drops to TFC animals  //
+// ------------------------------------------------ //
 
 LootJS.modifiers(event => {
 

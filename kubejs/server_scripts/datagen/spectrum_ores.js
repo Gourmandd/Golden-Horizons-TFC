@@ -1,3 +1,7 @@
+// ------------------------------------- //
+// Loottables for TFCified Spectrum ores //
+// ------------------------------------- //
+
 LootJS.modifiers(event =>{
 
     const SPECTRUM_ORE_DATA = {

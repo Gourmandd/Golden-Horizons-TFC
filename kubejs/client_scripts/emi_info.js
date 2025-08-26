@@ -1,3 +1,8 @@
+// ------------------------------ //
+// Generates EMI info tab entries //
+// ------------------------------ //
+
+// This is to be replaced with the custom modonomicon book.
 const ROCK_DATA = {
   "granite": {"desc":  "Granite is a hard, rock used decoratively!", "type": "Felsic Igneous Intrusive"},
   "diorite": {"desc":  "Diorite has been used since the Neolithic!", "type": "Ingeous Intrusive"},

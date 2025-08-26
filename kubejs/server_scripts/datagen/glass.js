@@ -1,7 +1,5 @@
 
-
-
-
+// glass related recipes (horrors beyong my comprehension)
 ServerEvents.recipes(event =>{
 
     const GLASS_TO_BATCH = {

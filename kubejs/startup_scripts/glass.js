@@ -1,3 +1,6 @@
+// --------------------------------------------------------------- //
+// Registers items, blocks and fluids for industrial glassworking  //
+// --------------------------------------------------------------- //
 
 StartupEvents.registry("item", event =>{
 

@@ -1,3 +1,7 @@
+// ------------------------------------------- //
+// Generates assets for TFCified Spectrum ores //
+// ------------------------------------------- //
+
 ClientEvents.lang("en_us", event =>{
 
     function nameProcessing(name){

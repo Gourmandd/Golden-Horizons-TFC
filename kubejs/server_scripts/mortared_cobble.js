@@ -1,3 +1,6 @@
+// ------------------------------------------ //
+// Adding a Mortaring cobblestone interaction //
+// ------------------------------------------ //
 
 const COBBLESTONE_TO_MORTARED = {
     "kubejs:rock/cobble/argillite": "kubejs:rock/mortared_cobble/argillite",

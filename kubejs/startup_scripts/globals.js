@@ -1,5 +1,11 @@
 //priority: 10
 
+// --------------------------------------- //
+// Globals to be used for any script type  //
+// --------------------------------------- //
+
+
+// should switch to using a global
 //global.nameProcessing = (name) =>
 function nameProcessing(name){
   name = name.replace("_", " ")

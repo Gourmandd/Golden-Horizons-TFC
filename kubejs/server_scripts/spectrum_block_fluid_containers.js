@@ -1,3 +1,7 @@
+// ---------------------------------------------------------------- //
+// Makes TFC Fluid containers work with Fabric fluid holding blocks //
+// ---------------------------------------------------------------- //
+
 const $TFCConfig = Java.loadClass("net.dries007.tfc.config.TFCConfig")
 
 const BUCKET_CAPACITY = $TFCConfig.SERVER.woodenBucketCapacity.get()

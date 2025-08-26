@@ -1,3 +1,7 @@
+// ------------------------------------------- //
+// Generates assets for TFCified Spectrum wood //
+// ------------------------------------------- //
+
 ClientEvents.highPriorityAssets( event => {
 
     function generateSupportModel(woodType){

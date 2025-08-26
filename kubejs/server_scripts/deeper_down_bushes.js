@@ -1,3 +1,7 @@
+// ------------------------------------- //
+// Climate ranges for deeper down bushes //
+// ------------------------------------- //
+
 TFCEvents.data(event => {
 
     event.climateRange(climate => {

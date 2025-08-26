@@ -1,3 +1,6 @@
+// ------------------------------------------------- //
+// Registers Items for TFCified Spectrum Wood types  //
+// ------------------------------------------------- //
 
 StartupEvents.registry("item", event => {
 

@@ -1,3 +1,7 @@
+// ------------------------------------------------ //
+// Adds particles for mined TFCified Spectrum ores  //
+// ------------------------------------------------ //
+
 let shimmerstone_ores = []
 let azurite_ores = []
 let stratine_ores = []

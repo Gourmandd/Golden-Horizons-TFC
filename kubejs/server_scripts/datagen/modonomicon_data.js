@@ -1,3 +1,7 @@
+// ---------------------------------- //
+// Generating data for the guide book //
+// -------------------- ------------- //
+
 // general
 // intro
 new global.createEntry("")

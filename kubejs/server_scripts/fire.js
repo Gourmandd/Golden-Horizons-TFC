@@ -1,3 +1,7 @@
+// ------------------------------------------------------- //
+// Script to generate dict for the custom burning mechanic //
+// ------------------------------------------------------- //
+
 /*
 ServerEvents.tags("item", event => {
 

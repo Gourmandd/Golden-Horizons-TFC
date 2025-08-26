@@ -1,4 +1,9 @@
+// ------------------------------------------------ //
+// Registers ore blocks for TFCified Spectrum ores  //
+// ------------------------------------------------ //
 
+
+// Tried to register the same kind of block as the Spectrum ores.
 /*
 let $ShimmerstoneOreBlock = Java.loadClass("de.dafuqs.spectrum.registries.SpectrumBlocks")
 let $UniformInt = Java.loadClass("net.minecraft.util.valueproviders.UniformInt")
