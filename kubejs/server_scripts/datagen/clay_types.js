@@ -76,10 +76,10 @@ ServerEvents.recipes(event =>{
         
         if (type == "kaolinite"){
             event.shapeless(Item.of("tfc:kaolin_clay"), `#modpack:clay/${type}_recycling_1`).id(`modpack:crafting/${type}/recycling_1`)
-            event.shapeless(Item.of("tfc:kaolin_clay", 5), `#modpack:clay/${type}_recycling_5`).id(`modpack:crafting/${type}/recycling_5`)
+            event.shapeless(Item.of("tfc:kaolin_clay", 4), `#modpack:clay/${type}_recycling_5`).id(`modpack:crafting/${type}/recycling_5`)
         } else {
             event.shapeless(Item.of(`kubejs:clay/${type}_clay_ball`), `#modpack:clay/${type}_recycling_1`).id(`modpack:crafting/${type}/recycling_1`)
-            event.shapeless(Item.of(`kubejs:clay/${type}_clay_ball`, 5), `#modpack:clay/${type}_recycling_5`).id(`modpack:crafting/${type}/recycling_5`)
+            event.shapeless(Item.of(`kubejs:clay/${type}_clay_ball`, 4), `#modpack:clay/${type}_recycling_5`).id(`modpack:crafting/${type}/recycling_5`)
             event.shaped(Item.of(`kubejs:clay/${type}_clay_block`), ["XX", "XX"], {"X": `kubejs:clay/${type}_clay_ball`}).id(`modpack:crafting/${type}/clay_block`)
         }
         
