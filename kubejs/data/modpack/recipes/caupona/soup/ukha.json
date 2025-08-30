@@ -4,7 +4,7 @@
       {
         "type": "tfc:not_rotten",
         "ingredient": {
-          "tag": "caupona:seafood/fish"
+          "tag": "c:foods/cooked_fish"
         }
       },
       {

@@ -1,6 +1,6 @@
 {
     "replace": false,
     "values": [
-        "tfc:food/salmon"
+        "#c:foods/raw_fish"
     ]
 }

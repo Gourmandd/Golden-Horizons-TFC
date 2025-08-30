@@ -9,13 +9,13 @@
       {
         "type": "tfc:not_rotten",
         "ingredient": {
-          "tag": "caupona:seafood"
+          "tag": "c:foods/fish"
         }
       },
       {
         "type": "tfc:not_rotten",
         "ingredient": {
-          "tag": "caupona:seafood"
+          "tag": "c:foods/fish"
         }
       },
       {

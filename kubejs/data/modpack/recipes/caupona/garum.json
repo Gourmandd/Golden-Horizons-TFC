@@ -1,9 +1,9 @@
 {
     "type": "tfc:barrel_sealed",
     "input_item": {
-        "count": 4,
+        "count": 8,
         "ingredient": {
-            "tag": "caupona:garum_fish"
+            "tag": "c:foods/fish"
         }
     },
     "input_fluid": {

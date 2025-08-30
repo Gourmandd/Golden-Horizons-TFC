@@ -4,19 +4,19 @@
       {
         "type": "tfc:not_rotten",
         "ingredient": {
-          "tag": "modpack:beef"
+          "tag": "c:foods/beef"
         }
       },
       {
         "type": "tfc:not_rotten",
         "ingredient": {
-          "tag": "modpack:beef"
+          "tag": "c:foods/beef"
         }
       },
       {
         "type": "tfc:not_rotten",
         "ingredient": {
-          "tag": "modpack:beef"
+          "tag": "c:foods/beef"
         }
       },
       {

@@ -4,19 +4,19 @@
       {
         "type": "tfc:not_rotten",
         "ingredient": {
-          "tag": "caupona:meats/meat"
+          "tag": "c:foods/red_meat"
         }
       },
       {
         "type": "tfc:not_rotten",
         "ingredient": {
-          "tag": "caupona:meats/meat"
+          "tag": "c:foods/red_meat"
         }
       },
       {
         "type": "tfc:not_rotten",
         "ingredient": {
-          "tag": "caupona:meats/meat"
+          "tag": "c:foods/red_meat"
         }
       },
       {

@@ -1,7 +1,12 @@
 {
-    "ingredient": {
-      "item": "rusticdelight:cooked_calamari_slice"
-    },
+    "ingredient": [
+      {
+        "item": "rusticdelight:cooked_calamari_slice"
+      },
+      {
+        "item": "rusticdelight:cooked_calamari"
+      }
+    ],
     "hunger": 4,
     "saturation": 0.5,
     "decay_modifier": 2,

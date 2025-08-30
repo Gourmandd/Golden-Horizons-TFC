@@ -9,13 +9,13 @@
       {
         "type": "tfc:not_rotten",
         "ingredient": {
-          "tag": "caupona:meats/poultry"
+          "tag": "c:foods/fowl"
         }
       },
       {
         "type": "tfc:not_rotten",
         "ingredient": {
-          "tag": "caupona:meats/poultry"
+          "tag": "c:foods/fowl"
         }
       },
       {
