@@ -77,10 +77,23 @@ ServerEvents.recipes(event =>{
         if (type == "kaolinite"){
             event.shapeless(Item.of("tfc:kaolin_clay"), `#modpack:clay/${type}_recycling_1`).id(`modpack:crafting/${type}/recycling_1`)
             event.shapeless(Item.of("tfc:kaolin_clay", 4), `#modpack:clay/${type}_recycling_5`).id(`modpack:crafting/${type}/recycling_5`)
+
+            event.recipes.tfc.damage_inputs_shapeless_crafting(
+                event.recipes.shapeless(
+                    `kubejs:ceramic/unfired_kaolinite_brick`, [`#artisanal:brick_molds`, Item.of("tfc:kaolin_clay"), Item.of("tfc:kaolin_clay")]
+                )
+            ).id(`modpack:crafting/shapeless/brick_molds/kaolinite_bricks`)
+
         } else {
             event.shapeless(Item.of(`kubejs:clay/${type}_clay_ball`), `#modpack:clay/${type}_recycling_1`).id(`modpack:crafting/${type}/recycling_1`)
             event.shapeless(Item.of(`kubejs:clay/${type}_clay_ball`, 4), `#modpack:clay/${type}_recycling_5`).id(`modpack:crafting/${type}/recycling_5`)
             event.shaped(Item.of(`kubejs:clay/${type}_clay_block`), ["XX", "XX"], {"X": `kubejs:clay/${type}_clay_ball`}).id(`modpack:crafting/${type}/clay_block`)
+        
+            event.recipes.tfc.damage_inputs_shapeless_crafting(
+                event.recipes.shapeless(
+                    `kubejs:ceramic/unfired_${type}_brick`, [`#artisanal:brick_molds`, Item.of(`kubejs:clay/${type}_clay_ball`), Item.of(`kubejs:clay/${type}_clay_ball`)]
+                )
+            ).id(`modpack:crafting/shapeless/brick_molds/${type}_bricks`)
         }
         
         //makes tfc fired stuff
@@ -108,11 +121,6 @@ ServerEvents.recipes(event =>{
         item_heating(`heating/clay/${type}/vessel`, `kubejs:ceramic/unfired_${type}_vessel`, `kubejs:ceramic/${type}_vessel`, 1399)
         item_heating(`heating/clay/${type}/jug`, `kubejs:ceramic/unfired_${type}_jug`, `kubejs:ceramic/${type}_jug`, 1399)
 
-        event.recipes.tfc.damage_inputs_shapeless_crafting(
-            event.recipes.shapeless(
-                `kubejs:ceramic/unfired_${type}_brick`, [`#artisanal:brick_molds`, Item.of(`kubejs:clay/${type}_clay_ball`), Item.of(`kubejs:clay/${type}_clay_ball`)]
-            )
-        ).id(`modpack:crafting/shapeless/brick_molds/${type}_bricks`)
     })
 })
 
