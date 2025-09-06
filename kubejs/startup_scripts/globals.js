@@ -545,6 +545,12 @@ global.ORE_GRADES = [
   "small"
 ]
 
+global.ORE_BLOCK_GRADES = [
+  "normal",
+  "poor",
+  "rich"
+]
+
 global.RAW_METALS = [
   "bismuth",
   "tin",
@@ -709,11 +715,6 @@ global.SPECTRUM_OVERWORLD_ORES = [
 // Deeper Down unique ores
 global.SPECTRUM_DEEPER_DOWN_ORES = [
   "malachite"
-]
-
-// TFC ores that will appear in the Deeper Down
-global.TFC_DEEPER_DOWN_ORES = [
-  
 ]
 
 global.DEEPER_DOWN_ROCK_TYPES = [

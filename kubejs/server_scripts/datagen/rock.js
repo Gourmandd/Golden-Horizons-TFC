@@ -93,6 +93,21 @@ ServerEvents.tags("block", event => {
         event.add("tfc:can_trigger_collapse", `kubejs:rock/hardened/${rock_type}`)
     })
 
+
+    global.ROCK_TYPES.forEach(rockType => {
+
+        global.FIRMALIFE_ORES.forEach(ore => {
+
+            global.ORE_BLOCK_GRADES.forEach(grade => {
+
+                event.add("tfc:breaks_when_isolated", `firmalife:ore/${grade}_${ore}/${rockType}`)
+
+            })
+
+        })
+    })
+
+
     const LOOSE_MATERIAL = [
         "spectrum:black_materia",
         "spectrum:shimmel",
@@ -112,4 +127,20 @@ ServerEvents.tags("block", event => {
     event.add("tfc:can_landslide", "spectrum:black_materia")
     event.add("minecraft:big_dripleaf_placeable", "#tfc:rock/hardened")
     event.add("spectrum:nightdew_soils", "#tfc:rock/hardened")
+})
+
+ServerEvents.tags("item", event => {
+
+    global.ROCK_TYPES.forEach(rockType => {
+
+        global.FIRMALIFE_ORES.forEach(ore => {
+
+            global.ORE_BLOCK_GRADES.forEach(grade => {
+
+                event.add("c:ores", `firmalife:ore/${grade}_${ore}/${rockType}`)
+
+            })
+
+        })
+    })
 })

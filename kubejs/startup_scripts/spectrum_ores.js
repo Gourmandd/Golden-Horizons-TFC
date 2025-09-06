@@ -21,6 +21,7 @@ StartupEvents.registry("block", event =>{
             .soundType("stone")
             .requiresTool()
             .tagBlock("minecraft:mineable/pickaxe")
+            .tagBlock("tfc:rock/ores")
             .tagBlock("forge:ores")
             .tagBlock(tierTag)
             .opaque(true)
