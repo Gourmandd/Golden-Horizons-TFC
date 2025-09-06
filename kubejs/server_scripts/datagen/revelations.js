@@ -7,6 +7,11 @@
 ServerEvents.highPriorityData(event =>{
     // "kubejs:ore/shimmerstone/granite": "tfc:rock/raw/granite"
 
+    let malachite_revelation = {
+        "advancement": "spectrum:milestones/reveal_malachite",
+        "block_states": {}
+    }
+
     let shimmerstone_revelation =  {
         "advancement": "spectrum:milestones/reveal_shimmerstone",
         "block_states": {}
@@ -27,9 +32,8 @@ ServerEvents.highPriorityData(event =>{
         "block_states": {}
     }
 
-    global.ROCK_TYPES.forEach(rockType =>{
+    function setBlockStatesFromRock(rockType, value){
         let key = ""
-        let value = "tfc:rock/raw/" + rockType
 
         key = `kubejs:ore/shimmerstone/${rockType}`
         shimmerstone_revelation.block_states[key] = value
@@ -42,29 +46,26 @@ ServerEvents.highPriorityData(event =>{
 
         key = `kubejs:ore/paltaeria/${rockType}`
         paltaeria_revelation.block_states[key] = value
+
+        key = `kubejs:ore/malachite/${rockType}`
+        malachite_revelation.block_states[key] = value
+    }
+
+    global.ROCK_TYPES.forEach(rockType =>{
+        setBlockStatesFromRock(rockType, `tfc:rock/raw/${rockType}`)
     })
 
     global.DEEPER_DOWN_ROCK_TYPES.forEach(rockType =>{
-        let key = ""
-        let value = global.DEEPER_DOWN_ROCK_STONES[rockType]
-
-        key = `kubejs:ore/shimmerstone/${rockType}`
-        shimmerstone_revelation.block_states[key] = value
-
-        key = `kubejs:ore/azurite/${rockType}`
-        azurite_revelation.block_states[key] = value
-
-        key = `kubejs:ore/stratine/${rockType}`
-        stratine_revelation.block_states[key] = value
-
-        key = `kubejs:ore/paltaeria/${rockType}`
-        paltaeria_revelation.block_states[key] = value
+        setBlockStatesFromRock(rockType, global.DEEPER_DOWN_ROCK_STONES[rockType])
     })
 
+    console.log(shimmerstone_revelation)
     event.addJson(`modpack:revelations/shimmerstone_ores`, shimmerstone_revelation)
     event.addJson(`modpack:revelations/azurite_ores`, azurite_revelation)
     event.addJson(`modpack:revelations/stratine_ores`, stratine_revelation)
     event.addJson(`modpack:revelations/paltaeria_ores`, paltaeria_revelation)
+    event.addJson(`modpack:revelations/malachite_ores`, malachite_revelation)
+
 
     const CMY_COLOURS = [
         "orange",
@@ -79,15 +80,18 @@ ServerEvents.highPriorityData(event =>{
         "green",
         "red"
     ]
+
     const BLACK_COLOURS = [
         "black",
         "brown"
     ]
+
     const WHITE_COLOURS = [
         "white",
         "gray",
         "light_gray"
     ]
+
 
     function getColouredWoodItems(colour, type){
         let json = {
