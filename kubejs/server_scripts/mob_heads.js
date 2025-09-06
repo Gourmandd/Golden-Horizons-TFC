@@ -66,6 +66,6 @@ LootJS.modifiers(event => {
     })
 
     event.addEntityLootModifier("minecraft:wither_skeleton").replaceLoot("minecraft:coal", "tfc:ore/lignite").removeLoot("minecraft:stone_sword")
-    event.addEntityLootModifier("minecraft:piglin").removeLoot("minecraft:gold_sword")
-    event.addEntityLootModifier("minecraft:zombified_piglin").removeLoot("minecraft:gold_sword")
+    event.addEntityLootModifier("minecraft:piglin").removeLoot("minecraft:golden_sword")
+    event.addEntityLootModifier("minecraft:zombified_piglin").removeLoot("minecraft:golden_sword")
 })
