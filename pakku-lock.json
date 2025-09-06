@@ -2296,32 +2296,8 @@
             },
             "files": [
                 {
-                    "type": "curseforge",
-                    "file_name": "create_mecanical_extruder-1.20.1-1.6.10-6.0.6.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "neoforge",
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6657/454/create_mecanical_extruder-1.20.1-1.6.10-6.0.6.jar",
-                    "id": "6657454",
-                    "parent_id": "686100",
-                    "hashes": {
-                        "sha1": "83121a1170ad824ed3e993ec447d080bf5306533",
-                        "md5": "c471f57c079a0e11ec4dd543243dd6c5"
-                    },
-                    "required_dependencies": [
-                        "328085"
-                    ],
-                    "size": 512838,
-                    "date_published": "2025-06-16T12:27:33.427Z"
-                },
-                {
                     "type": "modrinth",
-                    "file_name": "create_mecanical_extruder-1.20.1-1.6.10-6.0.6.jar",
+                    "file_name": "create_mecanical_extruder-1.20.1-1.6.11-6.0.6.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -2330,18 +2306,42 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/hGAlcCDJ/versions/VNMBNgGY/create_mecanical_extruder-1.20.1-1.6.10-6.0.6.jar",
-                    "id": "VNMBNgGY",
+                    "url": "https://cdn.modrinth.com/data/hGAlcCDJ/versions/hXjb2B03/create_mecanical_extruder-1.20.1-1.6.11-6.0.6.jar",
+                    "id": "hXjb2B03",
                     "parent_id": "hGAlcCDJ",
                     "hashes": {
-                        "sha512": "c66c12e16e36868abfaba29cccfdca703fd93e80b1768ba77a55b0b156bc6b6663b9e97bdf7928496a8a8f83277871a177a78f65e43e4b9829b124a0d81ebdf3",
-                        "sha1": "83121a1170ad824ed3e993ec447d080bf5306533"
+                        "sha512": "fb6ecea7e74ef52ec86d5a89b40e9c650761f5bbc89aad525070bdcdf68185e2bdf6d276821266a431840587ca6b1761ccec30516212a33b44c589da93493f5b",
+                        "sha1": "cf3c7a54e2cd0b1441b897ad4c88dcacb2163f4a"
                     },
                     "required_dependencies": [
                         "LNytGWDc"
                     ],
-                    "size": 512838,
-                    "date_published": "2025-06-16T12:27:40.863445Z"
+                    "size": 513561,
+                    "date_published": "2025-08-30T13:11:36.475872Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "create_mecanical_extruder-1.20.1-1.6.11-6.0.6.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6944/732/create_mecanical_extruder-1.20.1-1.6.11-6.0.6.jar",
+                    "id": "6944732",
+                    "parent_id": "686100",
+                    "hashes": {
+                        "sha1": "cf3c7a54e2cd0b1441b897ad4c88dcacb2163f4a",
+                        "md5": "1efc306ab05c8e8aec85c25e75eaf063"
+                    },
+                    "required_dependencies": [
+                        "328085"
+                    ],
+                    "size": 513561,
+                    "date_published": "2025-08-30T13:11:35.277Z"
                 }
             ]
         },
@@ -3013,6 +3013,68 @@
                     ],
                     "size": 19574,
                     "date_published": "2024-05-10T13:11:26.057380Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "P1s9TBto1O5w8Knc",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "detected-setblock-be-gone",
+                "modrinth": "dsbg"
+            },
+            "name": {
+                "curseforge": "Detected setBlock Be Gone",
+                "modrinth": "Detected setBlock Be Gone"
+            },
+            "id": {
+                "curseforge": "942945",
+                "modrinth": "zv7fYVyQ"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "dsbg-1.0-1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4907/288/dsbg-1.0-1.20.1.jar",
+                    "id": "4907288",
+                    "parent_id": "942945",
+                    "hashes": {
+                        "sha1": "349a91654be8df6af5a19b02c7bb47758c09bac4",
+                        "md5": "143f9fe8813d87e3e2f3d93b4e159643"
+                    },
+                    "required_dependencies": [],
+                    "size": 273328,
+                    "date_published": "2023-11-27T22:50:51.187Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "dsbg-1.0-1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/zv7fYVyQ/versions/JJU0kqnK/dsbg-1.0-1.20.1.jar",
+                    "id": "JJU0kqnK",
+                    "parent_id": "zv7fYVyQ",
+                    "hashes": {
+                        "sha512": "9590a9652e85220d7195ac18df17d99d1b292aa5e5126656eeeeaead65018d50e8d35f7f2eccd403ad6651ca328d7fccb57f55fac0d14e4324e27b0d864c216c",
+                        "sha1": "349a91654be8df6af5a19b02c7bb47758c09bac4"
+                    },
+                    "required_dependencies": [],
+                    "size": 273328,
+                    "date_published": "2024-01-25T00:03:33.444363Z"
                 }
             ]
         },
@@ -4337,29 +4399,8 @@
             },
             "files": [
                 {
-                    "type": "curseforge",
-                    "file_name": "fabric-api-0.92.2+1.11.12+1.20.1.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6289/136/fabric-api-0.92.2+1.11.12+1.20.1.jar",
-                    "id": "6289136",
-                    "parent_id": "889079",
-                    "hashes": {
-                        "sha1": "acccf93c59f5c1521441faeeb3563dd6e08dd023",
-                        "md5": "b430b265a793d097d5567a960c6a5492"
-                    },
-                    "required_dependencies": [],
-                    "size": 3041277,
-                    "date_published": "2025-03-10T17:35:04.877Z"
-                },
-                {
                     "type": "modrinth",
-                    "file_name": "fabric-api-0.92.2+1.11.12+1.20.1.jar",
+                    "file_name": "fabric-api-0.92.6+1.11.14+1.20.1.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -4367,16 +4408,37 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/Aqlf1Shp/versions/qzoL6HjK/fabric-api-0.92.2+1.11.12+1.20.1.jar",
-                    "id": "qzoL6HjK",
+                    "url": "https://cdn.modrinth.com/data/Aqlf1Shp/versions/XweDEycJ/fabric-api-0.92.6+1.11.14+1.20.1.jar",
+                    "id": "XweDEycJ",
                     "parent_id": "Aqlf1Shp",
                     "hashes": {
-                        "sha512": "1a9d391a1579ee9e59b5435c40c199fd5cf48d763e981a0893fcb5704edb9bb88014eb933a66b7eff1c57ba17b864a6dfe0b307c3b51296704a890ec354e0696",
-                        "sha1": "acccf93c59f5c1521441faeeb3563dd6e08dd023"
+                        "sha512": "3b84ea415d9255861bcbf78cfda3987b78aa452361bf44ba6a0223501a25ab5c5c55cb0eac6f460c88b8cec958f2b59211e488277c26e3432a08196f62049e7c",
+                        "sha1": "285c22b2567b9fdf98ef9808eceb5557de9611d3"
                     },
                     "required_dependencies": [],
-                    "size": 3041277,
-                    "date_published": "2025-03-10T17:35:10.069194Z"
+                    "size": 3065813,
+                    "date_published": "2025-08-14T14:02:39.244165Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "fabric-api-0.92.6+1.11.14+1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6885/853/fabric-api-0.92.6+1.11.14+1.20.1.jar",
+                    "id": "6885853",
+                    "parent_id": "889079",
+                    "hashes": {
+                        "sha1": "285c22b2567b9fdf98ef9808eceb5557de9611d3",
+                        "md5": "2859d401e221e94acf0b48c5f7efa50b"
+                    },
+                    "required_dependencies": [],
+                    "size": 3065813,
+                    "date_published": "2025-08-14T14:02:34.270Z"
                 }
             ]
         },
@@ -7881,28 +7943,29 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "shutter-2.1.4-1.20.1.jar",
+                    "file_name": "shutter-2.2.0-1.20.1.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
                     "loaders": [
-                        "forge"
+                        "forge",
+                        "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/NjHNA0vG/versions/tbWilJvc/shutter-2.1.4-1.20.1.jar",
-                    "id": "tbWilJvc",
+                    "url": "https://cdn.modrinth.com/data/NjHNA0vG/versions/u23wsOlW/shutter-2.2.0-1.20.1.jar",
+                    "id": "u23wsOlW",
                     "parent_id": "NjHNA0vG",
                     "hashes": {
-                        "sha512": "273364cc21b894f44d53e02e0851443afc56967578671cea824207501b6de63c1da345607c0db2d3e99daab8c5624f39f90e37de6ae3173f53cb714290ccb683",
-                        "sha1": "38d42a17ee2533d4ccc0129d766d25b9ac8e70dd"
+                        "sha512": "d5283609fd4f8857ba181b7cea7e43c8f9d703a90df815f37c7e8f6a042c8464fd68505c1a9937e3af8abad5eebeec278d76a234b3481fc69602e6d690c79350",
+                        "sha1": "c54a6e4f414b78bfac3868abb0d9cb77c950d703"
                     },
                     "required_dependencies": [],
-                    "size": 1084483,
-                    "date_published": "2025-05-02T12:18:03.943578Z"
+                    "size": 1121338,
+                    "date_published": "2025-08-24T07:27:26.752096Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "shutter-2.1.4-1.20.1.jar",
+                    "file_name": "shutter-2.2.0-1.20.1.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -7911,16 +7974,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6487/208/shutter-2.1.4-1.20.1.jar",
-                    "id": "6487208",
+                    "url": "https://edge.forgecdn.net/files/6921/639/shutter-2.2.0-1.20.1.jar",
+                    "id": "6921639",
                     "parent_id": "714019",
                     "hashes": {
-                        "sha1": "38d42a17ee2533d4ccc0129d766d25b9ac8e70dd",
-                        "md5": "6a2fc6b2736189df711f9c38c9742581"
+                        "sha1": "c54a6e4f414b78bfac3868abb0d9cb77c950d703",
+                        "md5": "0a1bea5337361613aabc2c60a8f759cd"
                     },
                     "required_dependencies": [],
-                    "size": 1084483,
-                    "date_published": "2025-05-02T11:31:52.577Z"
+                    "size": 1121338,
+                    "date_published": "2025-08-24T07:02:00.310Z"
                 }
             ]
         },
@@ -8325,6 +8388,9 @@
         },
         {
             "pakku_id": "YMLGcHJvlAkypgP0",
+            "pakku_links": [
+                "VXmryxigz4fWsZVm"
+            ],
             "type": "MOD",
             "side": "BOTH",
             "slug": {
@@ -8389,8 +8455,10 @@
             ]
         },
         {
-            "pakku_id": "gUvFESvt2091ufxj",
+            "pakku_id": "VXmryxigz4fWsZVm",
             "pakku_links": [
+                "jHYr7CxaXp08h6ol",
+                "UxgVPjktnTUi5dk1",
                 "z72cHgDmzpMiTfuH",
                 "ABSod0qv9ZuOPfZs"
             ],
@@ -8454,10 +8522,10 @@
                         "sha1": "7f6f5e5317d50229f2c7886bfb1c87170cfb7a1a"
                     },
                     "required_dependencies": [
-                        "692GClaE",
-                        "9s6osm5g",
                         "eXrl5E3G",
+                        "692GClaE",
                         "5aaWibi9",
+                        "9s6osm5g",
                         "P7dR8mSH"
                     ],
                     "size": 87608251,
@@ -8529,18 +8597,46 @@
             ]
         },
         {
-            "pakku_id": "p5rdJ9oxIZ9qQUZc",
+            "pakku_id": "BCta5SoTJxdue7OG",
+            "pakku_links": [
+                "IsGQ5ieIhnvFTiLM"
+            ],
             "type": "MOD",
+            "side": "BOTH",
             "slug": {
-                "curseforge": "tfc-artisanal"
+                "curseforge": "tfc-artisanal",
+                "modrinth": "tfc-artisanal"
             },
             "name": {
-                "curseforge": "TFC Artisanal"
+                "curseforge": "TFC Artisanal",
+                "modrinth": "TFC Artisanal"
             },
             "id": {
-                "curseforge": "1059361"
+                "curseforge": "1059361",
+                "modrinth": "zLNixZZC"
             },
             "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "artisanal-1.6.2.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/zLNixZZC/versions/t3Tp4XiB/artisanal-1.6.2.jar",
+                    "id": "t3Tp4XiB",
+                    "parent_id": "zLNixZZC",
+                    "hashes": {
+                        "sha512": "0d1541155f2e7b3fc001e17e4cabcbecbd92face9562758ca8a511722debf8ac3a22181bf100f0f3f48e63fa7f2fe46b22363acb151d591a741c30199faae595",
+                        "sha1": "0ffde20e87960390274bf62d54cfed2e8f04c0a7"
+                    },
+                    "required_dependencies": [],
+                    "size": 3129395,
+                    "date_published": "2025-08-11T02:42:28.370050Z"
+                },
                 {
                     "type": "curseforge",
                     "file_name": "artisanal-1.6.2.jar",
@@ -8895,32 +8991,8 @@
             },
             "files": [
                 {
-                    "type": "curseforge",
-                    "file_name": "tfcgenviewer-1.20.1-1.4.1.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "neoforge",
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5994/665/tfcgenviewer-1.20.1-1.4.1.jar",
-                    "id": "5994665",
-                    "parent_id": "1062270",
-                    "hashes": {
-                        "sha1": "9ed2b9125f46c79043912d695f710b9bdb0f68a9",
-                        "md5": "c70f5f54411d6879b318bc1420189694"
-                    },
-                    "required_dependencies": [
-                        "302973"
-                    ],
-                    "size": 257671,
-                    "date_published": "2024-12-15T22:53:39.760Z"
-                },
-                {
                     "type": "modrinth",
-                    "file_name": "tfcgenviewer-1.20.1-1.4.1.jar",
+                    "file_name": "tfcgenviewer-1.20.1-1.5.0.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -8929,18 +9001,42 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/yp9Ot3YC/versions/nLcjWGDP/tfcgenviewer-1.20.1-1.4.1.jar",
-                    "id": "nLcjWGDP",
+                    "url": "https://cdn.modrinth.com/data/yp9Ot3YC/versions/w66Isrp3/tfcgenviewer-1.20.1-1.5.0.jar",
+                    "id": "w66Isrp3",
                     "parent_id": "yp9Ot3YC",
                     "hashes": {
-                        "sha512": "f9c1bb568329833b369cf2c2b0a3bafb7a75787919b4a736d997e7a51793115f7e4f24002bf59ee51957d7fe483733727bee904b0f09d3ae403f94e6dc0faa06",
-                        "sha1": "9ed2b9125f46c79043912d695f710b9bdb0f68a9"
+                        "sha512": "c362c018d8286ebd5f6d4361eabf1f68e28cb43c276c0b6ac23f2603761ef23b871aa28788933445fb9d0832ae08c4996021253f4080f3696456242a41062010",
+                        "sha1": "ae64e451854e2cebd7f4d940f6d3da9cafbe74a4"
                     },
                     "required_dependencies": [
                         "JaCEZUhg"
                     ],
-                    "size": 257671,
-                    "date_published": "2024-12-15T22:52:40.048230Z"
+                    "size": 367104,
+                    "date_published": "2025-08-25T19:49:29.897909Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "tfcgenviewer-1.20.1-1.5.0.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6927/950/tfcgenviewer-1.20.1-1.5.0.jar",
+                    "id": "6927950",
+                    "parent_id": "1062270",
+                    "hashes": {
+                        "sha1": "ae64e451854e2cebd7f4d940f6d3da9cafbe74a4",
+                        "md5": "bcf6f0cf075ed0b9ce6b72331d16be49"
+                    },
+                    "required_dependencies": [
+                        "302973"
+                    ],
+                    "size": 367104,
+                    "date_published": "2025-08-25T19:48:26.213Z"
                 }
             ]
         },
@@ -9366,7 +9462,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "waterflasks-3.0.8.jar",
+                    "file_name": "waterflasks-3.0.9.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -9374,22 +9470,20 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/ONgsGaM9/versions/VIl9hEx7/waterflasks-3.0.8.jar",
-                    "id": "VIl9hEx7",
+                    "url": "https://cdn.modrinth.com/data/ONgsGaM9/versions/4aiKs50w/waterflasks-3.0.9.jar",
+                    "id": "4aiKs50w",
                     "parent_id": "ONgsGaM9",
                     "hashes": {
-                        "sha512": "7cc5e39ac45223a4b28387a60e0b361d777f44f34b9baa5d24a1541a0a21c0decf86146c19dbe4fcc4892048c0ca4f5a5737d09210c42f61d0e34448b3390c47",
-                        "sha1": "6fc568609f6a182d18f8f4fac286c9bf122a486b"
+                        "sha512": "f4bdb2f5ea39fd76a10f794614ed328b88e65c0128c12a4154f539be3f02b03df58f6fe74770da8dd9352d18dca54c34d4189b738269da7a0891ed1f8aee4ea8",
+                        "sha1": "de5fec2b87cc99ff4ff73fac1e7e479c64478820"
                     },
-                    "required_dependencies": [
-                        "JaCEZUhg"
-                    ],
-                    "size": 939203,
-                    "date_published": "2025-07-29T01:27:09.745095Z"
+                    "required_dependencies": [],
+                    "size": 943232,
+                    "date_published": "2025-08-27T05:52:10.988430Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "waterflasks-3.0.8.jar",
+                    "file_name": "waterflasks-3.0.9.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -9398,16 +9492,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6681/183/waterflasks-3.0.8.jar",
-                    "id": "6681183",
+                    "url": "https://edge.forgecdn.net/files/6877/264/waterflasks-3.0.9.jar",
+                    "id": "6877264",
                     "parent_id": "354353",
                     "hashes": {
-                        "sha1": "6fc568609f6a182d18f8f4fac286c9bf122a486b",
-                        "md5": "e71547e2b16e7d7c24c823ffec666c42"
+                        "sha1": "de5fec2b87cc99ff4ff73fac1e7e479c64478820",
+                        "md5": "da255c51c7356b95a1ace27e2c3c559a"
                     },
-                    "required_dependencies": [],
-                    "size": 939203,
-                    "date_published": "2025-06-22T02:23:25.573Z"
+                    "required_dependencies": [
+                        "302973"
+                    ],
+                    "size": 943232,
+                    "date_published": "2025-08-12T03:42:03.923Z"
                 }
             ]
         },
