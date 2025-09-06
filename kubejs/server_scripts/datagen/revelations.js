@@ -44,6 +44,23 @@ ServerEvents.highPriorityData(event =>{
         paltaeria_revelation.block_states[key] = value
     })
 
+    global.DEEPER_DOWN_ROCK_TYPES.forEach(rockType =>{
+        let key = ""
+        let value = global.DEEPER_DOWN_ROCK_STONES[rockType]
+
+        key = `kubejs:ore/shimmerstone/${rockType}`
+        shimmerstone_revelation.block_states[key] = value
+
+        key = `kubejs:ore/azurite/${rockType}`
+        azurite_revelation.block_states[key] = value
+
+        key = `kubejs:ore/stratine/${rockType}`
+        stratine_revelation.block_states[key] = value
+
+        key = `kubejs:ore/paltaeria/${rockType}`
+        paltaeria_revelation.block_states[key] = value
+    })
+
     event.addJson(`modpack:revelations/shimmerstone_ores`, shimmerstone_revelation)
     event.addJson(`modpack:revelations/azurite_ores`, azurite_revelation)
     event.addJson(`modpack:revelations/stratine_ores`, stratine_revelation)
