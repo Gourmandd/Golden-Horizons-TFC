@@ -2,15 +2,11 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "R",
-    "C",
     "D"
   ],
   "key": {
     "R": {
       "item": "tfc:metal/rod/copper"
-    },
-    "C": {
-      "item": "tfc:metal/sheet/copper"
     },
     "D": {
       "item": "minecraft:redstone_torch"
