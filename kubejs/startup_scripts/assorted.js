@@ -36,6 +36,21 @@ StartupEvents.registry("item", event =>{
 
 StartupEvents.registry("block", event =>{
     
+    event.create("brick/snow")
+        .soundType("snow")
+        .hardness(3)
+        .textureAll("kubejs:block/snow_bricks")
+        .displayName("Snow Bricks")
+        .tagBlock("minecraft:mineable/pickaxe")
+        .tagBlock("minecraft:mineable/shovel")
+
+    event.create("brick/snow_stairs", "stairs")
+        .soundType("snow")
+        .hardness(3)
+        .textureAll("kubejs:block/snow_bricks")
+        .displayName("Snow Brick Stairs")
+        .tagBlock("minecraft:mineable/pickaxe")
+        .tagBlock("minecraft:mineable/shovel")
 
     event.create("deco_bucket/wooden")
         .displayName("Decorational Wooden Bucket")
