@@ -1,12 +1,13 @@
 {
     "name": "Golden Horizons",
-    "version": "1.9",
+    "version": "1.11",
     "overrides": [
         "config",
         "defaultconfigs",
         "kubejs",
         "!kubejs/probe",
         "LICENSE",
+        "emi.json",
         "README.md",
         "attribution.md",
         "!mods/.connector",

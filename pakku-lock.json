@@ -4921,7 +4921,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "immersive_aircraft-1.3.3+1.20.1-forge.jar",
+                    "file_name": "immersive_aircraft-1.4.0+1.20.1-forge.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -4929,20 +4929,20 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/x3HZvrj6/versions/GsVmbbkj/immersive_aircraft-1.3.3+1.20.1-forge.jar",
-                    "id": "GsVmbbkj",
+                    "url": "https://cdn.modrinth.com/data/x3HZvrj6/versions/jPZ0GRsN/immersive_aircraft-1.4.0+1.20.1-forge.jar",
+                    "id": "jPZ0GRsN",
                     "parent_id": "x3HZvrj6",
                     "hashes": {
-                        "sha512": "7b74442e161bb74538e0d8da34a81616daeea56a0da62db86113a78b3bf3c2b3a6b0e12f12454fd7c96092762f6b212ba57cb87eb1af2b242a4d5df4eca03055",
-                        "sha1": "0749b5c005eafdcf5c8a19760c5c64b3cb021633"
+                        "sha512": "c89ce2ec78ced38c71b0bb022db0a3218556b5479e148a3f751c40456a79fb18799a3f1233e3be03bc18754d5fe1db2dd16f2bd826396a4c777e4e1acaa9fe76",
+                        "sha1": "64e6c792c5208005ee6b099e8fb7d2738873737d"
                     },
                     "required_dependencies": [],
-                    "size": 2391382,
-                    "date_published": "2025-07-07T20:40:00.415348Z"
+                    "size": 2428368,
+                    "date_published": "2025-09-07T14:19:11.649750Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "immersive_aircraft-1.3.3+1.20.1-forge.jar",
+                    "file_name": "immersive_aircraft-1.4.0+1.20.1-forge.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -4950,16 +4950,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6742/170/immersive_aircraft-1.3.3+1.20.1-forge.jar",
-                    "id": "6742170",
+                    "url": "https://edge.forgecdn.net/files/6972/825/immersive_aircraft-1.4.0+1.20.1-forge.jar",
+                    "id": "6972825",
                     "parent_id": "666014",
                     "hashes": {
-                        "sha1": "0749b5c005eafdcf5c8a19760c5c64b3cb021633",
-                        "md5": "4460fa3fa7959a5960c5379578773291"
+                        "sha1": "64e6c792c5208005ee6b099e8fb7d2738873737d",
+                        "md5": "f49ff767f611a95f9bd29a0e9977d9d5"
                     },
                     "required_dependencies": [],
-                    "size": 2391382,
-                    "date_published": "2025-07-07T20:39:55.963Z"
+                    "size": 2428368,
+                    "date_published": "2025-09-07T14:19:09.407Z"
                 }
             ]
         },
@@ -7548,32 +7548,8 @@
             },
             "files": [
                 {
-                    "type": "curseforge",
-                    "file_name": "Sacks 'N Such-1.20.1-1.2.3-all.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "neoforge",
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6464/916/Sacks 'N Such-1.20.1-1.2.3-all.jar",
-                    "id": "6464916",
-                    "parent_id": "695822",
-                    "hashes": {
-                        "sha1": "490701ab6768325bf455d19455966567cd01996b",
-                        "md5": "abcc4d700ed32305824902e4f2b29bbb"
-                    },
-                    "required_dependencies": [
-                        "302973"
-                    ],
-                    "size": 660385,
-                    "date_published": "2025-04-25T23:21:11.043Z"
-                },
-                {
                     "type": "modrinth",
-                    "file_name": "Sacks 'N Such-1.20.1-1.2.3-all.jar",
+                    "file_name": "Sacks 'N Such-1.20.1-1.2.4.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -7582,18 +7558,43 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/PhnM3Lkv/versions/tXZzHNm6/Sacks 'N Such-1.20.1-1.2.3-all.jar",
-                    "id": "tXZzHNm6",
+                    "url": "https://cdn.modrinth.com/data/PhnM3Lkv/versions/PA25BnBO/Sacks 'N Such-1.20.1-1.2.4.jar",
+                    "id": "PA25BnBO",
                     "parent_id": "PhnM3Lkv",
                     "hashes": {
-                        "sha512": "cd1a5514f6231eee01e514be4bd8e05cdcf5411df68327b83586996ddae15d5c6fda3ff2edec22c3aad6ccb0052e45a73c98a19e2832671f34291e2afd7df358",
-                        "sha1": "490701ab6768325bf455d19455966567cd01996b"
+                        "sha512": "c6ca411476f100cee117889e6fa8945d5f6848669f53f87b8bcbcd0ed5697bc795ee6e22202464e1a2687b85adf15396b65899ab4b58d7a73cc196108105e7cc",
+                        "sha1": "9819909ff38f14408e313998d225e986333d52b7"
                     },
                     "required_dependencies": [
-                        "JaCEZUhg"
+                        "JaCEZUhg",
+                        "UHJfcchT"
                     ],
-                    "size": 660385,
-                    "date_published": "2025-04-25T23:21:12.798597Z"
+                    "size": 1239847,
+                    "date_published": "2025-09-05T08:32:48.466815Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "Sacks 'N Such-1.20.1-1.2.4.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6965/231/Sacks 'N Such-1.20.1-1.2.4.jar",
+                    "id": "6965231",
+                    "parent_id": "695822",
+                    "hashes": {
+                        "sha1": "9819909ff38f14408e313998d225e986333d52b7",
+                        "md5": "80004a900325176c2ff9427198dedb42"
+                    },
+                    "required_dependencies": [
+                        "302973"
+                    ],
+                    "size": 1239847,
+                    "date_published": "2025-09-05T08:32:46.673Z"
                 }
             ]
         },
@@ -9062,7 +9063,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "TerraFirmaCraft-Forge-1.20.1-3.2.18.jar",
+                    "file_name": "TerraFirmaCraft-Forge-1.20.1-3.2.19.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -9071,22 +9072,22 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/JaCEZUhg/versions/Gu29xenE/TerraFirmaCraft-Forge-1.20.1-3.2.18.jar",
-                    "id": "Gu29xenE",
+                    "url": "https://cdn.modrinth.com/data/JaCEZUhg/versions/tzI7ngJN/TerraFirmaCraft-Forge-1.20.1-3.2.19.jar",
+                    "id": "tzI7ngJN",
                     "parent_id": "JaCEZUhg",
                     "hashes": {
-                        "sha512": "b5a5223fe037e97d0ddd7077697292bfebe6c207a87a3b10c4e51f95c91b0ea8b93fc7cd0240b80256966c14f7fb5850a18f0bcbf7316ae777272833a8038de8",
-                        "sha1": "665ebee0375f06d68500447e250df5c8ad75b8b7"
+                        "sha512": "83a5dd8463e11efff783f2c9ad87e911b44a8344d2884490e1f862d52d34c39ecbb1fb88ac200921a457f8fd038362b2ea53dac0e7d0041d272d73931f551200",
+                        "sha1": "107d4aec4694c509ea7ea8f3963478ae8002f46e"
                     },
                     "required_dependencies": [
                         "nU0bVIaL"
                     ],
-                    "size": 47452509,
-                    "date_published": "2025-08-01T12:29:28.442090Z"
+                    "size": 47458568,
+                    "date_published": "2025-09-12T23:05:08.687798Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "TerraFirmaCraft-Forge-1.20.1-3.2.18.jar",
+                    "file_name": "TerraFirmaCraft-Forge-1.20.1-3.2.19.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -9095,18 +9096,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6835/820/TerraFirmaCraft-Forge-1.20.1-3.2.18.jar",
-                    "id": "6835820",
+                    "url": "https://edge.forgecdn.net/files/6990/923/TerraFirmaCraft-Forge-1.20.1-3.2.19.jar",
+                    "id": "6990923",
                     "parent_id": "302973",
                     "hashes": {
-                        "sha1": "665ebee0375f06d68500447e250df5c8ad75b8b7",
-                        "md5": "eb6b3344ab06d8a988f36610088ddc60"
+                        "sha1": "107d4aec4694c509ea7ea8f3963478ae8002f46e",
+                        "md5": "ef643b2327eb4e1ccc096aa54bdb9c60"
                     },
                     "required_dependencies": [
                         "306770"
                     ],
-                    "size": 47452509,
-                    "date_published": "2025-08-01T12:29:22.040Z"
+                    "size": 47458568,
+                    "date_published": "2025-09-12T23:05:02.727Z"
                 }
             ]
         },
