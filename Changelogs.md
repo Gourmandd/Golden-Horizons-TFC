@@ -4,7 +4,7 @@ All of the changelogs since 0.1 that was posted on Modrinth
 
 # Golden Horizons 1.11
 
-
+I might want for this to be a "long term support" release, where it will get patches over time as bugs are found and so on. Its mostly as I don't really have the time for larger stuff, I will slowly continue the Spectrum integration and other misc things. BTW if there is anybody willing to contribute to the modpack feel free to ask on Discord. If there are any road blocks I can try my best to resolve them.
 
 ## Changes
 
@@ -22,7 +22,7 @@ All of the changelogs since 0.1 that was posted on Modrinth
 
 ## Fixes
 
-- Beacons now fully function.. assuming you can manage the long journey to get one..
+- Beacons now fully function.. assuming you can manage the **long** journey to get one.
 - Fixed the dead glistering melon crop models.
 - Fixes to misc warnings/errors in logs.
 - Quarks hotbar changer is enabled.
@@ -32,6 +32,10 @@ All of the changelogs since 0.1 that was posted on Modrinth
 - Advancements optimiser had its cooldown reduced, meaning advancements should be more responsive.
 - A clay dupe by using deployers to make unfired items and then recycling that back into clay.
 
+
+## Enjoy
+
+Will be going abroad soon, Silksong has released and its going great so far, and school is getting pretty difficult. The beta for TFC 1.21 just got announced and once enough TFC addons update (probably for the alpha or standard release versions is my guess) ill start on porting the pack, but my time is a bit limited as I mentioned at the start of the paragraph. XD.
 
 
 
