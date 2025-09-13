@@ -2,6 +2,39 @@
 
 All of the changelogs since 0.1 that was posted on Modrinth
 
+# Golden Horizons 1.11
+
+
+
+## Changes
+
+- Added Wrought Iron buckets, capable of carrying lava (but not any other molten/hazardous fluid).
+- You can make a snow shovel out of stainless steel, it can mine a 3x3x3 area of snow.
+- Buckets can how be placed decorationally. (this is to circumvent a TFC feature that makes it hard to use normal buckets in recipes)
+- The bucket requirments in Spectrum recipes are more reasonable.
+- The Spectrum "Creating Life" chapter should be now be largly possible.
+- Vanilla chains can now be made, which are required by Create for package transport.
+- Create mod's transmitter is now cheaper.
+- Ores now can be isolated like raw stone and drop as ore blocks.
+- Food items that are made from meat items are noe more consistent with what they should accept.
+- Added snow bricks.
+
+
+## Fixes
+
+- Beacons now fully function.. assuming you can manage the long journey to get one..
+- Fixed the dead glistering melon crop models.
+- Fixes to misc warnings/errors in logs.
+- Quarks hotbar changer is enabled.
+- Detected set block be gone mod was added to stop the log from being spammed when in the Deeper Down.
+- Kaolinite brick has the correct texture now.
+- Custom malachite (Spectrum) ores now have revelations.
+- Advancements optimiser had its cooldown reduced, meaning advancements should be more responsive.
+- A clay dupe by using deployers to make unfired items and then recycling that back into clay.
+
+
+
+
 # Golden Horizons 1.10
 
 This is a largely QoL update, mods that fill in some niches like trading, automation and inventory management. A lot of Spectrum's core content was been integrated, and it is possible to go through its entire "main" progression now. (certain features still need a lot of work. like memories & mob heads.). 
@@ -32,6 +65,10 @@ This is a largely QoL update, mods that fill in some niches like trading, automa
 
 - Added some items to tags and made certain recipes use tags (unfired vessels, etc)
 - leather straps from Epic Knights and Sack n Such have been unified.
+
+## Enjoy
+
+There might be a 1-2 month gap (usually just one) in updates, though I will try to release bug fixes if something comes up. Ill start to get less time for making the pack from late August onwards. The next update will probably just have a custom guide book I want to make aswell as small changes and fixes.
 
 # Golden Horizons 1.9
 
