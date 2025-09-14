@@ -2,21 +2,6 @@
     "name": "Golden Horizons",
     "version": "1.11",
     "overrides": [
-        "config",
-        "defaultconfigs",
-        "kubejs",
-        "!kubejs/probe",
-        "LICENSE",
-        "emi.json",
-        "README.md",
-        "attribution.md",
-        "!mods/.connector",
-        "!mods/.index"
-    ],
-    "client_overrides": [
-        "resourcepacks/Modpack Extra Resources",
-        "resourcepacks/TFCBushierBushes.zip",
-        "icon.png",
-        "options.txt"
+        "config"
     ]
 }
