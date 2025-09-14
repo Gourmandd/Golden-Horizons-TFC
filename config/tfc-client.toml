@@ -1,4 +1,3 @@
-
 [general]
 	#
 	# Should TFC forcefully skip the 'Experimental World Generation' warning screen when creating or loading a world?
@@ -32,7 +31,8 @@
 	enableVanillaTutorialToasts = false
 	#
 	# Adjusts the position where potion effects render in the X direction. By default, this moves them to the right of the inventory tabs. Negative values shift them to the left.
-	#Range: -128 ~ 128
+	# Default: 20
+	# Range: -128 ~ 128
 	effectHorizontalAdjustment = 20
 	#
 	# Health display format. This affects what number is displayed on top of the tfc-style health bar
@@ -51,8 +51,7 @@
 	#Allowed Values: NONE, EXPIRY, TIME_LEFT, BOTH
 	foodExpiryTooltipStyle = "BOTH"
 	#
-	# The overlay color to indicate rotten foods. Default = 0x88CC33
-	#Range: 0 ~ 16777215
+	# The overlay color to indicate rotten foods, in ARGB. Default = 0xFF88CC33
 	foodExpiryOverlayColor = 8965171
 	#
 	# The style to display all heat tooltips in.
@@ -119,4 +118,3 @@
 	# Registers additional models into forge's special model registry.
 	# For Pack Makers: this is needed if you want your custom item models to render when used for panning (if they are not already used somewhere else and added automatically in that case)
 	additionalSpecialModels = ["modpack:block/metal/full/aluminium", "modpack:block/metal/full/aluminium_bronze", "modpack:block/metal/full/harderned_steel", "modpack:block/metal/full/nethersteel", "modpack:block/metal/full/cast_iron_alloy"]
-

@@ -1,7 +1,8 @@
 #Whenever Sunstone and Moonstone update their states, there is a chance for adjacent ones to update as well.
 #This causes the updates to cascade and helps the blocks stay in sync over large areas.
 #Default is .35, for a 35% chance of each adjacent block updating.
-#Range: 0.0 ~ 1.0
+# Default: 0.35
+# Range: 0.0 ~ 1.0
 sunstoneSpreadChance = 0.35
 
 #The following options require a server restart to take effect.
@@ -21,4 +22,3 @@ sunstoneSpreadChance = 0.35
 		globalWorldGenToggle = false
 		#Controls the spawning of Monazite, Ekanite, and Heliodor rods in various Nether biomes.
 		netherCrystalGeneration = false
-

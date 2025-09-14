@@ -1,4 +1,5 @@
 #The color of the ping display text, written in hex format. Default: #A0A0A0
+#
 #Has no effect if 'autoColorText' is set to true
 textColor = "#A0A0A0"
 #Customize the display text of the ping display
@@ -12,4 +13,3 @@ renderPingBars = false
 #Example: low latency = green, high latency = red
 #If this setting is true, then the 'textColor' setting is ignored
 autoColorText = true
-

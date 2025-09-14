@@ -6,4 +6,3 @@ reduceGCHeap = true
 fixMemoryLeaks = true
 #(default = true) Removes duplicated threading detector locks.
 removeThreadingDetectorLocks = true
-

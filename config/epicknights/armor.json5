@@ -276,6 +276,8 @@
 	"lamellar": {
 		"enabled": true,
 		"toughness": 0.30000001192092896,
+		"helmetDurability": 250,
+		"helmetDefense": 6,
 		"chestplateDurability": 250,
 		"chestplateDefense": 6,
 		"bootsDurability": 200,

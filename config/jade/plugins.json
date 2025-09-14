@@ -5,11 +5,13 @@
     "harvest_tool.show_unbreakable": false,
     "animal_owner": true,
     "harvest_tool.effective_tool": true,
+    "energy_storage.style": "PROGRESS_BAR",
     "item_storage": true,
     "item_storage.normal_amount": 9,
     "harvest_tool": true,
     "armor_stand": true,
     "fluid_storage.detailed": false,
+    "next_entity_drop": true,
     "energy_storage": true,
     "entity_armor.max_for_render": 40,
     "breaking_progress": true,
@@ -26,15 +28,14 @@
     "mob_spawner": true,
     "redstone": true,
     "fluid_storage": true,
-    "chicken_egg": true,
     "jukebox": true,
     "brewing_stand": true,
     "energy_storage.detailed": false,
     "note_block": true,
+    "fluid_storage.style": "PROGRESS_BAR",
     "beehive": true,
     "item_storage.detailed_amount": 54,
     "player_head": true,
-    "block_states": false,
     "lectern": true,
     "entity_armor": true,
     "harvest_tool.creative": false,
@@ -51,27 +52,12 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "firmalife": {
-    "barrel_press": true,
-    "string": true,
-    "vat": true,
-    "drying_mat": true,
-    "tumbler": true,
-    "cheese": true,
-    "shelf": true,
-    "oven_top": true,
-    "pumping_station": true,
-    "solar_drier": true,
-    "oven_bottom": true,
-    "fruit_tree_sapling": true,
-    "jarbnet": true,
-    "hanger": true
-  },
   "tfc": {
     "bloomery": true,
     "nest_box": true,
     "bellows": true,
     "hoe_overlay": true,
+    "firebox": true,
     "charcoal_forge": true,
     "mud_bricks": true,
     "loom": true,
@@ -83,7 +69,9 @@
     "decaying": true,
     "wall_torch": true,
     "windmill": true,
+    "placed_item": true,
     "ocelot": true,
+    "shelf": true,
     "candle_cake": true,
     "horse": true,
     "clutch": true,
@@ -93,8 +81,6 @@
     "encased_axle": true,
     "crop": true,
     "blast_furnace": true,
-    "hand_wheel": true,
-    "sheet_pile": true,
     "quern": true,
     "pit_kiln_above": true,
     "hot_poured_glass": true,
@@ -103,7 +89,6 @@
     "chested_horse": true,
     "pack_predator": true,
     "barrel": true,
-    "mold_table": true,
     "predator": true,
     "wild_animal": true,
     "crucible": true,
@@ -118,12 +103,7 @@
     "candle": true,
     "jack_o_lantern": true,
     "firepit": true,
-    "wet_concrete": true,
     "ingot_pile": true
-  },
-  "firmaciv": {
-    "tfc_chest": true,
-    "barrel": true
   },
   "jadeaddons": {
     "equipment_requirement": ""
@@ -142,25 +122,25 @@
     "lightroom": true,
     "photograph_frame": true
   },
+  "jade_access": {
+    "held_item": true,
+    "sign": true,
+    "block": true,
+    "entity": true,
+    "entity_variant": true
+  },
   "jade": {
     "coordinates.rel": false,
+    "registry_name.special": false,
+    "block_states": false,
     "distance": false,
     "block_face": false,
     "coordinates": false,
     "registry_name": "OFF",
+    "block_properties": false,
     "mod_name": true
-  },
-  "alekiships": {
-    "furnace": true,
-    "jukebox": true,
-    "brewing_stand": true,
-    "block": true,
-    "note_block": true
   },
   "barbequesdelight": {
     "grill": true
-  },
-  "afc": {
-    "tap": true
   }
 }

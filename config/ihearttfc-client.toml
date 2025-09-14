@@ -4,10 +4,9 @@ renderPartialHearts = true
 useSmallHearts = false
 #Uses empty droplets for the thirst bar instead of puddles.
 useEmptyDroplets = false
-#Display saturation on the hunger bar like the popular mod "Appleskin".
-displayAppleskinLikeSaturation = true
 #Use pictographic half-eaten food for food icons instead of just cutting the full food image in half.
 useHalfEatenFood = true
 #Use the space that is normally taken up by the experience bar to show the current temperature. Overrides the TFC experience bar config.
 showTemperatureInsteadOfExperience = true
-
+#Display saturation on the hunger bar like the popular mod "Appleskin".
+displayAppleSkinLikeSaturation = true
