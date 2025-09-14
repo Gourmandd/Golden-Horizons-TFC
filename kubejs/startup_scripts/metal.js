@@ -36,21 +36,24 @@ StartupEvents.registry("item", event =>{
     })
 })
 
+/*
 StartupEvents.registry("fluid", event =>{
     
-    event.create("electrum")
+    event.create("electrum", 'thick')
         .displayName("Electrum")
+        .tint(0xFFF10F)
         .bucketColor(0xFFF10F)
         .thickTexture(0xFFF10F)
         .noBucket()
         .noBlock()
         .tag("tfc:molten_metals")
     
-    event.create("aluminium")
+    event.create("aluminium", 'thick')
         .displayName("Aluminium")
+        .tint(0xCDD6DA)
         .bucketColor(0xCDD6DA)
         .thickTexture(0xCDD6DA)
         .noBucket()
         .noBlock()
         .tag("tfc:molten_metals")
-})
+})*/

@@ -17,6 +17,7 @@ StartupEvents.registry("item", event =>{
     event.create("raw_aluminium_mixture").displayName("Raw Aluminium Mixture")
     event.create("aluminium_nugget").displayName("Aluminium Nugget")
 
+    /* getting 1.21 running
     event.create("metal/bucket/wrought_iron", "tfc:fluid_container")
         .displayName("Wrought Iron Bucket")
         .canPlaceLiquid(true)
@@ -31,6 +32,7 @@ StartupEvents.registry("item", event =>{
         .mineableBlocksTag("modpack:snow_shovel_mineable")
         .unstackable()
         .maxDamage(3200)
+    */
 })
 
 
@@ -39,7 +41,7 @@ StartupEvents.registry("block", event =>{
     event.create("brick/snow")
         .soundType("snow")
         .hardness(3)
-        .textureAll("kubejs:block/snow_bricks")
+        /* getting 1.21 running.textureAll("kubejs:block/snow_bricks")*/
         .displayName("Snow Bricks")
         .tagBlock("minecraft:mineable/pickaxe")
         .tagBlock("minecraft:mineable/shovel")
@@ -47,7 +49,7 @@ StartupEvents.registry("block", event =>{
     event.create("brick/snow_stairs", "stairs")
         .soundType("snow")
         .hardness(3)
-        .textureAll("kubejs:block/snow_bricks")
+        /* getting 1.21 running.textureAll("kubejs:block/snow_bricks")*/
         .displayName("Snow Brick Stairs")
         .tagBlock("minecraft:mineable/pickaxe")
         .tagBlock("minecraft:mineable/shovel")
@@ -107,20 +109,23 @@ StartupEvents.registry("block", event =>{
 
 
 StartupEvents.registry("fluid", event => {
-
-    event.create("shale_clay_slurry")
+    /* getting 1.21 running
+    event.create("shale_clay_slurry", 'thin')
         .displayName("Shale Clay Slurry")
+        .tint(0x4E4664)
         .bucketColor(0x4E4664)
         .thinTexture(0x4E4664)
         .noBucket()
         .noBlock()
 
-    event.create("filtered_shale_clay_slurry")
+    event.create("filtered_shale_clay_slurry", 'thin')
         .displayName("Filtered Shale Clay Slurry")
+        .tint(0x746D89)
         .bucketColor(0x746D89)
         .thinTexture(0x746D89)
         .noBucket()
         .noBlock()
+    */
 })
 
 

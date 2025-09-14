@@ -29,8 +29,8 @@ ClientEvents.lang("en_us", event =>{
         })
     })
 })
-
-ClientEvents.highPriorityAssets(event =>{
+/* getting 1.21 running
+ClientEvents.generateAssets(event =>{
 
     function generateOreBlockModel(location, all, overlay){
         event.add(location, {
@@ -100,4 +100,4 @@ ClientEvents.highPriorityAssets(event =>{
             })
         })
     })
-})
+})*/

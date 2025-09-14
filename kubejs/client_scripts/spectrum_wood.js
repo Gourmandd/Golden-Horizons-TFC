@@ -2,7 +2,8 @@
 // Generates assets for TFCified Spectrum wood //
 // ------------------------------------------- //
 
-ClientEvents.highPriorityAssets( event => {
+/* getting 1.21 running
+ClientEvents.generateAssets( event => {
 
     function generateSupportModel(woodType){
         
@@ -67,4 +68,4 @@ ClientEvents.highPriorityAssets( event => {
     global.SPECTRUM_WOODS.forEach(wood => {
             generateSupportModel(wood)
     })
-})
+})*/

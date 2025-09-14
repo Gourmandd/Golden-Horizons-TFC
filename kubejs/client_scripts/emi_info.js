@@ -360,7 +360,8 @@ const GENERAL = [
   {"name": "canoe_wood", "stacks": ["item:tfc:wood/log/douglas_fir","item:tfc:wood/log/pine","item:tfc:wood/log/palm","item:tfc:wood/log/spruce","item:tfc:wood/log/sequoia","item:tfc:wood/log/kapok","item:tfc:wood/log/mangrove","item:tfc:wood/log/white_cedar","item:tfc:wood/log/willow",], "desc": "These logs can be used to make canoes!"},
 ]
 
-ClientEvents.highPriorityAssets(event =>{
+/* getting 1.21 running
+ClientEvents.generateAssets(event =>{
 
   function generate_info(folder, name, stacks){
       event.add("emi:recipe/additions/"  + folder + "/" + name, {
@@ -410,6 +411,7 @@ ClientEvents.highPriorityAssets(event =>{
     generate_info("wood", entry, get_wood_type_items("afc", entry))
   })
   */
+ /* getting 1.21 running
   global.TFC_FRUIT_TREES.forEach(entry =>{
     generate_info("plant", entry, get_fruit_tree_items(entry))
   })
@@ -419,7 +421,7 @@ ClientEvents.highPriorityAssets(event =>{
   })
 
   generate_info("food", "jams", get_jams_items())
-})
+})*/
 
 
 ClientEvents.lang("en_us", event =>{

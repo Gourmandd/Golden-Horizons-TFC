@@ -2,6 +2,7 @@
 // Adds info tooltips for less confusion  //
 // -------------------------------------- //
 
+/* getting 1.21 running
 ItemEvents.tooltip(event =>{
 
     let REMOVED_FUNCTIONALITY = [
@@ -28,4 +29,4 @@ ItemEvents.tooltip(event =>{
         event.add(item, Text.translate("modpack.item_changed_functionality"))
     })
     
-})
+})*/
