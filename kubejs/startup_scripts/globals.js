@@ -698,10 +698,14 @@ global.TFC_ROCKS_TO_SAND_COLOURS = {
 }
 
 global.TFC_SOIL_TYPES = [
-  "loam",
-  "sandy_loam",
-  "silt",
-  "silty_loam"
+  "entisol",
+  "aridisol",
+  "oxisol",
+  "fluvisol",
+  "andisol",
+  "podzol",
+  "alfisol",
+  "mollisol"
 ]
 
 // These are Spectrum ores that will be integrated into TFC worldgen
@@ -756,7 +760,7 @@ global.STONE_TO_COBBLESTONE = {
 global.STONE_TO_COBBLESTONE_TEXTURE = {
   "argillite": "minecraft:block/cobblestone",
   "nephelinite": "minecraft:block/cobbled_deepslate",
-  "blackslag": "spectrum:block/cobbled_blackslag",
+  "blackslag": "pastel:block/cobbled_blackslag",
   "travertine": "tfc:block/rock/cobble/claystone",
   "picrite_basalt": "tfc:block/rock/cobble/phyllite",
   "granite": "tfc:block/rock/cobble/granite",
@@ -784,17 +788,17 @@ global.STONE_TO_COBBLESTONE_TEXTURE = {
 global.CUSTOM_ROCK_MODELS = {
   "argillite": "minecraft:block/stone",
   "nephelinite": "minecraft:block/deepslate",
-  "blackslag": "spectrum:block/blackslag",
+  "blackslag": "pastel:block/blackslag",
   "travertine": "minecraft:block/dripstone_block",
-  "picrite_basalt": "spectrum:block/basal_marble",
+  "picrite_basalt": "pastel:block/basal_marble",
 }
 
 global.DEEPER_DOWN_ROCK_STONES = {
   "argillite": "minecraft:stone",
   "nephelinite": "minecraft:deepslate",
-  "blackslag": "spectrum:blackslag",
+  "blackslag": "pastel:blackslag",
   "travertine": "minecraft:dripstone_block",
-  "picrite_basalt": "spectrum:basal_marble",
+  "picrite_basalt": "pastel:basal_marble",
 }
 
 global.NOXWOODS = [
@@ -845,12 +849,12 @@ StartupEvents.init(event => {
   })
 
   global.DYE_COLOURS.forEach(colour => {
-    global.BURNED_BLOCKS_DICT[`spectrum:${colour}_planks`] = "kubejs:wood/planks/charred"
+    global.BURNED_BLOCKS_DICT[`pastel:${colour}_planks`] = "kubejs:wood/planks/charred"
 
-    global.BURNED_BLOCKS_DICT[`spectrum:${colour}_log`] = "kubejs:wood/log/charred"
-    global.BURNED_BLOCKS_DICT[`spectrum:stripped_${colour}_log`] = "kubejs:wood/log/charred"
-    global.BURNED_BLOCKS_DICT[`spectrum:${colour}_wood`] = "kubejs:wood/log/charred"
-    global.BURNED_BLOCKS_DICT[`spectrum:stripped_${colour}_wood`] = "kubejs:wood/log/charred"
+    global.BURNED_BLOCKS_DICT[`pastel:${colour}_log`] = "kubejs:wood/log/charred"
+    global.BURNED_BLOCKS_DICT[`pastel:stripped_${colour}_log`] = "kubejs:wood/log/charred"
+    global.BURNED_BLOCKS_DICT[`pastel:${colour}_wood`] = "kubejs:wood/log/charred"
+    global.BURNED_BLOCKS_DICT[`pastel:stripped_${colour}_wood`] = "kubejs:wood/log/charred"
   })
 
 })

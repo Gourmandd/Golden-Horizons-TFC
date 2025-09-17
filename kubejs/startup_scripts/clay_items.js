@@ -26,8 +26,8 @@ StartupEvents.registry("item", event =>{
         event.create(`ceramic/unfired_${type}_brick`).displayName(`Unfired ${nameProcessing(type)} Brick`)
         event.create(`ceramic/${type}_brick`).displayName(`${nameProcessing(type)} Brick`)
 
-        event.createCustom(`ceramic/${type}_vessel`, () => new $Vessel(new $ItemProperties().stacksTo(1))).displayName(`Unfired ${nameProcessing(type)} Vessel`)
-        event.createCustom(`ceramic/${type}_jug`, () => new $Jug(new $ItemProperties().stacksTo(1), $TFCConfig.SERVER.jugCapacity, $TFCTags.Fluids.USABLE_IN_JUG)).displayName(`Unfired ${nameProcessing(type)} Jug`)
+        //event.createCustom(`ceramic/${type}_vessel`, () => new $Vessel(new $ItemProperties().stacksTo(1))).displayName(`Unfired ${nameProcessing(type)} Vessel`)
+        //event.createCustom(`ceramic/${type}_jug`, () => new $Jug(new $ItemProperties().stacksTo(1), $TFCConfig.SERVER.jugCapacity, $TFCTags.Fluids.USABLE_IN_JUG)).displayName(`Unfired ${nameProcessing(type)} Jug`)
 
         event.create(`ceramic/unfired_${type}_vessel`).displayName(`Unfired ${nameProcessing(type)} Vessel`)
         event.create(`ceramic/unfired_${type}_jug`).displayName(`Unfired ${nameProcessing(type)} Jug`)
