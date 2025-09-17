@@ -29,6 +29,25 @@
 		[types.wood_type.architects_palette]
 			twisted = true
 
+		[types.wood_type.pastel]
+			black = true
+			blue = true
+			brown = true
+			cyan = true
+			gray = true
+			green = true
+			light_blue = true
+			light_gray = true
+			lime = true
+			magenta = true
+			orange = true
+			pink = true
+			purple = true
+			red = true
+			white = true
+			yellow = true
+			weeping_gala = true
+
 		[types.leaves_type.caupona]
 			walnut = true
 			fig = true
@@ -36,6 +55,27 @@
 
 		[types.leaves_type.architects_palette]
 			twisted = true
+
+		[types.leaves_type.pastel]
+			weeping_gala = true
+			nephrite_blossom = true
+			spirit_sallow = true
+			black = true
+			blue = true
+			brown = true
+			cyan = true
+			gray = true
+			green = true
+			light_blue = true
+			light_gray = true
+			lime = true
+			magenta = true
+			orange = true
+			pink = true
+			purple = true
+			red = true
+			white = true
+			yellow = true
 
 #Disables specific entries
 [entries]
