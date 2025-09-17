@@ -1927,6 +1927,67 @@
             ]
         },
         {
+            "pakku_id": "wtU33erymkTOXS11",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "curios",
+                "modrinth": "curios"
+            },
+            "name": {
+                "curseforge": "Curios API (Forge/NeoForge)",
+                "modrinth": "Curios API"
+            },
+            "id": {
+                "curseforge": "309927",
+                "modrinth": "vvuO3ImH"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "curios-neoforge-9.5.1+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6529/130/curios-neoforge-9.5.1+1.21.1.jar",
+                    "id": "6529130",
+                    "parent_id": "309927",
+                    "hashes": {
+                        "sha1": "418fcd42e3a7844c9bdc71c9b6401fdb3894e0c4",
+                        "md5": "e8f0a3574264bb202c153b90293dc84c"
+                    },
+                    "required_dependencies": [],
+                    "size": 410690,
+                    "date_published": "2025-05-14T13:34:49.793Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "curios-neoforge-9.5.1+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/yohfFbgD/curios-neoforge-9.5.1+1.21.1.jar",
+                    "id": "yohfFbgD",
+                    "parent_id": "vvuO3ImH",
+                    "hashes": {
+                        "sha512": "5981a267686b744e7e3c227f78cbcd5267c14ac6979a28e814695f4589273998563147207fef4a5cdb7cdbdc39797cd95d9e4abadb55869f18e02a38d0654ae5",
+                        "sha1": "418fcd42e3a7844c9bdc71c9b6401fdb3894e0c4"
+                    },
+                    "required_dependencies": [],
+                    "size": 410690,
+                    "date_published": "2025-05-14T13:34:47.415840Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "W5U3mPnjVt8rT4ff",
             "type": "MOD",
             "side": "BOTH",
@@ -2920,7 +2981,7 @@
             },
             "name": {
                 "curseforge": "I ❤ TFC (I Heart TFC)",
-                "modrinth": "I ❤ TFC"
+                "modrinth": "I ❤ TFC (I Heart TFC)"
             },
             "id": {
                 "curseforge": "1118578",
@@ -2928,31 +2989,8 @@
             },
             "files": [
                 {
-                    "type": "curseforge",
-                    "file_name": "I Heart TFC-1.21.1-1.1.0.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6995/144/I Heart TFC-1.21.1-1.1.0.jar",
-                    "id": "6995144",
-                    "parent_id": "1118578",
-                    "hashes": {
-                        "sha1": "43dc594871a6911510e29e82ddf270754532458e",
-                        "md5": "0b3aac453a4df7aa2cabeac96d731cc0"
-                    },
-                    "required_dependencies": [
-                        "302973"
-                    ],
-                    "size": 103901,
-                    "date_published": "2025-09-14T07:09:11.700Z"
-                },
-                {
                     "type": "modrinth",
-                    "file_name": "I Heart TFC-1.21.1-1.1.0.jar",
+                    "file_name": "I Heart TFC-1.21.1-1.1.1.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -2960,18 +2998,39 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/XjM4YE3F/versions/VXA7RvZY/I Heart TFC-1.21.1-1.1.0.jar",
-                    "id": "VXA7RvZY",
+                    "url": "https://cdn.modrinth.com/data/XjM4YE3F/versions/43G01J1R/I Heart TFC-1.21.1-1.1.1.jar",
+                    "id": "43G01J1R",
                     "parent_id": "XjM4YE3F",
                     "hashes": {
-                        "sha512": "421f6b550f9d873206e3ee2b29df704ab9ae557305ef669d91023e36010559c43967b56ba7ba7b83087cbdb135125ea2ff8ddf0bf805d8aff66c2cc4540f56a6",
-                        "sha1": "43dc594871a6911510e29e82ddf270754532458e"
+                        "sha512": "979f85f31353811ededb73beb7d4edf21d007555f4f0222dc638020425d85cc69ee04c7f7bb194f46d5e37927a2bfe1aa34907d6c3facd5ee45f5c51f4412410",
+                        "sha1": "909e344e8b1b9e4f3f41620211f6f51d1a14dd78"
                     },
                     "required_dependencies": [
                         "JaCEZUhg"
                     ],
-                    "size": 103901,
-                    "date_published": "2025-09-14T07:32:07.363074Z"
+                    "size": 104122,
+                    "date_published": "2025-09-15T07:15:58.344200Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "I Heart TFC-1.21.1-1.1.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6998/941/I Heart TFC-1.21.1-1.1.1.jar",
+                    "id": "6998941",
+                    "parent_id": "1118578",
+                    "hashes": {
+                        "sha1": "909e344e8b1b9e4f3f41620211f6f51d1a14dd78",
+                        "md5": "c95932e9640e0c4f4ae97d67bf8aa5d7"
+                    },
+                    "required_dependencies": [],
+                    "size": 104122,
+                    "date_published": "2025-09-15T07:17:15.167Z"
                 }
             ]
         },
@@ -4510,6 +4569,80 @@
             ]
         },
         {
+            "pakku_id": "bIz50BkuijMsGN1f",
+            "pakku_links": [
+                "wtU33erymkTOXS11",
+                "3zH08EYHT05ispeP",
+                "hu9KEilDJu0di64z"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "pastel",
+                "modrinth": "pastel-mod"
+            },
+            "name": {
+                "curseforge": "Pastel",
+                "modrinth": "Pastel"
+            },
+            "id": {
+                "curseforge": "1264556",
+                "modrinth": "5lr6fnw0"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Pastel-1.1.4.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6847/961/Pastel-1.1.4.1.jar",
+                    "id": "6847961",
+                    "parent_id": "1264556",
+                    "hashes": {
+                        "sha1": "5077ad326058cdd6ea53ff35452fa9188bbad0f0",
+                        "md5": "e998705c9d2fe772327e2346fc20f9e2"
+                    },
+                    "required_dependencies": [
+                        "309927",
+                        "538392",
+                        "348521"
+                    ],
+                    "size": 95663738,
+                    "date_published": "2025-08-04T18:46:43.137Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "Pastel-1.1.4.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/5lr6fnw0/versions/ffYIwdv3/Pastel-1.1.4.1.jar",
+                    "id": "ffYIwdv3",
+                    "parent_id": "5lr6fnw0",
+                    "hashes": {
+                        "sha512": "ff32ae8c6b2fb6e08672711ca7e886d0e3c97bbe7647d871bd62f79a4fe3f4eec7f14caf1a645e7ccbc5f6ab733a48ee120dc3215b79fe6f320f9d2a9b3fca5e",
+                        "sha1": "5077ad326058cdd6ea53ff35452fa9188bbad0f0"
+                    },
+                    "required_dependencies": [
+                        "9s6osm5g",
+                        "692GClaE",
+                        "vvuO3ImH"
+                    ],
+                    "size": 95663738,
+                    "date_published": "2025-08-04T18:46:55.998227Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "ZdTOFYMAfu1GNqaF",
             "type": "MOD",
             "side": "BOTH",
@@ -5570,29 +5703,8 @@
             },
             "files": [
                 {
-                    "type": "curseforge",
-                    "file_name": "TerraFirmaCraft-NeoForge-1.21.1-4.0.0-beta.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/6993/587/TerraFirmaCraft-NeoForge-1.21.1-4.0.0-beta.jar",
-                    "id": "6993587",
-                    "parent_id": "302973",
-                    "hashes": {
-                        "sha1": "b3d241e8fb718deadd9c9f9ede8aa8fdb45f2405",
-                        "md5": "1b2d8db692cd98805ebbc85c8953efed"
-                    },
-                    "required_dependencies": [],
-                    "size": 63747740,
-                    "date_published": "2025-09-13T18:38:47.240Z"
-                },
-                {
                     "type": "modrinth",
-                    "file_name": "TerraFirmaCraft-NeoForge-1.21.1-4.0.0-beta.jar",
+                    "file_name": "TerraFirmaCraft-NeoForge-1.21.1-4.0.2-beta.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -5600,18 +5712,41 @@
                         "neoforge"
                     ],
                     "release_type": "beta",
-                    "url": "https://cdn.modrinth.com/data/JaCEZUhg/versions/my5baOc5/TerraFirmaCraft-NeoForge-1.21.1-4.0.0-beta.jar",
-                    "id": "my5baOc5",
+                    "url": "https://cdn.modrinth.com/data/JaCEZUhg/versions/DNYd9sc1/TerraFirmaCraft-NeoForge-1.21.1-4.0.2-beta.jar",
+                    "id": "DNYd9sc1",
                     "parent_id": "JaCEZUhg",
                     "hashes": {
-                        "sha512": "53c3b02d74156db5f67dd6a2185cf904ec27b5a09649f335091d8d976986b4a792e601f4a3a6fde5e95564170aa999cd2f61c1d16f911c6634e77e183c1b89e0",
-                        "sha1": "b3d241e8fb718deadd9c9f9ede8aa8fdb45f2405"
+                        "sha512": "2ec2fb3ca20fdf1954f9a327ba3f687d55c376f8e7ebeb5c96e1cc496d0e6d67b885db02c6efaa66efc5a667412d2aa9f3c6dc30f00d815109b606271d4a866f",
+                        "sha1": "2c55b91a813b6a8870c447baa54c189e15cd5fd2"
                     },
                     "required_dependencies": [
                         "nU0bVIaL"
                     ],
-                    "size": 63747740,
-                    "date_published": "2025-09-13T18:38:56.954954Z"
+                    "size": 63758160,
+                    "date_published": "2025-09-17T02:50:07.054813Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "TerraFirmaCraft-NeoForge-1.21.1-4.0.2-beta.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7004/920/TerraFirmaCraft-NeoForge-1.21.1-4.0.2-beta.jar",
+                    "id": "7004920",
+                    "parent_id": "302973",
+                    "hashes": {
+                        "sha1": "2c55b91a813b6a8870c447baa54c189e15cd5fd2",
+                        "md5": "97960e63481450b0890b2a95d5354dbd"
+                    },
+                    "required_dependencies": [
+                        "306770"
+                    ],
+                    "size": 63758160,
+                    "date_published": "2025-09-17T02:49:58.917Z"
                 }
             ]
         },
