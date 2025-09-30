@@ -65,7 +65,12 @@ StartupEvents.registry("block", event =>{
         })
 
         global.TFC_MINERALS.forEach(ore =>{
-            createOre(ore, rockType, global.ORE_MINING_TIERS[ore])
+            if (ore == "lignite" || ore == "bituminous_coal" ||  ore == "halite"){
+                return
+            }
+            else {
+                createOre(ore, rockType, global.ORE_MINING_TIERS[ore])
+            }
         })
 
         global.TFC_ORES.forEach(ore =>{
@@ -74,10 +79,12 @@ StartupEvents.registry("block", event =>{
             })
         })
 
-        global.FIRMALIFE_ORES.forEach(ore =>{
-            ORE_BLOCK_GRADES.forEach(grade =>{
-                createOre(grade + "_" + ore, rockType, global.ORE_MINING_TIERS[ore])
+        if (Platform.isLoaded("firmalife")){
+            global.FIRMALIFE_ORES.forEach(ore =>{
+                ORE_BLOCK_GRADES.forEach(grade =>{
+                    createOre(grade + "_" + ore, rockType, global.ORE_MINING_TIERS[ore])
+                })
             })
-        })
+        }
     })
 })

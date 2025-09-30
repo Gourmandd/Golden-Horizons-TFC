@@ -16,7 +16,8 @@ StartupEvents.registry("block", event =>{
     Object.keys(global.STONE_TO_COBBLESTONE).forEach(rock_type =>{
 
         event.create(`rock/mortared_cobble/${rock_type}`)
-            /* getting 1.21 running.textureAll(global.STONE_TO_COBBLESTONE_TEXTURE[rock_type])*/
+            .parentModel("block/cube_all")
+            .texture("all", global.STONE_TO_COBBLESTONE_TEXTURE[rock_type])
             .displayName(`Mortared ${nameProcessing(rock_type)}`)
             .soundType("stone")
             .tagBlock("minecraft:mineable/pickaxe")
@@ -29,19 +30,19 @@ StartupEvents.registry("block", event =>{
 
     global.DEEPER_DOWN_ROCK_TYPES.forEach(rock_type =>{
         
-        event.create(`rock/loose/${rock_type}`/* getting 1.21 running, "tfc:loose_rock"*/)
+
+        event.create(`rock/loose/${rock_type}`/* kjs tfc not updated yet , "tfc:loose_rock"*/)
             .displayName(`Loose ${nameProcessing(rock_type)} Rock`)
             .tagItem("tfc:any_knapping")
             .tagItem("tfc:rock_knapping")
             .tagBlock("minecraft:mineable/pickaxe")
             .tagBlock("tfc:loose_rocks")
-            /* getting 1.21 running.rockTypeModel("sedimentary")*/
+            /* kjs tfc not updated yet .rockTypeModel("sedimentary")*/
             .soundType("stone")
-            /* getting 1.21 running.textureAll(global.CUSTOM_ROCK_MODELS[rock_type])*/
-
+            .texture("all", global.CUSTOM_ROCK_MODELS[rock_type])
 
         event.create(`rock/hardened/${rock_type}`)
-            /* getting 1.21 running.model(global.CUSTOM_ROCK_MODELS[rock_type])*/
+            .parentModel(global.CUSTOM_ROCK_MODELS[rock_type])
             .displayName(`Hardened ${nameProcessing(rock_type)}`)
             .soundType("stone")
             .tagBlock("minecraft:mineable/pickaxe")
@@ -50,7 +51,8 @@ StartupEvents.registry("block", event =>{
             .requiresTool(true)
 
         event.create(`rock/cobble/${rock_type}`)
-            /* getting 1.21 running.textureAll(global.STONE_TO_COBBLESTONE_TEXTURE[rock_type])*/
+            .parentModel("block/cube_all")
+            .texture("all", global.STONE_TO_COBBLESTONE_TEXTURE[rock_type])
             .displayName(`${nameProcessing(rock_type)} Cobble`)
             .soundType("stone")
             .tagBlock("minecraft:mineable/pickaxe")
@@ -60,21 +62,18 @@ StartupEvents.registry("block", event =>{
             .requiresTool(true)
 
         event.create(`rock/cobble/${rock_type}_slab`, "slab")
-            /* getting 1.21 running.textureAll(global.STONE_TO_COBBLESTONE_TEXTURE[rock_type])*/
             .displayName(`${nameProcessing(rock_type)} Cobble Slab`)
             .soundType("stone")
             .tagBlock("minecraft:mineable/pickaxe")
             .requiresTool(true)
 
         event.create(`rock/cobble/${rock_type}_stairs`, "stairs")
-            /* getting 1.21 running.textureAll(global.STONE_TO_COBBLESTONE_TEXTURE[rock_type])*/
             .displayName(`${nameProcessing(rock_type)} Cobble Stairs`)
             .soundType("stone")
             .tagBlock("minecraft:mineable/pickaxe")
             .requiresTool(true)
 
         event.create(`rock/cobble/${rock_type}_wall`, "wall")
-            /* getting 1.21 running.textureAll(global.STONE_TO_COBBLESTONE_TEXTURE[rock_type])*/
             .displayName(`${nameProcessing(rock_type)} Cobble Wall`)
             .soundType("stone")
             .tagBlock("minecraft:mineable/pickaxe")

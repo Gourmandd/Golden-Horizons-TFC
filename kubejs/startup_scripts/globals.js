@@ -90,7 +90,8 @@ global.ROCK_TYPES = [
     "phyllite",
     "schist",
     "gneiss",
-    "marble"
+    "marble",
+    "tuff"
   ]
 
 global.SEDIMENTARY_ROCKS = [
@@ -100,7 +101,8 @@ global.SEDIMENTARY_ROCKS = [
   "conglomerate",
   "dolomite",
   "chert",
-  "chalk"
+  "chalk",
+  "tuff"
 ]
 
 global.METAMORPHIC_ROCKS = [
