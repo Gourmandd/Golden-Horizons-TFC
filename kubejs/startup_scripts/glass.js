@@ -8,43 +8,7 @@ StartupEvents.registry("item", event =>{
         event.create(`${colour}_lens`)
             .displayName(`${nameProcessing(colour)} Lens`)
     })
-
-    /* getting 1.21 running
-    event.create("glass_mold", 'tfc:mold')
-        .capacity(800)
-        .fluidTagAccept("kubejs:molten_glass")
-    
-    event.create("glass_pane_mold", 'tfc:mold')
-        .capacity(50)
-        .fluidTagAccept("kubejs:molten_glass")
-    */
 })
-
-/*
-StartupEvents.registry("fluid", event =>{
-
-    global.DYE_COLOURS.forEach(colour => {
-        event.create(`glass/${colour}`, 'thin')
-            .displayName(`Molten ${nameProcessing(colour)} Glass`)
-            .tint(global.COLOUR_TO_HEX[colour])
-            .bucketColor(global.COLOUR_TO_HEX[colour])
-            .thickTexture(global.COLOUR_TO_HEX[colour])
-            .noBucket()
-            .noBlock()
-            .tag("tfc:molten_metals")
-            .tag("kubejs:molten_glass")
-    })
-
-    event.create("glass/clear", 'thin')
-        .displayName("Molten Clear Glass")
-        .tint(0xD4FBFB)
-        .bucketColor(0xD4FBFB)
-        .thickTexture(0xD4FBFB)
-        .noBucket()
-        .noBlock()
-        .tag("tfc:molten_metals")
-        .tag("kubejs:molten_glass")
-})*/
 
 StartupEvents.registry("block", event =>{
 

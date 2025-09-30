@@ -1,8 +1,9 @@
+// requires: kubejs_tfc
+
 // -------------------------------------------- //
 // Registers wild and living crops and plants   //
 // -------------------------------------------- //
 
-/* getting 1.21 running
 StartupEvents.registry("block", event =>{
 
     event.create("kubejs:plant/wild_cotton", "tfc:wild_crop")
@@ -113,4 +114,3 @@ StartupEvents.registry("block", event =>{
         })
     
 })
-*/

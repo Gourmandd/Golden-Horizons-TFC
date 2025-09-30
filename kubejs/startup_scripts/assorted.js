@@ -16,23 +16,6 @@ StartupEvents.registry("item", event =>{
 
     event.create("raw_aluminium_mixture").displayName("Raw Aluminium Mixture")
     event.create("aluminium_nugget").displayName("Aluminium Nugget")
-
-    /* getting 1.21 running
-    event.create("metal/bucket/wrought_iron", "tfc:fluid_container")
-        .displayName("Wrought Iron Bucket")
-        .canPlaceLiquid(true)
-        .canPlaceLiquidSource(true)
-        .capacity(1000)
-        .fluidTagAccept("modpack:usable_in_wrought_iron_bucket")
-    
-    event.create("tool/snow_shovel_head").displayName("Snow Shovel Head")
-
-    event.create("tool/snow_shovel", "tfc:tool")
-        .displayName("Snow Shovel")
-        .mineableBlocksTag("modpack:snow_shovel_mineable")
-        .unstackable()
-        .maxDamage(3200)
-    */
 })
 
 
@@ -106,27 +89,5 @@ StartupEvents.registry("block", event =>{
     event.create("copper_machine").displayName("Copper Machine").tagBlock("minecraft:mineable/pickaxe").tagBlock("minecraft:mineable/axe")
     event.create("brass_machine").displayName("Brass Machine").tagBlock("minecraft:mineable/pickaxe").tagBlock("minecraft:mineable/axe")
 })
-
-
-StartupEvents.registry("fluid", event => {
-    /* getting 1.21 running
-    event.create("shale_clay_slurry", 'thin')
-        .displayName("Shale Clay Slurry")
-        .tint(0x4E4664)
-        .bucketColor(0x4E4664)
-        .thinTexture(0x4E4664)
-        .noBucket()
-        .noBlock()
-
-    event.create("filtered_shale_clay_slurry", 'thin')
-        .displayName("Filtered Shale Clay Slurry")
-        .tint(0x746D89)
-        .bucketColor(0x746D89)
-        .thinTexture(0x746D89)
-        .noBucket()
-        .noBlock()
-    */
-})
-
 
 Platform.mods.kubejs.name = 'Horizons'

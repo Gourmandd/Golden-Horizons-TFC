@@ -2,16 +2,6 @@
 // Registers ore blocks for TFCified Spectrum ores  //
 // ------------------------------------------------ //
 
-
-// Tried to register the same kind of block as the Spectrum ores.
-/*
-let $ShimmerstoneOreBlock = Java.loadClass("de.dafuqs.spectrum.registries.SpectrumBlocks")
-let $UniformInt = Java.loadClass("net.minecraft.util.valueproviders.UniformInt")
-let $FabricBlockSettings = Java.loadClass("net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings")
-let $SpectrumAdvancements = Java.loadClass("de.dafuqs.spectrum.registries.SpectrumAdvancements")
-let $Blocks = Java.loadClass("net.minecraft.world.level.block.Blocks")
-*/
-
 StartupEvents.registry("block", event =>{
 
     function createOre(name, rock, tierTag){
@@ -90,11 +80,4 @@ StartupEvents.registry("block", event =>{
             })
         })
     })
-    
-
-
-    
-    //event.createCustom("kubejs:shimmerore", new $ShimmerstoneOreBlock($FabricBlockSettings.copyOf($Blocks.IRON_ORE).ticksRandomly(), $UniformInt.CODEC.intRange(2, 4), $SpectrumAdvancements.REVEAL_SHIMMERSTONE, $Blocks.STONE.defaultBlockState) )
-
-
 })
