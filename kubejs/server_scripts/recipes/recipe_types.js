@@ -4,6 +4,15 @@
 // Contains common functions for recipes and data //
 // ---------------------------------------------- //
 
+
+
+
+
+
+// NOTICE: TO BE REPLACED BY datagen.js
+
+
+
 // farmers delight cutting
 function cutting(event, input, output, action, id){
     event.custom({
