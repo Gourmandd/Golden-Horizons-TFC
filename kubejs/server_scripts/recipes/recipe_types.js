@@ -4,24 +4,27 @@
 // Contains common functions for recipes and data //
 // ---------------------------------------------- //
 
-
-
 // farmers delight cutting
 function cutting(event, input, output, action, id){
     event.custom({
         "type": "farmersdelight:cutting",
         "ingredients": [
           {
+            "count": 1,
             "tag": input
           }
         ],
         "result": [
           {
+            "count": 1,
             "id": output
           }
         ],
+        "sound": {
+          "sound_id": "minecraft:item.axe.strip"
+        },
         "tool": {
-          "type": "farmersdelight:tool_action",
+          "type": "farmersdelight:item_ability",
           "action": action
         }}).id(`modpack:cutting_board/${id}`)
 }
@@ -73,14 +76,15 @@ function scaleablePotRecipeItem(event, input, inputFluid, fluidAmount, outputIte
 function doliumRestingFluid(event, fluid, fluidAmount, outputItem, id){
   event.custom({
     "type": "caupona:dolium",
-    "amount": fluidAmount,
     "base": "caupona:stock",
     "density": 0.25,
-    "fluid": fluid,
+    "fluid": {
+      "fluid": fluid,
+      "amount": fluidAmount
+    },
     "items": [],
     "keepInfo": false,
     "output": {
-      "type": "forge:nbt",
       "count": 1,
       "id": outputItem
     }}).id(`modpack:dolium_resting/${id}`)
@@ -89,30 +93,16 @@ function doliumRestingFluid(event, fluid, fluidAmount, outputItem, id){
 function rolling(event, input, output, outputAmount, id){
   event.custom({
       "type": "createaddition:rolling",
-      "input": {
-        "item": input
-      },
-      "result": {
-        "id": output,
-        "count": outputAmount
-      }
+      "ingredients": [
+        {
+          "item": input
+        }
+      ],
+      "results": [
+        {
+          "id": output,
+          "count": outputAmount
+        }
+      ]
     }).id(`modpack:rolling/${id}`)
 }
-
-/*
-def aspic_from_soup_dolium(soup):
-    rm.recipe("caupona/"+ soup + "_dolium_aspic","caupona:dolium",
-    {
-    "amount": 250,
-    "base": "caupona:stock",
-    "density": 0.25,
-    "fluid": "caupona:" + soup,
-    "items": [],
-    "keepInfo": False,
-    "output": {
-      "type": "forge:nbt",
-      "count": 1,
-      "item": "caupona:" + soup + "_aspic"
-    }
-    })
-*/

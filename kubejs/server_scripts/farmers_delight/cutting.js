@@ -47,12 +47,14 @@ ServerEvents.recipes(event =>{
             "type": "farmersdelight:cutting",
             "ingredients": [ingredients],
             "result": [{
-                "item": output,
-                "chance": output_chance,
-                "count": output_count
+                "item": {
+                    "id": output,
+                    "chance": output_chance,
+                    "count": output_count
+                }
             }],
             "tool": {
-                "type": "farmersdelight:tool_action",
+                "type": "farmersdelight:item_ability",
                 "action": action
             }
         })
@@ -62,6 +64,9 @@ ServerEvents.recipes(event =>{
     global.OVERWORLD_WOOD_TYPES.forEach(type => {
 
         let mod = global.WOOD_TYPE_TO_MOD[type]
+
+            if (!Platform.isLoaded("afc" && mod == "afc")){return}
+            
             cutting(`modpack:fd_cutting/wood/${mod}_lumber/${type}`, `modpack:cutting/wood/for_lumber/${type}`, "tag",  `${mod}:wood/lumber/${type}`, "axe_dig", 1, 1)
             cutting(`modpack:fd_cutting/wood/${mod}_planks/${type}`, `modpack:cutting/wood/for_planks/${type}`, "tag",  `${mod}:wood/planks/${type}`, "axe_dig", 1, 1)
     })
