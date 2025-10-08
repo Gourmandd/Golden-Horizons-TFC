@@ -1,0 +1,50 @@
+{
+	"background_u_index": 0,
+	"background_v_index": 0,
+	"category": "modpack:general",
+	"description": "book.modpack.guide.general.food.description",
+	"hide_while_locked": true,
+	"icon": {
+		"height": 16,
+		"texture": "tfc:textures/item/firepit.png",
+		"width": 16
+	},
+	"name": "book.modpack.guide.general.food.name",
+	"pages": [
+		{
+			"type": "modonomicon:text",
+			"anchor": "",
+			"use_markdown_title": false,
+			"show_title_separator": true,
+			"text": "book.modpack.guide.general.firepit.page1.text",
+			"title": "book.modpack.guide.general.firepit.name"
+		},
+		{
+			"type": "modonomicon:multiblock",
+			"anchor": "",
+			"multiblock_name": "book.modpack.guide.general.firepit.name",
+			"multiblock_id": "modpack:firepit",
+			"text": "book.modpack.guide.general.firepit.page2.text",
+			"show_visualize_button": false
+		},
+		{
+			"type": "modonomicon:image",
+			"anchor": "",
+			"title": "book.modpack.guide.general.firepit.name",
+			"images": [
+				"tfc:textures/gui/book/gui/firepit.png"
+			],
+			"use_legacy_rendering": false,
+			"text": "book.modpack.guide.general.firepit.page3.text",
+			"border": false
+		}
+	],
+	"show_when_any_parent_unlocked": false,
+	"parents": [
+		{
+			"entry": "modpack:general/sticks_and_stones"
+		}
+	],
+	"x": 4,
+	"y": -2
+}

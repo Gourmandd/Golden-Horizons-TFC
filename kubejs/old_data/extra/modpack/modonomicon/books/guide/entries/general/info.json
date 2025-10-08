@@ -1,0 +1,35 @@
+{
+	"background_u_index": 0,
+	"background_v_index": 0,
+	"category": "modpack:general",
+	"description": "book.modpack.guide.general.info.description",
+	"hide_while_locked": true,
+	"icon": {
+		"height": 16,
+		"texture": "minecraft:textures/item/book.png",
+		"width": 16
+	},
+	"name": "book.modpack.guide.general.info.name",
+	"pages": [
+		{
+			"type": "modonomicon:text",
+			"anchor": "",
+			"use_markdown_title": false,
+			"show_title_separator": true,
+			"text": "book.modpack.guide.general.info.page1.text",
+			"title": "book.modpack.guide.general.info.page1.title"
+		},
+		{
+			"type": "modonomicon:text",
+			"anchor": "",
+			"use_markdown_title": false,
+			"show_title_separator": true,
+			"text": "book.modpack.guide.general.info.page2.text",
+			"title": "book.modpack.guide.general.info.page2.title"
+		}
+	],
+	"show_when_any_parent_unlocked": false,
+	"parents": [],
+	"x": 0,
+	"y": -1
+}

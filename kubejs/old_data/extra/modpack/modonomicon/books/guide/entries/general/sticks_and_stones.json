@@ -1,0 +1,52 @@
+{
+	"background_u_index": 0,
+	"background_v_index": 0,
+	"category": "modpack:general",
+	"description": "book.modpack.guide.general.sticks_and_stones.description",
+	"hide_while_locked": true,
+	"icon": {
+		"height": 16,
+		"texture": "tfc:textures/item/loose_rock/gabbro.png",
+		"width": 16
+	},
+	"name": "book.modpack.guide.general.sticks_and_stones.name",
+	"pages": [
+		{
+			"type": "modonomicon:image",
+			"anchor": "",
+			"title": "book.modpack.guide.general.sticks_and_stones.page1.title",
+			"images": [
+				"tfc:textures/gui/book/gui/rock_knapping.png"
+			],
+			"use_legacy_rendering": false,
+			"text": "book.modpack.guide.general.sticks_and_stones.page1.text",
+			"border": false
+		},
+		{
+			"type": "modonomicon:crafting_recipe",
+			"anchor": "",
+			"text": "book.modpack.guide.general.sticks_and_stones.page2.text",
+			"recipe_id_1": "tfc:crafting/stone/axe_igneous_extrusive",
+			"recipe_id_2": "",
+			"title1": "book.modpack.guide.general.sticks_and_stones.page2.title",
+			"title2": ""
+		},
+		{
+			"type": "modonomicon:crafting_recipe",
+			"anchor": "",
+			"text": "book.modpack.guide.general.sticks_and_stones.page3.text",
+			"recipe_id_1": "tfc:crafting/stone/knife_igneous_extrusive",
+			"recipe_id_2": "",
+			"title1": "book.modpack.guide.general.sticks_and_stones.page3.title",
+			"title2": ""
+		}
+	],
+	"show_when_any_parent_unlocked": false,
+	"parents": [
+		{
+			"entry": "modpack:general/intro"
+		}
+	],
+	"x": 2,
+	"y": 0
+}
