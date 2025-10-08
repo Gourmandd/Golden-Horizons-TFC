@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "kubejs:rock/loose/blackslag",
+        "kubejs:rock/loose/picrite_basalt",
+        "kubejs:rock/loose/nephelinite"
+    ]
+}

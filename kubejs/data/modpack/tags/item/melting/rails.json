@@ -1,0 +1,9 @@
+{
+  "values": [
+    "minecraft:powered_rail",
+    "minecraft:rail",
+    "minecraft:detector_rail",
+    "minecraft:activator_rail",
+    "create:controller_rail"
+  ]
+}

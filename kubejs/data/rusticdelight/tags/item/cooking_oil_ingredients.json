@@ -1,0 +1,10 @@
+{
+    "replace": true,
+    "values": [
+        "tfc:seeds/soybean",
+        "tfc:seeds/squash",
+        "tfc:seeds/pumpkin",
+        "tfc:seeds/onion",
+        "tfc:seeds/oat"
+    ]   
+}

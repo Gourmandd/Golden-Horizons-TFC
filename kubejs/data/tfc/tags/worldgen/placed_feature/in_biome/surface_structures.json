@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [ 
+        "#tfc:feature/terracotta_boulders",
+        "#tfc:feature/terracotta_patches"
+]
+}

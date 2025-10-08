@@ -1,0 +1,11 @@
+{
+	"replace": true,
+	"values": [
+        "#c:foods/raw_chicken",
+        "tfc:food/pheasant",
+        "tfc:food/turkey",
+        "tfc:food/duck",
+        "tfc:food/grouse",
+        "tfc:food/peafowl"
+	]
+}

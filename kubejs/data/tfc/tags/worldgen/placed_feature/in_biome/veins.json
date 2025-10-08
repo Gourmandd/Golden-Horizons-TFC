@@ -1,0 +1,12 @@
+{
+    "replace": false,
+    "values": [
+        "pastel:citrine_geode",
+        "pastel:topaz_geode",
+        "minecraft:amethyst_geode",
+        "modpack:vein/shimmerstone",
+        "modpack:vein/azurite",
+        "modpack:vein/stratine",
+        "modpack:vein/paltaeria"
+    ]    
+}

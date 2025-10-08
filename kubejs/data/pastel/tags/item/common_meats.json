@@ -1,0 +1,8 @@
+{
+    "replace": true,
+    "values": [
+        "tfc:food/cooked_beef",
+        "tfc:food/cooked_mutton",
+        "tfc:food/cooked_chicken"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:deepslate",
+    "minecraft:stone",
+    "pastel:blackslag",
+    "kubejs:rock/hardened/nephelinite",
+    "kubejs:rock/hardened/argillite",
+    "kubejs:rock/hardened/blackslag"
+  ]
+}

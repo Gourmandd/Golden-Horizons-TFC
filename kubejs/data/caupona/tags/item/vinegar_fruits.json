@@ -1,0 +1,15 @@
+{
+    "replace": true,
+    "values":[
+        "firmalife:food/fig",
+        "firmalife:food/pineapple",
+        "tfc:food/banana",
+        "tfc:food/red_apple",
+        "tfc:food/green_apple",
+        "tfc:food/orange",
+        "tfc:food/lemon",
+        "tfc:food/peach",
+        "tfc:food/plum",
+        "tfc:food/melon_slice"
+    ]
+}

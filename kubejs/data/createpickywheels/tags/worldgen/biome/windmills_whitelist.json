@@ -1,0 +1,25 @@
+{
+    "replace": false,
+    "values": [
+        "tfc:badlands",
+        "tfc:canyons",
+        "tfc:deep_ocean",
+        "tfc:deep_ocean_trench",
+        "tfc:highlands",
+        "tfc:hills",
+        "tfc:inverted_badlands",
+        "tfc:lake",
+        "tfc:low_canyons",
+        "tfc:lowlands",
+        "tfc:ocean",
+        "tfc:ocean_reef",
+        "tfc:plains",
+        "tfc:plateau",
+        "tfc:plateau_lake",
+        "tfc:river",
+        "tfc:rolling_hills",
+        "tfc:salt_marsh",
+        "tfc:shore",
+        "tfc:tidal_flats"
+    ]
+}

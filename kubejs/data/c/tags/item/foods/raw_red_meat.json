@@ -1,0 +1,17 @@
+{
+	"replace": true,
+	"values": [
+        "#c:foods/raw_mutton",
+        "#c:foods/raw_pork",
+        "#c:foods/raw_beef",
+        "tfc:food/bear",
+        "tfc:food/horse_meat",
+        "tfc:food/venison",
+        "tfc:food/wolf",
+        "tfc:food/hyena",
+        "tfc:food/chevon",
+        "tfc:food/gran_feline",
+        "tfc:food/turtle",
+        "tfc:food/camelidae"
+	]
+}

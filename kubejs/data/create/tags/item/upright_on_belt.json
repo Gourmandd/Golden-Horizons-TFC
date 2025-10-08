@@ -1,0 +1,287 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "farmersdelight:tomato_sauce"
+        },
+        {
+            "id": "farmersdelight:stuffed_pumpkin_block"
+        },
+        {
+            "id": "farmersdelight:honey_glazed_ham_block"
+        },
+        {
+            "id": "farmersdelight:stuffed_pumpkin"
+        },
+        {
+            "id": "farmersdelight:honey_glazed_ham"
+        },
+        {
+            "id": "farmersdelight:shepherds_pie_block"
+        },
+        {
+            "id": "farmersdelight:shepherds_pie"
+        },
+        {
+            "id": "farmersdelight:rice_roll_medley_block"
+        },
+        {
+            "id": "farmersdelight:dog_food"
+        },
+        {
+            "id": "rusticdelight:syrup_cheesecake"
+        },
+        {
+            "id": "rusticdelight:cherry_blossom_cheesecake"
+        },
+        {
+            "id": "rusticdelight:pancakes"
+        },
+        {
+            "id": "rusticdelight:honey_pancakes"
+        },
+        {
+            "id": "rusticdelight:chocolate_pancakes"
+        },
+        {
+            "id": "rusticdelight:cherry_blossom_pancakes"
+        },
+        {
+            "id": "rusticdelight:vegetable_pancakes"
+        },
+        {
+            "id": "rusticdelight:pumpkin_pancakes"
+        },
+        {
+            "id": "rusticdelight:sweet_salad"
+        },
+        {
+            "id": "rusticdelight:bell_pepper_soup"
+        },
+        {
+            "id": "rusticdelight:bell_pepper_pasta"
+        },
+        {
+            "id": "rusticdelight:fried_chicken"
+        },
+        {
+            "id": "rusticdelight:fried_calamari"
+        },
+        {
+            "id": "rusticdelight:fried_mushrooms"
+        },
+        {
+            "id": "rusticdelight:coffee_braised_beef"
+        },
+        {
+            "id": "rusticdelight:rice_roll_royale"
+        },
+        {
+            "id": "corn_delight:creamed_corn"
+        },
+        {
+            "id": "corn_delight:corn_soup"
+        },
+        {
+            "id": "corn_delight:nachos_bowl"
+        },
+        {
+            "id": "corn_delight:popcorn_box"
+        },
+        {
+            "id": "corn_delight:nachos_block"
+        },
+        {
+            "id": "corn_delight:cornbread_stuffing"
+        },
+        {
+            "id": "farmersdelight:cooked_rice"
+        },
+        {
+            "id": "farmersdelight:bone_broth"
+        },
+        {
+            "id": "farmersdelight:beef_stew"
+        },
+        {
+            "id": "farmersdelight:chicken_soup"
+        },
+        {
+            "id": "farmersdelight:vegetable_soup"
+        },
+        {
+            "id": "farmersdelight:fish_stew"
+        },
+        {
+            "id": "farmersdelight:fried_rice"
+        },
+        {
+            "id": "farmersdelight:pumpkin_soup"
+        },
+        {
+            "id": "farmersdelight:baked_cod_stew"
+        },
+        {
+            "id": "farmersdelight:noodle_soup"
+        },
+        {
+            "id": "farmersdelight:roast_chicken"
+        },
+        {
+            "id": "farmersdelight:roast_chicken_block"
+        },
+        {
+            "id": "farmersdelight:grilled_salmon"
+        },
+        {
+            "id": "farmersdelight:squid_ink_pasta"
+        },
+        {
+            "id": "farmersdelight:ratatouille"
+        },
+        {
+            "id": "farmersdelight:vegetable_noodles"
+        },
+        {
+            "id": "farmersdelight:steak_and_potatoes"
+        },
+        {
+            "id": "farmersdelight:roasted_mutton_chops"
+        },
+        {
+            "id": "farmersdelight:mushroom_rice"
+        },
+        {
+            "id": "farmersdelight:pasta_with_mutton_chop"
+        },
+        {
+            "id": "farmersdelight:pasta_with_meatballs"
+        },
+        {
+            "id": "farmersdelight:bacon_and_eggs"
+        },
+        {
+            "id": "barbequesdelight:bibimbap"
+        },
+        {
+            "id": "quark:bottled_cloud"
+        },
+        {
+            "id": "minecraft:glass_bottle"
+        },
+        {
+            "id": "minecraft:experience_bottle"
+        },
+        {
+            "id": "spectrum:bottle_of_fading"
+        },
+        {
+            "id": "spectrum:bottle_of_failing"
+        },
+        {
+            "id": "spectrum:bottle_of_ruin"
+        },
+        {
+            "id": "spectrum:bottle_of_forfeiture"
+        },
+        {
+            "id": "spectrum:bottle_of_decay_away"
+        },
+        {
+            "id": "firmalife:volcanic_wine_bottle"
+        },
+        {
+            "id": "firmalife:hematitic_wine_bottle"
+        },
+        {
+            "id": "firmalife:olivine_wine_bottle"
+        },
+        {
+            "id": "farmersdelight:milk_bottle"
+        },
+        {
+            "id": "tfc:volcanic_glass_bottle"
+        },
+        {
+            "id": "tfc:olivine_glass_bottle"
+        },
+        {
+            "id": "tfc:hematitic_glass_bottle"
+        },
+        {
+            "id": "tfc:silica_glass_bottle"
+        },
+        {
+            "id": "tfc:ceramic/jug"
+        },
+        {
+            "id": "kubejs:ceramic/kaolinite_jug"
+        },
+        {
+            "id": "kubejs:ceramic/yixing_jug"
+        },
+        {
+            "id": "kubejs:ceramic/yellowware_jug"
+        },
+        {
+            "id": "kubejs:ceramic/earthenware_jug"
+        },
+        {
+            "id": "kubejs:ceramic/porcelain_jug"
+        },
+        {
+            "id": "tfc:metal/bucket/blue_steel"
+        },
+        {
+            "id": "tfc:metal/bucket/red_steel"
+        },
+        {
+            "id": "tfc:wooden_bucket"
+        },
+        {
+            "id": "tfc:cake"
+        },
+        {
+            "id": "firmalife:food/vanilla_ice_cream"
+        },
+        {
+            "id": "firmalife:food/strawberry_ice_cream"
+        },
+        {
+            "id": "firmalife:food/chocolate_ice_cream"
+        },
+        {
+            "id": "firmalife:food/banana_split"
+        },
+        {
+            "id": "firmalife:food/cookie_dough_ice_cream"
+        },
+        {
+            "id": "firmalife:food/cooked_pie"
+        },
+        {
+            "id": "firmalife:food/cooked_pizza"
+        },
+        {
+            "id": "firmalife:jar/honey"
+        },
+        {
+            "id": "firmalife:jar/compost"
+        },
+        {
+            "id": "firmalife:jar/rotten_compost"
+        },
+        {
+            "id": "firmalife:jar/guano"
+        },
+        {
+            "id": "firmalife:watering_can"
+        },
+        {
+            "id": "firmalife:empty_jar_with_stainless_steel_lid"
+        },
+        {
+            "id": "firmalife:wine_glass"
+        }
+    ]
+}

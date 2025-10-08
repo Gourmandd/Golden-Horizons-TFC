@@ -1,0 +1,23 @@
+{
+    "replace": false,
+    "values":[
+        "tfc:food/beef",
+        "tfc:food/mutton",
+        "tfc:food/pork",
+        "tfc:food/cooked_beef",
+        "tfc:food/cooked_mutton",
+        "tfc:food/cooked_pork",
+        "tfc:food/gran_feline",
+        "tfc:food/camelidae",
+        "tfc:food/venison",
+        "tfc:food/hyena",
+        "tfc:food/chevon",
+        "tfc:food/wolf",
+        "tfc:food/cooked_gran_feline",
+        "tfc:food/cooked_camelidae",
+        "tfc:food/cooked_venison",
+        "tfc:food/cooked_hyena",
+        "tfc:food/cooked_chevon",
+        "tfc:food/cooked_wolf"
+    ]
+}

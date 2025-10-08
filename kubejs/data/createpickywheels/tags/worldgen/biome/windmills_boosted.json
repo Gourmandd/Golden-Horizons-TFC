@@ -1,0 +1,15 @@
+{
+    "replace": false,
+    "values": [
+        "tfc:mountain_lake",
+        "tfc:mountains",
+        "tfc:oceanic_mountain_lake",
+        "tfc:oceanic_mountains",
+        "tfc:old_mountain_lake",
+        "tfc:old_mountains",
+        "tfc:volcanic_mountain_lake",
+        "tfc:volcanic_mountains",
+        "tfc:volcanic_oceanic_mountain_lake",
+        "tfc:volcanic_oceanic_mountains"
+    ]
+}

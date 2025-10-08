@@ -1,0 +1,11 @@
+{
+  "values": [
+    "createaddition:electrum_ingot",
+    "createaddition:electrum_nugget",
+    "createaddition:electrum_wire",
+    "createaddition:electrum_sheet",
+    "createaddition:electrum_rod",
+    "createaddition:electrum_spool",
+    "createaddition:electrum_amulet"
+  ]
+}

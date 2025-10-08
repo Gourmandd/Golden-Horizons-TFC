@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+        "pastel:shale_clay",
+        "pastel:shimmel",
+        "pastel:slush",
+        "pastel:black_materia",
+        "pastel:overgrown_blackslag",
+        "pastel:overgrown_slush",
+        "pastel:sawblade_grass",
+        "pastel:pyrite",
+        "pastel:black_sludge",
+        "pastel:rock_crystal",
+        "pastel:ash",
+        "pastel:rotten_ground"
+    ]
+}

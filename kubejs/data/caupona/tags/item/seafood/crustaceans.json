@@ -1,0 +1,14 @@
+{
+    "replace": false,
+    "values": [
+        "tfc:food/shellfish",
+        "tfc:food/cooked_shellfish",
+        "tfc:food/frog_legs",
+        "tfc:food/cooked_frog_legs",
+        "tfc:food/calamari",
+        "tfc:food/cooked_calamari",
+        "tfc:groundcover/mussel",
+        "tfc:groundcover/mollusk"
+        
+    ]
+}

@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "modpack:terracotta/boulder_white",
+    "modpack:terracotta/boulder_brown",
+    "modpack:terracotta/boulder_green",
+    "modpack:terracotta/boulder_orange",
+    "modpack:terracotta/boulder_magenta",
+    "modpack:terracotta/boulder_red",
+    "modpack:terracotta/boulder_black",
+    "modpack:terracotta/boulder_light_blue",
+    "modpack:terracotta/boulder_yellow",
+    "modpack:terracotta/boulder_lime",
+    "modpack:terracotta/boulder_pink",
+    "modpack:terracotta/boulder_gray",
+    "modpack:terracotta/boulder_light_gray",
+    "modpack:terracotta/boulder_cyan",
+    "modpack:terracotta/boulder_purple",
+    "modpack:terracotta/boulder_blue"
+  ]
+}

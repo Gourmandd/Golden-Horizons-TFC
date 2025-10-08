@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "#caupona:boilable",
+        "kubejs:boiled_water"
+    ]
+}

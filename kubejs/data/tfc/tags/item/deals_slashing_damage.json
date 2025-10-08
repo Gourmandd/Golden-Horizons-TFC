@@ -1,0 +1,23 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "replace": false,
+  "values": [
+    "magistuarmory:copper_lochaberaxe",
+    "magistuarmory:copper_katzbalger",
+    "magistuarmory:copper_estoc",
+    "magistuarmory:copper_claymore",
+    "magistuarmory:copper_zweihander",
+    "magistuarmory:messer_sword",
+    "magistuarmory:noble_sword",
+    "magistuarmory:steel_lochaberaxe",
+    "magistuarmory:steel_katzbalger",
+    "magistuarmory:steel_estoc",
+    "magistuarmory:steel_claymore",
+    "magistuarmory:steel_zweihander",
+    "magistuarmory:bronze_lochaberaxe",
+    "magistuarmory:bronze_katzbalger",
+    "magistuarmory:bronze_estoc",
+    "magistuarmory:bronze_claymore",
+    "magistuarmory:bronze_zweihander"
+  ]
+}
