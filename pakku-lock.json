@@ -1332,6 +1332,75 @@
             ]
         },
         {
+            "pakku_id": "46wp61Rwh2vCtorK",
+            "pakku_links": [
+                "B9rCrTdjB1Frl92q"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "corals-tfc",
+                "modrinth": "corals-tfc"
+            },
+            "name": {
+                "curseforge": "Corals TFC",
+                "modrinth": "Corals TFC // 1.18.2 // 1.20.1 //"
+            },
+            "id": {
+                "curseforge": "950924",
+                "modrinth": "RzMcpTLU"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "coralstfc-1.21.1-neoforge-1.0.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7049/181/coralstfc-1.21.1-neoforge-1.0.0.jar",
+                    "id": "7049181",
+                    "parent_id": "950924",
+                    "hashes": {
+                        "sha1": "f2d7582826f7342899bb159cc0d59de95411b0c8",
+                        "md5": "73d8ba70b85a1ffe0bb88eacdb3375b2"
+                    },
+                    "required_dependencies": [
+                        "302973"
+                    ],
+                    "size": 84639,
+                    "date_published": "2025-09-30T15:59:23.017Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "coralstfc-1.21.1-neoforge-1.0.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/RzMcpTLU/versions/pesMiAN9/coralstfc-1.21.1-neoforge-1.0.0.jar",
+                    "id": "pesMiAN9",
+                    "parent_id": "RzMcpTLU",
+                    "hashes": {
+                        "sha512": "2bdd4c1819c15318a264b33bb0afa1056cc1e9a135cb678c4f36b537cd92b1e6e4b2e963dbb5dac0dba3a49d30fa07d144dac80fb593b11f59591d07b4a9972d",
+                        "sha1": "f2d7582826f7342899bb159cc0d59de95411b0c8"
+                    },
+                    "required_dependencies": [
+                        "JaCEZUhg"
+                    ],
+                    "size": 84639,
+                    "date_published": "2025-10-04T17:02:22.946713Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "cVguNnH1T7T8TwoH",
             "pakku_links": [
                 "kyoI3cFLp8p0Mvsa",
@@ -2638,6 +2707,78 @@
                     "required_dependencies": [],
                     "size": 2964387,
                     "date_published": "2025-08-23T01:51:13.085952Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "b4M8Qti6bsf9PE2l",
+            "pakku_links": [
+                "B9rCrTdjB1Frl92q",
+                "kyoI3cFLp8p0Mvsa"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "farmers-delight-tfc",
+                "modrinth": "farmers-delight-tfc"
+            },
+            "name": {
+                "curseforge": "Farmer's Delight TFC",
+                "modrinth": "Farmer's Delight TFC"
+            },
+            "id": {
+                "curseforge": "951750",
+                "modrinth": "WXhDTEXL"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "FarmersDelight_TFC-1.21.1-neoforge-1.0.6.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7058/370/FarmersDelight_TFC-1.21.1-neoforge-1.0.6.jar",
+                    "id": "7058370",
+                    "parent_id": "951750",
+                    "hashes": {
+                        "sha1": "7ca0d5bec00282dae6e78ece098702300ef3228c",
+                        "md5": "453cde1c1a217ece0317d7e20313e424"
+                    },
+                    "required_dependencies": [
+                        "302973",
+                        "398521"
+                    ],
+                    "size": 396384,
+                    "date_published": "2025-10-02T16:24:08.690Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "FarmersDelight_TFC-1.21.1-neoforge-1.0.6.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/WXhDTEXL/versions/EneZaUPT/FarmersDelight_TFC-1.21.1-neoforge-1.0.6.jar",
+                    "id": "EneZaUPT",
+                    "parent_id": "WXhDTEXL",
+                    "hashes": {
+                        "sha512": "b917fe912391dd02b91c943860830133479ca6d5e38802683a7183877ca47721c9d088efee700ea4a9ff06d0b2a7a1643bb95bc34503a43d57a79439db6c58fc",
+                        "sha1": "7ca0d5bec00282dae6e78ece098702300ef3228c"
+                    },
+                    "required_dependencies": [
+                        "R2OftAxM",
+                        "JaCEZUhg"
+                    ],
+                    "size": 396384,
+                    "date_published": "2025-10-04T16:58:53.344360Z"
                 }
             ]
         },
@@ -4761,6 +4902,72 @@
                     "required_dependencies": [],
                     "size": 606139,
                     "date_published": "2025-09-01T22:40:14.158816Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "wr2g27YU0zzsaS6D",
+            "pakku_links": [
+                "B9rCrTdjB1Frl92q"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "precision-prospecting",
+                "modrinth": "precision-prospecting"
+            },
+            "name": {
+                "curseforge": "Precision Prospecting",
+                "modrinth": "Precision Prospecting"
+            },
+            "id": {
+                "curseforge": "700638",
+                "modrinth": "QV5ehY9M"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "precisionprospecting-1.21.1-2.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7020/720/precisionprospecting-1.21.1-2.0.jar",
+                    "id": "7020720",
+                    "parent_id": "700638",
+                    "hashes": {
+                        "sha1": "8103cfc618b100e5288229879f809c3a20ce1f83",
+                        "md5": "aa85474fbc4a3d440fca8e9436064e06"
+                    },
+                    "required_dependencies": [],
+                    "size": 377938,
+                    "date_published": "2025-09-21T22:14:28.323Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "precisionprospecting-1.21.1-2.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/QV5ehY9M/versions/B4SfTaV6/precisionprospecting-1.21.1-2.0.jar",
+                    "id": "B4SfTaV6",
+                    "parent_id": "QV5ehY9M",
+                    "hashes": {
+                        "sha512": "b341d4654da0522671b840eac81e1df755612cbb1ac29a2374267d8029efc3d38aa0f68a68ce1e574a3337370a4b285216677935c774767369ae858b8e3c6032",
+                        "sha1": "8103cfc618b100e5288229879f809c3a20ce1f83"
+                    },
+                    "required_dependencies": [
+                        "JaCEZUhg"
+                    ],
+                    "size": 377938,
+                    "date_published": "2025-09-21T22:14:35.085941Z"
                 }
             ]
         },
