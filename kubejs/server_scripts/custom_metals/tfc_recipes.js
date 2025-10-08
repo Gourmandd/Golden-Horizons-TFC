@@ -2,8 +2,6 @@
 // requires: kubejs_tfc
 
 ServerEvents.recipes(event =>{
-
-    addCreateRecipeHandler(event);
     
     global.KUBEJS_METALS.forEach(metal => {
 
@@ -38,6 +36,4 @@ ServerEvents.recipes(event =>{
         event.recipes.tfc.heating(`kubejs:metal/double_sheet/${metal}`, global.MELTING_POINTS[metal]).resultFluid(Fluid.of(global.METAL_FLUIDS[metal], 400)).id(`modpack:heating/double_sheet/${metal}`)
         event.recipes.tfc.heating(`kubejs:metal/rod/${metal}`, global.MELTING_POINTS[metal]).resultFluid(Fluid.of(global.METAL_FLUIDS[metal], 50)).id(`modpack:heating/rod/${metal}`)
     })
-    
-    event.recipes.create.finalize();
 })

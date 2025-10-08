@@ -5,8 +5,9 @@
 
 ServerEvents.recipes(event =>{
 
-    addCreateRecipeHandler(event);
-       
+    let datagen = Datagen(event).recipe()
+    const ITEM = IO_TYPE.ITEM
+
     const LOG_TYPES = [
         "wood",
         "log"
@@ -17,22 +18,34 @@ ServerEvents.recipes(event =>{
     global.TFC_WOOD_TYPES.forEach(wood =>{
         //stripped logs from logs
         LOG_TYPES.forEach(type =>{
-            event.recipes.create.cutting(`tfc:wood/stripped_${type}/${wood}`, Item.of(`tfc:wood/${type}/${wood}`)).processingTime(CUTTING_TIME)
+
+            datagen.createCutting(outputOf(ITEM, `tfc:wood/stripped_${type}/${wood}`, 1, 1), inputOf(ITEM, `tfc:wood/${type}/${wood}`, 1))
+                .processingTime(CUTTING_TIME)
                 .id(`modpack:cutting/tfc/${type}/stripping/${wood}`)
-            event.recipes.create.cutting(Item.of(`tfc:wood/planks/${wood}`, 4), Item.of(`tfc:wood/stripped_${type}/${wood}`)).processingTime(CUTTING_TIME)
+                .generate()
+
+            datagen.createCutting(outputOf(ITEM, `tfc:wood/planks/${wood}`, 4, 1), inputOf(ITEM, `tfc:wood/stripped_${type}/${wood}`, 1))
+                .processingTime(CUTTING_TIME)
                 .id(`modpack:cutting/tfc/${type}to_planks/${wood}`)
+                .generate()
         })     
-        event.recipes.create.cutting(Item.of(`tfc:wood/lumber/${wood}`, 4), Item.of(`tfc:wood/planks/${wood}`)).processingTime(CUTTING_TIME)
-            .id(`modpack:cutting/tfc/into_lumber/${wood}`)   
+
+        datagen.createCutting(outputOf(ITEM, `tfc:wood/lumber/${wood}`, 4, 1), inputOf(ITEM, `tfc:wood/planks/${wood}`, 1))
+            .processingTime(CUTTING_TIME)
+            .id(`modpack:cutting/tfc/into_lumber/${wood}`)
+            .generate()
     })
 
     global.TFC_METALS.forEach(metal =>{
-        event.recipes.create.cutting(Item.of(`tfc:metal/double_ingot/${metal}`, 2), `tfc:metal/double_sheet/${metal}`).processingTime(CUTTING_TIME)
-            .id(`modpack:cutting/double_sheet/${metal}`, )
-        
-        event.recipes.create.cutting(Item.of(`tfc:metal/ingot/${metal}`, 2), `tfc:metal/double_ingot/${metal}`).processingTime(CUTTING_TIME)
-            .id(`modpack:cutting/double_ingot/${metal}`, )
+
+        datagen.createCutting(outputOf(ITEM, `tfc:metal/double_ingot/${metal}`, 2, 1), inputOf(ITEM, `tfc:metal/double_sheet/${metal}`, 1))
+            .processingTime(CUTTING_TIME)
+            .id(`modpack:cutting/double_sheet/${metal}`)
+            .generate()
+
+        datagen.createCutting(outputOf(ITEM, `tfc:metal/ingot/${metal}`, 2, 1), inputOf(ITEM, `tfc:metal/double_ingot/${metal}`, 1))
+            .processingTime(CUTTING_TIME)
+            .id(`modpack:cutting/double_ingot/${metal}`)
+            .generate()
     })
-    
-    event.recipes.create.finalize(); 
 })

@@ -7,7 +7,8 @@
 
 ServerEvents.recipes(event =>{
 
-    addCreateRecipeHandler(event);
+    let datagen = Datagen(event).recipe()
+    const ITEM = IO_TYPE.ITEM
 
     const LOG_TYPES = [
         "wood",
@@ -19,14 +20,21 @@ ServerEvents.recipes(event =>{
     global.AFC_WOOD_TYPES.forEach(wood =>{
         //stripped logs from logs
         LOG_TYPES.forEach(type =>{
-            event.recipes.create.cutting(`afc:wood/stripped_${type}/${wood}`, Item.of(`afc:wood/${type}/${wood}`)).processingTime(CUTTING_TIME)
-                .id(`modpack:cutting/afc/${type}/stripping/${wood}`)
-            event.recipes.create.cutting(Item.of(`afc:wood/planks/${wood}`, 4), Item.of(`afc:wood/stripped_${type}/${wood}`)).processingTime(CUTTING_TIME)
-                .id(`modpack:cutting/afc/${type}to_planks/${wood}`)
-        })  
-        event.recipes.create.cutting(Item.of(`afc:wood/lumber/${wood}`, 4), Item.of(`afc:wood/planks/${wood}`)).processingTime(CUTTING_TIME)
-            .id(`modpack:cutting/afc/into_lumber/${wood}`) 
-    })
 
-    event.recipes.create.finalize();
+            datagen.createCutting(outputOf(ITEM, `afc:wood/stripped_${type}/${wood}`, 1, 1), inputOf(ITEM, `afc:wood/${type}/${wood}`, 1))
+                .processingTime(CUTTING_TIME)
+                .id(`modpack:cutting/afc/${type}/stripping/${wood}`)
+                .generate()
+
+            datagen.createCutting(outputOf(ITEM, `afc:wood/planks/${wood}`, 4, 1), inputOf(ITEM, `afc:wood/stripped_${type}/${wood}`, 1))
+                .processingTime(CUTTING_TIME)
+                .id(`modpack:cutting/afc/${type}/to_planks/${wood}`)
+                .generate()
+        })  
+
+        datagen.createCutting(outputOf(ITEM, `afc:wood/lumber/${wood}`, 4, 1), inputOf(ITEM, `afc:wood/planks/${wood}`, 1))
+            .processingTime(CUTTING_TIME)
+            .id(`modpack:cutting/afc/into_lumber/${wood}`)
+            .generate()
+    })
 })

@@ -1,3 +1,6 @@
+// requires: spectrum
+// this makes this script effectivly disabled.
+
 // ---------------------------------------------------------------- //
 // Makes TFC Fluid containers work with Fabric fluid holding blocks //
 // ---------------------------------------------------------------- //

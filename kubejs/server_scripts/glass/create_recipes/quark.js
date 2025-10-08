@@ -3,8 +3,8 @@
 
 ServerEvents.recipes(event =>{
 
-    addCreateRecipeHandler(event);
-
+    console.log("INFO: PORT QUARK GLASS SCRIPT, QUARK HAS BEEN ADDED TO THE PACK")
+    /*
     global.DYE_COLOURS.forEach(colour =>{
 
             //Item application Recipes
@@ -27,7 +27,5 @@ ServerEvents.recipes(event =>{
         .id("modpack:recipes/crushing/glass/framed_clear")
 
     event.recipes.create.cutting(Item.of("quark:framed_glass_pane", 8), "quark:framed_glass")
-        .id("modpack:recipes/cutting/glass/framed_clear")
-
-    event.recipes.create.finalize();
+        .id("modpack:recipes/cutting/glass/framed_clear")*/
 })

@@ -280,15 +280,15 @@ function Datagen(event){
         this.createCompacting = function(output, input){
 
             this.location = null
-            this.heatRequirement = HEAT_REQUIREMENT.NONE
+            this.heat_requirement = HEAT_REQUIREMENT.NONE
 
             this.id = function(id){
                 this.location = id
                 return this
             }
 
-            this.setHeatRequirement = function(heatRequirement){
-                this.heatRequirement = heatRequirement
+            this.heatRequirement = function(heatRequirement){
+                this.heat_requirement = heatRequirement
                 return this
             }
 
@@ -300,7 +300,7 @@ function Datagen(event){
                 return {
                     type: "create:compacting",
                     ingredients: getIOArray(input),
-                    heat_requirement: this.heatRequirement,
+                    heat_requirement: this.heat_requirement,
                     results: getIOArray(output),
                 }
             }
@@ -316,15 +316,15 @@ function Datagen(event){
         this.createMixing = function(output, input){
 
             this.location = null
-            this.heatRequirement = HEAT_REQUIREMENT.NONE
+            this.heat_requirement = HEAT_REQUIREMENT.NONE
 
             this.id = function(id){
                 this.location = id
                 return this
             }
 
-            this.setHeatRequirement = function(heatRequirement){
-                this.heatRequirement = heatRequirement
+            this.heatRequirement = function(heatRequirement){
+                this.heat_requirement = heatRequirement
                 return this
             }
 
@@ -336,7 +336,7 @@ function Datagen(event){
                 return {
                     type: "create:mixing",
                     ingredients: getIOArray(input),
-                    heat_requirement: this.heatRequirement,
+                    heat_requirement: this.heat_requirement,
                     results: getIOArray(output),
                 }
             }
@@ -798,7 +798,7 @@ function inputOf(io_type, id, count){
     }
     if (io_type == IO_TYPE.ITEM_TAG){
         return {
-            "tag": id,
+            "tag": id.replace("#", ""),
             "count": count,
         }
     }
@@ -841,7 +841,7 @@ ServerEvents.recipes(event => {
 
 
     // These not only test the various features of the recipes, but also act as examples of how you can use these
-    const DO_DATAGEN_TESTS = true
+    const DO_DATAGEN_TESTS = false
 
     if (DO_DATAGEN_TESTS){
 
@@ -857,7 +857,7 @@ ServerEvents.recipes(event => {
         datagen.createHaunting(outputOf(ITEM, "minecraft:dirt", 1, 0.75), inputOf(ITEM, "minecraft:stone", 1)).id("modpack:haunting_test").generate()
         datagen.createSplashing(outputOf(ITEM, "minecraft:dirt", 1, 0.75), inputOf(ITEM, "minecraft:stone", 1)).id("modpack:splashing_test").generate()
 
-        datagen.createMixing(outputOf(ITEM, "minecraft:dirt", 1, 0.75), inputOf(ITEM, "minecraft:stone", 1)).setHeatRequirement(HEAT_REQUIREMENT.HEATED).id("modpack:mixing_test").generate()
+        datagen.createMixing(outputOf(ITEM, "minecraft:dirt", 1, 0.75), inputOf(ITEM, "minecraft:stone", 1)).heatRequirement(HEAT_REQUIREMENT.HEATED).id("modpack:mixing_test").generate()
         datagen.createSandpaperPolishing(outputOf(ITEM, "minecraft:dirt", 1, 0.75), inputOf(ITEM, "minecraft:stone", 1)).id("modpack:sandpaper_test").generate()
 
         datagen.createDeploying(

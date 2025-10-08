@@ -2,8 +2,12 @@
 
 ServerEvents.recipes(event =>{
 
+    let datagen = Datagen(event).recipe()
+
     global.FIRMALIFE_METALS.forEach(metal =>{
-        rolling(event, `firmalife:metal/ingot/${metal}`, `firmalife:metal/rod/${metal}`, 2, `rod/${metal}`)
+        datagen.createAdditionRolling(
+            outputOf(IO_TYPE.ITEM, `firmalife:metal/rod/${metal}`, 2, 1),
+            inputOf(IO_TYPE.ITEM, `firmalife:metal/ingot/${metal}`, 1)
+        ).id(`modpack:rolling/rod/${metal}`).generate()
     })
-    
 })

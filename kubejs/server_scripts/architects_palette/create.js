@@ -2,7 +2,7 @@
 
 ServerEvents.recipes(event =>{
 
-    addCreateRecipeHandler(event);
+    let datagen = Datagen(event).recipe()
 
     const HEATED_COMPACTING = {
         "minecraft:stone_bricks": "architects_palette:heavy_stone_bricks",
@@ -14,9 +14,8 @@ ServerEvents.recipes(event =>{
     }
 
     Object.keys(HEATED_COMPACTING).forEach(entry =>{
-        event.recipes.create.compacting(HEATED_COMPACTING[entry], entry).heated()
+        datagen.createCompacting(outputOf(IO_TYPE.ITEM, HEATED_COMPACTING[entry],1 ,1), inputOf(IO_TYPE.ITEM, entry, 1)).heatRequirement(HEAT_REQUIREMENT.HEATED)
             .id(`modpack:compacting/heavy_bricks/${entry.split(":").pop()}`)
+            .generate()
     })
-
-    event.recipes.create.finalize();
 })

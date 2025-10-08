@@ -43,4 +43,11 @@ ServerEvents.tags("item", event =>{
             `kubejs:ceramic/unfired_${type}_flower_pot`,
         ])
     })
+
+    global.TOOL_METALS.forEach(metal =>{
+        global.TFC_TOOL_TYPES.forEach(tool =>{
+            event.add(`modpack:tool_heads/${tool}`, `tfc:metal/${tool}_${global.TFC_TOOL_HEADS[tool]}/${metal}`)
+        })
+    })
 })
+
