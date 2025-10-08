@@ -112,6 +112,14 @@
 	#
 	# If true, particles specifically for wind will appear.
 	enableWindParticles = true
+	#
+	# Changes the units that rotational speed is displayed in.
+	#   ROTATIONS_PER_SECOND - Shows rotational speed as a measure of full rotations per second
+	#   DEGREES_PER_SECOND - Shows rotational speed as a measure of degrees per second
+	#   REVOLUTIONS_PER_SECOND - Shows rotational speed as a measure of revolutions per second
+	#   REVOLUTIONS_PER_MINUTE - Shows rotational speed as a measure of revolutions per minute
+	#Allowed Values: DEGREES_PER_SECOND, RADIANS_PER_SECOND, REVOLUTIONS_PER_MINUTE, REVOLUTIONS_PER_SECOND
+	rotationDisplayStyle = "REVOLUTIONS_PER_MINUTE"
 
 [compatibility]
 	#

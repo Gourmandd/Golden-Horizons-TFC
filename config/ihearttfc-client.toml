@@ -10,3 +10,5 @@ useHalfEatenFood = true
 showTemperatureInsteadOfExperience = true
 #Display saturation on the hunger bar like the popular mod "Appleskin".
 displayAppleSkinLikeSaturation = true
+#Global Toggle for switching between default TFC and I Heart TFC HUDs.
+useIHeartTFC = true

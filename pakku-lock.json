@@ -2990,7 +2990,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "I Heart TFC-1.21.1-1.1.1.jar",
+                    "file_name": "I Heart TFC-1.21.1-1.1.2.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -2998,22 +2998,22 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/XjM4YE3F/versions/43G01J1R/I Heart TFC-1.21.1-1.1.1.jar",
-                    "id": "43G01J1R",
+                    "url": "https://cdn.modrinth.com/data/XjM4YE3F/versions/vPthRMEP/I Heart TFC-1.21.1-1.1.2.jar",
+                    "id": "vPthRMEP",
                     "parent_id": "XjM4YE3F",
                     "hashes": {
-                        "sha512": "979f85f31353811ededb73beb7d4edf21d007555f4f0222dc638020425d85cc69ee04c7f7bb194f46d5e37927a2bfe1aa34907d6c3facd5ee45f5c51f4412410",
-                        "sha1": "909e344e8b1b9e4f3f41620211f6f51d1a14dd78"
+                        "sha512": "c689435385a4e08706bd549c433b977d4681d08e004dde777e48b0932206caebafa2cade07fa423667ab651b06d1f2e9c952eeeab0cdec2854a6e56be5ab2e85",
+                        "sha1": "a451d0f3f0ed2952b2cab64cea87b10f15603340"
                     },
                     "required_dependencies": [
                         "JaCEZUhg"
                     ],
-                    "size": 104122,
-                    "date_published": "2025-09-15T07:15:58.344200Z"
+                    "size": 104132,
+                    "date_published": "2025-09-19T18:15:56.528071Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "I Heart TFC-1.21.1-1.1.1.jar",
+                    "file_name": "I Heart TFC-1.21.1-1.1.2.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -3021,16 +3021,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6998/941/I Heart TFC-1.21.1-1.1.1.jar",
-                    "id": "6998941",
+                    "url": "https://edge.forgecdn.net/files/7012/700/I Heart TFC-1.21.1-1.1.2.jar",
+                    "id": "7012700",
                     "parent_id": "1118578",
                     "hashes": {
-                        "sha1": "909e344e8b1b9e4f3f41620211f6f51d1a14dd78",
-                        "md5": "c95932e9640e0c4f4ae97d67bf8aa5d7"
+                        "sha1": "a451d0f3f0ed2952b2cab64cea87b10f15603340",
+                        "md5": "8f7df569bc64817c84e09eccaccd6cec"
                     },
                     "required_dependencies": [],
-                    "size": 104122,
-                    "date_published": "2025-09-15T07:17:15.167Z"
+                    "size": 104132,
+                    "date_published": "2025-09-19T18:23:15.090Z"
                 }
             ]
         },
@@ -3242,30 +3242,8 @@
             },
             "files": [
                 {
-                    "type": "curseforge",
-                    "file_name": "jei-1.21.1-neoforge-19.22.1.316.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/6829/86/jei-1.21.1-neoforge-19.22.1.316.jar",
-                    "id": "6829086",
-                    "parent_id": "238222",
-                    "hashes": {
-                        "sha1": "ad7cd1f890ef4924c62c39534d186396cde66868",
-                        "md5": "f03aab9c6a1adfb372cb46511f3b1168"
-                    },
-                    "required_dependencies": [],
-                    "size": 1474239,
-                    "date_published": "2025-07-30T14:58:30.693Z"
-                },
-                {
                     "type": "modrinth",
-                    "file_name": "jei-1.21.1-neoforge-19.22.1.316.jar",
+                    "file_name": "jei-1.21.1-neoforge-19.25.0.322.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -3274,16 +3252,38 @@
                         "neoforge"
                     ],
                     "release_type": "beta",
-                    "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/oghFmDkL/jei-1.21.1-neoforge-19.22.1.316.jar",
-                    "id": "oghFmDkL",
+                    "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/DFIjSzbJ/jei-1.21.1-neoforge-19.25.0.322.jar",
+                    "id": "DFIjSzbJ",
                     "parent_id": "u6dRKJwZ",
                     "hashes": {
-                        "sha512": "63dba55f429f8504f600db45b87143ab2005fc68f7314adf364e82afb3399c7e6488008d66cc9a7b13b17e43bcef11bbb36f909f4313219308fc0a4a12400d0b",
-                        "sha1": "ad7cd1f890ef4924c62c39534d186396cde66868"
+                        "sha512": "4ab0100e8025d383b13952588b2e8ed53abe01d7a9963fe20d6ff3fd7a3bfe9d18fd6e7dc98815e6164409c5c758bec80c6f83213b958d59e8145a2183560dc6",
+                        "sha1": "f42aa17f8490dd437e75b8f4abd8360e9f0265b9"
                     },
                     "required_dependencies": [],
-                    "size": 1474239,
-                    "date_published": "2025-07-30T14:58:45.267039Z"
+                    "size": 1505377,
+                    "date_published": "2025-10-02T11:36:15.984560Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "jei-1.21.1-neoforge-19.25.0.322.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7057/366/jei-1.21.1-neoforge-19.25.0.322.jar",
+                    "id": "7057366",
+                    "parent_id": "238222",
+                    "hashes": {
+                        "sha1": "f42aa17f8490dd437e75b8f4abd8360e9f0265b9",
+                        "md5": "b2ad327b7c24eda92cdea438a13ac276"
+                    },
+                    "required_dependencies": [],
+                    "size": 1505377,
+                    "date_published": "2025-10-02T11:36:02.867Z"
                 }
             ]
         },
@@ -5704,7 +5704,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "TerraFirmaCraft-NeoForge-1.21.1-4.0.2-beta.jar",
+                    "file_name": "TerraFirmaCraft-NeoForge-1.21.1-4.0.7-beta.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -5712,22 +5712,22 @@
                         "neoforge"
                     ],
                     "release_type": "beta",
-                    "url": "https://cdn.modrinth.com/data/JaCEZUhg/versions/DNYd9sc1/TerraFirmaCraft-NeoForge-1.21.1-4.0.2-beta.jar",
-                    "id": "DNYd9sc1",
+                    "url": "https://cdn.modrinth.com/data/JaCEZUhg/versions/iGgU61na/TerraFirmaCraft-NeoForge-1.21.1-4.0.7-beta.jar",
+                    "id": "iGgU61na",
                     "parent_id": "JaCEZUhg",
                     "hashes": {
-                        "sha512": "2ec2fb3ca20fdf1954f9a327ba3f687d55c376f8e7ebeb5c96e1cc496d0e6d67b885db02c6efaa66efc5a667412d2aa9f3c6dc30f00d815109b606271d4a866f",
-                        "sha1": "2c55b91a813b6a8870c447baa54c189e15cd5fd2"
+                        "sha512": "ef3113d2ea7f40390a2a4a75a934a7ef886d72c7312d73173b1300841936c97cb859c748edb21bc292222611d87e25097771540602bcbb419433997bd9c015de",
+                        "sha1": "02c53bbf08b0d2914f8700e83c4ae808329736c5"
                     },
                     "required_dependencies": [
                         "nU0bVIaL"
                     ],
-                    "size": 63758160,
-                    "date_published": "2025-09-17T02:50:07.054813Z"
+                    "size": 63794154,
+                    "date_published": "2025-10-06T03:14:58.943252Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "TerraFirmaCraft-NeoForge-1.21.1-4.0.2-beta.jar",
+                    "file_name": "TerraFirmaCraft-NeoForge-1.21.1-4.0.7-beta.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -5735,18 +5735,18 @@
                         "neoforge"
                     ],
                     "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/7004/920/TerraFirmaCraft-NeoForge-1.21.1-4.0.2-beta.jar",
-                    "id": "7004920",
+                    "url": "https://edge.forgecdn.net/files/7072/352/TerraFirmaCraft-NeoForge-1.21.1-4.0.7-beta.jar",
+                    "id": "7072352",
                     "parent_id": "302973",
                     "hashes": {
-                        "sha1": "2c55b91a813b6a8870c447baa54c189e15cd5fd2",
-                        "md5": "97960e63481450b0890b2a95d5354dbd"
+                        "sha1": "02c53bbf08b0d2914f8700e83c4ae808329736c5",
+                        "md5": "dde87633173926efaeda07e28dac8c46"
                     },
                     "required_dependencies": [
                         "306770"
                     ],
-                    "size": 63758160,
-                    "date_published": "2025-09-17T02:49:58.917Z"
+                    "size": 63794154,
+                    "date_published": "2025-10-06T03:14:50.320Z"
                 }
             ]
         },
@@ -5883,6 +5883,70 @@
                     ],
                     "size": 117067,
                     "date_published": "2024-10-25T09:31:35.270012Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "fdyaGDouzj869pSm",
+            "pakku_links": [
+                "B9rCrTdjB1Frl92q"
+            ],
+            "type": "RESOURCE_PACK",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "terrafirmacraft-vexxed-visuals",
+                "modrinth": "vexxed-visuals-terrafirmacraft"
+            },
+            "name": {
+                "curseforge": "Vexxed Visuals: TerraFirmaCraft",
+                "modrinth": "Vexxed Visuals: TerraFirmaCraft"
+            },
+            "id": {
+                "curseforge": "664832",
+                "modrinth": "TAEibNyf"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "Vexxed_Visuals_TFC_v1.3.3.zip",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "minecraft"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/TAEibNyf/versions/qj6EBtZk/Vexxed_Visuals_TFC_v1.3.3.zip",
+                    "id": "qj6EBtZk",
+                    "parent_id": "TAEibNyf",
+                    "hashes": {
+                        "sha512": "c7b0778df3def2e43e1111e64c47f4da25af4ce384cb719d4430dd5ee9afd83945a77d5337f7f06b8b96af116222fd869613c8140afc5c8112183b325c0a938a",
+                        "sha1": "19fb91f38d8be247f365669474375cab298dac2d"
+                    },
+                    "required_dependencies": [
+                        "JaCEZUhg"
+                    ],
+                    "size": 12142742,
+                    "date_published": "2025-10-03T07:15:42.361258Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "Vexxed_Visuals_TFC_v1.3.3.zip",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7060/633/Vexxed_Visuals_TFC_v1.3.3.zip",
+                    "id": "7060633",
+                    "parent_id": "664832",
+                    "hashes": {
+                        "sha1": "19fb91f38d8be247f365669474375cab298dac2d",
+                        "md5": "37b64fc4ce81da5c4df098afeaa2b4b5"
+                    },
+                    "required_dependencies": [],
+                    "size": 12142742,
+                    "date_published": "2025-10-03T07:13:41.353Z"
                 }
             ]
         },
