@@ -21,7 +21,10 @@
 *.pyc
 *.bak
 /map_atlases/
-fancymenu_data/last_world.fmdata
+/config/spark/tmp-client/
+/dynamic-data-pack-cache/
+/fancymenu_data/last_world.fmdata
+/config/sodium-fingerprint.json
 /build
 
 /patchouli_data.json
@@ -60,3 +63,6 @@ config/voicechat/username-cache.json
 
 servers.dat
 servers.dat_old
+
+.probe
+config/sodium-fingerprint.json
