@@ -1,7 +1,0 @@
-{
-  "parent": "tfc:block/ore",
-  "textures": {
-    "all": "aether:block/natural/holystone",
-    "overlay": "tfc:block/ore/pyrite"
-  }
-}

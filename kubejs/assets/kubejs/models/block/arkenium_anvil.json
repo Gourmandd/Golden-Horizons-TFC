@@ -1,8 +1,0 @@
-{
-  "parent": "tfc:block/anvil",
-  "textures": {
-    "top": "aethersdelight:block/raw_arkenium_block",
-    "side": "aethersdelight:block/arkenium_block",
-    "particle": "aethersdelight:block/arkenium_block"
-  }
-}

@@ -1,6 +1,0 @@
-{
-  "parent": "tfc:block/rock/loose_metamorphic_1",
-  "textures": {
-    "texture": "aether_redux:block/natural/raw_veridium_block"
-  }
-}
