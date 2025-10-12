@@ -1,6 +1,4 @@
 {
     "type": "tipsmod:simple",
-    "tip": {
-      "text": "The guide book can answer many questions!"
-    }
-  }
+    "text": "The guide book can answer many questions!"
+}

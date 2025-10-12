@@ -1,6 +1,4 @@
 {
     "type": "tipsmod:simple",
-    "tip": {
-      "text": "Components from Create are expensive, Plan Ahead!"
-    }
-  }
+    "text": "Components from Create are expensive, Plan Ahead!"
+}

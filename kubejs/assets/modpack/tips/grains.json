@@ -1,6 +1,4 @@
 {
     "type": "tipsmod:simple",
-    "tip": {
-      "text": "Grains can be stored for long periods of time!"
-    }
-  }
+    "text": "Grains can be stored for long periods of time!"
+}

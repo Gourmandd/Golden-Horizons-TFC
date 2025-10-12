@@ -1,6 +1,4 @@
 {
     "type": "tipsmod:simple",
-    "tip": {
-      "text": "Steel pumps can move water sources!"
-    }
+    "text": "Steel pumps can move water sources!"
   }

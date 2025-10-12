@@ -1,6 +1,4 @@
 {
     "type": "tipsmod:simple",
-    "tip": {
-      "text": "Supports prevent cave ins from occuring, try not to accidently break them!"
-    }
+    "text": "Supports prevent cave ins from occuring, try not to accidently break them!"
   }

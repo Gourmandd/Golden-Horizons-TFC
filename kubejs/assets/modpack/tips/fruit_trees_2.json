@@ -1,6 +1,4 @@
 {
     "type": "tipsmod:simple",
-    "tip": {
-      "text": "Fruit trees take their time to grow."
-    }
-  }
+    "text": "Fruit trees take their time to grow."
+}

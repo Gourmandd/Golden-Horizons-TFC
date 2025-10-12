@@ -1,6 +1,4 @@
 {
     "type": "tipsmod:simple",
-    "tip": {
-      "text": "Electrity can be used to transport SU long distances!"
-    }
-  }
+    "text": "Electrity can be used to transport SU long distances!"
+}

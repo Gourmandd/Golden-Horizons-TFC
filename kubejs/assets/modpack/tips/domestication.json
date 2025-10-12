@@ -1,6 +1,5 @@
 {
     "type": "tipsmod:simple",
-    "tip": {
-      "text": "Wolves and other animals can be domesticated!"
-    }
-  }
+    "text": "Wolves and other animals can be domesticated!"
+}
+

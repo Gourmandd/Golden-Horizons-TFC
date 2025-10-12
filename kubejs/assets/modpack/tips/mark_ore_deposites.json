@@ -1,6 +1,4 @@
 {
     "type": "tipsmod:simple",
-    "tip": {
-      "text": "Mark deposits to make them easier to find later on"
-    }
-  }
+    "text": "Mark deposits to make them easier to find later on"
+}

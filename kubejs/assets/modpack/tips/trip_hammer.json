@@ -1,6 +1,4 @@
 {
     "type": "tipsmod:simple",
-    "tip": {
-      "text": "Trip hammers can be used to automate some anvil recipes."
-    }
+    "text": "Mechanical presses can be used to automate some anvil recipes."
   }

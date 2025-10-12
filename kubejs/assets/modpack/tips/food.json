@@ -1,6 +1,4 @@
 {
     "type": "tipsmod:simple",
-    "tip": {
-      "text": "Manage your food and water carefully!"
-    }
-  }
+    "text": "Manage your food and water carefully!"
+}
