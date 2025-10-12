@@ -1,4 +1,5 @@
 {
+    "type": "tipsmod:simple",
     "tip": {
       "text": "Dropping fuel onto a charcoal forge adds it in, you can use this for 24/7 charcoal kilns with redstone"
     }

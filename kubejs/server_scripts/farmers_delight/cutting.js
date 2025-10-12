@@ -49,7 +49,6 @@ ServerEvents.recipes(event =>{
                 .id(`modpack:fd_cutting/wood/${mod}_lumber/${type}`)
                 .generate()
 
-            console.log(mod)
             datagen.farmersCutting(outputOf(ITEM, `${mod}:wood/planks/${type}`, 1, 1), inputOf(TAG, `modpack:cutting/wood/for_planks/${type}`, 1), CUTTING_TOOL.AXE)
                 .id(`modpack:fd_cutting/wood/${mod}_planks/${type}`)
                 .generate()

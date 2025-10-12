@@ -14,9 +14,10 @@ StartupEvents.registry("block", event =>{
 
     global.DYE_COLOURS.forEach(colour => {
         event.create(`molten_glass/${colour}`)
+            .parentModel("block/cube_all")
             .displayName(`${nameProcessing(colour)} Glass Blob`)
             .color(global.COLOUR_TO_HEX[colour])
-            /* getting 1.21 running.textureAll("kubejs:block/thick_fluid_flow")*/
+            .texture("all", "kubejs:block/thick_fluid_flow")
             .tagBlock("minecraft:mineable/pickaxe")
             .soundType("glass")
             .requiresTool(true)
@@ -25,7 +26,8 @@ StartupEvents.registry("block", event =>{
     event.create("molten_glass/clear")
         .displayName("Clear Glass Blob")
         .color(0xD4FBFB)
-        /* getting 1.21 running.textureAll("kubejs:block/thick_fluid_flow")*/
+        .parentModel("block/cube_all")
+        .texture("all", "kubejs:block/thick_fluid_flow")
         .tagBlock("minecraft:mineable/pickaxe")
         .soundType("glass")
         .requiresTool(true)

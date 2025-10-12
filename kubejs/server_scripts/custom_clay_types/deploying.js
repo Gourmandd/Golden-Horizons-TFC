@@ -9,8 +9,6 @@ ServerEvents.recipes(event =>{
     const ITEM = IO_TYPE.ITEM
     const TAG = IO_TYPE.ITEM_TAG
 
-    console.log(inputOf(TAG, "#c:ingots", 1))
-
     global.CUSTOM_CLAY_TYPES.forEach(type =>{
 
         global.TFC_TOOL_TYPES.forEach(tool =>{

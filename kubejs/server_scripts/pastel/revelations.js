@@ -61,7 +61,6 @@ ServerEvents.generateData("after_mods", event =>{
         setBlockStatesFromRock(rockType, global.DEEPER_DOWN_ROCK_STONES[rockType])
     })
 
-    console.log(shimmerstone_revelation)
     event.json(`modpack:revelations/shimmerstone_ores`, shimmerstone_revelation)
     event.json(`modpack:revelations/azurite_ores`, azurite_revelation)
     event.json(`modpack:revelations/stratine_ores`, stratine_revelation)

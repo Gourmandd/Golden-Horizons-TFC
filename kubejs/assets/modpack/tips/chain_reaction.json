@@ -1,4 +1,5 @@
 {
+    "type": "tipsmod:simple",
     "tip": {
       "text": "Cave-ins can cause other supports to break, Yikes!"
     }

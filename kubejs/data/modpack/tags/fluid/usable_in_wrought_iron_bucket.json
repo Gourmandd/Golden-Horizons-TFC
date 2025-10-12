@@ -3,8 +3,8 @@
 	"values": [
 		"#tfc:usable_in_jug",
 		"minecraft:lava",
-		"spectrum:mud",
-		"spectrum:liquid_crystal",
-		"spectrum:midnight_solution"
+		"pastel:humus",
+		"pastel:liquid_crystal",
+		"pastel:midnight_solution"
 	]
 }
