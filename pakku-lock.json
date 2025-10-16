@@ -4,7 +4,7 @@
         "1.21.1"
     ],
     "loaders": {
-        "neoforge": "21.1.208"
+        "neoforge": "21.1.209"
     },
     "projects": [
         {
@@ -2733,30 +2733,6 @@
             "redistributable": false,
             "files": [
                 {
-                    "type": "curseforge",
-                    "file_name": "FarmersDelight_TFC-1.21.1-neoforge-1.0.6.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7058/370/FarmersDelight_TFC-1.21.1-neoforge-1.0.6.jar",
-                    "id": "7058370",
-                    "parent_id": "951750",
-                    "hashes": {
-                        "sha1": "7ca0d5bec00282dae6e78ece098702300ef3228c",
-                        "md5": "453cde1c1a217ece0317d7e20313e424"
-                    },
-                    "required_dependencies": [
-                        "302973",
-                        "398521"
-                    ],
-                    "size": 396384,
-                    "date_published": "2025-10-02T16:24:08.690Z"
-                },
-                {
                     "type": "modrinth",
                     "file_name": "FarmersDelight_TFC-1.21.1-neoforge-1.0.6.jar",
                     "mc_versions": [
@@ -2779,6 +2755,30 @@
                     ],
                     "size": 396384,
                     "date_published": "2025-10-04T16:58:53.344360Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "FarmersDelight_TFC-1.21.1-neoforge-1.0.7.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7098/121/FarmersDelight_TFC-1.21.1-neoforge-1.0.7.jar",
+                    "id": "7098121",
+                    "parent_id": "951750",
+                    "hashes": {
+                        "sha1": "e9cbfbbf5df82f3bb271b17452e7e21b059f3255",
+                        "md5": "0423e88853f499fb06d3eef994d6283d"
+                    },
+                    "required_dependencies": [
+                        "302973",
+                        "398521"
+                    ],
+                    "size": 396445,
+                    "date_published": "2025-10-12T10:02:16.063Z"
                 }
             ]
         },
@@ -5911,7 +5911,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "TerraFirmaCraft-NeoForge-1.21.1-4.0.7-beta.jar",
+                    "file_name": "TerraFirmaCraft-NeoForge-1.21.1-4.0.8-beta.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -5919,22 +5919,22 @@
                         "neoforge"
                     ],
                     "release_type": "beta",
-                    "url": "https://cdn.modrinth.com/data/JaCEZUhg/versions/iGgU61na/TerraFirmaCraft-NeoForge-1.21.1-4.0.7-beta.jar",
-                    "id": "iGgU61na",
+                    "url": "https://cdn.modrinth.com/data/JaCEZUhg/versions/odKP6nb4/TerraFirmaCraft-NeoForge-1.21.1-4.0.8-beta.jar",
+                    "id": "odKP6nb4",
                     "parent_id": "JaCEZUhg",
                     "hashes": {
-                        "sha512": "ef3113d2ea7f40390a2a4a75a934a7ef886d72c7312d73173b1300841936c97cb859c748edb21bc292222611d87e25097771540602bcbb419433997bd9c015de",
-                        "sha1": "02c53bbf08b0d2914f8700e83c4ae808329736c5"
+                        "sha512": "192a3aeb484afcc1bf9f6245b36bab59902a6ecea0c250cc380ce09976264c54a3182dc6c8fe285799cc9089bee3cdc03dac9c3cf75a7ae6143cc2832ebf1a30",
+                        "sha1": "72d0aa8a6862cc3690c1cd75d8f57c87c3f41eb9"
                     },
                     "required_dependencies": [
                         "nU0bVIaL"
                     ],
-                    "size": 63794154,
-                    "date_published": "2025-10-06T03:14:58.943252Z"
+                    "size": 63962662,
+                    "date_published": "2025-10-13T01:05:23.214486Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "TerraFirmaCraft-NeoForge-1.21.1-4.0.7-beta.jar",
+                    "file_name": "TerraFirmaCraft-NeoForge-1.21.1-4.0.8-beta.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -5942,18 +5942,18 @@
                         "neoforge"
                     ],
                     "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/7072/352/TerraFirmaCraft-NeoForge-1.21.1-4.0.7-beta.jar",
-                    "id": "7072352",
+                    "url": "https://edge.forgecdn.net/files/7101/304/TerraFirmaCraft-NeoForge-1.21.1-4.0.8-beta.jar",
+                    "id": "7101304",
                     "parent_id": "302973",
                     "hashes": {
-                        "sha1": "02c53bbf08b0d2914f8700e83c4ae808329736c5",
-                        "md5": "dde87633173926efaeda07e28dac8c46"
+                        "sha1": "72d0aa8a6862cc3690c1cd75d8f57c87c3f41eb9",
+                        "md5": "e99052f49cd8a607c4e8e294a3564339"
                     },
                     "required_dependencies": [
                         "306770"
                     ],
-                    "size": 63794154,
-                    "date_published": "2025-10-06T03:14:50.320Z"
+                    "size": 63962662,
+                    "date_published": "2025-10-13T01:05:14.097Z"
                 }
             ]
         },
@@ -6115,7 +6115,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "Vexxed_Visuals_TFC_v1.3.3.zip",
+                    "file_name": "Vexxed_Visuals_TFC_v1.3.4.zip",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -6124,36 +6124,38 @@
                         "minecraft"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/TAEibNyf/versions/qj6EBtZk/Vexxed_Visuals_TFC_v1.3.3.zip",
-                    "id": "qj6EBtZk",
+                    "url": "https://cdn.modrinth.com/data/TAEibNyf/versions/hzo9leHH/Vexxed_Visuals_TFC_v1.3.4.zip",
+                    "id": "hzo9leHH",
                     "parent_id": "TAEibNyf",
                     "hashes": {
-                        "sha512": "c7b0778df3def2e43e1111e64c47f4da25af4ce384cb719d4430dd5ee9afd83945a77d5337f7f06b8b96af116222fd869613c8140afc5c8112183b325c0a938a",
-                        "sha1": "19fb91f38d8be247f365669474375cab298dac2d"
+                        "sha512": "c5119871db36a538bcbd2e35ea3bd9f53f704bd3dc5d5a3d019d0666da11c9f82ba30098cf396f8243b0b6645a0c29ef513a341fd34cab80aa654c06fc47f7cf",
+                        "sha1": "79a78c773f2104d63c08e61857c175993cf64cbb"
                     },
                     "required_dependencies": [
                         "JaCEZUhg"
                     ],
-                    "size": 12142742,
-                    "date_published": "2025-10-03T07:15:42.361258Z"
+                    "size": 12255380,
+                    "date_published": "2025-10-13T02:08:26.651155Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "Vexxed_Visuals_TFC_v1.3.3.zip",
+                    "file_name": "Vexxed_Visuals_TFC_v1.3.4.zip",
                     "mc_versions": [
                         "1.21.1"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7060/633/Vexxed_Visuals_TFC_v1.3.3.zip",
-                    "id": "7060633",
+                    "url": "https://edge.forgecdn.net/files/7101/437/Vexxed_Visuals_TFC_v1.3.4.zip",
+                    "id": "7101437",
                     "parent_id": "664832",
                     "hashes": {
-                        "sha1": "19fb91f38d8be247f365669474375cab298dac2d",
-                        "md5": "37b64fc4ce81da5c4df098afeaa2b4b5"
+                        "sha1": "79a78c773f2104d63c08e61857c175993cf64cbb",
+                        "md5": "b7e4936c324fc148cb4773b8b72c0877"
                     },
-                    "required_dependencies": [],
-                    "size": 12142742,
-                    "date_published": "2025-10-03T07:13:41.353Z"
+                    "required_dependencies": [
+                        "302973"
+                    ],
+                    "size": 12255380,
+                    "date_published": "2025-10-13T02:06:05.043Z"
                 }
             ]
         },
