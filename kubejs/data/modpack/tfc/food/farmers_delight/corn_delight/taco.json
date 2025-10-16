@@ -1,0 +1,11 @@
+{
+    "ingredient": {
+      "item": "corn_delight:taco"
+    },
+    "hunger": 6,
+    "saturation": 6,
+    "decay_modifier": 2.5,
+    "protein": 1,
+    "vegetable": 2,
+    "grain": 1.5
+}

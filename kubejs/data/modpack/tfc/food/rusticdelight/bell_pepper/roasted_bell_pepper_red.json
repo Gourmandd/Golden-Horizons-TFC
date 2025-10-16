@@ -1,0 +1,10 @@
+{
+    "ingredient": {
+      "item": "rusticdelight:roasted_bell_pepper_red"
+    },
+    "hunger": 4,
+    "saturation": 1.5,
+    "decay_modifier": 3,
+    "vegetables": 1
+  }
+  

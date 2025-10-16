@@ -1,0 +1,13 @@
+{
+    "ingredient": {
+      "fluid": "kubejs:boiled_water"
+    },
+    "thirst": 10,
+    "intoxication": 0,
+    "effects": [
+        {
+            "type": "minecraft:regeneration",
+            "duration": 100
+        }
+    ]
+  }

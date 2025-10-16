@@ -1,0 +1,15 @@
+{
+    "ingredient": {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    "category": "other",
+    "hunger": 4,
+    "saturation": 10,
+    "water": 0,
+    "decay_modifier": 0,
+    "grain": 0,
+    "dairy": 0,
+    "vegetables": 0,
+    "fruit": 4,
+    "protein": 0
+  }

@@ -1,0 +1,5 @@
+{
+  "fluid": "kubejs:electrum",
+  "melt_temperature": 1060,
+  "specific_heat_capacity": 0.02143,
+}

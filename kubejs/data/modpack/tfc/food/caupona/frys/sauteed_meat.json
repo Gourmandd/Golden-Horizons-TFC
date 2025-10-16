@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "caupona:sauteed_meat"
+  },
+  "decay_modifier": 2,
+  "hunger": 16,
+  "saturation": 6,
+  "vegetables": 4,
+  "protein": 4
+}

@@ -1,0 +1,14 @@
+{
+    "ingredient": {
+      "item": "caupona:water"
+    },
+    "decay_modifier": 2,
+    "hunger": 0,
+    "saturation": 0,
+    "water": 20,
+    "grain": 0,
+    "fruit": 0,
+    "vegetables": 0,
+    "protein": 0,
+    "dairy": 0
+  }

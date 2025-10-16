@@ -1,0 +1,11 @@
+{
+    "ingredient": {
+      "item": "rusticdelight:cherry_blossom_roll"
+    },
+    "hunger": 4,
+    "saturation": 1,
+    "decay_modifier": 3,
+    "fruit": 1.4,
+    "grain": 1.2
+  }
+  

@@ -1,0 +1,11 @@
+{
+    "ingredient": {
+      "item": "rusticdelight:bell_pepper_roll_green"
+    },
+    "hunger": 4,
+    "saturation": 1,
+    "decay_modifier": 3,
+    "vegetables": 1.4,
+    "grain": 1.2
+  }
+  

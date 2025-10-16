@@ -1,0 +1,14 @@
+{
+  "ingredient": [
+      {"tag":"modpack:hanging_signs/metal/bismuth_bronze"},
+      {"tag":"modpack:hanging_signs/metal/black_bronze"},
+      {"tag":"modpack:hanging_signs/metal/bronze"},
+      {"tag":"modpack:hanging_signs/metal/copper"},
+      {"tag":"modpack:hanging_signs/metal/wrought_iron"},
+      {"tag":"modpack:hanging_signs/metal/steel"},
+      {"tag":"modpack:hanging_signs/metal/black_steel"},
+      {"tag":"modpack:hanging_signs/metal/red_steel"},
+      {"tag":"modpack:hanging_signs/metal/blue_steel"}
+    ],
+  "heat_capacity": 1
+}

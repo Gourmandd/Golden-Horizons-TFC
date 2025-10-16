@@ -1,0 +1,12 @@
+{
+    "ingredient": {
+      "item": "rusticdelight:stuffed_bell_pepper_yellow"
+    },
+    "hunger": 6,
+    "saturation": 2,
+    "decay_modifier": 3,
+    "vegetables": 1,
+    "grain": 1.2,
+    "protein": 1.2
+  }
+  

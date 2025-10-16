@@ -1,0 +1,11 @@
+{
+    "ingredient": {
+      "item": "create:sweet_roll"
+    },
+    "category": "other",
+    "hunger": 6,
+    "saturation": 1,
+    "decay_modifier": 2,
+    "grain": 2,
+    "dairy": 2
+}

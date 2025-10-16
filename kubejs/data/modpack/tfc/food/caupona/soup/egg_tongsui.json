@@ -1,0 +1,14 @@
+{
+    "ingredient": {
+      "item": "caupona:egg_tongsui"
+    },
+    "decay_modifier": 2,
+    "hunger": 6,
+    "saturation": 6,
+    "water": 20,
+    "grain": 0,
+    "fruit": 2,
+    "vegetables": 0,
+    "protein": 4,
+    "dairy": 0
+  }

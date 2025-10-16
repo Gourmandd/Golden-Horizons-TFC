@@ -1,0 +1,10 @@
+{
+    "ingredient": {
+      "item": "rusticdelight:baked_potato_slices"
+    },
+    "hunger": 2,
+    "saturation": 0.1,
+    "decay_modifier": 4.5,
+    "vegetables": 0.5
+  }
+  

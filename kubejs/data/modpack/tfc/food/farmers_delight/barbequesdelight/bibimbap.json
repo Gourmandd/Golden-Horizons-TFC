@@ -1,0 +1,11 @@
+{
+    "ingredient": {
+      "item": "barbequesdelight:bibimbap"
+    },
+    "category": "meat",
+    "hunger": 6,
+    "saturation": 4,
+    "decay_modifier": 1,
+    "vegetables": 4,
+    "protein": 4
+}

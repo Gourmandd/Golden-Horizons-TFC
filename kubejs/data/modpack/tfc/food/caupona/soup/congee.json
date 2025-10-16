@@ -1,0 +1,14 @@
+{
+    "ingredient": {
+      "item": "caupona:congee"
+    },
+    "decay_modifier": 2,
+    "hunger": 10,
+    "saturation": 6,
+    "water": 20,
+    "grain": 6,
+    "fruit": 0,
+    "vegetables": 4,
+    "protein": 2,
+    "dairy": 0
+  }

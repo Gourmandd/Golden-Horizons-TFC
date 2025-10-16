@@ -1,0 +1,12 @@
+{
+    "ingredient": {
+      "item": "rusticdelight:cherry_blossom_pancakes"
+    },
+    "hunger": 1,
+    "saturation": 8,
+    "decay_modifier": 6,
+    "grain": 3.2,
+    "dairy": 1.2,
+    "fruit": 4
+  }
+  

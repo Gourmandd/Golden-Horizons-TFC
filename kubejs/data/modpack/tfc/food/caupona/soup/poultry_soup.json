@@ -1,0 +1,14 @@
+{
+    "ingredient": {
+      "item": "caupona:poultry_soup"
+    },
+    "decay_modifier": 2,
+    "hunger": 12,
+    "saturation": 4,
+    "water": 20,
+    "grain": 0,
+    "fruit": 0,
+    "vegetables": 4,
+    "protein": 8,
+    "dairy": 0
+  }

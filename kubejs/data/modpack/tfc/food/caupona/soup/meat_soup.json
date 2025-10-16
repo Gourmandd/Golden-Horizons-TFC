@@ -1,0 +1,14 @@
+{
+    "ingredient": {
+      "item": "caupona:meat_soup"
+    },
+    "decay_modifier": 2,
+    "hunger": 12,
+    "saturation": 6,
+    "water": 20,
+    "grain": 0,
+    "fruit": 0,
+    "vegetables": 4,
+    "protein": 10,
+    "dairy": 0
+  }

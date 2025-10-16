@@ -1,0 +1,11 @@
+{
+    "ingredient": {
+      "item": "rusticdelight:cherry_blossom_cheesecake_slice"
+    },
+    "hunger": 4,
+    "saturation": 0.5,
+    "decay_modifier": 1.5,
+    "grain": 0.5,
+    "fruit": 0.5
+  }
+  

@@ -1,0 +1,10 @@
+{
+    "ingredient": {
+      "item": "kubejs:soft_chhurpi"
+    },
+    "category": "other",
+    "dairy": 1,
+    "hunger": 2,
+    "saturation": 1,
+    "decay_modifier": 1
+  }

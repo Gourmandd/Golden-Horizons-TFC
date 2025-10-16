@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "tag": "modpack:melting/gold_small"
+  },
+  "heat_capacity": 1.2,
+  "forging_temperature": 636,
+  "welding_temperature": 848
+}

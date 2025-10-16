@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "tag": "modpack:melting/powders"
+  },
+  "heat_capacity": 0.5,
+  "forging_temperature": 1525,
+  "welding_temperature": 1525
+}

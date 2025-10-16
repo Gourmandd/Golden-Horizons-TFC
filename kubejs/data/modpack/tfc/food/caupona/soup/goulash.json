@@ -1,0 +1,14 @@
+{
+    "ingredient": {
+      "item": "caupona:goulash"
+    },
+    "decay_modifier": 2,
+    "hunger": 14,
+    "saturation": 6,
+    "water": 20,
+    "grain": 0,
+    "fruit": 0,
+    "vegetables": 2,
+    "protein": 10,
+    "dairy": 0
+  }

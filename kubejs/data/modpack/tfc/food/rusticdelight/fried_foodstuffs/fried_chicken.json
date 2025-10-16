@@ -1,0 +1,13 @@
+{
+    "ingredient": {
+      "item": "rusticdelight:fried_chicken"
+    },
+    "hunger": 4,
+    "saturation": 1.5,
+    "decay_modifier": 2,
+    "protein": 1.2,
+    "vegetables": 1,
+    "grain": 0.5,
+    "dairy": 0.5
+  }
+  

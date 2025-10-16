@@ -1,0 +1,11 @@
+{
+    "ingredient": {
+      "item": "rusticdelight:fruit_beignet"
+    },
+    "hunger": 4,
+    "saturation": 2,
+    "decay_modifier": 4,
+    "fruit": 1.2,
+    "grain": 1.2
+  }
+  

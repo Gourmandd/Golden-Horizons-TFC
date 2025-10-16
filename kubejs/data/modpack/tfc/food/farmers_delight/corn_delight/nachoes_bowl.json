@@ -1,0 +1,12 @@
+{
+    "ingredient": {
+      "item": "corn_delight:nachos_bowl"
+    },
+    "hunger": 2,
+    "saturation": 4,
+    "decay_modifier": 2.5,
+    "grain": 1.5,
+    "vegetable": 1.5,
+    "protein": 1.5,
+    "dairy": 1
+}

@@ -1,0 +1,11 @@
+{
+    "ingredient": {
+      "tag": "modpack:raw_meat_and_veg_skewers"
+    },
+    "category": "meat",
+    "hunger": 3,
+    "saturation": 1,
+    "decay_modifier": 3,
+    "vegetables": 1,
+    "protein": 1
+}

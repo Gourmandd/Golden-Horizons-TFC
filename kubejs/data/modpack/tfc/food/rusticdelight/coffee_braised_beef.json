@@ -1,0 +1,12 @@
+{
+    "ingredient": {
+      "item": "rusticdelight:coffee_braised_beef"
+    },
+    "hunger": 5,
+    "saturation": 2,
+    "decay_modifier": 4,
+    "vegetables": 2,
+    "protein": 2,
+    "grain": 0.3
+  }
+  

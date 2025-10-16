@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "tag": "modpack:melting/stainless_steel_small"
+  },
+  "heat_capacity": 2.87,
+  "forging_temperature": 924,
+  "welding_temperature": 1232
+}
