@@ -8,7 +8,6 @@ ClientEvents.lang("en_us", event =>{
         name = name.replace("_", " ")
         name = name.replace("_", " ")
         name = name.replace(/(^\w|\s\w)/g, m => m.toUpperCase())
-        //console.log(name)
         return name
     }
 
@@ -81,7 +80,6 @@ ClientEvents.generateAssets("last", event =>{
     Object.keys(DEEPER_DOWN_ROCK_TYPES).forEach(rockType =>{
         
         global.TFC_MINERALS.forEach(ore =>{
-            console.log("kubejs:ore/" + ore + "/" + rockType, DEEPER_DOWN_ROCK_TYPES[rockType], "tfc:block/ore/" + ore)
             generateOreBlockModel("kubejs:ore/" + ore + "/" + rockType, DEEPER_DOWN_ROCK_TYPES[rockType], "tfc:block/ore/" + ore)
         })
 
