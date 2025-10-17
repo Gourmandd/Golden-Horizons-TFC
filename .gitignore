@@ -3,7 +3,7 @@
 /backups
 /crash-reports
 /datapacks
-/local
+/local/kubejs/event_groups
 /logs
 /data
 /schematics
@@ -66,3 +66,5 @@ servers.dat_old
 
 .probe
 config/sodium-fingerprint.json
+config/jei/world/local/building/lookupHistory.json
+dynamic-resource-pack-cache/hash.txt
