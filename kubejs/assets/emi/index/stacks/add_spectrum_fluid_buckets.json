@@ -13,7 +13,7 @@
       "after": "item:kubejs:metal/bucket/wrought_iron"
     },
     {
-      "stack": "item:kubejs:metal/bucket/wrought_iron{\"tfc:fluid\":{amount:1000,id:\"pastel:mud\"}}",
+      "stack": "item:kubejs:metal/bucket/wrought_iron{\"tfc:fluid\":{amount:1000,id:\"pastel:humus\"}}",
       "after": "item:kubejs:metal/bucket/wrought_iron"
     },
     {
@@ -23,10 +23,6 @@
     {
       "stack": "item:tfc:metal/bucket/blue_steel{\"tfc:fluid\":{amount:1000,id:\"pastel:dragonrot\"}}",
       "after": "item:tfc:metal/bucket/blue_steel"
-    },
-    {
-      "stack": "item:tfc:wooden_bucket{\"tfc:fluid\":{amount:1000,id:\"firmalife:coconut_milk\"}}",
-      "after": "item:tfc:wooden_bucket"
     },
     {
       "stack": "item:tfc:wooden_bucket{\"\"tfc:fluid\"\":{amount:1000,id:\"minecraft:water\"}}",
