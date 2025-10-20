@@ -74,15 +74,20 @@
 		# [Requires MC Restart] If snow will slow players that move on top of it similar to soul sand or honey.
 		enableSnowSlowEntities = true
 		#
-		# The chance that snow will accumulate during a storm. Lower values = faster snow accumulation, but also more block updates (aka lag).
-		# Default: 20
-		# Range: > 1
-		snowAccumulateChance = 20
+		# [Requires MC Restart] The maximum number of snow blocks that can be placed when entering an unloaded chunk. Lower values = matches nearby loaded chunks better, but more lag when entering these chunks.
+		# Default: 64
+		# Range: 0 ~ 256
+		snowMaxAccumulationOnUpdate = 64
 		#
-		# The chance that snow will melt during a storm. Lower values = faster snow melting, but also more block updates (aka lag).
-		# Default: 36
+		# [Requires MC Restart] The number of game ticks between attempts at snow accumulation. Lower = faster accumulation, but more lag. Default: 80 Vanilla: 16
+		# Default: 80
 		# Range: > 1
-		snowMeltChance = 36
+		ticksPerSnowAccumulation = 80
+		#
+		# [Requires MC Restart] How many times faster snow should melt than accumulate. Default: 3
+		# Default: 3
+		# Range: > 1
+		snowMeltMultiplier = 3
 
 	[blocks.plants]
 		#
