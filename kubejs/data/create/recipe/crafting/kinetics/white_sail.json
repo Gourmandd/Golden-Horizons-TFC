@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "WLG",
+        "LW "
+    ],
+    "key": {
+        "L": {
+            "tag": "tfc:lumber"
+        },
+        "G": {
+            "item": "tfc:glue"
+        },
+        "W": {
+            "item": "tfc:wool_cloth"
+        }
+    },
+    "result": {
+        "count": 8,
+        "id": "create:white_sail"
+    }
+}

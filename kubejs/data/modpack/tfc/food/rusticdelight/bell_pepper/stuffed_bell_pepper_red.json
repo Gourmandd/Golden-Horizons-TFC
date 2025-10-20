@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "rusticdelight:stuffed_bell_pepper_red"
+        "item": "rusticdelight:stuffed_bell_pepper_red"
     },
     "hunger": 6,
     "saturation": 2,
@@ -8,5 +8,4 @@
     "vegetables": 1,
     "grain": 1.2,
     "protein": 1.2
-  }
-  
+}

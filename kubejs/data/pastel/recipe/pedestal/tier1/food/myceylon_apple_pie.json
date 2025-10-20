@@ -1,0 +1,40 @@
+{
+    "type": "pastel:pedestal",
+    "time": 120,
+    "tier": "basic",
+    "colors": {
+        "pastel:cyan": 0,
+        "pastel:magenta": 0,
+        "pastel:yellow": 0,
+        "pastel:white": 0,
+        "pastel:black": 0
+    },
+    "experience": 2.0,
+    "pattern": [
+        "YPY",
+        "SMS",
+        "AAA"
+    ],
+    "key": {
+        "Y": {
+            "item": "pastel:myceylon"
+        },
+        "M": {
+            "tag": "c:milk"
+        },
+        "S": {
+            "item": "minecraft:sugar"
+        },
+        "P": {
+            "tag": "caupona:vegetables/pumpkin"
+        },
+        "A": {
+            "item": "kubejs:food/amaranth_flour"
+        }
+    },
+    "result": {
+        "count": 1,
+        "id": "pastel:myceylon_pumpkin_pie"
+    },
+    "required_advancement": "pastel:unlocks/food/myceylon_pastries"
+}

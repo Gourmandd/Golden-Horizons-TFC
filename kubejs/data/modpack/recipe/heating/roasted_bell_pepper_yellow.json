@@ -1,0 +1,13 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+        "type": "tfc:not_rotten",
+        "ingredient": {
+            "item": "tfc:food/yellow_bell_pepper"
+        }
+    },
+    "result_item": {
+        "id": "rusticdelight:roasted_bell_pepper_yellow"
+    },
+    "temperature": 200
+}

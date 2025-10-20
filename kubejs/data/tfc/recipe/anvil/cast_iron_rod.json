@@ -1,0 +1,16 @@
+{
+    "type": "tfc:anvil",
+    "ingredient": {
+        "item": "tfc:metal/ingot/cast_iron"
+    },
+    "result": {
+        "count": 2,
+        "id": "tfc:metal/rod/cast_iron"
+    },
+    "tier": 1,
+    "rules": [
+        "bend_last",
+        "draw_second_last",
+        "draw_third_last"
+    ]
+}

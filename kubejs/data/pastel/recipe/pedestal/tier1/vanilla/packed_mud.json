@@ -1,0 +1,25 @@
+{
+    "type": "pastel:pedestal_shapeless",
+    "time": 40,
+    "tier": "basic",
+    "colors": {
+        "pastel:cyan": 0,
+        "pastel:magenta": 0,
+        "pastel:yellow": 0,
+        "pastel:white": 0,
+        "pastel:black": 0
+    },
+    "experience": 0.1,
+    "ingredients": [
+        {
+            "tag": "tfc:mud"
+        },
+        {
+            "item": "pastel:amaranth_bushel"
+        }
+    ],
+    "result": {
+        "id": "minecraft:packed_mud"
+    },
+    "required_advancement": "pastel:collect_amaranth_bushel"
+}

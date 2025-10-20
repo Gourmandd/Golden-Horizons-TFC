@@ -1,0 +1,41 @@
+{
+    "type": "spectrum:pedestal",
+    "time": 240,
+    "tier": "advanced",
+    "colors": {
+        "pastel:cyan": 1,
+        "pastel:magenta": 1,
+        "pastel:yellow": 1,
+        "pastel:white": 0,
+        "pastel:black": 1
+    },
+    "experience": 1.0,
+    "pattern": [
+        "PMP",
+        "SBS",
+        "YMY"
+    ],
+    "key": {
+        "P": {
+            "item": "spectrum:pink_pigment"
+        },
+        "Y": {
+            "item": "spectrum:yellow_pigment"
+        },
+        "B": {
+            "item": "kubejs:deco_bucket/wrought_iron"
+        },
+        "S": {
+            "item": "spectrum:shimmerstone_gem"
+        },
+        "M": {
+            "item": "spectrum:mermaids_gem"
+        }
+    },
+    "result": {
+        "id": "kubejs:metal/bucket/wrought_iron",
+        "nbt": "{\"fluid\": {\"Amount\": 1000, \"FluidName\": \"spectrum:liquid_crystal\"} }",
+        "count": 1
+    },
+    "required_advancement": "spectrum:unlocks/blocks/liquid_crystal"
+}

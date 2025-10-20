@@ -1,0 +1,10 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "item": "tfc:rock/cobble/granite"
+        }
+    ],
+    "results": [],
+    "heatRequirement": "heated"
+}

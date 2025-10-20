@@ -1,7 +1,7 @@
 {
-  "ingredient": {
-      "tag": "functionalstorage:drawer"
-  },
-  "size": "very_large",
-  "weight": "very_heavy"
+    "ingredient": {
+        "tag": "functionalstorage:drawer"
+    },
+    "size": "very_large",
+    "weight": "very_heavy"
 }

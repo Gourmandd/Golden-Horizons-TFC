@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "caupona:gruel"
+        "item": "caupona:gruel"
     },
     "decay_modifier": 2,
     "hunger": 8,
@@ -11,4 +11,4 @@
     "vegetables": 0,
     "protein": 1,
     "dairy": 0
-  }
+}

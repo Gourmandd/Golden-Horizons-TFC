@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " WC",
+        "SSS"
+    ],
+    "key": {
+        "C": {
+            "item": "create:hand_crank"
+        },
+        "S": {
+            "tag": "c:stones/smooth"
+        },
+        "W": {
+            "item": "kubejs:saw"
+        }
+    },
+    "result": {
+        "id": "minecraft:stonecutter"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "type": "tfc:glassworking",
+    "operations": [
+        "tfc:blow",
+        "tfc:stretch",
+        "tfc:roll",
+        "tfc:saw"
+    ],
+    "batch": {
+        "item": "tfc:olivine_glass_batch"
+    },
+    "result": {
+        "id": "kubejs:green_lens"
+    }
+}

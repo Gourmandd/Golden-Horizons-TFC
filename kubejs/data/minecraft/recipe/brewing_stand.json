@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " B ",
+        "SSS"
+    ],
+    "key": {
+        "S": {
+            "tag": "forge:smooth_stone"
+        },
+        "B": {
+            "item": "tfc:metal/rod/brass"
+        }
+    },
+    "result": {
+        "id": "minecraft:brewing_stand"
+    }
+}

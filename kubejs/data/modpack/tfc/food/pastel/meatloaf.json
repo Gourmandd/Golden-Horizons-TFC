@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "pastel:meatloaf"
+        "item": "pastel:meatloaf"
     },
     "category": "other",
     "hunger": 8,
@@ -12,4 +12,4 @@
     "vegetables": 1.5,
     "fruit": 0,
     "protein": 4
-  }
+}

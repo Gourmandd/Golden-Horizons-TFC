@@ -1,0 +1,40 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "TTT",
+        "MMM",
+        "SCS"
+    ],
+    "key": {
+        "C": {
+            "type": "tfc:not_rotten",
+            "ingredient": {
+                "item": "farmersdelight:pie_crust"
+            }
+        },
+        "M": {
+            "type": "tfc:fluid_content",
+            "fluid": {
+                "amount": 100,
+                "tag": "tfc:milks"
+            }
+        },
+        "S": {
+            "type": "tfc:not_rotten",
+            "ingredient": {
+                "tag": "tfc:foods/sweeteners"
+            }
+        },
+        "T": {
+            "type": "tfc:not_rotten",
+            "ingredient": {
+                "item": "tfc:food/cherry"
+            }
+        }
+    },
+    "result": {
+        "id": "rusticdelight:cherry_blossom_cheesecake"
+    },
+    "show_notification": true
+}

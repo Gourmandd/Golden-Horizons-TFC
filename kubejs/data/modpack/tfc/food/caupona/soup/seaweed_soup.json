@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "caupona:seaweed_soup"
+        "item": "caupona:seaweed_soup"
     },
     "decay_modifier": 2,
     "hunger": 8,
@@ -11,4 +11,4 @@
     "vegetables": 8,
     "protein": 2,
     "dairy": 0
-  }
+}

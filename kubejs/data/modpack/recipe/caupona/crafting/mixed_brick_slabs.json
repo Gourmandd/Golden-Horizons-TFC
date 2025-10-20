@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "BBB"
+    ],
+    "key": {
+        "B": {
+            "item": "caupona:mixed_bricks"
+        }
+    },
+    "result": {
+        "count": 6,
+        "id": "caupona:mixed_bricks_slab"
+    }
+}

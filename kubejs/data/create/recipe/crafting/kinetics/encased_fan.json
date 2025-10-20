@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "S",
+        "M",
+        "P"
+    ],
+    "key": {
+        "S": {
+            "item": "create:shaft"
+        },
+        "M": {
+            "item": "kubejs:andesite_machine"
+        },
+        "P": {
+            "item": "create:propeller"
+        }
+    },
+    "result": {
+        "id": "create:encased_fan"
+    }
+}

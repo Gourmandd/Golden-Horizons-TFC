@@ -1,0 +1,16 @@
+{
+    "type": "tfc:barrel_sealed",
+    "input_item": {
+        "count": 8,
+        "tag": "c:foods/fish"
+    },
+    "input_fluid": {
+        "fluid": "minecraft:water",
+        "amount": 1000
+    },
+    "output_fluid": {
+        "id": "kubejs:garum",
+        "amount": 1000
+    },
+    "duration": 86400
+}

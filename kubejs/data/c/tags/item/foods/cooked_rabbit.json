@@ -1,0 +1,7 @@
+{
+    "replace": true,
+    "values": [
+        "tfc:food/cooked_rabbit",
+        "minecraft:cooked_rabbit"
+    ]
+}

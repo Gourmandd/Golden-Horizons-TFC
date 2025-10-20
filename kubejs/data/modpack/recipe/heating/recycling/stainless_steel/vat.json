@@ -1,0 +1,17 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "firmalife"
+        }
+    ],
+    "type": "tfc:heating",
+    "ingredient": {
+        "item": "firmalife:vat"
+    },
+    "result_fluid": {
+        "id": "firmalife:metal/stainless_steel",
+        "amount": 600
+    },
+    "temperature": 1540
+}

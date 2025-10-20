@@ -1,0 +1,21 @@
+{
+    "type": "tfc:pot",
+    "ingredients": [
+        {
+                "tag": "c:foods/meats"
+        },
+        {
+                "tag": "c:foods/vegetable"
+        }
+    ],
+    "fluid_ingredient": {
+        "fluid": "caupona:nail_soup",
+        "amount": 1000
+    },
+    "duration": 1000,
+    "temperature": 300,
+    "fluid_output": {
+        "id": "caupona:stock",
+        "amount": 1000
+    }
+}

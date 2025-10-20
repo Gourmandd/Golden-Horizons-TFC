@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "corn_delight:caramel_popcorn"
+        "item": "corn_delight:caramel_popcorn"
     },
     "hunger": 2,
     "saturation": 2,

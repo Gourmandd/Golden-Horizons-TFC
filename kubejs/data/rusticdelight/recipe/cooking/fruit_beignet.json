@@ -1,0 +1,23 @@
+{
+    "type": "farmersdelight:cooking",
+    "cookingtime": 100,
+    "experience": 1.0,
+    "ingredients": [
+        {
+            "item": "rusticdelight:cooking_oil"
+        },
+        {
+            "tag": "tfc:foods/dough"
+        },
+        {
+            "tag": "c:foods/fruit/berries"
+        },
+        {
+            "tag": "tfc:foods/sweeteners"
+        }
+    ],
+    "recipe_book_tab": "misc",
+    "result": {
+        "id": "rusticdelight:fruit_beignet"
+    }
+}

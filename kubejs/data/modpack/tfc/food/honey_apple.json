@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "create:honeyed_apple"
+        "item": "create:honeyed_apple"
     },
     "category": "other",
     "hunger": 8,

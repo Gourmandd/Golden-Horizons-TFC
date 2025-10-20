@@ -1,11 +1,10 @@
 {
     "ingredient": {
-      "item": "rusticdelight:syrup_cheesecake"
+        "item": "rusticdelight:syrup_cheesecake"
     },
     "hunger": 4,
     "saturation": 0.5,
     "decay_modifier": 1.5,
     "grain": 2,
     "fruit": 2
-  }
-  
+}

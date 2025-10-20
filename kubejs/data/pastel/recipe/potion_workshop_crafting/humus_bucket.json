@@ -1,0 +1,24 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:item_exists",
+            "item": "kubejs:bucket/wrought_iron"
+        }
+    ],
+    "type": "pastel:potion_workshop_crafting",
+    "base_ingredient": {
+        "item": "kubejs:deco_bucket/wrought_iron"
+    },
+    "use_up_base_ingredient": true,
+    "color": 4268288,
+    "ingredient1": {
+        "tag": "tfc:dirt"
+    },
+    "ingredient2": {
+        "tag": "tfc:mud"
+    },
+    "result": {
+        "nbt": "{\"fluid\": {\"Amount\": 1000, \"FluidName\": \"pastel:humus\"} }",
+        "id": "kubejs:metal/bucket/wrought_iron"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "LMB",
+        "MBM",
+        "BML"
+    ],
+    "key": {
+        "L": {
+            "item": "caupona:lateres"
+        },
+        "M": {
+            "item": "tfc:mortar"
+        },
+        "B": {
+            "item": "minecraft:brick"
+        }
+    },
+    "result": {
+        "count": 4,
+        "id": "caupona:mixed_bricks"
+    }
+}

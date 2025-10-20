@@ -1,6 +1,6 @@
 {
-	"replace": true,
-	"values": [
+    "replace": true,
+    "values": [
         "tfc:food/bluegill",
         "tfc:food/crappie",
         "tfc:food/lake_trout",
@@ -19,5 +19,5 @@
         "farmersdelight:cod_slice",
         "farmersdelight:salmon_slice",
         "pastel:crawfish"
-	]
+    ]
 }

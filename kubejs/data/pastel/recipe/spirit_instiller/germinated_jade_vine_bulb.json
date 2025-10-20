@@ -1,0 +1,19 @@
+{
+    "type": "pastel:spirit_instiller",
+    "time": 600,
+    "experience": 20.0,
+    "ingredient1": {
+        "item": "pastel:mermaids_gem"
+    },
+    "ingredient2": {
+        "item": "pastel:vegetal",
+        "count": 16
+    },
+    "center_ingredient": {
+        "item": "pastel:hibernating_jade_vine_bulb"
+    },
+    "result": {
+        "id": "pastel:germinated_jade_vine_bulb"
+    },
+    "required_advancement": "pastel:hidden/collect_hibernating_jade_vine_bulb"
+}

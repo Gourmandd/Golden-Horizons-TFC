@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "caupona:scalded_milk"
+        "item": "caupona:scalded_milk"
     },
     "decay_modifier": 2,
     "hunger": 2,
@@ -11,4 +11,4 @@
     "vegetables": 0,
     "protein": 0,
     "dairy": 2
-  }
+}

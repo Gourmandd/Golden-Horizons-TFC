@@ -1,0 +1,14 @@
+{
+    "type": "createaddition:rolling",
+    "ingredients": [
+        {
+            "item": "createaddition:electrum_rod"
+        }
+    ],
+    "results": [
+        {
+            "id": "createaddition:electrum_wire",
+            "count": 2
+        }
+    ]
+}

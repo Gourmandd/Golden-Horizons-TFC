@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "minecraft:enchanted_golden_apple"
+        "item": "minecraft:enchanted_golden_apple"
     },
     "category": "other",
     "hunger": 4,
@@ -12,4 +12,4 @@
     "vegetables": 0,
     "fruit": 4,
     "protein": 0
-  }
+}

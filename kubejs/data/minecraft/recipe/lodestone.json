@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SSS",
+        "SIS",
+        "SSS"
+    ],
+    "key": {
+        "S": {
+            "tag": "forge:smooth_stone"
+        },
+        "I": {
+            "item": "tfc:metal/double_sheet/cast_iron"
+        }
+    },
+    "result": {
+        "id": "minecraft:lodestone"
+    }
+}

@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "rusticdelight:cherry_blossom_pancakes"
+        "item": "rusticdelight:cherry_blossom_pancakes"
     },
     "hunger": 1,
     "saturation": 8,
@@ -8,5 +8,4 @@
     "grain": 3.2,
     "dairy": 1.2,
     "fruit": 4
-  }
-  
+}

@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CCC",
+        "CFC",
+        "SSS"
+    ],
+    "key": {
+        "C": {
+            "tag": "forge:cobblestone"
+        },
+        "S": {
+            "tag": "forge:smooth_stone"
+        },
+        "F": {
+            "item": "minecraft:furnace"
+        }
+    },
+    "result": {
+        "id": "minecraft:blast_furnace"
+    }
+}

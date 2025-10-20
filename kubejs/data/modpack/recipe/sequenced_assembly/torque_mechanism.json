@@ -1,0 +1,78 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+        "item": "tfc:brass_mechanisms"
+    },
+    "transitional_item": {
+        "id": "kubejs:torque_mechanism"
+    },
+    "sequence": [
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "kubejs:torque_mechanism"
+                },
+                {
+                    "item": "create:cogwheel"
+                }
+            ],
+            "results": [
+                {
+                    "id": "kubejs:torque_mechanism"
+                }
+            ]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "kubejs:torque_mechanism"
+                },
+                {
+                    "item": "create:large_cogwheel"
+                }
+            ],
+            "results": [
+                {
+                    "id": "kubejs:torque_mechanism"
+                }
+            ]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "kubejs:torque_mechanism"
+                },
+                {
+                    "item": "tfc:metal/rod/steel"
+                }
+            ],
+            "results": [
+                {
+                    "id": "kubejs:torque_mechanism"
+                }
+            ]
+        },
+        {
+            "type": "create:pressing",
+            "ingredients": [
+                {
+                    "item": "kubejs:torque_mechanism"
+                }
+            ],
+            "results": [
+                {
+                    "id": "kubejs:torque_mechanism"
+                }
+            ]
+        }
+    ],
+    "results": [
+        {
+            "id": "kubejs:torque_mechanism"
+        }
+    ],
+    "loops": 2
+}

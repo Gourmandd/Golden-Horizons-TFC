@@ -1,0 +1,22 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "createbigcannons"
+        }
+    ],
+    "type": "tfc:alloy",
+    "result": "createbigcannons:molten_cast_iron",
+    "contents": [
+        {
+            "fluid": "tfc:metal/nickel",
+            "min": 0.1,
+            "max": 0.3
+        },
+        {
+            "fluid": "tfc:metal/cast_iron",
+            "min": 0.7,
+            "max": 0.9
+        }
+    ]
+}

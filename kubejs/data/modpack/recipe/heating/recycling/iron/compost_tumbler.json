@@ -1,0 +1,17 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "firmalife"
+        }
+    ],
+    "type": "tfc:heating",
+    "ingredient": {
+        "item": "firmalife:compost_tumbler"
+    },
+    "result_fluid": {
+        "id": "tfc:metal/cast_iron",
+        "amount": 400
+    },
+    "temperature": 1535
+}

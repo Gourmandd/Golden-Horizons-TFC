@@ -1,0 +1,13 @@
+{
+    "type": "create:splashing",
+    "ingredients": [
+        {
+            "item": "tfc:papyrus_strip"
+        }
+    ],
+    "results": [
+        {
+            "id": "tfc:soaked_papyrus_strip"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "B  ",
+        "BB ",
+        "BBB"
+    ],
+    "key": {
+        "B": {
+            "item": "caupona:mixed_bricks"
+        }
+    },
+    "result": {
+        "count": 8,
+        "id": "caupona:mixed_bricks_stairs"
+    }
+}

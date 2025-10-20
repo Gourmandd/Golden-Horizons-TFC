@@ -1,0 +1,10 @@
+{
+    "type": "pastel:midnight_solution_converting",
+    "ingredient": {
+        "item": "minecraft:netherite_ingot"
+    },
+    "result": {
+        "id": "architects_palette:unobtanium",
+        "count": 1
+    }
+}

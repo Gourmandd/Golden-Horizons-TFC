@@ -1,0 +1,16 @@
+{
+    "type": "tfc:glassworking",
+    "operations": [
+        "tfc:nickel",
+        "tfc:blow",
+        "tfc:stretch",
+        "tfc:roll",
+        "tfc:saw"
+    ],
+    "batch": {
+        "tag": "tfc:glass_batches"
+    },
+    "result": {
+        "id": "kubejs:brown_lens"
+    }
+}

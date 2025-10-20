@@ -1,0 +1,12 @@
+{
+    "type": "tfc:loom",
+    "ingredient": {
+        "tag": "c:straw",
+        "count": 6
+    },
+    "result": {
+        "id": "farmersdelight:canvas"
+    },
+    "steps": 12,
+    "texture": "farmersdelight:block/canvas_rug"
+}

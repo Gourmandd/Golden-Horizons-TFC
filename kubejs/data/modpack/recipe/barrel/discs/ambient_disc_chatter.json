@@ -1,0 +1,22 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "quark"
+        }
+    ],
+    "type": "tfc:barrel_sealed",
+    "input_item": {
+        "item": "tfc:blank_disc"
+    },
+    "input_fluid": {
+        "fluid": {
+            "tag": "tfc:alcohols"
+        },
+        "amount": 100
+    },
+    "output_item": {
+        "id": "quark:music_disc_chatter"
+    },
+    "duration": 1000
+}

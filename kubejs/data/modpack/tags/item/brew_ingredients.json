@@ -1,5 +1,5 @@
 {
-    "values":[
+    "values": [
         "minecraft:redstone",
         "minecraft:bone_meal",
         "minecraft:snowball",
@@ -127,7 +127,5 @@
         "tfc:rock/loose/chalk",
         "firmalife:food/soy_mixture",
         "tfc:plant/athyrium_fern"
-
-
     ]
 }

@@ -1,8 +1,8 @@
 {
-	"replace": true,
-	"values": [
+    "replace": true,
+    "values": [
         "tfc:food/beef",
         "minecraft:beef",
         "farmersdelight:minced_beef"
-	]
+    ]
 }

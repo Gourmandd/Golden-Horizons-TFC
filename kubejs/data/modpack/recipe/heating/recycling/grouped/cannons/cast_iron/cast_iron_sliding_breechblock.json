@@ -1,0 +1,17 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "createbigcannons"
+        }
+    ],
+    "type": "tfc:heating",
+    "ingredient": {
+        "item": "createbigcannons:cast_iron_sliding_breechblock"
+    },
+    "result_fluid": {
+        "id": "createbigcannons:molten_cast_iron",
+        "amount": 300
+    },
+    "temperature": 1535
+}

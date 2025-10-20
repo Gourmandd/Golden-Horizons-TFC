@@ -1,0 +1,38 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "firmalife"
+        }
+    ],
+    "type": "farmersdelight:cooking",
+    "container": {
+        "id": "minecraft:bowl"
+    },
+    "cookingtime": 400,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "rusticdelight:batter"
+        },
+        {
+            "item": "firmalife:raw_honey"
+        },
+        {
+            "tag": "c:foods/fruit/berries"
+        },
+        {
+            "tag": "c:foods/fruit/berries"
+        },
+        {
+            "tag": "tfc:foods/sweeteners"
+        },
+        {
+            "tag": "tfc:foods/sweeteners"
+        }
+    ],
+    "recipe_book_tab": "misc",
+    "result": {
+        "id": "rusticdelight:honey_pancakes"
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "type": "pastel:pedestal",
+    "time": 200,
+    "tier": "basic",
+    "colors": {
+        "pastel:cyan": 0,
+        "pastel:magenta": 0,
+        "pastel:yellow": 4,
+        "pastel:white": 0,
+        "pastel:black": 0
+    },
+    "experience": 1.0,
+    "pattern": [
+        "TCR",
+        "SSS"
+    ],
+    "key": {
+        "C": {
+            "item": "pastel:citrine_shard"
+        },
+        "R": {
+            "item": "minecraft:redstone"
+        },
+        "T": {
+            "item": "minecraft:redstone_torch"
+        },
+        "S": {
+            "tag": "c:stone"
+        }
+    },
+    "result": {
+        "count": 1,
+        "id": "pastel:redstone_calculator"
+    },
+    "required_advancement": "pastel:unlocks/redstone/redstone_calculator"
+}

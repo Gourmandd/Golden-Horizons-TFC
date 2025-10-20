@@ -1,0 +1,26 @@
+{
+    "type": "pastel:spirit_instiller",
+    "group": "memories",
+    "time": 800,
+    "experience": 4.0,
+    "ingredient1": {
+        "item": "pastel:polar_bear_head"
+    },
+    "ingredient2": {
+        "tag": "minecraft:fishes"
+    },
+    "center_ingredient": {
+        "tag": "pastel:memory_bonding_agents",
+        "count": 4
+    },
+    "result": {
+        "nbt": {
+            "EntityTag": {
+                "id": "tfc:polar_bear"
+            },
+            "TicksToManifest": 8
+        },
+        "id": "pastel:memory"
+    },
+    "required_advancement": "pastel:unlocks/blocks/memories"
+}

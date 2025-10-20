@@ -1,0 +1,19 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "breezy"
+        }
+    ],
+    "type": "tfc:welding",
+    "first_input": {
+        "item": "minecraft:compass"
+    },
+    "second_input": {
+        "item": "firmaciv:unfinished_nav_clock"
+    },
+    "tier": 1,
+    "result": {
+        "id": "breezy:gust_gauge"
+    }
+}

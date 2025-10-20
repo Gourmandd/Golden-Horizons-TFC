@@ -1,0 +1,10 @@
+{
+    "type": "pastel:midnight_solution_converting",
+    "ingredient": {
+        "tag": "minecraft:planks"
+    },
+    "result": {
+        "id": "architects_palette:twisted_planks",
+        "count": 1
+    }
+}

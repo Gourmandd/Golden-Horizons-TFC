@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "barbequesdelight:raw_pork_sausage_skewer"
+        "item": "barbequesdelight:raw_pork_sausage_skewer"
     },
     "category": "meat",
     "hunger": 3,

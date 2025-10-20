@@ -1,0 +1,15 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "type": "fluid_stack",
+            "amount": 100,
+            "fluid": "kubejs:electrum"
+        }
+    ],
+    "results": [
+        {
+            "id": "createaddition:electrum_plate"
+        }
+    ]
+}

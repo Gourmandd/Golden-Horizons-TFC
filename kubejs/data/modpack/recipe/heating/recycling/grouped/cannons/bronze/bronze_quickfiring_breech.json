@@ -1,0 +1,17 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "createbigcannons"
+        }
+    ],
+    "type": "tfc:heating",
+    "ingredient": {
+        "item": "createbigcannons:bronze_quickfiring_breech"
+    },
+    "result_fluid": {
+        "id": "createbigcannons:molten_bronze",
+        "amount": 1110
+    },
+    "temperature": 1535
+}

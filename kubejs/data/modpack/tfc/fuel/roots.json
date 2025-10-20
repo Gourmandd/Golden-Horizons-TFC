@@ -1,6 +1,8 @@
 {
     "ingredient": [
-        { "item": "tfc:tree_roots" }
+        {
+            "item": "tfc:tree_roots"
+        }
     ],
     "duration": 400,
     "temperature": 499,

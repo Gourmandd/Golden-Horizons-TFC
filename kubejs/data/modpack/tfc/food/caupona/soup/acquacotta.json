@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "caupona:acquacotta"
+        "item": "caupona:acquacotta"
     },
     "decay_modifier": 2,
     "hunger": 10,
@@ -11,4 +11,4 @@
     "vegetables": 4,
     "protein": 2,
     "dairy": 0
-  }
+}

@@ -1,0 +1,36 @@
+{
+    "type": "pastel:pedestal",
+    "time": 400,
+    "tier": "simple",
+    "colors": {
+        "pastel:cyan": 2,
+        "pastel:magenta": 2,
+        "pastel:yellow": 2,
+        "pastel:white": 0,
+        "pastel:black": 0
+    },
+    "experience": 1.0,
+    "pattern": [
+        "TOR",
+        "SSS"
+    ],
+    "key": {
+        "O": {
+            "item": "pastel:onyx_shard"
+        },
+        "R": {
+            "item": "minecraft:redstone"
+        },
+        "T": {
+            "item": "minecraft:redstone_torch"
+        },
+        "S": {
+            "tag": "c:stone"
+        }
+    },
+    "result": {
+        "id": "pastel:redstone_transceiver",
+        "count": 2
+    },
+    "required_advancement": "pastel:create_onyx_shard"
+}

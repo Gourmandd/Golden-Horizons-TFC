@@ -1,0 +1,33 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "SSS",
+        " A ",
+        "CBC",
+        "TET"
+    ],
+    "key": {
+        "A": {
+            "item": "create:andesite_alloy"
+        },
+        "C": {
+            "item": "createaddition:capacitor"
+        },
+        "T": {
+            "item": "tfc:metal/ingot/brass"
+        },
+        "B": {
+            "item": "kubejs:brass_machine"
+        },
+        "S": {
+            "item": "createaddition:copper_spool"
+        },
+        "E": {
+            "item": "create:electron_tube"
+        }
+    },
+    "result": {
+        "id": "createaddition:tesla_coil"
+    },
+    "accept_mirrored": true
+}

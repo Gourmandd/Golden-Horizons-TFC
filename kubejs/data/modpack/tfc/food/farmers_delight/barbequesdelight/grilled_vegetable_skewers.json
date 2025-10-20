@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "barbequesdelight:grilled_vegetable_skewer"
+        "item": "barbequesdelight:grilled_vegetable_skewer"
     },
     "category": "vegetables",
     "hunger": 6,

@@ -1,0 +1,26 @@
+{
+    "type": "pastel:spirit_instiller",
+    "group": "memories",
+    "time": 800,
+    "experience": 4.0,
+    "ingredient1": {
+        "item": "pastel:goat_head"
+    },
+    "ingredient2": {
+        "item": "tfc:food/wheat"
+    },
+    "center_ingredient": {
+        "tag": "pastel:memory_bonding_agents",
+        "count": 4
+    },
+    "result": {
+        "nbt": {
+            "EntityTag": {
+                "id": "tfc:goat"
+            },
+            "TicksToManifest": 8
+        },
+        "id": "pastel:memory"
+    },
+    "required_advancement": "pastel:unlocks/blocks/memories"
+}

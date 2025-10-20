@@ -1,7 +1,7 @@
 {
-	"replace": true,
-	"values": [
-		"#c:foods/cooked_mutton",
-		"#c:foods/raw_mutton"
-	]
+    "replace": true,
+    "values": [
+        "#c:foods/cooked_mutton",
+        "#c:foods/raw_mutton"
+    ]
 }

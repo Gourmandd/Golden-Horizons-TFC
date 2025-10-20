@@ -1,0 +1,40 @@
+{
+    "type": "spectrum:pedestal",
+    "time": 1200,
+    "tier": "advanced",
+    "colors": {
+        "pastel:cyan": 0,
+        "pastel:magenta": 4,
+        "pastel:yellow": 4,
+        "pastel:white": 0,
+        "pastel:black": 1
+    },
+    "experience": 4.0,
+    "pattern": [
+        "CQC",
+        "PGP",
+        "BBB"
+    ],
+    "key": {
+        "B": {
+            "item": "spectrum:polished_basalt"
+        },
+        "P": {
+            "item": "spectrum:polished_calcite"
+        },
+        "C": {
+            "item": "tfc:metal/ingot/copper"
+        },
+        "G": {
+            "item": "spectrum:stratine_fragments"
+        },
+        "Q": {
+            "item": "spectrum:quitoxic_powder"
+        }
+    },
+    "result": {
+        "id": "spectrum:potion_workshop",
+        "count": 1
+    },
+    "required_advancement": "spectrum:unlocks/blocks/potion_workshop"
+}

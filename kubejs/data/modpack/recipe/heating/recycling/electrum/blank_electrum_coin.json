@@ -1,0 +1,17 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "lithiccoins"
+        }
+    ],
+    "type": "tfc:heating",
+    "ingredient": {
+        "item": "lithiccoins:blank_coin/electrum"
+    },
+    "result_fluid": {
+        "id": "kubejs:electrum",
+        "amount": 25
+    },
+    "temperature": 1060
+}

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "L  ",
+        "LL ",
+        "LLL"
+    ],
+    "key": {
+        "L": {
+            "item": "caupona:opus_incertum"
+        }
+    },
+    "result": {
+        "count": 8,
+        "id": "caupona:opus_incertum_stairs"
+    }
+}

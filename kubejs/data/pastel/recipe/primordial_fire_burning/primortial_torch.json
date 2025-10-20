@@ -1,0 +1,10 @@
+{
+    "type": "pastel:primordial_fire_burning",
+    "secret": true,
+    "ingredient": {
+        "item": "tfc:torch"
+    },
+    "result": {
+        "id": "tfc:dead_torch"
+    }
+}

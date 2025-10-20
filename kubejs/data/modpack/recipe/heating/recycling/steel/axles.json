@@ -1,0 +1,11 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+        "tag": "modpack:axles"
+    },
+    "result_fluid": {
+        "id": "tfc:metal/steel",
+        "amount": 100
+    },
+    "temperature": 1540
+}

@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "pastel:nectardew_burgeon"
+        "item": "pastel:nectardew_burgeon"
     },
     "category": "other",
     "hunger": 0,
@@ -12,4 +12,4 @@
     "vegetables": 0.5,
     "fruit": 0,
     "protein": 0
-  }
+}

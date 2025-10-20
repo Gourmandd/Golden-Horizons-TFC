@@ -1,0 +1,10 @@
+{
+    "type": "pastel:midnight_solution_converting",
+    "ingredient": {
+        "tag": "minecraft:logs"
+    },
+    "result": {
+        "id": "architects_palette:twisted_log",
+        "count": 1
+    }
+}

@@ -1,6 +1,6 @@
 {
     "replace": true,
-    "values":[
+    "values": [
         "firmalife:food/fig",
         "firmalife:food/pineapple",
         "tfc:food/banana",

@@ -1,0 +1,18 @@
+{
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "tag": "c:foods/fruit/apple"
+        },
+        {
+        "type": "fluid_tag",
+        "amount": 250,
+        "fluid_tag": "c:honey"
+        }
+    ],
+    "results": [
+        {
+            "id": "create:honeyed_apple"
+        }
+    ]
+}

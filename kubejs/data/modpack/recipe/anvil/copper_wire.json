@@ -1,0 +1,22 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "simpleradio"
+        }
+    ],
+    "type": "tfc:anvil",
+    "ingredient": {
+        "item": "createaddition:copper_wire"
+    },
+    "result": {
+        "count": 2,
+        "id": "simpleradio:copper_wire"
+    },
+    "tier": 1,
+    "rules": [
+        "bend_last",
+        "upset_second_last",
+        "hit_third_last"
+    ]
+}

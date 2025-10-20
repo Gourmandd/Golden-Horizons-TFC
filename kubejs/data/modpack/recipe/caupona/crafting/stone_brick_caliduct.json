@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "MMM",
+        " S ",
+        "MMM"
+    ],
+    "key": {
+        "M": {
+            "tag": "forge:smooth_stone_slab"
+        },
+        "S": {
+            "tag": "forge:stone_bricks"
+        }
+    },
+    "result": {
+        "count": 4,
+        "id": "caupona:stone_brick_caliduct"
+    }
+}

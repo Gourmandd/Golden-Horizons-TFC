@@ -1,0 +1,14 @@
+{
+    "type": "tfc:barrel_instant",
+    "input_item": {
+        "item": "minecraft:glass_bottle"
+    },
+    "input_fluid": {
+        "fluid": "tfc:olive_oil",
+        "amount": 500
+    },
+    "output_item": {
+        "id": "rusticdelight:cooking_oil",
+        "amount": 2
+    }
+}

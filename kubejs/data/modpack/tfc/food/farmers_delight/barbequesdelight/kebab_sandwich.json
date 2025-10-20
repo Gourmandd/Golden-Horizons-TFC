@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "barbequesdelight:kebab_sandwich"
+        "item": "barbequesdelight:kebab_sandwich"
     },
     "category": "meat",
     "hunger": 16,

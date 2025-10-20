@@ -1,6 +1,6 @@
 {
     "replace": false,
-    "values":[
+    "values": [
         "tfc:food/beef",
         "tfc:food/mutton",
         "tfc:food/pork",

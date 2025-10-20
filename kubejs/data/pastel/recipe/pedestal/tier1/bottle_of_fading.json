@@ -1,0 +1,38 @@
+{
+    "type": "pastel:pedestal",
+    "time": 400,
+    "tier": "basic",
+    "colors": {
+        "pastel:cyan": 0,
+        "pastel:magenta": 0,
+        "pastel:yellow": 0,
+        "pastel:white": 0,
+        "pastel:black": 0
+    },
+    "experience": 2.0,
+    "skip_recipe_remainders": true,
+    "pattern": [
+        "FSF",
+        "CBC",
+        "FSF"
+    ],
+    "key": {
+        "S": {
+            "item": "pastel:shimmerstone_gem"
+        },
+        "F": {
+            "item": "tfc:rotten_compost"
+        },
+        "C": {
+            "item": "minecraft:blaze_powder"
+        },
+        "B": {
+            "item": "farmersdelight:milk_bottle"
+        }
+    },
+    "result": {
+        "count": 1,
+        "id": "pastel:bottle_of_fading"
+    },
+    "required_advancement": "pastel:unlocks/items/bottle_of_fading"
+}

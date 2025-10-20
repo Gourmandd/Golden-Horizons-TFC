@@ -1,6 +1,6 @@
 {
-	"replace": true,
-	"values": [
+    "replace": true,
+    "values": [
         "#c:foods/raw_mutton",
         "#c:foods/raw_pork",
         "#c:foods/raw_beef",
@@ -13,5 +13,5 @@
         "tfc:food/gran_feline",
         "tfc:food/turtle",
         "tfc:food/camelidae"
-	]
+    ]
 }

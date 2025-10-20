@@ -1,0 +1,22 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "simpleradio"
+        }
+    ],
+    "type": "tfc:anvil",
+    "ingredient": {
+        "item": "tfc:metal/double_ingot/wrought_iron"
+    },
+    "result": {
+        "count": 8,
+        "id": "simpleradio:antenna"
+    },
+    "tier": 3,
+    "rules": [
+        "bend_last",
+        "upset_second_last",
+        "hit_third_last"
+    ]
+}

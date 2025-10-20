@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "caupona:pumpkin_soup"
+        "item": "caupona:pumpkin_soup"
     },
     "decay_modifier": 2,
     "hunger": 10,
@@ -11,4 +11,4 @@
     "vegetables": 2,
     "protein": 0,
     "dairy": 0
-  }
+}

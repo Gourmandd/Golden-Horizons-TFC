@@ -1,0 +1,14 @@
+{
+    "type": "createaddition:rolling",
+    "ingredients": [
+        {
+            "item": "tfc:metal/rod/gold"
+        }
+    ],
+    "results": [
+        {
+            "id": "createaddition:gold_wire",
+            "count": 2
+        }
+    ]
+}

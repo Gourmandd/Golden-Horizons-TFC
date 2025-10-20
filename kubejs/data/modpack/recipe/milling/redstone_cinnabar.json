@@ -1,0 +1,10 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+        {
+            "item": "tfc:ore/cinnabar"
+        }
+    ],
+    "results": [],
+    "processingTime": 50
+}

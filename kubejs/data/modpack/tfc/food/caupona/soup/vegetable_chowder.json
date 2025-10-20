@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "caupona:vegetable_chowder"
+        "item": "caupona:vegetable_chowder"
     },
     "decay_modifier": 2,
     "hunger": 12,
@@ -11,4 +11,4 @@
     "vegetables": 8,
     "protein": 3,
     "dairy": 6
-  }
+}

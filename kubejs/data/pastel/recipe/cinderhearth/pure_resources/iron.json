@@ -1,0 +1,15 @@
+{
+    "type": "pastel:cinderhearth",
+    "ingredient": {
+        "item": "pastel:pure_iron"
+    },
+    "results": [
+        {
+            "id": "tfc:metal/ingot/wrought_iron",
+            "count": 2
+        }
+    ],
+    "experience": 0.5,
+    "time": 200,
+    "required_advancement": "pastel:lategame/collect_pure_resource"
+}

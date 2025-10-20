@@ -1,7 +1,7 @@
 {
-  "values": [
-    "minecraft:gold_block",
-    "create:wrench",
-    "minecraft:clock"
-  ]
+    "values": [
+        "minecraft:gold_block",
+        "create:wrench",
+        "minecraft:clock"
+    ]
 }

@@ -1,0 +1,12 @@
+{
+    "type": "tfc:loom",
+    "ingredient": {
+        "item": "kubejs:soft_bark",
+        "count": 24
+    },
+    "result": {
+        "id": "tfc:unrefined_paper"
+    },
+    "steps": 32,
+    "texture": "minecraft:block/oak_log"
+}

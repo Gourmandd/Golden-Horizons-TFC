@@ -1,0 +1,17 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "sns"
+        }
+    ],
+    "type": "tfc:heating",
+    "ingredient": {
+        "item": "sns:pack_frame"
+    },
+    "result_fluid": {
+        "id": "tfc:metal/steel",
+        "amount": 400
+    },
+    "temperature": 1540
+}

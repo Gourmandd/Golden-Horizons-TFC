@@ -1,7 +1,6 @@
 {
     "replace": false,
     "values": [
-      "#modpack:is_land"
+        "#modpack:is_land"
     ]
-  }
-  
+}

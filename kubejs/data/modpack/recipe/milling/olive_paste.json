@@ -1,0 +1,10 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+        {
+            "item": "tfc:food/olive"
+        }
+    ],
+    "results": [],
+    "processingTime": 50
+}

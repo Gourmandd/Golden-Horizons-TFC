@@ -1,24 +1,24 @@
 {
-  "values": [
-    "minecraft:heavy_weighted_pressure_plate",
-    "minecraft:iron_door",
-    "quark:grate",
-    "quark:iron_button",
-    "quark:iron_ladder",
-    "afc:tree_tap",
-    "create:metal_bracket",
-    "create:chute",
-    "create:whisk",
-    "create:electron_tube",
-    "create:metal_girder",
-    "create:industrial_iron_block",
-    "create:redstone_contact",
-    "firmalife:pie_pan",
-    "firmalife:oven_insulation",
-    "createaddition:spool",
-    "createaddition:iron_wire",
-    "farmersdelight:iron_knife",
-    "quark:abacus",
-    "quark:trowel"
-  ]
+    "values": [
+        "minecraft:heavy_weighted_pressure_plate",
+        "minecraft:iron_door",
+        "quark:grate",
+        "quark:iron_button",
+        "quark:iron_ladder",
+        "afc:tree_tap",
+        "create:metal_bracket",
+        "create:chute",
+        "create:whisk",
+        "create:electron_tube",
+        "create:metal_girder",
+        "create:industrial_iron_block",
+        "create:redstone_contact",
+        "firmalife:pie_pan",
+        "firmalife:oven_insulation",
+        "createaddition:spool",
+        "createaddition:iron_wire",
+        "farmersdelight:iron_knife",
+        "quark:abacus",
+        "quark:trowel"
+    ]
 }

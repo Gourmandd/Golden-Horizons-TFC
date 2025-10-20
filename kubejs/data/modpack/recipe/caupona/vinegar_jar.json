@@ -1,0 +1,13 @@
+{
+    "type": "tfc:barrel_instant",
+    "input_item": {
+        "item": "minecraft:flower_pot"
+    },
+    "input_fluid": {
+        "amount": 250,
+        "fluid": "tfc:vinegar"
+    },
+    "output_item": {
+        "id": "caupona:vinegar_spice_jar"
+    }
+}

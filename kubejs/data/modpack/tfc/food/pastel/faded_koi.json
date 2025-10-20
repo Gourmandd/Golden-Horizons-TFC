@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "pastel:faded_koi"
+        "item": "pastel:faded_koi"
     },
     "category": "other",
     "hunger": 6,
@@ -12,4 +12,4 @@
     "vegetables": 0,
     "fruit": 0,
     "protein": 1.5
-  }
+}

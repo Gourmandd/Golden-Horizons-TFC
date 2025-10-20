@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "BMB",
+        "MBM",
+        "BMB"
+    ],
+    "key": {
+        "B": {
+            "item": "architects_palette:algal_brick"
+        },
+        "M": {
+            "item": "tfc:mortar"
+        }
+    },
+    "result": {
+        "count": 4,
+        "id": "architects_palette:algal_bricks"
+    }
+}

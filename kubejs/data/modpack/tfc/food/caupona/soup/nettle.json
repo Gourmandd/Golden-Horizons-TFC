@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "caupona:nettle_soup"
+        "item": "caupona:nettle_soup"
     },
     "decay_modifier": 2,
     "hunger": 7,
@@ -11,4 +11,4 @@
     "vegetables": 6,
     "protein": 1.5,
     "dairy": 0
-  }
+}

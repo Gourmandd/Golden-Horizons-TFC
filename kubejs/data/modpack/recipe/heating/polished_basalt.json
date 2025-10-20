@@ -1,0 +1,10 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+        "item": "minecraft:smooth_basalt"
+    },
+    "result_item": {
+        "id": "pastel:polished_basalt"
+    },
+    "temperature": 1535
+}

@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "barbequesdelight:raw_mushroom_skewer"
+        "item": "barbequesdelight:raw_mushroom_skewer"
     },
     "category": "vegetables",
     "hunger": 3,

@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "caupona:okroshka"
+        "item": "caupona:okroshka"
     },
     "decay_modifier": 2,
     "hunger": 10,
@@ -11,4 +11,4 @@
     "vegetables": 6,
     "protein": 4,
     "dairy": 0
-  }
+}

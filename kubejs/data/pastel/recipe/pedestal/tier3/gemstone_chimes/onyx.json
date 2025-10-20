@@ -1,0 +1,41 @@
+{
+    "type": "pastel:pedestal",
+    "group": "gemstone_chimes",
+    "time": 60,
+    "tier": "advanced",
+    "colors": {
+        "pastel:cyan": 0,
+        "pastel:magenta": 0,
+        "pastel:yellow": 0,
+        "pastel:white": 1,
+        "pastel:black": 0
+    },
+    "experience": 1,
+    "pattern": [
+        " Y ",
+        "SGS",
+        "PXP"
+    ],
+    "key": {
+        "S": {
+            "item": "pastel:onyx_shard"
+        },
+        "X": {
+            "item": "pastel:polished_basalt"
+        },
+        "Y": {
+            "item": "pastel:polished_calcite"
+        },
+        "G": {
+            "tag": "c:string"
+        },
+        "P": {
+            "item": "pastel:shimmerstone_gem"
+        }
+    },
+    "result": {
+        "id": "pastel:onyx_chime",
+        "count": 1
+    },
+    "required_advancement": "pastel:unlocks/gemstone_chimes/onyx_chime"
+}

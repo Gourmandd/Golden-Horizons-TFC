@@ -1,0 +1,26 @@
+{
+    "type": "farmersdelight:cooking",
+    "container": {
+        "id": "minecraft:bowl"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+        {
+            "tag": "c:foods/vegetable/potato"
+        },
+        {
+            "tag": "c:foods/rabbit"
+        },
+        {
+            "item": "tfc:food/carrot"
+        },
+        {
+            "tag": "c:foods/edible_mushrooms"
+        }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+        "id": "minecraft:rabbit_stew"
+    }
+}

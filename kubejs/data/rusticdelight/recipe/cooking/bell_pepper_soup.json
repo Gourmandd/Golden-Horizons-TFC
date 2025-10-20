@@ -1,0 +1,23 @@
+{
+    "type": "farmersdelight:cooking",
+    "container": {
+        "id": "minecraft:bowl"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+        {
+            "tag": "c:foods/vegetable/bell_pepper"
+        },
+        {
+            "tag": "c:foods/vegetable/bell_pepper"
+        },
+        {
+            "tag": "c:foods/vegetable/bell_pepper"
+        }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+        "id": "rusticdelight:bell_pepper_soup"
+    }
+}

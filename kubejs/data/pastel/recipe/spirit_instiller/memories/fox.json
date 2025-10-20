@@ -1,0 +1,27 @@
+{
+    "type": "pastel:spirit_instiller",
+    "group": "memories",
+    "time": 800,
+    "experience": 4.0,
+    "ingredient1": {
+        "item": "pastel:fox_head"
+    },
+    "ingredient2": {
+        "tag": "minecraft:fox_food"
+    },
+    "center_ingredient": {
+        "tag": "pastel:memory_bonding_agents",
+        "count": 4
+    },
+    "result": {
+        "nbt": {
+            "EntityTag": {
+                "id": "tfc:fox",
+                "Type": "red"
+            },
+            "TicksToManifest": 8
+        },
+        "id": "pastel:memory"
+    },
+    "required_advancement": "pastel:unlocks/blocks/memories"
+}

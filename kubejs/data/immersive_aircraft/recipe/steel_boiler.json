@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SSS",
+        "SCS"
+    ],
+    "key": {
+        "S": {
+            "item": "tfc:metal/ingot/steel"
+        },
+        "C": {
+            "item": "immersive_aircraft:boiler"
+        }
+    },
+    "result": {
+        "id": "immersive_aircraft:steel_boiler"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "firmalife"
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "BB"
+    ],
+    "key": {
+        "B": {
+            "item": "firmalife:food/masa"
+        }
+    },
+    "result": {
+        "count": 1,
+        "id": "corn_delight:tortilla_raw"
+    }
+}

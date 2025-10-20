@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "caupona:goji_tongsui"
+        "item": "caupona:goji_tongsui"
     },
     "decay_modifier": 2,
     "hunger": 6,
@@ -11,4 +11,4 @@
     "vegetables": 0,
     "protein": 0,
     "dairy": 0
-  }
+}

@@ -1,0 +1,10 @@
+{
+    "type": "pastel:midnight_solution_converting",
+    "ingredient": {
+        "tag": "tfc:rock/hardened"
+    },
+    "result": {
+        "id": "architects_palette:moonshale",
+        "count": 1
+    }
+}

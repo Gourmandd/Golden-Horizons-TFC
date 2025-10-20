@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "rusticdelight:fried_mushrooms"
+        "item": "rusticdelight:fried_mushrooms"
     },
     "hunger": 4,
     "saturation": 1.5,
@@ -9,5 +9,4 @@
     "vegetables": 2.4,
     "grain": 0.5,
     "dairy": 0.5
-  }
-  
+}

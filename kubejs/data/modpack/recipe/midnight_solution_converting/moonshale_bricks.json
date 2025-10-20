@@ -1,0 +1,10 @@
+{
+    "type": "pastel:midnight_solution_converting",
+    "ingredient": {
+        "tag": "forge:stone_bricks"
+    },
+    "result": {
+        "id": "architects_palette:moonshale_bricks",
+        "count": 1
+    }
+}

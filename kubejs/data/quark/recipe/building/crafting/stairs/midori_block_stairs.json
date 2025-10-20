@@ -1,0 +1,23 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "quark"
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "M  ",
+        "MM ",
+        "MMM"
+    ],
+    "key": {
+        "M": {
+            "item": "quark:midori_block"
+        }
+    },
+    "result": {
+        "count": 8,
+        "id": "quark:midori_block_stairs"
+    }
+}

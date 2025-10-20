@@ -1,0 +1,30 @@
+{
+    "type": "tfc:pot",
+    "ingredients": [
+        {
+                "tag": "c:foods/vegetable/beet"
+        },
+        {
+                "tag": "c:foods/vegetable/beet"
+        },
+        {
+                "tag": "c:foods/vegetable/beet"
+        },
+        {
+                "tag": "c:foods/vegetable"
+        },
+        {
+            "tag": "c:spices"
+        }
+    ],
+    "fluid_ingredient": {
+        "fluid": "caupona:scalded_milk",
+        "amount": 1000
+    },
+    "duration": 1000,
+    "temperature": 300,
+    "fluid_output": {
+        "id": "caupona:borscht_cream",
+        "amount": 1000
+    }
+}

@@ -1,7 +1,7 @@
 {
     "replace": false,
     "values": [
-    "#tfc:grass",
-    "#tfc:paths"
+        "#tfc:grass",
+        "#tfc:paths"
     ]
 }

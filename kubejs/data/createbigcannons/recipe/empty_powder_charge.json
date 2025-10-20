@@ -1,0 +1,25 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "createbigcannons"
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "S",
+        "W",
+        "S"
+    ],
+    "key": {
+        "S": {
+            "tag": "forge:string"
+        },
+        "W": {
+            "tag": "minecraft:wool"
+        }
+    },
+    "result": {
+        "id": "createbigcannons:empty_powder_charge"
+    }
+}

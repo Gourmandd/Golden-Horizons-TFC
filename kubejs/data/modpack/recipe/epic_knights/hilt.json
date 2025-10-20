@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "magistuarmory:leather_strip"
+        },
+        {
+            "tag": "forge:rods/wooden"
+        }
+    ],
+    "result": {
+        "id": "magistuarmory:hilt"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "type": "createaddition:rolling",
+    "ingredients": [
+        {
+            "item": "tfc:metal/rod/copper"
+        }
+    ],
+    "results": [
+        {
+            "id": "createaddition:copper_wire",
+            "count": 2
+        }
+    ]
+}

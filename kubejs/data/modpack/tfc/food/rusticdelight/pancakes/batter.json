@@ -1,9 +1,8 @@
 {
     "ingredient": {
-      "item": "rusticdelight:batter"
+        "item": "rusticdelight:batter"
     },
     "hunger": 1,
     "saturation": 2,
     "decay_modifier": 14
-  }
-  
+}

@@ -1,0 +1,37 @@
+{
+    "type": "pastel:pedestal",
+    "time": 80,
+    "tier": "basic",
+    "colors": {
+        "pastel:cyan": 0,
+        "pastel:magenta": 0,
+        "pastel:yellow": 0,
+        "pastel:white": 0,
+        "pastel:black": 0
+    },
+    "experience": 0.2,
+    "pattern": [
+        "ESE",
+        "CCC",
+        "EXE"
+    ],
+    "key": {
+        "S": {
+            "item": "minecraft:honey_bottle"
+        },
+        "E": {
+            "item": "kubejs:food/amaranth_flour"
+        },
+        "C": {
+            "item": "pastel:clotted_cream"
+        },
+        "X": {
+            "tag": "c:eggs"
+        }
+    },
+    "result": {
+        "count": 5,
+        "id": "pastel:cream_pastry"
+    },
+    "required_advancement": "pastel:hidden/collect_cookbooks/melochites_cookbook_vol_2"
+}

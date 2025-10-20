@@ -1,0 +1,18 @@
+{
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "tag": "modpack:berries"
+        },
+        {
+            "type": "fluid_stack",
+            "amount": 250,
+            "fluid": "create:chocolate"
+        }
+    ],
+    "results": [
+        {
+            "id": "create:chocolate_glazed_berries"
+        }
+    ]
+}

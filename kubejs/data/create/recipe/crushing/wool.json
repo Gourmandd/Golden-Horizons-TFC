@@ -1,0 +1,20 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+        {
+            "tag": "minecraft:wool"
+        }
+    ],
+    "results": [
+        {
+            "count": 4,
+            "id": "tfc:wool_yarn"
+        },
+        {
+            "count": 2,
+            "chance": 0.5,
+            "id": "tfc:wool_yarn"
+        }
+    ],
+    "processingTime": 50
+}

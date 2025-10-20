@@ -1,0 +1,10 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+        {
+            "item": "architects_palette:withered_bone"
+        }
+    ],
+    "results": [],
+    "processingTime": 50
+}

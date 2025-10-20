@@ -1,6 +1,6 @@
 {
-  "ingredient": {
-    "item": "kubejs:soft_chhurpi"
-  },
-  "heat_capacity": 1
+    "ingredient": {
+        "item": "kubejs:soft_chhurpi"
+    },
+    "heat_capacity": 1
 }

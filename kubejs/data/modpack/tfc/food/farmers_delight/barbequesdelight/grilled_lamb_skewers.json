@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "barbequesdelight:grilled_lamb_skewer"
+        "item": "barbequesdelight:grilled_lamb_skewer"
     },
     "category": "meat",
     "hunger": 6,

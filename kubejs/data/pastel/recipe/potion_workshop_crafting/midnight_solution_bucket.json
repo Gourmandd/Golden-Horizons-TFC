@@ -1,0 +1,28 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:item_exists",
+            "item": "kubejs:bucket/wrought_iron"
+        }
+    ],
+    "type": "pastel:potion_workshop_crafting",
+    "base_ingredient": {
+        "item": "kubejs:deco_bucket/wrought_iron"
+    },
+    "use_up_base_ingredient": true,
+    "color": 526373,
+    "ingredient1": {
+        "item": "pastel:midnight_chip"
+    },
+    "ingredient2": {
+        "item": "pastel:quitoxic_powder"
+    },
+    "ingredient3": {
+        "item": "pastel:black_pigment"
+    },
+    "result": {
+        "nbt": "{\"fluid\": {\"Amount\": 1000, \"FluidName\": \"pastel:midnight_solution\"} }",
+        "id": "kubejs:metal/bucket/wrought_iron"
+    },
+    "required_advancement": "pastel:unlocks/blocks/midnight_solution"
+}

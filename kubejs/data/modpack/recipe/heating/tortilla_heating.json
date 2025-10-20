@@ -1,0 +1,13 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+        "type": "tfc:not_rotten",
+        "ingredient": {
+            "item": "corn_delight:tortilla_raw"
+        }
+    },
+    "result_item": {
+        "id": "corn_delight:tortilla"
+    },
+    "temperature": 200
+}

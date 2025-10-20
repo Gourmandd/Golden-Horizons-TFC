@@ -1,0 +1,7 @@
+{
+    "neoc:conditions": [
+        {
+            "type": "neoc:false"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "type": "tfc:pot",
+    "ingredients": [
+        {
+                "tag": "caupona:vegetables/roots"
+        },
+        {
+
+                "tag": "c:foods/vegetable"
+        },
+        {
+                "tag": "c:foods/vegetable"
+        },
+        {
+                "tag": "c:foods/vegetable"
+        },
+        {
+            "tag": "c:spices"
+        }
+    ],
+    "fluid_ingredient": {
+        "fluid": "caupona:stock",
+        "amount": 1000
+    },
+    "duration": 1000,
+    "temperature": 300,
+    "fluid_output": {
+        "id": "caupona:vegetable_soup",
+        "amount": 1000
+    }
+}

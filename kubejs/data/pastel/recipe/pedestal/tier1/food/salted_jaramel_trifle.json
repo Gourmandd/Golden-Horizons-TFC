@@ -1,0 +1,41 @@
+{
+    "type": "pastel:pedestal",
+    "secret": true,
+    "time": 160,
+    "tier": "basic",
+    "colors": {
+        "pastel:cyan": 0,
+        "pastel:magenta": 0,
+        "pastel:yellow": 2,
+        "pastel:white": 0,
+        "pastel:black": 0
+    },
+    "experience": 1.0,
+    "pattern": [
+        "JGJ",
+        "BEB",
+        "AAA"
+    ],
+    "key": {
+        "A": {
+            "item": "kubejs:food/amaranth_flour"
+        },
+        "J": {
+            "item": "pastel:jaramel"
+        },
+        "B": {
+            "item": "minecraft:bone_meal"
+        },
+        "E": {
+            "tag": "c:eggs"
+        },
+        "G": {
+            "item": "minecraft:ghast_tear"
+        }
+    },
+    "result": {
+        "count": 1,
+        "id": "pastel:salted_jaramel_trifle"
+    },
+    "required_advancement": "pastel:unlocks/food/trifles"
+}

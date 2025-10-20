@@ -1,6 +1,6 @@
 {
     "replace": true,
-    "values":[
+    "values": [
         "tfc:food/bluegill",
         "tfc:food/crappie",
         "tfc:food/lake_trout",

@@ -1,0 +1,15 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+        {
+            "tag": "minecraft:wool"
+        }
+    ],
+    "results": [
+        {
+            "count": 4,
+            "id": "tfc:wool_yarn"
+        }
+    ],
+    "processingTime": 50
+}

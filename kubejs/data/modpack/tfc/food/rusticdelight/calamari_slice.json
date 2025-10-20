@@ -1,15 +1,14 @@
 {
     "ingredient": [
-      {
-        "item": "rusticdelight:calamari_slice"
-      },
-      {
-        "item": "rusticdelight:calamari"
-      }
+        {
+            "item": "rusticdelight:calamari_slice"
+        },
+        {
+            "item": "rusticdelight:calamari"
+        }
     ],
     "hunger": 4,
     "saturation": 0,
     "decay_modifier": 3,
     "protein": 0.5
-  }
-  
+}

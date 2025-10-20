@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "rusticdelight:cherry_blossom_cookie"
+        "item": "rusticdelight:cherry_blossom_cookie"
     },
     "hunger": 4,
     "saturation": 2,
@@ -8,5 +8,4 @@
     "dairy": 0.8,
     "grain": 1,
     "fruit": 0.1
-  }
-  
+}

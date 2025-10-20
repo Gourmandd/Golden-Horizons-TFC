@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "corn_delight:nachos_bowl"
+        "item": "corn_delight:nachos_bowl"
     },
     "hunger": 2,
     "saturation": 4,

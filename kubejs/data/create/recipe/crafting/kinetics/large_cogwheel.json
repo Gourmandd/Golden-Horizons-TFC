@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " T ",
+        "TST",
+        " T "
+    ],
+    "key": {
+        "S": {
+            "item": "create:shaft"
+        },
+        "T": {
+            "tag": "tfc:lumber"
+        }
+    },
+    "result": {
+        "id": "create:large_cogwheel"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "type": "farmersdelight:cooking",
+    "container": {
+        "id": "minecraft:bowl"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+        {
+            "tag": "c:foods/pasta"
+        },
+        {
+            "item": "tfc:food/green_bell_pepper"
+        },
+        {
+            "item": "tfc:food/yellow_bell_pepper"
+        },
+        {
+            "item": "tfc:food/red_bell_pepper"
+        }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+        "id": "rusticdelight:bell_pepper_pasta"
+    }
+}

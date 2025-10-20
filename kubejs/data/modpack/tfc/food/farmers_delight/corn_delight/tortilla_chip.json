@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "corn_delight:tortilla_chip"
+        "item": "corn_delight:tortilla_chip"
     },
     "hunger": 3,
     "saturation": 0,

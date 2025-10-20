@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "pastel:jade_jelly"
+        "item": "pastel:jade_jelly"
     },
     "category": "other",
     "hunger": 4,
@@ -12,4 +12,4 @@
     "vegetables": 0.5,
     "fruit": 0.5,
     "protein": 0
-  }
+}

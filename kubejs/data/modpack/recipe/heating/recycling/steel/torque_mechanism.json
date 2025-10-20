@@ -1,0 +1,11 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+        "item": "kubejs:torque_mechanism"
+    },
+    "result_fluid": {
+        "id": "tfc:metal/steel",
+        "amount": 400
+    },
+    "temperature": 1540
+}

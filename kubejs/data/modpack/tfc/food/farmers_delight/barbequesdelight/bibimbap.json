@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "barbequesdelight:bibimbap"
+        "item": "barbequesdelight:bibimbap"
     },
     "category": "meat",
     "hunger": 6,

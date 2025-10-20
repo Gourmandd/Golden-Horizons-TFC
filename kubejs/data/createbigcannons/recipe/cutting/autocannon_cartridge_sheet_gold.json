@@ -1,0 +1,22 @@
+{
+    "type": "create:cutting",
+    "ingredients": [
+        {
+            "item": "tfc:metal/sheet/gold"
+        }
+    ],
+    "processingTime": 50,
+    "results": [
+        {
+            "id": "createbigcannons:autocannon_cartridge_sheet"
+        },
+        {
+            "chance": 0.12,
+            "id": "createbigcannons:autocannon_cartridge_sheet"
+        },
+        {
+            "chance": 0.12,
+            "id": "createbigcannons:autocannon_cartridge_sheet"
+        }
+    ]
+}

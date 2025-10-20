@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "corn_delight:corn_dog"
+        "item": "corn_delight:corn_dog"
     },
     "hunger": 4,
     "saturation": 3,

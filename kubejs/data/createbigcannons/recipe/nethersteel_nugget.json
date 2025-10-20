@@ -1,0 +1,18 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "createbigcannons"
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "kubejs:metal/ingot/nethersteel"
+        }
+    ],
+    "result": {
+        "count": 9,
+        "id": "createbigcannons:nethersteel_nugget"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "breezy"
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SSS",
+        "SSS",
+        "BBB"
+    ],
+    "key": {
+        "S": {
+            "item": "immersive_aircraft:sail"
+        },
+        "B": {
+            "item": "tfc:burlap_cloth"
+        }
+    },
+    "result": {
+        "id": "breezy:hot_air_balloon"
+    }
+}

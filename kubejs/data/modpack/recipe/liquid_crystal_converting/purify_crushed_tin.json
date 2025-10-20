@@ -1,0 +1,11 @@
+{
+    "type": "pastel:liquid_crystal_converting",
+    "required_advancement": "pastel:unlocks/blocks/liquid_crystal",
+    "ingredient": {
+        "item": "create:crushed_raw_tin"
+    },
+    "result": {
+        "id": "tfc:powder/native_gold",
+        "count": 1
+    }
+}

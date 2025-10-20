@@ -1,0 +1,51 @@
+{
+    "type": "pastel:pedestal",
+    "time": 300,
+    "tier": "basic",
+    "colors": {
+        "pastel:cyan": 0,
+        "pastel:magenta": 0,
+        "pastel:yellow": 0,
+        "pastel:white": 0,
+        "pastel:black": 0
+    },
+    "experience": 1.0,
+    "pattern": [
+        "CHC",
+        "BLB",
+        "CMC"
+    ],
+    "key": {
+        "L": {
+            "item": "pastel:infused_beverage",
+            "recipeViewNbt": "{Variant: \"berry_liquor\", Color: 16729462 }",
+            "matchbook": {
+                "mode": "AND",
+                "matches": [
+                    {
+                        "type": "string",
+                        "key": "Variant",
+                        "target": "berry_liquor"
+                    }
+                ]
+            }
+        },
+        "H": {
+            "item": "minecraft:honey_bottle"
+        },
+        "B": {
+            "tag": "c:fruits/berries/red"
+        },
+        "M": {
+            "item": "pastel:clotted_cream"
+        },
+        "C": {
+            "item": "pastel:fresh_chocolate"
+        }
+    },
+    "result": {
+        "count": 4,
+        "id": "pastel:bodacious_berry_bar"
+    },
+    "required_advancement": "pastel:unlocks/food/bodacious_berry_bar"
+}

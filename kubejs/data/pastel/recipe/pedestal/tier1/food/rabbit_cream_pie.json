@@ -1,0 +1,40 @@
+{
+    "type": "pastel:pedestal",
+    "time": 80,
+    "tier": "basic",
+    "colors": {
+        "pastel:cyan": 0,
+        "pastel:magenta": 0,
+        "pastel:yellow": 0,
+        "pastel:white": 0,
+        "pastel:black": 0
+    },
+    "experience": 0.2,
+    "pattern": [
+        "SXS",
+        "CMC",
+        "EEE"
+    ],
+    "key": {
+        "S": {
+            "item": "pastel:myceylon"
+        },
+        "E": {
+            "item": "kubejs:food/amaranth_flour"
+        },
+        "C": {
+            "item": "pastel:clotted_cream"
+        },
+        "X": {
+            "item": "pastel:jadeite_petals"
+        },
+        "M": {
+            "item": "pastel:jade_wine"
+        }
+    },
+    "result": {
+        "count": 2,
+        "id": "pastel:rabbit_cream_pie"
+    },
+    "required_advancement": "pastel:hidden/collect_cookbooks/melochites_cookbook_vol_2"
+}

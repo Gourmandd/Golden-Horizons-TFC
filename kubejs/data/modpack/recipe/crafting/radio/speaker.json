@@ -1,0 +1,30 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "simpleradio"
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "LCL",
+        "WMW"
+    ],
+    "key": {
+        "C": {
+            "item": "create:brass_casing"
+        },
+        "W": {
+            "item": "create:cogwheel"
+        },
+        "L": {
+            "item": "minecraft:lever"
+        },
+        "M": {
+            "item": "kubejs:oscillating_mechanism"
+        }
+    },
+    "result": {
+        "id": "simpleradio:speaker"
+    }
+}

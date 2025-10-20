@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "barbequesdelight:kebab_wrap"
+        "item": "barbequesdelight:kebab_wrap"
     },
     "category": "meat",
     "hunger": 10,

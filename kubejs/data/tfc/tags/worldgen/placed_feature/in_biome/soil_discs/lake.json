@@ -1,8 +1,8 @@
 {
     "replace": false,
     "values": [
-      "#tfc:feature/soil_discs",
-      "#tfc:feature/ore_deposits",
-      "modpack:yixing_patch"
+        "#tfc:feature/soil_discs",
+        "#tfc:feature/ore_deposits",
+        "modpack:yixing_patch"
     ]
-  }
+}

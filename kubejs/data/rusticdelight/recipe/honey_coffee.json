@@ -1,0 +1,54 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "firmalife"
+        }
+    ],
+    "type": "farmersdelight:cooking",
+    "container": {
+        "id": "minecraft:glass_bottle"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+        {
+            "type": "tfc:fluid_content",
+            "fluid": {
+                "tag": "tfc:milks",
+                "amount": 100
+            }
+        },
+        {
+            "type": "tfc:not_rotten",
+            "ingredient": {
+                "tag": "rusticdelight:coffee_ingredients"
+            }
+        },
+        {
+            "type": "tfc:not_rotten",
+            "ingredient": {
+                "tag": "rusticdelight:coffee_ingredients"
+            }
+        },
+        {
+            "type": "tfc:not_rotten",
+            "ingredient": {
+                "tag": "rusticdelight:coffee_ingredients"
+            }
+        },
+        {
+            "type": "tfc:not_rotten",
+            "ingredient": {
+                "tag": "tfc:foods/sweeteners"
+            }
+        },
+        {
+            "item": "firmalife:raw_honey"
+        }
+    ],
+    "recipe_book_tab": "drinks",
+    "result": {
+        "id": "rusticdelight:honey_coffee"
+    }
+}

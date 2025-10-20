@@ -1,0 +1,16 @@
+{
+    "type": "tfc:anvil",
+    "ingredient": {
+        "item": "architects_palette:sunmetal_brick"
+    },
+    "result": {
+        "count": 4,
+        "id": "architects_palette:sunmetal_bars"
+    },
+    "tier": 2,
+    "rules": [
+        "upset_last",
+        "punch_second_last",
+        "punch_third_last"
+    ]
+}

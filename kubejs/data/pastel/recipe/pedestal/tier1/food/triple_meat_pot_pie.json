@@ -1,0 +1,46 @@
+{
+    "type": "pastel:pedestal",
+    "time": 120,
+    "tier": "basic",
+    "colors": {
+        "pastel:cyan": 0,
+        "pastel:magenta": 0,
+        "pastel:yellow": 0,
+        "pastel:white": 0,
+        "pastel:black": 0
+    },
+    "experience": 4.0,
+    "pattern": [
+        "ECE",
+        "MFL",
+        "AWA"
+    ],
+    "key": {
+        "A": {
+            "item": "kubejs:food/amaranth_flour"
+        },
+        "C": {
+            "item": "pastel:clotted_cream"
+        },
+        "M": {
+            "tag": "pastel:common_meats"
+        },
+        "F": {
+            "tag": "pastel:water_meats"
+        },
+        "L": {
+            "tag": "pastel:lean_meats"
+        },
+        "E": {
+            "tag": "c:eggs"
+        },
+        "W": {
+            "tag": "pastel:drinkable_spirits"
+        }
+    },
+    "result": {
+        "count": 1,
+        "id": "pastel:triple_meat_pot_pie"
+    },
+    "required_advancement": "pastel:unlocks/food/triple_meat_pot_pie"
+}

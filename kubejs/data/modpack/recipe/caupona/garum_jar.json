@@ -1,0 +1,13 @@
+{
+    "type": "tfc:barrel_instant",
+    "input_item": {
+        "item": "minecraft:flower_pot"
+    },
+    "input_fluid": {
+        "amount": 250,
+        "fluid": "kubejs:garum"
+    },
+    "output_item": {
+        "id": "caupona:garum_spice_jar"
+    }
+}

@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "corn_delight:creamed_corn"
+        "item": "corn_delight:creamed_corn"
     },
     "hunger": 4,
     "saturation": 4,

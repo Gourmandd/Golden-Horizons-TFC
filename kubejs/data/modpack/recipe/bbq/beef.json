@@ -1,0 +1,10 @@
+{
+    "type": "barbequesdelight:grilling",
+    "ingredient": {
+        "item": "farmersdelight:minced_beef"
+    },
+    "output": {
+        "id": "farmersdelight:beef_patty"
+    },
+    "barbecuingTime": 380
+}

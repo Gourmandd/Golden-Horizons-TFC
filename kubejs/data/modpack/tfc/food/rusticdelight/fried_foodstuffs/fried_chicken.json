@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "rusticdelight:fried_chicken"
+        "item": "rusticdelight:fried_chicken"
     },
     "hunger": 4,
     "saturation": 1.5,
@@ -9,5 +9,4 @@
     "vegetables": 1,
     "grain": 0.5,
     "dairy": 0.5
-  }
-  
+}

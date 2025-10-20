@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "  B",
+        "IBI",
+        "B  "
+    ],
+    "key": {
+        "I": {
+            "item": "kubejs:metal/ingot/aluminium"
+        },
+        "B": {
+            "item": "tfc:metal/ingot/bronze"
+        }
+    },
+    "result": {
+        "id": "immersive_aircraft:sturdy_pipes"
+    }
+}

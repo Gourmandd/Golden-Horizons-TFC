@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "tag": "modpack:raw_meat_and_veg_skewers"
+        "tag": "modpack:raw_meat_and_veg_skewers"
     },
     "category": "meat",
     "hunger": 3,

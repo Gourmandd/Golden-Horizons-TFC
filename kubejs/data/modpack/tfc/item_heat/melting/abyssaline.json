@@ -1,6 +1,6 @@
 {
-  "ingredient": {
-    "tag": "modpack:melting/abyssaline"
-  },
-  "heat_capacity": 3
+    "ingredient": {
+        "tag": "modpack:melting/abyssaline"
+    },
+    "heat_capacity": 3
 }

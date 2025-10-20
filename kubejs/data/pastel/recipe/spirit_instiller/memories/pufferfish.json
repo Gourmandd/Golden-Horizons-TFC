@@ -1,0 +1,32 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:item_exists",
+            "item": "kubejs:metal/bucket/wrought_iron"
+        }
+    ],
+    "type": "pastel:spirit_instiller",
+    "group": "memories",
+    "time": 800,
+    "experience": 4.0,
+    "ingredient1": {
+        "item": "pastel:pufferfish_head"
+    },
+    "ingredient2": {
+        "item": "kubejs:metal/bucket/wrought_iron"
+    },
+    "center_ingredient": {
+        "tag": "pastel:memory_bonding_agents",
+        "count": 4
+    },
+    "result": {
+        "nbt": {
+            "EntityTag": {
+                "id": "tfc:pufferfish"
+            },
+            "TicksToManifest": 4
+        },
+        "id": "pastel:memory"
+    },
+    "required_advancement": "pastel:unlocks/blocks/memories"
+}

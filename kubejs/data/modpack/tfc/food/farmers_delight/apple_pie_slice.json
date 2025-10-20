@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "farmersdelight:apple_pie_slice"
+        "item": "farmersdelight:apple_pie_slice"
     },
     "category": "other",
     "hunger": 6,
@@ -9,4 +9,4 @@
     "grain": 0.5,
     "dairy": 0.5,
     "fruit": 0.5
-  }
+}

@@ -1,0 +1,10 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+        "item": "tfc:powder/lime"
+    },
+    "result_item": {
+        "id": "minecraft:blaze_powder"
+    },
+    "temperature": 1535
+}

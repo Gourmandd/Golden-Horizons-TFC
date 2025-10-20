@@ -1,0 +1,44 @@
+{
+    "type": "farmersdelight:cooking",
+    "container": {
+        "id": "minecraft:bowl"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+        {
+            "type": "tfc:not_rotten",
+            "ingredient": {
+                "tag": "c:foods/fowl"
+            }
+        },
+        {
+            "type": "tfc:not_rotten",
+            "ingredient": {
+                "tag": "c:foods/fowl"
+            }
+        },
+        {
+            "type": "tfc:not_rotten",
+            "ingredient": {
+                "tag": "c:foods/vegetable/cabbage"
+            }
+        },
+        {
+            "type": "tfc:not_rotten",
+            "ingredient": {
+                "tag": "c:foods/vegetable/onion"
+            }
+        },
+        {
+            "item": "tfc:powder/salt"
+        }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+        "modifiers": [
+            "tfc:copy_food"
+        ],
+        "id": "caupona:seared_poultry"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "type": "pastel:liquid_crystal_converting",
+    "required_advancement": "pastel:unlocks/blocks/liquid_crystal",
+    "ingredient": {
+        "item": "create:crushed_raw_aluminum"
+    },
+    "result": {
+        "id": "tfc:powder/sulfur",
+        "count": 1
+    }
+}

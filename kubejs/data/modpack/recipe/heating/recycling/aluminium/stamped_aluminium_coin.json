@@ -1,0 +1,17 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "lithiccoins"
+        }
+    ],
+    "type": "tfc:heating",
+    "ingredient": {
+        "tag": "lithiccoins:coins/aluminum"
+    },
+    "result_fluid": {
+        "amount": 20,
+        "id": "kubejs:aluminium"
+    },
+    "temperature": 1060
+}

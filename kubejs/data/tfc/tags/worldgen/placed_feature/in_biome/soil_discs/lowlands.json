@@ -1,7 +1,7 @@
 {
     "replace": false,
     "values": [
-      "#tfc:feature/soil_discs",
-      "modpack:yixing_patch"
+        "#tfc:feature/soil_discs",
+        "modpack:yixing_patch"
     ]
-  }
+}

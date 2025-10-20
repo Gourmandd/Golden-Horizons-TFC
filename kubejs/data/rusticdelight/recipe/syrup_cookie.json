@@ -1,0 +1,34 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "firmalife"
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "CCC",
+        "CTC",
+        "CCC"
+    ],
+    "key": {
+        "C": {
+            "type": "tfc:not_rotten",
+            "ingredient": {
+                "item": "firmalife:food/sugar_cookie"
+            }
+        },
+        "T": {
+            "type": "tfc:not_rotten",
+            "ingredient": {
+                "item": "rusticdelight:syrup"
+            }
+        }
+    },
+    "result": {
+        "count": 8,
+        "id": "rusticdelight:syrup_cookie"
+    },
+    "show_notification": true
+}

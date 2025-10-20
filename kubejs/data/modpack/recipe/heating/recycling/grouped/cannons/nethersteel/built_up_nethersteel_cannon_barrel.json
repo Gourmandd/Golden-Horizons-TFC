@@ -1,0 +1,17 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "createbigcannons"
+        }
+    ],
+    "type": "tfc:heating",
+    "ingredient": {
+        "item": "createbigcannons:built_up_nethersteel_cannon_barrel"
+    },
+    "result_fluid": {
+        "id": "createbigcannons:molten_nethersteel",
+        "amount": 1440
+    },
+    "temperature": 1535
+}

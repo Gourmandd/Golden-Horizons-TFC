@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "rusticdelight:vegetable_pancake"
+        "item": "rusticdelight:vegetable_pancake"
     },
     "hunger": 6,
     "saturation": 2,
@@ -8,5 +8,4 @@
     "grain": 0.8,
     "dairy": 0.3,
     "vegetables": 1
-  }
-  
+}

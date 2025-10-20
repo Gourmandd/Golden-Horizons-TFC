@@ -1,0 +1,10 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+        {
+            "item": "minecraft:charcoal"
+        }
+    ],
+    "results": [],
+    "processingTime": 50
+}

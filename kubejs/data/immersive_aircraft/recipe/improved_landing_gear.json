@@ -1,0 +1,25 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "afc"
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " II",
+        "BBI",
+        "BB "
+    ],
+    "key": {
+        "I": {
+            "item": "tfc:metal/ingot/steel"
+        },
+        "B": {
+            "item": "afc:rubber_bar"
+        }
+    },
+    "result": {
+        "id": "immersive_aircraft:improved_landing_gear"
+    }
+}

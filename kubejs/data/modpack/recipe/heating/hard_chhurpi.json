@@ -1,0 +1,13 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+        "type": "tfc:not_rotten",
+        "ingredient": {
+            "item": "kubejs:soft_chhurpi"
+        }
+    },
+    "result_item": {
+        "id": "kubejs:hard_chhurpi"
+    },
+    "temperature": 200
+}

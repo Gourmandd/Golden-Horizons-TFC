@@ -1,0 +1,25 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "firmaciv"
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "BBB",
+        "BBB",
+        " O "
+    ],
+    "key": {
+        "B": {
+            "item": "minecraft:bamboo_planks"
+        },
+        "O": {
+            "item": "firmaciv:oar"
+        }
+    },
+    "result": {
+        "id": "minecraft:bamboo_raft"
+    }
+}

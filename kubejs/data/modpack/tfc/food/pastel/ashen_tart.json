@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "pastel:ashen_tart"
+        "item": "pastel:ashen_tart"
     },
     "category": "other",
     "hunger": 6,
@@ -12,4 +12,4 @@
     "vegetables": 0,
     "fruit": 1.5,
     "protein": 1
-  }
+}

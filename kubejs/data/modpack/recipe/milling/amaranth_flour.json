@@ -1,0 +1,10 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+        {
+            "item": "pastel:amaranth_grains"
+        }
+    ],
+    "results": [],
+    "processingTime": 50
+}

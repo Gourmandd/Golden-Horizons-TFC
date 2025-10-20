@@ -1,0 +1,14 @@
+{
+    "type": "tfc:barrel_sealed",
+    "input_item": {
+        "item": "minecraft:paper"
+    },
+    "input_fluid": {
+        "fluid": "tfc:tannin",
+        "amount": 100
+    },
+    "output_item": {
+        "id": "exposure:black_and_white_film"
+    },
+    "duration": 3000
+}

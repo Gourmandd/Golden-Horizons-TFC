@@ -1,0 +1,18 @@
+{
+    "type": "tfc:pot",
+    "ingredients": [
+        {
+            "item": "tfc:powder/salt"
+        }
+    ],
+    "fluid_ingredient": {
+        "fluid": "minecraft:water",
+        "amount": 1000
+    },
+    "duration": 1000,
+    "temperature": 300,
+    "fluid_output": {
+        "id": "caupona:nail_soup",
+        "amount": 1000
+    }
+}

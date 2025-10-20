@@ -1,6 +1,6 @@
 {
-	"replace": true,
-	"values": [
+    "replace": true,
+    "values": [
         "tfc:food/cooked_bluegill",
         "tfc:food/cooked_crappie",
         "tfc:food/cooked_lake_trout",
@@ -18,5 +18,5 @@
         "minecraft:cooked_cod",
         "farmersdelight:cooked_cod_slice",
         "farmersdelight:cooked_salmon_slice"
-	]
+    ]
 }

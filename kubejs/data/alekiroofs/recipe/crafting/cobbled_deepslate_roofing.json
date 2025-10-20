@@ -1,0 +1,23 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "alekiroofs"
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "  C",
+        " C ",
+        "C  "
+    ],
+    "key": {
+        "C": {
+            "item": "kubejs:rock/cobble/nephelinite"
+        }
+    },
+    "result": {
+        "count": 6,
+        "id": "alekiroofs:cobbled_deepslate_roofing"
+    }
+}

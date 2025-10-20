@@ -1,0 +1,40 @@
+{
+    "type": "spectrum:pedestal",
+    "time": 1600,
+    "tier": "advanced",
+    "colors": {
+        "pastel:cyan": 4,
+        "pastel:magenta": 0,
+        "pastel:yellow": 2,
+        "pastel:white": 0,
+        "pastel:black": 1
+    },
+    "experience": 2.0,
+    "pattern": [
+        "CTC",
+        "PGP",
+        "BBB"
+    ],
+    "key": {
+        "B": {
+            "item": "spectrum:polished_basalt"
+        },
+        "P": {
+            "item": "spectrum:polished_calcite"
+        },
+        "C": {
+            "item": "tfc:metal/ingot/wrought_iron"
+        },
+        "G": {
+            "item": "spectrum:stratine_fragments"
+        },
+        "T": {
+            "item": "spectrum:red_pigment"
+        }
+    },
+    "result": {
+        "id": "spectrum:restocking_chest",
+        "count": 1
+    },
+    "required_advancement": "spectrum:unlocks/blocks/restocking_chest"
+}

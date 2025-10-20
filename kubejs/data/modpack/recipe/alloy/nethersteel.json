@@ -1,0 +1,27 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "createbigcannons"
+        }
+    ],
+    "type": "tfc:alloy",
+    "result": "createbigcannons:molten_nethersteel",
+    "contents": [
+        {
+            "fluid": "tfc:metal/red_steel",
+            "min": 0.1,
+            "max": 0.2
+        },
+        {
+            "fluid": "tfc:metal/steel",
+            "min": 0.4,
+            "max": 0.8
+        },
+        {
+            "fluid": "tfc:metal/bronze",
+            "min": 0.1,
+            "max": 0.2
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "railways"
+        }
+    ],
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+        "item": "minecraft:phantom_membrane"
+    },
+    "transitional_item": {
+        "item": "railways:track_incomplete_phantom"
+    },
+    "sequence": [
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "railways:track_incomplete_phantom"
+                },
+                {
+                    "item": "tfc:metal/ingot/wrought_iron"
+                }
+            ],
+            "results": [
+                {
+                    "id": "railways:track_incomplete_phantom"
+                }
+            ],
+            "keepHeldItem": true
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "railways:track_incomplete_phantom"
+                },
+                {
+                    "item": "tfc:metal/ingot/wrought_iron"
+                }
+            ],
+            "results": [
+                {
+                    "id": "railways:track_incomplete_phantom"
+                }
+            ],
+            "keepHeldItem": true
+        },
+        {
+            "type": "create:pressing",
+            "ingredients": [
+                {
+                    "item": "railways:track_incomplete_phantom"
+                }
+            ],
+            "results": [
+                {
+                    "id": "railways:track_incomplete_phantom"
+                }
+            ]
+        }
+    ],
+    "results": [
+        {
+            "chance": 32,
+            "id": "railways:track_phantom"
+        }
+    ],
+    "loops": 1
+}

@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "caupona:custard"
+        "item": "caupona:custard"
     },
     "decay_modifier": 2,
     "hunger": 6,
@@ -11,4 +11,4 @@
     "vegetables": 0,
     "protein": 4,
     "dairy": 2
-  }
+}

@@ -1,0 +1,26 @@
+{
+    "type": "farmersdelight:cooking",
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+        {
+            "item": "tfc:food/red_bell_pepper"
+        },
+        {
+            "tag": "c:foods/grain/rice"
+        },
+        {
+            "type": "neoforge:difference",
+            "base": {
+                "tag": "farmersdelight:cabbage_roll_ingredients"
+            },
+            "subtracted": {
+                "tag": "c:foods/vegetables/bell_pepper"
+            }
+        }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+        "id": "rusticdelight:stuffed_bell_pepper_red"
+    }
+}

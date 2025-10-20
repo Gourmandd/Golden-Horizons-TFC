@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "corn_delight:tortilla_raw"
+        "item": "corn_delight:tortilla_raw"
     },
     "category": "other",
     "hunger": 3,

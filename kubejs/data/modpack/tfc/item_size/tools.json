@@ -1,7 +1,7 @@
 {
-  "ingredient": {
-      "tag": "forge:tools"
-  },
-  "size": "very_large",
-  "weight": "medium"
+    "ingredient": {
+        "tag": "forge:tools"
+    },
+    "size": "very_large",
+    "weight": "medium"
 }

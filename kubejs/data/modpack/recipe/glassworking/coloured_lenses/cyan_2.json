@@ -1,0 +1,17 @@
+{
+    "type": "tfc:glassworking",
+    "operations": [
+        "tfc:copper",
+        "tfc:sapphire",
+        "tfc:blow",
+        "tfc:stretch",
+        "tfc:roll",
+        "tfc:saw"
+    ],
+    "batch": {
+        "tag": "tfc:glass_batches_tier_3"
+    },
+    "result": {
+        "id": "kubejs:cyan_lens"
+    }
+}

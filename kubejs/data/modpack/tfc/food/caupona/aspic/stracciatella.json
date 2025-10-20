@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "caupona:stracciatella_aspic"
+        "item": "caupona:stracciatella_aspic"
     },
     "decay_modifier": 1
-  }
+}

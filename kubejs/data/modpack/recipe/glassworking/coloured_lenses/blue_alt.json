@@ -1,0 +1,16 @@
+{
+    "type": "tfc:glassworking",
+    "operations": [
+        "tfc:copper",
+        "tfc:blow",
+        "tfc:stretch",
+        "tfc:roll",
+        "tfc:saw"
+    ],
+    "batch": {
+        "item": "tfc:silica_glass_batch"
+    },
+    "result": {
+        "id": "kubejs:blue_lens"
+    }
+}

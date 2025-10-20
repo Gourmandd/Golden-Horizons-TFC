@@ -1,0 +1,14 @@
+{
+    "type": "createaddition:rolling",
+    "ingredients": [
+        {
+            "item": "tfc:metal/rod/wrought_iron"
+        }
+    ],
+    "results": [
+        {
+            "id": "createaddition:iron_wire",
+            "count": 2
+        }
+    ]
+}

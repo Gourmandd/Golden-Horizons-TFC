@@ -1,0 +1,41 @@
+{
+    "type": "pastel:pedestal",
+    "group": "gemstone_chimes",
+    "time": 60,
+    "tier": "complex",
+    "colors": {
+        "pastel:cyan": 0,
+        "pastel:magenta": 0,
+        "pastel:yellow": 0,
+        "pastel:white": 0,
+        "pastel:black": 1
+    },
+    "experience": 1,
+    "pattern": [
+        " Y ",
+        "SGS",
+        "PXP"
+    ],
+    "key": {
+        "S": {
+            "item": "pastel:moonstone_shard"
+        },
+        "X": {
+            "item": "pastel:polished_basalt"
+        },
+        "Y": {
+            "item": "pastel:polished_calcite"
+        },
+        "G": {
+            "tag": "c:string"
+        },
+        "P": {
+            "item": "pastel:shimmerstone_gem"
+        }
+    },
+    "result": {
+        "id": "pastel:moonstone_chime",
+        "count": 1
+    },
+    "required_advancement": "pastel:unlocks/gemstone_chimes/moonstone_chime"
+}

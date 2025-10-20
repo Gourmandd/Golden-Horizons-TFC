@@ -1,0 +1,21 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "createbigcannons"
+        }
+    ],
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "type": "fluid_stack",
+            "fluid": "createbigcannons:molten_bronze",
+            "amount": 90
+        }
+    ],
+    "results": [
+        {
+            "id": "kubejs:metal/ingot/aluminium_bronze"
+        }
+    ]
+}

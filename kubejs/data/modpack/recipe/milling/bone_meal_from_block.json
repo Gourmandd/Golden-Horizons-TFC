@@ -1,0 +1,10 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+        {
+            "item": "minecraft:bone_block"
+        }
+    ],
+    "results": [],
+    "processingTime": 50
+}

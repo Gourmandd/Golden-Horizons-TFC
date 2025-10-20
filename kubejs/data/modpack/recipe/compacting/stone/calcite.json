@@ -1,0 +1,10 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "item": "tfc:raw_sandstone/white"
+        }
+    ],
+    "results": [],
+    "heatRequirement": "heated"
+}

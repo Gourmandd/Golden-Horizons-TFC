@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "pastel:lucky_roll"
+        "item": "pastel:lucky_roll"
     },
     "category": "other",
     "hunger": 4,
@@ -12,4 +12,4 @@
     "vegetables": 0,
     "fruit": 0,
     "protein": 0
-  }
+}

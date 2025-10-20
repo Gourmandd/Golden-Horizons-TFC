@@ -1,0 +1,30 @@
+{
+    "type": "tfc:pot",
+    "ingredients": [
+        {
+                "tag": "caupona:eggs"
+        },
+        {
+                "tag": "caupona:eggs"
+        },
+        {
+                "tag": "caupona:eggs"
+        },
+        {
+                "tag": "caupona:eggs"
+        },
+        {
+            "tag": "tfc:foods/sweeteners"
+        }
+    ],
+    "fluid_ingredient": {
+        "fluid": "caupona:scalded_milk",
+        "amount": 1000
+    },
+    "duration": 1000,
+    "temperature": 300,
+    "fluid_output": {
+        "id": "caupona:custard",
+        "amount": 1000
+    }
+}

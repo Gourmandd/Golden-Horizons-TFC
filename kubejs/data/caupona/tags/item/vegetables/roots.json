@@ -1,6 +1,6 @@
 {
     "replace": false,
-    "values":[
+    "values": [
         "tfc:food/carrot",
         "tfc:food/potato",
         "minecraft:baked_potato",

@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "caupona:goulash"
+        "item": "caupona:goulash"
     },
     "decay_modifier": 2,
     "hunger": 14,
@@ -11,4 +11,4 @@
     "vegetables": 2,
     "protein": 10,
     "dairy": 0
-  }
+}

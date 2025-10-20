@@ -1,0 +1,17 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "createbigcannons"
+        }
+    ],
+    "type": "tfc:heating",
+    "ingredient": {
+        "item": "createbigcannons:thick_steel_cannon_chamber"
+    },
+    "result_fluid": {
+        "id": "createbigcannons:molten_steel",
+        "amount": 5580
+    },
+    "temperature": 1535
+}

@@ -1,0 +1,16 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "firmalife"
+        }
+    ],
+    "type": "barbequesdelight:grilling",
+    "ingredient": {
+        "item": "firmalife:food/bacon"
+    },
+    "output": {
+        "id": "firmalife:food/cooked_bacon"
+    },
+    "barbecuingTime": 320
+}

@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "caupona:cream_of_meat_soup"
+        "item": "caupona:cream_of_meat_soup"
     },
     "decay_modifier": 2,
     "hunger": 12,
@@ -11,4 +11,4 @@
     "vegetables": 4,
     "protein": 10,
     "dairy": 2
-  }
+}

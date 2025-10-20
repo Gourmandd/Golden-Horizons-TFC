@@ -1,0 +1,22 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "quark"
+        }
+    ],
+    "type": "tfc:anvil",
+    "ingredient": {
+        "tag": "c:sheets/gold"
+    },
+    "result": {
+        "count": 8,
+        "id": "quark:gold_bars"
+    },
+    "tier": 3,
+    "rules": [
+        "upset_last",
+        "punch_second_last",
+        "punch_third_last"
+    ]
+}

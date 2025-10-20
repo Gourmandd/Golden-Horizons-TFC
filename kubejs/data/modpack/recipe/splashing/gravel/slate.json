@@ -1,0 +1,9 @@
+{
+    "type": "create:splashing",
+    "ingredients": [
+        {
+            "item": "tfc:rock/gravel/slate"
+        }
+    ],
+    "results": []
+}

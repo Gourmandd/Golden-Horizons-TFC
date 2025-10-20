@@ -1,0 +1,22 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "afc"
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "BBB",
+        "BBB"
+    ],
+    "key": {
+        "B": {
+            "item": "afc:rubber_bar"
+        }
+    },
+    "result": {
+        "count": 6,
+        "id": "create:belt_connector"
+    }
+}

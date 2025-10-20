@@ -1,0 +1,14 @@
+{
+    "type": "tfc:barrel_sealed",
+    "input_item": {
+        "item": "tfc:blank_disc"
+    },
+    "input_fluid": {
+        "fluid": "tfc:brine",
+        "amount": 100
+    },
+    "output_item": {
+        "id": "minecraft:music_disc_5"
+    },
+    "duration": 1000
+}

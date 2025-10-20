@@ -1,0 +1,22 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "quark"
+        }
+    ],
+    "type": "tfc:anvil",
+    "ingredient": {
+        "item": "tfc:metal/ingot/wrought_iron"
+    },
+    "result": {
+        "count": 4,
+        "id": "quark:iron_button"
+    },
+    "tier": 3,
+    "rules": [
+        "upset_last",
+        "punch_second_last",
+        "punch_third_last"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "type": "tfc:pot",
+    "ingredients": [
+        {
+            "item": "tfc:powder/salt"
+        }
+    ],
+    "fluid_ingredient": {
+        "tag": "tfc:milks",
+        "amount": 1000
+    },
+    "duration": 1000,
+    "temperature": 300,
+    "fluid_output": {
+        "id": "caupona:scalded_milk",
+        "amount": 1000
+    }
+}

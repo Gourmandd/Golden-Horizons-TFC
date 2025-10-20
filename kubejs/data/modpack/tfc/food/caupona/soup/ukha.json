@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "caupona:ukha"
+        "item": "caupona:ukha"
     },
     "decay_modifier": 2,
     "hunger": 12,
@@ -11,4 +11,4 @@
     "vegetables": 6,
     "protein": 3,
     "dairy": 0
-  }
+}

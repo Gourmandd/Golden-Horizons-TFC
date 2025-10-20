@@ -1,0 +1,21 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "firmalife"
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "firmalife:beeswax"
+        },
+        {
+            "item": "firmalife:raw_honey"
+        }
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:honeycomb"
+    }
+}

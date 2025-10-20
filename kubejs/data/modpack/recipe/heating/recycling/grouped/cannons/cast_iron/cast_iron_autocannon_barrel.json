@@ -1,0 +1,17 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "createbigcannons"
+        }
+    ],
+    "type": "tfc:heating",
+    "ingredient": {
+        "item": "createbigcannons:cast_iron_autocannon_barrel"
+    },
+    "result_fluid": {
+        "id": "createbigcannons:molten_cast_iron",
+        "amount": 270
+    },
+    "temperature": 1535
+}

@@ -1,0 +1,30 @@
+{
+    "type": "tfc:pot",
+    "ingredients": [
+        {
+                "tag": "tfc:foods/fruits"
+        },
+        {
+                "tag": "tfc:yak_food"
+        },
+        {
+                "tag": "tfc:yak_food"
+        },
+        {
+                "tag": "tfc:yak_food"
+        },
+        {
+            "tag": "tfc:foods/sweeteners"
+        }
+    ],
+    "fluid_ingredient": {
+        "fluid": "caupona:scalded_milk",
+        "amount": 1000
+    },
+    "duration": 1000,
+    "temperature": 300,
+    "fluid_output": {
+        "id": "caupona:porridge",
+        "amount": 1000
+    }
+}

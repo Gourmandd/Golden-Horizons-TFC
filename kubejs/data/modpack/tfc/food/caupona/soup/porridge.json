@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "caupona:porridge"
+        "item": "caupona:porridge"
     },
     "decay_modifier": 2,
     "hunger": 8,
@@ -11,4 +11,4 @@
     "vegetables": 0,
     "protein": 0,
     "dairy": 2
-  }
+}

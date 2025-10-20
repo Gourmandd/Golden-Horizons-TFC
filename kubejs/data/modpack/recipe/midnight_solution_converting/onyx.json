@@ -1,0 +1,10 @@
+{
+    "type": "pastel:midnight_solution_converting",
+    "ingredient": {
+        "item": "tfc:rock/raw/granite"
+    },
+    "result": {
+        "id": "architects_palette:onyx",
+        "count": 1
+    }
+}

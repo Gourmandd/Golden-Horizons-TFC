@@ -1,0 +1,10 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+        {
+            "tag": "tfc:fluxstone"
+        }
+    ],
+    "results": [],
+    "processingTime": 50
+}

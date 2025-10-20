@@ -1,0 +1,27 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:item_exists",
+            "item": "kubejs:bucket/wrought_iron"
+        }
+    ],
+    "type": "pastel:potion_workshop_crafting",
+    "base_ingredient": {
+        "item": "pastel:wet_lava_sponge"
+    },
+    "use_up_base_ingredient": false,
+    "color": 13387304,
+    "ingredient1": {
+        "item": "kubejs:deco_bucket/wrought_iron"
+    },
+    "ingredient2": {
+        "tag": "c:magma_block"
+    },
+    "ingredient3": {
+        "item": "pastel:orange_pigment"
+    },
+    "result": {
+        "nbt": "{\"fluid\": {\"Amount\": 1000, \"FluidName\": \"minecraft:lava\"} }",
+        "id": "kubejs:metal/bucket/wrought_iron"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "S  ",
+        "SS ",
+        "SSS"
+    ],
+    "key": {
+        "S": {
+            "item": "kubejs:brick/snow"
+        }
+    },
+    "result": {
+        "count": 8,
+        "id": "kubejs:brick/snow_stairs"
+    }
+}

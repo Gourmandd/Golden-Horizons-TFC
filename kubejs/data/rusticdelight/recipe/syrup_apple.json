@@ -1,0 +1,26 @@
+{
+    "type": "farmersdelight:cooking",
+    "container": {
+        "id": "minecraft:glass_bottle"
+    },
+    "cookingtime": 100,
+    "experience": 0.35,
+    "ingredients": [
+        {
+            "type": "tfc:not_rotten",
+            "ingredient": {
+                "tag": "c:foods/fruit/apple"
+            }
+        },
+        {
+            "type": "tfc:not_rotten",
+            "ingredient": {
+                "tag": "tfc:foods/sweeteners"
+            }
+        }
+    ],
+    "recipe_book_tab": "misc",
+    "result": {
+        "id": "rusticdelight:syrup"
+    }
+}

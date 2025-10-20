@@ -1,0 +1,36 @@
+{
+    "type": "pastel:pedestal",
+    "time": 200,
+    "tier": "basic",
+        "colors": {
+        "pastel:cyan": 0,
+        "pastel:magenta": 4,
+        "pastel:yellow": 0,
+        "pastel:white": 0,
+        "pastel:black": 0
+    },
+    "experience": 1.0,
+    "pattern": [
+        "TAR",
+        "III"
+    ],
+    "key": {
+        "A": {
+            "item": "minecraft:amethyst_shard"
+        },
+        "R": {
+            "item": "minecraft:redstone"
+        },
+        "T": {
+            "item": "minecraft:redstone_torch"
+        },
+        "I": {
+            "item": "tfc:metal/ingot/copper"
+        }
+    },
+    "result": {
+        "count": 1,
+        "id": "pastel:redstone_timer"
+    },
+    "required_advancement": "pastel:unlocks/redstone/redstone_timer"
+}

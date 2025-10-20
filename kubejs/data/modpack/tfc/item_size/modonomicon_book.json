@@ -1,7 +1,7 @@
 {
-  "ingredient": {
-      "item": "modonomicon:modonomicon"
-  },
-  "size": "very_large",
-  "weight": "medium"
+    "ingredient": {
+        "item": "modonomicon:modonomicon"
+    },
+    "size": "very_large",
+    "weight": "medium"
 }

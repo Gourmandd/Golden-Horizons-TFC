@@ -1,0 +1,18 @@
+{
+    "type": "tfc:glassworking",
+    "operations": [
+        "tfc:soda_ash",
+        "tfc:graphite",
+        "tfc:soda_ash",
+        "tfc:blow",
+        "tfc:stretch",
+        "tfc:roll",
+        "tfc:saw"
+    ],
+    "batch": {
+        "tag": "tfc:glass_batches"
+    },
+    "result": {
+        "id": "kubejs:light_gray_lens"
+    }
+}

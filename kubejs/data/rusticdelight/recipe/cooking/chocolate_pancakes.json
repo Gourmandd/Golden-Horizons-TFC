@@ -1,0 +1,38 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "firmalife"
+        }
+    ],
+    "type": "farmersdelight:cooking",
+    "container": {
+        "id": "minecraft:bowl"
+    },
+    "cookingtime": 400,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "rusticdelight:batter"
+        },
+        {
+            "item": "farmersdelight:milk_bottle"
+        },
+        {
+            "item": "firmalife:food/roasted_cocoa_beans"
+        },
+        {
+            "item": "firmalife:food/roasted_cocoa_beans"
+        },
+        {
+            "item": "firmalife:food/roasted_cocoa_beans"
+        },
+        {
+            "item": "firmalife:food/roasted_cocoa_beans"
+        }
+    ],
+    "recipe_book_tab": "misc",
+    "result": {
+        "id": "rusticdelight:chocolate_pancakes"
+    }
+}

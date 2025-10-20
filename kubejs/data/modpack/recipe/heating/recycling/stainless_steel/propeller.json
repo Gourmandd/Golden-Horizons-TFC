@@ -1,0 +1,17 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "firmalife"
+        }
+    ],
+    "type": "tfc:heating",
+    "ingredient": {
+        "item": "create:propeller"
+    },
+    "result_fluid": {
+        "id": "firmalife:metal/stainless_steel",
+        "amount": 800
+    },
+    "temperature": 1540
+}

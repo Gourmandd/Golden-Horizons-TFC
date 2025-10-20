@@ -1,0 +1,25 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "firmalife"
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "LLL",
+        "SSS",
+        "LLL"
+    ],
+    "key": {
+        "S": {
+            "item": "kubejs:metal/rod/aluminium"
+        },
+        "L": {
+            "item": "firmalife:treated_lumber"
+        }
+    },
+    "result": {
+        "id": "immersive_aircraft:hull"
+    }
+}

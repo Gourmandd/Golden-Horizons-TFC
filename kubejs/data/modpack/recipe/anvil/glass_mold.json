@@ -1,0 +1,21 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:item_exists",
+            "item": "kubejs:glass_mold"
+        }
+    ],
+    "type": "tfc:anvil",
+    "ingredient": {
+        "item": "tfc:metal/double_sheet/brass"
+    },
+    "result": {
+        "id": "kubejs:glass_mold"
+    },
+    "tier": 2,
+    "rules": [
+        "bend_last",
+        "bend_second_last",
+        "hit_third_last"
+    ]
+}

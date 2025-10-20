@@ -1,0 +1,32 @@
+{
+    "type": "pastel:pedestal",
+    "time": 1000,
+    "tier": "advanced",
+    "colors": {
+        "pastel:cyan": 4,
+        "pastel:magenta": 0,
+        "pastel:yellow": 4,
+        "pastel:white": 0,
+        "pastel:black": 0
+    },
+    "experience": 1.0,
+    "skip_recipe_remainders": true,
+    "pattern": [
+        "PAP",
+        "APA",
+        "PAP"
+    ],
+    "key": {
+        "A": {
+            "item": "pastel:raw_azurite"
+        },
+        "P": {
+            "item": "coralstfc:coral_powder"
+        }
+    },
+    "result": {
+        "id": "minecraft:sponge",
+        "count": 1
+    },
+    "required_advancement": "pastel:midgame/collect_azurite"
+}

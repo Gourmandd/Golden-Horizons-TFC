@@ -1,0 +1,16 @@
+{
+    "type": "tfc:anvil",
+    "ingredient": {
+        "tag": "c:ingots/zinc"
+    },
+    "result": {
+        "count": 4,
+        "id": "create:copycat_panel"
+    },
+    "tier": 1,
+    "rules": [
+        "upset_last",
+        "bend_second_last",
+        "bend_third_last"
+    ]
+}

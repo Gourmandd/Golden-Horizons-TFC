@@ -1,0 +1,54 @@
+{
+    "type": "pastel:enchanter",
+    "time": 300,
+    "required_experience": 100,
+    "ingredients": [
+        {
+            "item": "minecraft:book"
+        },
+        {
+            "item": "pastel:light_blue_pigment"
+        },
+        {
+            "item": "pastel:light_blue_pigment"
+        },
+        {
+            "item": "tfc:metal/ingot/gold"
+        },
+        {
+            "item": "pastel:four_leaf_clover"
+        },
+        {
+            "item": "pastel:light_blue_pigment"
+        },
+        {
+            "item": "pastel:light_blue_pigment"
+        },
+        {
+            "item": "tfc:metal/ingot/gold"
+        },
+        {
+            "item": "pastel:four_leaf_clover"
+        }
+    ],
+    "result": {
+        "nbt": {
+            "StoredEnchantments": [
+                {
+                    "id": "pastel:clovers_favor",
+                    "lvl": "1s"
+                }
+            ]
+        },
+        "id": "minecraft:enchanted_book"
+    },
+    "required_advancement": "pastel:unlocks/enchantments/clovers_favor",
+    "fabric:load_conditions": [
+        {
+            "condition": "pastel:enchantments_exist",
+            "values": [
+                "pastel:clovers_favor"
+            ]
+        }
+    ]
+}

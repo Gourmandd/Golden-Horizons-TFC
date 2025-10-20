@@ -1,10 +1,10 @@
 {
     "ingredient": {
-      "item": "farmersdelight:cabbage_rolls"
+        "item": "farmersdelight:cabbage_rolls"
     },
     "category": "other",
     "hunger": 4,
     "saturation": 2,
     "decay_modifier": 2,
     "vegetables": 2
-  }
+}

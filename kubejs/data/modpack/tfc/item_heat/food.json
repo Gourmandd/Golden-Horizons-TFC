@@ -1,6 +1,6 @@
 {
-  "ingredient": {
-    "tag": "modpack:heatable_food"
-  },
-  "heat_capacity": 1
+    "ingredient": {
+        "tag": "modpack:heatable_food"
+    },
+    "heat_capacity": 1
 }

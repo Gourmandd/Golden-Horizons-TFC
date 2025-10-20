@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "create:chocolate_glazed_berries"
+        "item": "create:chocolate_glazed_berries"
     },
     "category": "other",
     "hunger": 7,
@@ -9,4 +9,4 @@
     "grain": 0.5,
     "dairy": 0.5,
     "fruit": 1
-  }
+}

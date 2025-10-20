@@ -1,0 +1,20 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "afc"
+        }
+    ],
+    "type": "tfc:barrel_sealed",
+    "input_item": {
+        "item": "minecraft:paper"
+    },
+    "input_fluid": {
+        "fluid": "afc:latex",
+        "amount": 100
+    },
+    "output_item": {
+        "id": "exposure:color_film"
+    },
+    "duration": 3000
+}

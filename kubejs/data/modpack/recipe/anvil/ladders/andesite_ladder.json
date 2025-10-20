@@ -1,0 +1,16 @@
+{
+    "type": "tfc:anvil",
+    "ingredient": {
+        "item": "create:andesite_alloy"
+    },
+    "result": {
+        "count": 16,
+        "id": "create:andesite_ladder"
+    },
+    "tier": 2,
+    "rules": [
+        "hit_any",
+        "punch_second_last",
+        "draw_last"
+    ]
+}

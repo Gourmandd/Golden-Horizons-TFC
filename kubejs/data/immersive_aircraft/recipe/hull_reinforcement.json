@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "LLL",
+        "SSS",
+        "LLL"
+    ],
+    "key": {
+        "S": {
+            "item": "immersive_aircraft:hull"
+        },
+        "L": {
+            "item": "tfc:metal/rod/wrought_iron"
+        }
+    },
+    "result": {
+        "id": "immersive_aircraft:hull_reinforcement"
+    }
+}

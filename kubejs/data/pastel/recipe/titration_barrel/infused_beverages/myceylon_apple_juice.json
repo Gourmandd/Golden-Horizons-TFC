@@ -1,0 +1,40 @@
+{
+    "type": "pastel:titration_barrel",
+    "ingredients": [
+        {
+            "tag": "tfc:foods/apples",
+            "count": 4
+        },
+        {
+            "item": "pastel:myceylon",
+            "count": 8
+        }
+    ],
+    "min_fermentation_time_hours": 4,
+    "fluid": {
+        "fluid": "minecraft:water"
+    },
+    "tapping_item": "minecraft:glass_bottle",
+    "fermentation_data": {
+        "fermentation_speed_mod": 0.0,
+        "effects": [
+            {
+                "id": "minecraft:absorption",
+                "base_duration": 9600
+            },
+            {
+                "id": "pastel:nourishing",
+                "base_duration": 9600
+            }
+        ]
+    },
+    "result": {
+        "count": 4,
+        "nbt": {
+            "Variant": "myceylon_apple_juice",
+            "Color": 12018987
+        },
+        "id": "pastel:infused_beverage"
+    },
+    "required_advancement": "pastel:unlocks/food/myceylon_liquor"
+}

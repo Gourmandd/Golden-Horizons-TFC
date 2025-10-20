@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "fluid": "kubejs:boiled_water"
+        "fluid": "kubejs:boiled_water"
     },
     "thirst": 10,
     "intoxication": 0,
@@ -10,4 +10,4 @@
             "duration": 100
         }
     ]
-  }
+}

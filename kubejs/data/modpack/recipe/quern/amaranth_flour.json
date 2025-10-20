@@ -1,0 +1,10 @@
+{
+    "type": "tfc:quern",
+    "ingredient": {
+        "item": "pastel:amaranth_grains"
+    },
+    "result": {
+        "id": "kubejs:food/amaranth_flour",
+        "count": 1
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "type": "barbequesdelight:grilling",
+    "ingredient": {
+        "item": "tfc:food/maize"
+    },
+    "output": {
+        "id": "corn_delight:grilled_corn"
+    },
+    "barbecuingTime": 280
+}

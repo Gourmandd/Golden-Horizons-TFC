@@ -1,0 +1,62 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+        "item": "create:brass_nugget"
+    },
+    "transitional_item": {
+        "id": "tfc:brass_mechanisms"
+    },
+    "sequence": [
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "tfc:brass_mechanisms"
+                },
+                {
+                    "item": "create:large_cogwheel"
+                }
+            ],
+            "results": [
+                {
+                    "id": "tfc:brass_mechanisms"
+                }
+            ]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "tfc:brass_mechanisms"
+                },
+                {
+                    "item": "tfc:metal/rod/brass"
+                }
+            ],
+            "results": [
+                {
+                    "id": "tfc:brass_mechanisms"
+                }
+            ]
+        },
+        {
+            "type": "create:pressing",
+            "ingredients": [
+                {
+                    "item": "tfc:brass_mechanisms"
+                }
+            ],
+            "results": [
+                {
+                    "id": "tfc:brass_mechanisms"
+                }
+            ]
+        }
+    ],
+    "results": [
+        {
+            "id": "tfc:brass_mechanisms"
+        }
+    ],
+    "loops": 2
+}

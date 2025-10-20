@@ -1,7 +1,7 @@
 {
- "replace": false,
- "values": [
-    "pastel:dragonrot",
-    "pastel:liquid_crystal"
- ]   
+    "replace": false,
+    "values": [
+        "pastel:dragonrot",
+        "pastel:liquid_crystal"
+    ]
 }

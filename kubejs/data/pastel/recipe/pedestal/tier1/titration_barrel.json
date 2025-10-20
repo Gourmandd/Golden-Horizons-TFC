@@ -1,0 +1,34 @@
+{
+    "type": "pastel:pedestal",
+    "time": 160,
+    "tier": "basic",
+    "colors": {
+        "pastel:cyan": 0,
+        "pastel:magenta": 4,
+        "pastel:yellow": 0,
+        "pastel:white": 0,
+        "pastel:black": 0
+    },
+    "experience": 0.5,
+    "pattern": [
+        "CCC",
+        "IPI",
+        "CCC"
+    ],
+    "key": {
+        "C": {
+            "tag": "pastel:colored_planks"
+        },
+        "P": {
+            "tag": "pastel:pigments"
+        },
+        "I": {
+            "item": "tfc:metal/ingot/wrought_iron"
+        }
+    },
+    "result": {
+        "count": 1,
+        "id": "pastel:titration_barrel"
+    },
+    "required_advancement": "pastel:unlocks/blocks/titration_barrel"
+}

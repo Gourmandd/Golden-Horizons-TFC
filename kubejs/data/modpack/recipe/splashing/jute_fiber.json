@@ -1,0 +1,13 @@
+{
+    "type": "create:splashing",
+    "ingredients": [
+        {
+            "item": "tfc:jute"
+        }
+    ],
+    "results": [
+        {
+            "id": "tfc:jute_fiber"
+        }
+    ]
+}

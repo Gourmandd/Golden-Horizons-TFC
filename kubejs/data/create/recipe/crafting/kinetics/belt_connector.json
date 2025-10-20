@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SSS",
+        "KKK",
+        "KKK"
+    ],
+    "key": {
+        "K": {
+            "item": "tfc:food/dried_kelp"
+        },
+        "S": {
+            "item": "tfc:powder/salt"
+        }
+    },
+    "result": {
+        "id": "create:belt_connector"
+    }
+}

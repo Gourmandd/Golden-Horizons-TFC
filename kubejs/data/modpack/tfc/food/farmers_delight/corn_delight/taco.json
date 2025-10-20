@@ -1,6 +1,6 @@
 {
     "ingredient": {
-      "item": "corn_delight:taco"
+        "item": "corn_delight:taco"
     },
     "hunger": 6,
     "saturation": 6,

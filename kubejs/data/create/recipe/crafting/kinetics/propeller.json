@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " S ",
+        "SCS",
+        " S "
+    ],
+    "key": {
+        "S": {
+            "item": "tfc:metal/sheet/steel"
+        },
+        "C": {
+            "item": "tfc:glue"
+        }
+    },
+    "result": {
+        "id": "create:propeller"
+    }
+}

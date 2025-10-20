@@ -1,0 +1,85 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+        "item": "tfc:volcanic_glass_batch"
+    },
+    "transitional_item": {
+        "id": "minecraft:glass_pane"
+    },
+    "sequence": [
+        {
+            "type": "create:filling",
+            "ingredients": [
+                {
+                    "item": "minecraft:glass_pane"
+                },
+                {
+                    "type": "fluid_stack",
+                    "amount": 400,
+                    "fluid": "kubejs:glass/blue"
+                }
+            ],
+            "results": [
+                {
+                    "id": "minecraft:glass_pane"
+                }
+            ]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "minecraft:glass_pane"
+                },
+                {
+                    "item": "tfc:bellows"
+                }
+            ],
+            "results": [
+                {
+                    "id": "minecraft:glass_pane"
+                }
+            ],
+            "keepHeldItem": true
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "minecraft:glass_pane"
+                },
+                {
+                    "item": "tfc:jacks"
+                }
+            ],
+            "results": [
+                {
+                    "id": "minecraft:glass_pane"
+                }
+            ],
+            "keepHeldItem": true
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "minecraft:glass_pane"
+                },
+                {
+                    "item": "tfc:gem_saw"
+                }
+            ],
+            "results": [
+                {
+                    "id": "minecraft:glass_pane"
+                }
+            ]
+        }
+    ],
+    "results": [
+        {
+            "id": "tfc:volcanic_glass_bottle"
+        }
+    ],
+    "loops": 3
+}

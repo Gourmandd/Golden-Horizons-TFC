@@ -1,0 +1,34 @@
+{
+    "type": "spectrum:pedestal",
+    "time": 400,
+    "tier": "advanced",
+    "colors": {
+        "pastel:cyan": 0,
+        "pastel:magenta": 4,
+        "pastel:yellow": 0,
+        "pastel:white": 0,
+        "pastel:black": 0
+    },
+    "experience": 2.0,
+    "pattern": [
+        " O ",
+        "ORO",
+        " C "
+    ],
+    "key": {
+        "O": {
+            "item": "spectrum:onyx_shard"
+        },
+        "C": {
+            "item": "tfc:metal/ingot/copper"
+        },
+        "R": {
+            "item": "minecraft:redstone"
+        }
+    },
+    "result": {
+        "id": "spectrum:crescent_clock",
+        "count": 1
+    },
+    "required_advancement": "spectrum:unlocks/items/crescent_clock"
+}
