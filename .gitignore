@@ -68,3 +68,6 @@ servers.dat_old
 config/sodium-fingerprint.json
 config/jei/world/local/building/lookupHistory.json
 dynamic-resource-pack-cache/hash.txt
+config/jei/world
+config/jei/world
+command_history.txt
