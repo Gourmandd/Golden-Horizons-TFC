@@ -5,6 +5,8 @@
         "tfc:seeds/squash",
         "tfc:seeds/pumpkin",
         "tfc:seeds/onion",
-        "tfc:seeds/oat"
+        "tfc:seeds/oat",
+        "tfc:seeds/peanut",
+        "tfc:seeds/canola"
     ]
 }

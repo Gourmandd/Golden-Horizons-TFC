@@ -20,7 +20,7 @@
             "item": "minecraft:smooth_basalt"
         },
         "S": {
-            "tag": "c:string"
+            "tag": "c:strings"
         },
         "M": {
             "item": "pastel:mermaids_gem"

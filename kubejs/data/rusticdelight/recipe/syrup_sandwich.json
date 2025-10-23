@@ -3,22 +3,37 @@
     "category": "misc",
     "ingredients": [
         {
-            "type": "tfc:not_rotten",
-            "ingredient": {
-                "tag": "c:foods/bread"
-            }
+            "type": "tfc:and",
+            "children": [
+                {
+                    "tag": "c:foods/bread"
+                },
+                {
+                    "type": "tfc:not_rotten"
+                }
+            ]
         },
         {
-            "type": "tfc:not_rotten",
-            "ingredient": {
-                "tag": "rusticdelight:syrup"
-            }
+            "type": "tfc:and",
+            "children": [
+                {
+                    "item": "rusticdelight:syrup"
+                },
+                {
+                    "type": "tfc:not_rotten"
+                }
+            ]
         },
         {
-            "type": "tfc:not_rotten",
-            "ingredient": {
-                "tag": "tfc:foods/sweeteners"
-            }
+            "type": "tfc:and",
+            "children": [
+                {
+                    "tag": "tfc:foods/sweeteners"
+                },
+                {
+                    "type": "tfc:not_rotten"
+                }
+            ]
         }
     ],
     "result": {

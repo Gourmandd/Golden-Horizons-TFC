@@ -2,7 +2,7 @@
     "type": "create:filling",
     "ingredients": [
         {
-            "tag": "modpack:berries"
+            "tag": "c:foods/fruit/berries"
         },
         {
             "type": "fluid_stack",

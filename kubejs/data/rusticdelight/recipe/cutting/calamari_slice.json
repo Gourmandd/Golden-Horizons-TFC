@@ -2,10 +2,15 @@
     "type": "farmersdelight:cutting",
     "ingredients": [
         {
-            "type": "tfc:not_rotten",
-            "ingredient": {
-                "item": "tfc:food/calamari"
-            }
+            "type": "tfc:and",
+            "children": [
+                {
+                    "item": "tfc:food/calamari"
+                },
+                {
+                    "type": "tfc:not_rotten"
+                }
+            ]
         }
     ],
     "result": [
@@ -22,6 +27,6 @@
         }
     ],
     "tool": {
-        "tag": "c:tools/knive"
+        "tag": "c:tools/knife"
     }
 }

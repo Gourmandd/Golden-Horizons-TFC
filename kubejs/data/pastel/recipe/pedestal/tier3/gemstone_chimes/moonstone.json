@@ -27,7 +27,7 @@
             "item": "pastel:polished_calcite"
         },
         "G": {
-            "tag": "c:string"
+            "tag": "c:strings"
         },
         "P": {
             "item": "pastel:shimmerstone_gem"

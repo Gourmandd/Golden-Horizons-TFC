@@ -1,7 +1,7 @@
 {
     "type": "pastel:midnight_solution_converting",
     "ingredient": {
-        "tag": "forge:cobblestone"
+        "tag": "c:cobblestones"
     },
     "result": {
         "id": "architects_palette:craterstone",

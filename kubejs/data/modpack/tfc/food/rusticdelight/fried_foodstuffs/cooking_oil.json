@@ -4,5 +4,5 @@
     },
     "hunger": 1,
     "saturation": 0,
-    "decay_modifier": 0.5
+    "decay_modifier": 0
 }

@@ -19,10 +19,10 @@
             "item": "tfc:food/potato"
         },
         {
-            "tag": "forge:fruits/berries"
+            "tag": "c:foods/fruit/berries"
         },
         {
-            "tag": "forge:vegetables"
+            "tag": "c:foods/vegetables"
         }
     ],
     "recipe_book_tab": "meals",

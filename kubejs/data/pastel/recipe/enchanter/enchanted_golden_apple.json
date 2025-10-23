@@ -4,7 +4,7 @@
     "required_experience": 100,
     "ingredients": [
         {
-            "tag": "tfc:foods/apples"
+            "tag": "c:foods/fruit/apple"
         },
         {
             "item": "pastel:shimmerstone_block"

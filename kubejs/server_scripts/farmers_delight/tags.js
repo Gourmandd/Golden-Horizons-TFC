@@ -65,11 +65,11 @@ ServerEvents.tags("item", event =>{
             } 
 
             if (shape == "bricks"){
-                event.add(`modpack:cutting/terracotta_bricks/${colour}`, `hearth_and_home:${colour}_terracotta_bricks`)
-                event.add(`modpack:cutting/terracotta_bricks/${colour}`, `hearth_and_home:${colour}_shingles`)
+                //event.add(`modpack:cutting/terracotta_bricks/${colour}`, `hearth_and_home:${colour}_terracotta_bricks`)
+                //event.add(`modpack:cutting/terracotta_bricks/${colour}`, `hearth_and_home:${colour}_shingles`)
             } else {
-                event.add(`modpack:cutting/terracotta_bricks/${colour}`, `hearth_and_home:${colour}_terracotta_brick_${shape}`)
-                event.add(`modpack:cutting/terracotta_bricks/${colour}`, `hearth_and_home:${colour}_shingle_${shape}`)
+                //event.add(`modpack:cutting/terracotta_bricks/${colour}`, `hearth_and_home:${colour}_terracotta_brick_${shape}`)
+                //event.add(`modpack:cutting/terracotta_bricks/${colour}`, `hearth_and_home:${colour}_shingle_${shape}`)
                 event.add(`modpack:cutting/alabaster_brick`, `tfc:alabaster/bricks/${colour}_${shape}`)
                 event.add(`modpack:cutting/alabaster_brick`, `tfc:alabaster/polished/${colour}_${shape}`)
             }   

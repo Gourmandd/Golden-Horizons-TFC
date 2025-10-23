@@ -7,7 +7,7 @@
         "pastel:magenta": 1,
         "pastel:yellow": 1,
         "pastel:white": 8,
-        "pastel:black": 0,
+        "pastel:black": 0
     },
     "experience": 2.0,
     "pattern": [
@@ -20,7 +20,7 @@
             "tag": "c:string"
         },
         "M": {
-            "item": "pastel:refined_malachite"
+            "item": "pastel:pure_malachite"
         },
         "P": {
             "item": "pastel:jadeite_petals"

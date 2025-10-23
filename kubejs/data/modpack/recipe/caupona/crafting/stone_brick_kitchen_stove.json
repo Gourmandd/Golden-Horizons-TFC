@@ -13,7 +13,7 @@
             "item": "minecraft:clay"
         },
         "S": {
-            "tag": "forge:stone_bricks"
+            "tag": "mineacraft:stone_bricks"
         }
     },
     "result": {

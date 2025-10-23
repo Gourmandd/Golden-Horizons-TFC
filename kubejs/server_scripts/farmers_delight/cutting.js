@@ -56,14 +56,14 @@ ServerEvents.recipes(event =>{
 
     global.DYE_COLOURS.forEach(colour => {
 
-        datagen.farmersCutting(outputOf(ITEM, `minecraft:${colour}_terracotta`, 1, 0.5), inputOf(TAG, `modpack:cutting/terracotta_bricks/${colour}`, 1), CUTTING_TOOL.PICKAXE)
-            .id(`modpack:fd_cutting/terracotta/${colour}`)
-            .generate()
+        //datagen.farmersCutting(outputOf(ITEM, `minecraft:${colour}_terracotta`, 1, 0.5), inputOf(TAG, `modpack:cutting/terracotta_bricks/${colour}`, 1), CUTTING_TOOL.PICKAXE)
+        //    .id(`modpack:fd_cutting/terracotta/${colour}`)
+        //    .generate()
     })
 
-    datagen.farmersCutting(outputOf(ITEM, "minecraft:terracotta", 1, 0.5), inputOf(TAG, `modpack:cutting/terracotta_bricks/plain`, 1), CUTTING_TOOL.PICKAXE)
-        .id(`modpack:fd_cutting/terracotta/plain`)
-        .generate()
+    //datagen.farmersCutting(outputOf(ITEM, "minecraft:terracotta", 1, 0.5), inputOf(TAG, `modpack:cutting/terracotta_bricks/plain`, 1), CUTTING_TOOL.PICKAXE)
+    //    .id(`modpack:fd_cutting/terracotta/plain`)
+    //    .generate()
     
     datagen.farmersCutting(outputOf(ITEM, "tfc:alabaster_brick", 1, 0.5), inputOf(TAG, `modpack:cutting/alabaster_brick`, 1), CUTTING_TOOL.PICKAXE)
         .id(`modpack:fd_cutting/alabaster`)

@@ -29,18 +29,15 @@
             "item": "minecraft:honey_bottle"
         },
         "J": {
-            "item": "pastel:infused_beverage",
-            "recipeViewNbt": "{Variant: \"malt_beer\", Color: 8272724 }",
-            "matchbook": {
-                "mode": "AND",
-                "matches": [
-                    {
-                        "type": "string",
-                        "key": "Variant",
-                        "target": "malt_beer"
-                    }
-                ]
+        "item": "pastel:infused_beverage",
+        "recipeViewNbt": "{Variant: \"malt_beer\", Color: 8272724 }",
+        "predicates": {
+            "pastel:infused_beverage": [
+            {
+                "variants": "malt_beer"
             }
+            ]
+        }
         }
     },
     "result": {

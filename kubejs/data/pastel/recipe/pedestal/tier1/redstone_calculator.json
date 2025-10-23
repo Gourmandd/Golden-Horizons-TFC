@@ -25,7 +25,7 @@
             "item": "minecraft:redstone_torch"
         },
         "S": {
-            "tag": "c:stone"
+            "tag": "c:stones"
         }
     },
     "result": {

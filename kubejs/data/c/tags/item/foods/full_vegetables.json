@@ -1,0 +1,15 @@
+{
+	"values": [
+		"tfc:food/potato",
+		"tfc:food/tomato",
+		"tfc:food/carrot",
+		"tfc:food/onion",
+		"tfc:food/beet",
+		"tfc:food/green_bell_pepper",
+		"tfc:food/yellow_bell_pepper",
+		"tfc:food/red_bell_pepper",
+		"tfc:food/soybean",
+		"tfc:food/green_bean",
+		"tfc:food/maize"
+	]
+}

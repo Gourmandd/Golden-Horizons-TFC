@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "tfc:food/potato",
+        "tfc:food/baked_potato"
+    ],
+    "remove": [
+        "minecraft:potato"
+    ]
+}

@@ -20,10 +20,10 @@
             "item": "pastel:crawfish"
         },
         "J": {
-            "tag": "c:fruits/berries/red"
+            "tag": "c:foods/fruit/berries/red"
         },
         "E": {
-            "tag": "c:mushrooms"
+            "tag": "c:foods/edible_mushrooms"
         },
         "M": {
             "item": "pastel:infused_beverage",

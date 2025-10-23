@@ -3,55 +3,95 @@
     "category": "misc",
     "ingredients": [
         {
-            "type": "tfc:not_rotten",
-            "ingredient": {
-                "item": "farmersdelight:kelp_roll_slice"
-            }
+            "type": "tfc:and",
+            "children": [
+                {
+                    "item": "farmersdelight:kelp_roll_slice"
+                },
+                {
+                    "type": "tfc:not_rotten"
+                }
+            ]
         },
         {
-            "type": "tfc:not_rotten",
-            "ingredient": {
-                "item": "farmersdelight:kelp_roll_slice"
-            }
+            "type": "tfc:and",
+            "children": [
+                {
+                    "item": "farmersdelight:kelp_roll_slice"
+                },
+                {
+                    "type": "tfc:not_rotten"
+                }
+            ]
         },
         {
-            "type": "tfc:not_rotten",
-            "ingredient": {
-                "item": "farmersdelight:kelp_roll_slice"
-            }
+            "type": "tfc:and",
+            "children": [
+                {
+                    "item": "farmersdelight:kelp_roll_slice"
+                },
+                {
+                    "type": "tfc:not_rotten"
+                }
+            ]
         },
         {
-            "type": "tfc:not_rotten",
-            "ingredient": {
-                "item": "rusticdelight:bell_pepper_roll_green"
-            }
+            "type": "tfc:and",
+            "children": [
+                {
+                    "item": "rusticdelight:bell_pepper_roll_green"
+                },
+                {
+                    "type": "tfc:not_rotten"
+                }
+            ]
         },
         {
-            "type": "tfc:not_rotten",
-            "ingredient": {
-                "item": "rusticdelight:bell_pepper_roll_yellow"
-            }
+            "type": "tfc:and",
+            "children": [
+                {
+                    "item": "rusticdelight:bell_pepper_roll_yellow"
+                },
+                {
+                    "type": "tfc:not_rotten"
+                }
+            ]
         },
         {
-            "type": "tfc:not_rotten",
-            "ingredient": {
-                "item": "rusticdelight:bell_pepper_roll_red"
-            }
+            "type": "tfc:and",
+            "children": [
+                {
+                    "item": "rusticdelight:bell_pepper_roll_red"
+                },
+                {
+                    "type": "tfc:not_rotten"
+                }
+            ]
         },
         {
-            "type": "tfc:not_rotten",
-            "ingredient": {
-                "item": "rusticdelight:calamari_roll"
-            }
+            "type": "tfc:and",
+            "children": [
+                {
+                    "item": "rusticdelight:calamari_roll"
+                },
+                {
+                    "type": "tfc:not_rotten"
+                }
+            ]
         },
         {
             "item": "minecraft:bowl"
         },
         {
-            "type": "tfc:not_rotten",
-            "ingredient": {
-                "item": "rusticdelight:cherry_blossom_roll"
-            }
+            "type": "tfc:and",
+            "children": [
+                {
+                    "item": "rusticdelight:cherry_blossom_roll"
+                },
+                {
+                    "type": "tfc:not_rotten"
+                }
+            ]
         }
     ],
     "result": {

@@ -34,7 +34,7 @@
             "item": "minecraft:honey_bottle"
         },
         "B": {
-            "tag": "c:fruits/berries/red"
+            "tag": "c:foods/fruit/berries/red"
         },
         "M": {
             "item": "pastel:clotted_cream"

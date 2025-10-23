@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "tfc:food/onion"
+    ],
+    "remove": [
+        "farmersdelight:onion"
+    ]
+}

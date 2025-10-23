@@ -1,10 +1,15 @@
 {
     "type": "tfc:heating",
     "ingredient": {
-        "type": "tfc:not_rotten",
-        "ingredient": {
-            "item": "tfc:food/maize"
-        }
+        "type": "tfc:and",
+        "children": [
+            {
+                "item": "tfc:food/maize"
+            },
+            {
+                "type": "tfc:not_rotten"
+            }
+        ]
     },
     "result_item": {
         "id": "corn_delight:grilled_corn"

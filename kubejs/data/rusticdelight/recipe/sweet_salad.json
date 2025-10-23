@@ -6,34 +6,59 @@
             "item": "minecraft:bowl"
         },
         {
-            "type": "tfc:not_rotten",
-            "ingredient": {
-                "item": "rusticdelight:syrup"
-            }
+            "type": "tfc:and",
+            "children": [
+                {
+                    "item": "rusticdelight:syrup"
+                },
+                {
+                    "type": "tfc:not_rotten"
+                }
+            ]
         },
         {
-            "type": "tfc:not_rotten",
-            "ingredient": {
-                "tag": "c:foods/leafy_green"
-            }
+            "type": "tfc:and",
+            "children": [
+                {
+                    "tag": "c:foods/vegetable/cabbage"
+                },
+                {
+                    "type": "tfc:not_rotten"
+                }
+            ]
         },
         {
-            "type": "tfc:not_rotten",
-            "ingredient": {
-                "tag": "c:foods/vegetable"
-            }
+            "type": "tfc:and",
+            "children": [
+                {
+                    "tag": "c:foods/vegetables"
+                },
+                {
+                    "type": "tfc:not_rotten"
+                }
+            ]
         },
         {
-            "type": "tfc:not_rotten",
-            "ingredient": {
-                "tag": "c:foods/fruit/berries"
-            }
+            "type": "tfc:and",
+            "children": [
+                {
+                    "tag": "c:foods/fruit/berries"
+                },
+                {
+                    "type": "tfc:not_rotten"
+                }
+            ]
         },
         {
-            "type": "tfc:not_rotten",
-            "ingredient": {
-                "tag": "c:foods/fruit/berries"
-            }
+            "type": "tfc:and",
+            "children": [
+                {
+                    "tag": "c:foods/fruit/berries"
+                },
+                {
+                    "type": "tfc:not_rotten"
+                }
+            ]
         }
     ],
     "result": {

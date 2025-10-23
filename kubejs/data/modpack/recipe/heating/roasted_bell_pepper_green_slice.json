@@ -1,0 +1,18 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+        "type": "tfc:and",
+        "children": [
+            {
+                "item": "rusticdelight:bell_pepper_slice_green"
+            },
+            {
+                "type": "tfc:not_rotten"
+            }
+        ]
+    },
+    "result_item": {
+        "id": "rusticdelight:roasted_bell_pepper_slice_green"
+    },
+    "temperature": 200
+}

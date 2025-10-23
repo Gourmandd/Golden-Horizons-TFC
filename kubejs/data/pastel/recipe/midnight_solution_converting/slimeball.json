@@ -1,7 +1,7 @@
 {
     "type": "pastel:midnight_solution_converting",
     "ingredient": {
-        "tag": "forge:clay_balls"
+        "tag": "c:clay_balls"
     },
     "result": {
         "count": 1,

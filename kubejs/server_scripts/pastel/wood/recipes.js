@@ -4,6 +4,8 @@ ServerEvents.recipes(event =>{
 
     // TFCified wood block crafting
     global.DYE_COLOURS.forEach(colour => {
+
+        event.remove(`create:cutting/runtime_generated/compat/create/tag_runtime_generated/compat/pastel/${colour}_to_${colour}_planks`)
         
 
         event.remove(`pastel:crafting_table/colored_wood/${colour}_planks`)

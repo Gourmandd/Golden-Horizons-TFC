@@ -20,13 +20,13 @@
             "item": "pastel:myceylon"
         },
         "M": {
-            "tag": "c:milk"
+            "tag": "c:foods/milk"
         },
         "S": {
             "item": "minecraft:sugar"
         },
         "P": {
-            "tag": "tfc:foods/apples"
+            "tag": "c:foods/vegetable/pumpkin"
         },
         "A": {
             "item": "kubejs:food/amaranth_flour"
@@ -34,7 +34,7 @@
     },
     "result": {
         "count": 1,
-        "id": "pastel:myceylon_apple_pie"
+        "id": "pastel:myceylon_pumpkin_pie"
     },
     "required_advancement": "pastel:unlocks/food/myceylon_pastries"
 }

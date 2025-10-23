@@ -26,7 +26,7 @@
             "tag": "c:eggs"
         },
         "M": {
-            "tag": "c:milk"
+            "tag": "c:foods/milk"
         },
         "K": {
             "item": "tfc:plant/giant_kelp_flower"

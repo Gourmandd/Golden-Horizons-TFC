@@ -23,7 +23,7 @@
             "item": "pastel:four_leaf_clover"
         },
         "M": {
-            "tag": "c:milk"
+            "tag": "c:foods/milk"
         },
         "S": {
             "item": "minecraft:sugar"

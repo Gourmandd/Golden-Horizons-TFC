@@ -1,51 +1,40 @@
 {
-    "type": "pastel:pedestal",
-    "time": 160,
-    "tier": "basic",
-    "colors": {
-        "pastel:cyan": 0,
-        "pastel:magenta": 0,
-        "pastel:yellow": 0,
-        "pastel:white": 0,
-        "pastel:black": 0
+  "type": "pastel:pedestal",
+  "time": 160,
+  "tier": "basic",
+  "colors": {
+    "pastel:cyan": 0,
+    "pastel:magenta": 0,
+    "pastel:yellow": 0,
+    "pastel:black": 0,
+    "pastel:white": 0
+  },
+  "experience": 1.0,
+  "pattern": [
+    "JJJ",
+    "EME",
+    "AHA"
+  ],
+  "key": {
+    "E": "#c:foods/edible_mushrooms",
+    "J": "pastel:clotted_cream",
+    "A": "#c:foods/vegetable/potato",
+    "M": {
+      "item": "pastel:infused_beverage",
+      "recipeViewNbt": "{Variant: \"beer\", Color: 16762703 }",
+      "predicates": {
+        "pastel:infused_beverage": [
+          {
+            "variants": "beer"
+          }
+        ]
+      }
     },
-    "experience": 1.0,
-    "pattern": [
-        "JJJ",
-        "EME",
-        "AHA"
-    ],
-    "key": {
-        "E": {
-            "tag": "c:mushrooms"
-        },
-        "J": {
-            "item": "pastel:clotted_cream"
-        },
-        "A": {
-            "item": "tfc:food/potato"
-        },
-        "M": {
-            "item": "pastel:infused_beverage",
-            "recipeViewNbt": "{Variant: \"beer\", Color: 16762703 }",
-            "matchbook": {
-                "mode": "AND",
-                "matches": [
-                    {
-                        "type": "string",
-                        "key": "Variant",
-                        "target": "beer"
-                    }
-                ]
-            }
-        },
-        "H": {
-            "item": "tfc:food/cooked_rabbit"
-        }
-    },
-    "result": {
-        "count": 1,
-        "id": "pastel:hare_roast"
-    },
-    "required_advancement": "pastel:hidden/collect_cookbooks/melochites_cookbook_vol_1"
+    "H": "#c:foods/rabbit"
+  },
+  "result": {
+    "id": "pastel:hare_roast",
+    "count": 1
+  },
+  "required_advancement": "pastel:hidden/collect_cookbooks/melochites_cookbook_vol_1"
 }

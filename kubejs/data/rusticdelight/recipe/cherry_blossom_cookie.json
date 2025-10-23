@@ -14,16 +14,26 @@
     ],
     "key": {
         "C": {
-            "type": "tfc:not_rotten",
-            "ingredient": {
-                "item": "firmalife:food/sugar_cookie"
-            }
+            "type": "tfc:and",
+            "children": [
+                {
+                    "item": "firmalife:food/sugar_cookie"
+                },
+                {
+                    "type": "tfc:not_rotten"
+                }
+            ]
         },
         "T": {
-            "type": "tfc:not_rotten",
-            "ingredient": {
-                "item": "tfc:food/cherry"
-            }
+            "type": "tfc:and",
+            "children": [
+                {
+                    "item": "tfc:food/cherry"
+                },
+                {
+                    "type": "tfc:not_rotten"
+                }
+            ]
         }
     },
     "result": {

@@ -8,29 +8,48 @@
     ],
     "key": {
         "C": {
-            "type": "tfc:not_rotten",
-            "ingredient": {
-                "item": "farmersdelight:pie_crust"
-            }
+            "type": "tfc:and",
+            "children": [
+                {
+                    "item": "farmersdelight:pie_crust"
+                },
+                {
+                    "type": "tfc:not_rotten"
+                }
+            ]
         },
         "M": {
-            "type": "tfc:fluid_content",
-            "fluid": {
-                "amount": 100,
-                "tag": "tfc:milks"
-            }
+            "type": "tfc:and",
+            "children": [
+                {
+                    "item": "farmersdelight:milk_bottle"
+                },
+                {
+                    "type": "tfc:not_rotten"
+                }
+            ]
         },
         "S": {
-            "type": "tfc:not_rotten",
-            "ingredient": {
-                "tag": "tfc:foods/sweeteners"
-            }
+            "type": "tfc:and",
+            "children": [
+                {
+                    "tag": "tfc:foods/sweeteners"
+                },
+                {
+                    "type": "tfc:not_rotten"
+                }
+            ]
         },
         "T": {
-            "type": "tfc:not_rotten",
-            "ingredient": {
-                "item": "tfc:food/cherry"
-            }
+            "type": "tfc:and",
+            "children": [
+                {
+                    "item": "tfc:food/cherry"
+                },
+                {
+                    "type": "tfc:not_rotten"
+                }
+            ]
         }
     },
     "result": {

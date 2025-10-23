@@ -1,4 +1,10 @@
 {
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "firmalife"
+        }
+    ],
     "type": "firmalife:oven",
     "ingredient": {
         "type": "tfc:not_rotten",

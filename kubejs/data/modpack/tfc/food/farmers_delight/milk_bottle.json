@@ -2,5 +2,5 @@
     "ingredient": {
         "item": "farmersdelight:milk_bottle"
     },
-    "decay_modifier": 2
+    "decay_modifier": 0
 }

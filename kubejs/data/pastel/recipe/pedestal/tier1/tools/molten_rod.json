@@ -23,7 +23,7 @@
             "item": "minecraft:blaze_rod"
         },
         "S": {
-            "tag": "c:string"
+            "tag": "c:strings"
         }
     },
     "result": {

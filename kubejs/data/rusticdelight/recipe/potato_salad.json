@@ -6,34 +6,48 @@
             "item": "minecraft:bowl"
         },
         {
-            "type": "tfc:not_rotten",
-            "ingredient": [
+            "type": "tfc:and",
+            "children": [
                 {
-                    "item": "tfc:food/potato"
+                    "tag": "c:foods/vegetable/potato"
                 },
                 {
-                    "item": "tfc:food/baked_potato"
+                    "type": "tfc:not_rotten"
                 }
             ]
         },
         {
-            "type": "tfc:not_rotten",
-            "ingredient": {
-                "item": "tfc:food/onion"
-            }
+            "type": "tfc:and",
+            "children": [
+                {
+                    "tag": "c:foods/vegetable/onion"
+                },
+                {
+                    "type": "tfc:not_rotten"
+                }
+            ]
         },
         {
-            "type": "tfc:fluid_content",
-            "fluid": {
-                "amount": 100,
-                "tag": "tfc:milks"
-            }
+            "type": "tfc:and",
+            "children": [
+                {
+                    "item": "farmersdelight:milk_bottle"
+                },
+                {
+                    "type": "tfc:not_rotten"
+                }
+            ]
         },
         {
-            "type": "tfc:not_rotten",
-            "ingredient": {
-                "item": "minecraft:egg"
-            }
+            "type": "tfc:and",
+            "children": [
+                {
+                    "item": "minecraft:egg"
+                },
+                {
+                    "type": "tfc:not_rotten"
+                }
+            ]
         }
     ],
     "result": {

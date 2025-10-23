@@ -1,0 +1,36 @@
+{
+    "type": "farmersdelight:cooking",
+    "container": {
+        "id": "minecraft:glass_bottle"
+    },
+    "cookingtime": 100,
+    "experience": 0.35,
+    "ingredients": [
+        {
+            "type": "tfc:and",
+            "children": [
+                {
+                    "tag": "c:foods/vegetable/beetroot"
+                },
+                {
+                    "type": "tfc:not_rotten"
+                }
+            ]
+        },
+        {
+            "type": "tfc:and",
+            "children": [
+                {
+                    "tag": "tfc:foods/sweeteners"
+                },
+                {
+                    "type": "tfc:not_rotten"
+                }
+            ]
+        }
+    ],
+    "recipe_book_tab": "misc",
+    "result": {
+        "id": "rusticdelight:syrup"
+    }
+}

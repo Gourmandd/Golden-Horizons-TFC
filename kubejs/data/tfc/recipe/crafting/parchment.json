@@ -5,10 +5,15 @@
             "item": "tfc:treated_hide"
         },
         {
-            "type": "tfc:not_rotten",
-            "ingredient": {
-                "tag": "tfc:foods/flour"
-            }
+            "type": "tfc:and",
+            "children": [
+                {
+                    "tag": "tfc:foods/flour"
+                },
+                {
+                    "type": "tfc:not_rotten"
+                }
+            ]
         },
         {
             "item": "tfc:powder/lime"

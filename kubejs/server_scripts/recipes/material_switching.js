@@ -44,17 +44,17 @@ replace_materials("minecraft:iron_bars", "tfc:metal/bars/wrought_iron")
 replace_materials("createaddition:diamond_grit", "tfc:powder/diamond")
 replace_materials("corn_delight:corn", "tfc:food/maize")
 //replace_materials("minecraft:feather", "artisanal:quill")
-replace_materials("minecraft:sweet_berries", "#c:foods/berries")
-replace_materials("#minecraft:fox_food", "#c:foods/berries")
+replace_materials("minecraft:sweet_berries", "#c:foods/fruit/berries")
+replace_materials("#minecraft:fox_food", "#c:foods/fruit/berries")
 replace_materials("minecraft:dirt", "#minecraft:dirt")
 //replace_materials("farmersdelight:cooked_bacon", "firmalife:food/cooked_bacon")
 
 //replace_materials("minecraft:apple", "tfc:foods/apples")
 
-events.replaceInput({input: "minecraft:sand",not:{output: /.*sandstone.*/} }, "minecraft:sand", "#forge:sand")
+events.replaceInput({input: "minecraft:sand",not:{output: /.*sandstone.*/} }, "minecraft:sand", "#c:sands")
 
-events.replaceInput({input: "minecraft:string", not:{type: "tfc:loom"}}, "minecraft:string", "#forge:string")
-events.replaceOutput({output: "minecraft:string"}, "minecraft:string", "#forge:string")
+events.replaceInput({input: "minecraft:string", not:{type: "tfc:loom"}}, "minecraft:string", "#c:strings")
+events.replaceOutput({output: "minecraft:string"}, "minecraft:string", "#c:strings")
 
 events.replaceInput(
     [

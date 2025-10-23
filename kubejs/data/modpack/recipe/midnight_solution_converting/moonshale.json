@@ -1,7 +1,7 @@
 {
     "type": "pastel:midnight_solution_converting",
     "ingredient": {
-        "tag": "tfc:rock/hardened"
+        "tag": "c:stones/hardened"
     },
     "result": {
         "id": "architects_palette:moonshale",

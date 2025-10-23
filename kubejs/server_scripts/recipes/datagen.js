@@ -642,7 +642,18 @@ function Datagen(event){
             this.experience = 1.0
             this.recipe_book_tab = "misc"
             this.location = null
+            this.container = "minecraft:bowl"
+            this.cooking_time
 
+            this.setCookingTime = function(amount){
+                this.cooking_time = amount
+                return this
+            }
+
+            this.setContainer = function(container){
+                this.container = container
+                return this
+            }
 
             this.setExperience = function(amount){
                 this.experience = amount
@@ -666,6 +677,8 @@ function Datagen(event){
             this.getAsMap = function(){
                 return {
                     type: "farmersdelight:cooking",
+                    container: {"id": this.container},
+                    cookingtime: this.cooking_time,
                     experience: this.experience,
                     ingredients: getIOArray(input),
                     recipe_book_tab: this.recipe_book_tab,

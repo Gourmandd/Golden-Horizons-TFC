@@ -1,0 +1,17 @@
+{
+    "ingredient": [
+        {
+            "item": "rusticdelight:roasted_bell_pepper_slice_yellow"
+        },
+        {
+            "item": "rusticdelight:roasted_bell_pepper_slice_red"
+        },
+        {
+            "item": "rusticdelight:roasted_bell_pepper_slice_green"
+        }
+    ],
+    "hunger": 2,
+    "saturation": 0.3,
+    "decay_modifier": 3,
+    "vegetables": 1
+}
