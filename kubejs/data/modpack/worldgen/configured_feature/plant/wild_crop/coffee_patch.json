@@ -1,0 +1,15 @@
+{
+  "neoforge:conditions": [
+      {
+          "type": "neoforge:item_exists",
+          "item": "kubejs:plant/wild_coffee"
+      }
+  ],
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 6,
+    "xz_spread": 5,
+    "y_spread": 1,
+    "feature": "modpack:plant/wild_crop/coffee"
+  }
+}

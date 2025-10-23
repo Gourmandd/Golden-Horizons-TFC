@@ -2,6 +2,6 @@
     "replace": false,
     "values": [
         "#tfc:feature/soil_discs",
-        "modpack:yixing_patch"
+        "modpack:earthenware_patch"
     ]
 }
