@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "tfc:food/rice_grain",
+        "tfc:food/cooked_rice",
+        "tfc:food/rice_flour"
+    ]
+}

@@ -2,17 +2,23 @@
     "type": "tfc:pot",
     "ingredients": [
         {
-            "item": "tfc:powder/salt"
+            "item": "minecraft:bone"
+        },
+        {
+            "item": "minecraft:bone"
+        },
+        {
+            "item": "minecraft:bone"
         }
     ],
     "fluid_ingredient": {
-        "tag": "tfc:milks",
+        "fluid": "minecraft:water",
         "amount": 1000
     },
     "duration": 1000,
     "temperature": 300,
     "fluid_output": {
-        "id": "caupona:scalded_milk",
+        "id": "caupona:bone_gelatin",
         "amount": 1000
     }
 }

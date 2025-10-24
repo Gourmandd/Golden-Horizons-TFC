@@ -3,6 +3,7 @@
 global.Tag = {}
 
 // vegetables
+global.Tag.ROOT_VEGETABLES = "c:foods/root_vegetables",
 global.Tag.VEGETABLES = "c:foods/full_vegetables",
 global.Tag.LEAFY_GREEN = "c:foods/leafy_green",
 global.Tag.CABBAGE = "c:foods/vegetable/cabbage",
@@ -24,10 +25,10 @@ global.Tag.BREAD = "c:foods/bread",
 global.Tag.GRAIN = "c:foods/grain",
 global.Tag.BUSHELS = "c:foods/bushels",
 global.Tag.MAIZE  = "c:foods/maize",
-global.Tag.RICE  = "c:foods/grain/rice",
+global.Tag.RICE  = "c:foods/rice",
 
 // meat
-global.Tag.RAD_MEAT = "c:foods/red_meat",
+global.Tag.RED_MEAT = "c:foods/red_meat",
 global.Tag.FOWL = "c:foods/fowl",
 global.Tag.FISH = "c:foods/fish",
 global.Tag.BEEF = "c:foods/beef",
@@ -41,7 +42,8 @@ global.Tag.CHERRY  = "c:foods/fruit/cherry",
 global.Tag.APPLE  = "c:foods/fruit/apple",
 
 // misc
-global.Tag.COFFEE  = "rusticdelight:coffee_food_ingredients",
+global.Tag.SPICES =  "c:spices"
+global.Tag.COFFEE = "rusticdelight:coffee_food_ingredients",
 global.Tag.EDIBLE_MUSHROOMS  = "c:foods/edible_mushrooms",
 global.Tag.SWEETENERS  = "tfc:foods/sweeteners",
 global.Tag.EGG  = "c:foods/egg",
