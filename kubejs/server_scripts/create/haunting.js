@@ -2,9 +2,7 @@ ServerEvents.recipes(event => {
 
     let datagen = Datagen(event).recipe()
     const ITEM = IO_TYPE.ITEM
-    const FLUID = IO_TYPE.FLUID
     const TAG = IO_TYPE.ITEM_TAG
-    const FLUID_TAG = IO_TYPE.FLUID_TAG
     const NAMESPACE = "modpack"
 
     let recipes = [
