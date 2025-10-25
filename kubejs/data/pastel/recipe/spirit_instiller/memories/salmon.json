@@ -7,7 +7,7 @@
         "item": "pastel:salmon_head"
     },
     "ingredient2": {
-        "item": "minecraft:water_bucket"
+        "item": "caupona:water"
     },
     "center_ingredient": {
         "tag": "pastel:memory_bonding_agents",

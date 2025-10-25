@@ -59,7 +59,7 @@
     }
   ],
   "ingredient": {
-    "item": "tfc:ore/diamond"
+    "item": "tfc:gem/diamond"
   },
   "ink_color": "pastel:cyan",
   "ink_cost_tier": 3,

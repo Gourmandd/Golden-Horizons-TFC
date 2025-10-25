@@ -1,10 +1,4 @@
 {
-    "neoforge:conditions": [
-        {
-            "type": "neoforge:item_exists",
-            "item": "kubejs:metal/bucket/wrought_iron"
-        }
-    ],
     "type": "pastel:spirit_instiller",
     "group": "memories",
     "time": 800,
@@ -13,7 +7,7 @@
         "item": "pastel:pufferfish_head"
     },
     "ingredient2": {
-        "item": "kubejs:metal/bucket/wrought_iron"
+        "item": "caupona:water"
     },
     "center_ingredient": {
         "tag": "pastel:memory_bonding_agents",

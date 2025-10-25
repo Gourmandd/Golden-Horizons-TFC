@@ -10,7 +10,7 @@
             "item": "tfc:metal/ingot/gold"
         },
         "S": {
-            "tag": "forge:stone_bricks"
+            "tag": "minecraft:stone_bricks"
         }
     },
     "result": {

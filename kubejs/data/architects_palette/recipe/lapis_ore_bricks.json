@@ -10,7 +10,7 @@
             "item": "tfc:gem/lapis_lazuli"
         },
         "S": {
-            "tag": "forge:stone_bricks"
+            "tag": "minecraft:stone_bricks"
         }
     },
     "result": {

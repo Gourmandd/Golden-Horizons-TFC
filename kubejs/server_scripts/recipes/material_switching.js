@@ -17,6 +17,7 @@ events.replaceOutput({output: material}, material, new_material)
 //events.remove({input: "minecraft:barrel", mod: "createdeco"})
 
 replace_materials("minecraft:gold_ingot", "tfc:metal/ingot/gold")
+replace_materials("minecraft:coal", "tfc:ore/bituminous_coal")
 replace_materials("minecraft:iron_ingot", "tfc:metal/ingot/wrought_iron")
 replace_materials("minecraft:copper_ingot", "tfc:metal/ingot/copper")
 replace_materials("create:zinc_ingot", "tfc:metal/ingot/zinc")

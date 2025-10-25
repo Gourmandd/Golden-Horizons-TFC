@@ -3,7 +3,7 @@
 // outside of this most recipes are removed by overriding them with a false load condition
 ServerEvents.recipes(event => {
 
-    // all of these are stonecutting
+    // all of these are stonecutting, these are replaced by crafting recipes.
     let recipes_to_remove = [
         "minecraft:stone_brick_stairs_from_stone_stonecutting",
         "minecraft:stone_brick_slab_from_stone_stonecutting",
