@@ -25,6 +25,7 @@ replace_materials("create:brass_ingot", "tfc:metal/ingot/brass")
 replace_materials("minecraft:diamond", "tfc:gem/diamond")
 replace_materials("minecraft:emerald", "tfc:gem/emerald")
 replace_materials("minecraft:lapis_lazuli", "tfc:gem/lapis_lazuli")
+replace_materials("minecraft:tuff", "tfc:rock/raw/tuff")
 
 replace_materials("#createbigcannons:ingot_steel", "tfc:metal/ingot/steel")
 replace_materials("magistuarmory:woolen_fabric", "#modpack:cloth")
