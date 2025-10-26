@@ -7,7 +7,7 @@ console.info("Random Recipes loaded")
 
 ServerEvents.recipes(event =>{
 
-    //event.remove({ type: "spectrum:anvil_crushing" })
+    event.remove({ type: "create_mechanical_extruder:extruding" , mod: "create_mechanical_extruder"})
     event.remove({type: "minecraft:crafting_shaped", mod: "caupona"})
     event.remove({type: "architects_palette:warping" })
     //event.remove({type: "vintageimprovements:coiling" })

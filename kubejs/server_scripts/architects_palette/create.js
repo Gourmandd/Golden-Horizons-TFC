@@ -9,7 +9,7 @@ ServerEvents.recipes(event =>{
         "minecraft:mossy_stone_bricks": "architects_palette:heavy_mossy_stone_bricks",
         "minecraft:end_stone": "architects_palette:heavy_end_stone_bricks",
         "minecraft:calcite": "architects_palette:heavy_calcite_bricks",
-        "minecraft:tuff": "architects_palette:heavy_tuff_bricks",
+        "tfc:rock/raw/tuff": "architects_palette:heavy_tuff_bricks",
         "minecraft:dripstone_block": "architects_palette:heavy_dripstone_bricks"
     }
 

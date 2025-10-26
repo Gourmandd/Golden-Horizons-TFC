@@ -3,7 +3,7 @@
 // ---------------------------------------------------------------------------------- //
 
 
-/*
+
 ServerEvents.recipes(event =>{
 
     // modified from https://discord.com/channels/303440391124942858/1060221802380546109
@@ -35,4 +35,4 @@ ServerEvents.tags("item", event =>{
     EXTRA_STAIRS.forEach(item =>{ 
       event.add("minecraft:stairs", item)
     })
-})*/
+})

@@ -1,0 +1,31 @@
+{
+    "type": "pastel:pedestal",
+    "time": 240,
+    "tier": "simple",
+    "colors": {
+        "pastel:cyan": 0,
+        "pastel:magenta": 0,
+        "pastel:yellow": 8,
+        "pastel:white": 0,
+        "pastel:black": 0
+    },
+    "experience": 2.0,
+    "pattern": [
+        "GGG",
+        "GAG",
+        "GGG"
+    ],
+    "key": {
+        "G": {
+            "item": "tfc:metal/ingot/gold"
+        },
+        "A": {
+            "tag": "c:foods/fruit/apple"
+        }
+    },
+    "result": {
+        "id": "minecraft:golden_apple",
+        "count": 1
+    },
+    "required_advancement": "pastel:build_basic_pedestal_structure"
+}

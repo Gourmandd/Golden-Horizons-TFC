@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": [
+        {
+            "item": "tfc:rock/smooth/andesite"
+        }
+    ],
+    "result": {
+        "id": "architects_palette:andesite_nub",
+        "count": 2
+    },
+}
