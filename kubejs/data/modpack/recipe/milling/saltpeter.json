@@ -5,6 +5,11 @@
             "item": "tfc:ore/saltpeter"
         }
     ],
-    "results": [],
+    "results": [
+        {
+            "id": "tfc:powder/saltpeter",
+            "count": 4
+        }
+    ],
     "processingTime": 50
 }

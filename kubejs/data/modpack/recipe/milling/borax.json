@@ -5,6 +5,11 @@
             "item": "tfc:ore/borax"
         }
     ],
-    "results": [],
+    "results": [
+        {
+            "id": "tfc:powder/flux",
+            "count": 6
+        }
+    ],
     "processingTime": 50
 }

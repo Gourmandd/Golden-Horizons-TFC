@@ -7,10 +7,10 @@
     ],
     "key": {
         "M": {
-            "tag": "forge:smooth_stone_slab"
+            "tag": "c:stones/smooth_slabs"
         },
         "S": {
-            "tag": "forge:stone_bricks"
+            "tag": "minecraft:stone_bricks"
         }
     },
     "result": {

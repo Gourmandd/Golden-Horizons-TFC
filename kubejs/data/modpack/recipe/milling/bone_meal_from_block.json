@@ -5,6 +5,11 @@
             "item": "minecraft:bone_block"
         }
     ],
-    "results": [],
+    "results": [
+        {
+            "id": "minecraft:bone_meal",
+            "count": 9
+        }
+    ],
     "processingTime": 50
 }

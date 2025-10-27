@@ -5,6 +5,11 @@
             "item": "architects_palette:withered_bone"
         }
     ],
-    "results": [],
+    "results": [
+        {
+            "id": "minecraft:bone_meal",
+            "count": 3
+        }
+    ],
     "processingTime": 50
 }

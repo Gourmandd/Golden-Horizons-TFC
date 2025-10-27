@@ -13,7 +13,7 @@
             "item": "tfc:glue"
         },
         "C": {
-            "tag": "forge:chests/wooden"
+            "tag": "c:chests/wooden"
         }
     },
     "result": {

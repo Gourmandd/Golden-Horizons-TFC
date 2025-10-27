@@ -13,7 +13,7 @@
             "item": "farmersdelight:milk_bottle"
         },
         "E": {
-            "tag": "forge:eggs"
+            "tag": "c:eggs"
         },
         "D": {
             "tag": "firmalife:foods/extra_dough"

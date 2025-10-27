@@ -9,7 +9,7 @@
             "item": "tfc:mortar"
         },
         "S": {
-            "tag": "forge:cobblestone"
+            "tag": "c:cobblestones"
         }
     },
     "result": {

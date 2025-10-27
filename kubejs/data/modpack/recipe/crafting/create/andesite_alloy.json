@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "tag": "forge:cobblestone"
+            "tag": "c:cobblestones"
         },
         {
             "item": "tfc:mortar"
@@ -11,7 +11,7 @@
             "item": "tfc:mortar"
         },
         {
-            "tag": "forge:clay_balls"
+            "tag": "c:clay_balls"
         }
     ],
     "result": {

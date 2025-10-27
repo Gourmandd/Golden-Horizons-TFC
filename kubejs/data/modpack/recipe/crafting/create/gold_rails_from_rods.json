@@ -10,7 +10,7 @@
             "item": "tfc:metal/rod/gold"
         },
         "S": {
-            "tag": "forge:rods/wooden"
+            "tag": "c:rods/wooden"
         },
         "E": {
             "item": "create:electron_tube"

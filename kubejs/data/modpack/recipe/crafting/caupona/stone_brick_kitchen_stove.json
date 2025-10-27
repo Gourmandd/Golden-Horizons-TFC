@@ -10,10 +10,10 @@
             "item": "tfc:mortar"
         },
         "C": {
-            "item": "minecraft:clay"
+            "tag": "c:clay_balls"
         },
         "S": {
-            "tag": "mineacraft:stone_bricks"
+            "tag": "minecraft:stone_bricks"
         }
     },
     "result": {

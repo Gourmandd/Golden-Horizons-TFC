@@ -5,6 +5,11 @@
             "item": "tfc:ore/graphite"
         }
     ],
-    "results": [],
+    "results": [
+        {
+            "id": "tfc:powder/graphite",
+            "count": 4
+        }
+    ],
     "processingTime": 50
 }

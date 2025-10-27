@@ -5,6 +5,11 @@
             "tag": "tfc:fluxstone"
         }
     ],
-    "results": [],
+    "results": [
+        {
+            "id": "tfc:powder/flux",
+            "count": 2
+        }
+    ],
     "processingTime": 50
 }

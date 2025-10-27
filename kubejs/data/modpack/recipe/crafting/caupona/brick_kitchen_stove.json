@@ -10,7 +10,7 @@
             "item": "caupona:lateres"
         },
         "C": {
-            "item": "minecraft:clay"
+            "tag": "c:clay_balls"
         },
         "S": {
             "item": "minecraft:bricks"

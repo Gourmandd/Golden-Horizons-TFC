@@ -5,6 +5,11 @@
             "item": "pastel:amaranth_grains"
         }
     ],
-    "results": [],
+    "results": [
+        {
+            "id": "kubejs:food/amaranth_flour",
+            "count": 1
+        }
+    ],
     "processingTime": 50
 }

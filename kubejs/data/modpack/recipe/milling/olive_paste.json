@@ -5,6 +5,11 @@
             "item": "tfc:food/olive"
         }
     ],
-    "results": [],
+    "results": [
+        {
+            "id": "tfc:olive_paste",
+            "count": 2
+        }
+    ],
     "processingTime": 50
 }

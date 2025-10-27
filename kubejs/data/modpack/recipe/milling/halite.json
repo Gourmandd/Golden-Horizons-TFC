@@ -5,6 +5,11 @@
             "item": "tfc:ore/halite"
         }
     ],
-    "results": [],
+    "results": [
+        {
+            "id": "tfc:powder/salt",
+            "count": 4
+        }
+    ],
     "processingTime": 50
 }

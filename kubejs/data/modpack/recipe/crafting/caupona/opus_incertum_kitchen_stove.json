@@ -10,7 +10,7 @@
             "item": "caupona:opus_incertum"
         },
         "C": {
-            "item": "minecraft:clay"
+            "tag": "c:clay_balls"
         },
         "B": {
             "item": "caupona:opus_incertum_slab"

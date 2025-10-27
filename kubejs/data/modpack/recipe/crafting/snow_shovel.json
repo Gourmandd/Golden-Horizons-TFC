@@ -15,7 +15,7 @@
             "item": "kubejs:tool/snow_shovel_head"
         },
         "Y": {
-            "tag": "forge:rods/wooden"
+            "tag": "c:rods/wooden"
         }
     },
     "result": {

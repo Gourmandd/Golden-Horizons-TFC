@@ -7,13 +7,13 @@
     ],
     "key": {
         "M": {
-            "tag": "forge:smooth_stone_slab"
+            "tag": "c:stones/smooth_slabs"
         },
         "C": {
             "item": "tfc:metal/ingot/copper"
         },
         "S": {
-            "tag": "forge:stone_bricks"
+            "tag": "minecraft:stone_bricks"
         }
     },
     "result": {

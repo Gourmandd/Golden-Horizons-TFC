@@ -16,7 +16,7 @@
             "item": "caupona:stew_pot"
         },
         "C": {
-            "tag": "forge:cobblestone"
+            "tag": "c:cobblestones"
         }
     },
     "result": {

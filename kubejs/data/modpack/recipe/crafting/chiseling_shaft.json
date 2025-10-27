@@ -1,17 +1,24 @@
 {
-    "type": "tfc:damage_inputs_shapeless_crafting",
-    "recipe": {
-        "type": "minecraft:crafting_shapeless",
-        "ingredients": [
-            {
-                "item": "kubejs:fired_shaft"
-            },
-            {
-                "tag": "tfc:chisels"
-            }
-        ],
-        "result": {
-            "id": "create:shaft"
-        }
+  "type": "tfc:advanced_shapeless_crafting",
+  "ingredients": [
+    {
+        "item": "kubejs:fired_shaft"
+    },
+    {
+      "tag": "c:tools/chisel"
     }
+  ],
+  "primary_ingredient": {
+    "tag": "c:tools/chisel"
+  },
+  "remainder": {
+    "modifiers": [
+      {
+        "type": "tfc:damage_crafting_remainder"
+      }
+    ]
+  },
+  "result": {
+    "id": "create:shaft"
+  }
 }

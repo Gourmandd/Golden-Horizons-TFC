@@ -2,13 +2,13 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "tag": "tfc:rock/gravel"
+            "tag": "c:gravels"
         },
         {
-            "tag": "tfc:rock/gravel"
+            "tag": "c:gravels"
         },
         {
-            "tag": "tfc:rock/gravel"
+            "tag": "c:gravels"
         },
         {
             "item": "minecraft:clay"

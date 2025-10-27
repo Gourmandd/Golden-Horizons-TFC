@@ -16,7 +16,7 @@
             "tag": "minecraft:terracotta"
         },
         "S": {
-            "tag": "forge:stone_bricks"
+            "tag": "minecraft:stone_bricks"
         }
     },
     "result": {

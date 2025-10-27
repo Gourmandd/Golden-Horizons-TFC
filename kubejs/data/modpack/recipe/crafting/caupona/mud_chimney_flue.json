@@ -10,7 +10,7 @@
             "tag": "tfc:mud"
         },
         "C": {
-            "tag": "forge:cobblestone"
+            "tag": "c:cobblestones"
         }
     },
     "result": {

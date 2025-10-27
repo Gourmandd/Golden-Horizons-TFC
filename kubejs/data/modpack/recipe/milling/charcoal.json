@@ -5,6 +5,11 @@
             "item": "minecraft:charcoal"
         }
     ],
-    "results": [],
+    "results": [
+        {
+            "id": "tfc:powder/charcoal",
+            "count": 4
+        }
+    ],
     "processingTime": 50
 }

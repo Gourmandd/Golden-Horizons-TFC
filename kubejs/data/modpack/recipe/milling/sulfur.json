@@ -5,6 +5,11 @@
             "item": "tfc:ore/sulfur"
         }
     ],
-    "results": [],
+    "results": [
+        {
+            "id": "tfc:powder/sulfur",
+            "count": 4
+        }
+    ],
     "processingTime": 50
 }
