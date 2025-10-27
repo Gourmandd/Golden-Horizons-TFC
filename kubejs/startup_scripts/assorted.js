@@ -10,6 +10,8 @@ StartupEvents.registry("item", event =>{
     event.create("oscillating_mechanism").displayName("Oscillating Mechanism")
     event.create("torque_mechanism").displayName("Torque Mechanism")
 
+    event.create("olive_pomace").displayName("Olive Pomace")
+    event.create("dry_olive_pomace").displayName("Dry Olive Pomace")
     event.create("soft_bark").displayName("Soft Bark")
     
     global.DYE_COLOURS.forEach(colour => {event.create(`terracotta/shard_${colour}`).displayName(`${nameProcessing(colour)} Terracotta Shard`)})

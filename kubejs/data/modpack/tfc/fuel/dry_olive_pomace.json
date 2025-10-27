@@ -1,0 +1,10 @@
+{
+    "ingredient": [
+        {
+            "item": "kubejs:dry_olive_pomace"
+        }
+    ],
+    "duration": 800,
+    "temperature": 1199,
+    "purity": 0.5
+}
