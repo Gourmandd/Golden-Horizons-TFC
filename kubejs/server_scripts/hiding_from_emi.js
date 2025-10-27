@@ -21,7 +21,8 @@ ServerEvents.tags("item", event => {
         "farmersdelight:beetroot_crate",
         "farmersdelight:cabbage_crate",
         "farmersdelight:tomato_crate",
-        "farmersdelight:onion_crate"
+        "farmersdelight:onion_crate",
+        "#farmersdelight:wild_crops"
     ]
 
     const VANILLA_WOOD_TYPES = [
@@ -231,4 +232,6 @@ ServerEvents.tags("item", event => {
     })
 
     event.add("c:hidden_from_recipe_viewers", new_entries)
+    event.add("c:hidden_from_recipe_viewers", Ingredient.of(/spawn_egg.*/).itemIds)
+    event.add("c:hidden_from_recipe_viewers", Ingredient.of(/caupona:.*loaf.*/).itemIds)
 })
