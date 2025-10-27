@@ -1,6 +1,7 @@
 {
     "replace": true,
     "values": [
+        "tfc:rock/raw/diorite",
         "create:cut_diorite",
         "create:cut_diorite_stairs",
         "create:cut_diorite_wall",

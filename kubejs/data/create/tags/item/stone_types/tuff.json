@@ -1,6 +1,7 @@
 {
     "replace": true,
     "values": [
+        "tfc:rock/raw/tuff",
         "create:cut_tuff",
         "create:cut_tuff_stairs",
         "create:cut_tuff_wall",

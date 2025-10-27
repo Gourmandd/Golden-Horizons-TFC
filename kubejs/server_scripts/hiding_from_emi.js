@@ -12,7 +12,16 @@ ServerEvents.tags("item", event => {
         "#c:shulker_boxes", //this should be revealed when you get shulker memory (custom advancement)
         "minecraft:enchanted_book", //this should be revealed when you get enchanter instead
         "#minecraft:candles",
-        "pastel:infested_blackslag"
+        "pastel:infested_blackslag",
+        "minecraft:carrot",
+        "minecraft:potato",
+        "minecraft:baked_potato",
+        "farmersdelight:carrot_crate",
+        "farmersdelight:potato_crate",
+        "farmersdelight:beetroot_crate",
+        "farmersdelight:cabbage_crate",
+        "farmersdelight:tomato_crate",
+        "farmersdelight:onion_crate"
     ]
 
     const VANILLA_WOOD_TYPES = [

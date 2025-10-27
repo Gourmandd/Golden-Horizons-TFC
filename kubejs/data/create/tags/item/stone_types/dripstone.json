@@ -1,6 +1,7 @@
 {
     "replace": true,
     "values": [
+        "minecraft:dripstone_block",
         "create:cut_dripstone",
         "create:cut_dripstone_stairs",
         "create:cut_dripstone_wall",

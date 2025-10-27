@@ -7,7 +7,7 @@
         "item": "pastel:fox_arctic_head"
     },
     "ingredient2": {
-        "tag": "minecraft:fox_food"
+        "tag": "c:foods/fruit/berries"
     },
     "center_ingredient": {
         "tag": "pastel:memory_bonding_agents",
