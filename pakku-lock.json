@@ -5689,6 +5689,74 @@
             ]
         },
         {
+            "pakku_id": "WN3kKrDDt0CTP6yy",
+            "pakku_links": [
+                "B9rCrTdjB1Frl92q"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "tfc-vessel-tooltip",
+                "modrinth": "tfc-vessel-tooltip"
+            },
+            "name": {
+                "curseforge": "TFC Vessel Tooltip",
+                "modrinth": "TFC Vessel Tooltip"
+            },
+            "id": {
+                "curseforge": "952386",
+                "modrinth": "Xve2AFV9"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "TFCVesselTooltip-NeoForge-1.21.1-2.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7041/417/TFCVesselTooltip-NeoForge-1.21.1-2.0.jar",
+                    "id": "7041417",
+                    "parent_id": "952386",
+                    "hashes": {
+                        "sha1": "07acdddabf558c693f2bee2073676cf8575ab9f0",
+                        "md5": "3eb4c845ab5ae4108657b0c8ce252821"
+                    },
+                    "required_dependencies": [
+                        "302973"
+                    ],
+                    "size": 5983,
+                    "date_published": "2025-09-28T07:36:10.680Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "TFCVesselTooltip-NeoForge-1.21.1-2.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/Xve2AFV9/versions/O3aknHl9/TFCVesselTooltip-NeoForge-1.21.1-2.0.jar",
+                    "id": "O3aknHl9",
+                    "parent_id": "Xve2AFV9",
+                    "hashes": {
+                        "sha512": "51622133939895584c7b03ed94c612e2603905d1c7b673f75af67e4ba2f0974d72d18d0ea0fdbd51ed08bdd1eeec67b3915571be2546cbc03812c36148c151cc",
+                        "sha1": "07acdddabf558c693f2bee2073676cf8575ab9f0"
+                    },
+                    "required_dependencies": [
+                        "JaCEZUhg"
+                    ],
+                    "size": 5983,
+                    "date_published": "2025-09-28T07:38:41.555858Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "B9rCrTdjB1Frl92q",
             "pakku_links": [
                 "ZdTOFYMAfu1GNqaF"
