@@ -1,0 +1,31 @@
+{
+  "type": "pastel:pedestal",
+  "group": "shimmerstone_lights",
+  "time": 80,
+  "tier": "basic",
+  "colors": {
+    "pastel:cyan": 0,
+    "pastel:magenta": 0,
+    "pastel:yellow": 8,
+    "pastel:white": 0,
+    "pastel:black": 0
+  },
+  "experience": 0.5,
+  "pattern": [
+    "GRG",
+    "RBR",
+    "GRG"
+  ],
+  "key": {
+    "R": "minecraft:redstone",
+    "B": "pastel:shimmerstone_block",
+    "G": {
+      "tag": "c:glass_panes/cheap"
+    }
+  },
+  "result": {
+    "id": "minecraft:redstone_lamp",
+    "count": 2
+  },
+  "required_advancement": "pastel:unlocks/blocks/shimmerstone_lights"
+}

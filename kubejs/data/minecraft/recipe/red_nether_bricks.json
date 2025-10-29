@@ -1,20 +1,28 @@
 {
-    "type": "tfc:damage_inputs_shapeless_crafting",
-    "recipe": {
-        "type": "minecraft:crafting_shapeless",
-        "ingredients": [
-            {
-                "item": "minecraft:nether_bricks"
-            },
-            {
-                "item": "minecraft:red_dye"
-            },
-            {
-                "tag": "tfc:chisels"
-            }
-        ],
-        "result": {
-            "id": "minecraft:red_nether_bricks"
-        }
+  "type": "tfc:advanced_shapeless_crafting",
+  "ingredients": [
+    {
+        "item": "minecraft:nether_bricks"
+    },
+    {
+        "item": "minecraft:red_dye"
+    },
+    {
+      "tag": "c:tools/chisel"
     }
+  ],
+  "primary_ingredient": {
+    "tag": "c:tools/chisel"
+  },
+  "remainder": {
+    "modifiers": [
+      {
+        "type": "tfc:damage_crafting_remainder"
+      }
+    ]
+  },
+  "result": {
+    "id": "minecraft:red_nether_bricks"
+  }
 }
+
