@@ -1,5 +1,5 @@
 {
-    "type": "spectrum:pedestal",
+    "type": "pastel:pedestal",
     "time": 1200,
     "tier": "advanced",
     "colors": {
@@ -18,21 +18,21 @@
     ],
     "key": {
         "A": {
-            "item": "spectrum:raw_azurite"
+            "item": "pastel:raw_azurite"
         },
         "F": {
             "item": "tfc:rotten_compost"
         },
         "M": {
-            "item": "spectrum:midnight_chip"
+            "item": "pastel:midnight_chip"
         },
         "B": {
             "item": "minecraft:experience_bottle"
         }
     },
     "result": {
-        "id": "spectrum:bottle_of_ruin",
+        "id": "pastel:bottle_of_ruin",
         "count": 1
     },
-    "required_advancement": "spectrum:unlocks/items/bottle_of_ruin"
+    "required_advancement": "pastel:unlocks/items/bottle_of_ruin"
 }

@@ -1,5 +1,5 @@
 {
-    "type": "spectrum:pedestal",
+    "type": "pastel:pedestal",
     "time": 400,
     "tier": "advanced",
     "colors": {
@@ -17,7 +17,7 @@
     ],
     "key": {
         "O": {
-            "item": "spectrum:onyx_shard"
+            "item": "pastel:onyx_shard"
         },
         "C": {
             "item": "tfc:metal/ingot/copper"
@@ -27,8 +27,8 @@
         }
     },
     "result": {
-        "id": "spectrum:crescent_clock",
+        "id": "pastel:crescent_clock",
         "count": 1
     },
-    "required_advancement": "spectrum:unlocks/items/crescent_clock"
+    "required_advancement": "pastel:unlocks/items/crescent_clock"
 }

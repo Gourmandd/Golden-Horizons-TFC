@@ -1,5 +1,5 @@
 {
-    "type": "spectrum:pedestal",
+    "type": "pastel:pedestal",
     "time": 3600,
     "tier": "advanced",
     "colors": {
@@ -17,10 +17,10 @@
     ],
     "key": {
         "M": {
-            "item": "spectrum:refined_malachite"
+            "item": "pastel:refined_malachite"
         },
         "C": {
-            "item": "spectrum:moonstone_core"
+            "item": "pastel:moonstone_core"
         },
         "T": {
             "item": "minecraft:tripwire_hook"
@@ -29,12 +29,12 @@
             "tag": "c:string"
         },
         "G": {
-            "item": "spectrum:pure_gold"
+            "item": "pastel:pure_gold"
         }
     },
     "result": {
-        "id": "spectrum:omni_accelerator",
+        "id": "pastel:omni_accelerator",
         "count": 1
     },
-    "required_advancement": "spectrum:unlocks/equipment/omni_accelerator"
+    "required_advancement": "pastel:unlocks/equipment/omni_accelerator"
 }

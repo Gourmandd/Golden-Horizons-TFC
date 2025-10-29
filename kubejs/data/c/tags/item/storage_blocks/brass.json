@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [],
+    "remove": [
+        "create:brass_block"
+    ]
+}

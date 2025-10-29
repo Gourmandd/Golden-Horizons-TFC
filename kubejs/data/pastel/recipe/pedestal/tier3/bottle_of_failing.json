@@ -1,5 +1,5 @@
 {
-    "type": "spectrum:pedestal",
+    "type": "pastel:pedestal",
     "time": 800,
     "tier": "advanced",
     "colors": {
@@ -17,7 +17,7 @@
     ],
     "key": {
         "S": {
-            "item": "spectrum:stratine_fragments"
+            "item": "pastel:stratine_fragments"
         },
         "F": {
             "item": "tfc:rotten_compost"
@@ -26,12 +26,12 @@
             "item": "minecraft:quartz"
         },
         "B": {
-            "item": "quark:bottled_cloud"
+            "item": "minecraft:honey_bottle"
         }
     },
     "result": {
-        "id": "spectrum:bottle_of_failing",
+        "id": "pastel:bottle_of_failing",
         "count": 1
     },
-    "required_advancement": "spectrum:unlocks/items/bottle_of_failing"
+    "required_advancement": "pastel:unlocks/items/bottle_of_failing"
 }

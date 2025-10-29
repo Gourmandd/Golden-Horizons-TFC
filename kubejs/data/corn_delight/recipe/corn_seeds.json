@@ -1,18 +1,29 @@
 {
-    "type": "tfc:damage_inputs_shapeless_crafting",
-    "recipe": {
-        "type": "minecraft:crafting_shapeless",
-        "ingredients": [
-            {
-                "item": "corn_delight:grilled_corn"
-            },
-            {
-                "tag": "tfc:knives"
-            }
-        ],
-        "result": {
-            "count": 4,
-            "id": "corn_delight:popcorn"
-        }
+  "type": "tfc:advanced_shapeless_crafting",
+  "ingredients": [
+    {
+        "item": "corn_delight:grilled_corn"
+    },
+    {
+      "tag": "c:tools/knife"
     }
+  ],
+  "primary_ingredient": {
+    "tag": "c:tools/knife"
+  },
+  "remainder": {
+    "modifiers": [
+      {
+        "type": "tfc:damage_crafting_remainder"
+      },
+      {
+        "type": "tfc:copy_food"
+      }
+    ]
+  },
+  "result": {
+    "count": 4,
+    "id": "corn_delight:popcorn"
+  }
 }
+

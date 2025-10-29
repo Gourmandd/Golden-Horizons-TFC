@@ -1,5 +1,5 @@
 {
-    "type": "spectrum:pedestal",
+    "type": "pastel:pedestal",
     "time": 240,
     "tier": "advanced",
     "colors": {
@@ -17,25 +17,25 @@
     ],
     "key": {
         "P": {
-            "item": "spectrum:pink_pigment"
+            "item": "pastel:pink_pigment"
         },
         "Y": {
-            "item": "spectrum:yellow_pigment"
+            "item": "pastel:yellow_pigment"
         },
         "B": {
             "item": "kubejs:deco_bucket/wrought_iron"
         },
         "S": {
-            "item": "spectrum:shimmerstone_gem"
+            "item": "pastel:shimmerstone_gem"
         },
         "M": {
-            "item": "spectrum:mermaids_gem"
+            "item": "pastel:mermaids_gem"
         }
     },
     "result": {
         "id": "kubejs:metal/bucket/wrought_iron",
-        "nbt": "{\"fluid\": {\"Amount\": 1000, \"FluidName\": \"spectrum:liquid_crystal\"} }",
+        "nbt": "{\"fluid\": {\"Amount\": 1000, \"FluidName\": \"pastel:liquid_crystal\"} }",
         "count": 1
     },
-    "required_advancement": "spectrum:unlocks/blocks/liquid_crystal"
+    "required_advancement": "pastel:unlocks/blocks/liquid_crystal"
 }

@@ -1,5 +1,5 @@
 {
-    "type": "spectrum:pedestal",
+    "type": "pastel:pedestal",
     "time": 160,
     "tier": "advanced",
     "colors": {
@@ -20,15 +20,15 @@
             "item": "tfc:gem/emerald"
         },
         "P": {
-            "item": "spectrum:purple_pigment"
+            "item": "pastel:purple_pigment"
         },
         "G": {
-            "item": "spectrum:green_pigment"
+            "item": "pastel:green_pigment"
         }
     },
     "result": {
-        "id": "spectrum:knowledge_gem",
+        "id": "pastel:knowledge_gem",
         "count": 1
     },
-    "required_advancement": "spectrum:unlocks/items/knowledge_gem"
+    "required_advancement": "pastel:unlocks/items/knowledge_gem"
 }

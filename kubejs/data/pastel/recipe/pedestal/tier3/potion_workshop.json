@@ -1,5 +1,5 @@
 {
-    "type": "spectrum:pedestal",
+    "type": "pastel:pedestal",
     "time": 1200,
     "tier": "advanced",
     "colors": {
@@ -17,24 +17,24 @@
     ],
     "key": {
         "B": {
-            "item": "spectrum:polished_basalt"
+            "item": "pastel:polished_basalt"
         },
         "P": {
-            "item": "spectrum:polished_calcite"
+            "item": "pastel:polished_calcite"
         },
         "C": {
             "item": "tfc:metal/ingot/copper"
         },
         "G": {
-            "item": "spectrum:stratine_fragments"
+            "item": "pastel:stratine_fragments"
         },
         "Q": {
-            "item": "spectrum:quitoxic_powder"
+            "item": "pastel:quitoxic_powder"
         }
     },
     "result": {
-        "id": "spectrum:potion_workshop",
+        "id": "pastel:potion_workshop",
         "count": 1
     },
-    "required_advancement": "spectrum:unlocks/blocks/potion_workshop"
+    "required_advancement": "pastel:unlocks/blocks/potion_workshop"
 }

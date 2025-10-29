@@ -1,20 +1,28 @@
 {
-    "type": "tfc:damage_inputs_shapeless_crafting",
-    "recipe": {
-        "type": "minecraft:crafting_shapeless",
-        "ingredients": [
-            {
-                "item": "minecraft:blackstone"
-            },
-            {
-                "item": "minecraft:blue_dye"
-            },
-            {
-                "tag": "tfc:chisels"
-            }
-        ],
-        "result": {
-            "id": "architects_palette:twisting_blackstone"
-        }
+  "type": "tfc:advanced_shapeless_crafting",
+  "ingredients": [
+    {
+        "item": "minecraft:blackstone"
+    },
+    {
+        "item": "minecraft:blue_dye"
+    },
+    {
+      "tag": "c:tools/chisel"
     }
+  ],
+  "primary_ingredient": {
+    "tag": "c:foods/chisel"
+  },
+  "remainder": {
+    "modifiers": [
+      {
+        "type": "tfc:damage_crafting_remainder"
+      }
+    ]
+  },
+  "result": {
+    "id": "architects_palette:twisting_blackstone"
+  }
 }
+

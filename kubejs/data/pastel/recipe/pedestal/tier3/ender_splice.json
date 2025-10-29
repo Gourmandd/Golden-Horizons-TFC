@@ -1,5 +1,5 @@
 {
-    "type": "spectrum:pedestal",
+    "type": "pastel:pedestal",
     "time": 240,
     "tier": "advanced",
     "colors": {
@@ -17,21 +17,21 @@
     ],
     "key": {
         "T": {
-            "item": "spectrum:radiating_ender"
+            "item": "pastel:radiating_ender"
         },
         "C": {
             "item": "tfc:powder/kaolinite"
         },
         "E": {
-            "item": "spectrum:neolith"
+            "item": "pastel:neolith"
         },
         "P": {
-            "item": "spectrum:cyan_pigment"
+            "item": "pastel:cyan_pigment"
         }
     },
     "result": {
-        "id": "spectrum:ender_splice",
+        "id": "pastel:ender_splice",
         "count": 4
     },
-    "required_advancement": "spectrum:unlocks/items/ender_splice"
+    "required_advancement": "pastel:unlocks/items/ender_splice"
 }

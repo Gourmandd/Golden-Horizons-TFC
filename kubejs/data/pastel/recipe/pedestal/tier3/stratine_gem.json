@@ -1,5 +1,5 @@
 {
-    "type": "spectrum:pedestal",
+    "type": "pastel:pedestal",
     "time": 400,
     "tier": "advanced",
     "colors": {
@@ -17,16 +17,16 @@
     ],
     "key": {
         "#": {
-            "item": "spectrum:stratine_fragments"
+            "item": "pastel:stratine_fragments"
         },
         "X": {
             "item": "tfc:gem/emerald"
         }
     },
     "result": {
-        "id": "spectrum:stratine_gem",
+        "id": "pastel:stratine_gem",
         "count": 1
     },
-    "required_advancement": "spectrum:hidden/collect_stratine_gem",
+    "required_advancement": "pastel:hidden/collect_stratine_gem",
     "disable_yield_upgrades": true
 }
