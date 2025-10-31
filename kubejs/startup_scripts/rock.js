@@ -24,7 +24,7 @@ StartupEvents.registry("block", event =>{
             .tagBlock("tfc:can_collapse")
             .tagBlock("tfc:can_trigger_collapse")
             .tagBlock("tfc:can_start_collapse")
-            .tagBlock("forge:stone")
+            .tagBlock("c:stones")
     })
 
 
@@ -46,8 +46,8 @@ StartupEvents.registry("block", event =>{
             .displayName(`Hardened ${nameProcessing(rock_type)}`)
             .soundType("stone")
             .tagBlock("minecraft:mineable/pickaxe")
-            .tagBlock("spectrum:nightdew_soils")
-            .tagItem("forge:stone")
+            .tagBlock("pastel:nightdew_soils")
+            .tagItem("c:stones")
             .requiresTool(true)
 
         event.create(`rock/cobble/${rock_type}`)
@@ -56,8 +56,8 @@ StartupEvents.registry("block", event =>{
             .displayName(`${nameProcessing(rock_type)} Cobble`)
             .soundType("stone")
             .tagBlock("minecraft:mineable/pickaxe")
-            .tagItem("forge:cobblestone/normal")
-            .tagBlock("spectrum:nightdew_soils")
+            .tagItem("c:cobblestones/normal")
+            .tagBlock("pastel:nightdew_soils")
             .tagBlock("tfc:can_landslide")
             .requiresTool(true)
 
