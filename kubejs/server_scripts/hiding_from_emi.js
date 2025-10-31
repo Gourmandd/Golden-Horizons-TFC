@@ -22,7 +22,36 @@ ServerEvents.tags("item", event => {
         "farmersdelight:cabbage_crate",
         "farmersdelight:tomato_crate",
         "farmersdelight:onion_crate",
-        "#farmersdelight:wild_crops"
+        "#farmersdelight:wild_crops",
+        "minecraft:glow_berries",
+        "minecraft:sweet_berries",
+        "minecraft:beetroot",
+        "minecraft:tropical_fish",
+        "minecraft:chicken",
+        "minecraft:cooked_chicken",
+        "minecraft:dried_kelp",
+        "minecraft:melon_slice",
+        "minecraft:beef",
+        "minecraft:cooked_beef",
+        "minecraft:rabbit",
+        "minecraft:cooked_rabbit",
+        "minecraft:porkchop",
+        "minecraft:cooked_porkchop",
+        "minecraft:carrot",
+        "minecraft:bread",
+        "minecraft:potato",
+        "minecraft:baked_potato",
+        "minecraft:cod",
+        "minecraft:cooked_cod",
+        "minecraft:salmon",
+        "minecraft:cooked_salmon",
+        "minecraft:mutton",
+        "minecraft:cooked_mutton",
+        "minecraft:apple",
+        "minecraft:wheat",
+        "create:dough",
+        "farmersdelight:wheat_dough"
+
     ]
 
     const VANILLA_WOOD_TYPES = [
