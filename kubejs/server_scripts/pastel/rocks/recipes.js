@@ -1,4 +1,5 @@
 // requires: pastel
+// requires: kubejs_tfc
 
 ServerEvents.recipes(event =>{
 

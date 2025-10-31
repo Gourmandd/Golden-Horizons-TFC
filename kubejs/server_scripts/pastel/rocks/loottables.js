@@ -1,5 +1,5 @@
 // requires: lootjs
-// requires:
+// requires: kubejs_tfc
 
 LootJS.modifiers(event =>{
     
