@@ -10,7 +10,7 @@
         {
             "type": "tfc:not_rotten",
             "ingredient": {
-                "tag": "forge:vegetables/tomato"
+                "tag": "c:foods/vegetable/tomato"
             }
         },
         {
@@ -19,7 +19,7 @@
         {
             "type": "tfc:not_rotten",
             "ingredient": {
-                "tag": "forge:vegetables/garlic"
+                "tag": "c:foods/vegetable/garlic"
             }
         }
     ],

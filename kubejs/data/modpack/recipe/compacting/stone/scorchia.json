@@ -1,10 +1,14 @@
 {
     "type": "create:compacting",
     "ingredients": [
-        {
-            "item": "tfc:raw_sandstone/black"
-        }
+      {
+        "item": "tfc:raw_sandstone/black"
+      }
     ],
-    "results": [],
-    "heatRequirement": "heated"
-}
+    "results": [
+      {
+        "id": "create:scorchia"
+      }
+    ],
+    "heat_requirement": "heated"
+  }

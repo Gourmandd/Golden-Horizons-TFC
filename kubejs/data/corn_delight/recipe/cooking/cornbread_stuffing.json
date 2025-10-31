@@ -16,7 +16,7 @@
             }
         ],
         {
-            "tag": "forge:vegetables"
+            "tag": "c:foods/vegetable"
         },
         [
             {
@@ -27,7 +27,7 @@
             }
         ],
         {
-            "tag": "forge:fruits/berries"
+            "tag": "c:foods/fruit/berries"
         }
     ],
     "result": {

@@ -1,9 +1,16 @@
+
 {
     "type": "create:splashing",
     "ingredients": [
-        {
-            "item": "tfc:rock/gravel/rhyolite"
-        }
+      {
+        "item": "tfc:rock/gravel/rhyolite"
+      }
     ],
-    "results": []
-}
+    "results": [
+      {
+        "id": "tfc:ore/poor_sphalerite",
+        "chance": 0.02
+      }
+    ]
+  }
+  

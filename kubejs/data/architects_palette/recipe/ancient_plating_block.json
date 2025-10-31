@@ -1,0 +1,29 @@
+{
+  "type": "tfc:advanced_shapeless_crafting",
+  "ingredients": [
+    {
+        "item": "tfc:metal/sheet/cast_iron"
+    },
+    {
+        "item": "tfc:metal/sheet/cast_iron"
+    },
+    {
+      "tag": "c:tools/hammer"
+    }
+  ],
+  "primary_ingredient": {
+    "tag": "c:foods/hammer"
+  },
+  "remainder": {
+    "modifiers": [
+      {
+        "type": "tfc:damage_crafting_remainder"
+      }
+    ]
+  },
+  "result": {
+    "id": "architects_palette:ancient_plating",
+    "count": 16
+  }
+}
+

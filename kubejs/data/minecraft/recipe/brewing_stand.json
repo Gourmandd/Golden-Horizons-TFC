@@ -6,7 +6,7 @@
     ],
     "key": {
         "S": {
-            "tag": "forge:smooth_stone"
+            "tag": "c:stones/smooth"
         },
         "B": {
             "item": "tfc:metal/rod/brass"

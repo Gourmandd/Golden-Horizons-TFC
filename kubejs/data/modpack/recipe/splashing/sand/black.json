@@ -5,5 +5,10 @@
             "item": "tfc:sand/black"
         }
     ],
-    "results": []
+    "results": [
+      {
+        "id": "tfc:powder/charcoal",
+        "chance": 0.02
+      }
+    ]
 }

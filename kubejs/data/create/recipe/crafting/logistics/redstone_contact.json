@@ -7,7 +7,7 @@
     ],
     "key": {
         "C": {
-            "tag": "forge:cobblestone"
+            "tag": "c:cobblestones/normal"
         },
         "D": {
             "item": "minecraft:redstone"

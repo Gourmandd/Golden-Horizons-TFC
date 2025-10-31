@@ -6,7 +6,7 @@
     ],
     "key": {
         "S": {
-            "tag": "forge:smooth_stone"
+            "tag": "c:stones/smooth"
         },
         "L": {
             "tag": "tfc:lumber"

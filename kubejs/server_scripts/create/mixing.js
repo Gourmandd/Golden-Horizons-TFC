@@ -122,6 +122,29 @@ ServerEvents.recipes(event => {
             heated: HEAT_REQUIREMENT.HEATED, 
             id: "sugar"
         },
+        { 
+            input: [inputOf(ITEM, "pastel:shale_clay", 1), inputOf(FLUID, "minecraft:water", 1000)], 
+            result: [outputOf(ITEM, "tfc:rock/loose/shale", 1, 0.5), outputOf(FLUID, "kubejs:shale_clay_slurry", 1000, 1)], 
+            heated: HEAT_REQUIREMENT.NONE, 
+            id: "shale_clay_slurry"
+        },
+        { 
+            input: [inputOf(ITEM, "tfc:jute_net", 1), inputOf(FLUID, "kubejs:shale_clay_slurry", 1000)], 
+            result: [outputOf(ITEM, "tfc:dirty_jute_net", 1, 1), outputOf(FLUID, "kubejs:filtered_shale_clay_slurry", 1000, 1)], 
+            heated: HEAT_REQUIREMENT.NONE, 
+            id: "filtered_shale_clay_slurry"
+        },
+        { 
+            input: [inputOf(FLUID, "kubejs:filtered_shale_clay_slurry", 1000)], 
+            result: [
+                        outputOf(ITEM, "tfc:powder/kaolinite", 1, 0.2), 
+                        outputOf(ITEM, "tfc:powder/kaolinite", 1, 0.1), 
+                        outputOf(ITEM, "tfc:powder/flux", 1, 0.2), 
+                        outputOf(ITEM, "tfc:powder/malachite", 1, 0.2) 
+                    ], 
+            heated: HEAT_REQUIREMENT.HEATED, 
+            id: "heating_filtered_shale_clay_slurry"
+        }
     ]
 
     let firmalife_recipes = [

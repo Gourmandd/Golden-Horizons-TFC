@@ -1,9 +1,16 @@
+
 {
     "type": "create:splashing",
     "ingredients": [
-        {
-            "item": "tfc:rock/gravel/dolomite"
-        }
+      {
+        "item": "tfc:rock/gravel/dolomite"
+      }
     ],
-    "results": []
-}
+    "results": [
+      {
+        "id": "tfc:ore/poor_limonite",
+        "chance": 0.02
+      }
+    ]
+  }
+  

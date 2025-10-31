@@ -15,20 +15,9 @@
                 "item": "firmalife:food/maize_dough"
             }
         ],
-        [
-            {
-                "tag": "forge:cooked_chicken"
-            },
-            {
-                "tag": "forge:cooked_pork"
-            },
-            {
-                "tag": "forge:cooked_beef"
-            },
-            {
-                "tag": "forge:cooked_mutton"
-            }
-        ],
+        {
+            "tag": "c:foods/cooked_chicken"
+        },
         {
             "item": "farmersdelight:tomato_sauce"
         }

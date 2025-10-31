@@ -1,9 +1,16 @@
+
 {
     "type": "create:splashing",
     "ingredients": [
-        {
-            "item": "tfc:rock/gravel/quartzite"
-        }
+      {
+        "item": "tfc:rock/gravel/quartzite"
+      }
     ],
-    "results": []
-}
+    "results": [
+      {
+        "id": "tfc:ore/sulfur",
+        "chance": 0.02
+      }
+    ]
+  }
+  

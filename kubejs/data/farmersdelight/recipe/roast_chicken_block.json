@@ -3,25 +3,25 @@
     "category": "misc",
     "ingredients": [
         {
-            "tag": "forge:crops/onion"
+            "tag": "c:foods/vegetable/onion"
         },
         {
-            "tag": "forge:eggs"
+            "tag": "c:eggs"
         },
         {
-            "tag": "forge:bread"
+            "tag": "c:foods/bread"
         },
         {
-            "tag": "forge:crops/carrot"
+            "tag": "c:foods/vegetable/carrot"
         },
         {
-            "tag": "forge:cooked_fowl"
+            "tag": "c:foods/cooked_fowl"
         },
         {
             "item": "tfc:food/baked_potato"
         },
         {
-            "tag": "forge:crops/carrot"
+            "tag": "c:foods/vegetable/carrot"
         },
         {
             "item": "minecraft:bowl"

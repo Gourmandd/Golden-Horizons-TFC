@@ -1,6 +1,6 @@
 {
     "ingredient": {
-        "tag": "forge:tools"
+        "tag": "c:tools"
     },
     "size": "very_large",
     "weight": "medium"

@@ -13,7 +13,7 @@
     ],
     "key": {
         "S": {
-            "tag": "forge:string"
+            "tag": "c:strings"
         },
         "W": {
             "tag": "minecraft:wool"

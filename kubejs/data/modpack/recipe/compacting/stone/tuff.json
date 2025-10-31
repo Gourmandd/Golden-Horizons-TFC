@@ -1,10 +1,14 @@
 {
     "type": "create:compacting",
     "ingredients": [
-        {
-            "item": "tfc:raw_sandstone/brown"
-        }
+      {
+        "item": "tfc:raw_sandstone/brown"
+      }
     ],
-    "results": [],
-    "heatRequirement": "heated"
-}
+    "results": [
+      {
+        "id": "tfc:rock/raw/tuff"
+      }
+    ],
+    "heat_requirement": "heated"
+  }

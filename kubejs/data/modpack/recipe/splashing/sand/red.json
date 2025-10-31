@@ -5,5 +5,10 @@
             "item": "tfc:sand/red"
         }
     ],
-    "results": []
+    "results": [
+      {
+        "id": "tfc:powder/hematite",
+        "chance": 0.02
+      }
+    ]
 }

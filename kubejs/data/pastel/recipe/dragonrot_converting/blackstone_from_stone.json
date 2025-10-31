@@ -1,7 +1,7 @@
 {
     "type": "pastel:dragonrot_converting",
     "ingredient": {
-        "tag": "forge:stone"
+        "tag": "c:stones"
     },
     "result": {
         "count": 1,

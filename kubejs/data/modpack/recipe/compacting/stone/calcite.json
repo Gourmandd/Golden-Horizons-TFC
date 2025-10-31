@@ -1,10 +1,14 @@
 {
     "type": "create:compacting",
     "ingredients": [
-        {
-            "item": "tfc:raw_sandstone/white"
-        }
+      {
+        "item": "tfc:raw_sandstone/white"
+      }
     ],
-    "results": [],
-    "heatRequirement": "heated"
-}
+    "results": [
+      {
+        "id": "minecraft:calcite"
+      }
+    ],
+    "heat_requirement": "heated"
+  }

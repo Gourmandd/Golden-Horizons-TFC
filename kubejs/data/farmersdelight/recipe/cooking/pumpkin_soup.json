@@ -16,10 +16,10 @@
             "item": "farmersdelight:pumpkin_slice"
         },
         {
-            "tag": "forge:salad_ingredients"
+            "tag": "c:foods/leafy_greens"
         },
         {
-            "tag": "forge:raw_pork"
+            "tag": "c:foods/raw_pork"
         },
         {
             "item": "firmalife:food/shredded_cheese"

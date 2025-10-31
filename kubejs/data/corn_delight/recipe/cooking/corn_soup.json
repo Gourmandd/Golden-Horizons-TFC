@@ -11,22 +11,11 @@
             "item": "tfc:food/maize"
         },
         {
-            "tag": "forge:crops/cabbage"
+            "tag": "c:foods/vegetable/cabbage"
         },
-        [
-            {
-                "tag": "forge:raw_chicken"
-            },
-            {
-                "tag": "forge:raw_pork"
-            },
-            {
-                "tag": "forge:raw_beef"
-            },
-            {
-                "item": "minecraft:brown_mushroom"
-            }
-        ],
+        {
+            "tag": "c:foods/raw_fowl"
+        },
         {
             "item": "firmalife:food/shredded_cheese"
         }

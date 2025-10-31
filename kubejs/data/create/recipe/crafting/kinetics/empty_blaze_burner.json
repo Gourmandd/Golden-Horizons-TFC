@@ -10,7 +10,7 @@
             "item": "tfc:metal/sheet/cast_iron"
         },
         "F": {
-            "tag": "forge:smooth_stone_slab"
+            "tag": "c:stones/smooth_slabs"
         }
     },
     "result": {

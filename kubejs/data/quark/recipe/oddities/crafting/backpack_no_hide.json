@@ -16,7 +16,7 @@
             "item": "sns:reinforced_fabric"
         },
         "C": {
-            "tag": "forge:chests/wooden"
+            "tag": "c:chests/wooden"
         },
         "R": {
             "item": "tfc:metal/ingot/red_steel"

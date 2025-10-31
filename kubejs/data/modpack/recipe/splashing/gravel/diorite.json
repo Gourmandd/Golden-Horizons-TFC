@@ -1,9 +1,16 @@
+
 {
     "type": "create:splashing",
     "ingredients": [
-        {
-            "item": "tfc:rock/gravel/diorite"
-        }
+      {
+        "item": "tfc:rock/gravel/diorite"
+      }
     ],
-    "results": []
-}
+    "results": [
+      {
+        "id": "tfc:ore/poor_cassiterite",
+        "chance": 0.02
+      }
+    ]
+  }
+  

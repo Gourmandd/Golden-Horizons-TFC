@@ -7,10 +7,10 @@
     ],
     "key": {
         "C": {
-            "tag": "forge:cobblestone"
+            "tag": "c:cobblestones/normal"
         },
         "S": {
-            "tag": "forge:smooth_stone"
+            "tag": "c:stones/smooth"
         },
         "F": {
             "item": "minecraft:furnace"

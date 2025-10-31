@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [],
+    "remove": [
+        "create:dough",
+        "farmersdelight:wheat_dough"
+    ]
+}

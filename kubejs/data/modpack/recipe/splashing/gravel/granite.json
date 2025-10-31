@@ -1,9 +1,16 @@
+
 {
     "type": "create:splashing",
     "ingredients": [
-        {
-            "item": "tfc:rock/gravel/granite"
-        }
+      {
+        "item": "tfc:rock/gravel/granite"
+      }
     ],
-    "results": []
-}
+    "results": [
+      {
+        "id": "tfc:ore/cryolite",
+        "chance": 0.02
+      }
+    ]
+  }
+  

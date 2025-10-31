@@ -1,9 +1,16 @@
+
 {
     "type": "create:splashing",
     "ingredients": [
-        {
-            "item": "tfc:rock/gravel/andesite"
-        }
+      {
+        "item": "tfc:rock/gravel/andesite"
+      }
     ],
-    "results": []
-}
+    "results": [
+      {
+        "id": "tfc:ore/poor_hematite",
+        "chance": 0.02
+      }
+    ]
+  }
+  

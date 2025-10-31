@@ -13,7 +13,7 @@
             "tag": "minecraft:logs"
         },
         "S": {
-            "tag": "forge:stone"
+            "tag": "c:stones"
         },
         "D": {
             "item": "minecraft:dispenser"

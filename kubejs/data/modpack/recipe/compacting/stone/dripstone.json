@@ -1,10 +1,14 @@
 {
     "type": "create:compacting",
     "ingredients": [
-        {
-            "item": "tfc:rock/cobble/claystone"
-        }
+      {
+        "item": "tfc:raw_sandstone/yellow"
+      }
     ],
-    "results": [],
-    "heatRequirement": "heated"
-}
+    "results": [
+      {
+        "id": "minecraft:dripstone_block"
+      }
+    ],
+    "heat_requirement": "heated"
+  }

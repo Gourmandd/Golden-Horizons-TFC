@@ -2,13 +2,13 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "minecraft:clay_ball"
+            "tag": "c:clay_balls"
         },
         {
-            "item": "minecraft:clay_ball"
+            "tag": "c:clay_balls"
         },
         {
-            "tag": "forge:raw_kelp"
+            "tag": "c:kelp"
         }
     ],
     "result": {

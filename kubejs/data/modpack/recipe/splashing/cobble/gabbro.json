@@ -1,9 +1,15 @@
+
 {
-    "type": "create:splashing",
-    "ingredients": [
-        {
-            "item": "tfc:rock/cobble/gabbro"
-        }
-    ],
-    "results": []
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "tfc:rock/cobble/gabbro"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:quartz",
+      "chance": 0.5
+    }
+  ]
 }

@@ -8,7 +8,7 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "tag": "forge:clay_balls"
+            "tag": "c:clay_balls"
         },
         {
             "tag": "minecraft:sand"
