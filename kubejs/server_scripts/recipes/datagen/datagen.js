@@ -111,7 +111,7 @@ ServerEvents.recipes(event => {
 
 
     // These not only test the various features of the recipes, but also act as examples of how you can use these
-    const DO_DATAGEN_TESTS = false
+    const DO_DATAGEN_TESTS = true
 
     if (DO_DATAGEN_TESTS){
 

@@ -29,17 +29,6 @@ StartupEvents.registry("block", event =>{
 
 
     global.DEEPER_DOWN_ROCK_TYPES.forEach(rock_type =>{
-        
-
-        event.create(`rock/loose/${rock_type}`/* kjs tfc not updated yet , "tfc:loose_rock"*/)
-            .displayName(`Loose ${nameProcessing(rock_type)} Rock`)
-            .tagItem("tfc:any_knapping")
-            .tagItem("tfc:rock_knapping")
-            .tagBlock("minecraft:mineable/pickaxe")
-            .tagBlock("tfc:loose_rocks")
-            /* kjs tfc not updated yet .rockTypeModel("sedimentary")*/
-            .soundType("stone")
-            .texture("all", global.CUSTOM_ROCK_MODELS[rock_type])
 
         event.create(`rock/hardened/${rock_type}`)
             .parentModel(global.CUSTOM_ROCK_MODELS[rock_type])
