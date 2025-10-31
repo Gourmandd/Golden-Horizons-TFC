@@ -43,13 +43,9 @@ ClientEvents.generateAssets("after_mods", event => {
             model.texture("side", global.STONE_TO_COBBLESTONE_TEXTURE[rockType])
         })
 
-        event.blockModel(`kubejs:rock/cobble/${rockType}_wall_inventory`, model => {
+        event.itemModel(`kubejs:rock/cobble/${rockType}_wall`, model => {
             model.parent("minecraft:block/wall_inventory")
             model.texture("wall", global.STONE_TO_COBBLESTONE_TEXTURE[rockType])
-        })
-
-        event.itemModel(`kubejs:rock/cobble/${rockType}_wall_inventory`, model => {
-            model.parent(`kubejs:block/rock/cobble/${rockType}_wall_inventory`)
         })
 
         event.blockModel(`kubejs:rock/cobble/${rockType}_wall_post`, model => {
