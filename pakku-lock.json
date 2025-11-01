@@ -6136,6 +6136,76 @@
             ]
         },
         {
+            "pakku_id": "3HldYOW1EtzwnNrO",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "reforged-accurate-block-placement",
+                "modrinth": "reforged-accurate-block-placement"
+            },
+            "name": {
+                "curseforge": "[Reforged] Accurate Block Placement",
+                "modrinth": "[Reforged] Accurate Block Placement"
+            },
+            "id": {
+                "curseforge": "1288688",
+                "modrinth": "tOVrxqLR"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "[Neoforge-1.21.1]Accurateblockplacement 1.0.0.jar",
+                    "mc_versions": [
+                        "1.21.2-Snapshot",
+                        "1.21.1-Snapshot",
+                        "1.21.4",
+                        "1.21.3",
+                        "1.21.1",
+                        "1.21.4-Snapshot",
+                        "1.21.2"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6661/604/[Neoforge-1.21.1]Accurateblockplacement 1.0.0.jar",
+                    "id": "6661604",
+                    "parent_id": "1288688",
+                    "hashes": {
+                        "sha1": "d165a36e0af40daab17daf16214e60c3d70c58cb",
+                        "md5": "5463ea5d712d95c5fe42797d89c7381a"
+                    },
+                    "required_dependencies": [],
+                    "size": 25135,
+                    "date_published": "2025-06-17T15:55:34.670Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "[Neoforge-1.21.1]Accurateblockplacement 1.0.0.jar",
+                    "mc_versions": [
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/tOVrxqLR/versions/dPlHyUJt/[Neoforge-1.21.1]Accurateblockplacement 1.0.0.jar",
+                    "id": "dPlHyUJt",
+                    "parent_id": "tOVrxqLR",
+                    "hashes": {
+                        "sha512": "085371267f95869aedf62da8bab5deb59e7d2cfa91cdb6fab2fedaae424f22bd38b31dfbb8cc1d8509b87bd76494a6659f7714e5388c256270c57eca8f612936",
+                        "sha1": "d165a36e0af40daab17daf16214e60c3d70c58cb"
+                    },
+                    "required_dependencies": [],
+                    "size": 25135,
+                    "date_published": "2025-07-01T13:38:32.097731Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "wnSAL9mX2aNTZgiJ",
             "type": "MOD",
             "side": "BOTH",
