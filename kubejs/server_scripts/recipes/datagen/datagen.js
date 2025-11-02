@@ -7,6 +7,27 @@ const IO_TYPE = {
     FLUID_TAG: "fluid_tag"
 }
 
+const BASE_DATAGEN = function(){
+    
+    this.location = null
+
+    this.id = function(id){
+        this.location = id
+        return this
+    }
+
+    this.generate = function(){
+        generateRecipe(this.event, this.getAsMap(), this.location)
+    }
+
+    this.printMap = function(){
+        console.log(this.getAsMap())
+        return this
+    }
+
+    return this
+}
+
 let RECIPES = [
     createModRecipes(),
     createAdditionRecipes(),
@@ -44,9 +65,15 @@ function Datagen(event){
         return this
     }
 
+    this.databank = function(){
+        return DatabankDatagen()
+    }
+
     RECIPES.forEach(recipeDatagen => {
         Object.assign(this.recipe, recipeDatagen)
     })
+
+    Object.assign(this.databank, )
 
     return this
 }
@@ -106,12 +133,10 @@ function outputOf(io_type, id, count, chance){
     }
 }
 
+// These not only test the various features of the recipes, but also act as examples of how you can use these
+const DO_DATAGEN_TESTS = false
 
 ServerEvents.recipes(event => {
-
-
-    // These not only test the various features of the recipes, but also act as examples of how you can use these
-    const DO_DATAGEN_TESTS = true
 
     if (DO_DATAGEN_TESTS){
 
@@ -190,6 +215,17 @@ ServerEvents.recipes(event => {
 
         datagen.createAdditionRolling(outputOf(ITEM, "minecraft:dirt", 2, 0.75), inputOf(ITEM, "minecraft:stone", 1)).id("modpack:rolling_test").generate()
         datagen.createAdditionCharging(outputOf(ITEM, "minecraft:dirt", 2, 0.75), inputOf(ITEM, "minecraft:stone", 1), 4000).id("modpack:charging_test").generate()
+    }
+})
+
+ServerEvents.generateData("before_mods", event => {
+
+    if (DO_DATAGEN_TESTS){
+
+        let databank = Datagen(event).databank()
+
+        databank.hiding(databank.advancementCondition("pastel:hidden/collect_shards/amethyst"), databank.itemType("minecraft:emerald", "minecraft:diamond", { "text": "Testing"})).generate()
+        databank.hiding(databank.advancementCondition("pastel:hidden/collect_shards/amethyst"), databank.blockType("minecraft:emerald_block", "minecraft:diamond_block", { "text": "Testing"})).generate()
     }
 })
 
