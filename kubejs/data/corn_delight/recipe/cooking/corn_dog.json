@@ -17,7 +17,7 @@
         ],
         {
             "tag": "c:foods/cooked_chicken"
-        },
+        }
     ],
     "result": {
         "id": "corn_delight:corn_dog"

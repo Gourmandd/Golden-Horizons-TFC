@@ -10,11 +10,6 @@ ServerEvents.recipes(event =>{
     event.remove({ type: "create_mechanical_extruder:extruding" , mod: "create_mechanical_extruder"})
     event.remove({type: "minecraft:crafting_shaped", mod: "caupona"})
     event.remove({type: "architects_palette:warping" })
-    //event.remove({type: "vintageimprovements:coiling" })
-    //event.remove({type: "vintageimprovements:vacuumizing" })
-    //event.remove({type: "vintageimprovements:pressurizing" })
-    //event.remove({type: "create:pressing", mod: "vintageimprovements" })
-    //event.remove({type: "createaddition:rolling", mod: "vintageimprovements" })
     event.remove({type: "caupona:boiling" })
     event.remove({type: "caupona:cooking"})
     event.remove({type: "caupona:dolium", mod: "caupona"})
@@ -26,17 +21,12 @@ ServerEvents.recipes(event =>{
     event.remove({mod: "functionalstorage"})
     event.remove({mod: "everycomp", type: "farmersdelight:cutting"})
 
-
-    //event.remove({output: Ingredient.of(/.*lamp.*/), mod: "another_furniture"})
-    //event.remove({input: "tfc:metal/ingot/zinc", type: "minecraft:stonecutting"})
-
     event.remove({mod: "farmersdelight", output: "#c:stripped_logs"})
     event.remove({mod: "farmersdelight", output: "#c:stripped_woods"})
     event.remove({mod: "farmersdelight", output: "#minecraft:planks"})
     event.remove({mod: "farmersdelight", output: "#c:dyes"})
 
-    //event.remove({mod: "hearth_and_home", input: "minecraft:stick", not: {output: "hearth_and_home:shoji"}})
-    event.remove({mod: "magistuarmory"})
+    //event.remove({mod: "magistuarmory"})
     event.remove({mod: "hearth_and_home", input: "minecraft:glass"})
 
     event.remove({ type: "minecraft:blasting" , not: {mod: "pastel"} })

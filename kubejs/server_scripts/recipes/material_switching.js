@@ -66,7 +66,7 @@ events.replaceInput(
     "minecraft:amethyst_shard", "tfc:gem/amethyst"
 )
 
-events.replaceOutput({output: "minecraft:amethyst_shard", not: {mod: "spectrum"}}, "minecraft:amethyst_shard", "tfc:gem/amethyst")
+events.replaceOutput({output: "minecraft:amethyst_shard", not: {mod: "pastel"}}, "minecraft:amethyst_shard", "tfc:gem/amethyst")
 })
 
 } catch(e) {
