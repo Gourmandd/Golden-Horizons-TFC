@@ -1,0 +1,14 @@
+{
+    "type": {
+        "type": "databank:item",
+        "hidden_as": "minecraft:orange_dye",
+        "original": "pastel:myceylon",
+        "name_override": {
+            "text": "\u00a7kmyceylon"
+        }
+    },
+    "condition": {
+        "type": "databank:advancement",
+        "advancement": "pastel:lategame/collect_myceylon"
+    }
+}

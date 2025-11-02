@@ -1,0 +1,14 @@
+{
+    "type": {
+        "type": "databank:item",
+        "hidden_as": "minecraft:gunpowder",
+        "original": "pastel:vegetal",
+        "name_override": {
+            "text": "\u00a7kvegetal"
+        }
+    },
+    "condition": {
+        "type": "databank:advancement",
+        "advancement": "pastel:craft_bottle_of_fading"
+    }
+}

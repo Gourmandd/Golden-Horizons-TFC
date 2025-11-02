@@ -1,0 +1,14 @@
+{
+    "type": {
+        "type": "databank:item",
+        "hidden_as": "minecraft:yellow_dye",
+        "original": "pastel:shimmerstone_gem",
+        "name_override": {
+            "text": "\u00a7kshimmerstone gem"
+        }
+    },
+    "condition": {
+        "type": "databank:advancement",
+        "advancement": "pastel:milestones/reveal_shimmerstone"
+    }
+}

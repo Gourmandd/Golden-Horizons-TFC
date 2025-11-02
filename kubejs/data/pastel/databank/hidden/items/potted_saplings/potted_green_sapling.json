@@ -1,0 +1,14 @@
+{
+    "type": {
+        "type": "databank:item",
+        "hidden_as": "minecraft:air",
+        "original": "minecraft:air",
+        "name_override": {
+            "text": "\u00a7kpotted green sapling"
+        }
+    },
+    "condition": {
+        "type": "databank:advancement",
+        "advancement": "pastel:milestones/reveal_colored_saplings_cmy"
+    }
+}

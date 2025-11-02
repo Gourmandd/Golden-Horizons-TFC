@@ -1,0 +1,14 @@
+{
+    "type": {
+        "type": "databank:item",
+        "hidden_as": "minecraft:red_dye",
+        "original": "pastel:pure_bloodstone",
+        "name_override": {
+            "text": "\u00a7kpure bloodstone"
+        }
+    },
+    "condition": {
+        "type": "databank:advancement",
+        "advancement": "pastel:pluck_resplendent_feather"
+    }
+}

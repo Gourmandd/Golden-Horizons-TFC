@@ -1,0 +1,14 @@
+{
+    "type": {
+        "type": "databank:item",
+        "hidden_as": "minecraft:lime_dye",
+        "original": "pastel:germinated_jade_vine_bulb",
+        "name_override": {
+            "text": "\u00a7kgerminated jade vine bulb"
+        }
+    },
+    "condition": {
+        "type": "databank:advancement",
+        "advancement": "pastel:hidden/collect_hibernating_jade_vine_bulb"
+    }
+}

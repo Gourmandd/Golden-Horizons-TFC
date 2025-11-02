@@ -1,0 +1,14 @@
+{
+    "type": {
+        "type": "databank:item",
+        "hidden_as": "minecraft:yellow_dye",
+        "original": "pastel:citrine_powder",
+        "name_override": {
+            "text": "\u00a7kcitrine powder"
+        }
+    },
+    "condition": {
+        "type": "databank:advancement",
+        "advancement": "pastel:hidden/collect_shards/citrine"
+    }
+}

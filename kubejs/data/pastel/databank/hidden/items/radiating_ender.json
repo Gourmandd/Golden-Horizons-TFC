@@ -1,0 +1,14 @@
+{
+    "type": {
+        "type": "databank:item",
+        "hidden_as": "minecraft:cobblestone",
+        "original": "pastel:radiating_ender",
+        "name_override": {
+            "text": "\u00a7kradiating ender"
+        }
+    },
+    "condition": {
+        "type": "databank:advancement",
+        "advancement": "pastel:milestones/reveal_radiating_ender"
+    }
+}

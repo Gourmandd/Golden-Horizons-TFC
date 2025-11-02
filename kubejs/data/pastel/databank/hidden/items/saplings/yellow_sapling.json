@@ -1,0 +1,14 @@
+{
+    "type": {
+        "type": "databank:item",
+        "hidden_as": "minecraft:oak_sapling",
+        "original": "pastel:yellow_sapling",
+        "name_override": {
+            "text": "\u00a7kyellow sapling"
+        }
+    },
+    "condition": {
+        "type": "databank:advancement",
+        "advancement": "pastel:milestones/reveal_colored_saplings_cmy"
+    }
+}

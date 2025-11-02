@@ -1,0 +1,14 @@
+{
+    "type": {
+        "type": "databank:item",
+        "hidden_as": "minecraft:deepslate",
+        "original": "pastel:deepslate_shimmerstone_ore",
+        "name_override": {
+            "text": "\u00a7kdeepslate shimmerstone ore"
+        }
+    },
+    "condition": {
+        "type": "databank:advancement",
+        "advancement": "pastel:milestones/reveal_shimmerstone"
+    }
+}

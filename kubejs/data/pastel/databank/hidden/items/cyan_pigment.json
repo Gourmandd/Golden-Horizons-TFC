@@ -1,0 +1,14 @@
+{
+    "type": {
+        "type": "databank:item",
+        "hidden_as": "minecraft:cyan_dye",
+        "original": "pastel:cyan_pigment",
+        "name_override": {
+            "text": "\u00a7kcyan pigment"
+        }
+    },
+    "condition": {
+        "type": "databank:advancement",
+        "advancement": "pastel:craft_colored_sapling"
+    }
+}

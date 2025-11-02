@@ -1,0 +1,14 @@
+{
+    "type": {
+        "type": "databank:item",
+        "hidden_as": "minecraft:stone",
+        "original": "pastel:malachite_ore",
+        "name_override": {
+            "text": "\u00a7kmalachite ore"
+        }
+    },
+    "condition": {
+        "type": "databank:advancement",
+        "advancement": "pastel:milestones/reveal_malachite"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "type": {
+        "type": "databank:item",
+        "hidden_as": "minecraft:stripped_oak_wood",
+        "original": "pastel:stripped_blue_wood",
+        "name_override": {
+            "text": "\u00a7kstripped blue wood"
+        }
+    },
+    "condition": {
+        "type": "databank:advancement",
+        "advancement": "pastel:milestones/reveal_colored_trees_cmy"
+    }
+}

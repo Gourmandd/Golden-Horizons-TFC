@@ -1,0 +1,14 @@
+{
+    "type": {
+        "type": "databank:item",
+        "hidden_as": "pastel:blackslag",
+        "original": "pastel:blackslag_shimmerstone_ore",
+        "name_override": {
+            "text": "\u00a7kblackslag shimmerstone ore"
+        }
+    },
+    "condition": {
+        "type": "databank:advancement",
+        "advancement": "pastel:milestones/reveal_shimmerstone"
+    }
+}

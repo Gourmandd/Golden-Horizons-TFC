@@ -1,0 +1,14 @@
+{
+    "type": {
+        "type": "databank:item",
+        "hidden_as": "minecraft:stone",
+        "original": "pastel:azurite_ore",
+        "name_override": {
+            "text": "\u00a7kazurite ore"
+        }
+    },
+    "condition": {
+        "type": "databank:advancement",
+        "advancement": "pastel:milestones/reveal_azurite"
+    }
+}

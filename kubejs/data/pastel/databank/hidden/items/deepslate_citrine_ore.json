@@ -1,0 +1,14 @@
+{
+    "type": {
+        "type": "databank:item",
+        "hidden_as": "minecraft:deepslate",
+        "original": "pastel:deepslate_citrine_ore",
+        "name_override": {
+            "text": "\u00a7kdeepslate citrine ore"
+        }
+    },
+    "condition": {
+        "type": "databank:advancement",
+        "advancement": "pastel:hidden/collect_shards/citrine"
+    }
+}

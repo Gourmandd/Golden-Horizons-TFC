@@ -1,0 +1,14 @@
+{
+    "type": {
+        "type": "databank:item",
+        "hidden_as": "minecraft:white_dye",
+        "original": "pastel:white_pigment",
+        "name_override": {
+            "text": "\u00a7kwhite pigment"
+        }
+    },
+    "condition": {
+        "type": "databank:advancement",
+        "advancement": "pastel:craft_colored_sapling"
+    }
+}

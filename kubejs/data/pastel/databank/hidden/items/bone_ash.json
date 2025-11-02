@@ -1,0 +1,14 @@
+{
+    "type": {
+        "type": "databank:item",
+        "hidden_as": "minecraft:gray_dye",
+        "original": "pastel:bone_ash",
+        "name_override": {
+            "text": "\u00a7kbone ash"
+        }
+    },
+    "condition": {
+        "type": "databank:advancement",
+        "advancement": "pastel:break_cracked_dragonbone"
+    }
+}

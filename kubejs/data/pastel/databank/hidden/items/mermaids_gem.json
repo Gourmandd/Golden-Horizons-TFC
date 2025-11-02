@@ -1,0 +1,14 @@
+{
+    "type": {
+        "type": "databank:item",
+        "hidden_as": "minecraft:kelp",
+        "original": "pastel:mermaids_gem",
+        "name_override": {
+            "text": "\u00a7kmermaids gem"
+        }
+    },
+    "condition": {
+        "type": "databank:advancement",
+        "advancement": "pastel:place_pedestal"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "type": {
+        "type": "databank:item",
+        "hidden_as": "minecraft:light_gray_dye",
+        "original": "pastel:downstone_fragments",
+        "name_override": {
+            "text": "\u00a7kdownstone fragments"
+        }
+    },
+    "condition": {
+        "type": "databank:advancement",
+        "advancement": "pastel:lategame/find_excavation_site"
+    }
+}

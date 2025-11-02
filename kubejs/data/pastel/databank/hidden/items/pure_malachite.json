@@ -1,0 +1,14 @@
+{
+    "type": {
+        "type": "databank:item",
+        "hidden_as": "minecraft:green_dye",
+        "original": "pastel:pure_malachite",
+        "name_override": {
+            "text": "\u00a7kpure malachite"
+        }
+    },
+    "condition": {
+        "type": "databank:advancement",
+        "advancement": "pastel:milestones/reveal_malachite"
+    }
+}

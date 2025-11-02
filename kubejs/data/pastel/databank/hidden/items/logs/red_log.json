@@ -1,0 +1,14 @@
+{
+    "type": {
+        "type": "databank:item",
+        "hidden_as": "minecraft:oak_log",
+        "original": "pastel:red_log",
+        "name_override": {
+            "text": "\u00a7kred log"
+        }
+    },
+    "condition": {
+        "type": "databank:advancement",
+        "advancement": "pastel:milestones/reveal_colored_trees_cmy"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "type": {
+        "type": "databank:item",
+        "hidden_as": "minecraft:light_blue_dye",
+        "original": "pastel:light_blue_pigment",
+        "name_override": {
+            "text": "\u00a7klight blue pigment"
+        }
+    },
+    "condition": {
+        "type": "databank:advancement",
+        "advancement": "pastel:craft_colored_sapling"
+    }
+}

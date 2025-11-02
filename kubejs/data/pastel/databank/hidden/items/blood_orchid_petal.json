@@ -1,0 +1,14 @@
+{
+    "type": {
+        "type": "databank:item",
+        "hidden_as": "minecraft:red_dye",
+        "original": "pastel:blood_orchid_petal",
+        "name_override": {
+            "text": "\u00a7kblood orchid petal"
+        }
+    },
+    "condition": {
+        "type": "databank:advancement",
+        "advancement": "pastel:milestones/reveal_blood_orchid_petals"
+    }
+}

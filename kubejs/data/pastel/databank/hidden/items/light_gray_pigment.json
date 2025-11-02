@@ -1,0 +1,14 @@
+{
+    "type": {
+        "type": "databank:item",
+        "hidden_as": "minecraft:light_gray_dye",
+        "original": "pastel:light_gray_pigment",
+        "name_override": {
+            "text": "\u00a7klight gray pigment"
+        }
+    },
+    "condition": {
+        "type": "databank:advancement",
+        "advancement": "pastel:craft_colored_sapling"
+    }
+}

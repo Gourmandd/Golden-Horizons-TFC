@@ -1,0 +1,14 @@
+{
+    "type": {
+        "type": "databank:item",
+        "hidden_as": "minecraft:oak_leaves",
+        "original": "pastel:cyan_leaves",
+        "name_override": {
+            "text": "\u00a7kcyan leaves"
+        }
+    },
+    "condition": {
+        "type": "databank:advancement",
+        "advancement": "pastel:milestones/reveal_colored_trees_cmy"
+    }
+}

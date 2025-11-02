@@ -1,0 +1,14 @@
+{
+    "type": {
+        "type": "databank:item",
+        "hidden_as": "pastel:blackslag",
+        "original": "pastel:blackslag_azurite_ore",
+        "name_override": {
+            "text": "\u00a7kblackslag azurite ore"
+        }
+    },
+    "condition": {
+        "type": "databank:advancement",
+        "advancement": "pastel:milestones/reveal_azurite"
+    }
+}

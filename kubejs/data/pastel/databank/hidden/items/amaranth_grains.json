@@ -1,0 +1,14 @@
+{
+    "type": {
+        "type": "databank:item",
+        "hidden_as": "minecraft:large_fern",
+        "original": "pastel:amaranth_grains",
+        "name_override": {
+            "text": "\u00a7kamaranth grains"
+        }
+    },
+    "condition": {
+        "type": "databank:advancement",
+        "advancement": "pastel:milestones/reveal_amaranth"
+    }
+}

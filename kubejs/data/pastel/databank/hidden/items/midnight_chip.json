@@ -1,0 +1,14 @@
+{
+    "type": {
+        "type": "databank:item",
+        "hidden_as": "minecraft:gray_dye",
+        "original": "pastel:midnight_chip",
+        "name_override": {
+            "text": "\u00a7kmidnight chip"
+        }
+    },
+    "condition": {
+        "type": "databank:advancement",
+        "advancement": "pastel:midgame/create_midnight_aberration"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "type": {
+        "type": "databank:item",
+        "hidden_as": "minecraft:pink_dye",
+        "original": "pastel:pink_pigment",
+        "name_override": {
+            "text": "\u00a7kpink pigment"
+        }
+    },
+    "condition": {
+        "type": "databank:advancement",
+        "advancement": "pastel:craft_colored_sapling"
+    }
+}
