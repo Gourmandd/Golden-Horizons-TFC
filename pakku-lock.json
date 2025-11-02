@@ -1000,6 +1000,135 @@
             ]
         },
         {
+            "pakku_id": "lzw9tKsNb5G5GLGf",
+            "type": "RESOURCE_PACK",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "chicknturtles-better-shield",
+                "modrinth": "chicknturtles-better-shield"
+            },
+            "name": {
+                "curseforge": "ChicknTurtle's Better Shield",
+                "modrinth": "ChicknTurtle's Better Shield"
+            },
+            "id": {
+                "curseforge": "907048",
+                "modrinth": "vlbXWQ2k"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "§dChicknTurtleBetterShield-v1.2.zip",
+                    "mc_versions": [
+                        "1.21.2-Snapshot",
+                        "1.21",
+                        "1.21.6-snapshot",
+                        "1.21.5",
+                        "1.21.8",
+                        "1.21.1-Snapshot",
+                        "1.21.4",
+                        "1.21.5-Snapshot",
+                        "1.21-Snapshot",
+                        "1.21.3",
+                        "1.21.7",
+                        "1.21.1",
+                        "1.21.6",
+                        "1.21.4-Snapshot",
+                        "1.21.2",
+                        "1.21.9-snapshot"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6935/937/§dChicknTurtleBetterShield-v1.2.zip",
+                    "id": "6935937",
+                    "parent_id": "907048",
+                    "hashes": {
+                        "sha1": "d6c4e73f21a24c76cdaba38af9b8f92591a6ec3b",
+                        "md5": "ba0ffd413a09d3a6701c99f0a3c2eb04"
+                    },
+                    "required_dependencies": [],
+                    "size": 82759,
+                    "date_published": "2025-08-28T00:17:05.623Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "§dChicknTurtleBetterShield-v1.2.zip",
+                    "mc_versions": [
+                        "1.9",
+                        "1.9.1",
+                        "1.9.2",
+                        "1.9.3",
+                        "1.9.4",
+                        "1.10",
+                        "1.10.1",
+                        "1.10.2",
+                        "1.11",
+                        "1.11.1",
+                        "1.11.2",
+                        "1.12",
+                        "1.12.1",
+                        "1.12.2",
+                        "1.13",
+                        "1.13.1",
+                        "1.13.2",
+                        "1.14",
+                        "1.14.1",
+                        "1.14.2",
+                        "1.14.3",
+                        "1.14.4",
+                        "1.15",
+                        "1.15.1",
+                        "1.15.2",
+                        "1.16",
+                        "1.16.1",
+                        "1.16.2",
+                        "1.16.3",
+                        "1.16.4",
+                        "1.16.5",
+                        "1.17",
+                        "1.17.1",
+                        "1.18",
+                        "1.18.1",
+                        "1.18.2",
+                        "1.19",
+                        "1.19.1",
+                        "1.19.2",
+                        "1.19.3",
+                        "1.19.4",
+                        "1.20",
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6",
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8"
+                    ],
+                    "loaders": [
+                        "minecraft"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/vlbXWQ2k/versions/vPSrlP2R/§dChicknTurtleBetterShield-v1.2.zip",
+                    "id": "vPSrlP2R",
+                    "parent_id": "vlbXWQ2k",
+                    "hashes": {
+                        "sha512": "fe4bbfdd3a79b241d49737c888dd67017a5f400d0d5affc79e66e73347ac0e8f9a5966d8b57e9666ff8cdda5138ac9c1c00fa53e65716c56416ba125f7d61b1b",
+                        "sha1": "d6c4e73f21a24c76cdaba38af9b8f92591a6ec3b"
+                    },
+                    "required_dependencies": [],
+                    "size": 82759,
+                    "date_published": "2025-08-28T00:39:41.749666Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "hu9KEilDJu0di64z",
             "type": "MOD",
             "side": "BOTH",
@@ -1122,6 +1251,103 @@
                     "required_dependencies": [],
                     "size": 422519,
                     "date_published": "2025-05-23T23:36:09.260297Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "eKAqFxCPFXL9RWdK",
+            "type": "RESOURCE_PACK",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "comforts-modernized",
+                "modrinth": "comforts-modernized"
+            },
+            "name": {
+                "curseforge": "Comforts Modernized",
+                "modrinth": "Comforts Modernized"
+            },
+            "id": {
+                "curseforge": "990594",
+                "modrinth": "BJoffwm5"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Comforts Modernized - V1.1.zip",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5876/60/Comforts Modernized - V1.1.zip",
+                    "id": "5876060",
+                    "parent_id": "990594",
+                    "hashes": {
+                        "sha1": "34cc0542c57aedc727ea5d3cf8947a14904caa3c",
+                        "md5": "a47986ab87271f68e7f6e2b57fbb2d77"
+                    },
+                    "required_dependencies": [],
+                    "size": 72956,
+                    "date_published": "2024-11-05T00:42:02.113Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "Comforts Modernized - V1.1.zip",
+                    "mc_versions": [
+                        "1.12",
+                        "1.12.1",
+                        "1.12.2",
+                        "1.13",
+                        "1.13.1",
+                        "1.13.2",
+                        "1.14",
+                        "1.14.1",
+                        "1.14.2",
+                        "1.14.3",
+                        "1.14.4",
+                        "1.15",
+                        "1.15.1",
+                        "1.15.2",
+                        "1.16",
+                        "1.16.1",
+                        "1.16.2",
+                        "1.16.3",
+                        "1.16.4",
+                        "1.16.5",
+                        "1.17",
+                        "1.17.1",
+                        "1.18",
+                        "1.18.1",
+                        "1.18.2",
+                        "1.19",
+                        "1.19.1",
+                        "1.19.2",
+                        "1.19.3",
+                        "1.19.4",
+                        "1.20",
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6",
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "minecraft"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/BJoffwm5/versions/uFrHNRj0/Comforts Modernized - V1.1.zip",
+                    "id": "uFrHNRj0",
+                    "parent_id": "BJoffwm5",
+                    "hashes": {
+                        "sha512": "8c6fd801241a778356d5af6acf17de8c5b33bb20bfdb39c7439a3305793cf260c23a12dcc48cb6f72b1f57c68a0c5245efe5875f2f239fa5b5a97a972516ec04",
+                        "sha1": "34cc0542c57aedc727ea5d3cf8947a14904caa3c"
+                    },
+                    "required_dependencies": [],
+                    "size": 72956,
+                    "date_published": "2024-11-05T00:39:11.842076Z"
                 }
             ]
         },
@@ -2038,6 +2264,125 @@
                     "required_dependencies": [],
                     "size": 271460,
                     "date_published": "2025-09-06T03:14:42.433Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "VgdGdS5AUhm21O3Y",
+            "type": "RESOURCE_PACK",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "dyes-backport",
+                "curseforge": "dyes-textures-backport"
+            },
+            "name": {
+                "modrinth": "Dye Textures Backport",
+                "curseforge": "Dyes Textures Backport"
+            },
+            "id": {
+                "modrinth": "QEbXybEE",
+                "curseforge": "1312114"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "Dyes-Backport-1.1.1.zip",
+                    "mc_versions": [
+                        "1.13",
+                        "1.13.1",
+                        "1.13.2",
+                        "1.14",
+                        "1.14.1",
+                        "1.14.2",
+                        "1.14.3",
+                        "1.14.4",
+                        "1.15",
+                        "1.15.1",
+                        "1.15.2",
+                        "1.16",
+                        "1.16.1",
+                        "1.16.2",
+                        "1.16.3",
+                        "1.16.4",
+                        "1.16.5",
+                        "1.17",
+                        "1.17.1",
+                        "1.18",
+                        "1.18.1",
+                        "1.18.2",
+                        "1.19",
+                        "1.19.1",
+                        "1.19.2",
+                        "1.19.3",
+                        "1.19.4",
+                        "1.20",
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6",
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10"
+                    ],
+                    "loaders": [
+                        "minecraft"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/QEbXybEE/versions/XLombTbr/Dyes-Backport-1.1.1.zip",
+                    "id": "XLombTbr",
+                    "parent_id": "QEbXybEE",
+                    "hashes": {
+                        "sha512": "3074f2e7d8ffb06f8818d9ddb0df66ac3729056156332d2f414e9e5f15b837aa9992271c11bc9d3b45040bb714b8d5f136799e0482e33434ad65c243deb6d5d3",
+                        "sha1": "2b15668fdaab67e1614a202bc1d101961053ccba"
+                    },
+                    "required_dependencies": [],
+                    "size": 14463,
+                    "date_published": "2025-09-26T14:11:10.712136Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "Dyes-Backport-1.1.1.zip",
+                    "mc_versions": [
+                        "1.21.2-Snapshot",
+                        "1.21",
+                        "1.21.6-snapshot",
+                        "1.21.5",
+                        "1.21.8",
+                        "1.21.1-Snapshot",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.4",
+                        "1.21.5-Snapshot",
+                        "1.21-Snapshot",
+                        "1.21.3",
+                        "1.21.7",
+                        "1.21.1",
+                        "1.21.6",
+                        "1.21.4-Snapshot",
+                        "1.21.2",
+                        "1.21.9-snapshot"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7035/242/Dyes-Backport-1.1.1.zip",
+                    "id": "7035242",
+                    "parent_id": "1312114",
+                    "hashes": {
+                        "sha1": "2b15668fdaab67e1614a202bc1d101961053ccba",
+                        "md5": "c06979ff126e0ca3a0c6f2f5ee672100"
+                    },
+                    "required_dependencies": [],
+                    "size": 14463,
+                    "date_published": "2025-09-26T14:12:40.923Z"
                 }
             ]
         },
@@ -3095,6 +3440,74 @@
                     "required_dependencies": [],
                     "size": 2436870,
                     "date_published": "2025-09-13T10:31:31.330365Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "zLnEaeF9BPX9CfGw",
+            "pakku_links": [
+                "ux9Y4gss6HWJFIVY"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "irisshaders",
+                "modrinth": "iris"
+            },
+            "name": {
+                "curseforge": "Iris Shaders",
+                "modrinth": "Iris Shaders"
+            },
+            "id": {
+                "curseforge": "455508",
+                "modrinth": "YL57xq9U"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "iris-neoforge-1.8.12+mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6661/598/iris-neoforge-1.8.12+mc1.21.1.jar",
+                    "id": "6661598",
+                    "parent_id": "455508",
+                    "hashes": {
+                        "sha1": "a3e6355915c7d3b2bc392724795113e51d289378",
+                        "md5": "6c1122aa7c2b1a4f24831e394c5b513f"
+                    },
+                    "required_dependencies": [
+                        "394468"
+                    ],
+                    "size": 2438548,
+                    "date_published": "2025-06-17T15:53:15.717Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "iris-neoforge-1.8.12+mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/t3ruzodq/iris-neoforge-1.8.12+mc1.21.1.jar",
+                    "id": "t3ruzodq",
+                    "parent_id": "YL57xq9U",
+                    "hashes": {
+                        "sha512": "57b8026a3c3c433cf6123d63dc6ce7e11f6d480a72926370db1fc7f2b06059bc16a753ecd7e7af659c19e90b592103196b0e89585ce4f0744a4ca433f59bcf1a",
+                        "sha1": "a3e6355915c7d3b2bc392724795113e51d289378"
+                    },
+                    "required_dependencies": [
+                        "AANobbMI"
+                    ],
+                    "size": 2438548,
+                    "date_published": "2025-06-17T15:51:56.477905Z"
                 }
             ]
         },
