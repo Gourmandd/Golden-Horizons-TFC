@@ -38,14 +38,13 @@ LootJS.modifiers(event => {
         "tfc:dog": "pastel:wolf_head"
     }
 
-
     Object.keys(ENTITY_MOB_HEAD_LOOT).forEach(entity => {
         event.addEntityModifier(entity)
-            .randomChanceWithEnchantment("pastel:treasure_hunter", [0, CHANCE_1, CHANCE_2, CHANCE_3])
-            .addLoot(ENTITY_MOB_HEAD_LOOT[entity])
+            .addLoot(
+                LootEntry.of(ENTITY_MOB_HEAD_LOOT[entity])
+                .randomChanceWithEnchantment("pastel:treasure_hunter",[0, 0.33, 0.66, 1.0])
+            ) 
     })
-
-
 
     let MOB_VARIANT_HEAD_LOOT = {
         "red": {"type": "tfc:fox", "head": "pastel:fox_head", "nbt": "Type"},
@@ -64,7 +63,7 @@ LootJS.modifiers(event => {
 
         event.addEntityModifier(ID)
             .matchEntityCustom((entity) => entity.getNbt().get(NBTkey) == variant)
-            .randomChanceWithEnchantment("pastel:treasure_hunter", [0, CHANCE_1, CHANCE_2, CHANCE_3])
+            .randomChanceWithEnchantment("pastel:treasure_hunter", [CHANCE_1, CHANCE_2, CHANCE_3])
             .addLoot(head)
     })
 
