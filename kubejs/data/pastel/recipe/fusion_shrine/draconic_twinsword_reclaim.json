@@ -1,46 +1,44 @@
 {
-    "type": "pastel:fusion_shrine",
-    "time": 1200,
-    "experience": 16.0,
-    "fluid": {
-        "fluid": "minecraft:water"
+  "type": "pastel:fusion_shrine",
+  "time": 1200,
+  "experience": 16.0,
+  "fluid": {
+    "fluid": "minecraft:water"
+  },
+  "copy_components": true,
+  "ingredients": [
+    "pastel:dragon_talon",
+    "tfc:metal/sword/black_steel",
+    {
+      "item": "tfc:metal/ingot/gold",
+      "count": 4
     },
-    "copy_nbt": true,
-    "ingredients": [
-        {
-            "item": "pastel:dragon_talon"
-        },
-        {
-            "item": "tfc:metal/sword/black_steel"
-        },
-        {
-            "item": "tfc:metal/ingot/gold",
-            "count": 4
-        },
-        {
-            "item": "minecraft:quartz",
-            "count": 4
-        },
-        {
-            "item": "pastel:moonstruck_nectar",
-            "count": 8
-        },
-        {
-            "item": "pastel:yellow_pigment",
-            "count": 2
-        }
-    ],
-    "result": {
-        "id": "pastel:draconic_twinsword"
+    {
+      "item": "minecraft:quartz",
+      "count": 4
     },
-    "required_advancement": "pastel:unlocks/equipment/draconic_twinsword",
-    "world_conditions": [],
-    "start_crafting_effect": "single_visual_explosion_on_shrine",
-    "during_crafting_effects": [
-        "nothing",
-        "visual_explosions_on_shrine",
-        "nothing"
-    ],
-    "finish_crafting_effect": "legendary_tool_craft",
-    "description": "pastel.recipe.fusion_shrine.explanation.draconic_twinsword_reclaim"
+    {
+      "item": "pastel:moonstruck_nectar",
+      "count": 8
+    },
+    {
+      "item": "pastel:yellow_pigment",
+      "count": 2
+    }
+  ],
+  "result": {
+    "id": "pastel:draconic_twinsword"
+  },
+  "required_advancement": "pastel:unlocks/equipment/draconic_twinsword",
+  "start_crafting_effect": "single_visual_explosion_on_shrine",
+  "during_crafting_effects": [
+    "nothing",
+    "visual_explosions_on_shrine",
+    "nothing"
+  ],
+  "finish_crafting_effect": "legendary_tool_craft",
+  "description": {
+    "type": "translatable",
+    "translate": "pastel.recipe.fusion_shrine.explanation.draconic_twinsword_reclaim"
+  }
 }
