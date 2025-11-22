@@ -594,6 +594,44 @@
             ]
         },
         {
+            "pakku_id": "mBZe7T4lf6jtZgLN",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "astikorcarts-redux"
+            },
+            "name": {
+                "modrinth": "AstikorCarts Redux"
+            },
+            "id": {
+                "modrinth": "mnLFouB0"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "astikorcartsredux-1.2.2.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/mnLFouB0/versions/6t5FXuOX/astikorcartsredux-1.2.2.jar",
+                    "id": "6t5FXuOX",
+                    "parent_id": "mnLFouB0",
+                    "hashes": {
+                        "sha512": "c3cbee867aa4ef73606105247c9c1106dfcb7d3e9f6bf387f3285ba1425f9d9966beb335fc01c8d314a56251933dcc712384eb4b6953fa948a0191b915f5e9ea",
+                        "sha1": "a120524992f6010de34a5f36f8789d7ab95f99db"
+                    },
+                    "required_dependencies": [],
+                    "size": 531765,
+                    "date_published": "2025-09-05T21:17:37.748956Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "xqF4MtZvf1uhyMHk",
             "type": "MOD",
             "side": "SERVER",
@@ -6334,6 +6372,79 @@
                     "required_dependencies": [],
                     "size": 62864,
                     "date_published": "2024-08-16T10:52:32.904324Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "ZQysDK6DqerIpdhB",
+            "pakku_links": [
+                "B9rCrTdjB1Frl92q",
+                "mBZe7T4lf6jtZgLN"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "tfc-astikor-carts",
+                "curseforge": "astikor-carts-tfc"
+            },
+            "name": {
+                "modrinth": "TFC Astikor Carts",
+                "curseforge": "Astikor Carts TFC"
+            },
+            "id": {
+                "modrinth": "Q7dNt3PU",
+                "curseforge": "844019"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "TFCAstikorCarts-1.21-1.2.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/Q7dNt3PU/versions/Ow2rFft9/TFCAstikorCarts-1.21-1.2.1.jar",
+                    "id": "Ow2rFft9",
+                    "parent_id": "Q7dNt3PU",
+                    "hashes": {
+                        "sha512": "92a6a2f6d2f99221f8d7955d28402a3aa4a0c83112abff62e8681d142a50f3a730f9fcaea967a83c06b2f906eaed9354857b31e6897d43ee7fdcabfde2d444ac",
+                        "sha1": "9cc97dd51556df05d46143a23eb443fef61d4955"
+                    },
+                    "required_dependencies": [
+                        "JaCEZUhg",
+                        "mnLFouB0"
+                    ],
+                    "size": 654884,
+                    "date_published": "2025-11-12T00:21:07.636008Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "TFCAstikorCarts-1.21-1.2.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7212/672/TFCAstikorCarts-1.21-1.2.1.jar",
+                    "id": "7212672",
+                    "parent_id": "844019",
+                    "hashes": {
+                        "sha1": "9cc97dd51556df05d46143a23eb443fef61d4955",
+                        "md5": "ece9e04e771bfeac84cbef359bd034fa"
+                    },
+                    "required_dependencies": [
+                        "302973",
+                        "916493"
+                    ],
+                    "size": 654884,
+                    "date_published": "2025-11-12T00:16:23.827Z"
                 }
             ]
         },
