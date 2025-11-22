@@ -1,0 +1,3 @@
+#How much gameplay altering debug information should be hidden
+#Allowed Values: NONE, COORDINATES, COORDINATES_AND_ROTATION, ALL
+reduced_debug_level = "NONE"

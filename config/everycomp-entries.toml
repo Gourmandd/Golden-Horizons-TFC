@@ -48,6 +48,25 @@
 			yellow = true
 			weeping_gala = true
 
+		[types.wood_type.afc]
+			baobab = true
+			eucalyptus = true
+			mahogany = true
+			hevea = true
+			tualang = true
+			teak = true
+			cypress = true
+			fig = true
+			ironwood = true
+			ipe = true
+			araucaria = true
+			beech = true
+			ginkgo = true
+			mahoe = true
+
+		[types.wood_type.burningblock]
+			burnt = true
+
 		[types.leaves_type.caupona]
 			walnut = true
 			fig = true

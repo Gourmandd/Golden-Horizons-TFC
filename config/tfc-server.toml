@@ -207,7 +207,7 @@
 		# Range: > 1
 		crucibleFastPouringRate = 1
 		#
-		# If true, barrels will interact with in-world automation such as hoppers on a side-specific basis.
+		# If true, crucibles will interact with in-world automation such as hoppers on a side-specific basis.
 		crucibleEnableAutomation = true
 
 	[blocks.anvil]
@@ -562,6 +562,21 @@
 		# Default: 144000
 		# Range: > 0
 		bananaSaplingGrowthTicks = 144000
+		#
+		# Ticks required between fruit branch growth steps
+		# Default: 120000
+		# Range: > 0
+		fruitBranchGrowthTicks = 120000
+		#
+		# Ticks required between berry bush growth steps
+		# Default: 96000
+		# Range: > 0
+		bananaPlantGrowthTicks = 96000
+		#
+		# Ticks required for fruit blocks to bloom after being placed/picked
+		# Default: 240000
+		# Range: > 0
+		fruitPickBloomDelayTicks = 240000
 
 	[blocks.crops]
 		#
@@ -589,6 +604,11 @@
 		#
 		# If true, fire pits will interact with in-world automation such as hoppers on a side-specific basis.
 		firePitEnableAutomation = true
+
+	[blocks.firebox]
+		#
+		# If true, fireboxes will interact with in-world automation such as hoppers or comparators
+		fireboxEnableAutomation = true
 
 	[items.smallVessel]
 		#
