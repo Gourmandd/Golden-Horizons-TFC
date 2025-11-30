@@ -40,6 +40,7 @@
 /config/emi.css
 /config/fancymenu/options.txt
 /config/fancymenu/assets/version.txt
+/kubejs/config/web_server.json
 
 #game should generate this since no edits but its commented to make sure everything is the same
 #kubejs/jsconfig.json
