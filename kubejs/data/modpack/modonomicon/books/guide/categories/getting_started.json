@@ -10,7 +10,7 @@
     "texture": "minecraft:textures/item/book.png",
     "width": 16
   },
-  "name": "book.modpack.guide.general.name",
+  "name": "book.modpack.guide.getting_started.name",
   "show_category_button": true,
   "sort_number": -1
 }

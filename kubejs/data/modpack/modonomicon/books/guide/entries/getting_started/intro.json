@@ -1,23 +1,23 @@
 {
 	"background_u_index": 0,
 	"background_v_index": 0,
-	"category": "modpack:general",
-	"description": "book.modpack.guide.general.intro.description",
+	"category": "modpack:getting_started",
+	"description": "book.modpack.guide.getting_started.intro.description",
 	"hide_while_locked": true,
 	"icon": {
 		"height": 16,
 		"texture": "minecraft:textures/item/nether_star.png",
 		"width": 16
 	},
-	"name": "book.modpack.guide.general.intro.name",
+	"name": "book.modpack.guide.getting_started.intro.name",
 	"pages": [
 		{
 			"type": "modonomicon:text",
 			"anchor": "",
 			"use_markdown_title": false,
 			"show_title_separator": true,
-			"text": "book.modpack.guide.general.intro.page1.text",
-			"title": "book.modpack.guide.general.intro.page1.title"
+			"text": "book.modpack.guide.getting_started.intro.page1.text",
+			"title": "book.modpack.guide.getting_started.intro.page1.title"
 		}
 	],
 	"show_when_any_parent_unlocked": false,

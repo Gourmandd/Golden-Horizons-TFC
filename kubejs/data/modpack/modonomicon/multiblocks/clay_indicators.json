@@ -15,7 +15,7 @@
   "mapping": {
     "G":  {
       "type": "modonomicon:block",
-      "block": "tfc:clay_grass/loam"
+      "block": "tfc:clay_grass/entisol"
     },
     "0":  {
       "type": "modonomicon:block",
