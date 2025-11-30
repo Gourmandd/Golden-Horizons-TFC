@@ -7,12 +7,12 @@
 
 // should switch to using a global
 //global.nameProcessing = (name) =>
-function nameProcessing(name){
-  name = name.replace("_", " ")
-  name = name.replace("_", " ")
-  name = name.replace(/(^\w|\s\w)/g, m => m.toUpperCase())
-  //console.log(name)
-  return name
+function nameProcessing(name) {
+    name = name.replace("_", " ")
+    name = name.replace("_", " ")
+    name = name.replace(/(^\w|\s\w)/g, m => m.toUpperCase())
+    //console.log(name)
+    return name
 }
 
 global.NAMESPACE = "modpack"
@@ -42,7 +42,7 @@ global.CROPS = [
     "melon",
     "red_bell_pepper",
     "yellow_bell_pepper"
-  ]
+]
 
 global.CROP_PRODUCTS = {
     "barley": ["item:tfc:food/barley"],
@@ -68,7 +68,7 @@ global.CROP_PRODUCTS = {
     "melon": ["item:tfc:food/melon_slice"],
     "red_bell_pepper": ["item:tfc:food/red_bell_pepper"],
     "yellow_bell_pepper": ["item:tfc:food/yellow_bell_pepper"]
-  }
+}
 
 global.ROCK_TYPES = [
     "granite",
@@ -92,48 +92,48 @@ global.ROCK_TYPES = [
     "gneiss",
     "marble",
     "tuff"
-  ]
+]
 
 global.SEDIMENTARY_ROCKS = [
-  "shale",
-  "claystone",
-  "limestone",
-  "conglomerate",
-  "dolomite",
-  "chert",
-  "chalk",
-  "tuff"
+    "shale",
+    "claystone",
+    "limestone",
+    "conglomerate",
+    "dolomite",
+    "chert",
+    "chalk",
+    "tuff"
 ]
 
 global.METAMORPHIC_ROCKS = [
-  "quartzite",
-  "slate",
-  "phyllite",
-  "schist",
-  "gneiss",
-  "marble"
+    "quartzite",
+    "slate",
+    "phyllite",
+    "schist",
+    "gneiss",
+    "marble"
 ]
 
 global.IGNEOUS_EXTRUSIVE_ROCKS = [
-  "rhyolite",
-  "basalt",
-  "andesite",
-  "dacite",
+    "rhyolite",
+    "basalt",
+    "andesite",
+    "dacite",
 ]
 
 global.IGNEOUS_INTRUSIVE_ROCKS = [
-  "granite",
-  "diorite",
-  "gabbro",
+    "granite",
+    "diorite",
+    "gabbro",
 ]
 
 global.FLUXSTONES = [
-    "item:tfc:ore/borax","item:tfc:powder/flux","item:tfc:food/shellfish","item:tfc:groundcover/mollusk",
-    "item:tfc:groundcover/clam","item:minecraft:scute","item:tfc:groundcover/mussel","item:tfc:groundcover/sea_urchin",
-    "item:tfc:rock/loose/limestone","item:tfc:rock/loose/dolomite","item:tfc:rock/loose/marble",
-    "item:tfc:rock/mossy_loose/limestone", "item:tfc:rock/mossy_loose/dolomite","item:tfc:rock/mossy_loose/marble",
+    "item:tfc:ore/borax", "item:tfc:powder/flux", "item:tfc:food/shellfish", "item:tfc:groundcover/mollusk",
+    "item:tfc:groundcover/clam", "item:minecraft:scute", "item:tfc:groundcover/mussel", "item:tfc:groundcover/sea_urchin",
+    "item:tfc:rock/loose/limestone", "item:tfc:rock/loose/dolomite", "item:tfc:rock/loose/marble",
+    "item:tfc:rock/mossy_loose/limestone", "item:tfc:rock/mossy_loose/dolomite", "item:tfc:rock/mossy_loose/marble",
     "item:minecraft:nautilus_shell"
-  ]
+]
 
 global.TFC_GEMS = [
     "amethyst",
@@ -145,7 +145,7 @@ global.TFC_GEMS = [
     "ruby",
     "sapphire",
     "topaz",
-  ]
+]
 
 global.TFC_WOOD_TYPES = [
     "acacia",
@@ -168,7 +168,7 @@ global.TFC_WOOD_TYPES = [
     "sycamore",
     "white_cedar",
     "willow"
-  ]
+]
 
 global.AFC_WOOD_TYPES = [
     "baobab",
@@ -214,7 +214,7 @@ global.OVERWORLD_WOOD_TYPES = [
     "fig",
     "ironwood",
     "ipe"
-  ]
+]
 
 global.WOOD_TYPE_TO_MOD = {
     "acacia": "tfc",
@@ -264,21 +264,21 @@ global.BUSH_PRODUCTS = {
     "cranberry": ["item:tfc:food/cranberry"],
     "pineapple": ["item:firmalife:food/pineapple"],
     "nightshade": ["item:firmalife:food/nightshade_berry"]
-  }
+}
 
 global.FRUIT_TREE_PRODUCTS = {
-  "cherry": ["item:tfc:food/cherry"],
-  "green_apple": ["item:tfc:food/green_apple"],
-  "red_apple": ["item:tfc:food/red_apple"],
-  "lemon": ["item:tfc:food/lemon"],
-  "olive": ["item:tfc:food/olive"],
-  "orange": ["item:tfc:food/orange"],
-  "peach": ["item:tfc:food/peach"],
-  "plum": ["item:tfc:food/plum"],
-  "banana": ["item:tfc:food/banana"],
-  "cocoa": ["item:firmalife:food/cocoa_beans"],
-  "fig": ["item:firmalife:food/fig"]
-  }
+    "cherry": ["item:tfc:food/cherry"],
+    "green_apple": ["item:tfc:food/green_apple"],
+    "red_apple": ["item:tfc:food/red_apple"],
+    "lemon": ["item:tfc:food/lemon"],
+    "olive": ["item:tfc:food/olive"],
+    "orange": ["item:tfc:food/orange"],
+    "peach": ["item:tfc:food/peach"],
+    "plum": ["item:tfc:food/plum"],
+    "banana": ["item:tfc:food/banana"],
+    "cocoa": ["item:firmalife:food/cocoa_beans"],
+    "fig": ["item:firmalife:food/fig"]
+}
 
 global.TFC_BUSHES = [
     "blackberry",
@@ -292,12 +292,12 @@ global.TFC_BUSHES = [
     "strawberry",
     "wintergreen_berry",
     "cranberry"
-  ]
+]
 
 global.FIRMALIFE_BUSHES = [
     "pineapple",
     "nightshade"
-  ]
+]
 
 global.TFC_FRUIT_TREES = [
     "cherry",
@@ -309,17 +309,17 @@ global.TFC_FRUIT_TREES = [
     "peach",
     "plum",
     "banana"
-  ]
-  
+]
+
 global.FIRMALIFE_FRUIT_TREES = [
     "cocoa",
     "fig"
-  ]
-  
+]
+
 global.FIRMALIFE_GRAPES = [
     "red",
     "white"
-  ]
+]
 
 
 global.TFC_METALS = [
@@ -328,7 +328,7 @@ global.TFC_METALS = [
     "black_bronze",
     "black_steel",
     "blue_steel",
-    "red_steel", 
+    "red_steel",
     "brass",
     "cast_iron",
     "bronze",
@@ -342,17 +342,17 @@ global.TFC_METALS = [
     "tin",
     "wrought_iron",
     "zinc"
-  ]
+]
 
 global.FIRMALIFE_METALS = [
     "chromium",
     "stainless_steel"
-  ]
+]
 
 global.OTHER_METALS = [
     "electrum",
     "unknown"
-  ]
+]
 
 global.KUBEJS_METALS = [
     "aluminium",
@@ -360,145 +360,145 @@ global.KUBEJS_METALS = [
     "cast_iron_alloy",
     "harderned_steel",
     "nethersteel",
-  ]
+]
 
 global.METAL_FLUIDS = {
-  "aluminium":"kubejs:aluminium",
-  "aluminium_bronze":"createbigcannons:molten_bronze",
-  "harderned_steel":"createbigcannons:molten_steel",
-  "cast_iron_alloy":"createbigcannons:molten_cast_iron",
-  "nethersteel":"createbigcannons:molten_nethersteel",
-  "electrum": "kubejs:electrum"
+    "aluminium": "kubejs:aluminium",
+    "aluminium_bronze": "createbigcannons:molten_bronze",
+    "harderned_steel": "createbigcannons:molten_steel",
+    "cast_iron_alloy": "createbigcannons:molten_cast_iron",
+    "nethersteel": "createbigcannons:molten_nethersteel",
+    "electrum": "kubejs:electrum"
 }
 
 global.CUSTOM_CLAY_TYPES = [
-  "kaolinite",
-  "yixing",
-  "yellowware",
-  "earthenware",
-  "porcelain"
+    "kaolinite",
+    "yixing",
+    "yellowware",
+    "earthenware",
+    "porcelain"
 ]
 
 global.TFC_TOOL_TYPES = [
-  "pickaxe",
-  "axe",
-  "propick",
-  "shovel",
-  "hoe",
-  "chisel",
-  "hammer",
-  "saw",
-  "javelin",
-  "scythe",
-  "knife",
-  "sword",
-  "mace"
+    "pickaxe",
+    "axe",
+    "propick",
+    "shovel",
+    "hoe",
+    "chisel",
+    "hammer",
+    "saw",
+    "javelin",
+    "scythe",
+    "knife",
+    "sword",
+    "mace"
 ]
 
 global.TFC_TOOL_HEADS = {
-  "pickaxe": "head",
-  "axe": "head",
-  "propick": "head",
-  "shovel": "head",
-  "hoe": "head",
-  "chisel": "head",
-  "hammer": "head",
-  "saw": "blade",
-  "javelin": "head",
-  "scythe": "blade",
-  "knife": "blade",
-  "sword": "blade",
-  "mace": "head",
+    "pickaxe": "head",
+    "axe": "head",
+    "propick": "head",
+    "shovel": "head",
+    "hoe": "head",
+    "chisel": "head",
+    "hammer": "head",
+    "saw": "blade",
+    "javelin": "head",
+    "scythe": "blade",
+    "knife": "blade",
+    "sword": "blade",
+    "mace": "head",
 }
 
 global.DYE_COLOURS = [
-  "white",
-  "brown",
-  "green",
-  "orange",
-  "magenta",
-  "red",
-  "black",
-  "light_blue",
-  "yellow",
-  "lime",
-  "pink",
-  "gray",
-  "light_gray",
-  "cyan",
-  "purple",
-  "blue",
+    "white",
+    "brown",
+    "green",
+    "orange",
+    "magenta",
+    "red",
+    "black",
+    "light_blue",
+    "yellow",
+    "lime",
+    "pink",
+    "gray",
+    "light_gray",
+    "cyan",
+    "purple",
+    "blue",
 ]
 
 global.COLOUR_TO_HEX = {
-  "blue": 0xCDD7FC,
-  "red": 0xE29F9F,
-  "white": 0xEEF8FA,
-  "light_gray": 0xCDD2DA,
-  "gray": 0x92959B,
-  "black": 0x383A3D,
-  "brown": 0x8D6B55,
-  "orange": 0xFBAB60,
-  "yellow": 0xFFF189,
-  "lime": 0xBBF378,
-  "green": 0x5AA256,
-  "cyan": 0x92C9BB,
-  "light_blue": 0xA3D8DF,
-  "purple": 0xA884E1,
-  "magenta": 0xC684E1,
-  "pink": 0xF2A4E0,
+    "blue": 0xCDD7FC,
+    "red": 0xE29F9F,
+    "white": 0xEEF8FA,
+    "light_gray": 0xCDD2DA,
+    "gray": 0x92959B,
+    "black": 0x383A3D,
+    "brown": 0x8D6B55,
+    "orange": 0xFBAB60,
+    "yellow": 0xFFF189,
+    "lime": 0xBBF378,
+    "green": 0x5AA256,
+    "cyan": 0x92C9BB,
+    "light_blue": 0xA3D8DF,
+    "purple": 0xA884E1,
+    "magenta": 0xC684E1,
+    "pink": 0xF2A4E0,
 }
 
 global.TOOL_METALS = [
-  "bronze",
-  "bismuth_bronze",
-  "black_bronze",
-  "copper",
-  "wrought_iron",
-  "steel",
-  "black_steel",
-  "red_steel",
-  "blue_steel"
+    "bronze",
+    "bismuth_bronze",
+    "black_bronze",
+    "copper",
+    "wrought_iron",
+    "steel",
+    "black_steel",
+    "red_steel",
+    "blue_steel"
 ]
 
 global.CASTABLE_METALS = [
-  "bronze",
-  "bismuth_bronze",
-  "black_bronze",
-  "copper"
+    "bronze",
+    "bismuth_bronze",
+    "black_bronze",
+    "copper"
 ]
 
 global.MELTING_POINTS = {
-  "bismuth": 270,
-  "bismuth_bronze": 985,
-  "black_bronze": 1070,
-  "black_steel": 1485,
-  "blue_steel": 1540,
-  "red_steel": 1540, 
-  "brass": 930,
-  "cast_iron": 1535,
-  "bronze": 950,
-  "copper": 1080,
-  "gold": 1060,
-  "nickel": 1453,
-  "rose_gold": 960,
-  "silver": 961,
-  "steel": 1540,
-  "sterling_silver": 950,
-  "tin": 230,
-  "unknown": 400,
-  "wrought_iron": 1535,
-  "zinc": 420,
-  "chromium": 1250,
-  "stainless_steel": 1540,
-  "aluminium": 780,
-  "aluminium_bronze": 1180,
-  "cast_iron_alloy": 1535,
-  "harderned_steel": 1585,
-  "nethersteel": 1615,
-  "electrum": 1060,
-  "pig_iron": 1535,
-  "glass": 1070,
+    "bismuth": 270,
+    "bismuth_bronze": 985,
+    "black_bronze": 1070,
+    "black_steel": 1485,
+    "blue_steel": 1540,
+    "red_steel": 1540,
+    "brass": 930,
+    "cast_iron": 1535,
+    "bronze": 950,
+    "copper": 1080,
+    "gold": 1060,
+    "nickel": 1453,
+    "rose_gold": 960,
+    "silver": 961,
+    "steel": 1540,
+    "sterling_silver": 950,
+    "tin": 230,
+    "unknown": 400,
+    "wrought_iron": 1535,
+    "zinc": 420,
+    "chromium": 1250,
+    "stainless_steel": 1540,
+    "aluminium": 780,
+    "aluminium_bronze": 1180,
+    "cast_iron_alloy": 1535,
+    "harderned_steel": 1585,
+    "nethersteel": 1615,
+    "electrum": 1060,
+    "pig_iron": 1535,
+    "glass": 1070,
 }
 
 global.CAUPONA_ASPICS = [
@@ -532,298 +532,310 @@ global.TFC_MAKES_DYE_TAGS = [
 ]
 
 global.TFC_FLOUR_TYPES = [
-  "barley",
-  "maize",
-  "rye",
-  "rice",
-  "oat",
-  "wheat"
+    "barley",
+    "maize",
+    "rye",
+    "rice",
+    "oat",
+    "wheat"
 ]
 
 global.ORE_GRADES = [
-  "normal",
-  "poor",
-  "rich",
-  "small"
+    "normal",
+    "poor",
+    "rich",
+    "small"
 ]
 
 global.ORE_BLOCK_GRADES = [
-  "normal",
-  "poor",
-  "rich"
+    "normal",
+    "poor",
+    "rich"
 ]
 
 global.RAW_METALS = [
-  "bismuth",
-  "tin",
-  "nickel",
-  "chromium",
-  "cast_iron",
-  "copper",
-  "gold",
-  "silver",
-  "zinc"
+    "bismuth",
+    "tin",
+    "nickel",
+    "chromium",
+    "cast_iron",
+    "copper",
+    "gold",
+    "silver",
+    "zinc"
 ]
 
 global.RAW_METALS_ORES = {
-  "bismuth": "bismuthinite",
-  "tin": "cassiterite",
-  "nickel": "garnierite",
-  "chromium": "chromite",
-  "cast_iron": ["hematite", "limonite", "magnetite"],
-  "copper": ["malachite", "native_copper", "tetrahedrite"],
-  "gold": "native_gold",
-  "silver": "native_silver",
-  "zinc": "sphalerite"
+    "bismuth": "bismuthinite",
+    "tin": "cassiterite",
+    "nickel": "garnierite",
+    "chromium": "chromite",
+    "cast_iron": ["hematite", "limonite", "magnetite"],
+    "copper": ["malachite", "native_copper", "tetrahedrite"],
+    "gold": "native_gold",
+    "silver": "native_silver",
+    "zinc": "sphalerite"
 }
 
 global.ORE_TO_METAL = {
-  "bismuthinite": "bismuth",
-  "cassiterite": "tin",
-  "garnierite": "nickel",
-  "chromite": "chromium",
-  "hematite": "cast_iron",
-  "limonite": "cast_iron",
-  "magnetite": "cast_iron",
-  "malachite": "copper",
-  "native_copper": "copper",
-  "tetrahedrite": "copper",
-  "native_gold": "gold",
-  "native_silver": "silver",
-  "sphalerite": "zinc",
+    "bismuthinite": "bismuth",
+    "cassiterite": "tin",
+    "garnierite": "nickel",
+    "chromite": "chromium",
+    "hematite": "cast_iron",
+    "limonite": "cast_iron",
+    "magnetite": "cast_iron",
+    "malachite": "copper",
+    "native_copper": "copper",
+    "tetrahedrite": "copper",
+    "native_gold": "gold",
+    "native_silver": "silver",
+    "sphalerite": "zinc",
 }
 
 global.TFC_ORES = [
-  "bismuthinite",
-  "cassiterite",
-  "garnierite",
-  "hematite",
-  "limonite",
-  "magnetite",
-  "malachite",
-  "native_copper",
-  "tetrahedrite",
-  "native_gold",
-  "native_silver",
-  "sphalerite",
+    "bismuthinite",
+    "cassiterite",
+    "garnierite",
+    "hematite",
+    "limonite",
+    "magnetite",
+    "malachite",
+    "native_copper",
+    "tetrahedrite",
+    "native_gold",
+    "native_silver",
+    "sphalerite",
 ]
 
 global.FIRMALIFE_ORES = [
-  "chromite",
+    "chromite",
 ]
 
 global.ORE_MINING_TIERS = {
-  "bismuthinite": "tfc:needs_copper_tool",
-  "cassiterite": "tfc:needs_copper_tool",
-  "garnierite": "tfc:bronze_tool",
-  "chromite": "tfc:needs_copper_tool",
-  "hematite": "tfc:needs_copper_tool",
-  "limonite": "tfc:needs_copper_tool",
-  "magnetite": "tfc:needs_copper_tool",
-  "malachite": "tfc:needs_copper_tool",
-  "native_copper": "tfc:needs_copper_tool",
-  "tetrahedrite": "tfc:needs_copper_tool",
-  "native_gold": "tfc:needs_copper_tool",
-  "native_silver": "tfc:needs_copper_tool",
-  "sphalerite": "tfc:needs_copper_tool",
-  "amethyst": "tfc:needs_steel_tool",
-  "diamond": "tfc:needs_black_steel_tool",
-  "emerald": "tfc:needs_steel_tool",
-  "lapis_lazuli": "tfc:needs_bronze_tool",
-  "opal": "tfc:needs_bronze_tool",
-  "pyrite": "tfc:needs_copper_tool",
-  "ruby": "tfc:needs_black_steel_tool",
-  "sapphire": "tfc:needs_black_steel_tool",
-  "topaz": "tfc:needs_steel_tool",
-  "sylvite": "tfc:needs_copper_tool",
-  "saltpeter": "tfc:needs_copper_tool",
-  "halite": "tfc:needs_bronze_tool",
-  "cryolite": "tfc:needs_bronze_tool",
-  "cinnabar": "tfc:needs_bronze_tool",
-  "sulfur": "tfc:needs_copper_tool",
-  "graphite": "tfc:needs_copper_tool",
-  "lignite": "tfc:needs_copper_tool",
-  "bituminous_coal": "tfc:needs_copper_tool",
-  "gypsum": "tfc:needs_copper_tool",
-  "borax": "tfc:needs_copper_tool",
-  "shimmerstone": "tfc:needs_copper_tool",
-  "azurite": "tfc:needs_steel_tool",
-  "stratine": "tfc:needs_steel_tool",
-  "paltaeria": "tfc:needs_black_steel_tool",
-  "malachite": "tfc:needs_steel_tool",
+    "bismuthinite": "tfc:needs_copper_tool",
+    "cassiterite": "tfc:needs_copper_tool",
+    "garnierite": "tfc:bronze_tool",
+    "chromite": "tfc:needs_copper_tool",
+    "hematite": "tfc:needs_copper_tool",
+    "limonite": "tfc:needs_copper_tool",
+    "magnetite": "tfc:needs_copper_tool",
+    "malachite": "tfc:needs_copper_tool",
+    "native_copper": "tfc:needs_copper_tool",
+    "tetrahedrite": "tfc:needs_copper_tool",
+    "native_gold": "tfc:needs_copper_tool",
+    "native_silver": "tfc:needs_copper_tool",
+    "sphalerite": "tfc:needs_copper_tool",
+    "amethyst": "tfc:needs_steel_tool",
+    "diamond": "tfc:needs_black_steel_tool",
+    "emerald": "tfc:needs_steel_tool",
+    "lapis_lazuli": "tfc:needs_bronze_tool",
+    "opal": "tfc:needs_bronze_tool",
+    "pyrite": "tfc:needs_copper_tool",
+    "ruby": "tfc:needs_black_steel_tool",
+    "sapphire": "tfc:needs_black_steel_tool",
+    "topaz": "tfc:needs_steel_tool",
+    "sylvite": "tfc:needs_copper_tool",
+    "saltpeter": "tfc:needs_copper_tool",
+    "halite": "tfc:needs_bronze_tool",
+    "cryolite": "tfc:needs_bronze_tool",
+    "cinnabar": "tfc:needs_bronze_tool",
+    "sulfur": "tfc:needs_copper_tool",
+    "graphite": "tfc:needs_copper_tool",
+    "lignite": "tfc:needs_copper_tool",
+    "bituminous_coal": "tfc:needs_copper_tool",
+    "gypsum": "tfc:needs_copper_tool",
+    "borax": "tfc:needs_copper_tool",
+    "shimmerstone": "tfc:needs_copper_tool",
+    "azurite": "tfc:needs_steel_tool",
+    "stratine": "tfc:needs_steel_tool",
+    "paltaeria": "tfc:needs_black_steel_tool",
+    "malachite": "tfc:needs_steel_tool",
 }
 
 global.TFC_MINERALS = [
-  "sylvite",
-  "saltpeter",
-  "halite",
-  "cryolite",
-  "cinnabar",
-  "sulfur",
-  "graphite",
-  "lignite",
-  "bituminous_coal",
-  "gypsum",
-  "borax",
+    "sylvite",
+    "saltpeter",
+    "halite",
+    "cryolite",
+    "cinnabar",
+    "sulfur",
+    "graphite",
+    "lignite",
+    "bituminous_coal",
+    "gypsum",
+    "borax",
 ]
+
+global.TFC_MINERAL_ORES = [
+    "sylvite",
+    "saltpeter",
+    "cryolite",
+    "cinnabar",
+    "sulfur",
+    "graphite",
+    "gypsum",
+    "borax",
+]
+
 global.TFC_SAND_COLOURS = [
-  "black",
-  "brown",
-  "green",
-  "pink",
-  "white",
-  "yellow",
-  "red"
+    "black",
+    "brown",
+    "green",
+    "pink",
+    "white",
+    "yellow",
+    "red"
 ]
 
 global.TFC_ROCKS_TO_SAND_COLOURS = {
-  "granite": "pink",
-  "diorite": "black",
-  "gabbro": "brown",
-  "shale": "yellow",
-  "claystone": "brown",
-  "limestone": "yellow",
-  "conglomerate": "brown",
-  "dolomite": "black",
-  "chert": "red",
-  "chalk": "white",
-  "rhyolite": "black",
-  "basalt": "black",
-  "andesite": "brown",
-  "dacite": "black",
-  "quartzite": "pink",
-  "slate": "yellow",
-  "phyllite": "green",
-  "schist": "green",
-  "gneiss": "green",
-  "marble": "white"
+    "granite": "pink",
+    "diorite": "black",
+    "gabbro": "brown",
+    "shale": "yellow",
+    "claystone": "brown",
+    "limestone": "yellow",
+    "conglomerate": "brown",
+    "dolomite": "black",
+    "chert": "red",
+    "chalk": "white",
+    "rhyolite": "black",
+    "basalt": "black",
+    "andesite": "brown",
+    "dacite": "black",
+    "quartzite": "pink",
+    "slate": "yellow",
+    "phyllite": "green",
+    "schist": "green",
+    "gneiss": "green",
+    "marble": "white"
 }
 
 global.TFC_SOIL_TYPES = [
-  "entisol",
-  "aridisol",
-  "oxisol",
-  "fluvisol",
-  "andisol",
-  "podzol",
-  "alfisol",
-  "mollisol"
+    "entisol",
+    "aridisol",
+    "oxisol",
+    "fluvisol",
+    "andisol",
+    "podzol",
+    "alfisol",
+    "mollisol"
 ]
 
 // These are Spectrum ores that will be integrated into TFC worldgen
 global.SPECTRUM_OVERWORLD_ORES = [
-  "shimmerstone",
-  "azurite",
-  "stratine",
-  "paltaeria"
+    "shimmerstone",
+    "azurite",
+    "stratine",
+    "paltaeria"
 ]
 
 // Deeper Down unique ores
 global.SPECTRUM_DEEPER_DOWN_ORES = [
-  "malachite"
+    "malachite"
 ]
 
 global.DEEPER_DOWN_ROCK_TYPES = [
-  "argillite",
-  "nephelinite",
-  "blackslag",
-  "travertine",
-  "picrite_basalt",
+    "argillite",
+    "nephelinite",
+    "blackslag",
+    "travertine",
+    "picrite_basalt",
 ]
 
 global.STONE_TO_COBBLESTONE = {
-  "argillite": "kubejs:rock/cobble/argillite",
-  "nephelinite": "kubejs:rock/cobble/nephelinite",
-  "blackslag": "kubejs:rock/cobble/blackslag",
-  "travertine": "kubejs:rock/cobble/travertine",
-  "picrite_basalt": "kubejs:rock/cobble/picrite_basalt",
-  "granite": "tfc:rock/cobble/granite",
-  "diorite": "tfc:rock/cobble/diorite",
-  "gabbro": "tfc:rock/cobble/gabbro",
-  "shale": "tfc:rock/cobble/shale",
-  "claystone": "tfc:rock/cobble/claystone",
-  "limestone": "tfc:rock/cobble/limestone",
-  "conglomerate": "tfc:rock/cobble/conglomerate",
-  "dolomite": "tfc:rock/cobble/dolomite",
-  "chert": "tfc:rock/cobble/chert",
-  "chalk": "tfc:rock/cobble/chalk",
-  "rhyolite": "tfc:rock/cobble/rhyolite",
-  "basalt": "tfc:rock/cobble/basalt",
-  "andesite": "tfc:rock/cobble/andesite",
-  "dacite": "tfc:rock/cobble/dacite",
-  "quartzite": "tfc:rock/cobble/quartzite",
-  "slate": "tfc:rock/cobble/slate",
-  "phyllite": "tfc:rock/cobble/phyllite",
-  "schist": "tfc:rock/cobble/schist",
-  "gneiss": "tfc:rock/cobble/gneiss",
-  "marble": "tfc:rock/cobble/marble"
+    "argillite": "kubejs:rock/cobble/argillite",
+    "nephelinite": "kubejs:rock/cobble/nephelinite",
+    "blackslag": "kubejs:rock/cobble/blackslag",
+    "travertine": "kubejs:rock/cobble/travertine",
+    "picrite_basalt": "kubejs:rock/cobble/picrite_basalt",
+    "granite": "tfc:rock/cobble/granite",
+    "diorite": "tfc:rock/cobble/diorite",
+    "gabbro": "tfc:rock/cobble/gabbro",
+    "shale": "tfc:rock/cobble/shale",
+    "claystone": "tfc:rock/cobble/claystone",
+    "limestone": "tfc:rock/cobble/limestone",
+    "conglomerate": "tfc:rock/cobble/conglomerate",
+    "dolomite": "tfc:rock/cobble/dolomite",
+    "chert": "tfc:rock/cobble/chert",
+    "chalk": "tfc:rock/cobble/chalk",
+    "rhyolite": "tfc:rock/cobble/rhyolite",
+    "basalt": "tfc:rock/cobble/basalt",
+    "andesite": "tfc:rock/cobble/andesite",
+    "dacite": "tfc:rock/cobble/dacite",
+    "quartzite": "tfc:rock/cobble/quartzite",
+    "slate": "tfc:rock/cobble/slate",
+    "phyllite": "tfc:rock/cobble/phyllite",
+    "schist": "tfc:rock/cobble/schist",
+    "gneiss": "tfc:rock/cobble/gneiss",
+    "marble": "tfc:rock/cobble/marble"
 }
 
 global.STONE_TO_COBBLESTONE_TEXTURE = {
-  "argillite": "minecraft:block/cobblestone",
-  "nephelinite": "minecraft:block/cobbled_deepslate",
-  "blackslag": "pastel:block/cobbled_blackslag",
-  "travertine": "tfc:block/rock/cobble/claystone",
-  "picrite_basalt": "tfc:block/rock/cobble/phyllite",
-  "granite": "tfc:block/rock/cobble/granite",
-  "diorite": "tfc:block/rock/cobble/diorite",
-  "gabbro": "tfc:block/rock/cobble/gabbro",
-  "shale": "tfc:block/rock/cobble/shale",
-  "claystone": "tfc:block/rock/cobble/claystone",
-  "limestone": "tfc:block/rock/cobble/limestone",
-  "conglomerate": "tfc:block/rock/cobble/conglomerate",
-  "dolomite": "tfc:block/rock/cobble/dolomite",
-  "chert": "tfc:block/rock/cobble/chert",
-  "chalk": "tfc:block/rock/cobble/chalk",
-  "rhyolite": "tfc:block/rock/cobble/rhyolite",
-  "basalt": "tfc:block/rock/cobble/basalt",
-  "andesite": "tfc:block/rock/cobble/andesite",
-  "dacite": "tfc:block/rock/cobble/dacite",
-  "quartzite": "tfc:block/rock/cobble/quartzite",
-  "slate": "tfc:block/rock/cobble/slate",
-  "phyllite": "tfc:block/rock/cobble/phyllite",
-  "schist": "tfc:block/rock/cobble/schist",
-  "gneiss": "tfc:block/rock/cobble/gneiss",
-  "marble": "tfc:block/rock/cobble/marble"
+    "argillite": "minecraft:block/cobblestone",
+    "nephelinite": "minecraft:block/cobbled_deepslate",
+    "blackslag": "pastel:block/cobbled_blackslag",
+    "travertine": "tfc:block/rock/cobble/claystone",
+    "picrite_basalt": "tfc:block/rock/cobble/phyllite",
+    "granite": "tfc:block/rock/cobble/granite",
+    "diorite": "tfc:block/rock/cobble/diorite",
+    "gabbro": "tfc:block/rock/cobble/gabbro",
+    "shale": "tfc:block/rock/cobble/shale",
+    "claystone": "tfc:block/rock/cobble/claystone",
+    "limestone": "tfc:block/rock/cobble/limestone",
+    "conglomerate": "tfc:block/rock/cobble/conglomerate",
+    "dolomite": "tfc:block/rock/cobble/dolomite",
+    "chert": "tfc:block/rock/cobble/chert",
+    "chalk": "tfc:block/rock/cobble/chalk",
+    "rhyolite": "tfc:block/rock/cobble/rhyolite",
+    "basalt": "tfc:block/rock/cobble/basalt",
+    "andesite": "tfc:block/rock/cobble/andesite",
+    "dacite": "tfc:block/rock/cobble/dacite",
+    "quartzite": "tfc:block/rock/cobble/quartzite",
+    "slate": "tfc:block/rock/cobble/slate",
+    "phyllite": "tfc:block/rock/cobble/phyllite",
+    "schist": "tfc:block/rock/cobble/schist",
+    "gneiss": "tfc:block/rock/cobble/gneiss",
+    "marble": "tfc:block/rock/cobble/marble"
 }
 
 global.CUSTOM_ROCK_MODELS = {
-  "argillite": "minecraft:block/stone",
-  "nephelinite": "minecraft:block/deepslate",
-  "blackslag": "pastel:block/blackslag",
-  "travertine": "minecraft:block/dripstone_block",
-  "picrite_basalt": "pastel:block/basal_marble",
+    "argillite": "minecraft:block/stone",
+    "nephelinite": "minecraft:block/deepslate",
+    "blackslag": "pastel:block/blackslag",
+    "travertine": "minecraft:block/dripstone_block",
+    "picrite_basalt": "pastel:block/basal_marble",
 }
 
 global.DEEPER_DOWN_ROCK_STONES = {
-  "argillite": "minecraft:stone",
-  "nephelinite": "minecraft:deepslate",
-  "blackslag": "pastel:blackslag",
-  "travertine": "minecraft:dripstone_block",
-  "picrite_basalt": "pastel:basal_marble",
+    "argillite": "minecraft:stone",
+    "nephelinite": "minecraft:deepslate",
+    "blackslag": "pastel:blackslag",
+    "travertine": "minecraft:dripstone_block",
+    "picrite_basalt": "pastel:basal_marble",
 }
 
 global.NOXWOODS = [
-  "chestnut",
-  "ivory",
-  "slate",
-  "ebony"
+    "chestnut",
+    "ivory",
+    "slate",
+    "ebony"
 ]
 
 global.SPECTRUM_WOODS = [
-  "chestnut",
-  "ivory",
-  "slate",
-  "ebony",
-  "weeping_gala"
+    "chestnut",
+    "ivory",
+    "slate",
+    "ebony",
+    "weeping_gala"
 ]
 
 global.SPECTRUM_GEMSTONES = [
-  "onyx",
-  "moonstone",
-  "citrine",
-  "amethyst",
-  "topaz"
+    "onyx",
+    "moonstone",
+    "citrine",
+    "amethyst",
+    "topaz"
 ]
 
 /*

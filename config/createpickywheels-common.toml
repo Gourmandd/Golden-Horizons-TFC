@@ -6,7 +6,7 @@
 	waterwheelsPickyOnPlacement = true
 	#Penalty for Waterwheels placed on whitelisted but not on preferential biomes [waterwheel_boosted biome tag].
 	# Default: 0.25
-	# Range: 0.0 ~ 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
 	waterwheelPenalty = 0.25
 	#The minimum amount of fluid blocks the waterwheel needs to find before rotation begins.
 	# Default: 2048
@@ -16,6 +16,10 @@
 	# Default: 128
 	# Range: > 1
 	waterwheelRange = 128
+	#Boost for Waterwheels placed on boosted biomes.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	waterwheelBaseBoost = 1.0
 
 ##Windmill requirements
 [windmills]
@@ -23,7 +27,7 @@
 	windmillsEnabled = true
 	#Penalty for Windmills placed on whitelisted but not on preferential biomes [windmills_boosted biome tag].
 	# Default: 0.75
-	# Range: 0.0 ~ 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
 	windmillPenalty = 0.75
 	#The minimum floor area required. Default: 1/4 of the max area [PI * 32 ^ 2].
 	# Default: 804
@@ -49,3 +53,7 @@
 	# Default: 12
 	# Range: > 1
 	windmillAbove = 12
+	#Penalty for Windmills placed on whitelisted but not on preferential biomes [windmills_boosted biome tag].
+	# Default: 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	windmillBaseBoost = 1.0

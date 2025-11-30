@@ -1,9 +1,9 @@
 // requires: kubejs_tfc
 // requires: hnh
 
-ServerEvents.recipes(event =>{
+ServerEvents.recipes(event => {
 
-    console.log("INFO: PORT HNH GLASS SCRIPT, QUARK HAS BEEN ADDED TO THE PACK")
+    console.log("INFO: PORT HNH GLASS SCRIPT, HNH HAS BEEN ADDED TO THE PACK")
     /*
     global.DYE_COLOURS.forEach(colour =>{
 

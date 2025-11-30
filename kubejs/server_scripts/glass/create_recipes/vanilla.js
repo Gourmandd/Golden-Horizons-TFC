@@ -1,58 +1,56 @@
 // glass related recipes (horrors beyong my comprehension)
-ServerEvents.recipes(event =>{
+ServerEvents.recipes(event => {
 
     let datagen = Datagen(event).recipe()
 
     const ITEM = IO_TYPE.ITEM
     const FLUID = IO_TYPE.FLUID
 
-    addCreateRecipeHandler(event);
-    
     const GLASS_TO_BATCH = {
-        "white":  "tfc:silica_glass_batch",
-        "brown":  "tfc:hematitic_glass_batch",
-        "green":  "tfc:olivine_glass_batch",
-        "orange":  "tfc:hematitic_glass_batch",
-        "magenta":  "tfc:volcanic_glass_batch",
-        "red":  "tfc:hematitic_glass_batch",
-        "black":  "tfc:volcanic_glass_batch",
-        "light_blue":  "tfc:silica_glass_batch",
-        "yellow":  "tfc:hematitic_glass_batch",
-        "lime":  "tfc:olivine_glass_batch",
-        "pink":  "tfc:silica_glass_batch",
-        "gray":  "tfc:volcanic_glass_batch",
-        "light_gray":  "tfc:volcanic_glass_batch",
-        "cyan":  "tfc:olivine_glass_batch",
-        "purple":  "tfc:volcanic_glass_batch",
-        "blue":  "tfc:volcanic_glass_batch",
+        "white": "tfc:silica_glass_batch",
+        "brown": "tfc:hematitic_glass_batch",
+        "green": "tfc:olivine_glass_batch",
+        "orange": "tfc:hematitic_glass_batch",
+        "magenta": "tfc:volcanic_glass_batch",
+        "red": "tfc:hematitic_glass_batch",
+        "black": "tfc:volcanic_glass_batch",
+        "light_blue": "tfc:silica_glass_batch",
+        "yellow": "tfc:hematitic_glass_batch",
+        "lime": "tfc:olivine_glass_batch",
+        "pink": "tfc:silica_glass_batch",
+        "gray": "tfc:volcanic_glass_batch",
+        "light_gray": "tfc:volcanic_glass_batch",
+        "cyan": "tfc:olivine_glass_batch",
+        "purple": "tfc:volcanic_glass_batch",
+        "blue": "tfc:volcanic_glass_batch",
     }
 
-    global.DYE_COLOURS.forEach(colour =>{
+    global.DYE_COLOURS.forEach(colour => {
 
         // vanilla
-        datagen.createItemApplication(outputOf(ITEM, `minecraft:${colour}_stained_glass`, 1, 1), 
+        datagen.createItemApplication(outputOf(ITEM, `minecraft:${colour}_stained_glass`, 1, 1),
             inputOf(ITEM, `kubejs:molten_glass/${colour}`, 1),
             inputOf(ITEM, "tfc:powder/flux", 1)
         ).id(`modpack:recipes/item_application/glass/stained_${colour}`).generate()
 
-        datagen.createCrushing(outputOf(ITEM, GLASS_TO_BATCH[colour], 1, 1), 
+        datagen.createCrushing(outputOf(ITEM, GLASS_TO_BATCH[colour], 1, 1),
             [
                 inputOf(ITEM, `minecraft:${colour}_stained_glass`, 1)
             ]
         ).id(`modpack:recipes/crushing/glass/stained_${colour}`).generate()
 
-        datagen.createCutting(outputOf(ITEM, `minecraft:${colour}_stained_glass_pane`, 8, 1), 
+        datagen.createCutting(outputOf(ITEM, `minecraft:${colour}_stained_glass_pane`, 8, 1),
             [
                 inputOf(ITEM, `minecraft:${colour}_stained_glass`, 1)
             ]
         ).id(`modpack:recipes/cutting/glass/stained_${colour}`).generate()
 
-        datagen.createFilling(outputOf(ITEM, `kubejs:molten_glass/${colour}`, 1, 1), 
+        datagen.createFilling(outputOf(ITEM, `kubejs:molten_glass/${colour}`, 1, 1),
             inputOf(ITEM, "tfc:powder/flux", 1),
             inputOf(FLUID, `kubejs:glass/${colour}`, 800)
         ).id(`modpack:recipes/filling/molten_glass/${colour}`).generate()
 
-        datagen.createCompacting(outputOf(ITEM, `kubejs:molten_glass/${colour}`, 1, 1), 
+        datagen.createCompacting(outputOf(ITEM, `kubejs:molten_glass/${colour}`, 1, 1),
             [
                 inputOf(FLUID, `kubejs:glass/${colour}`, 800)
             ]
@@ -95,21 +93,19 @@ ServerEvents.recipes(event =>{
     event.recipes.create.filling(Item.of("kubejs:glass_mold", {"tank":{"Amount":800,"FluidName":`kubejs:glass/clear`}}), [Item.of("kubejs:glass_mold", {}), Fluid.of(`kubejs:glass/clear`, 800)])
         .id("modpack:recipes/filling/glass/clear")
     */
-   /*
-    event.recipes.create.filling(Item.of(`kubejs:molten_glass/clear`), [Item.of("tfc:powder/flux"), Fluid.of(`kubejs:glass/clear`, 800)])
-        .id("modpack:recipes/filling/molten_glass/clear")
+    /*
+     event.recipes.create.filling(Item.of(`kubejs:molten_glass/clear`), [Item.of("tfc:powder/flux"), Fluid.of(`kubejs:glass/clear`, 800)])
+         .id("modpack:recipes/filling/molten_glass/clear")
 
-    event.recipes.create.compacting(Item.of(`kubejs:molten_glass/clear`), Fluid.of(`kubejs:glass/clear`, 800))
-        .id("modpack:recipes/compacting/glass/clear")
+     event.recipes.create.compacting(Item.of(`kubejs:molten_glass/clear`), Fluid.of(`kubejs:glass/clear`, 800))
+         .id("modpack:recipes/compacting/glass/clear")
 
-    event.recipes.create.sequenced_assembly("tfc:lens", `kubejs:molten_glass/clear`, [
-        event.recipes.create.deploying(Item.of("minecraft:glass_pane"), [Item.of("minecraft:glass_pane"), Item.of("tfc:powder/soda_ash")]),
-        event.recipes.create.deploying(Item.of("minecraft:glass_pane"), [Item.of("minecraft:glass_pane"), Item.of("tfc:bellows")]),
-        event.recipes.create.deploying(Item.of("minecraft:glass_pane"), [Item.of("minecraft:glass_pane"), Item.of("tfc:paddle")]),
-        event.recipes.create.deploying(Item.of("minecraft:glass_pane"), [Item.of("minecraft:glass_pane"), Item.of("tfc:wool_cloth")]),
-        event.recipes.create.deploying(Item.of("minecraft:glass_pane"), [Item.of("minecraft:glass_pane"), Item.of("tfc:gem_saw")]),
-    ]).transitionalItem("minecraft:glass_pane").loops(3)
-        .id("modpack:sequences_assembly/lens_clear")*/
-    
-    event.recipes.create.finalize();
+     event.recipes.create.sequenced_assembly("tfc:lens", `kubejs:molten_glass/clear`, [
+         event.recipes.create.deploying(Item.of("minecraft:glass_pane"), [Item.of("minecraft:glass_pane"), Item.of("tfc:powder/soda_ash")]),
+         event.recipes.create.deploying(Item.of("minecraft:glass_pane"), [Item.of("minecraft:glass_pane"), Item.of("tfc:bellows")]),
+         event.recipes.create.deploying(Item.of("minecraft:glass_pane"), [Item.of("minecraft:glass_pane"), Item.of("tfc:paddle")]),
+         event.recipes.create.deploying(Item.of("minecraft:glass_pane"), [Item.of("minecraft:glass_pane"), Item.of("tfc:wool_cloth")]),
+         event.recipes.create.deploying(Item.of("minecraft:glass_pane"), [Item.of("minecraft:glass_pane"), Item.of("tfc:gem_saw")]),
+     ]).transitionalItem("minecraft:glass_pane").loops(3)
+         .id("modpack:sequences_assembly/lens_clear")*/
 })
