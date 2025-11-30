@@ -84,6 +84,7 @@
     "encased_axle": true,
     "crop": true,
     "blast_furnace": true,
+    "creative_motor": true,
     "quern": true,
     "pit_kiln_above": true,
     "hot_poured_glass": true,
