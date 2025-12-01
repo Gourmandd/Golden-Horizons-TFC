@@ -5,7 +5,7 @@
             "item": "minecraft:snow_block"
         },
         {
-            "tag": "tfc:rock/gravel"
+            "tag": "c:gravels"
         }
     ],
     "result": {
