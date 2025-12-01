@@ -15,8 +15,13 @@
         "item": "pastel:bone_ash"
     },
     "result": {
-        "nbt": "{\"fluid\": {\"Amount\": 1000, \"FluidName\": \"pastel:dragonrot\"} }",
-        "id": "tfc:metal/bucket/red_steel"
+        "id": "tfc:metal/bucket/red_steel",
+        "components": {
+          "tfc:fluid": {
+              "amount": 1000,
+              "id":"pastel:dragonrot"
+          }
+        }
     },
     "required_advancement": "pastel:unlocks/blocks/dragonrot_bucket"
 }

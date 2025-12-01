@@ -23,8 +23,8 @@
         "tag": "c:milk"
     },
     "result": {
-        "nbt": {
-            "Milk": true
+        "components": {
+          "pastel:with_milk": {}
         },
         "count": 1,
         "id": "pastel:restoration_tea"

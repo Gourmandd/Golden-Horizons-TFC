@@ -18,7 +18,12 @@
         "tag": "tfc:mud"
     },
     "result": {
-        "nbt": "{\"fluid\": {\"Amount\": 1000, \"FluidName\": \"pastel:humus\"} }",
-        "id": "kubejs:metal/bucket/wrought_iron"
+        "id": "kubejs:metal/bucket/wrought_iron",
+        "components": {
+          "tfc:fluid": {
+              "amount": 1000,
+              "id":"pastel:humus"
+          }
+        }
     }
 }

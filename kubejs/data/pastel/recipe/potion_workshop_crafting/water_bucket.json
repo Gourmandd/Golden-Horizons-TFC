@@ -10,7 +10,12 @@
         "count": 4
     },
     "result": {
-        "nbt": "{\"fluid\": {\"Amount\": 1000, \"FluidName\": \"minecraft:water\"} }",
-        "id": "tfc:wooden_bucket"
+        "id": "tfc:wooden_bucket",
+        "components": {
+          "tfc:fluid": {
+              "amount": 1000,
+              "id":"minecraft:water"
+          }
+        }
     }
 }

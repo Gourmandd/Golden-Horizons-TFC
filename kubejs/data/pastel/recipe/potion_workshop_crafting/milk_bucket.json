@@ -9,8 +9,13 @@
         "item": "pastel:milky_resin"
     },
     "result": {
-        "nbt": "{\"fluid\": {\"Amount\": 1000, \"FluidName\": \"firmalife:coconut_milk\"} }",
-        "id": "tfc:wooden_bucket"
+        "id": "tfc:wooden_bucket",
+        "components": {
+          "tfc:fluid": {
+              "amount": 1000,
+              "id":"minecraft:milk"
+          }
+        }
     },
     "required_advancement": "pastel:hidden/collect_milky_resin"
 }

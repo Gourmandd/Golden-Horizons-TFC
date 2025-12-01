@@ -766,7 +766,7 @@
 		metalBucketCapacity = 1000
 		#
 		# If `true`, a metal (red and blue steel) bucket can place source blocks
-		metalBucketCanPlaceSources = false
+		metalBucketCanPlaceSources = true
 
 [mechanics]
 	#
