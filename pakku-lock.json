@@ -888,6 +888,76 @@
             ]
         },
         {
+            "pakku_id": "ErzerN59BXYeFi35",
+            "pakku_links": [
+                "4AEDGzJLN03fQUmz"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "better-clouds",
+                "modrinth": "better-clouds"
+            },
+            "name": {
+                "curseforge": "Better Clouds",
+                "modrinth": "Better Clouds"
+            },
+            "id": {
+                "curseforge": "1285973",
+                "modrinth": "5srFLIaK"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "better-clouds-1.7.19+1.21.1-neoforge.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7074/844/better-clouds-1.7.19+1.21.1-neoforge.jar",
+                    "id": "7074844",
+                    "parent_id": "1285973",
+                    "hashes": {
+                        "sha1": "b603b85cb136f59e5d138f7ca9dfd9adfd917eb2",
+                        "md5": "fd63d3688133b8bdfd91760301456d9e"
+                    },
+                    "required_dependencies": [
+                        "667299"
+                    ],
+                    "size": 787669,
+                    "date_published": "2025-10-06T19:41:52.293Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "better-clouds-1.7.19+1.21.1-neoforge.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/5srFLIaK/versions/wapDaY5q/better-clouds-1.7.19+1.21.1-neoforge.jar",
+                    "id": "wapDaY5q",
+                    "parent_id": "5srFLIaK",
+                    "hashes": {
+                        "sha512": "745ca8e1d3e579470b7cf6503aa3bc559de94fbf2ab6ef88fe0b670f93a40508f705418b8332da66b1853199f5f40872e6cc2cd8fb9fa1636078927c4db2220f",
+                        "sha1": "b603b85cb136f59e5d138f7ca9dfd9adfd917eb2"
+                    },
+                    "required_dependencies": [
+                        "1eAoo2KR"
+                    ],
+                    "size": 787669,
+                    "date_published": "2025-10-06T19:41:59.602977Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "aSFkdmXo68hJeIKL",
             "type": "MOD",
             "side": "CLIENT",
@@ -6973,6 +7043,69 @@
                     "required_dependencies": [],
                     "size": 80646,
                     "date_published": "2024-06-15T11:08:35.090Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "4AEDGzJLN03fQUmz",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "yacl",
+                "modrinth": "yacl"
+            },
+            "name": {
+                "curseforge": "YetAnotherConfigLib",
+                "modrinth": "YetAnotherConfigLib (YACL)"
+            },
+            "id": {
+                "curseforge": "667299",
+                "modrinth": "1eAoo2KR"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "yet_another_config_lib_v3-3.8.0+1.21.1-neoforge.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7036/475/yet_another_config_lib_v3-3.8.0+1.21.1-neoforge.jar",
+                    "id": "7036475",
+                    "parent_id": "667299",
+                    "hashes": {
+                        "sha1": "bba4a04d57f41e615630dbf088f8cb548186258e",
+                        "md5": "099bef0e23b354c2b9122beccdd11ad7"
+                    },
+                    "required_dependencies": [],
+                    "size": 1117442,
+                    "date_published": "2025-09-26T20:16:17.643Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "yet_another_config_lib_v3-3.8.0+1.21.1-neoforge.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/1eAoo2KR/versions/d5rKuZdL/yet_another_config_lib_v3-3.8.0+1.21.1-neoforge.jar",
+                    "id": "d5rKuZdL",
+                    "parent_id": "1eAoo2KR",
+                    "hashes": {
+                        "sha512": "bec8d66c49034a4acacd69a08f56444f8561e7d64570ccde0d9401389927fe41b4fe6cc8b055395286bc3f2d38abac5a57ac3b304f220042ed7c4d5e10275e97",
+                        "sha1": "61c9d5935b77a42bd56c5790a8f4c938f671893a"
+                    },
+                    "required_dependencies": [],
+                    "size": 1117442,
+                    "date_published": "2025-09-26T20:15:07.225910Z"
                 }
             ]
         },
