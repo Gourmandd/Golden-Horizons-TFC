@@ -287,8 +287,6 @@ ServerEvents.recipes(event => {
         })
 
         if (isEffectValid) {
-            JsonIO.write(`test/${item.replace(":", "_").replace("/", "_")}.json`, json)
-            console.log(json)
             event.custom(json).id(`modpack:food/${item.replace(":", "/")}`)
         }
     })
