@@ -1,7 +1,7 @@
 // requires: pastel
 
 ServerEvents.tags("block", event => {
-    
+
     global.DEEPER_DOWN_ROCK_TYPES.forEach(rock_type => {
 
         //event.add("tfc:rock/hardened", global.DEEPER_DOWN_ROCK_STONES[rock_type])
@@ -10,8 +10,8 @@ ServerEvents.tags("block", event => {
         event.add("tfc:can_trigger_collapse", global.DEEPER_DOWN_ROCK_STONES[rock_type])
         event.add("tfc:can_start_collapse", global.DEEPER_DOWN_ROCK_STONES[rock_type])
 
-        event.add("tfc:can_collapse", `kubejs:rock/hardened/${rock_type}`)
-        event.add("tfc:can_trigger_collapse", `kubejs:rock/hardened/${rock_type}`)
+        event.add("tfc:can_collapse", `${mod_id}:rock/hardened/${rock_type}`)
+        event.add("tfc:can_trigger_collapse", `${mod_id}:rock/hardened/${rock_type}`)
     })
 
 

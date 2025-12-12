@@ -2,25 +2,24 @@
   "type": "tfc:geode",
   "config": {
     "outer": "tfc:rock/hardened/basalt",
-    "middle": "kubejs:ore/poor_limonite/argillite",
+    "middle": "modpack:ore/poor_limonite/argillite",
     "inner": [
       {
-        "data": "kubejs:ore/rich_limonite/argillite",
+        "data": "modpack:ore/rich_limonite/argillite",
         "weight": 1
       },
       {
-        "data": "kubejs:ore/normal_limonite/argillite",
+        "data": "modpack:ore/normal_limonite/argillite",
         "weight": 2
       },
       {
-        "data": "kubejs:ore/poor_limonite/argillite",
+        "data": "modpack:ore/poor_limonite/argillite",
         "weight": 1
       },
       {
-        "data": "kubejs:rock/hardened/argillite",
+        "data": "modpack:rock/hardened/argillite",
         "weight": 2
       }
     ]
   }
 }
-

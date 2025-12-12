@@ -13,7 +13,7 @@
     ],
     "key": {
         "B": {
-            "item": "kubejs:brick/travertine"
+            "item": "modpack:brick/travertine"
         },
         "M": {
             "item": "tfc:mortar"

@@ -13,7 +13,7 @@ StartupEvents.registry("block", event => {
     function createOre(name, rock, tierTag) {
         //let prospectedKey = "block.kubejs.ore." + name + "." + rock + ".prospected"
         //let prospectedName = nameProcessing(name)
-        event.create(`ore/${name}/${rock}`)
+        event.create(`${id}:ore/${name}/${rock}`)
             .soundType("stone")
             .requiresTool()
             .tagBlock("minecraft:mineable/pickaxe")

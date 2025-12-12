@@ -14,7 +14,7 @@
           ],
           "with": [
             {
-              "block": "kubejs:ore/shimmerstone/shale"
+              "block": "modpack:ore/shimmerstone/shale"
             }
           ]
         },
@@ -24,7 +24,7 @@
           ],
           "with": [
             {
-              "block": "kubejs:ore/shimmerstone/claystone"
+              "block": "modpack:ore/shimmerstone/claystone"
             }
           ]
         },
@@ -34,7 +34,7 @@
           ],
           "with": [
             {
-              "block": "kubejs:ore/shimmerstone/limestone"
+              "block": "modpack:ore/shimmerstone/limestone"
             }
           ]
         },
@@ -44,7 +44,7 @@
           ],
           "with": [
             {
-              "block": "kubejs:ore/shimmerstone/conglomerate"
+              "block": "modpack:ore/shimmerstone/conglomerate"
             }
           ]
         },
@@ -54,7 +54,7 @@
           ],
           "with": [
             {
-              "block": "kubejs:ore/shimmerstone/dolomite"
+              "block": "modpack:ore/shimmerstone/dolomite"
             }
           ]
         },
@@ -64,7 +64,7 @@
           ],
           "with": [
             {
-              "block": "kubejs:ore/shimmerstone/chert"
+              "block": "modpack:ore/shimmerstone/chert"
             }
           ]
         },
@@ -74,7 +74,7 @@
           ],
           "with": [
             {
-              "block": "kubejs:ore/shimmerstone/chalk"
+              "block": "modpack:ore/shimmerstone/chalk"
             }
           ]
         },
@@ -84,7 +84,7 @@
           ],
           "with": [
             {
-              "block": "kubejs:ore/shimmerstone/basalt"
+              "block": "modpack:ore/shimmerstone/basalt"
             }
           ]
         },
@@ -94,7 +94,7 @@
           ],
           "with": [
             {
-              "block": "kubejs:ore/shimmerstone/dacite"
+              "block": "modpack:ore/shimmerstone/dacite"
             }
           ]
         },
@@ -104,7 +104,7 @@
           ],
           "with": [
             {
-              "block": "kubejs:ore/shimmerstone/rhyolite"
+              "block": "modpack:ore/shimmerstone/rhyolite"
             }
           ]
         },
@@ -114,7 +114,7 @@
           ],
           "with": [
             {
-              "block": "kubejs:ore/shimmerstone/andesite"
+              "block": "modpack:ore/shimmerstone/andesite"
             }
           ]
         }

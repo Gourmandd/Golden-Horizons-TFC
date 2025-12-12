@@ -14,7 +14,7 @@
           ],
           "with": [
             {
-              "block": "kubejs:ore/stratine/quartzite"
+              "block": "modpack:ore/stratine/quartzite"
             }
           ]
         },
@@ -24,7 +24,7 @@
           ],
           "with": [
             {
-              "block": "kubejs:ore/stratine/slate"
+              "block": "modpack:ore/stratine/slate"
             }
           ]
         },
@@ -34,7 +34,7 @@
           ],
           "with": [
             {
-              "block": "kubejs:ore/stratine/phyllite"
+              "block": "modpack:ore/stratine/phyllite"
             }
           ]
         },
@@ -44,7 +44,7 @@
           ],
           "with": [
             {
-              "block": "kubejs:ore/stratine/schist"
+              "block": "modpack:ore/stratine/schist"
             }
           ]
         },
@@ -54,7 +54,7 @@
           ],
           "with": [
             {
-              "block": "kubejs:ore/stratine/gneiss"
+              "block": "modpack:ore/stratine/gneiss"
             }
           ]
         },
@@ -64,7 +64,7 @@
           ],
           "with": [
             {
-              "block": "kubejs:ore/stratine/marble"
+              "block": "modpack:ore/stratine/marble"
             }
           ]
         }

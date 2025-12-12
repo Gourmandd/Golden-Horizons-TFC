@@ -7,7 +7,7 @@
     ],
     "key": {
         "B": {
-            "item": "kubejs:brick/picrite_basalt"
+            "item": "modpack:brick/picrite_basalt"
         },
         "M": {
             "item": "tfc:mortar"

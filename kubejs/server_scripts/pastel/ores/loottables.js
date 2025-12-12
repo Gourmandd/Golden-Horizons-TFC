@@ -4,6 +4,8 @@
 
 LootJS.modifiers(event => {
 
+    console.log(mod_id)
+
     const PASTEL_ORE_DATA = {
         "shimmerstone": { "drop": "pastel:shimmerstone_gem", "tier": "tfc:needs_copper_tool" },
         "azurite": { "drop": "pastel:raw_azurite", "tier": "tfc:needs_steel_tool" },
@@ -25,15 +27,15 @@ LootJS.modifiers(event => {
     }
 
     let multiDropOre = function (event, ore, rockType) {
-        event.addBlockModifier(`kubejs:ore/${ore}/${rockType}`)
+        event.addBlockModifier(`${mod_id}:ore/${ore}/${rockType}`)
             .removeLoot(Ingredient.all)
-            .addAlternativesLoot(isIsolated(`kubejs:ore/${ore}/${rockType}`), multiDrop(PASTEL_ORE_DATA[ore].drop),)
+            .addAlternativesLoot(isIsolated(`${mod_id}:ore/${ore}/${rockType}`), multiDrop(PASTEL_ORE_DATA[ore].drop))
     }
 
     let singleDropOre = function (event, mod, ore, rockType, drop) {
         event.addBlockModifier(`${mod}:ore/${ore}/${rockType}`)
             .removeLoot(Ingredient.all)
-            .addAlternativesLoot(isIsolated(`${mod}:ore/${ore}/${rockType}`), singleDrop(drop),)
+            .addAlternativesLoot(isIsolated(`${mod}:ore/${ore}/${rockType}`), singleDrop(drop))
     }
     /*
         "type": "minecraft:alternatives",
@@ -57,7 +59,7 @@ LootJS.modifiers(event => {
                 multiDropOre(event, ore, rockType)
                 return
             }
-            singleDropOre(event, global.REGISTRY_NAMESPACE, ore, rockType, PASTEL_ORE_DATA[ore].drop)
+            singleDropOre(event, mod_id, ore, rockType, PASTEL_ORE_DATA[ore].drop)
         })
 
         global.DEEPER_DOWN_ROCK_TYPES.forEach(rockType => {
@@ -66,7 +68,7 @@ LootJS.modifiers(event => {
                 multiDropOre(event, ore, rockType)
                 return
             }
-            singleDropOre(event, global.REGISTRY_NAMESPACE, ore, rockType, PASTEL_ORE_DATA[ore].drop)
+            singleDropOre(event, mod_id, ore, rockType, PASTEL_ORE_DATA[ore].drop)
         })
     })
 
@@ -74,11 +76,14 @@ LootJS.modifiers(event => {
     global.SPECTRUM_DEEPER_DOWN_ORES.forEach(ore => {
 
         global.ROCK_TYPES.forEach(rockType => {
-            singleDropOre(event, global.REGISTRY_NAMESPACE, ore, rockType, PASTEL_ORE_DATA[ore].drop)
+            singleDropOre(event, mod_id, ore, rockType, PASTEL_ORE_DATA[ore].drop)
+            console.log(mod_id)
+            console.log(ore)
+            console.log(rockType)
         })
 
         global.DEEPER_DOWN_ROCK_TYPES.forEach(rockType => {
-            singleDropOre(event, global.REGISTRY_NAMESPACE, ore, rockType, PASTEL_ORE_DATA[ore].drop)
+            singleDropOre(event, mod_id, ore, rockType, PASTEL_ORE_DATA[ore].drop)
         })
     })
 
@@ -124,12 +129,12 @@ LootJS.modifiers(event => {
 
 
         global.TFC_MINERAL_ORES.forEach(ore => {
-            singleDropOre(event, global.REGISTRY_NAMESPACE, ore, rockType, `tfc:ore/${ore}`)
+            singleDropOre(event, mod_id, ore, rockType, `tfc:ore/${ore}`)
         })
 
 
         global.TFC_GEMS.forEach(ore => {
-            singleDropOre(event, global.REGISTRY_NAMESPACE, ore, rockType, `tfc:ore/${ore}`)
+            singleDropOre(event, mod_id, ore, rockType, `tfc:ore/${ore}`)
         })
 
 
@@ -137,7 +142,7 @@ LootJS.modifiers(event => {
 
             global.ORE_BLOCK_GRADES.forEach(grade => {
 
-                singleDropOre(event, global.REGISTRY_NAMESPACE, `${grade}_${ore}`, rockType, `tfc:ore/${grade}_${ore}`)
+                singleDropOre(event, mod_id, `${grade}_${ore}`, rockType, `tfc:ore/${grade}_${ore}`)
 
             })
 
@@ -148,7 +153,7 @@ LootJS.modifiers(event => {
 
                 global.ORE_BLOCK_GRADES.forEach(grade => {
 
-                    singleDropOre(event, global.REGISTRY_NAMESPACE, `${grade}_${ore}`, rockType, `firmalife:ore/${grade}_${ore}`)
+                    singleDropOre(event, mod_id, `${grade}_${ore}`, rockType, `firmalife:ore/${grade}_${ore}`)
 
                 })
             })

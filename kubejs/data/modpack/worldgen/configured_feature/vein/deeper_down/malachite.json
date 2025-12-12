@@ -2,14 +2,14 @@
   "type": "tfc:geode",
   "config": {
     "outer": "tfc:rock/hardened/basalt",
-    "middle": "kubejs:rock/hardened/picrite_basalt",
+    "middle": "modpack:rock/hardened/picrite_basalt",
     "inner": [
       {
-        "data": "kubejs:ore/malachite/picrite_basalt",
+        "data": "modpack:ore/malachite/picrite_basalt",
         "weight": 1
       },
       {
-        "data": "kubejs:rock/hardened/picrite_basalt",
+        "data": "modpack:rock/hardened/picrite_basalt",
         "weight": 1
       }
     ]

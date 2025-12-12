@@ -2,20 +2,20 @@
 // Registers various stone related blocks  //
 // --------------------------------------- //
 
-StartupEvents.registry("item", event =>{
+StartupEvents.registry("item", event => {
 
-    global.DEEPER_DOWN_ROCK_TYPES.forEach(rock_type =>{
-        
-        event.create(`brick/${rock_type}`)
+    global.DEEPER_DOWN_ROCK_TYPES.forEach(rock_type => {
+
+        event.create(`${id}:brick/${rock_type}`)
             .displayName(`${nameProcessing(rock_type)} Brick`)
     })
 })
 
-StartupEvents.registry("block", event =>{
+StartupEvents.registry("block", event => {
 
-    Object.keys(global.STONE_TO_COBBLESTONE).forEach(rock_type =>{
+    Object.keys(global.STONE_TO_COBBLESTONE).forEach(rock_type => {
 
-        event.create(`rock/mortared_cobble/${rock_type}`)
+        event.create(`${id}:rock/mortared_cobble/${rock_type}`)
             .parentModel("block/cube_all")
             .texture("all", global.STONE_TO_COBBLESTONE_TEXTURE[rock_type])
             .displayName(`Mortared ${nameProcessing(rock_type)}`)
@@ -28,9 +28,9 @@ StartupEvents.registry("block", event =>{
     })
 
 
-    global.DEEPER_DOWN_ROCK_TYPES.forEach(rock_type =>{
+    global.DEEPER_DOWN_ROCK_TYPES.forEach(rock_type => {
 
-        event.create(`rock/hardened/${rock_type}`)
+        event.create(`${id}:rock/hardened/${rock_type}`)
             .parentModel(global.CUSTOM_ROCK_MODELS[rock_type])
             .displayName(`Hardened ${nameProcessing(rock_type)}`)
             .soundType("stone")
@@ -39,7 +39,7 @@ StartupEvents.registry("block", event =>{
             .tagItem("c:stones")
             .requiresTool(true)
 
-        event.create(`rock/cobble/${rock_type}`)
+        event.create(`${id}:rock/cobble/${rock_type}`)
             .parentModel("block/cube_all")
             .texture("all", global.STONE_TO_COBBLESTONE_TEXTURE[rock_type])
             .displayName(`${nameProcessing(rock_type)} Cobble`)
@@ -50,19 +50,19 @@ StartupEvents.registry("block", event =>{
             .tagBlock("tfc:can_landslide")
             .requiresTool(true)
 
-        event.create(`rock/cobble/${rock_type}_slab`, "slab")
+        event.create(`${id}:rock/cobble/${rock_type}_slab`, "slab")
             .displayName(`${nameProcessing(rock_type)} Cobble Slab`)
             .soundType("stone")
             .tagBlock("minecraft:mineable/pickaxe")
             .requiresTool(true)
 
-        event.create(`rock/cobble/${rock_type}_stairs`, "stairs")
+        event.create(`${id}:rock/cobble/${rock_type}_stairs`, "stairs")
             .displayName(`${nameProcessing(rock_type)} Cobble Stairs`)
             .soundType("stone")
             .tagBlock("minecraft:mineable/pickaxe")
             .requiresTool(true)
 
-        event.create(`rock/cobble/${rock_type}_wall`, "wall")
+        event.create(`${id}:rock/cobble/${rock_type}_wall`, "wall")
             .displayName(`${nameProcessing(rock_type)} Cobble Wall`)
             .soundType("stone")
             .tagBlock("minecraft:mineable/pickaxe")

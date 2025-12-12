@@ -14,7 +14,7 @@
           ],
           "with": [
             {
-              "block": "kubejs:ore/azurite/shale"
+              "block": "modpack:ore/azurite/shale"
             }
           ]
         },
@@ -24,7 +24,7 @@
           ],
           "with": [
             {
-              "block": "kubejs:ore/azurite/claystone"
+              "block": "modpack:ore/azurite/claystone"
             }
           ]
         },
@@ -34,7 +34,7 @@
           ],
           "with": [
             {
-              "block": "kubejs:ore/azurite/limestone"
+              "block": "modpack:ore/azurite/limestone"
             }
           ]
         },
@@ -44,7 +44,7 @@
           ],
           "with": [
             {
-              "block": "kubejs:ore/azurite/conglomerate"
+              "block": "modpack:ore/azurite/conglomerate"
             }
           ]
         },
@@ -54,7 +54,7 @@
           ],
           "with": [
             {
-              "block": "kubejs:ore/azurite/dolomite"
+              "block": "modpack:ore/azurite/dolomite"
             }
           ]
         },
@@ -64,7 +64,7 @@
           ],
           "with": [
             {
-              "block": "kubejs:ore/azurite/chert"
+              "block": "modpack:ore/azurite/chert"
             }
           ]
         },
@@ -74,7 +74,7 @@
           ],
           "with": [
             {
-              "block": "kubejs:ore/azurite/chalk"
+              "block": "modpack:ore/azurite/chalk"
             }
           ]
         }

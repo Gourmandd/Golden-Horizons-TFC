@@ -14,7 +14,7 @@
           ],
           "with": [
             {
-              "block": "kubejs:ore/paltaeria/granite"
+              "block": "modpack:ore/paltaeria/granite"
             }
           ]
         },
@@ -24,7 +24,7 @@
           ],
           "with": [
             {
-              "block": "kubejs:ore/paltaeria/gabbro"
+              "block": "modpack:ore/paltaeria/gabbro"
             }
           ]
         },
@@ -34,7 +34,7 @@
           ],
           "with": [
             {
-              "block": "kubejs:ore/paltaeria/diorite"
+              "block": "modpack:ore/paltaeria/diorite"
             }
           ]
         }

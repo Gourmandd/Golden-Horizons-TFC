@@ -2,7 +2,7 @@
     "type": "create:milling",
     "ingredients": [
         {
-            "item": "kubejs:rock/cobble/argillite"
+            "item": "modpack:rock/cobble/argillite"
         }
     ],
     "results": [

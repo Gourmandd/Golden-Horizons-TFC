@@ -2,7 +2,7 @@
 // Assorted Registry and Startup Script Stuff   //
 // -------------------------------------------- //
 
-StartupEvents.registry("item", event =>{
+StartupEvents.registry("item", event => {
 
     event.create("saw").displayName("Wrought Iron Sawblade")
     event.create("unfired_shaft").displayName("Unfired Shaft")
@@ -13,16 +13,16 @@ StartupEvents.registry("item", event =>{
     event.create("olive_pomace").displayName("Olive Pomace")
     event.create("dry_olive_pomace").displayName("Dry Olive Pomace")
     event.create("soft_bark").displayName("Soft Bark")
-    
-    global.DYE_COLOURS.forEach(colour => {event.create(`terracotta/shard_${colour}`).displayName(`${nameProcessing(colour)} Terracotta Shard`)})
+
+    global.DYE_COLOURS.forEach(colour => { event.create(`terracotta/shard_${colour}`).displayName(`${nameProcessing(colour)} Terracotta Shard`) })
 
     event.create("raw_aluminium_mixture").displayName("Raw Aluminium Mixture")
     event.create("aluminium_nugget").displayName("Aluminium Nugget")
 })
 
 
-StartupEvents.registry("block", event =>{
-    
+StartupEvents.registry("block", event => {
+
     event.create("brick/snow")
         .soundType("snow")
         .hardness(3)
@@ -93,3 +93,4 @@ StartupEvents.registry("block", event =>{
 })
 
 Platform.mods.kubejs.name = 'Horizons'
+Platform.mods.modpack.name = 'Horizons'

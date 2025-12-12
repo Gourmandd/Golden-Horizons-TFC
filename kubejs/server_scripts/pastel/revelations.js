@@ -1,16 +1,16 @@
 // requires: pastel
 
-ServerEvents.generateData("after_mods", event =>{
+ServerEvents.generateData("after_mods", event => {
     // "kubejs:ore/shimmerstone/granite": "tfc:rock/raw/granite"
 
     let datagen = Datagen(event).databank()
 
-    function hideBlock(advancement, block, cloak){
+    function hideBlock(advancement, block, cloak) {
         datagen.hiding(datagen.advancementCondition(advancement), datagen.blockType(cloak, block)).generate()
     }
 
-    function hideItem(advancement, item, cloak, name){
-        datagen.hiding(datagen.advancementCondition(advancement), datagen.itemType(cloak, item, {"text": "\u00a7k" + name})).generate()
+    function hideItem(advancement, item, cloak, name) {
+        datagen.hiding(datagen.advancementCondition(advancement), datagen.itemType(cloak, item, { "text": "\u00a7k" + name })).generate()
     }
 
     const PASTEL_ORES = [
@@ -24,16 +24,16 @@ ServerEvents.generateData("after_mods", event =>{
     // "pastel:milestones/reveal_malachite"
     PASTEL_ORES.forEach(ore => {
 
-        global.ROCK_TYPES.forEach(rockType =>{
+        global.ROCK_TYPES.forEach(rockType => {
 
-            hideBlock(`pastel:milestones/reveal_${ore}`, `kubejs:ore/${ore}/${rockType}`, `tfc:rock/raw/${rockType}`)
-            hideItem(`pastel:milestones/reveal_${ore}`, `kubejs:ore/${ore}/${rockType}`, `tfc:rock/raw/${rockType}`, rockType + " " + ore)
+            hideBlock(`pastel:milestones/reveal_${ore}`, `${mod_id}:ore/${ore}/${rockType}`, `tfc:rock/raw/${rockType}`)
+            hideItem(`pastel:milestones/reveal_${ore}`, `${mod_id}:ore/${ore}/${rockType}`, `tfc:rock/raw/${rockType}`, rockType + " " + ore)
         })
 
-        global.DEEPER_DOWN_ROCK_TYPES.forEach(rockType =>{
+        global.DEEPER_DOWN_ROCK_TYPES.forEach(rockType => {
 
-            hideBlock(`pastel:milestones/reveal_${ore}`, `kubejs:ore/${ore}/${rockType}`, global.DEEPER_DOWN_ROCK_STONES[rockType])
-            hideItem(`pastel:milestones/reveal_${ore}`, `kubejs:ore/${ore}/${rockType}`, global.DEEPER_DOWN_ROCK_STONES[rockType], rockType + " " + ore)
+            hideBlock(`pastel:milestones/reveal_${ore}`, `${mod_id}:ore/${ore}/${rockType}`, global.DEEPER_DOWN_ROCK_STONES[rockType])
+            hideItem(`pastel:milestones/reveal_${ore}`, `${mod_id}:ore/${ore}/${rockType}`, global.DEEPER_DOWN_ROCK_STONES[rockType], rockType + " " + ore)
         })
     })
 
@@ -63,9 +63,9 @@ ServerEvents.generateData("after_mods", event =>{
     ]
 
 
-    function getColouredWoodItems(colour){
+    function getColouredWoodItems(colour) {
 
-        let block_states = {  
+        let block_states = {
             "tfc:wood/planks/oak": `pastel:${colour}_planks`,
             "tfc:wood/planks/oak_stairs": `pastel:${colour}_stairs`,
             "tfc:wood/pressure_plate/oak": `pastel:${colour}_pressure_plate`,
@@ -99,7 +99,7 @@ ServerEvents.generateData("after_mods", event =>{
         return block_states
     }
 
-    CMY_COLOURS.forEach(colour =>{
+    CMY_COLOURS.forEach(colour => {
 
         let states = getColouredWoodItems(colour)
 
@@ -110,7 +110,7 @@ ServerEvents.generateData("after_mods", event =>{
         })
     })
 
-    WHITE_COLOURS.forEach(colour =>{
+    WHITE_COLOURS.forEach(colour => {
         let states = getColouredWoodItems(colour)
 
         Object.keys(states).forEach(block => {
@@ -120,7 +120,7 @@ ServerEvents.generateData("after_mods", event =>{
         })
     })
 
-    BLACK_COLOURS.forEach(colour =>{
+    BLACK_COLOURS.forEach(colour => {
         let states = getColouredWoodItems(colour)
 
         Object.keys(states).forEach(block => {

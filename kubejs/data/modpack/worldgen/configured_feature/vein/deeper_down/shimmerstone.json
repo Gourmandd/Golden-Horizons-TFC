@@ -2,14 +2,14 @@
   "type": "tfc:geode",
   "config": {
     "outer": "tfc:rock/hardened/basalt",
-    "middle": "kubejs:rock/hardened/nephelinite",
+    "middle": "modpack:rock/hardened/nephelinite",
     "inner": [
       {
-        "data": "kubejs:ore/shimmerstone/nephelinite",
+        "data": "modpack:ore/shimmerstone/nephelinite",
         "weight": 2
       },
       {
-        "data": "kubejs:rock/hardened/nephelinite",
+        "data": "modpack:rock/hardened/nephelinite",
         "weight": 2
       }
     ]

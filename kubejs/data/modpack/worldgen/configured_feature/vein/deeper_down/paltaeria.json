@@ -2,14 +2,14 @@
   "type": "tfc:geode",
   "config": {
     "outer": "tfc:rock/hardened/basalt",
-    "middle": "kubejs:rock/hardened/travertine",
+    "middle": "modpack:rock/hardened/travertine",
     "inner": [
       {
-        "data": "kubejs:ore/paltaeria/travertine",
+        "data": "modpack:ore/paltaeria/travertine",
         "weight": 2
       },
       {
-        "data": "kubejs:rock/hardened/travertine",
+        "data": "modpack:rock/hardened/travertine",
         "weight": 2
       }
     ]

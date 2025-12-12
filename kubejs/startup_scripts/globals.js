@@ -15,8 +15,9 @@ function nameProcessing(name) {
     return name
 }
 
-global.NAMESPACE = "modpack"
-global.REGISTRY_NAMESPACE = "kubejs"
+global.MOD_ID = "modpack"
+
+let id = global.MOD_ID
 
 global.CROPS = [
     "barley",
@@ -744,11 +745,11 @@ global.DEEPER_DOWN_ROCK_TYPES = [
 ]
 
 global.STONE_TO_COBBLESTONE = {
-    "argillite": "kubejs:rock/cobble/argillite",
-    "nephelinite": "kubejs:rock/cobble/nephelinite",
-    "blackslag": "kubejs:rock/cobble/blackslag",
-    "travertine": "kubejs:rock/cobble/travertine",
-    "picrite_basalt": "kubejs:rock/cobble/picrite_basalt",
+    "argillite": `${id}:rock/cobble/argillite`,
+    "nephelinite": `${id}:rock/cobble/nephelinite`,
+    "blackslag": `${id}:rock/cobble/blackslag`,
+    "travertine": `${id}:rock/cobble/travertine`,
+    "picrite_basalt": `${id}:rock/cobble/picrite_basalt`,
     "granite": "tfc:rock/cobble/granite",
     "diorite": "tfc:rock/cobble/diorite",
     "gabbro": "tfc:rock/cobble/gabbro",
@@ -837,39 +838,3 @@ global.SPECTRUM_GEMSTONES = [
     "amethyst",
     "topaz"
 ]
-
-/*
-global.BURNED_BLOCKS_DICT = {}
-
-// Adding stuff to BURNED_BLOCKS_DICT
-StartupEvents.init(event => {
-
-  global.TFC_WOOD_TYPES.forEach(woodType => {
-    global.BURNED_BLOCKS_DICT[`tfc:wood/planks/${woodType}`] = "kubejs:wood/planks/charred"
-
-    global.BURNED_BLOCKS_DICT[`tfc:wood/log/${woodType}`] = "kubejs:wood/log/charred"
-    global.BURNED_BLOCKS_DICT[`tfc:wood/stripped_log/${woodType}`] = "kubejs:wood/log/charred"
-    global.BURNED_BLOCKS_DICT[`tfc:wood/wood/${woodType}`] = "kubejs:wood/log/charred"
-    global.BURNED_BLOCKS_DICT[`tfc:wood/stripped_wood/${woodType}`] = "kubejs:wood/log/charred"
-  })
-
-  global.AFC_WOOD_TYPES.forEach(woodType => {
-    global.BURNED_BLOCKS_DICT[`afc:wood/planks/${woodType}`] = "kubejs:wood/planks/charred"
-
-    global.BURNED_BLOCKS_DICT[`afc:wood/log/${woodType}`] = "kubejs:wood/log/charred"
-    global.BURNED_BLOCKS_DICT[`afc:wood/stripped_log/${woodType}`] = "kubejs:wood/log/charred"
-    global.BURNED_BLOCKS_DICT[`afc:wood/wood/${woodType}`] = "kubejs:wood/log/charred"
-    global.BURNED_BLOCKS_DICT[`afc:wood/stripped_wood/${woodType}`] = "kubejs:wood/log/charred"
-  })
-
-  global.DYE_COLOURS.forEach(colour => {
-    global.BURNED_BLOCKS_DICT[`pastel:${colour}_planks`] = "kubejs:wood/planks/charred"
-
-    global.BURNED_BLOCKS_DICT[`pastel:${colour}_log`] = "kubejs:wood/log/charred"
-    global.BURNED_BLOCKS_DICT[`pastel:stripped_${colour}_log`] = "kubejs:wood/log/charred"
-    global.BURNED_BLOCKS_DICT[`pastel:${colour}_wood`] = "kubejs:wood/log/charred"
-    global.BURNED_BLOCKS_DICT[`pastel:stripped_${colour}_wood`] = "kubejs:wood/log/charred"
-  })
-
-})
-  */

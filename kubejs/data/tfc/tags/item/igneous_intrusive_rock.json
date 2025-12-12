@@ -1,8 +1,8 @@
 {
     "replace": false,
     "values": [
-        "kubejs:rock/loose/blackslag",
-        "kubejs:rock/loose/picrite_basalt",
-        "kubejs:rock/loose/nephelinite"
+        "modpack:rock/loose/blackslag",
+        "modpack:rock/loose/picrite_basalt",
+        "modpack:rock/loose/nephelinite"
     ]
 }

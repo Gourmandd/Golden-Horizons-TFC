@@ -1,31 +1,31 @@
-ServerEvents.tags("item", event =>{
+ServerEvents.tags("item", event => {
 
-    global.ROCK_TYPES.forEach(rockType =>{
+    global.ROCK_TYPES.forEach(rockType => {
 
-        event.add("pastel:shimmerstone_ores", `kubejs:ore/shimmerstone/${rockType}`)
-        event.add("pastel:azurite_ores", `kubejs:ore/azurite/${rockType}`)
+        event.add("pastel:shimmerstone_ores", `${mod_id}:ore/shimmerstone/${rockType}`)
+        event.add("pastel:azurite_ores", `${mod_id}:ore/azurite/${rockType}`)
     })
 
-    global.DEEPER_DOWN_ROCK_TYPES.forEach(rockType =>{
+    global.DEEPER_DOWN_ROCK_TYPES.forEach(rockType => {
 
-        event.add("pastel:shimmerstone_ores", `kubejs:ore/shimmerstone/${rockType}`)
-        event.add("pastel:azurite_ores", `kubejs:ore/azurite/${rockType}`)
+        event.add("pastel:shimmerstone_ores", `${mod_id}:ore/shimmerstone/${rockType}`)
+        event.add("pastel:azurite_ores", `${mod_id}:ore/azurite/${rockType}`)
     })
 })
 
 
-ServerEvents.tags("block", event =>{
+ServerEvents.tags("block", event => {
 
-    global.ROCK_TYPES.forEach(rockType =>{
+    global.ROCK_TYPES.forEach(rockType => {
 
-        event.add("pastel:shimmerstone_ores", `kubejs:ore/shimmerstone/${rockType}`)
-        event.add("pastel:azurite_ores", `kubejs:ore/azurite/${rockType}`)
+        event.add("pastel:shimmerstone_ores", `${mod_id}:ore/shimmerstone/${rockType}`)
+        event.add("pastel:azurite_ores", `${mod_id}:ore/azurite/${rockType}`)
     })
 
-    global.DEEPER_DOWN_ROCK_TYPES.forEach(rockType =>{
+    global.DEEPER_DOWN_ROCK_TYPES.forEach(rockType => {
 
-        event.add("pastel:shimmerstone_ores", `kubejs:ore/shimmerstone/${rockType}`)
-        event.add("pastel:azurite_ores", `kubejs:ore/azurite/${rockType}`)
+        event.add("pastel:shimmerstone_ores", `${mod_id}:ore/shimmerstone/${rockType}`)
+        event.add("pastel:azurite_ores", `${mod_id}:ore/azurite/${rockType}`)
     })
 })
 

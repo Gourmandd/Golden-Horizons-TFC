@@ -1,4 +1,7 @@
-// priority: 0
+// priority: 100
+
+
+let mod_id = "modpack"
 
 // Visit the wiki for more info - https://kubejs.com/
 

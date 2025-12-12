@@ -2,9 +2,9 @@
 // Generates assets for TFCified pastel ores //
 // ------------------------------------------- //
 
-ClientEvents.lang("en_us", event =>{
+ClientEvents.lang("en_us", event => {
 
-    function nameProcessing(name){
+    function nameProcessing(name) {
         name = name.replace("_", " ")
         name = name.replace("_", " ")
         name = name.replace(/(^\w|\s\w)/g, m => m.toUpperCase())
@@ -21,18 +21,18 @@ ClientEvents.lang("en_us", event =>{
 
     Object.keys(OVERWORLD_PASTEL_PROSPECTING).forEach(ore => {
 
-        global.ROCK_TYPES.forEach(rockType =>{
+        global.ROCK_TYPES.forEach(rockType => {
 
-            let prospectedKey = "block.kubejs.ore." + ore + "." + rockType + ".prospected"
+            let prospectedKey = `block.${mod_id}.ore.${ore}.${rockType}.prospected`
             event.add(prospectedKey, OVERWORLD_PASTEL_PROSPECTING[ore])
         })
     })
 })
 
-ClientEvents.generateAssets("last", event =>{
+ClientEvents.generateAssets("last", event => {
 
-    function generateOreBlockModel(location, all, overlay){
-        event.blockModel(location, 
+    function generateOreBlockModel(location, all, overlay) {
+        event.blockModel(location,
             model => {
                 model.parent("tfc:block/ore")
                 model.texture("all", all)
@@ -56,46 +56,46 @@ ClientEvents.generateAssets("last", event =>{
     ]
 
     global.SPECTRUM_OVERWORLD_ORES.forEach(ore => {
-        global.ROCK_TYPES.forEach(rockType =>{
-            generateOreBlockModel("kubejs:ore/" + ore + "/" + rockType, "tfc:block/rock/raw/" + rockType, "kubejs:block/pastel/overworld_ore/" + ore)
+        global.ROCK_TYPES.forEach(rockType => {
+            generateOreBlockModel(`${mod_id}:ore/` + ore + "/" + rockType, "tfc:block/rock/raw/" + rockType, `${mod_id}:block/pastel/overworld_ore/` + ore)
         })
 
-        Object.keys(DEEPER_DOWN_ROCK_TYPES).forEach(rockType =>{
-            generateOreBlockModel("kubejs:ore/" + ore + "/" + rockType, DEEPER_DOWN_ROCK_TYPES[rockType], "kubejs:block/pastel/overworld_ore/" + ore)
+        Object.keys(DEEPER_DOWN_ROCK_TYPES).forEach(rockType => {
+            generateOreBlockModel(`${mod_id}:ore/` + ore + "/" + rockType, DEEPER_DOWN_ROCK_TYPES[rockType], `${mod_id}:block/pastel/overworld_ore/` + ore)
         })
     })
 
 
     global.SPECTRUM_DEEPER_DOWN_ORES.forEach(ore => {
 
-        global.ROCK_TYPES.forEach(rockType =>{
-            generateOreBlockModel("kubejs:ore/" + ore + "/" + rockType, "tfc:block/rock/raw/" + rockType, "kubejs:block/pastel/overworld_ore/" + ore)
+        global.ROCK_TYPES.forEach(rockType => {
+            generateOreBlockModel(`${mod_id}:ore/` + ore + "/" + rockType, "tfc:block/rock/raw/" + rockType, `${mod_id}:block/pastel/overworld_ore/` + ore)
         })
 
-        Object.keys(DEEPER_DOWN_ROCK_TYPES).forEach(rockType =>{
-            generateOreBlockModel("kubejs:ore/" + ore + "/" + rockType, DEEPER_DOWN_ROCK_TYPES[rockType], "kubejs:block/pastel/overworld_ore/" + ore)
+        Object.keys(DEEPER_DOWN_ROCK_TYPES).forEach(rockType => {
+            generateOreBlockModel(`${mod_id}:ore/` + ore + "/" + rockType, DEEPER_DOWN_ROCK_TYPES[rockType], `${mod_id}:block/pastel/overworld_ore/` + ore)
         })
     })
-    
-    Object.keys(DEEPER_DOWN_ROCK_TYPES).forEach(rockType =>{
-        
-        global.TFC_MINERALS.forEach(ore =>{
-            generateOreBlockModel("kubejs:ore/" + ore + "/" + rockType, DEEPER_DOWN_ROCK_TYPES[rockType], "tfc:block/ore/" + ore)
+
+    Object.keys(DEEPER_DOWN_ROCK_TYPES).forEach(rockType => {
+
+        global.TFC_MINERALS.forEach(ore => {
+            generateOreBlockModel(`${mod_id}:ore/` + ore + "/" + rockType, DEEPER_DOWN_ROCK_TYPES[rockType], "tfc:block/ore/" + ore)
         })
 
-        global.TFC_GEMS.forEach(ore =>{
-            generateOreBlockModel("kubejs:ore/" + ore + "/" + rockType, DEEPER_DOWN_ROCK_TYPES[rockType], "tfc:block/ore/" + ore)
+        global.TFC_GEMS.forEach(ore => {
+            generateOreBlockModel(`${mod_id}:ore/` + ore + "/" + rockType, DEEPER_DOWN_ROCK_TYPES[rockType], "tfc:block/ore/" + ore)
         })
 
-        global.TFC_ORES.forEach(ore =>{
-            generateOreBlockModel("kubejs:ore/rich_" + ore + "/" + rockType, DEEPER_DOWN_ROCK_TYPES[rockType], "tfc:block/ore/rich/" + ore)
-            generateOreBlockModel("kubejs:ore/poor_" + ore + "/" + rockType, DEEPER_DOWN_ROCK_TYPES[rockType], "tfc:block/ore/poor/" + ore)
-            generateOreBlockModel("kubejs:ore/normal_" + ore + "/" + rockType, DEEPER_DOWN_ROCK_TYPES[rockType], "tfc:block/ore/normal_" + ore)
+        global.TFC_ORES.forEach(ore => {
+            generateOreBlockModel(`${mod_id}:ore/rich_` + ore + "/" + rockType, DEEPER_DOWN_ROCK_TYPES[rockType], "tfc:block/ore/rich/" + ore)
+            generateOreBlockModel(`${mod_id}:ore/poor_` + ore + "/" + rockType, DEEPER_DOWN_ROCK_TYPES[rockType], "tfc:block/ore/poor/" + ore)
+            generateOreBlockModel(`${mod_id}:ore/normal_` + ore + "/" + rockType, DEEPER_DOWN_ROCK_TYPES[rockType], "tfc:block/ore/normal_" + ore)
         })
 
-        global.FIRMALIFE_ORES.forEach(ore =>{
-            ORE_BLOCK_GRADES.forEach(grade =>{
-                generateOreBlockModel("kubejs:ore/" + grade + "_" + ore + "/" + rockType, DEEPER_DOWN_ROCK_TYPES[rockType], "firmalife:block/ore/" + grade + "_" + ore)
+        global.FIRMALIFE_ORES.forEach(ore => {
+            ORE_BLOCK_GRADES.forEach(grade => {
+                generateOreBlockModel(`${mod_id}:ore/` + grade + "_" + ore + "/" + rockType, DEEPER_DOWN_ROCK_TYPES[rockType], "firmalife:block/ore/" + grade + "_" + ore)
             })
         })
     })

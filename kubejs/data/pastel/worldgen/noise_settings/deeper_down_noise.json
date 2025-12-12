@@ -498,7 +498,7 @@
                       "then_run": {
                           "type": "minecraft:block",
                           "result_state": {
-                              "Name": "kubejs:rock/hardened/blackslag"
+                              "Name": "modpack:rock/hardened/blackslag"
                           }
                       }
                   },
@@ -538,7 +538,7 @@
                   "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                          "Name": "kubejs:rock/hardened/blackslag"
+                          "Name": "modpack:rock/hardened/blackslag"
                       }
                   }
               },
@@ -566,7 +566,7 @@
                   "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                          "Name": "kubejs:rock/hardened/nephelinite"
+                          "Name": "modpack:rock/hardened/nephelinite"
                       }
                   }
               }
@@ -584,4 +584,3 @@
     ]
   }
 }
-

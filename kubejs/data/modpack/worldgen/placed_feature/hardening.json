@@ -46,7 +46,7 @@
             "block": "pastel:blackslag"
           },
           "state": {
-            "Name": "kubejs:rock/hardened/blackslag"
+            "Name": "modpack:rock/hardened/blackslag"
           }
         },
 		{
@@ -55,7 +55,7 @@
             "block": "minecraft:stone"
           },
           "state": {
-            "Name": "kubejs:rock/hardened/argillite"
+            "Name": "modpack:rock/hardened/argillite"
           }
         },
 		{
@@ -64,7 +64,7 @@
             "block": "minecraft:deepslate"
           },
           "state": {
-            "Name": "kubejs:rock/hardened/nephelinite"
+            "Name": "modpack:rock/hardened/nephelinite"
           }
         },
 		{
@@ -73,7 +73,7 @@
             "block": "minecraft:dripstone_block"
           },
           "state": {
-            "Name": "kubejs:rock/hardened/travertine"
+            "Name": "modpack:rock/hardened/travertine"
           }
         },
 		{
@@ -82,7 +82,7 @@
             "block": "pastel:basal_marble"
           },
           "state": {
-            "Name": "kubejs:rock/hardened/picrite_basalt"
+            "Name": "modpack:rock/hardened/picrite_basalt"
           }
         }
       ]

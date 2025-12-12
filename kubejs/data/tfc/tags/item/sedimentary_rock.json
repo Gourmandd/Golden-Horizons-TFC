@@ -1,7 +1,7 @@
 {
     "replace": false,
     "values": [
-        "kubejs:rock/loose/argillite",
-        "kubejs:rock/loose/travertine"
+        "modpack:rock/loose/argillite",
+        "modpack:rock/loose/travertine"
     ]
 }
