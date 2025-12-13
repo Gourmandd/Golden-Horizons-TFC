@@ -8,7 +8,7 @@ let ResourceLocation = Java.loadClass("net.minecraft.resources.ResourceLocation"
 StartupEvents.registry("item", event => {
 
     let p = ItemClass.Properties().craftRemainder(Items.BOWL).stacksTo(1);
-    let f = () => BuiltInRegistries.FLUID.get(ResourceLocation.fromNamespaceAndPath("kubejs", "brew"))
+    let f = () => BuiltInRegistries.FLUID.get(ResourceLocation.fromNamespaceAndPath(id, "brew"))
 
-    event.createCustom("brew", () => new StewItem(CPBlocks.BOWL.get(), f, p))
+    event.createCustom(`${id}:brew`, () => new StewItem(CPBlocks.BOWL.get(), f, p))
 })

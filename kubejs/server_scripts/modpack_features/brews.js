@@ -78,12 +78,12 @@ const EFFECTS = {
 
 const BREW_VALUES = {
     "minecraft:redstone": [{ effect: EFFECTS.SHOCKING, amplitute: 1, duration: 30 }],
-    "minecraft:bone_meal": [{ effect: EFFECTS.BLINDNESS, amplitute: 1, duration: 60 }],
+    //"minecraft:bone_meal": [{ effect: EFFECTS.BLINDNESS, amplitute: 1, duration: 60 }],
     "minecraft:snowball": [{ effect: EFFECTS.CONDUIT_POWER, amplitute: 1, duration: 40 }],
-    "minecraft:egg": [{ effect: EFFECTS.OOZING, amplitute: 1, duration: 60 }],
+    //"minecraft:egg": [{ effect: EFFECTS.OOZING, amplitute: 1, duration: 60 }],
     "minecraft:rotten_flesh": [{ effect: EFFECTS.BLINDNESS, amplitute: 1, duration: 40 }, { effect: EFFECTS.MINING_FATIGUE, amplitute: 1, duration: 40 }],
     "minecraft:charcoal": [{ effect: EFFECTS.COMFORT, amplitute: 1, duration: 40 }, { effect: EFFECTS.THIRST, amplitute: 1, duration: 40 }],
-    "minecraft:honeycomb": [{ effect: EFFECTS.ABSORPTION, amplitute: 1, duration: 30 }],
+    //"minecraft:honeycomb": [{ effect: EFFECTS.ABSORPTION, amplitute: 1, duration: 30 }],
     "minecraft:slime_ball": [{ effect: EFFECTS.OOZING, amplitute: 1, duration: 60 }],
     //"quark:moss_paste": [{ effect: EFFECTS.INTSANT_HEALTH, amplitute: 1, duration: 1 }],
     "minecraft:glowstone_dust": [{ effect: EFFECTS.GLOWING, amplitute: 1, duration: 40 }],
@@ -217,12 +217,12 @@ ServerEvents.recipes(event => {
     event.custom({
         "type": "caupona:bowl",
         "fluid": {
-            "fluid": "kubejs:brew"
+            "fluid": `${mod_id}:brew`
         },
         "inType": {
             "item": "minecraft:bowl"
         },
-        "item": "kubejs:brew"
+        "item": `${mod_id}:brew`
     }).id("modpack:bowl/brew")
 
     event.custom({
@@ -244,7 +244,7 @@ ServerEvents.recipes(event => {
         ],
         "density": 0.25,
         "deny": [],
-        "output": "kubejs:brew",
+        "output": `${mod_id}:brew`,
         "priority": 64,
         "removeNBT": false,
         "time": 200
@@ -254,29 +254,35 @@ ServerEvents.recipes(event => {
 
         let effects = BREW_VALUES[item]
         let isEffectValid = true
+        let duration = 0
         let json = {
             type: "caupona:food",
             heal: 0,
             item: {
                 "item": item
             },
-            items: [
-                {
-                    "item": item,
-                    "time": 0
-                }
-            ],
             sat: 1,
             effects: []
         }
+        let counter = 0
 
         effects.forEach(entry => {
+
+            if (counter == 0) {
+                duration = entry.duration
+            }
+
+            counter + 1
 
             json.effects.push(
                 {
                     level: entry.amplitute,
                     time: entry.duration,
-                    effect: entry.effect,
+                    effect: {
+                        "id": entry.effect,
+                        "amplifier": entry.amplitute,
+                        "duration": entry.duration
+                    },
                     "chance": 1.0
                 }
             )
@@ -286,8 +292,18 @@ ServerEvents.recipes(event => {
             }
         })
 
+        // set duration after iterating on entries
+        json.items = [
+            {
+                "item": item,
+                "time": duration
+            }
+        ]
+
+        // if the json is valid, create it
         if (isEffectValid) {
             event.custom(json).id(`modpack:food/${item.replace(":", "/")}`)
+            console.log(json)
         }
     })
 })

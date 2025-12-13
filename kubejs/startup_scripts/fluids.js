@@ -48,7 +48,7 @@ StartupEvents.registry('fluid', event => {
         .displayName('Boiled Water')
         .noBlock()
 
-    event.create('brew', 'thin')
+    event.create(`${id}:brew`, 'thin')
         .displayName('Brew')
         .noBlock().noBucket()
 
