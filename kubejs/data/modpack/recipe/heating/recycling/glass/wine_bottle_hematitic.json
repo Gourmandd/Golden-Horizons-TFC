@@ -10,7 +10,7 @@
         "item": "firmalife:empty_hematitic_wine_bottle"
     },
     "result_fluid": {
-        "id": "kubejs:glass/orange",
+        "id": "modpack:glass/orange",
         "amount": 400
     },
     "temperature": 1070

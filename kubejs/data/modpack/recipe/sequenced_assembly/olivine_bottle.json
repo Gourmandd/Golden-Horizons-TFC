@@ -16,7 +16,7 @@
                 {
                     "type": "fluid_stack",
                     "amount": 400,
-                    "fluid": "kubejs:glass/green"
+                    "fluid": "modpack:glass/green"
                 }
             ],
             "results": [

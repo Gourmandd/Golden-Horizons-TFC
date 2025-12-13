@@ -29,7 +29,7 @@ ServerEvents.recipes(event => {
 
         // vanilla
         datagen.createItemApplication(outputOf(ITEM, `minecraft:${colour}_stained_glass`, 1, 1),
-            inputOf(ITEM, `kubejs:molten_glass/${colour}`, 1),
+            inputOf(ITEM, `${mod_id}:molten_glass/${colour}`, 1),
             inputOf(ITEM, "tfc:powder/flux", 1)
         ).id(`modpack:recipes/item_application/glass/stained_${colour}`).generate()
 
@@ -45,29 +45,29 @@ ServerEvents.recipes(event => {
             ]
         ).id(`modpack:recipes/cutting/glass/stained_${colour}`).generate()
 
-        datagen.createFilling(outputOf(ITEM, `kubejs:molten_glass/${colour}`, 1, 1),
+        datagen.createFilling(outputOf(ITEM, `${mod_id}:molten_glass/${colour}`, 1, 1),
             inputOf(ITEM, "tfc:powder/flux", 1),
-            inputOf(FLUID, `kubejs:glass/${colour}`, 800)
+            inputOf(FLUID, `${mod_id}:glass/${colour}`, 800)
         ).id(`modpack:recipes/filling/molten_glass/${colour}`).generate()
 
-        datagen.createCompacting(outputOf(ITEM, `kubejs:molten_glass/${colour}`, 1, 1),
+        datagen.createCompacting(outputOf(ITEM, `${mod_id}:molten_glass/${colour}`, 1, 1),
             [
-                inputOf(FLUID, `kubejs:glass/${colour}`, 800)
+                inputOf(FLUID, `${mod_id}:glass/${colour}`, 800)
             ]
         ).id(`modpack:recipes/compacting/glass/${colour}`).generate()
 
         /* nbt in create recipes might be broken
-        event.recipes.create.filling(Item.of("kubejs:glass_pane_mold", {"tank":{"Amount":50,"FluidName":`kubejs:glass/${colour}`}}), [Item.of("kubejs:glass_pane_mold", {}), Fluid.of(`kubejs:glass/${colour}`, 50)])
+        event.recipes.create.filling(Item.of("kubejs:glass_pane_mold", {"tank":{"Amount":50,"FluidName":`${mod_id}:glass/${colour}`}}), [Item.of("kubejs:glass_pane_mold", {}), Fluid.of(`${mod_id}:glass/${colour}`, 50)])
             .id(`modpack:recipes/filling/glass_pane/${colour}`)
-        event.recipes.create.filling(Item.of("kubejs:glass_mold", {"tank":{"Amount":800,"FluidName":`kubejs:glass/${colour}`}}), [Item.of("kubejs:glass_mold", {}), Fluid.of(`kubejs:glass/${colour}`, 800)])
+        event.recipes.create.filling(Item.of("kubejs:glass_mold", {"tank":{"Amount":800,"FluidName":`${mod_id}:glass/${colour}`}}), [Item.of("kubejs:glass_mold", {}), Fluid.of(`${mod_id}:glass/${colour}`, 800)])
             .id(`modpack:recipes/filling/glass/${colour}`)*/
 
         //let transitionalItem = `minecraft:${colour}_stained_glass_pane`
 
         /*
         datagen.createSequencedAssembly(
-            outputOf(ITEM, `kubejs:${colour}_lens`, 1, 1),
-            inputOf(ITEM, `kubejs:molten_glass/${colour}`, 1),
+            outputOf(ITEM, `${mod_id}:${colour}_lens`, 1, 1),
+            inputOf(ITEM, `${mod_id}:molten_glass/${colour}`, 1),
             [
                 datagen.createDeploying(outputOf(ITEM, transitionalItem, 1, 1), [inputOf(ITEM, transitionalItem, 1), inputOf(ITEM, "tfc:powder/soda_ash", 1)]).getAsMap(),
                 datagen.createDeploying(outputOf(ITEM, transitionalItem, 1, 1), [inputOf(ITEM, transitionalItem, 1), inputOf(ITEM, "tfc:bellows", 1)]).KeepItem().getAsMap(),
@@ -78,7 +78,7 @@ ServerEvents.recipes(event => {
         ).transitionalItem(transitionalItem).loops(3).id(`modpack:sequenced_assembly/lens/${colour}`).generate()*/
     })
     /*
-    event.recipes.create.item_application("minecraft:glass",[`kubejs:molten_glass/clear`,  "tfc:powder/flux"])
+    event.recipes.create.item_application("minecraft:glass",[`${mod_id}:molten_glass/clear`,  "tfc:powder/flux"])
         .id("modpack:recipes/item_application/glass/clear")
 
     event.recipes.create.crushing("tfc:silica_glass_batch", "minecraft:glass")
@@ -88,19 +88,19 @@ ServerEvents.recipes(event => {
         .id("modpack:recipes/cutting/glass/clear")
 
     /*
-    event.recipes.create.filling(Item.of("kubejs:glass_pane_mold", {"tank":{"Amount":50,"FluidName":`kubejs:glass/clear`}}), [Item.of("kubejs:glass_pane_mold", {}), Fluid.of(`kubejs:glass/clear`, 50)])
+    event.recipes.create.filling(Item.of("kubejs:glass_pane_mold", {"tank":{"Amount":50,"FluidName":`${mod_id}:glass/clear`}}), [Item.of("kubejs:glass_pane_mold", {}), Fluid.of(`${mod_id}:glass/clear`, 50)])
         .id("modpack:recipes/filling/glass_pane/clear")
-    event.recipes.create.filling(Item.of("kubejs:glass_mold", {"tank":{"Amount":800,"FluidName":`kubejs:glass/clear`}}), [Item.of("kubejs:glass_mold", {}), Fluid.of(`kubejs:glass/clear`, 800)])
+    event.recipes.create.filling(Item.of("kubejs:glass_mold", {"tank":{"Amount":800,"FluidName":`${mod_id}:glass/clear`}}), [Item.of("kubejs:glass_mold", {}), Fluid.of(`${mod_id}:glass/clear`, 800)])
         .id("modpack:recipes/filling/glass/clear")
     */
     /*
-     event.recipes.create.filling(Item.of(`kubejs:molten_glass/clear`), [Item.of("tfc:powder/flux"), Fluid.of(`kubejs:glass/clear`, 800)])
+     event.recipes.create.filling(Item.of(`${mod_id}:molten_glass/clear`), [Item.of("tfc:powder/flux"), Fluid.of(`${mod_id}:glass/clear`, 800)])
          .id("modpack:recipes/filling/molten_glass/clear")
 
-     event.recipes.create.compacting(Item.of(`kubejs:molten_glass/clear`), Fluid.of(`kubejs:glass/clear`, 800))
+     event.recipes.create.compacting(Item.of(`${mod_id}:molten_glass/clear`), Fluid.of(`${mod_id}:glass/clear`, 800))
          .id("modpack:recipes/compacting/glass/clear")
 
-     event.recipes.create.sequenced_assembly("tfc:lens", `kubejs:molten_glass/clear`, [
+     event.recipes.create.sequenced_assembly("tfc:lens", `${mod_id}:molten_glass/clear`, [
          event.recipes.create.deploying(Item.of("minecraft:glass_pane"), [Item.of("minecraft:glass_pane"), Item.of("tfc:powder/soda_ash")]),
          event.recipes.create.deploying(Item.of("minecraft:glass_pane"), [Item.of("minecraft:glass_pane"), Item.of("tfc:bellows")]),
          event.recipes.create.deploying(Item.of("minecraft:glass_pane"), [Item.of("minecraft:glass_pane"), Item.of("tfc:paddle")]),

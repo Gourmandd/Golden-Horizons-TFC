@@ -1,6 +1,6 @@
 {
   "item": {
-    "item": "kubejs:lime_lens"
+    "item": "modpack:lime_lens"
   },
   "tint_color": "#41CD34",
   "shader": "exposure:shaders/lime_tint.json"

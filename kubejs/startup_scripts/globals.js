@@ -1,4 +1,4 @@
-//priority: 10
+//priority: 50
 
 // --------------------------------------- //
 // Globals to be used for any script type  //

@@ -1,6 +1,6 @@
 {
   "item": {
-    "item": "kubejs:gray_lens"
+    "item": "modpack:gray_lens"
   },
   "tint_color": "#434343",
   "shader": "exposure:shaders/gray_tint.json"

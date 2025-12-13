@@ -4,7 +4,7 @@
         "item": "tfc:hematitic_glass_bottle"
     },
     "result_fluid": {
-        "id": "kubejs:glass/orange",
+        "id": "modpack:glass/orange",
         "amount": 400
     },
     "temperature": 1070

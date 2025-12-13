@@ -93,4 +93,4 @@ StartupEvents.registry("block", event => {
 })
 
 Platform.mods.kubejs.name = 'Horizons'
-Platform.mods.modpack.name = 'Horizons'
+//Platform.mods.modpack.name = 'Horizons'

@@ -4,7 +4,7 @@
         "item": "tfc:olivine_glass_bottle"
     },
     "result_fluid": {
-        "id": "kubejs:glass/green",
+        "id": "modpack:glass/green",
         "amount": 400
     },
     "temperature": 1070

@@ -10,7 +10,7 @@
         "item": "firmalife:wine_glass"
     },
     "result_fluid": {
-        "id": "kubejs:glass/clear",
+        "id": "modpack:glass/clear",
         "amount": 200
     },
     "temperature": 1070

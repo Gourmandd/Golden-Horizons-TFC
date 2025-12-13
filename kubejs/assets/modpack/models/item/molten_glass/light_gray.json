@@ -2,6 +2,6 @@
   "__comment__": "This file was automatically created by mcresources",
   "parent": "item/generated",
   "textures": {
-    "layer0": "kubejs:item/glass/light_blue"
+    "layer0": "modpack:item/glass/light_gray"
   }
 }

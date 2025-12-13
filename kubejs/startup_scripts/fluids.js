@@ -1,30 +1,30 @@
 StartupEvents.registry('fluid', event => {
 
     global.DYE_COLOURS.forEach(colour => {
-        event.create(`glass/${colour}`, 'thick')
+        event.create(`${id}:glass/${colour}`, 'thick')
             .displayName(`Molten ${nameProcessing(colour)} Glass`)
             .tint(global.COLOUR_TO_HEX[colour])
             .noBucket()
             .noBlock()
             .tag('tfc:molten_metals')
-            .tag('kubejs:molten_glass')
+            .tag(`${id}:molten_glass`)
     })
 
-    event.create('glass/clear', 'thick')
+    event.create(`${id}:glass/clear`, 'thick')
         .displayName('Molten Clear Glass')
         .tint(0xD4FBFB)
         .noBucket()
         .noBlock()
         .tag('tfc:molten_metals')
-        .tag('kubejs:molten_glass')
-    
+        .tag(`${id}:molten_glass`)
+
     event.create('electrum', 'thick')
         .displayName('Electrum')
         .tint(0xFFF10F)
         .noBucket()
         .noBlock()
         .tag('tfc:molten_metals')
-    
+
     event.create('aluminium', 'thick')
         .displayName('Aluminium')
         .tint(0xCDD6DA)
@@ -47,11 +47,11 @@ StartupEvents.registry('fluid', event => {
     event.create('boiled_water', 'thin')
         .displayName('Boiled Water')
         .noBlock()
-    
+
     event.create('brew', 'thin')
         .displayName('Brew')
         .noBlock().noBucket()
-    
+
     event.create('garum', 'thin')
         .displayName('Garum')
         .tint(0x321C0B)

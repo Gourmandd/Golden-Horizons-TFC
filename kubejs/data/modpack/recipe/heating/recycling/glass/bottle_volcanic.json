@@ -4,7 +4,7 @@
         "item": "tfc:volcanic_glass_bottle"
     },
     "result_fluid": {
-        "id": "kubejs:glass/blue",
+        "id": "modpack:glass/blue",
         "amount": 400
     },
     "temperature": 1070

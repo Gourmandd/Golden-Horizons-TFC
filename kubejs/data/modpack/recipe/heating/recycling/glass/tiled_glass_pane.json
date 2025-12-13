@@ -4,7 +4,7 @@
         "item": "create:tiled_glass_pane"
     },
     "result_fluid": {
-        "id": "kubejs:glass/clear",
+        "id": "modpack:glass/clear",
         "amount": 50
     },
     "temperature": 1070
