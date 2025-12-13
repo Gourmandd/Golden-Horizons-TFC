@@ -106,7 +106,7 @@ ServerEvents.generateData("after_mods", event => {
         Object.keys(states).forEach(block => {
 
             hideItem(`pastel:milestones/reveal_colored_trees_cmy`, states[block], block, block.split(":").pop().split("/").pop().replace("_", " "))
-            hideItem(`pastel:milestones/reveal_colored_trees_cmy`, `kubejs:wood/lumber/${colour}`, "tfc:wood/lumber/oak", colour + " lumber")
+            hideItem(`pastel:milestones/reveal_colored_trees_cmy`, `${mod_id}:wood/lumber/${colour}`, "tfc:wood/lumber/oak", colour + " lumber")
         })
     })
 
@@ -116,7 +116,7 @@ ServerEvents.generateData("after_mods", event => {
         Object.keys(states).forEach(block => {
 
             hideItem(`pastel:milestones/reveal_colored_trees_w`, states[block], block, block.split(":").pop().split("/").pop().replace("_", " "))
-            hideItem(`pastel:milestones/reveal_colored_trees_w`, `kubejs:wood/lumber/${colour}`, "tfc:wood/lumber/oak", colour + " lumber")
+            hideItem(`pastel:milestones/reveal_colored_trees_w`, `${mod_id}:wood/lumber/${colour}`, "tfc:wood/lumber/oak", colour + " lumber")
         })
     })
 
@@ -126,7 +126,7 @@ ServerEvents.generateData("after_mods", event => {
         Object.keys(states).forEach(block => {
 
             hideItem(`pastel:milestones/reveal_colored_trees_k`, states[block], block, block.split(":").pop().split("/").pop().replace("_", " "))
-            hideItem(`pastel:milestones/reveal_colored_trees_k`, `kubejs:wood/lumber/${colour}`, "tfc:wood/lumber/oak", colour + " lumber")
+            hideItem(`pastel:milestones/reveal_colored_trees_k`, `${mod_id}:wood/lumber/${colour}`, "tfc:wood/lumber/oak", colour + " lumber")
         })
     })
 
