@@ -16,7 +16,7 @@
             "tag": "c:chests/wooden"
         },
         "S": {
-            "item": "kubejs:metal/sheet/aluminium"
+            "item": "modpack:metal/sheet/aluminium"
         }
     },
     "result": {

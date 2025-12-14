@@ -5,7 +5,7 @@
         "createbigcannons:molten_bronze",
         "createbigcannons:molten_steel",
         "createbigcannons:molten_nethersteel",
-        "kubejs:aluminium",
-        "kubejs:electrum"
+        "modpack:aluminium",
+        "modpack:electrum"
     ]
 }

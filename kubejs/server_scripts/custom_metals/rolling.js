@@ -1,12 +1,12 @@
 
-ServerEvents.recipes(event =>{
+ServerEvents.recipes(event => {
 
     let datagen = Datagen(event).recipe()
 
-    global.KUBEJS_METALS.forEach(metal =>{
+    global.KUBEJS_METALS.forEach(metal => {
         datagen.createAdditionRolling(
-            outputOf(IO_TYPE.ITEM, `kubejs:metal/rod/${metal}`, 2, 1),
-            inputOf(IO_TYPE.ITEM, `kubejs:metal/ingot/${metal}`, 1)
-        ).id(`modpack:rolling/rod/${metal}`).generate()
+            outputOf(IO_TYPE.ITEM, `${mod_id}:metal/rod/${metal}`, 2, 1),
+            inputOf(IO_TYPE.ITEM, `${mod_id}:metal/ingot/${metal}`, 1)
+        ).id(`${mod_id}:rolling/rod/${metal}`).generate()
     })
 })

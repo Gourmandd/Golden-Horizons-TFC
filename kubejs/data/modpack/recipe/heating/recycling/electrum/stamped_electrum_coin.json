@@ -10,7 +10,7 @@
         "tag": "lithiccoins:coins/electrum"
     },
     "result_fluid": {
-        "id": "kubejs:electrum",
+        "id": "modpack:electrum",
         "amount": 20
     },
     "temperature": 1060

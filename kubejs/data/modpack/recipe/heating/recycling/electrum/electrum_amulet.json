@@ -4,7 +4,7 @@
         "item": "createaddition:electrum_amulet"
     },
     "result_fluid": {
-        "id": "kubejs:electrum",
+        "id": "modpack:electrum",
         "amount": 350
     },
     "temperature": 1060

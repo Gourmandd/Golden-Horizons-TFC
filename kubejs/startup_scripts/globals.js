@@ -364,12 +364,12 @@ global.KUBEJS_METALS = [
 ]
 
 global.METAL_FLUIDS = {
-    "aluminium": "kubejs:aluminium",
+    "aluminium": id + ":aluminium",
     "aluminium_bronze": "createbigcannons:molten_bronze",
     "harderned_steel": "createbigcannons:molten_steel",
     "cast_iron_alloy": "createbigcannons:molten_cast_iron",
     "nethersteel": "createbigcannons:molten_nethersteel",
-    "electrum": "kubejs:electrum"
+    "electrum": id + ":electrum"
 }
 
 global.CUSTOM_CLAY_TYPES = [

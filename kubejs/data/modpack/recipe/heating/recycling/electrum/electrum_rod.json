@@ -4,7 +4,7 @@
         "item": "createaddition:electrum_rod"
     },
     "result_fluid": {
-        "id": "kubejs:electrum",
+        "id": "modpack:electrum",
         "amount": 50
     },
     "temperature": 1060

@@ -1,6 +1,6 @@
 {
     "type": "tfc:alloy",
-    "result": "kubejs:electrum",
+    "result": "modpack:electrum",
     "contents": [
         {
             "fluid": "tfc:metal/silver",

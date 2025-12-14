@@ -13,7 +13,7 @@
     ],
     "key": {
         "S": {
-            "item": "kubejs:metal/rod/aluminium"
+            "item": "modpack:metal/rod/aluminium"
         },
         "L": {
             "item": "firmalife:treated_lumber"

@@ -4,7 +4,7 @@
         {
             "type": "fluid_stack",
             "amount": 100,
-            "fluid": "kubejs:electrum"
+            "fluid": "modpack:electrum"
         }
     ],
     "results": [
