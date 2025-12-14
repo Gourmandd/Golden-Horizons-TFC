@@ -62,8 +62,6 @@ ServerEvents.generateData("before_mods", event => {
                     generatedEntry.addPage(generatedPage)
                 })
 
-                console.log(entry.parents)
-
                 if (Array.isArray(entry.parents)) {
                     entry.parents.forEach(parent => {
                         generatedEntry = generatedEntry.addParent(parent)

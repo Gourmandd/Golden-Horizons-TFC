@@ -303,7 +303,6 @@ ServerEvents.recipes(event => {
         // if the json is valid, create it
         if (isEffectValid) {
             event.custom(json).id(`modpack:food/${item.replace(":", "/")}`)
-            console.log(json)
         }
     })
 })

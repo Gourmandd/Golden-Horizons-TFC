@@ -4,8 +4,6 @@
 
 LootJS.modifiers(event => {
 
-    console.log(mod_id)
-
     const PASTEL_ORE_DATA = {
         "shimmerstone": { "drop": "pastel:shimmerstone_gem", "tier": "tfc:needs_copper_tool" },
         "azurite": { "drop": "pastel:raw_azurite", "tier": "tfc:needs_steel_tool" },
@@ -77,9 +75,6 @@ LootJS.modifiers(event => {
 
         global.ROCK_TYPES.forEach(rockType => {
             singleDropOre(event, mod_id, ore, rockType, PASTEL_ORE_DATA[ore].drop)
-            console.log(mod_id)
-            console.log(ore)
-            console.log(rockType)
         })
 
         global.DEEPER_DOWN_ROCK_TYPES.forEach(rockType => {

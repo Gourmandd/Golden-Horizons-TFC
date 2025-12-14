@@ -11,7 +11,7 @@ ServerEvents.recipes(event => {
 
     let tags = global.Tag
 
-    function notRotten(input){
+    function notRotten(input) {
         return {
             "type": "tfc:and",
             "children": [
@@ -205,17 +205,6 @@ ServerEvents.recipes(event => {
             ]
         },
         {
-            fluid: "caupona:goulash",
-            base: "caupona:stock",
-            is_spiced: true,
-            ingredients: [
-                notRotten(inputOf(TAG, tags.RED_MEAT, 1,)),
-                notRotten(inputOf(TAG, tags.RED_MEAT, 1,)),
-                notRotten(inputOf(TAG, tags.VEGETABLES, 1,)),
-                notRotten(inputOf(TAG, tags.VEGETABLES, 1,))
-            ]
-        },
-        {
             fluid: "caupona:meat_soup",
             base: "caupona:stock",
             is_spiced: true,
@@ -225,7 +214,7 @@ ServerEvents.recipes(event => {
                 notRotten(inputOf(TAG, tags.VEGETABLES, 1,)),
                 notRotten(inputOf(TAG, tags.VEGETABLES, 1,))
             ]
-        },,
+        }, ,
         {
             fluid: "caupona:mushroom_soup",
             base: "caupona:stock",
@@ -234,17 +223,6 @@ ServerEvents.recipes(event => {
                 notRotten(inputOf(TAG, tags.EDIBLE_MUSHROOMS, 1,)),
                 notRotten(inputOf(TAG, tags.EDIBLE_MUSHROOMS, 1,)),
                 notRotten(inputOf(TAG, tags.EDIBLE_MUSHROOMS, 1,)),
-                notRotten(inputOf(TAG, tags.VEGETABLES, 1,))
-            ]
-        },
-        {
-            fluid: "caupona:nettle_soup",
-            base: "caupona:nail_soup",
-            is_spiced: true,
-            ingredients: [
-                notRotten(inputOf(ITEM, "kubejs:nettles", 1,)),
-                notRotten(inputOf(ITEM, "kubejs:nettles", 1,)),
-                notRotten(inputOf(ITEM, "kubejs:nettles", 1,)),
                 notRotten(inputOf(TAG, tags.VEGETABLES, 1,))
             ]
         },
@@ -390,7 +368,7 @@ ServerEvents.recipes(event => {
         let fluid_output = outputOf(FLUID, recipe.fluid, 1000, 1)
         let full_ingredients = recipe.ingredients
 
-        if (recipe.is_spiced){
+        if (recipe.is_spiced) {
             full_ingredients.push(inputOf(TAG, tags.SPICES, 1,))
         }
         delete fluid_input.type

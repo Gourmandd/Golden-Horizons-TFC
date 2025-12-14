@@ -9,14 +9,23 @@ ServerEvents.recipes(event => {
     // modified from https://discord.com/channels/303440391124942858/1060221802380546109
     // Thank you to the original author! KJS example scripts continue to be helpful!
     event.forEachRecipe({ type: 'minecraft:crafting_shaped', output: '#minecraft:stairs' }, r => {
+
         let ingredients = r.originalRecipeIngredients // returns a List<Ingredient>
         let output = r.originalRecipeResult    // returns an ItemStack
-        event.shaped(Item.of(output.id, 8), ['S  ', 'SS ', 'SSS'], { S: ingredients[0] }).id(r.getId())
-
-        // stairs can be returned to blocks at 4 stairs to 3 blocks
         let result = Item.of(ingredients[0].first, 3)
         let id = "modpack:stairs_to_blocks/" + Item.of(ingredients[0].first).getId().replace(":", "/")
-        event.shaped(result, ['SS', 'SS'], { S: output.id }).id(id)
+
+        if (!output.id.includes("tfc:", 0)) {
+            // All stairs return 8
+            event.shaped(Item.of(output.id, 8), ['S  ', 'SS ', 'SSS'], { S: ingredients[0] }).id(r.getId())
+        }
+
+        if (output.id.includes("tfc:", 0) && output.getCount() == 4) {
+            return
+        } else {
+            // stairs can be returned to blocks at 4 stairs to 3 blocks
+            event.shaped(result, ['SS', 'SS'], { S: output.id }).id(id)
+        }
     })
 })
 
