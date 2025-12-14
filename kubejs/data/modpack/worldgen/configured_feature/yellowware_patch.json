@@ -7,35 +7,35 @@
     "states": [
       {
         "replace": "tfc:dirt/entisol",
-        "with": "kubejs:clay/yellowware_clay_block"
+        "with": "modpack:clay/yellowware_clay_block"
       },
       {
         "replace": "tfc:dirt/aridisol",
-        "with": "kubejs:clay/yellowware_clay_block"
+        "with": "modpack:clay/yellowware_clay_block"
       },
       {
         "replace": "tfc:dirt/oxisol",
-        "with": "kubejs:clay/yellowware_clay_block"
+        "with": "modpack:clay/yellowware_clay_block"
       },
       {
         "replace": "tfc:dirt/fluvisol",
-        "with": "kubejs:clay/yellowware_clay_block"
+        "with": "modpack:clay/yellowware_clay_block"
       },
       {
         "replace": "tfc:dirt/andisol",
-        "with": "kubejs:clay/yellowware_clay_block"
+        "with": "modpack:clay/yellowware_clay_block"
       },
       {
         "replace": "tfc:dirt/podzol",
-        "with": "kubejs:clay/yellowware_clay_block"
+        "with": "modpack:clay/yellowware_clay_block"
       },
       {
         "replace": "tfc:dirt/alfisol",
-        "with": "kubejs:clay/yellowware_clay_block"
+        "with": "modpack:clay/yellowware_clay_block"
       },
       {
         "replace": "tfc:dirt/mollisol",
-        "with": "kubejs:clay/yellowware_clay_block"
+        "with": "modpack:clay/yellowware_clay_block"
       }
     ]
   }

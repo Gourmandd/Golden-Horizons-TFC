@@ -1,5 +1,5 @@
 {
-    "fluid": "kubejs:electrum",
+    "fluid": "modpack:electrum",
     "melt_temperature": 1060,
     "specific_heat_capacity": 0.02143
 }

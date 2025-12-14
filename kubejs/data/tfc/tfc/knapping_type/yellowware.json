@@ -1,6 +1,6 @@
 {
     "input": {
-        "item": "kubejs:clay/yellowware_clay_ball",
+        "item": "modpack:clay/yellowware_clay_ball",
         "count": 5
     },
     "click_sound": "tfc:item.knapping.clay",
@@ -8,6 +8,6 @@
     "has_off_texture": true,
     "spawns_particles": true,
     "icon": {
-        "id": "kubejs:clay/yellowware_clay_ball"
+        "id": "modpack:clay/yellowware_clay_ball"
     }
 }

@@ -2,6 +2,6 @@
   "__comment__": "This file was automatically created by mcresources",
   "parent": "item/generated",
   "textures": {
-    "layer0": "kubejs:item/ceramic/earthenware_jug"
+    "layer0": "modpack:item/ceramic/porcelain_jug"
   }
 }
