@@ -1,7 +1,7 @@
 {
     "replace": false,
     "values": [
-        "kubejs:garum",
-        "kubejs:boiled_water"
+        "modpack:garum",
+        "modpack:boiled_water"
     ]
 }

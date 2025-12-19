@@ -8,7 +8,7 @@
     ],
     "key": {
         "A": {
-            "item": "kubejs:torque_mechanism"
+            "item": "modpack:torque_mechanism"
         },
         "C": {
             "item": "createaddition:capacitor"

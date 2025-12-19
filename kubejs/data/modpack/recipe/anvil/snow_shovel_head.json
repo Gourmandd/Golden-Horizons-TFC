@@ -10,7 +10,7 @@
         "item": "firmalife:metal/sheet/stainless_steel"
     },
     "result": {
-        "id": "kubejs:tool/snow_shovel_head"
+        "id": "modpack:tool/snow_shovel_head"
     },
     "tier": 4,
     "rules": [

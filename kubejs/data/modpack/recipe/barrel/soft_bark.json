@@ -8,7 +8,7 @@
         "amount": 500
     },
     "output_item": {
-        "id": "kubejs:soft_bark"
+        "id": "modpack:soft_bark"
     },
     "duration": 96000
 }

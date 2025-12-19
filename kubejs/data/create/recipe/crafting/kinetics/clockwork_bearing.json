@@ -10,7 +10,7 @@
             "item": "create:precision_mechanism"
         },
         "M": {
-            "item": "kubejs:brass_machine"
+            "item": "modpack:brass_machine"
         },
         "P": {
             "tag": "minecraft:wooden_slabs"

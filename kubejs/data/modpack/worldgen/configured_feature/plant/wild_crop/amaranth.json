@@ -2,11 +2,11 @@
   "neoforge:conditions": [
       {
           "type": "neoforge:item_exists",
-          "item": "kubejs:plant/wild_amaranth"
+          "item": "modpack:plant/wild_amaranth"
       }
   ],
   "type": "tfc:tall_wild_crop",
   "config": {
-    "block": "kubejs:plant/wild_amaranth"
+    "block": "modpack:plant/wild_amaranth"
   }
 }

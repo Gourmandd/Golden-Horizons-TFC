@@ -12,7 +12,7 @@
     ],
     "key": {
         "X": {
-            "item": "kubejs:tool/snow_shovel_head"
+            "item": "modpack:tool/snow_shovel_head"
         },
         "Y": {
             "tag": "c:rods/wooden"
@@ -20,7 +20,7 @@
     },
     "result": {
         "stack": {
-            "item": "kubejs:tool/snow_shovel"
+            "item": "modpack:tool/snow_shovel"
         },
         "modifiers": [
             "tfc:copy_forging_bonus"

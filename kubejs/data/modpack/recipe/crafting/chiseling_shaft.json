@@ -2,7 +2,7 @@
   "type": "tfc:advanced_shapeless_crafting",
   "ingredients": [
     {
-        "item": "kubejs:fired_shaft"
+        "item": "modpack:fired_shaft"
     },
     {
       "tag": "c:tools/chisel"

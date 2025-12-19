@@ -231,9 +231,9 @@ ServerEvents.recipes(event => {
             base: "caupona:nail_soup",
             is_spiced: true,
             ingredients: [
-                notRotten(inputOf(ITEM, "kubejs:nettles", 1,)),
-                notRotten(inputOf(ITEM, "kubejs:nettles", 1,)),
-                notRotten(inputOf(ITEM, "kubejs:nettles", 1,)),
+                notRotten(inputOf(ITEM, "modpack:nettles", 1,)),
+                notRotten(inputOf(ITEM, "modpack:nettles", 1,)),
+                notRotten(inputOf(ITEM, "modpack:nettles", 1,)),
                 notRotten(inputOf(TAG, tags.VEGETABLES, 1,))
             ]
         },

@@ -4,7 +4,7 @@
         "type": "tfc:and",
         "children": [
             {
-                "item": "kubejs:soft_chhurpi"
+                "item": "modpack:soft_chhurpi"
             },
             {
                 "type": "tfc:not_rotten"
@@ -12,7 +12,7 @@
         ]
     },
     "result_item": {
-        "id": "kubejs:hard_chhurpi"
+        "id": "modpack:hard_chhurpi"
     },
     "temperature": 200
 }

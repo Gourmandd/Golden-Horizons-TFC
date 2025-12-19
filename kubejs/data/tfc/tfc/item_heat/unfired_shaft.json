@@ -1,6 +1,6 @@
 {
     "ingredient": {
-        "item": "kubejs:unfired_shaft"
+        "item": "modpack:unfired_shaft"
     },
     "heat_capacity": 1
 }

@@ -16,7 +16,7 @@
             "item": "createaddition:gold_wire"
         },
         "M": {
-            "item": "kubejs:brass_machine"
+            "item": "modpack:brass_machine"
         }
     },
     "result": {

@@ -11,7 +11,7 @@
           "to_place": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "kubejs:plant/aloe_bush",
+              "Name": "modpack:plant/aloe_bush",
               "Properties": {
                 "age": "4"
               }

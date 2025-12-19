@@ -22,7 +22,7 @@
             "item": "create:fluid_pipe"
         },
         "M": {
-            "item": "kubejs:andesite_machine"
+            "item": "modpack:andesite_machine"
         }
     },
     "result": {

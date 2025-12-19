@@ -20,7 +20,7 @@
             "item": "createaddition:copper_spool"
         },
         "A": {
-            "item": "kubejs:torque_mechanism"
+            "item": "modpack:torque_mechanism"
         }
     },
     "result": {

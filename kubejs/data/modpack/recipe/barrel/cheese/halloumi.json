@@ -14,7 +14,7 @@
         "amount": 250
     },
     "output_item": {
-        "id": "kubejs:halloumi"
+        "id": "modpack:halloumi"
     },
     "duration": 8000
 }

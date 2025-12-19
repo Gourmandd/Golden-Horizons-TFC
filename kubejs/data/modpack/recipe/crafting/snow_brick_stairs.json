@@ -7,11 +7,11 @@
     ],
     "key": {
         "S": {
-            "item": "kubejs:brick/snow"
+            "item": "modpack:brick/snow"
         }
     },
     "result": {
         "count": 8,
-        "id": "kubejs:brick/snow_stairs"
+        "id": "modpack:brick/snow_stairs"
     }
 }

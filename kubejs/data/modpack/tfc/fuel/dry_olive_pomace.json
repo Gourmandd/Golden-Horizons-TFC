@@ -1,7 +1,7 @@
 {
     "ingredient": [
         {
-            "item": "kubejs:dry_olive_pomace"
+            "item": "modpack:dry_olive_pomace"
         }
     ],
     "duration": 800,

@@ -9,7 +9,7 @@
         "amount": 1000
     },
     "output_fluid": {
-        "id": "kubejs:garum",
+        "id": "modpack:garum",
         "amount": 1000
     },
     "duration": 86400

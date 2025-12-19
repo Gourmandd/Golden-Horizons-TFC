@@ -32,19 +32,19 @@ StartupEvents.registry('fluid', event => {
         .noBlock()
         .tag('tfc:molten_metals')
 
-    event.create('shale_clay_slurry', 'thin')
+    event.create(`${id}:shale_clay_slurry`, 'thin')
         .displayName('Shale Clay Slurry')
         .tint(0x4E4664)
         .noBucket()
         .noBlock()
 
-    event.create('filtered_shale_clay_slurry', 'thin')
+    event.create(`${id}:filtered_shale_clay_slurry`, 'thin')
         .displayName('Filtered Shale Clay Slurry')
         .tint(0x746D89)
         .noBucket()
         .noBlock()
 
-    event.create('boiled_water', 'thin')
+    event.create(`${id}:boiled_water`, 'thin')
         .displayName('Boiled Water')
         .noBlock()
 
@@ -52,7 +52,7 @@ StartupEvents.registry('fluid', event => {
         .displayName('Brew')
         .noBlock().noBucket()
 
-    event.create('garum', 'thin')
+    event.create(`${id}:garum`, 'thin')
         .displayName('Garum')
         .tint(0x321C0B)
         .noBlock()

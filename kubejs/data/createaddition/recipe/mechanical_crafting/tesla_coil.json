@@ -17,7 +17,7 @@
             "item": "tfc:metal/ingot/brass"
         },
         "B": {
-            "item": "kubejs:brass_machine"
+            "item": "modpack:brass_machine"
         },
         "S": {
             "item": "createaddition:copper_spool"

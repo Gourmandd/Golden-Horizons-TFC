@@ -1,7 +1,7 @@
 {
     "replace": false,
     "values": [
-        "kubejs:food/amaranth_flour"
+        "modpack:food/amaranth_flour"
     ],
     "remove": [
         "create:wheat_flour"

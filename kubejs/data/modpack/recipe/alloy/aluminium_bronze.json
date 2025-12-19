@@ -19,7 +19,7 @@
             "max": 0.8
         },
         {
-            "fluid": "kubejs:aluminium",
+            "fluid": "modpack:aluminium",
             "min": 0.2,
             "max": 0.4
         }

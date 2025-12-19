@@ -2,7 +2,7 @@
   "neoforge:conditions": [
       {
           "type": "neoforge:item_exists",
-          "item": "kubejs:plant/wild_coffee"
+          "item": "modpack:plant/wild_coffee"
       }
   ],
   "feature": "modpack:plant/wild_crop/coffee_patch",

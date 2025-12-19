@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "kubejs:andesite_machine"
+            "item": "modpack:andesite_machine"
         },
         {
             "item": "create:shaft"

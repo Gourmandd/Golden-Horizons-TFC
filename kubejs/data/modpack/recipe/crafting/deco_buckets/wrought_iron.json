@@ -2,17 +2,17 @@
     "neoforge:conditions": [
         {
             "type": "neoforge:item_exists",
-            "item": "kubejs:metal/bucket/wrought_iron"
+            "item": "modpack:metal/bucket/wrought_iron"
         }
     ],
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "kubejs:deco_bucket/wrought_iron"
+            "item": "modpack:deco_bucket/wrought_iron"
         }
     ],
     "result": {
         "count": 1,
-        "id": "kubejs:metal/bucket/wrought_iron"
+        "id": "modpack:metal/bucket/wrought_iron"
     }
 }

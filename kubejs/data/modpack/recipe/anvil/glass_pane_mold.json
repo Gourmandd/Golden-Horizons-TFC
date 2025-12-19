@@ -2,7 +2,7 @@
     "neoforge:conditions": [
         {
             "type": "neoforge:item_exists",
-            "item": "kubejs:glass_pane_mold"
+            "item": "modpack:glass_pane_mold"
         }
     ],
     "type": "tfc:anvil",
@@ -10,7 +10,7 @@
         "item": "tfc:metal/double_sheet/brass"
     },
     "result": {
-        "id": "kubejs:glass_pane_mold"
+        "id": "modpack:glass_pane_mold"
     },
     "tier": 2,
     "rules": [

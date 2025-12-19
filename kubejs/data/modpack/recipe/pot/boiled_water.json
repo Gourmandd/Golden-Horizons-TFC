@@ -14,7 +14,7 @@
     "duration": 1200,
     "temperature": 300,
     "fluid_output": {
-        "fluid": "kubejs:boiled_water",
+        "fluid": "modpack:boiled_water",
         "amount": 50
     }
 }

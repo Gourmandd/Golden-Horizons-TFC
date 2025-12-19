@@ -22,7 +22,7 @@
             "item": "minecraft:iron_nugget"
         },
         "M": {
-            "item": "kubejs:andesite_machine"
+            "item": "modpack:andesite_machine"
         }
     },
     "result": {

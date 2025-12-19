@@ -2,7 +2,7 @@
   "neoforge:conditions": [
       {
           "type": "neoforge:item_exists",
-          "item": "kubejs:plant/wild_cotton"
+          "item": "modpack:plant/wild_cotton"
       }
   ],
   "type": "minecraft:random_patch",

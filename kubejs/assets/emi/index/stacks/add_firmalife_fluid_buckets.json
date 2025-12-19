@@ -1,8 +1,0 @@
-{
-  "added": [
-    {
-      "stack": "item:tfc:wooden_bucket{\"tfc:fluid\":{amount:1000,id:\"firmalife:coconut_milk\"}}",
-      "after": "item:tfc:wooden_bucket"
-    }
-  ]
-}

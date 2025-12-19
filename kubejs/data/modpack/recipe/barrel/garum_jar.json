@@ -5,7 +5,7 @@
     },
     "input_fluid": {
         "amount": 250,
-        "fluid": "kubejs:garum"
+        "fluid": "modpack:garum"
     },
     "output_item": {
         "id": "caupona:garum_spice_jar"

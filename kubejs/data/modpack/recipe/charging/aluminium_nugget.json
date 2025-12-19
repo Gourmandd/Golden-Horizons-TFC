@@ -2,13 +2,13 @@
     "type": "createaddition:charging",
     "ingredients": [
         {
-            "item": "kubejs:raw_aluminium_mixture",
+            "item": "modpack:raw_aluminium_mixture",
             "count": 1
         }
     ],
     "results": [
         {
-            "id": "kubejs:aluminium_nugget",
+            "id": "modpack:aluminium_nugget",
             "count": 1
         }
     ],

@@ -1,20 +1,20 @@
 {
   "added": [
     {
-      "stack": "item:kubejs:metal/bucket/wrought_iron{\"tfc:fluid\":{amount:1000,id:\"minecraft:lava\"}}",
-      "after": "item:kubejs:metal/bucket/wrought_iron"
+      "stack": "item:modpack:metal/bucket/wrought_iron{\"tfc:fluid\":{amount:1000,id:\"minecraft:lava\"}}",
+      "after": "item:modpack:metal/bucket/wrought_iron"
     },
     {
-      "stack": "item:kubejs:metal/bucket/wrought_iron{\"tfc:fluid\":{amount:1000,id:\"pastel:liquid_crystal\"}}",
-      "after": "item:kubejs:metal/bucket/wrought_iron"
+      "stack": "item:modpack:metal/bucket/wrought_iron{\"tfc:fluid\":{amount:1000,id:\"pastel:liquid_crystal\"}}",
+      "after": "item:modpack:metal/bucket/wrought_iron"
     },
     {
-      "stack": "item:kubejs:metal/bucket/wrought_iron{\"tfc:fluid\":{amount:1000,id:\"pastel:midnight_solution\"}}",
-      "after": "item:kubejs:metal/bucket/wrought_iron"
+      "stack": "item:modpack:metal/bucket/wrought_iron{\"tfc:fluid\":{amount:1000,id:\"pastel:midnight_solution\"}}",
+      "after": "item:modpack:metal/bucket/wrought_iron"
     },
     {
-      "stack": "item:kubejs:metal/bucket/wrought_iron{\"tfc:fluid\":{amount:1000,id:\"pastel:humus\"}}",
-      "after": "item:kubejs:metal/bucket/wrought_iron"
+      "stack": "item:modpack:metal/bucket/wrought_iron{\"tfc:fluid\":{amount:1000,id:\"pastel:humus\"}}",
+      "after": "item:modpack:metal/bucket/wrought_iron"
     },
     {
       "stack": "item:tfc:metal/bucket/red_steel{\"tfc:fluid\":{amount:1000,id:\"pastel:dragonrot\"}}",

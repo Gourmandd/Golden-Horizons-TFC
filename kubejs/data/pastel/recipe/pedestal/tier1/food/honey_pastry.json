@@ -17,7 +17,7 @@
     ],
     "key": {
         "A": {
-            "item": "kubejs:food/amaranth_flour"
+            "item": "modpack:food/amaranth_flour"
         },
         "H": {
             "item": "minecraft:honey_bottle"

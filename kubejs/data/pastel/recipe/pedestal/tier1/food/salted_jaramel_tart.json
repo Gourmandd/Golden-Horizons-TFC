@@ -18,7 +18,7 @@
     ],
     "key": {
         "A": {
-            "item": "kubejs:food/amaranth_flour"
+            "item": "modpack:food/amaranth_flour"
         },
         "J": {
             "item": "pastel:jaramel"

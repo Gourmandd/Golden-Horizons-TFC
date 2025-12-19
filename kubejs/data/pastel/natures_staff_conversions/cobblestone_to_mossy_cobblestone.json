@@ -1,4 +1,4 @@
 {
-  "input_block": "kubejs:rock/cobble/argillite",
+  "input_block": "modpack:rock/cobble/argillite",
   "output_state": "minecraft:mossy_cobblestone"
 }

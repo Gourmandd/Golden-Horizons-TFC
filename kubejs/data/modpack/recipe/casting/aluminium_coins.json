@@ -10,7 +10,7 @@
         "item": "lithiccoins:ceramic/coin_mold"
     },
     "fluid": {
-        "ingredient": "kubejs:aluminium",
+        "ingredient": "modpack:aluminium",
         "amount": 100
     },
     "result": {

@@ -22,7 +22,7 @@
             "tag": "minecraft:buttons"
         },
         "M": {
-            "item": "kubejs:oscillating_mechanism"
+            "item": "modpack:oscillating_mechanism"
         },
         "R": {
             "item": "tfc:metal/rod/zinc"

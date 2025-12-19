@@ -12,7 +12,7 @@
             "tag": "c:stones/smooth"
         },
         "W": {
-            "item": "kubejs:saw"
+            "item": "modpack:saw"
         }
     },
     "result": {

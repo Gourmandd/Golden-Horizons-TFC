@@ -1,10 +1,10 @@
 {
     "type": "tfc:heating",
     "ingredient": {
-        "item": "kubejs:olive_pomace"
+        "item": "modpack:olive_pomace"
     },
     "result_item": {
-        "id": "kubejs:dry_olive_pomace"
+        "id": "modpack:dry_olive_pomace"
     },
     "temperature": 190
 }

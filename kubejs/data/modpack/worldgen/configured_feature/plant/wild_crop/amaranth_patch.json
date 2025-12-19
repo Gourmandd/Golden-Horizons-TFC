@@ -2,7 +2,7 @@
   "neoforge:conditions": [
       {
           "type": "neoforge:item_exists",
-          "item": "kubejs:plant/amaranth"
+          "item": "modpack:plant/amaranth"
       }
   ],
   "type": "minecraft:random_patch",

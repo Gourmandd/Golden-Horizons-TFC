@@ -12,7 +12,7 @@
     "experience": 1.0,
     "ingredients": [
         {
-            "item": "kubejs:food/amaranth_flour"
+            "item": "modpack:food/amaranth_flour"
         },
         {
             "tag": "c:eggs"

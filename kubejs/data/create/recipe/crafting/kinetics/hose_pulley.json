@@ -10,7 +10,7 @@
             "item": "tfc:metal/sheet/copper"
         },
         "M": {
-            "item": "kubejs:copper_machine"
+            "item": "modpack:copper_machine"
         },
         "K": {
             "item": "tfc:food/dried_kelp"

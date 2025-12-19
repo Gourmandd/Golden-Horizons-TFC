@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "kubejs:deco_bucket/red_steel"
+            "item": "modpack:deco_bucket/red_steel"
         }
     ],
     "result": {

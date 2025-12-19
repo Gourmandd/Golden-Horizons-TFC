@@ -1,7 +1,7 @@
 {
     "type": "tfc:heating",
     "ingredient": {
-        "item": "kubejs:torque_mechanism"
+        "item": "modpack:torque_mechanism"
     },
     "result_fluid": {
         "id": "tfc:metal/steel",

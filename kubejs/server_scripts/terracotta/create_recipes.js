@@ -3,23 +3,23 @@ ServerEvents.recipes(event => {
 
     let datagen = Datagen(event).recipe()
 
-    global.DYE_COLOURS.forEach(colour =>{
-        
+    global.DYE_COLOURS.forEach(colour => {
+
         event.shapeless(Item.of(`minecraft:${colour}_terracotta`), [
-            `kubejs:terracotta/shard_${colour}`,
-            `kubejs:terracotta/shard_${colour}`,
-            `kubejs:terracotta/shard_${colour}`,
-            `kubejs:terracotta/shard_${colour}`,
-        ]).id(`modpack:crafting/shapeless/${colour}_terracotta_from_shards`)
+            `${mod_id}:terracotta/shard_${colour}`,
+            `${mod_id}:terracotta/shard_${colour}`,
+            `${mod_id}:terracotta/shard_${colour}`,
+            `${mod_id}:terracotta/shard_${colour}`,
+        ]).id(`${mod_id}:crafting/shapeless/${colour}_terracotta_from_shards`)
 
         event.remove(`hearth_and_home:${colour}_shingles`)
 
         datagen.createMilling(
             [
-                outputOf(IO_TYPE.ITEM, `kubejs:terracotta/shard_${colour}`, 1, 1),
-                outputOf(IO_TYPE.ITEM, `kubejs:terracotta/shard_${colour}`, 1, 0.5)
+                outputOf(IO_TYPE.ITEM, `${mod_id}:terracotta/shard_${colour}`, 1, 1),
+                outputOf(IO_TYPE.ITEM, `${mod_id}:terracotta/shard_${colour}`, 1, 0.5)
             ],
-            inputOf(IO_TYPE.ITEM, `kubejs:terracotta/crushed_${colour}`, 1)
-            ).id(`modpack:milling/crushed_terracotta/${colour}`).generate()
+            inputOf(IO_TYPE.ITEM, `${mod_id}:terracotta/crushed_${colour}`, 1)
+        ).id(`${mod_id}:milling/crushed_terracotta/${colour}`).generate()
     })
 })

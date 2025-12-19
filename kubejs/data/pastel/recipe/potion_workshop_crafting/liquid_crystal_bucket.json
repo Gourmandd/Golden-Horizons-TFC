@@ -2,12 +2,12 @@
     "neoforge:conditions": [
         {
             "type": "neoforge:item_exists",
-            "item": "kubejs:bucket/wrought_iron"
+            "item": "modpack:bucket/wrought_iron"
         }
     ],
     "type": "pastel:potion_workshop_crafting",
     "base_ingredient": {
-        "item": "kubejs:deco_bucket/wrought_iron"
+        "item": "modpack:deco_bucket/wrought_iron"
     },
     "use_up_base_ingredient": true,
     "color": 11972050,
@@ -21,7 +21,7 @@
         "item": "pastel:shimmerstone_gem"
     },
     "result": {
-        "id": "kubejs:metal/bucket/wrought_iron",
+        "id": "modpack:metal/bucket/wrought_iron",
         "components": {
           "tfc:fluid": {
               "amount": 1000,

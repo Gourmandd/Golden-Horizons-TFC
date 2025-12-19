@@ -1,7 +1,7 @@
 {
     "type": "tfc:heating",
     "ingredient": {
-        "item": "kubejs:felsic_tuff_mixture"
+        "item": "modpack:felsic_tuff_mixture"
     },
     "result_item": {
         "id": "caupona:felsic_tuff"

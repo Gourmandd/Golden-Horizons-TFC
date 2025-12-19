@@ -25,7 +25,7 @@
             "item": "tfc:metal/ingot/copper"
         },
         "M": {
-            "item": "kubejs:oscillating_mechanism"
+            "item": "modpack:oscillating_mechanism"
         }
     },
     "result": {

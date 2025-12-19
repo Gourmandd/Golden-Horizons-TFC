@@ -4,7 +4,7 @@
         "item": "tfc:metal/double_sheet/wrought_iron"
     },
     "result": {
-        "id": "kubejs:saw"
+        "id": "modpack:saw"
     },
     "tier": 2,
     "rules": [

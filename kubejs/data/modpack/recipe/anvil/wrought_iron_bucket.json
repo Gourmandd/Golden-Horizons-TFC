@@ -2,7 +2,7 @@
     "neoforge:conditions": [
         {
             "type": "neoforge:item_exists",
-            "item": "kubejs:metal/bucket/wrought_iron"
+            "item": "modpack:metal/bucket/wrought_iron"
         }
     ],
     "type": "tfc:anvil",
@@ -10,7 +10,7 @@
         "item": "tfc:metal/sheet/wrought_iron"
     },
     "result": {
-        "id": "kubejs:metal/bucket/wrought_iron"
+        "id": "modpack:metal/bucket/wrought_iron"
     },
     "tier": 3,
     "rules": [

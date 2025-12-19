@@ -21,7 +21,7 @@
             "item": "minecraft:lever"
         },
         "M": {
-            "item": "kubejs:oscillating_mechanism"
+            "item": "modpack:oscillating_mechanism"
         }
     },
     "result": {

@@ -2,7 +2,7 @@
   "neoforge:conditions": [
       {
           "type": "neoforge:item_exists",
-          "item": "kubejs:plant/wild_cotton"
+          "item": "modpack:plant/wild_cotton"
       }
   ],
   "type": "minecraft:simple_block",
@@ -10,7 +10,7 @@
     "to_place": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "kubejs:plant/wild_cotton"
+        "Name": "modpack:plant/wild_cotton"
       }
     }
   }

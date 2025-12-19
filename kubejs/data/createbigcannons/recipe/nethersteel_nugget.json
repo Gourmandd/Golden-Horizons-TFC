@@ -8,7 +8,7 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "kubejs:metal/ingot/nethersteel"
+            "item": "modpack:metal/ingot/nethersteel"
         }
     ],
     "result": {

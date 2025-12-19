@@ -12,7 +12,7 @@
     ],
     "key": {
         "N": {
-            "item": "kubejs:metal/ingot/nethersteel"
+            "item": "modpack:metal/ingot/nethersteel"
         },
         "S": {
             "item": "create:shaft"

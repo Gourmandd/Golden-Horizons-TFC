@@ -10,7 +10,7 @@
             "item": "create:brass_hand"
         },
         "M": {
-            "item": "kubejs:andesite_machine"
+            "item": "modpack:andesite_machine"
         },
         "P": {
             "item": "create:electron_tube"

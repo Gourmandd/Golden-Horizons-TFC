@@ -10,7 +10,7 @@
             "tag": "minecraft:planks"
         },
         "M": {
-            "item": "kubejs:andesite_machine"
+            "item": "modpack:andesite_machine"
         },
         "P": {
             "item": "create:precision_mechanism"

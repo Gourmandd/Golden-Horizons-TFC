@@ -28,7 +28,7 @@
         "amount": 1000
     },
     "output_item": {
-        "item": "kubejs:clay/porcelain_clay_ball",
+        "item": "modpack:clay/porcelain_clay_ball",
         "count": 2
     }
 }

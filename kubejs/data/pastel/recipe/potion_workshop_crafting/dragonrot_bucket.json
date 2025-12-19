@@ -1,7 +1,7 @@
 {
     "type": "pastel:potion_workshop_crafting",
     "base_ingredient": {
-        "item": "kubejs:deco_bucket/blue_steel"
+        "item": "modpack:deco_bucket/blue_steel"
     },
     "use_up_base_ingredient": true,
     "color": 14907183,

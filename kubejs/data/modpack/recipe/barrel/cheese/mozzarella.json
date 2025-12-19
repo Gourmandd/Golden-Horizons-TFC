@@ -14,7 +14,7 @@
         "amount": 250
     },
     "output_item": {
-        "id": "kubejs:mozzarella"
+        "id": "modpack:mozzarella"
     },
     "duration": 8000
 }
