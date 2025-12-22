@@ -359,14 +359,15 @@ global.KUBEJS_METALS = [
     "aluminium",
     "aluminium_bronze",
     "cast_iron_alloy",
-    "harderned_steel",
+    "hardened_steel",
     "nethersteel",
+    "electrum"
 ]
 
 global.METAL_FLUIDS = {
     "aluminium": id + ":aluminium",
     "aluminium_bronze": "createbigcannons:molten_bronze",
-    "harderned_steel": "createbigcannons:molten_steel",
+    "hardened_steel": "createbigcannons:molten_steel",
     "cast_iron_alloy": "createbigcannons:molten_cast_iron",
     "nethersteel": "createbigcannons:molten_nethersteel",
     "electrum": id + ":electrum"
@@ -495,7 +496,7 @@ global.MELTING_POINTS = {
     "aluminium": 780,
     "aluminium_bronze": 1180,
     "cast_iron_alloy": 1535,
-    "harderned_steel": 1585,
+    "hardened_steel": 1585,
     "nethersteel": 1615,
     "electrum": 1060,
     "pig_iron": 1535,

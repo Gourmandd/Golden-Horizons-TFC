@@ -2,10 +2,11 @@
 // Registers items and fluids for custom metals  //
 // --------------------------------------------- //
 
-StartupEvents.registry("item", event =>{
+StartupEvents.registry("item", event => {
 
-    global.KUBEJS_METALS.forEach(metal =>{
+    global.KUBEJS_METALS.forEach(metal => {
 
+        /*
         event.create(`${id}:metal/ingot/${metal}`)
             .displayName(nameProcessing(metal) + " Ingot")
             .tag("tfc:pileable_ingots")
@@ -34,5 +35,6 @@ StartupEvents.registry("item", event =>{
             .tag("c:rods")
             .tag("c:rods/all_metal")
             .tag(`${id}:melting/rod`)
+            */
     })
 })

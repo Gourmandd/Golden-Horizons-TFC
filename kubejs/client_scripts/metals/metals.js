@@ -1,0 +1,196 @@
+//priority: 1
+
+// ---------------------------------- //
+// Generates assets for custom metals //
+// ---------------------------------- //
+
+
+ClientEvents.lang("en_us", event => {
+
+    function nameProcessing(name) {
+        name = name.replace("_", " ")
+        name = name.replace("_", " ")
+        name = name.replace(/(^\w|\s\w)/g, m => m.toUpperCase())
+        //console.log(name)
+        return name
+    }
+
+    global.KUBEJS_METALS.forEach(metal => {
+        event.add(`metal.modpack.${metal}`, nameProcessing(metal))
+        event.add(`item.modpack.metal.ingot.${metal}`, nameProcessing(metal) + " Ingot")
+        event.add(`item.modpack.metal.double_ingot.${metal}`, nameProcessing(metal) + " Double Ingot")
+        event.add(`item.modpack.metal.sheet.${metal}`, nameProcessing(metal) + " Sheet")
+        event.add(`item.modpack.metal.double_sheet.${metal}`, nameProcessing(metal) + " Double Sheet")
+        event.add(`item.modpack.metal.rod.${metal}`, nameProcessing(metal) + " Rod")
+        event.add(`block.modpack.metal.block.${metal}`, nameProcessing(metal) + " Plated Block")
+        event.add(`block.modpack.metal.block.${metal}_slab`, nameProcessing(metal) + " Plated Slab")
+        event.add(`block.modpack.metal.block.${metal}_stairs`, nameProcessing(metal) + " Plated Stairs")
+    })
+
+    global.DYE_COLOURS.forEach(colour => {
+        event.add("metal.modpack.glass/" + colour, nameProcessing(colour) + " Glass")
+    })
+    event.add("metal.modpack.glass/clear", "Clear Glass")
+})
+
+
+ClientEvents.generateAssets("before_mods", event => {
+
+    function stairVariants(stairs, stairs_inner, stairs_outer) {
+        return {
+            'facing=east,half=bottom,shape=straight': { 'model': stairs },
+            'facing=west,half=bottom,shape=straight': { 'model': stairs, 'y': 180, 'uvlock': true },
+            'facing=south,half=bottom,shape=straight': { 'model': stairs, 'y': 90, 'uvlock': true },
+            'facing=north,half=bottom,shape=straight': { 'model': stairs, 'y': 270, 'uvlock': true },
+            'facing=east,half=bottom,shape=outer_right': { 'model': stairs_outer },
+            'facing=west,half=bottom,shape=outer_right': { 'model': stairs_outer, 'y': 180, 'uvlock': true },
+            'facing=south,half=bottom,shape=outer_right': { 'model': stairs_outer, 'y': 90, 'uvlock': true },
+            'facing=north,half=bottom,shape=outer_right': { 'model': stairs_outer, 'y': 270, 'uvlock': true },
+            'facing=east,half=bottom,shape=outer_left': { 'model': stairs_outer, 'y': 270, 'uvlock': true },
+            'facing=west,half=bottom,shape=outer_left': { 'model': stairs_outer, 'y': 90, 'uvlock': true },
+            'facing=south,half=bottom,shape=outer_left': { 'model': stairs_outer },
+            'facing=north,half=bottom,shape=outer_left': { 'model': stairs_outer, 'y': 180, 'uvlock': true },
+            'facing=east,half=bottom,shape=inner_right': { 'model': stairs_inner },
+            'facing=west,half=bottom,shape=inner_right': { 'model': stairs_inner, 'y': 180, 'uvlock': true },
+            'facing=south,half=bottom,shape=inner_right': { 'model': stairs_inner, 'y': 90, 'uvlock': true },
+            'facing=north,half=bottom,shape=inner_right': { 'model': stairs_inner, 'y': 270, 'uvlock': true },
+            'facing=east,half=bottom,shape=inner_left': { 'model': stairs_inner, 'y': 270, 'uvlock': true },
+            'facing=west,half=bottom,shape=inner_left': { 'model': stairs_inner, 'y': 90, 'uvlock': true },
+            'facing=south,half=bottom,shape=inner_left': { 'model': stairs_inner },
+            'facing=north,half=bottom,shape=inner_left': { 'model': stairs_inner, 'y': 180, 'uvlock': true },
+            'facing=east,half=top,shape=straight': { 'model': stairs, 'x': 180, 'uvlock': true },
+            'facing=west,half=top,shape=straight': { 'model': stairs, 'x': 180, 'y': 180, 'uvlock': true },
+            'facing=south,half=top,shape=straight': { 'model': stairs, 'x': 180, 'y': 90, 'uvlock': true },
+            'facing=north,half=top,shape=straight': { 'model': stairs, 'x': 180, 'y': 270, 'uvlock': true },
+            'facing=east,half=top,shape=outer_right': { 'model': stairs_outer, 'x': 180, 'y': 90, 'uvlock': true },
+            'facing=west,half=top,shape=outer_right': { 'model': stairs_outer, 'x': 180, 'y': 270, 'uvlock': true },
+            'facing=south,half=top,shape=outer_right': { 'model': stairs_outer, 'x': 180, 'y': 180, 'uvlock': true },
+            'facing=north,half=top,shape=outer_right': { 'model': stairs_outer, 'x': 180, 'uvlock': true },
+            'facing=east,half=top,shape=outer_left': { 'model': stairs_outer, 'x': 180, 'uvlock': true },
+            'facing=west,half=top,shape=outer_left': { 'model': stairs_outer, 'x': 180, 'y': 180, 'uvlock': true },
+            'facing=south,half=top,shape=outer_left': { 'model': stairs_outer, 'x': 180, 'y': 90, 'uvlock': true },
+            'facing=north,half=top,shape=outer_left': { 'model': stairs_outer, 'x': 180, 'y': 270, 'uvlock': true },
+            'facing=east,half=top,shape=inner_right': { 'model': stairs_inner, 'x': 180, 'y': 90, 'uvlock': true },
+            'facing=west,half=top,shape=inner_right': { 'model': stairs_inner, 'x': 180, 'y': 270, 'uvlock': true },
+            'facing=south,half=top,shape=inner_right': { 'model': stairs_inner, 'x': 180, 'y': 180, 'uvlock': true },
+            'facing=north,half=top,shape=inner_right': { 'model': stairs_inner, 'x': 180, 'uvlock': true },
+            'facing=east,half=top,shape=inner_left': { 'model': stairs_inner, 'x': 180, 'uvlock': true },
+            'facing=west,half=top,shape=inner_left': { 'model': stairs_inner, 'x': 180, 'y': 180, 'uvlock': true },
+            'facing=south,half=top,shape=inner_left': { 'model': stairs_inner, 'x': 180, 'y': 90, 'uvlock': true },
+            'facing=north,half=top,shape=inner_left': { 'model': stairs_inner, 'x': 180, 'y': 270, 'uvlock': true }
+        }
+    }
+
+    function simpleItemModel(location, texture) {
+
+        event.itemModel(location, model => {
+            model.parent("item/generated")
+            model.texture("layer0", texture)
+        })
+    }
+
+    function blockItemModel(location, blockModel) {
+
+        event.itemModel(location, model => {
+            model.parent(blockModel)
+        })
+    }
+
+    function simpleBlockModel(location, texture) {
+
+        event.blockModel(location, model => {
+            model.parent("block/cube_all")
+            model.texture("all", texture)
+        })
+    }
+
+    function stairBlockModel(location, texture) {
+
+        event.blockModel(`${location}_stairs`, model => {
+            model.parent("minecraft:block/stairs")
+            model.texture("bottom", texture)
+            model.texture("top", texture)
+            model.texture("side", texture)
+        })
+
+        event.blockModel(`${location}_stairs_inner`, model => {
+            model.parent("minecraft:block/inner_stairs")
+            model.texture("bottom", texture)
+            model.texture("top", texture)
+            model.texture("side", texture)
+        })
+
+        event.blockModel(`${location}_stairs_outer`, model => {
+            model.parent("minecraft:block/outer_stairs")
+            model.texture("bottom", texture)
+            model.texture("top", texture)
+            model.texture("side", texture)
+        })
+    }
+
+    function slabBlockModel(location, texture) {
+
+        event.blockModel(`${location}_slab`, model => {
+            model.parent("minecraft:block/slab")
+            model.texture("bottom", texture)
+            model.texture("top", texture)
+            model.texture("side", texture)
+        })
+
+        event.blockModel(`${location}_slab_double`, model => {
+            model.parent("minecraft:block/cube_all")
+            model.texture("all", texture)
+        })
+
+        event.blockModel(`${location}_slab_top`, model => {
+            model.parent("minecraft:block/slab_top")
+            model.texture("bottom", texture)
+            model.texture("top", texture)
+            model.texture("side", texture)
+        })
+    }
+
+    function simpleBlockstate(location, model) {
+        event.blockState(location, state => {
+            state.simpleVariant("", model)
+        })
+    }
+
+    function slabBlockstate(location, model) {
+        event.blockState(location, state => {
+            state.simpleVariant("type=bottom", `${model}`)
+            state.simpleVariant("type=double", `${model}_double`)
+            state.simpleVariant("type=top", `${model}_top`)
+        })
+    }
+
+    function stairsBlockstate(location, model) {
+
+        let variants = stairVariants(`${model}_stairs`, `${model}_stairs_inner`, `${model}_stairs_outer`)
+
+        JsonIO.write("kubejs/assets/" + location.replace(":", "/blockstates/") + ".json", { "variants": variants })
+    }
+
+
+    global.KUBEJS_METALS.forEach(metal => {
+
+        // models
+        simpleItemModel(`modpack:metal/ingot/${metal}`, `modpack:item/metal/ingot/${metal}`)
+        simpleItemModel(`modpack:metal/double_ingot/${metal}`, `modpack:item/metal/double_ingot/${metal}`)
+        simpleItemModel(`modpack:metal/sheet/${metal}`, `modpack:item/metal/sheet/${metal}`)
+        simpleItemModel(`modpack:metal/double_sheet/${metal}`, `modpack:item/metal/double_sheet/${metal}`)
+        simpleItemModel(`modpack:metal/rod/${metal}`, `modpack:item/metal/rod/${metal}`)
+        blockItemModel(`modpack:metal/block/${metal}`, `modpack:block/metal/block/${metal}`)
+        blockItemModel(`modpack:metal/block/${metal}_slab`, `modpack:block/metal/block/${metal}_slab`)
+        blockItemModel(`modpack:metal/block/${metal}_stairs`, `modpack:block/metal/block/${metal}_stairs`)
+
+        simpleBlockModel(`modpack:metal/block/${metal}`, `modpack:block/metal/full/${metal}`)
+        slabBlockModel(`modpack:metal/block/${metal}`, `modpack:block/metal/full/${metal}`)
+        stairBlockModel(`modpack:metal/block/${metal}`, `modpack:block/metal/full/${metal}`)
+
+        // blockstates
+        simpleBlockstate(`modpack:metal/block/${metal}`, `modpack:block/metal/block/${metal}`)
+        slabBlockstate(`modpack:metal/block/${metal}_slab`, `modpack:block/metal/block/${metal}_slab`)
+        stairsBlockstate(`modpack:metal/block/${metal}_stairs`, `modpack:block/metal/block/${metal}`)
+    })
+})
