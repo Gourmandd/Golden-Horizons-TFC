@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "tfc:ore/rich_native_copper"
+        }
+    },
+    "result": {
+        "id": "minecraft:raw_copper_block"
+    }
+}
