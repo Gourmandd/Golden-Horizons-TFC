@@ -2,13 +2,13 @@
     "type": "create:cutting",
     "ingredients": [
         {
-            "item": "create:andesite_alloy"
+            "item": "tfc:metal/ingot/steel"
         }
     ],
     "processingTime": 50,
     "results": [
         {
-            "count": 3,
+            "count": 16,
             "id": "create:shaft"
         }
     ]

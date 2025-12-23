@@ -9,7 +9,7 @@
             "item": "tfc:metal/ingot/cast_iron"
         },
         "A": {
-            "item": "create:andesite_alloy"
+            "item": "tfc:metal/rod/cast_iron"
         }
     },
     "result": {

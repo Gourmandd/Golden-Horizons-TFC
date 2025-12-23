@@ -8,7 +8,7 @@
     ],
     "key": {
         "A": {
-            "item": "create:andesite_alloy"
+            "item": "tfc:metal/ingot/steel"
         },
         "C": {
             "item": "createaddition:capacitor"

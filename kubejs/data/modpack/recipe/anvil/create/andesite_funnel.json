@@ -1,0 +1,16 @@
+{
+    "type": "tfc:anvil",
+    "ingredient": {
+        "item": "tfc:metal/sheet/steel"
+    },
+    "result": {
+        "id": "create:andesite_funnel",
+        "count": 4
+    },
+    "tier": 4,
+    "rules": [
+        "bend_last",
+        "punch_second_last",
+        "upset_third_last"
+    ]
+}

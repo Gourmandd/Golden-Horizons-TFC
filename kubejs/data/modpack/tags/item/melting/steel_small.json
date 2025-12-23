@@ -1,6 +1,8 @@
 {
     "values": [
         "simplemusket:musket",
-        "quark:magnet"
+        "quark:magnet",
+        "create:andesite_funnel",
+        "create:andesite_tunnel"
     ]
 }

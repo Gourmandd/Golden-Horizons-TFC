@@ -1,10 +1,10 @@
 {
     "type": "tfc:heating",
     "ingredient": {
-        "item": "minecraft:minecart"
+        "item": "create:item_hatch"
     },
     "result_fluid": {
-        "id": "tfc:metal/cast_iron",
+        "id": "tfc:metal/steel",
         "amount": 400
     },
     "temperature": 1535

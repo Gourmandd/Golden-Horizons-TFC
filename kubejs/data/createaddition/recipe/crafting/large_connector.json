@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "createaddition:large_connector_usable_rods"
+    },
+    {
+      "item": "tfc:metal/ingot/steel"
+    },
+    {
+      "item": "tfc:metal/ingot/steel"
+    },
+    {
+      "tag": "c:slime_balls"
+    }
+  ],
+  "result": {
+    "count": 8,
+    "id": "createaddition:large_connector"
+  }
+}

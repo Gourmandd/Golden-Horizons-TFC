@@ -2,6 +2,9 @@
     "values": [
         "sns:pack_frame",
         "tfc:trip_hammer",
-        "modpack:torque_mechanism"
+        "modpack:torque_mechanism",
+        "create:mechanical_harvester",
+        "create:mechanical_plough",
+        "create:item_hatch"
     ]
 }

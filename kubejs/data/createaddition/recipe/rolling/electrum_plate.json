@@ -2,7 +2,7 @@
     "type": "createaddition:rolling",
     "ingredients": [
         {
-            "item": "createaddition:electrum_rod"
+            "item": "modpack:metal/rod/electrum"
         }
     ],
     "results": [

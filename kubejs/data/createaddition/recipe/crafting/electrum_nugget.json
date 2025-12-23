@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "modpack:metal/ingot/electrum"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "createaddition:electrum_nugget"
+  }
+}

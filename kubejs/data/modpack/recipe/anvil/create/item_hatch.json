@@ -1,0 +1,15 @@
+{
+    "type": "tfc:anvil",
+    "ingredient": {
+        "item": "tfc:metal/double_sheet/steel"
+    },
+    "result": {
+        "id": "create:item_hatch"
+    },
+    "tier": 4,
+    "rules": [
+        "punch_last",
+        "bend_second_last",
+        "upset_third_last"
+    ]
+}

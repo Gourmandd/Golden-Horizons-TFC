@@ -1,0 +1,12 @@
+{
+    "replace": false,
+    "values": [
+        "tfc:rock/smooth/rhyolite",
+        "tfc:rock/smooth/granite",
+        "tfc:rock/smooth/gabbro",
+        "tfc:rock/smooth/diorite",
+        "tfc:rock/smooth/dacite",
+        "tfc:rock/smooth/basalt",
+        "tfc:rock/smooth/andesite"
+    ]
+}

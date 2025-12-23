@@ -7,7 +7,7 @@
       "item": "tfc:metal/rod/copper"
     },
     "L": {
-      "item": "create:andesite_alloy"
+      "item": "tfc:metal/ingot/steel"
     },
     "R": {
       "item": "create:precision_mechanism"

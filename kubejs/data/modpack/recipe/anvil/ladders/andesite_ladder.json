@@ -1,7 +1,7 @@
 {
     "type": "tfc:anvil",
     "ingredient": {
-        "item": "create:andesite_alloy"
+        "item": "tfc:metal/ingot/steel"
     },
     "result": {
         "count": 16,

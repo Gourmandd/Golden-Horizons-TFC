@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:rods/copper"
+    },
+    {
+      "item": "tfc:metal/ingot/steel"
+    },
+    {
+      "tag": "c:slime_balls"
+    }
+  ],
+  "result": {
+    "count": 8,
+    "id": "createaddition:connector"
+  }
+}
