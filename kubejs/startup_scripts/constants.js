@@ -22,6 +22,23 @@ let id = global.MOD_ID
 
 global.CUSTOM_CROP_TYPES = $CategoryUtil.getCropNames()
 
+global.CUSTOM_FRUIT_TREE_TYPES = $CategoryUtil.getFruitTreeNames()
+
+global.CUSTOM_STATIONARY_BUSH_TYPES = $CategoryUtil.getStationaryBushNames()
+
+global.CUSTOM_SPREADING_BUSH_TYPES = $CategoryUtil.getSpreadingBushNames()
+
+global.KUBEJS_METALS = $CategoryUtil.getMetalNames()
+
+global.METAL_FLUIDS = {
+    "aluminium": id + ":aluminium",
+    "aluminium_bronze": "createbigcannons:molten_bronze",
+    "hardened_steel": "createbigcannons:molten_steel",
+    "cast_iron_alloy": "createbigcannons:molten_cast_iron",
+    "nethersteel": "createbigcannons:molten_nethersteel",
+    "electrum": id + ":electrum"
+}
+
 global.CROPS = [
     "barley",
     "oat",
@@ -354,27 +371,8 @@ global.FIRMALIFE_METALS = [
 ]
 
 global.OTHER_METALS = [
-    "electrum",
     "unknown"
 ]
-
-global.KUBEJS_METALS = [
-    "aluminium",
-    "aluminium_bronze",
-    "cast_iron_alloy",
-    "hardened_steel",
-    "nethersteel",
-    "electrum"
-]
-
-global.METAL_FLUIDS = {
-    "aluminium": id + ":aluminium",
-    "aluminium_bronze": "createbigcannons:molten_bronze",
-    "hardened_steel": "createbigcannons:molten_steel",
-    "cast_iron_alloy": "createbigcannons:molten_cast_iron",
-    "nethersteel": "createbigcannons:molten_nethersteel",
-    "electrum": id + ":electrum"
-}
 
 global.CUSTOM_CLAY_TYPES = [
     "kaolinite",
