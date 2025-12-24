@@ -1,16 +1,10 @@
 {
-  "neoforge:conditions": [
-      {
-          "type": "neoforge:item_exists",
-          "item": "modpack:plant/wild_coffee"
-      }
-  ],
   "type": "minecraft:simple_block",
   "config": {
     "to_place": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "modpack:plant/wild_coffee"
+        "Name": "modpack:wild_crop/coffee"
       }
     }
   }

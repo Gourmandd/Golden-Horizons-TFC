@@ -1,10 +1,4 @@
 {
-  "neoforge:conditions": [
-      {
-          "type": "neoforge:item_exists",
-          "item": "modpack:plant/wild_amaranth"
-      }
-  ],
   "feature": "modpack:plant/wild_crop/amaranth_patch",
   "placement": [
     {
@@ -16,7 +10,7 @@
       "chance": 2
     },
     {
-      "type": "minecraft:in_square"
+      "type": "minecraft:biome"
     }
   ]
 }

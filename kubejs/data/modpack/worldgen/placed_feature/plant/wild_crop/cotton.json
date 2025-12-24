@@ -1,10 +1,4 @@
 {
-  "neoforge:conditions": [
-      {
-          "type": "neoforge:item_exists",
-          "item": "modpack:plant/wild_cotton"
-      }
-  ],
   "feature": "modpack:plant/wild_crop/cotton",
   "placement": [
     {
@@ -22,7 +16,7 @@
       "predicate": {
         "type": "would_survive",
         "state": {
-          "Name": "modpack:plant/wild_cotton"
+          "Name": "modpack:wild_crop/cotton"
         }
       }
     }

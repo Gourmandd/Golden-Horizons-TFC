@@ -1,12 +1,6 @@
 {
-  "neoforge:conditions": [
-      {
-          "type": "neoforge:item_exists",
-          "item": "modpack:plant/wild_amaranth"
-      }
-  ],
   "type": "tfc:tall_wild_crop",
   "config": {
-    "block": "modpack:plant/wild_amaranth"
+    "block": "modpack:wild_crop/amaranth"
   }
 }
