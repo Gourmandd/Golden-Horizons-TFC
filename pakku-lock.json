@@ -4123,7 +4123,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "kubejs-neoforge-2101.7.2-build.344.jar",
+                    "file_name": "kubejs-neoforge-2101.7.2-build.348.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -4132,22 +4132,22 @@
                         "neoforge"
                     ],
                     "release_type": "beta",
-                    "url": "https://cdn.modrinth.com/data/umyGl7zF/versions/5QaK1m7M/kubejs-neoforge-2101.7.2-build.344.jar",
-                    "id": "5QaK1m7M",
+                    "url": "https://cdn.modrinth.com/data/umyGl7zF/versions/8nuqyxbw/kubejs-neoforge-2101.7.2-build.348.jar",
+                    "id": "8nuqyxbw",
                     "parent_id": "umyGl7zF",
                     "hashes": {
-                        "sha512": "be28573c0c085986e7d20e556fd8be341f0c6a526843d8752ce509a269594b797eb2c7b7e261ce88d78d8fb2515e5adbb6bcf48825106a4d8fe56d1687feed8b",
-                        "sha1": "380a5fb2e10f559bb77738ab30f30269db4955d4"
+                        "sha512": "63d6f8d96347c656c1427ee5e8af20a60ab2a59458f3449eb2a7c2cce18cc4b49374aef607f97c9566181ec077cff937d21084cc400e40d28dd46b34f32a3296",
+                        "sha1": "d3b606167d77dd3c561e682b7e373a01a369cc95"
                     },
                     "required_dependencies": [
                         "sk9knFPE"
                     ],
-                    "size": 2240212,
-                    "date_published": "2025-11-29T23:47:44.199220Z"
+                    "size": 2240610,
+                    "date_published": "2025-11-30T15:42:52.777594Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "kubejs-neoforge-2101.7.2-build.344.jar",
+                    "file_name": "kubejs-neoforge-2101.7.2-build.348.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -4156,18 +4156,18 @@
                         "neoforge"
                     ],
                     "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/7276/129/kubejs-neoforge-2101.7.2-build.344.jar",
-                    "id": "7276129",
+                    "url": "https://edge.forgecdn.net/files/7278/501/kubejs-neoforge-2101.7.2-build.348.jar",
+                    "id": "7278501",
                     "parent_id": "238086",
                     "hashes": {
-                        "sha1": "3050dd00dfce9172276ac17eb47abe1bfc7ddf46",
-                        "md5": "82ff17375fa966d7cff26a8356ec6e0b"
+                        "sha1": "75f96b2e4157c0efdbfd9f6271d080fb6921aaf4",
+                        "md5": "e53316dd5b84d571d3e753c213102336"
                     },
                     "required_dependencies": [
                         "416294"
                     ],
-                    "size": 2240212,
-                    "date_published": "2025-11-29T23:47:33.540Z"
+                    "size": 2240610,
+                    "date_published": "2025-11-30T15:42:41.300Z"
                 }
             ]
         },

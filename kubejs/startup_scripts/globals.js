@@ -4,6 +4,7 @@
 // Globals to be used for any script type  //
 // --------------------------------------- //
 
+let $CategoryUtil = Java.loadClass("net.gourmand.GoldenHorizonsCore.registry.category.CategoryUtil")
 
 // should switch to using a global
 //global.nameProcessing = (name) =>
@@ -18,6 +19,8 @@ function nameProcessing(name) {
 global.MOD_ID = "modpack"
 
 let id = global.MOD_ID
+
+global.CUSTOM_CROP_TYPES = $CategoryUtil.getCropNames()
 
 global.CROPS = [
     "barley",
