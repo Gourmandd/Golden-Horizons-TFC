@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "tfc:metal/sheet/brass"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    },
+    "K": {
+      "item": "create:andesite_tunnel"
+    }
+  },
+  "pattern": [
+    " E ",
+    "KAK"
+  ],
+  "result": {
+    "count": 2,
+    "id": "create:brass_tunnel"
+  }
+}
