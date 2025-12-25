@@ -1,38 +1,6 @@
-//priority: 1
-
 // ---------------------------------- //
 // Generates assets for custom metals //
 // ---------------------------------- //
-
-
-ClientEvents.lang("en_us", event => {
-
-    function nameProcessing(name) {
-        name = name.replace("_", " ")
-        name = name.replace("_", " ")
-        name = name.replace(/(^\w|\s\w)/g, m => m.toUpperCase())
-        //console.log(name)
-        return name
-    }
-
-    global.KUBEJS_METALS.forEach(metal => {
-        event.add(`metal.modpack.${metal}`, nameProcessing(metal))
-        event.add(`item.modpack.metal.ingot.${metal}`, nameProcessing(metal) + " Ingot")
-        event.add(`item.modpack.metal.double_ingot.${metal}`, nameProcessing(metal) + " Double Ingot")
-        event.add(`item.modpack.metal.sheet.${metal}`, nameProcessing(metal) + " Sheet")
-        event.add(`item.modpack.metal.double_sheet.${metal}`, nameProcessing(metal) + " Double Sheet")
-        event.add(`item.modpack.metal.rod.${metal}`, nameProcessing(metal) + " Rod")
-        event.add(`block.modpack.metal.block.${metal}`, nameProcessing(metal) + " Plated Block")
-        event.add(`block.modpack.metal.block.${metal}_slab`, nameProcessing(metal) + " Plated Slab")
-        event.add(`block.modpack.metal.block.${metal}_stairs`, nameProcessing(metal) + " Plated Stairs")
-    })
-
-    global.DYE_COLOURS.forEach(colour => {
-        event.add("metal.modpack.glass/" + colour, nameProcessing(colour) + " Glass")
-    })
-    event.add("metal.modpack.glass/clear", "Clear Glass")
-})
-
 
 ClientEvents.generateAssets("before_mods", event => {
 
@@ -174,6 +142,20 @@ ClientEvents.generateAssets("before_mods", event => {
 
     global.KUBEJS_METALS.forEach(metal => {
 
+        let metal_texture = `modpack:block/metal/full/${metal}`
+
+        switch (metal) {
+            case "electrum":
+                metal_texture = "createaddition:block/electrum_block/block"
+                break
+            case "nethersteel":
+                //metal_texture = "createbigcannons:block/nethersteel_block"
+                break
+            case "cast_iron_alloy":
+                //metal_texture = "createbigcannons:block/cast_iron_block"
+                break
+        }
+
         // models
         simpleItemModel(`modpack:metal/ingot/${metal}`, `modpack:item/metal/ingot/${metal}`)
         simpleItemModel(`modpack:metal/double_ingot/${metal}`, `modpack:item/metal/double_ingot/${metal}`)
@@ -184,9 +166,9 @@ ClientEvents.generateAssets("before_mods", event => {
         blockItemModel(`modpack:metal/block/${metal}_slab`, `modpack:block/metal/block/${metal}_slab`)
         blockItemModel(`modpack:metal/block/${metal}_stairs`, `modpack:block/metal/block/${metal}_stairs`)
 
-        simpleBlockModel(`modpack:metal/block/${metal}`, `modpack:block/metal/full/${metal}`)
-        slabBlockModel(`modpack:metal/block/${metal}`, `modpack:block/metal/full/${metal}`)
-        stairBlockModel(`modpack:metal/block/${metal}`, `modpack:block/metal/full/${metal}`)
+        simpleBlockModel(`modpack:metal/block/${metal}`, metal_texture)
+        slabBlockModel(`modpack:metal/block/${metal}`, metal_texture)
+        stairBlockModel(`modpack:metal/block/${metal}`, metal_texture)
 
         // blockstates
         simpleBlockstate(`modpack:metal/block/${metal}`, `modpack:block/metal/block/${metal}`)
