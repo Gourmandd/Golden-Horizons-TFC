@@ -2,7 +2,6 @@ StartupEvents.registry('fluid', event => {
 
     global.DYE_COLOURS.forEach(colour => {
         event.create(`${id}:glass/${colour}`, 'thick')
-            .displayName(`Molten ${nameProcessing(colour)} Glass`)
             .tint(global.COLOUR_TO_HEX[colour])
             .noBucket()
             .noBlock()
@@ -11,7 +10,6 @@ StartupEvents.registry('fluid', event => {
     })
 
     event.create(`${id}:glass/clear`, 'thick')
-        .displayName('Molten Clear Glass')
         .tint(0xD4FBFB)
         .noBucket()
         .noBlock()
