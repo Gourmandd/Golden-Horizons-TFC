@@ -6,7 +6,7 @@
             },
             "apply": [
                 {
-                    "model": "modpack:block/plant/wolfberry_leaves"
+                    "model": "modpack:block/plant/walnut_leaves"
                 }
             ]
         },
@@ -16,7 +16,7 @@
             },
             "apply": [
                 {
-                    "model": "caupona:block/wolfberry_fruits_stage_3"
+                    "model": "caupona:block/walnut_fruits_stage_4"
                 }
             ]
         },
@@ -26,7 +26,7 @@
             },
             "apply": [
                 {
-                    "model": "modpack:block/plant/wolfberry_flowering_leaves"
+                    "model": "modpack:block/plant/walnut_flowering_leaves"
                 }
             ]
         },
@@ -36,7 +36,7 @@
             },
             "apply": [
                 {
-                    "model": "caupona:block/wolfberry_fruits_stage_1"
+                    "model": "caupona:block/walnut_fruits_stage_1"
                 }
             ]
         },
@@ -45,7 +45,7 @@
                 "lifecycle": "dormant"
             },
             "apply": {
-                "model": "modpack:block/plant/wolfberry_dry_leaves"
+                "model": "modpack:block/plant/walnut_dry_leaves"
             }
         },
         {
@@ -53,7 +53,7 @@
                 "lifecycle": "healthy"
             },
             "apply": {
-                "model": "modpack:block/plant/wolfberry_leaves"
+                "model": "modpack:block/plant/walnut_leaves"
             }
         }
     ]
