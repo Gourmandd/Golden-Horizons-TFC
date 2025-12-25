@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "lifecycle=flowering": {
+      "model": "modpack:block/plant/wolfberry_flowering_leaves"
+    },
+    "lifecycle=fruiting": {
+      "model": "modpack:block/plant/wolfberry_fruiting_leaves"
+    },
+    "lifecycle=dormant": {
+      "model": "modpack:block/plant/wolfberry_dry_leaves"
+    },
+    "lifecycle=healthy": {
+      "model": "modpack:block/plant/wolfberry_leaves"
+    }
+  }
+}

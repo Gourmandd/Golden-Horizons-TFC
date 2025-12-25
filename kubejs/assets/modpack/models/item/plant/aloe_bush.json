@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:item/generated",
+  "parent": "tfc:block/plant/stationary_bush_2",
   "textures": {
-    "layer0": "spectrum:block/aloe3"
+    "bush": "pastel:block/aloe4"
   }
 }

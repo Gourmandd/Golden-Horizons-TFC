@@ -1,6 +1,0 @@
-{
-  "parent": "tfc:block/crop/spreading_crop_side",
-  "textures": {
-    "crop": "tfc:block/crop/melon_side_dead"
-  }
-}
