@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "modpack:plant/fig",
+        "modpack:plant/walnut",
+        "modpack:plant/wolfberry"
+    ]
+}
