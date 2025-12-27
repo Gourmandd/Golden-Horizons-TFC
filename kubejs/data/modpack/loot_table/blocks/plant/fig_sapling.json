@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "modpack:plant/wolfberry_sapling",
+          "name": "modpack:plant/fig_sapling",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -15,7 +15,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:block_state_property",
-                  "block": "modpack:plant/wolfberry_sapling",
+                  "block": "modpack:plant/fig_sapling",
                   "properties": {
                     "saplings": "1"
                   }
@@ -28,7 +28,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:block_state_property",
-                  "block": "modpack:plant/wolfberry_sapling",
+                  "block": "modpack:plant/fig_sapling",
                   "properties": {
                     "saplings": "2"
                   }
@@ -41,7 +41,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:block_state_property",
-                  "block": "modpack:plant/wolfberry_sapling",
+                  "block": "modpack:plant/fig_sapling",
                   "properties": {
                     "saplings": "3"
                   }
@@ -54,7 +54,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:block_state_property",
-                  "block": "modpack:plant/wolfberry_sapling",
+                  "block": "modpack:plant/fig_sapling",
                   "properties": {
                     "saplings": "4"
                   }

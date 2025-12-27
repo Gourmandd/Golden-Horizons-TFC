@@ -7,11 +7,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "caupona:wolfberries",
+          "name": "caupona:fig",
           "conditions": [
             {
               "condition": "minecraft:block_state_property",
-              "block": "modpack:plant/wolfberry_leaves",
+              "block": "modpack:plant/fig_leaves",
               "properties": {
                 "lifecycle": "fruiting"
               }
@@ -31,7 +31,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "modpack:plant/wolfberry_leaves",
+          "name": "modpack:plant/fig_leaves",
           "conditions": [
             {
               "condition": "minecraft:any_of",

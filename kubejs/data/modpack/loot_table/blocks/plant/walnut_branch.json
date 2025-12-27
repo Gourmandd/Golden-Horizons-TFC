@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "modpack:plant/wolfberry_sapling",
+          "name": "modpack:plant/walnut_sapling",
           "conditions": [
             {
               "condition": "minecraft:all_of",
@@ -17,7 +17,7 @@
                   "terms": [
                     {
                       "condition": "minecraft:block_state_property",
-                      "block": "modpack:plant/wolfberry_branch",
+                      "block": "modpack:plant/walnut_branch",
                       "properties": {
                         "up": "true",
                         "west": "true"
@@ -25,7 +25,7 @@
                     },
                     {
                       "condition": "minecraft:block_state_property",
-                      "block": "modpack:plant/wolfberry_branch",
+                      "block": "modpack:plant/walnut_branch",
                       "properties": {
                         "up": "true",
                         "east": "true"
@@ -33,7 +33,7 @@
                     },
                     {
                       "condition": "minecraft:block_state_property",
-                      "block": "modpack:plant/wolfberry_branch",
+                      "block": "modpack:plant/walnut_branch",
                       "properties": {
                         "up": "true",
                         "north": "true"
@@ -41,7 +41,7 @@
                     },
                     {
                       "condition": "minecraft:block_state_property",
-                      "block": "modpack:plant/wolfberry_branch",
+                      "block": "modpack:plant/walnut_branch",
                       "properties": {
                         "up": "true",
                         "south": "true"
