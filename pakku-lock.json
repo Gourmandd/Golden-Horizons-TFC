@@ -3985,7 +3985,7 @@
             },
             "name": {
                 "curseforge": "Just Enough Items (JEI)",
-                "modrinth": "Just Enough Items"
+                "modrinth": "Just Enough Items (JEI)"
             },
             "id": {
                 "curseforge": "238222",
@@ -3994,7 +3994,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "jei-1.21.1-neoforge-19.25.0.324.jar",
+                    "file_name": "jei-1.21.1-neoforge-19.27.0.336.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -4003,20 +4003,20 @@
                         "neoforge"
                     ],
                     "release_type": "beta",
-                    "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/GjIi3TDy/jei-1.21.1-neoforge-19.25.0.324.jar",
-                    "id": "GjIi3TDy",
+                    "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/Zgmbmpd4/jei-1.21.1-neoforge-19.27.0.336.jar",
+                    "id": "Zgmbmpd4",
                     "parent_id": "u6dRKJwZ",
                     "hashes": {
-                        "sha512": "c956443824eecab24c481d216e1659abb660afc913b312ce18b2d1b7e06020a56fd60e97b5aa6be166a1fd1ae9c75c9b7994e61811be5a2b23b2ba38c6261ff5",
-                        "sha1": "0e75256edd6cf163f0b7912f03fa24b4cfdf1eab"
+                        "sha512": "b332974f6b39da4e8cca3a410b62a8bb7a53ae229594ca0d4368d9a136cf97fc3d50a21e98a65dcd1381b01d3b855212a3f43fc9699e3bcfc8687d7c99f4e573",
+                        "sha1": "d02c849e4e321e7b056a48e0242ec641560c2ab8"
                     },
                     "required_dependencies": [],
-                    "size": 1506393,
-                    "date_published": "2025-11-01T13:18:28.850575Z"
+                    "size": 1529192,
+                    "date_published": "2025-12-29T08:39:31.290472Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "jei-1.21.1-neoforge-19.25.0.324.jar",
+                    "file_name": "jei-1.21.1-neoforge-19.27.0.336.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -4025,16 +4025,16 @@
                         "neoforge"
                     ],
                     "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/7173/821/jei-1.21.1-neoforge-19.25.0.324.jar",
-                    "id": "7173821",
+                    "url": "https://edge.forgecdn.net/files/7391/682/jei-1.21.1-neoforge-19.27.0.336.jar",
+                    "id": "7391682",
                     "parent_id": "238222",
                     "hashes": {
-                        "sha1": "0e75256edd6cf163f0b7912f03fa24b4cfdf1eab",
-                        "md5": "f0a7542e28ac8fc020a3c911bd9b92fa"
+                        "sha1": "d02c849e4e321e7b056a48e0242ec641560c2ab8",
+                        "md5": "d3da422d1a44e31af8a8d036b3d338f7"
                     },
                     "required_dependencies": [],
-                    "size": 1506393,
-                    "date_published": "2025-11-01T13:18:16.570Z"
+                    "size": 1529192,
+                    "date_published": "2025-12-29T08:39:17.300Z"
                 }
             ]
         },
@@ -6622,70 +6622,52 @@
             },
             "files": [
                 {
-                    "type": "curseforge",
-                    "file_name": "TFCRegistryAPI-1.21.x-1.0.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.8",
-                        "1.21.5",
-                        "1.21.4",
-                        "1.21.1",
-                        "1.21.6",
-                        "1.21.3",
-                        "1.21.7",
-                        "1.21.2",
-                        "1.21.9",
-                        "1.21.10"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7283/316/TFCRegistryAPI-1.21.x-1.0.jar",
-                    "id": "7283316",
-                    "parent_id": "1396119",
-                    "hashes": {
-                        "sha1": "55745ee46e671c26db9d0284aa54dc5990f9351b",
-                        "md5": "b86d52a410f4f3376c33ea250fcfa0d8"
-                    },
-                    "required_dependencies": [
-                        "302973"
-                    ],
-                    "size": 101244,
-                    "date_published": "2025-12-01T20:39:58.827Z"
-                },
-                {
                     "type": "modrinth",
-                    "file_name": "TFCRegistryAPI-1.21.x-1.0.jar",
+                    "file_name": "TFCRegistryAPI-1.21.x-1.2.jar",
                     "mc_versions": [
                         "1.21",
-                        "1.21.1",
-                        "1.21.2",
-                        "1.21.3",
-                        "1.21.4",
-                        "1.21.5",
-                        "1.21.6",
-                        "1.21.7",
-                        "1.21.8",
-                        "1.21.9",
-                        "1.21.10"
+                        "1.21.1"
                     ],
                     "loaders": [
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/mrSESjNK/versions/qKMMe0mG/TFCRegistryAPI-1.21.x-1.0.jar",
-                    "id": "qKMMe0mG",
+                    "url": "https://cdn.modrinth.com/data/mrSESjNK/versions/qh51dOax/TFCRegistryAPI-1.21.x-1.2.jar",
+                    "id": "qh51dOax",
                     "parent_id": "mrSESjNK",
                     "hashes": {
-                        "sha512": "494268247a4d8c9dea6c93dd154e2535bf87efe9f47492e7e4308d8d156622aba032907e71bf1990668c9c4fa9b911e84d83740da1ab2fd236905eac3bd53f43",
-                        "sha1": "55745ee46e671c26db9d0284aa54dc5990f9351b"
+                        "sha512": "cd0dd03ea1d9684fbc314ded386e8330c11ab570c149a33d7dd4e8d8347080c97290baee1042e03011bb39d4f24f2006a8c2afdb11127901609a94600b27f5f9",
+                        "sha1": "9cf372565758c6eacae2b39652b5a288c138c45d"
                     },
                     "required_dependencies": [
                         "JaCEZUhg"
                     ],
-                    "size": 101244,
-                    "date_published": "2025-12-01T20:42:43.821961Z"
+                    "size": 91559,
+                    "date_published": "2025-12-12T21:29:37.772626Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "TFCRegistryAPI-1.21.x-1.2.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7324/760/TFCRegistryAPI-1.21.x-1.2.jar",
+                    "id": "7324760",
+                    "parent_id": "1396119",
+                    "hashes": {
+                        "sha1": "9cf372565758c6eacae2b39652b5a288c138c45d",
+                        "md5": "74e47fd2647817e4e9b571ebad6921be"
+                    },
+                    "required_dependencies": [
+                        "302973"
+                    ],
+                    "size": 91559,
+                    "date_published": "2025-12-12T15:47:21.837Z"
                 }
             ]
         },
@@ -6779,7 +6761,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "TerraFirmaCraft-NeoForge-1.21.1-4.0.13-beta.jar",
+                    "file_name": "TerraFirmaCraft-NeoForge-1.21.1-4.0.16-beta.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -6787,22 +6769,22 @@
                         "neoforge"
                     ],
                     "release_type": "beta",
-                    "url": "https://cdn.modrinth.com/data/JaCEZUhg/versions/5sK4nCjO/TerraFirmaCraft-NeoForge-1.21.1-4.0.13-beta.jar",
-                    "id": "5sK4nCjO",
+                    "url": "https://cdn.modrinth.com/data/JaCEZUhg/versions/zEmvfZLt/TerraFirmaCraft-NeoForge-1.21.1-4.0.16-beta.jar",
+                    "id": "zEmvfZLt",
                     "parent_id": "JaCEZUhg",
                     "hashes": {
-                        "sha512": "2a1b7b678714638f22e06283effdccf548113385e3e92118bb1d738a04e1b87528d2977e4445e00dafba4104fd729ac13629f2c30d8a3eba031ef79a628858bc",
-                        "sha1": "3717587eeaf90f9a472c9b2867bf83d7a17b5efa"
+                        "sha512": "c57f0519f8f434299d724379eaa0b965921d5d4042f624c033c7e87e720278e57457bbad16c915835979d9a2e74a8698dfda8fdfa0bc4044afe9234c42358c70",
+                        "sha1": "645d26fd0f3f6a5fcbf7b0d1a2ede06f55b48130"
                     },
                     "required_dependencies": [
                         "nU0bVIaL"
                     ],
-                    "size": 64357139,
-                    "date_published": "2025-12-06T18:09:00.596041Z"
+                    "size": 64300382,
+                    "date_published": "2025-12-17T13:19:55.080729Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "TerraFirmaCraft-NeoForge-1.21.1-4.0.13-beta.jar",
+                    "file_name": "TerraFirmaCraft-NeoForge-1.21.1-4.0.16-beta.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -6810,18 +6792,18 @@
                         "neoforge"
                     ],
                     "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/7301/272/TerraFirmaCraft-NeoForge-1.21.1-4.0.13-beta.jar",
-                    "id": "7301272",
+                    "url": "https://edge.forgecdn.net/files/7343/990/TerraFirmaCraft-NeoForge-1.21.1-4.0.16-beta.jar",
+                    "id": "7343990",
                     "parent_id": "302973",
                     "hashes": {
-                        "sha1": "3717587eeaf90f9a472c9b2867bf83d7a17b5efa",
-                        "md5": "5a94b08cfece81ed8340c7a447420283"
+                        "sha1": "645d26fd0f3f6a5fcbf7b0d1a2ede06f55b48130",
+                        "md5": "92676417edbf105b63f89cc586c790ea"
                     },
                     "required_dependencies": [
                         "306770"
                     ],
-                    "size": 64357139,
-                    "date_published": "2025-12-06T18:08:49.390Z"
+                    "size": 64300382,
+                    "date_published": "2025-12-17T13:19:44.157Z"
                 }
             ]
         },
@@ -7289,7 +7271,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "e4mc_minecraft-neoforge-5.4.2.jar",
+                    "file_name": "e4mc_minecraft-neoforge-5.5.4.jar",
                     "mc_versions": [
                         "1.20.2",
                         "1.20.3",
@@ -7313,20 +7295,20 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/qANg5Jrr/versions/eWeGubOq/e4mc_minecraft-neoforge-5.4.2.jar",
-                    "id": "eWeGubOq",
+                    "url": "https://cdn.modrinth.com/data/qANg5Jrr/versions/Z8fOr0IE/e4mc_minecraft-neoforge-5.5.4.jar",
+                    "id": "Z8fOr0IE",
                     "parent_id": "qANg5Jrr",
                     "hashes": {
-                        "sha512": "b087851eef05ce3450599cf735d566472f69f90ee63eb3555f740780674701423e705a15c25ea652263ec9e45a4f69dcff2a6c6cb9730cb43da2ccfc214a8bd9",
-                        "sha1": "6996bcc3fd6512c639c7510395f899a7078ab5a7"
+                        "sha512": "54f45444b91b22503ba61d18335836553e39276dfd50900d72759e7ef3d9903b2871aeda6d99ec0f59ee40a56c177cc2624d2383d017cdef57ea6a5c7be0ecd7",
+                        "sha1": "8fccd68c4bdcd8cf8d49b3ce82265d3a027baf3b"
                     },
                     "required_dependencies": [],
-                    "size": 626266,
-                    "date_published": "2025-12-10T08:40:52.255784Z"
+                    "size": 654672,
+                    "date_published": "2025-12-26T10:13:08.191576Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "e4mc_minecraft-neoforge-5.4.2.jar",
+                    "file_name": "e4mc_minecraft-neoforge-5.5.4.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.8",
@@ -7345,16 +7327,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7315/171/e4mc_minecraft-neoforge-5.4.2.jar",
-                    "id": "7315171",
+                    "url": "https://edge.forgecdn.net/files/7379/904/e4mc_minecraft-neoforge-5.5.4.jar",
+                    "id": "7379904",
                     "parent_id": "849519",
                     "hashes": {
-                        "sha1": "6996bcc3fd6512c639c7510395f899a7078ab5a7",
-                        "md5": "e3f52933fe470b1eb7e567fea5acd355"
+                        "sha1": "8fccd68c4bdcd8cf8d49b3ce82265d3a027baf3b",
+                        "md5": "f2289348e7ca6f85a8ca581c0317c93b"
                     },
                     "required_dependencies": [],
-                    "size": 626266,
-                    "date_published": "2025-12-10T08:40:53.490Z"
+                    "size": 654672,
+                    "date_published": "2025-12-26T10:13:08.953Z"
                 }
             ]
         },
