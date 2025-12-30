@@ -16,6 +16,10 @@
 "item_group.nature.modpack": "Nature Items",
 "item_group.metal.modpack": "Metal Items",
 
+
+"item.modpack.tool.snow_shovel": "Snow Shovel",
+"item.modpack.tool.snow_shovel_head": "Snow Shovel Head",
+
 "item.modpack.ceramic.kaolinite_vessel": "Kaolinite Vessel",
 "item.modpack.ceramic.kaolinite_jug": "Kaolinite Jug",
 "item.modpack.ceramic.kaolinite_jug.filled": "%s Kaolinite Jug",
@@ -35,29 +39,9 @@
 "metal.modpack.electrum": "Electrum",
 "metal.modpack.glass_clear": "Clear Glass",
 
-"block.modpack.plant.wild_cotton": "Wild Cotton",
-"block.modpack.plant.wild_coffee": "Wild Coffee",
-"block.modpack.plant.wild_amaranth": "Wild Amaranth",
-
 "block.modpack.andesite_machine": "Steel Machine",
 "block.modpack.copper_machine": "Copper Machine",
 "block.modpack.brass_machine": "Brass Machine",
-
-"item.modpack.plant.cotton_seeds": "Cotton Seeds",
-"item.modpack.plant.coffee_seeds": "Coffee Seeds",
-"item.modpack.plant.amaranth_seeds": "Amaranth Seeds",
-"item.modpack.plant.glistering_melon_seeds": "Glistering Melon Seeds",
-
-"block.modpack.plant.coffee": "Coffee",
-"block.modpack.plant.cotton": "Cotton",
-"block.modpack.plant.amaranth": "Amaranth",
-"block.modpack.plant.glistering_melon": "Glistering Melon",
-
-
-"block.modpack.plant.glistering_melon_dead": "Dead Glisterning Melon",
-"block.modpack.plant.coffee_dead": "Dead Coffee",
-"block.modpack.plant.cotton_dead": "Dead Cotton",
-"block.modpack.plant.amaranth_dead": "Dead Amaranth",
 
 "tfc.recipe.barrel.modpack.barrel.soft_bark": "Softening Bark",
 "tfc.recipe.barrel.modpack.barrel.sugarcane_juice": "Clarifying Sugarcane Juice",

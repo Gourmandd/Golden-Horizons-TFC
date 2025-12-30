@@ -6,7 +6,7 @@ const $Jug = Java.loadClass("net.dries007.tfc.common.items.JugItem")
 const $TFCConfig = Java.loadClass("net.dries007.tfc.config.TFCConfig")
 const $TFCTags = Java.loadClass("net.dries007.tfc.common.TFCTags")
 
-StartupEvents.registry("item", event =>{
+StartupEvents.registry("item", event => {
 
     /* getting 1.21 running
     event.create("metal/bucket/wrought_iron", "tfc:fluid_container")
@@ -15,30 +15,21 @@ StartupEvents.registry("item", event =>{
         .canPlaceLiquidSource(true)
         .capacity(1000)
         .fluidTagAccept("modpack:usable_in_wrought_iron_bucket")
-    
-    event.create("tool/snow_shovel_head").displayName("Snow Shovel Head")
-
-    event.create("tool/snow_shovel", "tfc:tool")
-        .displayName("Snow Shovel")
-        .mineableBlocksTag("modpack:snow_shovel_mineable")
-        .unstackable()
-        .maxDamage(3200)
-    */
 
     /* getting 1.21 running
     event.create("glass_mold", 'tfc:mold')
         .capacity(800)
         .fluidTagAccept("kubejs:molten_glass")
-    
+
     event.create("glass_pane_mold", 'tfc:mold')
         .capacity(50)
         .fluidTagAccept("kubejs:molten_glass")
     */
 })
 
-StartupEvents.registry("item", event =>{
+StartupEvents.registry("item", event => {
 
-    global.CUSTOM_CLAY_TYPES.forEach(type =>{
+    global.CUSTOM_CLAY_TYPES.forEach(type => {
 
 
         //event.create(`ceramic/unfired_${type}_large_vessel`).displayName("Unfired ${type} Large Vessel") What? large vessel is a block
