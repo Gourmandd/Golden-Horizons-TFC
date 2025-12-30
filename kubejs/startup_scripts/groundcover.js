@@ -1,25 +1,12 @@
 //requires: kubejs_tfc
 
-StartupEvents.registry("block", event =>{
+StartupEvents.registry("block", event => {
 
-
-    global.DEEPER_DOWN_ROCK_TYPES.forEach(rock_type =>{
-        
-        event.create(`rock/loose/${rock_type}`, "tfc:loose_rock")
-            .displayName(`Loose ${nameProcessing(rock_type)} Rock`)
-            .tagItem("tfc:any_knapping")
-            .tagItem("tfc:rock_knapping")
-            .tagBlock("minecraft:mineable/pickaxe")
-            .tagBlock("tfc:loose_rocks")
-            .rockTypeModel("sedimentary")
-            .soundType("stone")
-            .texture("all", global.CUSTOM_ROCK_MODELS[rock_type])
-    })
 
     global.SPECTRUM_WOODS.forEach(wood => {
 
-        if (global.NOXWOODS.indexOf(wood) > -1){
-            
+        if (global.NOXWOODS.indexOf(wood) > -1) {
+
             event.create(`wood/twig/${wood}_noxwood`, "tfc:ground_cover")
                 .displayName(`${nameProcessing(wood)} Noxwood Twig`)
                 .twig()
@@ -29,7 +16,7 @@ StartupEvents.registry("block", event =>{
                 .tagBlock("minecraft:mineable/axe")
                 .tagBlock("tfc:twigs")
                 .tagBlock("tfc:can_be_snow_piled")
-            
+
             event.create(`wood/support/${wood}`, "tfc:support")
                 .displayName(`${nameProcessing(wood)} Noxwood Support`)
                 .tagBlock("minecraft:mineable/axe")
@@ -61,7 +48,7 @@ StartupEvents.registry("block", event =>{
                 .tagItem("tfc:support_beams")
                 .model(`kubejs:block/wood/support/${wood}_vertical`)
                 .connectionModel(`kubejs:block/wood/support/${wood}_connection`)
-                .horizontal( block => {
+                .horizontal(block => {
                     block.displayName(`Horizontal ${nameProcessing(wood)} Support`)
                 })
         }

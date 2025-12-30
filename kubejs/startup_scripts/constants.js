@@ -30,6 +30,14 @@ global.CUSTOM_SPREADING_BUSH_TYPES = $CategoryUtil.getSpreadingBushNames()
 
 global.KUBEJS_METALS = $CategoryUtil.getMetalNames()
 
+global.CUSTOM_ORES = $CategoryUtil.getAllOreNames()
+
+global.CUSTOM_GRADED_ORES = $CategoryUtil.getGradedOreNames()
+
+global.CUSTOM_PASTEL_ORES = $CategoryUtil.getPastelOreNames()
+
+global.CUSTOM_ROCK_TYPES = $CategoryUtil.getAllRockNames()
+
 global.METAL_FLUIDS = {
     "aluminium": id + ":aluminium",
     "aluminium_bronze": "createbigcannons:molten_bronze",
@@ -656,6 +664,12 @@ global.ORE_MINING_TIERS = {
     "malachite": "tfc:needs_steel_tool",
 }
 
+global.FULL_BLOCK_ORES = [
+    "halite",
+    "lignite",
+    "bituminous_coal"
+]
+
 global.TFC_MINERALS = [
     "sylvite",
     "saltpeter",
@@ -772,6 +786,34 @@ global.STONE_TO_COBBLESTONE = {
     "schist": "tfc:rock/cobble/schist",
     "gneiss": "tfc:rock/cobble/gneiss",
     "marble": "tfc:rock/cobble/marble"
+}
+
+global.STONE_TO_ROCK_TEXTURE = {
+    "argillite": "minecraft:block/stone",
+    "nephelinite": "minecraft:block/deepslate",
+    "blackslag": "pastel:block/blackslag",
+    "travertine": "tfc:block/rock/raw/claystone",
+    "picrite_basalt": "tfc:block/rock/raw/phyllite",
+    "granite": "tfc:block/rock/raw/granite",
+    "diorite": "tfc:block/rock/raw/diorite",
+    "gabbro": "tfc:block/rock/raw/gabbro",
+    "shale": "tfc:block/rock/raw/shale",
+    "claystone": "tfc:block/rock/raw/claystone",
+    "limestone": "tfc:block/rock/raw/limestone",
+    "conglomerate": "tfc:block/rock/raw/conglomerate",
+    "dolomite": "tfc:block/rock/raw/dolomite",
+    "chert": "tfc:block/rock/raw/chert",
+    "chalk": "tfc:block/rock/raw/chalk",
+    "rhyolite": "tfc:block/rock/raw/rhyolite",
+    "basalt": "tfc:block/rock/raw/basalt",
+    "andesite": "tfc:block/rock/raw/andesite",
+    "dacite": "tfc:block/rock/raw/dacite",
+    "quartzite": "tfc:block/rock/raw/quartzite",
+    "slate": "tfc:block/rock/raw/slate",
+    "phyllite": "tfc:block/rock/raw/phyllite",
+    "schist": "tfc:block/rock/raw/schist",
+    "gneiss": "tfc:block/rock/raw/gneiss",
+    "marble": "tfc:block/rock/raw/marble"
 }
 
 global.STONE_TO_COBBLESTONE_TEXTURE = {
