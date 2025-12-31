@@ -5,6 +5,8 @@
 // --------------------------------------- //
 
 let $CategoryUtil = Java.loadClass("net.gourmand.GoldenHorizonsCore.registry.category.CategoryUtil")
+let $CoreMetals = Java.loadClass("net.gourmand.GoldenHorizonsCore.registry.category.CoreMetals")
+let $CoreRocks = Java.loadClass("net.gourmand.GoldenHorizonsCore.registry.category.CoreRocks")
 
 // should switch to using a global
 //global.nameProcessing = (name) =>
@@ -38,14 +40,18 @@ global.CUSTOM_PASTEL_ORES = $CategoryUtil.getPastelOreNames()
 
 global.CUSTOM_ROCK_TYPES = $CategoryUtil.getAllRockNames()
 
-global.METAL_FLUIDS = {
-    "aluminium": id + ":aluminium",
-    "aluminium_bronze": "createbigcannons:molten_bronze",
-    "hardened_steel": "createbigcannons:molten_steel",
-    "cast_iron_alloy": "createbigcannons:molten_cast_iron",
-    "nethersteel": "createbigcannons:molten_nethersteel",
-    "electrum": id + ":electrum"
-}
+global.CORE_METALS = $CoreMetals.MetalType
+
+global.CORE_ROCKS =
+
+    global.METAL_FLUIDS = {
+        "aluminium": id + ":aluminium",
+        "aluminium_bronze": "createbigcannons:molten_bronze",
+        "hardened_steel": "createbigcannons:molten_steel",
+        "cast_iron_alloy": "createbigcannons:molten_cast_iron",
+        "nethersteel": "createbigcannons:molten_nethersteel",
+        "electrum": id + ":electrum"
+    }
 
 global.CROPS = [
     "barley",
@@ -813,7 +819,8 @@ global.STONE_TO_ROCK_TEXTURE = {
     "phyllite": "tfc:block/rock/raw/phyllite",
     "schist": "tfc:block/rock/raw/schist",
     "gneiss": "tfc:block/rock/raw/gneiss",
-    "marble": "tfc:block/rock/raw/marble"
+    "marble": "tfc:block/rock/raw/marble",
+    "tuff": "tfc:block/rock/raw/tuff"
 }
 
 global.STONE_TO_COBBLESTONE_TEXTURE = {
