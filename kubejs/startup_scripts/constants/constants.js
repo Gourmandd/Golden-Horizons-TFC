@@ -47,6 +47,72 @@ global.METAL_FLUIDS = {
     "electrum": id + ":electrum"
 }
 
+global.CUSTOM_ROCK_TEXTURES = {
+    "hardened": {
+        "argillite": "minecraft:block/stone",
+        "nephelinite": "minecraft:block/deepslate",
+        "blackslag": "pastel:block/blackslag",
+        "picrite_basalt": "pastel:block/basal_marble",
+        "travertine": "minecraft:block/dripstone_block"
+    },
+    "raw": {
+        "argillite": "minecraft:block/stone",
+        "nephelinite": "minecraft:block/deepslate",
+        "blackslag": "pastel:block/blackslag",
+        "picrite_basalt": "pastel:block/basal_marble",
+        "travertine": "minecraft:block/dripstone_block"
+    },
+    "cobble": {
+        "argillite": "minecraft:block/cobblestone",
+        "nephelinite": "minecraft:block/cobbled_deepslate",
+        "blackslag": "pastel:block/cobbled_blackslag",
+        "picrite_basalt": "tfc:block/rock/cobble/phyllite",
+        "travertine": "tfc:block/rock/cobble/claystone"
+    },
+    "mossy_cobble": {
+        "argillite": "minecraft:block/mossy_cobblestone",
+        "nephelinite": "minecraft:block/cobbled_deepslate",
+        "blackslag": "pastel:block/cobbled_blackslag",
+        "picrite_basalt": "tfc:block/rock/mossy_cobble/phyllite",
+        "travertine": "tfc:block/rock/mossy_cobble/claystone"
+    },
+    "bricks": {
+        "argillite": "minecraft:block/stone_bricks",
+        "nephelinite": "minecraft:block/deepslate_bricks",
+        "blackslag": "pastel:block/blackslag_bricks",
+        "picrite_basalt": "tfc:block/rock/bricks/phyllite",
+        "travertine": "tfc:block/rock/bricks/claystone"
+    },
+    "mossy_bricks": {
+        "argillite": "minecraft:block/mossy_stone_bricks",
+        "nephelinite": "minecraft:block/cobbled_deepslate",
+        "blackslag": "pastel:block/cobbled_blackslag",
+        "picrite_basalt": "tfc:block/rock/mossy_bricks/phyllite",
+        "travertine": "tfc:block/rock/mossy_bricks/claystone"
+    },
+    "gravel": {
+        "argillite": "minecraft:block/gravel",
+        "nephelinite": "tfc:block/rock/gravel/basalt",
+        "blackslag": "tfc:block/rock/gravel/slate",
+        "picrite_basalt": "tfc:block/rock/gravel/phyllite",
+        "travertine": "tfc:block/rock/gravel/claystone"
+    },
+    "loose": {
+        "argillite": "tfc:item/loose_rock/andesite",
+        "nephelinite": "tfc:item/loose_rock/basalt",
+        "blackslag": "tfc:item/loose_rock/slate",
+        "picrite_basalt": "tfc:item/loose_rock/phyllite",
+        "travertine": "tfc:item/loose_rock/claystone"
+    },
+    "mossy_loose": {
+        "argillite": "tfc:item/loose_rock/mossy_andesite",
+        "nephelinite": "tfc:item/loose_rock/mossy_basalt",
+        "blackslag": "tfc:item/loose_rock/mossy_slate",
+        "picrite_basalt": "tfc:item/loose_rock/mossy_phyllite",
+        "travertine": "tfc:item/loose_rock/mossy_claystone"
+    },
+}
+
 global.CROPS = [
     "barley",
     "oat",

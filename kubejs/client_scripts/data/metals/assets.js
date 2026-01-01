@@ -4,51 +4,6 @@
 
 ClientEvents.generateAssets("before_mods", event => {
 
-    function stairVariants(stairs, stairs_inner, stairs_outer) {
-        return {
-            'facing=east,half=bottom,shape=straight': { 'model': stairs },
-            'facing=west,half=bottom,shape=straight': { 'model': stairs, 'y': 180, 'uvlock': true },
-            'facing=south,half=bottom,shape=straight': { 'model': stairs, 'y': 90, 'uvlock': true },
-            'facing=north,half=bottom,shape=straight': { 'model': stairs, 'y': 270, 'uvlock': true },
-            'facing=east,half=bottom,shape=outer_right': { 'model': stairs_outer },
-            'facing=west,half=bottom,shape=outer_right': { 'model': stairs_outer, 'y': 180, 'uvlock': true },
-            'facing=south,half=bottom,shape=outer_right': { 'model': stairs_outer, 'y': 90, 'uvlock': true },
-            'facing=north,half=bottom,shape=outer_right': { 'model': stairs_outer, 'y': 270, 'uvlock': true },
-            'facing=east,half=bottom,shape=outer_left': { 'model': stairs_outer, 'y': 270, 'uvlock': true },
-            'facing=west,half=bottom,shape=outer_left': { 'model': stairs_outer, 'y': 90, 'uvlock': true },
-            'facing=south,half=bottom,shape=outer_left': { 'model': stairs_outer },
-            'facing=north,half=bottom,shape=outer_left': { 'model': stairs_outer, 'y': 180, 'uvlock': true },
-            'facing=east,half=bottom,shape=inner_right': { 'model': stairs_inner },
-            'facing=west,half=bottom,shape=inner_right': { 'model': stairs_inner, 'y': 180, 'uvlock': true },
-            'facing=south,half=bottom,shape=inner_right': { 'model': stairs_inner, 'y': 90, 'uvlock': true },
-            'facing=north,half=bottom,shape=inner_right': { 'model': stairs_inner, 'y': 270, 'uvlock': true },
-            'facing=east,half=bottom,shape=inner_left': { 'model': stairs_inner, 'y': 270, 'uvlock': true },
-            'facing=west,half=bottom,shape=inner_left': { 'model': stairs_inner, 'y': 90, 'uvlock': true },
-            'facing=south,half=bottom,shape=inner_left': { 'model': stairs_inner },
-            'facing=north,half=bottom,shape=inner_left': { 'model': stairs_inner, 'y': 180, 'uvlock': true },
-            'facing=east,half=top,shape=straight': { 'model': stairs, 'x': 180, 'uvlock': true },
-            'facing=west,half=top,shape=straight': { 'model': stairs, 'x': 180, 'y': 180, 'uvlock': true },
-            'facing=south,half=top,shape=straight': { 'model': stairs, 'x': 180, 'y': 90, 'uvlock': true },
-            'facing=north,half=top,shape=straight': { 'model': stairs, 'x': 180, 'y': 270, 'uvlock': true },
-            'facing=east,half=top,shape=outer_right': { 'model': stairs_outer, 'x': 180, 'y': 90, 'uvlock': true },
-            'facing=west,half=top,shape=outer_right': { 'model': stairs_outer, 'x': 180, 'y': 270, 'uvlock': true },
-            'facing=south,half=top,shape=outer_right': { 'model': stairs_outer, 'x': 180, 'y': 180, 'uvlock': true },
-            'facing=north,half=top,shape=outer_right': { 'model': stairs_outer, 'x': 180, 'uvlock': true },
-            'facing=east,half=top,shape=outer_left': { 'model': stairs_outer, 'x': 180, 'uvlock': true },
-            'facing=west,half=top,shape=outer_left': { 'model': stairs_outer, 'x': 180, 'y': 180, 'uvlock': true },
-            'facing=south,half=top,shape=outer_left': { 'model': stairs_outer, 'x': 180, 'y': 90, 'uvlock': true },
-            'facing=north,half=top,shape=outer_left': { 'model': stairs_outer, 'x': 180, 'y': 270, 'uvlock': true },
-            'facing=east,half=top,shape=inner_right': { 'model': stairs_inner, 'x': 180, 'y': 90, 'uvlock': true },
-            'facing=west,half=top,shape=inner_right': { 'model': stairs_inner, 'x': 180, 'y': 270, 'uvlock': true },
-            'facing=south,half=top,shape=inner_right': { 'model': stairs_inner, 'x': 180, 'y': 180, 'uvlock': true },
-            'facing=north,half=top,shape=inner_right': { 'model': stairs_inner, 'x': 180, 'uvlock': true },
-            'facing=east,half=top,shape=inner_left': { 'model': stairs_inner, 'x': 180, 'uvlock': true },
-            'facing=west,half=top,shape=inner_left': { 'model': stairs_inner, 'x': 180, 'y': 180, 'uvlock': true },
-            'facing=south,half=top,shape=inner_left': { 'model': stairs_inner, 'x': 180, 'y': 90, 'uvlock': true },
-            'facing=north,half=top,shape=inner_left': { 'model': stairs_inner, 'x': 180, 'y': 270, 'uvlock': true }
-        }
-    }
-
     function simpleItemModel(location, texture) {
 
         event.itemModel(location, model => {
@@ -136,7 +91,7 @@ ClientEvents.generateAssets("before_mods", event => {
 
         let variants = stairVariants(`${model}_stairs`, `${model}_stairs_inner`, `${model}_stairs_outer`)
 
-        JsonIO.write("kubejs/assets/" + location.replace(":", "/blockstates/") + ".json", { "variants": variants })
+        event.json(location, { "variants": variants })
     }
 
 
