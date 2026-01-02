@@ -17,7 +17,7 @@ LootJS.modifiers(event => {
     }
 
     let multiDrop = function (item) {
-        return LootEntry.of(item, 2).randomChance(0.75)
+        return LootEntry.of(item, [1, 2])
     }
 
     let singleDrop = function (item) {
