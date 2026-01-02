@@ -62,20 +62,20 @@ ServerEvents.recipes(event => {
         event.recipes.create.filling(Item.of("kubejs:glass_mold", {"tank":{"Amount":800,"FluidName":`${mod_id}:glass/${colour}`}}), [Item.of("kubejs:glass_mold", {}), Fluid.of(`${mod_id}:glass/${colour}`, 800)])
             .id(`modpack:recipes/filling/glass/${colour}`)*/
 
-        //let transitionalItem = `minecraft:${colour}_stained_glass_pane`
+        let transitionalItem = `minecraft:${colour}_stained_glass_pane`
 
-        /*
+
         datagen.createSequencedAssembly(
             outputOf(ITEM, `${mod_id}:${colour}_lens`, 1, 1),
             inputOf(ITEM, `${mod_id}:molten_glass/${colour}`, 1),
             [
                 datagen.createDeploying(outputOf(ITEM, transitionalItem, 1, 1), [inputOf(ITEM, transitionalItem, 1), inputOf(ITEM, "tfc:powder/soda_ash", 1)]).getAsMap(),
-                datagen.createDeploying(outputOf(ITEM, transitionalItem, 1, 1), [inputOf(ITEM, transitionalItem, 1), inputOf(ITEM, "tfc:bellows", 1)]).KeepItem().getAsMap(),
+                datagen.createDeploying(outputOf(ITEM, transitionalItem, 1, 1), [inputOf(ITEM, transitionalItem, 1), inputOf(ITEM, "tfc:bellows", 1)]).keepItem().getAsMap(),
                 datagen.createDeploying(outputOf(ITEM, transitionalItem, 1, 1), [inputOf(ITEM, transitionalItem, 1), inputOf(ITEM, "tfc:paddle", 1)]).keepItem().getAsMap(),
                 datagen.createDeploying(outputOf(ITEM, transitionalItem, 1, 1), [inputOf(ITEM, transitionalItem, 1), inputOf(ITEM, "tfc:wool_cloth", 1)]).keepItem().getAsMap(),
                 datagen.createDeploying(outputOf(ITEM, transitionalItem, 1, 1), [inputOf(ITEM, transitionalItem, 1), inputOf(ITEM, "tfc:gem_saw", 1)]).keepItem().getAsMap()
             ]
-        ).transitionalItem(transitionalItem).loops(3).id(`modpack:sequenced_assembly/lens/${colour}`).generate()*/
+        ).setTransitionalItem(transitionalItem).setLoops(3).id(`modpack:sequenced_assembly/lens/${colour}`).generate()
     })
     /*
     event.recipes.create.item_application("minecraft:glass",[`${mod_id}:molten_glass/clear`,  "tfc:powder/flux"])
