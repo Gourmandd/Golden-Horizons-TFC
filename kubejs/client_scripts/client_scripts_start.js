@@ -249,4 +249,98 @@ function looseRockVariants(blockModelRoot) {
     }
 }
 
+function verticalSupportMultipart(blockModelRoot) {
+    return {
+        "multipart": [
+            {
+                "apply": {
+                    "model": `${blockModelRoot}_vertical`
+                }
+            },
+            {
+                "when": {
+                    "north": true
+                },
+                "apply": {
+                    "model": `${blockModelRoot}_connection`,
+                    "y": 270
+                }
+            },
+            {
+                "when": {
+                    "east": true
+                },
+                "apply": {
+                    "model": `${blockModelRoot}_connection`
+                }
+            },
+            {
+                "when": {
+                    "south": true
+                },
+                "apply": {
+                    "model": `${blockModelRoot}_connection`,
+                    "y": 90
+                }
+            },
+            {
+                "when": {
+                    "west": true
+                },
+                "apply": {
+                    "model": `${blockModelRoot}_connection`,
+                    "y": 180
+                }
+            }
+        ]
+    }
+}
+
+function horizontalSupportMultipart(blockModelRoot) {
+    return {
+        "multipart": [
+            {
+                "apply": {
+                    "model": `${blockModelRoot}_horizontal`
+                }
+            },
+            {
+                "when": {
+                    "north": true
+                },
+                "apply": {
+                    "model": `${blockModelRoot}_connection`,
+                    "y": 270
+                }
+            },
+            {
+                "when": {
+                    "east": true
+                },
+                "apply": {
+                    "model": `${blockModelRoot}_connection`
+                }
+            },
+            {
+                "when": {
+                    "south": true
+                },
+                "apply": {
+                    "model": `${blockModelRoot}_connection`,
+                    "y": 90
+                }
+            },
+            {
+                "when": {
+                    "west": true
+                },
+                "apply": {
+                    "model": `${blockModelRoot}_connection`,
+                    "y": 180
+                }
+            }
+        ]
+    }
+}
+
 console.info('Hello, World! (Loaded client scripts)')

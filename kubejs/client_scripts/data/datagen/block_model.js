@@ -8,6 +8,19 @@ const BlockModelDatagen = function () {
 
     let directions = ["north", "west", "east", "south"]
 
+    this.simpleItemModel = function (itemLocation, texture) {
+        event.itemModel(itemLocation, model => {
+            model.parent("item/generated")
+            model.texture("layer0", texture)
+        })
+    }
+
+    this.blockItemModel = function (itemLocation, blockModel) {
+        event.itemModel(itemLocation, model => {
+            model.parent(blockModel)
+        })
+    }
+
     this.simpleBlockModel = function (blockLocation, texture) {
 
         let blockModel = getBlockModel(blockLocation)
@@ -212,6 +225,60 @@ const BlockModelDatagen = function () {
                 })
             }
         }
+    }
+
+    this.supportBlockModel = function (blockLocation, textureMain, textureTop) {
+        // the expected input is the item id, eg: tfc:wood/support/acacia
+        // the horizontal and vertical block ids are inferred so that this function can stay simpler, and that two functions or one more complicated function called twice arnt needed.
+
+        let blockModel = getBlockModel(blockLocation)
+
+        let verticalBlockLocation = blockLocation.replace("support", "vertical_support")
+        let horizontalBlockLocation = blockLocation.replace("support", "horizontal_support")
+
+        event.json(verticalBlockLocation.replace(":", ":blockstates/"), verticalSupportMultipart(blockModel))
+        event.json(horizontalBlockLocation.replace(":", ":blockstates/"), horizontalSupportMultipart(blockModel))
+
+        event.blockModel(`${blockLocation}_connection`, {
+            "parent": "tfc:block/wood/support/connection_vex",
+            "textures": {
+                "texture": textureMain,
+                "particle": textureTop,
+                "top": textureTop
+            }
+        })
+
+        event.blockModel(`${blockLocation}_inventory`, {
+            "parent": "tfc:block/wood/support/inventory_vex",
+            "textures": {
+                "texture": textureMain,
+                "vertical": textureMain,
+                "horizontal": textureMain,
+                "top": textureTop
+            }
+        })
+
+        event.blockModel(`${blockLocation}_vertical`, {
+            "parent": "tfc:block/wood/support/vertical_vex",
+            "textures": {
+                "texture": textureMain,
+                "particle": textureTop,
+                "top": textureTop
+            }
+        })
+
+        event.blockModel(`${blockLocation}_horizontal`, {
+            "parent": "tfc:block/wood/support/horizontal_vex",
+            "textures": {
+                "texture": textureMain,
+                "particle": textureTop,
+                "top": textureTop
+            }
+        })
+
+        event.itemModel(blockLocation, {
+            "parent": blockModel,
+        })
     }
 
     return this

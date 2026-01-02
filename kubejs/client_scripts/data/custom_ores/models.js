@@ -45,7 +45,14 @@ ClientEvents.generateAssets("before_mods", event => {
         if (grade == null) {
             overlay = `${namespace}:block/ore/${ore}`
         } else {
-            overlay = `${namespace}:block/ore/${grade}_${ore}`
+            switch (grade) {
+                case "normal":
+                    overlay = `${namespace}:block/ore/${grade}_${ore}`;
+                    break;
+                default:
+                    overlay = `${namespace}:block/ore/${grade}/${ore}`;
+                    break;
+            }
         }
 
         return overlay
