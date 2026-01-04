@@ -13,7 +13,7 @@
             "state": {
               "Name": "modpack:plant/aloe_bush",
               "Properties": {
-                "age": "4"
+                  "lifecycle": "fruiting"
               }
             }
           }

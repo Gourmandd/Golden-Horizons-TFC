@@ -9,16 +9,14 @@
     "vegetation_chance": 0.2,
     "xz_radius": {
       "type": "minecraft:uniform",
-      "value": {
-        "min_inclusive": 0,
-        "max_inclusive": 1
-      }
+      "min_inclusive": 0,
+      "max_inclusive": 1
     },
     "replaceable": "#pastel:aloe_converted",
     "ground_state": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "tfc:sand/black"
+        "Name": "minecraft:sand"
       }
     },
     "vegetation_feature": {
@@ -30,8 +28,7 @@
             "state": {
               "Name": "modpack:plant/aloe_bush",
               "Properties": {
-                "age": "3",
-                "lifecycle": "fruiting"
+                  "lifecycle": "fruiting"
               }
             }
           }

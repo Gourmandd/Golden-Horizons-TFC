@@ -13,7 +13,6 @@
             "state": {
               "Name": "modpack:plant/sawblade_holly_bush",
               "Properties": {
-                "age": "3",
                 "lifecycle": "fruiting"
               }
             }
@@ -31,18 +30,13 @@
                 "blocks": "minecraft:air"
               },
               {
-                "type": "minecraft:would_survive",
+                "type": "minecraft:matching_blocks",
                 "offset": [
                   0,
                   -1,
                   0
                 ],
-                "state": {
-                  "Name": "pastel:sawblade_holly",
-                  "Properties": {
-                    "age": "7"
-                  }
-                }
+                "blocks": "pastel:sawblade_grass"
               }
             ]
           }
