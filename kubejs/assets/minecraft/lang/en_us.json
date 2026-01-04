@@ -55,5 +55,21 @@
     "block.minecraft.infested_mossy_stone_bricks": "Infested Mossy Argillite Bricks",
     "block.minecraft.infested_cracked_stone_bricks": "Infested Cracked Argillite Bricks",
     "block.minecraft.infested_chiseled_stone_bricks": "Infested Chiseled Argillite Bricks",
-    "block.minecraft.gravel": "Argillite Gravel"
+    "block.minecraft.gravel": "Argillite Gravel",
+    "block.minecraft.coal_ore": "Bituminous Coal",
+    "block.minecraft.copper_ore": "Normal Argillite Native Copper",
+    "block.minecraft.deepslate_coal_ore": "Bituminious Coal",
+    "block.minecraft.deepslate_copper_ore": "Normal Nephelinite Native Copper",
+    "block.minecraft.deepslate_diamond_ore": "Nephelinite Kimberlite",
+    "block.minecraft.deepslate_emerald_ore": "Nephelinite Emerald",
+    "block.minecraft.deepslate_gold_ore": "Normal Nephelinite Native Gold",
+    "block.minecraft.deepslate_iron_ore": "Normal Nephelinite Limonite",
+    "block.minecraft.deepslate_lapis_ore": "Nephelinite Lapis Lazuli",
+    "block.minecraft.deepslate_redstone_ore": "Nephelinite Cinnabar",
+    "block.minecraft.diamond_ore": "Argillite Kimberlite",
+    "block.minecraft.emerald_ore": "Argillite Emerald",
+    "block.minecraft.gold_ore": "Normal Argillite Native Gold",
+    "block.minecraft.iron_ore": "Normal Argillite Limonite",
+    "block.minecraft.lapis_ore": "Argillite Lapis Lazuli",
+    "block.minecraft.redstone_ore": "Argillite Cinnabar"
 }

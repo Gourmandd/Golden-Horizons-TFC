@@ -17,6 +17,13 @@
     "block.pastel.basal_marble_bricks": "Picrite Basalt Bricks",
     "block.pastel.basal_marble_brick_stairs": "Picrite Basalt Brick Stairs",
     "block.pastel.basal_marble_brick_slab": "Picrite Basalt Brick Slab",
-    "block.pastel.basal_marble_brick_wall": "Picrite Basalt Brick Wall"
-
+    "block.pastel.basal_marble_brick_wall": "Picrite Basalt Brick Wall",
+    "block.pastel.blackslag_coal_ore": "Bituminous Coal",
+    "block.pastel.blackslag_copper_ore": "Normal Blackslag Native Copper",
+    "block.pastel.blackslag_diamond_ore": "Blackslag Kimberlite",
+    "block.pastel.blackslag_emerald_ore": "Blackslag Emerald",
+    "block.pastel.blackslag_gold_ore": "Normal Blackslag Native Gold",
+    "block.pastel.blackslag_iron_ore": "Normal Blackslag Limonite",
+    "block.pastel.blackslag_lapis_ore": "Blackslag Lapis Lazuli",
+    "block.pastel.blackslag_redstone_ore": "Blackslag Cinnabar"
 }
