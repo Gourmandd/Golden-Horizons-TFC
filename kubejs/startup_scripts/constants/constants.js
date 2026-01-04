@@ -490,21 +490,21 @@ global.TFC_TOOL_HEADS = {
 
 global.DYE_COLOURS = [
     "white",
-    "brown",
-    "green",
-    "orange",
-    "magenta",
-    "red",
+    "light_gray",
+    "gray",
     "black",
-    "light_blue",
+    "brown",
+    "red",
+    "orange",
     "yellow",
     "lime",
-    "pink",
-    "gray",
-    "light_gray",
+    "green",
     "cyan",
-    "purple",
+    "light_blue",
     "blue",
+    "purple",
+    "magenta",
+    "pink",
 ]
 
 global.COLOUR_TO_HEX = {
