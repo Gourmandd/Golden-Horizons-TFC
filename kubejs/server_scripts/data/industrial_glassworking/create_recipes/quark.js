@@ -1,7 +1,6 @@
-// requires: kubejs_tfc
 // requires: quark
 
-ServerEvents.recipes(event =>{
+ServerEvents.recipes(event => {
 
     console.log("INFO: PORT QUARK GLASS SCRIPT, QUARK HAS BEEN ADDED TO THE PACK")
     /*

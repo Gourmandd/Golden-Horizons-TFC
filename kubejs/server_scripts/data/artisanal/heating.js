@@ -1,23 +1,35 @@
 // requires: artisanal
-// requires: kubejs_tfc
+console.log("WARNING: TEST RECIPES WHEN ARTISANAL IS ADDED")
 
-ServerEvents.recipes(event =>{
-    
-    global.TOOL_METALS.forEach(metal =>{
+ServerEvents.recipes(event => {
 
-        if (metal == "wrought_iron"){
-        
-            event.recipes.tfc.heating(`artisanal:metal/can_opener/${metal}`, global.MELTING_POINTS[metal])
-                .resultFluid(Fluid.of("tfc:metal/cast_iron", 200))
-                .id(`modpack:heating/can_opener/${metal}`)
-                .useDurability(true)
+    let datagen = Datagen(event).terraFirmaCraftRecipes()
+
+    global.TOOL_METALS.forEach(metal => {
+
+        if (metal == "wrought_iron") {
+
+            datagen.heating(
+                null,
+                outputOf(IO_TYPE.FLUID, "tfc:metal/cast_iron", 200),
+                inputOf(IO_TYPE.ITEM, `artisanal:metal/can_opener/${metal}`, 1),
+                global.MELTING_POINTS[metal]
+            )
+                .id(`${mod_id}:heating/can_opener/${metal}`)
+                .useDurability()
+                .generate()
 
         } else {
-        
-            event.recipes.tfc.heating(`artisanal:metal/can_opener/${metal}`, global.MELTING_POINTS[metal])
-                .resultFluid(Fluid.of(`tfc:metal/${metal}`, 200))
-                .id(`modpack:heating/can_opener/${metal}`)
-                .useDurability(true)
+
+            datagen.heating(
+                null,
+                outputOf(IO_TYPE.FLUID, `tfc:metal/${metal}`, 200),
+                inputOf(IO_TYPE.ITEM, `artisanal:metal/can_opener/${metal}`, 1),
+                global.MELTING_POINTS[metal]
+            )
+                .id(`${mod_id}:heating/can_opener/${metal}`)
+                .useDurability()
+                .generate()
         }
 
     })

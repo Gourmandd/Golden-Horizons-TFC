@@ -1,5 +1,4 @@
 //priority: 1
-// requires: kubejs_tfc
 
 // -------------------------------------------- //
 // Generates data related to custom clay types  //
@@ -9,16 +8,26 @@
 
 ServerEvents.recipes(event => {
 
+    let datagen = Datagen(event).terraFirmaCraftRecipes()
+
     function item_heating(fileName, input, output, temp) {
-        event.recipes.tfc.heating(input, temp)
-            .resultItem(output)
+
+        datagen.heating(
+            outputOf(IO_TYPE.ITEM, output, 1),
+            null,
+            inputOf(IO_TYPE.ITEM, input, 1),
+            temp
+        )
             .id(`${mod_id}:heating/${fileName}`)
+            .generate()
     }
 
     function knapping(type, result, count, shape, fileName, slot) {
-        event.recipes.tfc.knapping(Item.of(result, count), "tfc:" + type, shape)
-            .outsideSlotRequired(slot)
+
+        datagen.knapping(outputOf(IO_TYPE.ITEM, result, count), "tfc:" + type, shape)
             .id(`${mod_id}:knapping/${type}/${fileName}`)
+            .outsideSlotRequired(slot)
+            .generate()
     }
 
     global.CUSTOM_CLAY_TYPES.forEach(type => {
@@ -43,14 +52,14 @@ ServerEvents.recipes(event => {
         knapping(type, "caupona:clay_cistern", 1, ["XX XX", "X   X", "X   X", "X   X", " XXX "], `${type}_clay_cistern`, true)
         knapping(type, "caupona:clay_portable_brazier", 1, ["X   X", " XXX ", "X   X", "X   X", " XXX "], `${type}_clay_portable_brazier`, true)
         knapping(type, "tfc:ceramic/unfired_large_vessel", 1, ["X   X", "X   X", "X   X", "X   X", "XXXXX"], `${type}_large_vessel`, true)
-        knapping(type, "artisanal:ceramic/unfired_small_pot", 1, [" XX  ", "XX   ", "X X X", "  XXX", "  XXX"], `${type}_small_pot`, true)
-        knapping(type, "firmalife:oven_top", 1, ["XXXXX", "XX XX", "X   X", "X   X", "XXXXX"], `${type}_oven_top`, true)
-        knapping(type, "firmalife:oven_bottom", 1, ["XX XX", "X   X", "X   X", "XX XX", "XXXXX"], `${type}_oven_bottom`, true)
-        knapping(type, "firmalife:oven_chimney", 1, ["XXXXX", "XX XX", "XX XX", "XX XX", "XXXXX"], `${type}_oven_chimney`, true)
+        //knapping(type, "artisanal:ceramic/unfired_small_pot", 1, [" XX  ", "XX   ", "X X X", "  XXX", "  XXX"], `${type}_small_pot`, true)
+        knapping(type, "firmalife:clay_oven_top", 1, ["XXXXX", "XX XX", "X   X", "X   X", "XXXXX"], `${type}_oven_top`, true)
+        knapping(type, "firmalife:clay_oven_bottom", 1, ["XX XX", "X   X", "X   X", "XX XX", "XXXXX"], `${type}_oven_bottom`, true)
+        knapping(type, "firmalife:clay_oven_chimney", 1, ["XXXXX", "XX XX", "XX XX", "XX XX", "XXXXX"], `${type}_oven_chimney`, true)
         knapping(type, "tfc:ceramic/unfired_pan", 1, ["     ", "X   X", "XXXXX", " XXX ", "     "], `${type}_pan`, true)
-        knapping(type, "tfc_hammer_time:ceramic/unfired_sledgehammer_head_mold", 1, ["  XXX", "    X", "X   X", "X    ", "XXX  "], `${type}_sledgehammer_head_mold`, true)
-        knapping(type, "tfc_hammer_time:ceramic/unfired_excavator_head_mold", 1, ["XXXXX", "X   X", "X   X", "X   X", "X   X"], `${type}_excavator_head_mold`, true)
-        knapping(type, "tfcchannelcasting:unfired_heart_mold", 1, ["X X X", "     ", "     ", "X   X", "XX XX"], `${type}_heart_mold`, true)
+        //knapping(type, "tfc_hammer_time:ceramic/unfired_sledgehammer_head_mold", 1, ["  XXX", "    X", "X   X", "X    ", "XXX  "], `${type}_sledgehammer_head_mold`, true)
+        //knapping(type, "tfc_hammer_time:ceramic/unfired_excavator_head_mold", 1, ["XXXXX", "X   X", "X   X", "X   X", "X   X"], `${type}_excavator_head_mold`, true)
+        //knapping(type, "tfcchannelcasting:unfired_heart_mold", 1, ["X X X", "     ", "     ", "X   X", "XX XX"], `${type}_heart_mold`, true)
 
         //extras
 
@@ -65,11 +74,11 @@ ServerEvents.recipes(event => {
         knapping(type, `${mod_id}:ceramic/unfired_${type}_jug`, 1, [" X   ", "XXXX ", "XXX X", "XXXX ", "XXX  "], `unfired_${type}_jug`, false)
         knapping(type, `${mod_id}:ceramic/unfired_${type}_brick`, 3, ["XXXXX", "     ", "XXXXX", "     ", "XXXXX"], `unfired_${type}_brick`, false)
 
-        knapping(type, "${mod_id}:unfired_shaft", 2, [" X X ", " X X ", " X X ", " X X ", " X X "], `${type}_shaft_vertical_2`, true)
-        knapping(type, "${mod_id}:unfired_shaft", 3, ["X X X", "X X X", "X X X", "X X X", "X X X"], `${type}_shaft_vertical_3`, false)
+        knapping(type, `${mod_id}:unfired_shaft`, 2, [" X X ", " X X ", " X X ", " X X ", " X X "], `${type}_shaft_vertical_2`, true)
+        knapping(type, `${mod_id}:unfired_shaft`, 3, ["X X X", "X X X", "X X X", "X X X", "X X X"], `${type}_shaft_vertical_3`, false)
 
-        knapping(type, "${mod_id}:unfired_shaft", 2, ["     ", "XXXXX", "     ", "XXXXX", "     "], `${type}_shaft_horizontal_2`, true)
-        knapping(type, "${mod_id}:unfired_shaft", 3, ["XXXXX", "     ", "XXXXX", "     ", "XXXXX"], `${type}_shaft_horizontal_3`, true)
+        knapping(type, `${mod_id}:unfired_shaft`, 2, ["     ", "XXXXX", "     ", "XXXXX", "     "], `${type}_shaft_horizontal_2`, true)
+        knapping(type, `${mod_id}:unfired_shaft`, 3, ["XXXXX", "     ", "XXXXX", "     ", "XXXXX"], `${type}_shaft_horizontal_3`, true)
 
         event.shaped(`2x ${mod_id}:ceramic/${type}_bricks`, ["XMX", "MXM", "XMX"], { "X": `${mod_id}:ceramic/${type}_brick`, "M": "tfc:mortar" }).id(`${mod_id}:crafting/${type}/bricks`)
         event.shaped(`8x ${mod_id}:ceramic/${type}_brick_stairs`, ["X  ", "XX ", "XXX"], { "X": `${mod_id}:ceramic/${type}_bricks` }).id(`${mod_id}:crafting/${type}/brick_stairs`)

@@ -7,13 +7,10 @@
     ],
     "type": "firmalife:oven",
     "ingredient": {
-        "type": "tfc:not_rotten",
-        "ingredient": {
-            "item": "corn_delight:tortilla_raw"
-        }
+        "item": "corn_delight:tortilla_raw"
     },
-    "result_item": {
-        "item": "corn_delight:tortilla"
+    "result": {
+        "id": "corn_delight:tortilla"
     },
     "temperature": 400,
     "duration": 1000

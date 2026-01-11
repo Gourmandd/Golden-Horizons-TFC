@@ -11,7 +11,6 @@ ServerEvents.recipes(event => {
     }
 
     global.DEEPER_DOWN_ROCK_TYPES.forEach(rock_type => {
-        // [TODO]:  uncomment when core mod can register these
 
         event.shapeless(Item.of(`${mod_id}:rock/loose/${rock_type}`, 4), Item.of(BASE[rock_type]))
             .id(`${mod_id}:crafting/rock/${rock_type}_cobble_to_loose_rocks`)

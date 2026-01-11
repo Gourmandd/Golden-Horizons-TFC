@@ -1,25 +1,46 @@
 // requires: pastel
-// requires: kubejs_tfc
 
 ServerEvents.recipes(event => {
 
-    global.DEEPER_DOWN_ROCK_TYPES.forEach(rock_type => {
+    let datagen = Datagen(event).terraFirmaCraftRecipes()
 
-        event.recipes.tfc.damage_inputs_shapeless_crafting(
-            event.recipes.minecraft.crafting_shapeless(Item.of(`${mod_id}:brick/${rock_type}`, 1), [Item.of(`${mod_id}:rock/loose/${rock_type}`, 1), "#tfc:chisels"])
-                .id(`${mod_id}:crafting/rock/${rock_type}_brick`)
+    const COBBLE = {
+        "nephelinite": "minecraft:cobbled_deepslate",
+        "argillite": "minecraft:cobblestone",
+        "blackslag": "pastel:cobbled_blackslag"
+    }
+
+    global.CUSTOM_ROCK_TYPES.forEach(rockType => {
+
+        datagen.advancedShapeless(
+            outputOf(IO_TYPE.ITEM, `${mod_id}:brick/${rockType}`, 1),
+            [inputOf(IO_TYPE.ITEM, `${mod_id}:rock/loose/${rockType}`, 1)],
+            inputOf(IO_TYPE.ITEM_TAG, "#tfc:chisels", 1)
         )
+            .addModifier(datagen.MODIFIERS.DAMAGE_CRAFTING_REMAINDER)
+            .id(`${mod_id}:crafting/rock/${rockType}_brick`)
+            .generate()
 
-        event.recipes.tfc.landslide(`${mod_id}:rock/cobble/${rock_type}`, `${mod_id}:rock/cobble/${rock_type}`)
-        event.recipes.tfc.collapse(`${mod_id}:rock/cobble/${rock_type}`, `${mod_id}:rock/mortared_cobble/${rock_type}`)
-        event.recipes.tfc.collapse(`${mod_id}:rock/cobble/${rock_type}`, global.DEEPER_DOWN_ROCK_STONES[rock_type])
+        let cobble = ""
+
+        if (Object.keys(COBBLE).indexOf(rockType) == -1) {
+            cobble = `${mod_id}:rock/cobble/${rockType}`
+        } else {
+            cobble = COBBLE[rockType]
+        }
+
+        datagen.landslide(cobble, cobble).id(`${mod_id}:landslide/cobble/${rockType}`).generate()
+        datagen.collapse(cobble, `${mod_id}:rock/mortared_cobble/${rockType}`).id(`${mod_id}:collapse/mortared_cobble/${rockType}`).generate()
+        datagen.collapse(cobble, global.DEEPER_DOWN_ROCK_STONES[rockType]).id(`${mod_id}:collapse/raw_rock/${rockType}`).generate()
     })
 
-    event.recipes.tfc.landslide("pastel:black_materia", "pastel:black_materia")
-    event.recipes.tfc.collapse(`${mod_id}:rock/cobble/blackslag`, "pastel:shimmel")
-    event.recipes.tfc.collapse(`${mod_id}:rock/cobble/blackslag`, "pastel:sawblade_grass")
-    event.recipes.tfc.collapse(`${mod_id}:rock/cobble/blackslag`, "pastel:overgrown_blackslag")
-    event.recipes.tfc.collapse(`${mod_id}:rock/cobble/blackslag`, "pastel:ashen_blackslag")
-    event.recipes.tfc.collapse("pastel:slush", "pastel:overgrown_slush")
-    event.recipes.tfc.collapse("pastel:slush", "pastel:slush")
+    datagen.landslide("pastel:black_materia", "pastel:black_materia").id(`${mod_id}:landslide/black_materia`).generate()
+    datagen.collapse(`pastel:cobbled_blackslag`, "pastel:shimmel").id(`${mod_id}:collapse/shimmel`).generate()
+    datagen.collapse(`pastel:cobbled_blackslag`, "pastel:sawblade_grass").id(`${mod_id}:collapse/sawblade_grass`).generate()
+    datagen.collapse(`pastel:cobbled_blackslag`, "pastel:overgrown_blackslag").id(`${mod_id}:collapse/overgrown_blackslag`).generate()
+    datagen.collapse(`pastel:cobbled_blackslag`, "pastel:ashen_blackslag").id(`${mod_id}:collapse/ashen_blackslag`).generate()
+    datagen.collapse("pastel:slush", "pastel:overgrown_slush").id(`${mod_id}:collapse/overgrown_slush`).generate()
+    datagen.collapse("pastel:slush", "pastel:slush").id(`${mod_id}:collapse/slush`).generate()
+
+    delete datagen
 })

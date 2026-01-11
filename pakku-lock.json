@@ -3515,6 +3515,77 @@
             ]
         },
         {
+            "pakku_id": "rO59Hqf29cRcUJMT",
+            "pakku_links": [
+                "ZdTOFYMAfu1GNqaF"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "firmalife",
+                "modrinth": "firmalife"
+            },
+            "name": {
+                "curseforge": "FirmaLife",
+                "modrinth": "Firmalife"
+            },
+            "id": {
+                "curseforge": "453394",
+                "modrinth": "5bKeBHw2"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Firmalife-NeoForge-1.21.1-3.0.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7442/721/Firmalife-NeoForge-1.21.1-3.0.0.jar",
+                    "id": "7442721",
+                    "parent_id": "453394",
+                    "hashes": {
+                        "sha1": "e2f1fed752f1cc5152c0d29ba3ad32f6828c0c83",
+                        "md5": "fc9dd38886c52048486d3345c221c044"
+                    },
+                    "required_dependencies": [
+                        "306770"
+                    ],
+                    "size": 4211850,
+                    "date_published": "2026-01-10T17:43:22.403Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "Firmalife-NeoForge-1.21.1-3.0.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/5bKeBHw2/versions/2oLokApt/Firmalife-NeoForge-1.21.1-3.0.0.jar",
+                    "id": "2oLokApt",
+                    "parent_id": "5bKeBHw2",
+                    "hashes": {
+                        "sha512": "434c34334b068f1ad4dbaf11fa16bf9cb46657f9c1e1202b861b7c2cb6b66747cb54080e5caa45b81e47ec0bf15d45510f265f6bfc1115466131b8d356a4a26b",
+                        "sha1": "e2f1fed752f1cc5152c0d29ba3ad32f6828c0c83"
+                    },
+                    "required_dependencies": [
+                        "1o7aFiY6",
+                        "nU0bVIaL"
+                    ],
+                    "size": 4211850,
+                    "date_published": "2026-01-10T17:43:26.070157Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "rkhiue3FmF8MnEs7",
             "pakku_links": [
                 "ux9Y4gss6HWJFIVY"
@@ -6941,6 +7012,74 @@
                     ],
                     "size": 121037,
                     "date_published": "2025-10-19T17:45:40.290Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "ibvnqWWF0LoT7bwv",
+            "pakku_links": [
+                "5o6jHUDtywm8I2wu"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "tmrv",
+                "modrinth": "tmrv"
+            },
+            "name": {
+                "curseforge": "TooManyRecipeViewers (TMRV)",
+                "modrinth": "TooManyRecipeViewers"
+            },
+            "id": {
+                "curseforge": "1194921",
+                "modrinth": "yFypjcfd"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "toomanyrecipeviewers-0.7.1+mc.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7410/429/toomanyrecipeviewers-0.7.1+mc.21.1.jar",
+                    "id": "7410429",
+                    "parent_id": "1194921",
+                    "hashes": {
+                        "sha1": "a13279348d76bb3ecf8ff1b978ebd5bf8b7e3d52",
+                        "md5": "5935bbc4322df435eff6ab2b34527f0b"
+                    },
+                    "required_dependencies": [
+                        "580555"
+                    ],
+                    "size": 1156564,
+                    "date_published": "2026-01-03T00:51:43.857Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "toomanyrecipeviewers-0.7.1+mc.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/yFypjcfd/versions/suVw5sTT/toomanyrecipeviewers-0.7.1+mc.21.1.jar",
+                    "id": "suVw5sTT",
+                    "parent_id": "yFypjcfd",
+                    "hashes": {
+                        "sha512": "9b005dadd055d4755fc4028a3bcdda085e31f535da68178b170624689570fc3f847dac5697a640c74bbbdcc3e0ca633be26115005774dd71727e2d7ec76addca",
+                        "sha1": "a13279348d76bb3ecf8ff1b978ebd5bf8b7e3d52"
+                    },
+                    "required_dependencies": [
+                        "fRiHVvU7"
+                    ],
+                    "size": 1156564,
+                    "date_published": "2026-01-03T00:51:48.664488Z"
                 }
             ]
         },

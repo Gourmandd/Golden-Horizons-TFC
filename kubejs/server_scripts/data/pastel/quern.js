@@ -1,13 +1,12 @@
-// requires: kubejs_tfc
-
 ServerEvents.recipes(event => {
     global.SPECTRUM_GEMSTONES.forEach(gemstone => {
 
-        if (gemstone == "amethyst"){
-            event.recipes.tfc.quern(Item.of(`pastel:${gemstone}_powder`, 2), "minecraft:amethyst_shard")
+        let datagen = Datagen(event).terraFirmaCraftRecipes()
 
+        if (gemstone == "amethyst") {
+            datagen.quern(outputOf(IO_TYPE.ITEM, `pastel:${gemstone}_powder`, 2), inputOf(IO_TYPE.ITEM, "minecraft:amethyst_shard", 1))
         } else {
-            event.recipes.tfc.quern(Item.of(`pastel:${gemstone}_powder`, 2), `pastel:${gemstone}_shard`)
+            datagen.quern(outputOf(IO_TYPE.ITEM, `pastel:${gemstone}_powder`, 2), inputOf(IO_TYPE.ITEM, `pastel:${gemstone}_shard`, 1))
         }
     })
 })

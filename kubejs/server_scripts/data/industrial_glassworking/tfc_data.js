@@ -1,10 +1,8 @@
-// requires: kubejs_tfc
+ServerEvents.generateData("last", event => {
 
-TFCEvents.data(event => {
+    let datagen = Datagen(event).tfcData()
 
     global.DYE_COLOURS.forEach(colour => {
-        event.metal(`${mod_id}:glass/${colour}`, global.MELTING_POINTS["glass"], 0.02143,
-            null, null, null, 1, `modpack:glass/${colour}`
-        )
+        datagen.fluidHeat(`${mod_id}:glass/${colour}`, global.MELTING_POINTS["glass"], 0.02143).id(`modpack:tfc/fluid_heat/glass/${colour}`).generate()
     })
 })

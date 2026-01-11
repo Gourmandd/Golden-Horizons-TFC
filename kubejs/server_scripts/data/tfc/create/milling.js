@@ -125,7 +125,7 @@ ServerEvents.recipes(event => {
                     outputOf(ITEM, METAL_TO_CREATE_CRUSHED_ORE[metal], 1, (GRADE_TO_PERCENTAGE[grade] * ORE_BONUS) / 100),
                     inputOf(ITEM, `firmalife:ore/${grade}_${global.RAW_METALS_ORES[metal]}`, 1)
                 )
-                    .id(`modpack:milling/ore/${grade}_${entry}`)
+                    .id(`modpack:milling/ore/${grade}_chromium`)
                     .processingTime(PROCESSING_TIME_HARD)
                     .generate()
                 return

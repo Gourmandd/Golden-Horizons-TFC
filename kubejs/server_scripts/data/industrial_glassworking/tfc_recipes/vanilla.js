@@ -1,54 +1,52 @@
-// requires: kubejs_tfc
-
-// glass related recipes (horrors beyong my comprehension)
 ServerEvents.recipes(event => {
 
+    let datagen = Datagen(event).terraFirmaCraftRecipes()
+
+    const TEMP = 1070
+
+    function heating(item, fluidOutput, id) {
+        datagen.heating(
+            null,
+            fluidOutput,
+            inputOf(IO_TYPE.ITEM, item, 1),
+            TEMP
+        )
+            .id(id)
+            .generate()
+    }
+
+    function casting(result, fluidInput, mold, id) {
+        datagen.casting(
+            outputOf(IO_TYPE.ITEM, result, 1),
+            fluidInput,
+            inputOf(IO_TYPE.ITEM, mold, 1)
+        ).id(id).breakChance(0).generate()
+    }
+
     global.DYE_COLOURS.forEach(colour => {
-        //Heating Recipes
-        event.recipes.tfc.heating(Item.of(`minecraft:${colour}_stained_glass`), 1070).resultFluid(Fluid.of(`${mod_id}:glass/${colour}`, 800))
-            .id(`modpack:recipes/heating/glass/minecraft/${colour}_glass`)
-        event.recipes.tfc.heating(Item.of(`minecraft:${colour}_stained_glass_pane`), 1070).resultFluid(Fluid.of(`${mod_id}:glass/${colour}`, 50))
-            .id(`modpack:recipes/heating/glass/minecraft/${colour}_glass_pane`)
+        heating(`minecraft:${colour}_stained_glass`, outputOf(IO_TYPE.FLUID, `${mod_id}:glass/${colour}`, 800), `${mod_id}:heating/glass/minecraft/${colour}_glass`)
+        heating(`minecraft:${colour}_stained_glass_pane`, outputOf(IO_TYPE.FLUID, `${mod_id}:glass/${colour}`, 50), `${mod_id}:heating/glass/minecraft/${colour}_glass_pane`)
 
-        event.recipes.tfc.heating(Item.of(`${mod_id}:${colour}_lens`), 1070).resultFluid(Fluid.of(`${mod_id}:glass/${colour}`, 400))
-            .id(`modpack:recipes/heating/glass/lens/${colour}`)
-        event.recipes.tfc.heating(Item.of(`${mod_id}:molten_glass/${colour}`), 1070).resultFluid(Fluid.of(`${mod_id}:glass/${colour}`, 800))
-            .id(`modpack:recipes/heating/molten_glass/${colour}`)
+        heating(`${mod_id}:${colour}_lens`, outputOf(IO_TYPE.FLUID, `${mod_id}:glass/${colour}`, 400), `${mod_id}:heating/glass/lens/${colour}`)
+        heating(`${mod_id}:molten_glass/${colour}`, outputOf(IO_TYPE.FLUID, `${mod_id}:glass/${colour}`, 800), `${mod_id}:heating/molten_glass/${colour}`)
 
-
-        //casting recipes
-        event.recipes.tfc.casting(`minecraft:${colour}_stained_glass`, "kubejs:glass_mold", Fluid.of(`${mod_id}:glass/${colour}`, 800), 0)
-            .id(`modpack:recipes/casting/glass/${colour}`)
-        event.recipes.tfc.casting(`minecraft:${colour}_stained_glass_pane`, "kubejs:glass_pane_mold", Fluid.of(`${mod_id}:glass/${colour}`, 50), 0)
-            .id(`modpack:recipes/casting/glass_pane/${colour}`)
-
+        casting(`minecraft:${colour}_stained_glass`, inputOf(IO_TYPE.FLUID, `${mod_id}:glass/${colour}`, 800), `${mod_id}:glass_mold`, `modpack:casting/glass/${colour}`)
+        casting(`minecraft:${colour}_stained_glass_pane`, inputOf(IO_TYPE.FLUID, `${mod_id}:glass/${colour}`, 50), `${mod_id}:glass_pane_mold`, `modpack:casting/glass_pane/${colour}`)
     })
 
+    // dealing with clear glass seperately
+    heating("minecraft:glass", outputOf(IO_TYPE.FLUID, `${mod_id}:glass/clear`, 800), `${mod_id}:heating/glass/minecraft/clear_glass`)
+    heating(`minecraft:glass_pane`, outputOf(IO_TYPE.FLUID, `${mod_id}:glass/clear`, 50), `${mod_id}:heating/glass/minecraft/clear_glass_pane`)
 
-    event.recipes.tfc.heating("minecraft:glass", 1070).resultFluid(Fluid.of(`${mod_id}:glass/clear`, 800))
-        .id("modpack:recipes/heating/glass/minecraft/glass")
-    event.recipes.tfc.heating("minecraft:glass_pane", 1070).resultFluid(Fluid.of(`${mod_id}:glass/clear`, 50))
-        .id("modpack:recipes/heating/glass/minecraft/glass_pane")
+    heating(`tfc:lens`, outputOf(IO_TYPE.FLUID, `${mod_id}:glass/clear`, 400), `${mod_id}:heating/glass/lens/clear`)
+    heating(`${mod_id}:molten_glass/clear`, outputOf(IO_TYPE.FLUID, `${mod_id}:glass/clear`, 800), `${mod_id}:heating/molten_glass/clear`)
 
-    event.recipes.tfc.heating(Item.of("tfc:lens"), 1070).resultFluid(Fluid.of(`${mod_id}:glass/clear`, 400))
-        .id("modpack:recipes/heating/glass/lens/clear")
-    event.recipes.tfc.heating(Item.of(`${mod_id}:molten_glass/clear`), 1070).resultFluid(Fluid.of(`${mod_id}:glass/clear`, 800))
-        .id("modpack:recipes/heating/molten_glass/clear")
-
-    event.recipes.tfc.casting("minecraft:glass", "kubejs:glass_mold", Fluid.of(`${mod_id}:glass/clear`, 800), 0)
-        .id("modpack:recipes/casting/glass/clear")
-    event.recipes.tfc.casting("minecraft:glass_pane", "kubejs:glass_pane_mold", Fluid.of(`${mod_id}:glass/clear`, 50), 0)
-        .id("modpack:recipes/casting/glass_pane/")
+    casting(`minecraft:glass`, inputOf(IO_TYPE.FLUID, `${mod_id}:glass/clear`, 800), `${mod_id}:glass_mold`, `${mod_id}:casting/glass/clear`)
+    casting(`minecraft:glass_pane`, inputOf(IO_TYPE.FLUID, `${mod_id}:glass/clear`, 50), `${mod_id}:glass_pane_mold`, `${mod_id}:casting/glass_pane/clear`)
 
 
-    event.recipes.tfc.heating(Item.of("tfc:silica_glass_batch"), 1070).resultFluid(Fluid.of(`${mod_id}:glass/clear`, 800))
-        .id("modpack:recipes/heating/glass_batches/silica")
-    event.recipes.tfc.heating(Item.of("tfc:volcanic_glass_batch"), 1070).resultFluid(Fluid.of("kubejs:glass/blue", 800))
-        .id("modpack:recipes/heating/glass_batches/volcanic")
-    event.recipes.tfc.heating(Item.of("tfc:olivine_glass_batch"), 1070).resultFluid(Fluid.of("kubejs:glass/green", 800))
-        .id("modpack:recipes/heating/glass_batches/olivine")
-    event.recipes.tfc.heating(Item.of("tfc:hematitic_glass_batch"), 1070).resultFluid(Fluid.of("kubejs:glass/orange", 800))
-        .id("modpack:recipes/heating/glass_batches/hematitic")
-
-
+    heating("tfc:silica_glass_batch", outputOf(IO_TYPE.FLUID, `${mod_id}:glass/clear`, 800), `${mod_id}:recipes/heating/glass_batches/silica`)
+    heating("tfc:volcanic_glass_batch", outputOf(IO_TYPE.FLUID, `${mod_id}:glass/blue`, 800), `${mod_id}:recipes/heating/glass_batches/volcanic`)
+    heating("tfc:olivine_glass_batch", outputOf(IO_TYPE.FLUID, `${mod_id}:glass/green`, 800), `${mod_id}:recipes/heating/glass_batches/olivine`)
+    heating("tfc:hematitic_glass_batch", outputOf(IO_TYPE.FLUID, `${mod_id}:glass/orange`, 800), `${mod_id}:recipes/heating/glass_batches/hematitic`)
 })

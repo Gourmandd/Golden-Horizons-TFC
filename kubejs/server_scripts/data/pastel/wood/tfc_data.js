@@ -1,13 +1,13 @@
-// requires: kubejs_tfc
+ServerEvents.generateData("last", event => {
 
-TFCEvents.data(event => {
+    let datagen = Datagen(event).tfcData()
 
     // Supports need data to function
     global.DYE_COLOURS.forEach(colour => {
-        event.support(`${mod_id}:wood/support/${colour}`, 2, 2, 4)
+        datagen.support(`${mod_id}:wood/support/${colour}`, 2, 2, 4)
     })
 
     global.SPECTRUM_WOODS.forEach(type => {
-        event.support(`${mod_id}:wood/support/${type}`, 3, 3, 5)
+        datagen.support(`${mod_id}:wood/support/${type}`, 3, 3, 5)
     })
 })

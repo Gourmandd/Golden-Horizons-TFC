@@ -52,6 +52,7 @@ let RECIPES = [
     createModRecipes(),
     createAdditionRecipes(),
     farmersDelightRecipes(),
+    terraFirmaCraftRecipes()
 ]
 
 function singularObjectArray(array) {
@@ -94,7 +95,9 @@ function Datagen(event) {
         return AdvancementDatagen()
     }
 
-
+    this.tfcData = function () {
+        return terraFirmaCraftData()
+    }
 
     return this
 }
@@ -133,6 +136,11 @@ function inputOf(io_type, id, count) {
 }
 
 function outputOf(io_type, id, count, chance) {
+
+    if (chance == null || chance == undefined) {
+        chance = 1
+    }
+
     if (io_type == IO_TYPE.ITEM) {
         return {
             id: id,

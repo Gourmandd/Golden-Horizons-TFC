@@ -1,8 +1,9 @@
-// requires: kubejs_tfc
+ServerEvents.generateData("last", event => {
 
-TFCEvents.data(event => {
+    let datagen = Datagen(event).tfcData()
+
     function basic_item_heat(fileName, item, capacity) {
-        event.itemHeat(item, capacity, 0, 0, `${mod_id}:clay/${fileName}`)
+        datagen.itemHeat(item, 1100, capacity).id(`${mod_id}:tfc/item_heat/clay/${fileName}`).generate()
     }
 
     global.CUSTOM_CLAY_TYPES.forEach(type => {

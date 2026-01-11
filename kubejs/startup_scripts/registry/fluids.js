@@ -54,4 +54,37 @@ StartupEvents.registry('fluid', event => {
         .displayName('Garum')
         .tint(0x321C0B)
         .noBlock()
+
+    // awful workaround for the time being
+    if (!Platform.isLoaded("createbigcannons")) {
+        event.create(`createbigcannons:molten_nethersteel`, 'thick')
+            .displayName('Nethersteel')
+            .tint(0xCDD6DA)
+            .noBucket()
+            .noBlock()
+            .tag('tfc:molten_metals')
+
+        event.create(`createbigcannons:molten_cast_iron`, 'thick')
+            .displayName('Cast Iron Alloy')
+            .tint(0xCDD6DA)
+            .noBucket()
+            .noBlock()
+            .tag('tfc:molten_metals')
+
+        event.create(`createbigcannons:molten_bronze`, 'thick')
+            .displayName('Aluminium Bronze')
+            .tint(0xCDD6DA)
+            .noBucket()
+            .noBlock()
+            .tag('tfc:molten_metals')
+
+        event.create(`createbigcannons:molten_steel`, 'thick')
+            .displayName('Hardened Steel')
+            .tint(0xCDD6DA)
+            .noBucket()
+            .noBlock()
+            .tag('tfc:molten_metals')
+
+        Platform.mods.createbigcannons.name = 'Temporary Workaround'
+    }
 })

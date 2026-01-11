@@ -14,8 +14,9 @@
             "tag": "firmalife:foods/chocolate"
         },
         {
-            "fluidTag": "tfc:milks",
-            "amount": 250
+            "type": "neoforge:tag",
+            "amount": 250,
+            "tag": "c:milk"
         }
     ],
     "results": [

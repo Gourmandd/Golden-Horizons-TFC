@@ -1,30 +1,34 @@
 // requires: pastel
-// requires: kubejs_tfc
 
 ServerEvents.recipes(event => {
 
-    // recycling recipes for custom wood types
-    function lumberRecipes(wood) {
+    let datagen = Datagen(event).terraFirmaCraftRecipes()
 
-        event.recipes.tfc.damage_inputs_shapeless_crafting(
-            event.shapeless(Item.of(`${mod_id}:wood/lumber/${wood}`, 8), [`#pastel:${wood}_logs`, "#tfc:saws"])
-        ).id(`${mod_id}:crafting/shapeless/lumber/logs/${wood}`)
-
-        event.recipes.tfc.damage_inputs_shapeless_crafting(
-            event.shapeless(Item.of(`${mod_id}:wood/lumber/${wood}`, 4), [`pastel:${wood}_planks`, "#tfc:saws"])
-        ).id(`${mod_id}:crafting/shapeless/lumber/planks/${wood}`)
-
-        event.recipes.tfc.damage_inputs_shapeless_crafting(
-            event.shapeless(Item.of(`${mod_id}:wood/lumber/${wood}`, 3), [`pastel:${wood}_stairs`, "#tfc:saws"])
-        ).id(`${mod_id}:crafting/shapeless/lumber/stairs/${wood}`)
-
-        event.recipes.tfc.damage_inputs_shapeless_crafting(
-            event.shapeless(Item.of(`${mod_id}:wood/lumber/${wood}`, 2), [`pastel:${wood}_slab`, "#tfc:saws"])
-        ).id(`${mod_id}:crafting/shapeless/lumber/slab/${wood}`)
+    function damage_inputs(output, outputCount, input, tool, id) {
+        if (input[0] == "#") {
+            datagen.advancedShapeless(
+                outputOf(IO_TYPE.ITEM, output, outputCount),
+                [inputOf(IO_TYPE.ITEM_TAG, input, 1)],
+                inputOf(IO_TYPE.ITEM_TAG, tool, 1)
+            )
+                .addModifier(datagen.MODIFIERS.DAMAGE_CRAFTING_REMAINDER)
+                .id(id)
+                .generate()
+        } else {
+            datagen.advancedShapeless(
+                outputOf(IO_TYPE.ITEM, output, outputCount),
+                [inputOf(IO_TYPE.ITEM, input, 1)],
+                inputOf(IO_TYPE.ITEM_TAG, tool, 1)
+            )
+                .addModifier(datagen.MODIFIERS.DAMAGE_CRAFTING_REMAINDER)
+                .id(id)
+                .generate()
+        }
     }
 
-
     // Wooden Support recycling & Crafting
+    // supports not yet registered by core mod.
+    /*
     global.DYE_COLOURS.forEach(colour => {
         event.recipes.tfc.damage_inputs_shapeless_crafting(
             event.shapeless(Item.of(`${mod_id}:wood/support/${colour}`, 8), [`#pastel:${colour}_logs`, "#tfc:saws"])
@@ -34,8 +38,9 @@ ServerEvents.recipes(event => {
             event.shapeless(Item.of(`${mod_id}:wood/lumber/${colour}`, 2), [Item.of(`${mod_id}:wood/support/${colour}`), "#tfc:saws"])
         ).id(`${mod_id}:crafting/shapeless/supports_to_lumber/${colour}`)
     })
+    */
 
-
+    /*
     // Wooden Support recycling & Crafting
     global.SPECTRUM_WOODS.forEach(type => {
 
@@ -60,6 +65,7 @@ ServerEvents.recipes(event => {
             ).id(`${mod_id}:crafting/shapeless/supports_to_lumber/${type}`)
         }
     })
+    */
 
 
 
@@ -70,26 +76,17 @@ ServerEvents.recipes(event => {
 
         if (global.NOXWOODS.indexOf(wood) > -1) {
 
-            event.recipes.tfc.damage_inputs_shapeless_crafting(
-                event.shapeless(Item.of(`${mod_id}:wood/lumber/${wood}`, 8), [`#pastel:${wood}_noxcap_stems`, "#tfc:saws"])
-            ).id(`${mod_id}:crafting/shapeless/lumber/logs/${wood}`)
-
-            event.recipes.tfc.damage_inputs_shapeless_crafting(
-                event.shapeless(Item.of(`${mod_id}:wood/lumber/${wood}`, 4), [`pastel:${wood}_noxwood_planks`, "#tfc:saws"])
-            ).id(`${mod_id}:crafting/shapeless/lumber/planks/${wood}`)
-
-            event.recipes.tfc.damage_inputs_shapeless_crafting(
-                event.shapeless(Item.of(`${mod_id}:wood/lumber/${wood}`, 3), [`pastel:${wood}_noxwood_stairs`, "#tfc:saws"])
-            ).id(`${mod_id}:crafting/shapeless/lumber/stairs/${wood}`)
-
-            event.recipes.tfc.damage_inputs_shapeless_crafting(
-                event.shapeless(Item.of(`${mod_id}:wood/lumber/${wood}`, 2), [`pastel:${wood}_noxwood_slab`, "#tfc:saws"])
-            ).id(`${mod_id}:crafting/shapeless/lumber/slab/${wood}`)
-
+            damage_inputs(`${mod_id}:wood/lumber/${wood}`, 8, `#pastel:${wood}_noxcap_stems`, "#tfc:saws", `${mod_id}:crafting/shapeless/lumber/logs/${wood}`)
+            damage_inputs(`${mod_id}:wood/lumber/${wood}`, 4, `pastel:${wood}_noxwood_planks`, "#tfc:saws", `${mod_id}:crafting/shapeless/lumber/planks/${wood}`)
+            damage_inputs(`${mod_id}:wood/lumber/${wood}`, 3, `pastel:${wood}_noxwood_stairs`, "#tfc:saws", `${mod_id}:crafting/shapeless/lumber/stairs/${wood}`)
+            damage_inputs(`${mod_id}:wood/lumber/${wood}`, 2, `pastel:${wood}_noxwood_slab`, "#tfc:saws", `${mod_id}:crafting/shapeless/lumber/slab/${wood}`)
 
         } else {
 
-            lumberRecipes(wood)
+            damage_inputs(`${mod_id}:wood/lumber/${wood}`, 8, `#pastel:${wood}_logs`, "#tfc:saws", `${mod_id}:crafting/shapeless/lumber/logs/${wood}`)
+            damage_inputs(`${mod_id}:wood/lumber/${wood}`, 4, `pastel:${wood}_planks`, "#tfc:saws", `${mod_id}:crafting/shapeless/lumber/planks/${wood}`)
+            damage_inputs(`${mod_id}:wood/lumber/${wood}`, 3, `pastel:${wood}_stairs`, "#tfc:saws", `${mod_id}:crafting/shapeless/lumber/stairs/${wood}`)
+            damage_inputs(`${mod_id}:wood/lumber/${wood}`, 2, `pastel:${wood}_slab`, "#tfc:saws", `${mod_id}:crafting/shapeless/lumber/slab/${wood}`)
         }
     })
 })

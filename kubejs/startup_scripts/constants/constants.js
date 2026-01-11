@@ -275,7 +275,11 @@ global.AFC_WOOD_TYPES = [
     "cypress",
     "fig",
     "ironwood",
-    "ipe"
+    "ipe",
+    "mahoe",
+    "ginkgo",
+    "beech",
+    "araucaria"
 ]
 
 global.OVERWORLD_WOOD_TYPES = [
@@ -341,7 +345,11 @@ global.WOOD_TYPE_TO_MOD = {
     "cypress": "afc",
     "fig": "afc",
     "ironwood": "afc",
-    "ipe": "afc"
+    "ipe": "afc",
+    "mahoe": "afc",
+    "ginkgo": "afc",
+    "beech": "afc",
+    "araucaria": "afc"
 }
 
 
@@ -791,7 +799,8 @@ global.TFC_ROCKS_TO_SAND_COLOURS = {
     "phyllite": "green",
     "schist": "green",
     "gneiss": "green",
-    "marble": "white"
+    "marble": "white",
+    "tuff": "black"
 }
 
 global.TFC_SOIL_TYPES = [
@@ -851,7 +860,8 @@ global.STONE_TO_COBBLESTONE = {
     "phyllite": "tfc:rock/cobble/phyllite",
     "schist": "tfc:rock/cobble/schist",
     "gneiss": "tfc:rock/cobble/gneiss",
-    "marble": "tfc:rock/cobble/marble"
+    "marble": "tfc:rock/cobble/marble",
+    "tuff": "tfc:rock/cobble/tuff"
 }
 
 global.STONE_TO_ROCK_TEXTURE = {
@@ -908,7 +918,8 @@ global.STONE_TO_COBBLESTONE_TEXTURE = {
     "phyllite": "tfc:block/rock/cobble/phyllite",
     "schist": "tfc:block/rock/cobble/schist",
     "gneiss": "tfc:block/rock/cobble/gneiss",
-    "marble": "tfc:block/rock/cobble/marble"
+    "marble": "tfc:block/rock/cobble/marble",
+    "tuff": "tfc:block/rock/cobble/tuff"
 }
 
 global.CUSTOM_ROCK_MODELS = {

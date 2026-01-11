@@ -1,16 +1,13 @@
-// requires: architects_palette
-// requires: pastel
-// requires: create
-// requires: kubejs_tfc
-
 // --------------------------------------- //
 // TFCified brick and smooth stone recipes //
 // --------------------------------------- //
 
 
 // removed quark entries for now
-ServerEvents.recipes(event =>{
-    
+ServerEvents.recipes(event => {
+
+    let datagen = Datagen(event).terraFirmaCraftRecipes()
+
     const STONE_POLISHING = {
         "minecraft:granite": "minecraft:polished_granite",
         "minecraft:diorite": "minecraft:polished_diorite",
@@ -51,11 +48,17 @@ ServerEvents.recipes(event =>{
         "minecraft:glowstone": "architects_palette:polished_glowstone"
     }
 
-    Object.keys(STONE_POLISHING).forEach(entry =>{
+    Object.keys(STONE_POLISHING).forEach(entry => {
         let id = `modpack:crafting/shapeless/polishing/${Item.of(STONE_POLISHING[entry]).getMod()}` + "/" + entry.split(":").pop()
-        event.recipes.tfc.damage_inputs_shapeless_crafting(
-            event.shapeless(STONE_POLISHING[entry] ,[entry ,"#create:sandpaper"])
-        ).id(id)
+
+        datagen.advancedShapeless(
+            outputOf(IO_TYPE.ITEM, STONE_POLISHING[entry], 1),
+            [inputOf(IO_TYPE.ITEM, entry, 1)],
+            inputOf(IO_TYPE.ITEM_TAG, "create:sandpaper", 1)
+        )
+            .addModifier(datagen.MODIFIERS.DAMAGE_CRAFTING_REMAINDER)
+            .id(id)
+            .generate()
     })
 
     const BRICKS_MAKING = {
@@ -107,10 +110,16 @@ ServerEvents.recipes(event =>{
 
     }
 
-    Object.keys(BRICKS_MAKING).forEach(entry =>{
+    Object.keys(BRICKS_MAKING).forEach(entry => {
         let id = `modpack:crafting/shapeless/bricks/${Item.of(BRICKS_MAKING[entry]).getMod()}` + "/" + entry.split(":").pop()
-        event.recipes.tfc.damage_inputs_shapeless_crafting(
-            event.shapeless(BRICKS_MAKING[entry] ,[entry ,"#tfc:chisels"])
-        ).id(id)
+
+        datagen.advancedShapeless(
+            outputOf(IO_TYPE.ITEM, BRICKS_MAKING[entry], 1),
+            [inputOf(IO_TYPE.ITEM, entry, 1)],
+            inputOf(IO_TYPE.ITEM_TAG, "c:tools/chisel", 1)
+        )
+            .addModifier(datagen.MODIFIERS.DAMAGE_CRAFTING_REMAINDER)
+            .id(id)
+            .generate()
     })
 })

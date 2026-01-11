@@ -64,20 +64,21 @@ ServerEvents.recipes(event => {
 
         let transitionalItem = `minecraft:${colour}_stained_glass_pane`
 
-
         datagen.createSequencedAssembly(
             outputOf(ITEM, `${mod_id}:${colour}_lens`, 1, 1),
             inputOf(ITEM, `${mod_id}:molten_glass/${colour}`, 1),
             [
-                datagen.createDeploying(outputOf(ITEM, transitionalItem, 1, 1), [inputOf(ITEM, transitionalItem, 1), inputOf(ITEM, "tfc:powder/soda_ash", 1)]).getAsMap(),
-                datagen.createDeploying(outputOf(ITEM, transitionalItem, 1, 1), [inputOf(ITEM, transitionalItem, 1), inputOf(ITEM, "tfc:bellows", 1)]).keepItem().getAsMap(),
-                datagen.createDeploying(outputOf(ITEM, transitionalItem, 1, 1), [inputOf(ITEM, transitionalItem, 1), inputOf(ITEM, "tfc:paddle", 1)]).keepItem().getAsMap(),
-                datagen.createDeploying(outputOf(ITEM, transitionalItem, 1, 1), [inputOf(ITEM, transitionalItem, 1), inputOf(ITEM, "tfc:wool_cloth", 1)]).keepItem().getAsMap(),
-                datagen.createDeploying(outputOf(ITEM, transitionalItem, 1, 1), [inputOf(ITEM, transitionalItem, 1), inputOf(ITEM, "tfc:gem_saw", 1)]).keepItem().getAsMap()
+                datagen.createDeploying(outputOf(ITEM, transitionalItem, 1, 1), inputOf(ITEM, transitionalItem, 1), inputOf(ITEM, "tfc:powder/soda_ash", 1)).getAsMap(),
+                datagen.createDeploying(outputOf(ITEM, transitionalItem, 1, 1), inputOf(ITEM, transitionalItem, 1), inputOf(ITEM, "tfc:bellows", 1)).keepItem().getAsMap(),
+                datagen.createDeploying(outputOf(ITEM, transitionalItem, 1, 1), inputOf(ITEM, transitionalItem, 1), inputOf(ITEM, "tfc:paddle", 1)).keepItem().getAsMap(),
+                datagen.createDeploying(outputOf(ITEM, transitionalItem, 1, 1), inputOf(ITEM, transitionalItem, 1), inputOf(ITEM, "tfc:wool_cloth", 1)).keepItem().getAsMap(),
+                datagen.createDeploying(outputOf(ITEM, transitionalItem, 1, 1), inputOf(ITEM, transitionalItem, 1), inputOf(ITEM, "tfc:gem_saw", 1)).keepItem().getAsMap()
             ]
         ).setTransitionalItem(transitionalItem).setLoops(3).id(`modpack:sequenced_assembly/lens/${colour}`).generate()
     })
+
     /*
+
     event.recipes.create.item_application("minecraft:glass",[`${mod_id}:molten_glass/clear`,  "tfc:powder/flux"])
         .id("modpack:recipes/item_application/glass/clear")
 
