@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
         datagen.advancedShapeless(
             outputOf(IO_TYPE.ITEM, `${mod_id}:brick/${rockType}`, 1),
             [inputOf(IO_TYPE.ITEM, `${mod_id}:rock/loose/${rockType}`, 1)],
-            inputOf(IO_TYPE.ITEM_TAG, "#tfc:chisels", 1)
+            inputOf(IO_TYPE.ITEM_TAG, "c:tools/chisel", 1)
         )
             .addModifier(datagen.MODIFIERS.DAMAGE_CRAFTING_REMAINDER)
             .id(`${mod_id}:crafting/rock/${rockType}_brick`)
