@@ -84,7 +84,5 @@ StartupEvents.registry('fluid', event => {
             .noBucket()
             .noBlock()
             .tag('tfc:molten_metals')
-
-        Platform.mods.createbigcannons.name = 'Temporary Workaround'
     }
 })
