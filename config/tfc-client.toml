@@ -51,9 +51,6 @@
 	#Allowed Values: NONE, EXPIRY, TIME_LEFT, BOTH
 	foodExpiryTooltipStyle = "BOTH"
 	#
-	# The overlay color to indicate rotten foods, in ARGB. Default = 0xFF88CC33
-	foodExpiryOverlayColor = 8965171
-	#
 	# The style to display all heat tooltips in.
 	#   COLOR = Approximate, color based tooltips (like Very Hot**, Brilliant White)
 	#   CELSIUS = Exact degrees Celsius
@@ -120,6 +117,9 @@
 	#   REVOLUTIONS_PER_MINUTE - Shows rotational speed as a measure of revolutions per minute
 	#Allowed Values: DEGREES_PER_SECOND, RADIANS_PER_SECOND, REVOLUTIONS_PER_MINUTE, REVOLUTIONS_PER_SECOND
 	rotationDisplayStyle = "REVOLUTIONS_PER_MINUTE"
+	#
+	# The overlay color to indicate rotten foods, in ARGB. Default = 0xFF88CC33
+	foodExpiryOverlayColor1 = -7812045
 
 [compatibility]
 	#
