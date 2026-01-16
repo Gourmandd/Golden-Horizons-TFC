@@ -1,0 +1,8 @@
+{
+    "ingredient": {
+        "tag": "c:glass_panes"
+    },
+    "heat_capacity": 0.229,
+    "forging_temperature": 924,
+    "welding_temperature": 1232
+}

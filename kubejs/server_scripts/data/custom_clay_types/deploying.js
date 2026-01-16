@@ -16,30 +16,30 @@ ServerEvents.recipes(event => {
             if (type == "kaolinite") {
 
                 datagen.createDeploying(
-                    outputOf(ITEM, `${mod_id}:ceramic/unfired_kaolinite_${tool}_mold`, 1, 1),
+                    outputOf(ITEM, `${mod_id}:ceramic/kaolinite/unfired_${tool}_mold`, 1, 1),
                     inputOf(ITEM, "tfc:white_kaolin_clay", 1),
                     inputOf(TAG, `#${mod_id}:tool_heads/${tool}`, 1)
-                ).id(`${mod_id}:deploying/mold_pressing/${tool}/kaolinite`).generate()
+                ).id(`${mod_id}:deploying/mold_pressing/kaolinite/${tool}`).generate()
 
                 return
             }
             datagen.createDeploying(
-                outputOf(ITEM, `${mod_id}:ceramic/unfired_${type}_${tool}_mold`, 1, 1),
+                outputOf(ITEM, `${mod_id}:ceramic/${type}/unfired_${tool}_mold`, 1, 1),
                 inputOf(ITEM, `${mod_id}:clay/${type}_clay_block`, 1),
                 inputOf(TAG, `#${mod_id}:tool_heads/${tool}`, 1)
-            ).id(`${mod_id}:deploying/mold_pressing/${tool}/${type}`).generate()
+            ).id(`${mod_id}:deploying/mold_pressing/${type}/${tool}`).generate()
         })
 
         if (type == "kaolinite") {
 
             datagen.createDeploying(
-                outputOf(ITEM, `${mod_id}:ceramic/unfired_kaolinite_ingot_mold`, 2, 1),
+                outputOf(ITEM, `${mod_id}:ceramic/kaolinite/unfired_ingot_mold`, 2, 1),
                 inputOf(ITEM, "tfc:white_kaolin_clay", 1),
                 inputOf(TAG, "#c:ingots", 1)
             ).id(`${mod_id}:deploying/mold_pressing/ingot/kaolinite`).generate()
 
             datagen.createDeploying(
-                outputOf(ITEM, `${mod_id}:ceramic/unfired_kaolinite_bell_mold`, 1, 1),
+                outputOf(ITEM, `${mod_id}:ceramic/kaolinite/unfired_bell_mold`, 1, 1),
                 inputOf(ITEM, "tfc:white_kaolin_clay", 1),
                 inputOf(TAG, `#${mod_id}:bells`, 1)
             ).id(`${mod_id}:deploying/mold_pressing/bell/kaolinite`).generate()
@@ -47,16 +47,16 @@ ServerEvents.recipes(event => {
             return
         }
         datagen.createDeploying(
-            outputOf(ITEM, `${mod_id}:ceramic/unfired_${type}_ingot_mold`, 2, 1),
+            outputOf(ITEM, `${mod_id}:ceramic/${type}/unfired_ingot_mold`, 2, 1),
             inputOf(ITEM, `${mod_id}:clay/${type}_clay_block`, 1),
             inputOf(TAG, "#c:ingots", 1)
-        ).id(`${mod_id}:deploying/mold_pressing/ingot/${type}`).generate()
+        ).id(`${mod_id}:deploying/mold_pressing/${type}/ingot`).generate()
 
         datagen.createDeploying(
-            outputOf(ITEM, `${mod_id}:ceramic/unfired_${type}_bell_mold`, 1, 1),
+            outputOf(ITEM, `${mod_id}:ceramic/${type}/unfired_bell_mold`, 1, 1),
             inputOf(ITEM, `${mod_id}:clay/${type}_clay_block`),
             inputOf(TAG, `#${mod_id}:bells`)
-        ).id(`${mod_id}:deploying/mold_pressing/bell/${type}`).generate()
+        ).id(`${mod_id}:deploying/mold_pressing/${type}/bell`).generate()
     })
 
     global.TFC_TOOL_TYPES.forEach(tool => {

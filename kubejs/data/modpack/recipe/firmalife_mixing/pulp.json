@@ -6,7 +6,7 @@
         }
     ],
     "type": "firmalife:mixing_bowl",
-    "ingredients": [
+    "item_ingredients": [
         {
             "tag": "create:pulpifiable"
         },
@@ -20,12 +20,12 @@
             "tag": "create:pulpifiable"
         }
     ],
-    "fluid_ingredient": {
-        "ingredient": "minecraft:water",
+    "fluid_ingredients": {
+        "fluid": "minecraft:water",
         "amount": 250
     },
-    "output_item": {
-        "item": "create:pulp",
+    "result_item": {
+        "id": "create:pulp",
         "count": 1
     }
 }

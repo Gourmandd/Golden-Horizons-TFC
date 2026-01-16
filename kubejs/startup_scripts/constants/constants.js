@@ -38,6 +38,12 @@ global.CUSTOM_PASTEL_ORES = $CategoryUtil.getPastelOreNames()
 
 global.CUSTOM_ROCK_TYPES = $CategoryUtil.getAllRockNames()
 
+global.CUSTOM_CLAY_TYPES = $CategoryUtil.getClayNames()
+
+global.CLAY_ITEM_TYPES = $CategoryUtil.getClayItemTypeNames()
+
+global.CLAY_MOLD_TYPES = $CategoryUtil.getClayMoldNames()
+
 global.METAL_FLUIDS = {
     "aluminium": id + ":aluminium",
     "aluminium_bronze": "createbigcannons:molten_bronze",
@@ -454,14 +460,6 @@ global.FIRMALIFE_METALS = [
 
 global.OTHER_METALS = [
     "unknown"
-]
-
-global.CUSTOM_CLAY_TYPES = [
-    "kaolinite",
-    "yixing",
-    "yellowware",
-    "earthenware",
-    "porcelain"
 ]
 
 global.TFC_TOOL_TYPES = [

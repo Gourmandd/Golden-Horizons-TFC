@@ -39,22 +39,22 @@ ServerEvents.recipes(event => {
             event.remove(`pastel:crafting_table/noxwood/${wood}_fence_gate`)
             event.remove(`pastel:crafting_table/noxwood/${wood}_pressure_plate`)
 
-            event.shaped(Item.of(`pastel:${wood}_noxwood_planks`), ["LL", "LL"], { "L": `${mod_id}:wood/lumber/${wood}` })
+            event.shaped(Item.of(`pastel:${wood}_noxwood_planks`), ["LL", "LL"], { "L": `${mod_id}:wood/lumber/${wood}_noxwood` })
                 .id(`${mod_id}:crafting/shaped/${wood}/planks`)
 
-            event.shaped(Item.of(`pastel:${wood}_noxwood_door`, 2), ["LL", "LL", "LL"], { "L": `${mod_id}:wood/lumber/${wood}` })
+            event.shaped(Item.of(`pastel:${wood}_noxwood_door`, 2), ["LL", "LL", "LL"], { "L": `${mod_id}:wood/lumber/${wood}_noxwood` })
                 .id(`${mod_id}:crafting/shaped/${wood}/door`)
 
-            event.shaped(Item.of(`pastel:${wood}_noxwood_trapdoor`, 3), ["LLL", "LLL"], { "L": `${mod_id}:wood/lumber/${wood}` })
+            event.shaped(Item.of(`pastel:${wood}_noxwood_trapdoor`, 3), ["LLL", "LLL"], { "L": `${mod_id}:wood/lumber/${wood}_noxwood` })
                 .id(`${mod_id}:crafting/shaped/${wood}/trapdoor`)
 
-            event.shaped(Item.of(`pastel:${wood}_noxwood_fence`, 8), ["PLP", "PLP"], { "L": `${mod_id}:wood/lumber/${wood}`, "P": `pastel:${wood}_noxwood_planks` })
+            event.shaped(Item.of(`pastel:${wood}_noxwood_fence`, 8), ["PLP", "PLP"], { "L": `${mod_id}:wood/lumber/${wood}_noxwood`, "P": `pastel:${wood}_noxwood_planks` })
                 .id(`${mod_id}:crafting/shaped/${wood}/fence`)
 
-            event.shaped(Item.of(`pastel:${wood}_noxwood_fence_gate`, 2), ["LPL", "LPL"], { "L": `${mod_id}:wood/lumber/${wood}`, "P": `pastel:${wood}_noxwood_planks` })
+            event.shaped(Item.of(`pastel:${wood}_noxwood_fence_gate`, 2), ["LPL", "LPL"], { "L": `${mod_id}:wood/lumber/${wood}_noxwood`, "P": `pastel:${wood}_noxwood_planks` })
                 .id(`${mod_id}:crafting/shaped/${wood}/fence_gate`)
 
-            event.shaped(Item.of(`pastel:${wood}_noxwood_pressure_plate`, 1), ["LL"], { "L": `${mod_id}:wood/lumber/${wood}` })
+            event.shaped(Item.of(`pastel:${wood}_noxwood_pressure_plate`, 1), ["LL"], { "L": `${mod_id}:wood/lumber/${wood}_noxwood` })
                 .id(`${mod_id}:crafting/shaped/${wood}/pressure_plate`)
 
         } else {

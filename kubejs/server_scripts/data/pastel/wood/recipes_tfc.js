@@ -27,45 +27,27 @@ ServerEvents.recipes(event => {
     }
 
     // Wooden Support recycling & Crafting
-    // supports not yet registered by core mod.
-    /*
     global.DYE_COLOURS.forEach(colour => {
-        event.recipes.tfc.damage_inputs_shapeless_crafting(
-            event.shapeless(Item.of(`${mod_id}:wood/support/${colour}`, 8), [`#pastel:${colour}_logs`, "#c:tools/saw"])
-        ).id(`${mod_id}:crafting/shapeless/supports/${colour}`)
-
-        event.recipes.tfc.damage_inputs_shapeless_crafting(
-            event.shapeless(Item.of(`${mod_id}:wood/lumber/${colour}`, 2), [Item.of(`${mod_id}:wood/support/${colour}`), "#c:tools/saw"])
-        ).id(`${mod_id}:crafting/shapeless/supports_to_lumber/${colour}`)
+        damage_inputs(`${mod_id}:wood/lumber/${colour}`, 8, `#pastel:${colour}_logs`, "#c:tools/saw", `${mod_id}:crafting/shapeless/lumber/${colour}`)
+        damage_inputs(`${mod_id}:wood/lumber/${colour}`, 2, `${mod_id}:wood/support/${colour}`, "#c:tools/saw", `${mod_id}:crafting/shapeless/supports_to_lumber/${colour}`)
     })
-    */
 
-    /*
     // Wooden Support recycling & Crafting
     global.SPECTRUM_WOODS.forEach(type => {
 
         if (global.NOXWOODS.indexOf(type) > -1) {
 
-            event.recipes.tfc.damage_inputs_shapeless_crafting(
-                event.shapeless(Item.of(`${mod_id}:wood/support/${type}`, 8), [`#pastel:${type}_noxcap_stems`, "#c:tools/saw"])
-            ).id(`${mod_id}:crafting/shapeless/supports/${type}_noxwood`)
-
-            event.recipes.tfc.damage_inputs_shapeless_crafting(
-                event.shapeless(Item.of(`${mod_id}:wood/lumber/${type}`, 2), [Item.of(`${mod_id}:wood/support/${type}`), "#c:tools/saw"])
-            ).id(`${mod_id}:crafting/shapeless/supports_to_lumber/${type}_noxwood`)
+            damage_inputs(`${mod_id}:wood/lumber/${type}_noxwood`, 8, `#pastel:${type}_noxcap_stems`, "#c:tools/saw", `${mod_id}:crafting/shapeless/lumber/${type}_noxwood`)
+            damage_inputs(`${mod_id}:wood/lumber/${type}_noxwood`, 2, `${mod_id}:wood/support/${type}_noxwood`, "#c:tools/saw", `${mod_id}:crafting/shapeless/supports_to_lumber/${type}_noxwood`)
 
         } else {
 
-            event.recipes.tfc.damage_inputs_shapeless_crafting(
-                event.shapeless(Item.of(`${mod_id}:wood/support/${type}`, 8), [`#pastel:${type}_logs`, "#c:tools/saw"])
-            ).id(`${mod_id}:crafting/shapeless/supports/${type}`)
+            damage_inputs(`${mod_id}:wood/lumber/${type}`, 8, `#pastel:${type}_logs`, "#c:tools/saw", `${mod_id}:crafting/shapeless/lumber/${type}`)
+            damage_inputs(`${mod_id}:wood/lumber/${type}`, 2, `${mod_id}:wood/support/${type}`, "#c:tools/saw", `${mod_id}:crafting/shapeless/supports_to_lumber/${type}`)
 
-            event.recipes.tfc.damage_inputs_shapeless_crafting(
-                event.shapeless(Item.of(`${mod_id}:wood/lumber/${type}`, 2), [Item.of(`${mod_id}:wood/support/${type}`), "#c:tools/saw"])
-            ).id(`${mod_id}:crafting/shapeless/supports_to_lumber/${type}`)
         }
     })
-    */
+
 
 
 
@@ -76,10 +58,10 @@ ServerEvents.recipes(event => {
 
         if (global.NOXWOODS.indexOf(wood) > -1) {
 
-            damage_inputs(`${mod_id}:wood/lumber/${wood}`, 8, `#pastel:${wood}_noxcap_stems`, "#c:tools/saw", `${mod_id}:crafting/shapeless/lumber/logs/${wood}`)
-            damage_inputs(`${mod_id}:wood/lumber/${wood}`, 4, `pastel:${wood}_noxwood_planks`, "#c:tools/saw", `${mod_id}:crafting/shapeless/lumber/planks/${wood}`)
-            damage_inputs(`${mod_id}:wood/lumber/${wood}`, 3, `pastel:${wood}_noxwood_stairs`, "#c:tools/saw", `${mod_id}:crafting/shapeless/lumber/stairs/${wood}`)
-            damage_inputs(`${mod_id}:wood/lumber/${wood}`, 2, `pastel:${wood}_noxwood_slab`, "#c:tools/saw", `${mod_id}:crafting/shapeless/lumber/slab/${wood}`)
+            damage_inputs(`${mod_id}:wood/lumber/${wood}_noxwood`, 8, `#pastel:${wood}_noxcap_stems`, "#c:tools/saw", `${mod_id}:crafting/shapeless/lumber/logs/${wood}`)
+            damage_inputs(`${mod_id}:wood/lumber/${wood}_noxwood`, 4, `pastel:${wood}_noxwood_planks`, "#c:tools/saw", `${mod_id}:crafting/shapeless/lumber/planks/${wood}`)
+            damage_inputs(`${mod_id}:wood/lumber/${wood}_noxwood`, 3, `pastel:${wood}_noxwood_stairs`, "#c:tools/saw", `${mod_id}:crafting/shapeless/lumber/stairs/${wood}`)
+            damage_inputs(`${mod_id}:wood/lumber/${wood}_noxwood`, 2, `pastel:${wood}_noxwood_slab`, "#c:tools/saw", `${mod_id}:crafting/shapeless/lumber/slab/${wood}`)
 
         } else {
 

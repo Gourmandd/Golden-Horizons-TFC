@@ -6,7 +6,7 @@
         }
     ],
     "type": "firmalife:mixing_bowl",
-    "ingredients": [
+    "item_ingredients": [
         {
             "item": "minecraft:clay_ball"
         },
@@ -23,12 +23,12 @@
             "item": "minecraft:bone_meal"
         }
     ],
-    "fluid_ingredient": {
-        "ingredient": "minecraft:water",
+    "fluid_ingredients": {
+        "fluid": "minecraft:water",
         "amount": 1000
     },
-    "output_item": {
-        "item": "modpack:clay/porcelain_clay_ball",
+    "result_item": {
+        "id": "modpack:ceramic/porcelain/clay_ball",
         "count": 2
     }
 }

@@ -13,16 +13,16 @@
             "item": "tfc:kaolin_clay"
         },
         {
-            "item": "modpack:clay/earthenware_clay_ball"
+            "item": "modpack:ceramic/earthenware/clay_ball"
         },
         {
-            "item": "modpack:clay/yixing_clay_ball"
+            "item": "modpack:ceramic/yixing/clay_ball"
         },
         {
-            "item": "modpack:clay/porcelain_clay_ball"
+            "item": "modpack:ceramic/porcelain/clay_ball"
         },
         {
-            "item": "modpack:clay/yellowware_clay_ball"
+            "item": "modpack:ceramic/yellowware/clay_ball"
         }
     ],
     "size": "small",
