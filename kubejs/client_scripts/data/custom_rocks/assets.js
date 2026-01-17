@@ -65,11 +65,9 @@ ClientEvents.generateAssets("before_mods", event => {
         datagen.looseRockModel(`${mod_id}:rock/loose/${rockType}`, global.CUSTOM_ROCK_TEXTURES["cobble"][rockType], global.CUSTOM_ROCK_TEXTURES["loose"][rockType], ROCK_CATEGORY[rockType])
         datagen.looseRockModel(`${mod_id}:rock/mossy_loose/${rockType}`, global.CUSTOM_ROCK_TEXTURES["mossy_cobble"][rockType], global.CUSTOM_ROCK_TEXTURES["loose"][rockType], ROCK_CATEGORY[rockType])
 
-        if (HAS_CUSTOM_COBBLE[rockType]) {
-            datagen.simpleBlockModel(`${mod_id}:rock/cobble/${rockType}`, global.CUSTOM_ROCK_TEXTURES["cobble"][rockType])
-            datagen.simpleSlabModel(`${mod_id}:rock/cobble/${rockType}_slab`, global.CUSTOM_ROCK_TEXTURES["cobble"][rockType])
-            datagen.simpleStairModel(`${mod_id}:rock/cobble/${rockType}_stairs`, global.CUSTOM_ROCK_TEXTURES["cobble"][rockType])
-            datagen.simpleWallModel(`${mod_id}:rock/cobble/${rockType}_wall`, global.CUSTOM_ROCK_TEXTURES["cobble"][rockType])
-        }
+        datagen.simpleBlockModel(`${mod_id}:rock/cobble/${rockType}`, global.CUSTOM_ROCK_TEXTURES["cobble"][rockType])
+        datagen.simpleSlabModel(`${mod_id}:rock/cobble/${rockType}_slab`, global.CUSTOM_ROCK_TEXTURES["cobble"][rockType])
+        datagen.simpleStairModel(`${mod_id}:rock/cobble/${rockType}_stairs`, global.CUSTOM_ROCK_TEXTURES["cobble"][rockType])
+        datagen.simpleWallModel(`${mod_id}:rock/cobble/${rockType}_wall`, global.CUSTOM_ROCK_TEXTURES["cobble"][rockType])
     })
 })

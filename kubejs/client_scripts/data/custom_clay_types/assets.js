@@ -6,8 +6,8 @@ ClientEvents.generateAssets("last", event => {
 
         global.CLAY_ITEM_TYPES.forEach(type => {
 
-            if (!(type == "jug" || type == "unfired_pan")) {
-                if (global.CLAY_MOLD_TYPES.indexOf(type) == -1 && (clayType != "kaolinite" && type == "clay_ball")) {
+            if (!(type == "jug" || type == "unfired_pan" || (clayType == "kaolinite" && type == "clay_ball"))) {
+                if (global.CLAY_MOLD_TYPES.indexOf(type) == -1) {
                     datagen.simpleItemModel(`${mod_id}:ceramic/${clayType}/${type}`, `${mod_id}:item/ceramic/${clayType}/${type}`)
                 } else {
                     datagen.simpleItemModel(`${mod_id}:ceramic/${clayType}/unfired_${type}_mold`, `${mod_id}:item/ceramic/${clayType}/unfired_${type}_mold`)

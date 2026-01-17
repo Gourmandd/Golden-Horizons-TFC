@@ -343,4 +343,43 @@ function horizontalSupportMultipart(blockModelRoot) {
     }
 }
 
+function twigBlockstate(baseModel, rotatedModel) {
+    return {
+        "variants": {
+            "": [
+                {
+                    "model": baseModel
+                },
+                {
+                    "model": baseModel,
+                    "y": 90
+                },
+                {
+                    "model": baseModel,
+                    "y": 180
+                },
+                {
+                    "model": baseModel,
+                    "y": 270
+                },
+                {
+                    "model": rotatedModel
+                },
+                {
+                    "model": rotatedModel,
+                    "y": 90
+                },
+                {
+                    "model": rotatedModel,
+                    "y": 180
+                },
+                {
+                    "model": rotatedModel,
+                    "y": 270
+                }
+            ]
+        }
+    }
+}
+
 console.info('Hello, World! (Loaded client scripts)')

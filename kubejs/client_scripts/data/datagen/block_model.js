@@ -236,19 +236,17 @@ const BlockModelDatagen = function () {
         let verticalBlockLocation = blockLocation.replace("support", "vertical_support")
         let horizontalBlockLocation = blockLocation.replace("support", "horizontal_support")
 
-        event.json(verticalBlockLocation.replace(":", ":blockstates/"), verticalSupportMultipart(blockModel))
-        event.json(horizontalBlockLocation.replace(":", ":blockstates/"), horizontalSupportMultipart(blockModel))
-
-        event.blockModel(`${blockLocation}_connection`, {
+        //strange workaround, doesnt want to work otherwise, this is why im considering java datagen.
+        let location = blockModel.replace("block", "models/block")
+        event.json(`${location}_connection`, {
             "parent": "tfc:block/wood/support/connection_vex",
             "textures": {
                 "texture": textureMain,
-                "particle": textureTop,
                 "top": textureTop
             }
         })
 
-        event.blockModel(`${blockLocation}_inventory`, {
+        event.json(`${location}_inventory`, {
             "parent": "tfc:block/wood/support/inventory_vex",
             "textures": {
                 "texture": textureMain,
@@ -258,26 +256,129 @@ const BlockModelDatagen = function () {
             }
         })
 
-        event.blockModel(`${blockLocation}_vertical`, {
+        event.json(`${location}_vertical`, {
             "parent": "tfc:block/wood/support/vertical_vex",
             "textures": {
                 "texture": textureMain,
-                "particle": textureTop,
                 "top": textureTop
             }
         })
 
-        event.blockModel(`${blockLocation}_horizontal`, {
+        event.json(`${location}_horizontal`, {
             "parent": "tfc:block/wood/support/horizontal_vex",
             "textures": {
                 "texture": textureMain,
-                "particle": textureTop,
                 "top": textureTop
             }
         })
 
-        event.itemModel(blockLocation, {
-            "parent": blockModel,
+        event.json(location.replace("block", "item"), {
+            "parent": `${blockModel}_inventory`,
+        })
+
+        event.json(verticalBlockLocation.replace(":", ":blockstates/"), verticalSupportMultipart(blockModel))
+        event.json(horizontalBlockLocation.replace(":", ":blockstates/"), horizontalSupportMultipart(blockModel))
+
+    }
+
+    this.twigBlockModel = function (blockLocation, textureMain, textureTop, itemTexture) {
+
+        let blockModel = getBlockModel(blockLocation)
+        let rotatedModel = blockModel.replace("twig", "twig/45")
+
+        event.json(blockLocation.replace(":", ":blockstates/"), twigBlockstate(blockModel, rotatedModel))
+
+        event.blockModel(`${blockLocation}`, model => {
+            model.parent("tfc:block/groundcover/twig")
+            model.texture("side", textureMain)
+            model.texture("top", textureTop)
+            model.texture("particle", textureMain)
+        })
+
+        event.blockModel(`${blockLocation.replace("twig", "twig/45")}`, model => {
+            model.parent("tfc:block/groundcover/twig_45")
+            model.texture("side", textureMain)
+            model.texture("top", textureTop)
+            model.texture("particle", textureMain)
+        })
+
+        event.itemModel(blockLocation, model => {
+            model.parent("item/generated")
+            model.texture("layer0", itemTexture)
+        })
+    }
+
+    this.scribingTableBlockModel = function (blockLocation, textureLog, texturePlank) {
+
+        let blockModel = getBlockModel(blockLocation)
+
+        event.json(blockLocation.replace(":", ":blockstates/"), {
+            "variants": {
+                "facing=east": {
+                    "model": blockModel,
+                    "y": 90
+                },
+                "facing=north": {
+                    "model": blockModel
+                },
+                "facing=south": {
+                    "model": blockModel,
+                    "y": 180
+                },
+                "facing=west": {
+                    "model": blockModel,
+                    "y": 270
+                }
+            }
+        })
+
+        event.blockModel(`${blockLocation}`, model => {
+            model.parent("tfc:block/scribing_table")
+            model.texture("sheet", textureLog)
+            model.texture("planks", texturePlank)
+            model.texture("particle", texturePlank)
+        })
+
+
+        event.itemModel(blockLocation, model => {
+            model.parent(blockModel)
+        })
+    }
+
+    this.sewingTableBlockModel = function (blockLocation, textureLog, texturePlank) {
+
+        let blockModel = getBlockModel(blockLocation)
+
+        event.json(blockLocation.replace(":", ":blockstates/"), {
+            "variants": {
+                "facing=east": {
+                    "model": blockModel,
+                    "y": 90
+                },
+                "facing=north": {
+                    "model": blockModel
+                },
+                "facing=south": {
+                    "model": blockModel,
+                    "y": 180
+                },
+                "facing=west": {
+                    "model": blockModel,
+                    "y": 270
+                }
+            }
+        })
+
+        event.blockModel(`${blockLocation}`, model => {
+            model.parent("tfc:block/sewing_table")
+            model.texture("0", textureLog)
+            model.texture("1", texturePlank)
+            model.texture("particle", texturePlank)
+        })
+
+
+        event.itemModel(blockLocation, model => {
+            model.parent(blockModel)
         })
     }
 

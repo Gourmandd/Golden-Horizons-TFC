@@ -1,22 +1,12 @@
-ClientEvents.generateAssets("last", event => {
+ClientEvents.generateAssets("after_mods", event => {
 
     let datagen = Datagen(event).blockModel()
 
-    global.DYE_COLOURS.forEach(colour => {
-        datagen.supportBlockModel(`${mod_id}:wood/support/${colour}`, `pastel:block/stripped_${colour}`, `pastel:block/stripped_${colour}_top`)
-    })
-
-    global.SPECTRUM_WOODS.forEach(woodType => {
-        let texturePart
-
-        if (global.NOXWOODS.indexOf(woodType) > -1) {
-
-            texturePart = `${woodType}_noxcap_stem`
-        } else {
-
-            texturePart = `${woodType}_log`
-        }
-
-        datagen.supportBlockModel(`${mod_id}:wood/support/${woodType}`, `pastel:block/stripped_${texturePart}`, `pastel:block/stripped_${texturePart}_top`)
+    global.PASTEL_WOOD_TYPES.forEach(woodType => {
+        datagen.simpleItemModel(`${mod_id}:wood/lumber/${woodType}`, `${mod_id}:item/wood/lumber/${woodType}`)
+        datagen.supportBlockModel(`${mod_id}:wood/support/${woodType}`, global.CUSTOM_WOOD_TEXTURES["stripped_log_side"][woodType], global.CUSTOM_WOOD_TEXTURES["stripped_log_top"][woodType])
+        datagen.twigBlockModel(`${mod_id}:wood/twig/${woodType}`, global.CUSTOM_WOOD_TEXTURES["log_side"][woodType], global.CUSTOM_WOOD_TEXTURES["log_top"][woodType], `${mod_id}:item/wood/twig/${woodType}`)
+        datagen.scribingTableBlockModel(`${mod_id}:wood/scribing_table/${woodType}`, global.CUSTOM_WOOD_TEXTURES["stripped_log_side"][woodType], global.CUSTOM_WOOD_TEXTURES["planks"][woodType])
+        datagen.sewingTableBlockModel(`${mod_id}:wood/sewing_table/${woodType}`, global.CUSTOM_WOOD_TEXTURES["stripped_log_side"][woodType], global.CUSTOM_WOOD_TEXTURES["planks"][woodType])
     })
 })

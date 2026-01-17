@@ -44,6 +44,8 @@ global.CLAY_ITEM_TYPES = $CategoryUtil.getClayItemTypeNames()
 
 global.CLAY_MOLD_TYPES = $CategoryUtil.getClayMoldNames()
 
+global.PASTEL_WOOD_TYPES = $CategoryUtil.getPastelWoodNames()
+
 global.METAL_FLUIDS = {
     "aluminium": id + ":aluminium",
     "aluminium_bronze": "createbigcannons:molten_bronze",
@@ -86,8 +88,8 @@ global.CUSTOM_ROCK_TEXTURES = {
         "argillite": "minecraft:block/stone_bricks",
         "nephelinite": "minecraft:block/deepslate_bricks",
         "blackslag": "pastel:block/blackslag_bricks",
-        "picrite_basalt": "tfc:block/rock/bricks/phyllite",
-        "travertine": "tfc:block/rock/bricks/claystone"
+        "picrite_basalt": "pastel:block/basal_marble_bricks",
+        "travertine": "architects_palette:block/dripstone_bricks"
     },
     "mossy_bricks": {
         "argillite": "minecraft:block/mossy_stone_bricks",
@@ -117,6 +119,124 @@ global.CUSTOM_ROCK_TEXTURES = {
         "picrite_basalt": "tfc:item/loose_rock/mossy_phyllite",
         "travertine": "tfc:item/loose_rock/mossy_claystone"
     },
+}
+
+global.CUSTOM_WOOD_TEXTURES = {
+    "log_top": {
+        "weeping_gala": "pastel:block/weeping_gala_log_top",
+        "slate_noxwood": "pastel:block/slate_noxcap_stem_top",
+        "chestnut_noxwood": "pastel:block/chestnut_noxcap_stem_top",
+        "ivory_noxwood": "pastel:block/ivory_noxcap_stem_top",
+        "ebony_noxwood": "pastel:block/ebony_noxcap_stem_top",
+        "white": "pastel:block/white_log_top",
+        "light_gray": "pastel:block/light_gray_log_top",
+        "gray": "pastel:block/gray_log_top",
+        "black": "pastel:block/black_log_top",
+        "brown": "pastel:block/brown_log_top",
+        "red": "pastel:block/red_log_top",
+        "orange": "pastel:block/orange_log_top",
+        "yellow": "pastel:block/yellow_log_top",
+        "lime": "pastel:block/lime_log_top",
+        "green": "pastel:block/green_log_top",
+        "cyan": "pastel:block/cyan_log_top",
+        "light_blue": "pastel:block/light_blue_log_top",
+        "blue": "pastel:block/blue_log_top",
+        "purple": "pastel:block/purple_log_top",
+        "magenta": "pastel:block/magenta_log_top",
+        "pink": "pastel:block/pink_log_top"
+    },
+    "log_side": {
+        "weeping_gala": "pastel:block/weeping_gala_log",
+        "slate_noxwood": "pastel:block/slate_noxcap_stem",
+        "chestnut_noxwood": "pastel:block/chestnut_noxcap_stem",
+        "ivory_noxwood": "pastel:block/ivory_noxcap_stem",
+        "ebony_noxwood": "pastel:block/ebony_noxcap_stem",
+        "white": "pastel:block/white_log",
+        "light_gray": "pastel:block/light_gray_log",
+        "gray": "pastel:block/gray_log",
+        "black": "pastel:block/black_log",
+        "brown": "pastel:block/brown_log",
+        "red": "pastel:block/red_log",
+        "orange": "pastel:block/orange_log",
+        "yellow": "pastel:block/yellow_log",
+        "lime": "pastel:block/lime_log",
+        "green": "pastel:block/green_log",
+        "cyan": "pastel:block/cyan_log",
+        "light_blue": "pastel:block/light_blue_log",
+        "blue": "pastel:block/blue_log",
+        "purple": "pastel:block/purple_log",
+        "magenta": "pastel:block/magenta_log",
+        "pink": "pastel:block/pink_log"
+    },
+    "stripped_log_top": {
+        "weeping_gala": "pastel:block/stripped_weeping_gala_log_top",
+        "slate_noxwood": "pastel:block/stripped_slate_noxcap_stem_top",
+        "chestnut_noxwood": "pastel:block/stripped_chestnut_noxcap_stem_top",
+        "ivory_noxwood": "pastel:block/stripped_ivory_noxcap_stem_top",
+        "ebony_noxwood": "pastel:block/stripped_ebony_noxcap_stem_top",
+        "white": "pastel:block/stripped_white_log_top",
+        "light_gray": "pastel:block/stripped_light_gray_log_top",
+        "gray": "pastel:block/stripped_gray_log_top",
+        "black": "pastel:block/stripped_black_log_top",
+        "brown": "pastel:block/stripped_brown_log_top",
+        "red": "pastel:block/stripped_red_log_top",
+        "orange": "pastel:block/stripped_orange_log_top",
+        "yellow": "pastel:block/stripped_yellow_log_top",
+        "lime": "pastel:block/stripped_lime_log_top",
+        "green": "pastel:block/stripped_green_log_top",
+        "cyan": "pastel:block/stripped_cyan_log_top",
+        "light_blue": "pastel:block/stripped_light_blue_log_top",
+        "blue": "pastel:block/stripped_blue_log_top",
+        "purple": "pastel:block/stripped_purple_log_top",
+        "magenta": "pastel:block/stripped_magenta_log_top",
+        "pink": "pastel:block/stripped_pink_log_top"
+    },
+    "stripped_log_side": {
+        "weeping_gala": "pastel:block/stripped_weeping_gala_log",
+        "slate_noxwood": "pastel:block/stripped_slate_noxcap_stem",
+        "chestnut_noxwood": "pastel:block/stripped_chestnut_noxcap_stem",
+        "ivory_noxwood": "pastel:block/stripped_ivory_noxcap_stem",
+        "ebony_noxwood": "pastel:block/stripped_ebony_noxcap_stem",
+        "white": "pastel:block/stripped_white_log",
+        "light_gray": "pastel:block/stripped_light_gray_log",
+        "gray": "pastel:block/stripped_gray_log",
+        "black": "pastel:block/stripped_black_log",
+        "brown": "pastel:block/stripped_brown_log",
+        "red": "pastel:block/stripped_red_log",
+        "orange": "pastel:block/stripped_orange_log",
+        "yellow": "pastel:block/stripped_yellow_log",
+        "lime": "pastel:block/stripped_lime_log",
+        "green": "pastel:block/stripped_green_log",
+        "cyan": "pastel:block/stripped_cyan_log",
+        "light_blue": "pastel:block/stripped_light_blue_log",
+        "blue": "pastel:block/stripped_blue_log",
+        "purple": "pastel:block/stripped_purple_log",
+        "magenta": "pastel:block/stripped_magenta_log",
+        "pink": "pastel:block/stripped_pink_log"
+    },
+    "planks": {
+        "weeping_gala": "pastel:block/weeping_gala_planks",
+        "slate_noxwood": "pastel:block/slate_noxwood_planks",
+        "chestnut_noxwood": "pastel:block/chestnut_noxwood_planks",
+        "ivory_noxwood": "pastel:block/ivory_noxwood_planks",
+        "ebony_noxwood": "pastel:block/ebony_noxwood_planks",
+        "white": "pastel:block/white_planks",
+        "light_gray": "pastel:block/light_gray_planks",
+        "gray": "pastel:block/gray_planks",
+        "black": "pastel:block/black_planks",
+        "brown": "pastel:block/brown_planks",
+        "red": "pastel:block/red_planks",
+        "orange": "pastel:block/orange_planks",
+        "yellow": "pastel:block/yellow_planks",
+        "lime": "pastel:block/lime_planks",
+        "green": "pastel:block/green_planks",
+        "cyan": "pastel:block/cyan_planks",
+        "light_blue": "pastel:block/light_blue_planks",
+        "blue": "pastel:block/blue_planks",
+        "purple": "pastel:block/purple_planks",
+        "magenta": "pastel:block/magenta_planks",
+        "pink": "pastel:block/pink_planks"
+    }
 }
 
 global.CROPS = [
@@ -940,7 +1060,11 @@ global.NOXWOODS = [
     "chestnut",
     "ivory",
     "slate",
-    "ebony"
+    "ebony",
+    "chestnut_noxwood",
+    "ivory_noxwood",
+    "slate_noxwood",
+    "ebony_noxwood"
 ]
 
 global.SPECTRUM_WOODS = [
