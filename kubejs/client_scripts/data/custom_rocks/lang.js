@@ -10,14 +10,6 @@ ClientEvents.lang("en_us", event => {
         "travertine": false
     }
 
-    const HAS_CUSTOM_COBBLE = {
-        "argillite": false,
-        "nephelinite": false,
-        "blackslag": false,
-        "picrite_basalt": true,
-        "travertine": true
-    }
-
     const HAS_VARIANT = [
         "raw",
         "cobble",
@@ -57,11 +49,9 @@ ClientEvents.lang("en_us", event => {
             }
         })
 
-        if (HAS_CUSTOM_COBBLE[rockType]) {
-            event.add(`block.${mod_id}.rock.cobble.${rockType}`, `${nameProcessing(rockType)} Cobble`)
-            event.add(`block.${mod_id}.rock.cobble.${rockType}_stairs`, `${nameProcessing(rockType)} Cobble Stairs`)
-            event.add(`block.${mod_id}.rock.cobble.${rockType}_wall`, `${nameProcessing(rockType)} Cobble Wall`)
-            event.add(`block.${mod_id}.rock.cobble.${rockType}_slab`, `${nameProcessing(rockType)} Cobble Slab`)
-        }
+        event.add(`block.${mod_id}.rock.cobble.${rockType}`, `${nameProcessing(rockType)} Cobble`)
+        event.add(`block.${mod_id}.rock.cobble.${rockType}_stairs`, `${nameProcessing(rockType)} Cobble Stairs`)
+        event.add(`block.${mod_id}.rock.cobble.${rockType}_wall`, `${nameProcessing(rockType)} Cobble Wall`)
+        event.add(`block.${mod_id}.rock.cobble.${rockType}_slab`, `${nameProcessing(rockType)} Cobble Slab`)
     })
 })
