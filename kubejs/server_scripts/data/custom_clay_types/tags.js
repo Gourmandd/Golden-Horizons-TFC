@@ -43,10 +43,6 @@ ServerEvents.tags("item", event => {
             `${mod_id}:ceramic/${type}/unfired_flower_pot`,
         ])
 
-        event.add("c:clay_balls",
-            `${mod_id}:ceramic/${type}/clay_ball`
-        )
-
         event.add("modpack:unfired_vessels",
             `${mod_id}:ceramic/${type}/unfired_vessel`
         )
@@ -54,6 +50,18 @@ ServerEvents.tags("item", event => {
         event.add("create:upright_on_belt",
             `${mod_id}:ceramic/${type}/jug`
         )
+
+        if (type == "kaolinite") {
+            return
+        } else {
+            event.add("c:clay_balls",
+                `${mod_id}:ceramic/${type}/clay_ball`
+            )
+
+            event.add("tfc:any_knapping",
+                `${mod_id}:ceramic/${type}/clay_ball`
+            )
+        }
     })
 
     global.TOOL_METALS.forEach(metal => {
