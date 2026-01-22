@@ -382,5 +382,168 @@ const BlockModelDatagen = function () {
         })
     }
 
+    this.shelfBlockModel = function (blockLocation, texturePlank) {
+
+        let blockModel = getBlockModel(blockLocation)
+
+        event.json(blockLocation.replace(":", ":blockstates/"), {
+            "variants": {
+                "facing=east": {
+                    "model": blockModel,
+                    "y": 90
+                },
+                "facing=north": {
+                    "model": blockModel
+                },
+                "facing=south": {
+                    "model": blockModel,
+                    "y": 180
+                },
+                "facing=west": {
+                    "model": blockModel,
+                    "y": 270
+                }
+            }
+        })
+
+        event.blockModel(`${blockLocation}`, model => {
+            model.parent("tfc:block/wood/shelf")
+            model.texture("0", texturePlank)
+            model.texture("particle", texturePlank)
+        })
+
+        event.itemModel(blockLocation, model => {
+            model.parent(blockModel)
+        })
+    }
+
+    this.sluiceBlockModel = function (blockLocation, textureLog) {
+
+        let blockModel = getBlockModel(blockLocation)
+
+        event.json(blockLocation.replace(":", ":blockstates/"), {
+            "variants": {
+                "facing=east,upper=true": {
+                    "model": `${blockModel}_upper`,
+                    "y": 90
+                },
+                "facing=north,upper=true": {
+                    "model": `${blockModel}_upper`,
+                    "y": 0
+                },
+                "facing=south,upper=true": {
+                    "model": `${blockModel}_upper`,
+                    "y": 180
+                },
+                "facing=west,upper=true": {
+                    "model": `${blockModel}_upper`,
+                    "y": 270
+                },
+                "facing=east,upper=false": {
+                    "model": `${blockModel}_lower`,
+                    "y": 90
+                },
+                "facing=north,upper=false": {
+                    "model": `${blockModel}_lower`,
+                    "y": 0
+                },
+                "facing=south,upper=false": {
+                    "model": `${blockModel}_lower`,
+                    "y": 180
+                },
+                "facing=west,upper=false": {
+                    "model": `${blockModel}_lower`,
+                    "y": 270
+                }
+            }
+        })
+
+        event.blockModel(`${blockLocation}_upper`, model => {
+            model.parent("tfc:block/sluice_upper")
+            model.texture("texture", textureLog)
+            model.texture("particle", textureLog)
+        })
+
+        event.blockModel(`${blockLocation}_lower`, model => {
+            model.parent("tfc:block/sluice_lower")
+            model.texture("texture", textureLog)
+            model.texture("particle", textureLog)
+        })
+
+        event.itemModel(blockLocation, model => {
+            model.parent(`${blockModel}_lower`)
+        })
+    }
+
+    this.loomBlockModel = function (blockLocation, texturePlank) {
+
+        let blockModel = getBlockModel(blockLocation)
+
+        event.json(blockLocation.replace(":", ":blockstates/"), {
+            "variants": {
+                "facing=east": {
+                    "model": blockModel,
+                    "y": 270
+                },
+                "facing=north": {
+                    "model": blockModel,
+                    "y": 180
+                },
+                "facing=south": {
+                    "model": blockModel
+                },
+                "facing=west": {
+                    "model": blockModel,
+                    "y": 90
+                }
+            }
+        })
+
+        event.blockModel(`${blockLocation}`, model => {
+            model.parent("tfc:block/loom")
+            model.texture("texture", texturePlank)
+            model.texture("particle", texturePlank)
+        })
+
+        event.itemModel(blockLocation, model => {
+            model.parent(blockModel)
+        })
+    }
+
+    this.toolRackBlockModel = function (blockLocation, texturePlank) {
+
+        let blockModel = getBlockModel(blockLocation)
+
+        event.json(blockLocation.replace(":", ":blockstates/"), {
+            "variants": {
+                "facing=east": {
+                    "model": blockModel,
+                    "y": 270
+                },
+                "facing=north": {
+                    "model": blockModel,
+                    "y": 180
+                },
+                "facing=south": {
+                    "model": blockModel
+                },
+                "facing=west": {
+                    "model": blockModel,
+                    "y": 90
+                }
+            }
+        })
+
+        event.blockModel(`${blockLocation}`, model => {
+            model.parent("tfc:block/tool_rack")
+            model.texture("texture", texturePlank)
+            model.texture("particle", texturePlank)
+        })
+
+        event.itemModel(blockLocation, model => {
+            model.parent(blockModel)
+        })
+    }
+
     return this
 }

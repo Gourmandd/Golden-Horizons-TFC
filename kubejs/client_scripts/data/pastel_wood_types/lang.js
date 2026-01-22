@@ -9,6 +9,10 @@ ClientEvents.lang("en_us", event => {
         event.add(`block.${mod_id}.wood.support.${woodType}`, `${nameProcessing(woodType)} Support`)
         event.add(`block.${mod_id}.wood.vertical_support.${woodType}`, `${nameProcessing(woodType)} Support`)
         event.add(`block.${mod_id}.wood.horizontal_support.${woodType}`, `${nameProcessing(woodType)} Support`)
+        event.add(`block.${mod_id}.wood.shelf.${woodType}`, `${nameProcessing(woodType)} Shelf`)
+        event.add(`block.${mod_id}.wood.tool_rack.${woodType}`, `${nameProcessing(woodType)} Tool Rack`)
+        event.add(`block.${mod_id}.wood.sluice.${woodType}`, `${nameProcessing(woodType)} Sluice`)
+        event.add(`block.${mod_id}.wood.loom.${woodType}`, `${nameProcessing(woodType)} Loom`)
     }
 
     global.PASTEL_WOOD_TYPES.forEach(woodType => {
