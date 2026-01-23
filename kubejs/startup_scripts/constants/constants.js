@@ -403,6 +403,23 @@ global.PASTEL_WOODS = {
     },
 }
 
+global.ROCK_BLOCKS = {
+    "bricks": {
+        "argillite": "minecraft:stone_bricks",
+        "nephelinite": "minecraft:deepslate_bricks",
+        "travertine": "architects_palette:dripstone_bricks",
+        "blackslag": "pastel:blackslag_bricks",
+        "picrite_basalt": "pastel:basal_marble_bricks"
+    },
+    "raw": {
+        "argillite": "minecraft:stone",
+        "nephelinite": "minecraft:deepslate",
+        "travertine": "minecraft:dripstone_block",
+        "blackslag": "pastel:blackslag",
+        "picrite_basalt": "pastel:basal_marble"
+    }
+}
+
 global.CROPS = [
     "barley",
     "oat",
@@ -602,7 +619,11 @@ global.OVERWORLD_WOOD_TYPES = [
     "cypress",
     "fig",
     "ironwood",
-    "ipe"
+    "ipe",
+    "mahoe",
+    "ginkgo",
+    "beech",
+    "araucaria"
 ]
 
 global.WOOD_TYPE_TO_MOD = {
@@ -1061,7 +1082,7 @@ global.TFC_SAND_COLOURS = [
     "red"
 ]
 
-global.TFC_ROCKS_TO_SAND_COLOURS = {
+global.ROCKS_TO_SAND_COLOURS = {
     "granite": "pink",
     "diorite": "black",
     "gabbro": "brown",
@@ -1082,7 +1103,12 @@ global.TFC_ROCKS_TO_SAND_COLOURS = {
     "schist": "green",
     "gneiss": "green",
     "marble": "white",
-    "tuff": "black"
+    "tuff": "black",
+    "argillite": "brown",
+    "nephelinite": "black",
+    "blackslag": "black",
+    "picrite_basalt": "black",
+    "travertine": "brown"
 }
 
 global.TFC_SOIL_TYPES = [
@@ -1212,6 +1238,7 @@ global.CUSTOM_ROCK_MODELS = {
     "picrite_basalt": "pastel:block/basal_marble",
 }
 
+// to be deprecated
 global.DEEPER_DOWN_ROCK_STONES = {
     "argillite": "minecraft:stone",
     "nephelinite": "minecraft:deepslate",

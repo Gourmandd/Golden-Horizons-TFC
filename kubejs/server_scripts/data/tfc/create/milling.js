@@ -33,12 +33,12 @@ ServerEvents.recipes(event => {
     global.TFC_GEMS.forEach(gem => {
 
         datagen.createCrushing(outputOf(ITEM, `tfc:powder/${gem}`, 4, 1), inputOf(ITEM, `tfc:ore/${gem}`, 1))
-            .id(`modpack:crushing/gem/${gem}`)
+            .id(`${mod_id}:crushing/gem/${gem}`)
             .processingTime(PROCESSING_TIME_HARD)
             .generate()
 
         datagen.createCrushing(outputOf(ITEM, `tfc:powder/${gem}`, 4, 1), inputOf(ITEM, `tfc:gem/${gem}`, 1))
-            .id(`modpack:crushing/cut_gem/${gem}`)
+            .id(`${mod_id}:crushing/cut_gem/${gem}`)
             .processingTime(PROCESSING_TIME_HARD)
             .generate()
     })
@@ -67,25 +67,25 @@ ServerEvents.recipes(event => {
     global.TFC_FLOUR_TYPES.forEach(type => {
 
         datagen.createMilling(outputOf(ITEM, `tfc:food/${type}_flour`, 1, 1), inputOf(ITEM, `tfc:food/${type}_grain`, 1))
-            .id(`modpack:milling/flour/${type}`)
+            .id(`${mod_id}:milling/flour/${type}`)
             .processingTime(PROCESSING_TIME)
             .generate()
     })
 
-    global.ROCK_TYPES.forEach(type => {
+    global.ROCK_TYPES.forEach(rockType => {
 
-        datagen.createCrushing(outputOf(ITEM, `tfc:rock/gravel/${type}`, 1, 1), inputOf(ITEM, `tfc:rock/cobble/${type}`, 1))
-            .id(`modpack:crushing/cobble/${type}`)
+        datagen.createCrushing(outputOf(ITEM, `tfc:rock/gravel/${rockType}`, 1, 1), inputOf(ITEM, `tfc:rock/cobble/${rockType}`, 1))
+            .id(`${mod_id}:crushing/cobble/${rockType}`)
             .processingTime(PROCESSING_TIME_HARD)
             .generate()
 
-        datagen.createCrushing(outputOf(ITEM, `tfc:rock/gravel/${type}`, 1, 1), inputOf(ITEM, `tfc:rock/mossy_cobble/${type}`, 1))
-            .id(`modpack:crushing/mossy_cobble/${type}`)
+        datagen.createCrushing(outputOf(ITEM, `tfc:rock/gravel/${rockType}`, 1, 1), inputOf(ITEM, `tfc:rock/mossy_cobble/${rockType}`, 1))
+            .id(`${mod_id}:crushing/mossy_cobble/${rockType}`)
             .processingTime(PROCESSING_TIME_HARD)
             .generate()
 
-        datagen.createCrushing(outputOf(ITEM, `tfc:sand/${global.TFC_ROCKS_TO_SAND_COLOURS[type]}`, 1, 1), inputOf(ITEM, `tfc:rock/gravel/${type}`, 1))
-            .id(`modpack:crushing/gravel/${type}`)
+        datagen.createCrushing(outputOf(ITEM, `tfc:sand/${global.ROCKS_TO_SAND_COLOURS[rockType]}`, 1, 1), inputOf(ITEM, `tfc:rock/gravel/${rockType}`, 1))
+            .id(`${mod_id}:crushing/gravel/${rockType}`)
             .processingTime(PROCESSING_TIME_HARD)
             .generate()
     })
@@ -94,7 +94,7 @@ ServerEvents.recipes(event => {
     global.TFC_SAND_COLOURS.forEach(colour => {
 
         datagen.createMilling(outputOf(ITEM, `tfc:sand/${colour}`, 1, 1), inputOf(ITEM, `tfc:raw_sandstone/${colour}`, 1))
-            .id(`modpack:milling/raw_sandstone/${colour}`)
+            .id(`${mod_id}:milling/raw_sandstone/${colour}`)
             .processingTime(PROCESSING_TIME_HARD)
             .generate()
     })
@@ -112,7 +112,7 @@ ServerEvents.recipes(event => {
                         outputOf(ITEM, METAL_TO_CREATE_CRUSHED_ORE[metal], 1, (GRADE_TO_PERCENTAGE[grade] * ORE_BONUS) / 100),
                         inputOf(ITEM, `tfc:ore/${grade}_${entry}`, 1)
                     )
-                        .id(`modpack:milling/ore/${grade}_${entry}`)
+                        .id(`${mod_id}:milling/ore/${grade}_${entry}`)
                         .processingTime(PROCESSING_TIME_HARD)
                         .generate()
                 })
@@ -125,7 +125,7 @@ ServerEvents.recipes(event => {
                     outputOf(ITEM, METAL_TO_CREATE_CRUSHED_ORE[metal], 1, (GRADE_TO_PERCENTAGE[grade] * ORE_BONUS) / 100),
                     inputOf(ITEM, `firmalife:ore/${grade}_${global.RAW_METALS_ORES[metal]}`, 1)
                 )
-                    .id(`modpack:milling/ore/${grade}_chromium`)
+                    .id(`${mod_id}:milling/ore/${grade}_chromium`)
                     .processingTime(PROCESSING_TIME_HARD)
                     .generate()
                 return
@@ -136,7 +136,7 @@ ServerEvents.recipes(event => {
                     outputOf(ITEM, METAL_TO_CREATE_CRUSHED_ORE[metal], 1, (GRADE_TO_PERCENTAGE[grade] * ORE_BONUS) / 100),
                     inputOf(ITEM, `tfc:ore/${grade}_${global.RAW_METALS_ORES[metal]}`, 1)
                 )
-                    .id(`modpack:milling/pore/${grade}_${global.RAW_METALS_ORES[metal]}`)
+                    .id(`${mod_id}:milling/ore/${grade}_${global.RAW_METALS_ORES[metal]}`)
                     .processingTime(PROCESSING_TIME_HARD)
                     .generate()
             }
