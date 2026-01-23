@@ -42,6 +42,15 @@ ServerEvents.tags("item", event => {
 
 ServerEvents.tags("block", event => {
 
+    function addDustTag(rockType, ore, id, isGraded) {
+        if (isGraded) {
+            global.ORE_BLOCK_GRADES.forEach(grade => {
+                event.add("modpack:poisonous_dust_blocks", `${id}:ore/${grade}_${ore}/${rockType}`)
+            })
+        } else {
+            event.add("modpack:poisonous_dust_blocks", `${id}:ore/${ore}/${rockType}`)
+        }
+    }
 
     function addOre(rockType, oreArray, isGraded) {
         if (isGraded) {
@@ -72,6 +81,13 @@ ServerEvents.tags("block", event => {
 
         event.add("pastel:shimmerstone_ores", `${mod_id}:ore/shimmerstone/${rockType}`)
         event.add("pastel:azurite_ores", `${mod_id}:ore/azurite/${rockType}`)
+
+        addDustTag(rockType, "chromite", "firmalife", true)
+        addDustTag(rockType, "bismuthinite", "tfc", true)
+        addDustTag(rockType, "sulfur", "tfc")
+        addDustTag(rockType, "cinnabar", "tfc")
+        addDustTag(rockType, "garnierite", "tfc", true)
+        addDustTag(rockType, "graphite", "tfc")
     })
 
     global.CUSTOM_ROCK_TYPES.forEach(rockType => {
@@ -84,5 +100,11 @@ ServerEvents.tags("block", event => {
 
         event.add("pastel:shimmerstone_ores", `${mod_id}:ore/shimmerstone/${rockType}`)
         event.add("pastel:azurite_ores", `${mod_id}:ore/azurite/${rockType}`)
+
+        addDustTag(rockType, "bismuthinite", mod_id, true)
+        addDustTag(rockType, "sulfur", mod_id)
+        addDustTag(rockType, "cinnabar", mod_id)
+        addDustTag(rockType, "garnierite", mod_id, true)
+        addDustTag(rockType, "graphite", mod_id)
     })
 })

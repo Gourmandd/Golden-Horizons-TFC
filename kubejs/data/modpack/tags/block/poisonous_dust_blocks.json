@@ -1,0 +1,8 @@
+{
+    "replace": true,
+    "values": [
+        "tfc:lignite",
+        "tfc:halite",
+        "tfc:bituminous_coal"
+    ]
+}
