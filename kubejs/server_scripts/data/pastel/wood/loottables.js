@@ -30,10 +30,17 @@ try {
             event.addBlockModifier(`${mod_id}:wood/sewing_table/${woodType}`).addLoot(`${mod_id}:wood/sewing_table/${woodType}`)
             event.addBlockModifier(`${mod_id}:wood/vertical_support/${woodType}`).addLoot(`${mod_id}:wood/support/${woodType}`)
             event.addBlockModifier(`${mod_id}:wood/horizontal_support/${woodType}`).addLoot(`${mod_id}:wood/support/${woodType}`)
-            event.addBlockModifier(`${mod_id}:wood/sluice/${woodType}`).addLoot(`${mod_id}:wood/sluice/${woodType}`)
             event.addBlockModifier(`${mod_id}:wood/loom/${woodType}`).addLoot(`${mod_id}:wood/loom/${woodType}`)
             event.addBlockModifier(`${mod_id}:wood/tool_rack/${woodType}`).addLoot(`${mod_id}:wood/tool_rack/${woodType}`)
             event.addBlockModifier(`${mod_id}:wood/shelf/${woodType}`).addLoot(`${mod_id}:wood/shelf/${woodType}`)
+
+            event.addBlockModifier(`${mod_id}:wood/sluice/${woodType}`).addLoot(`${mod_id}:wood/sluice/${woodType}`).matchCustomCondition({
+                "condition": "minecraft:block_state_property",
+                "block": `${mod_id}:wood/sluice/${woodType}`,
+                "properties": {
+                    "upper": "true"
+                }
+            })
         })
     })
 
