@@ -25,7 +25,6 @@ try {
         replace_materials("minecraft:diamond", "tfc:gem/diamond")
         replace_materials("minecraft:emerald", "tfc:gem/emerald")
         replace_materials("minecraft:lapis_lazuli", "tfc:gem/lapis_lazuli")
-        replace_materials("minecraft:tuff", "tfc:rock/raw/tuff")
 
         replace_materials("#createbigcannons:ingot_steel", "tfc:metal/ingot/steel")
         replace_materials("minecraft:lapis_lazuli", "tfc:gem/lapis_lazuli")
@@ -67,6 +66,13 @@ try {
                 { input: "minecraft:amethyst_shard", mod: "create" }
             ],
             "minecraft:amethyst_shard", "tfc:gem/amethyst"
+        )
+
+        events.replaceInput(
+            [
+                { input: "minecraft:tuff", mod: "pastel" }
+            ],
+            "minecraft:tuff", "tfc:rock/raw/tuff"
         )
 
         events.replaceOutput({ output: "minecraft:amethyst_shard", not: { mod: "pastel" } }, "minecraft:amethyst_shard", "tfc:gem/amethyst")
