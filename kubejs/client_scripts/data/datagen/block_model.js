@@ -545,5 +545,66 @@ const BlockModelDatagen = function () {
         })
     }
 
+    this.pressurePlateModel = function (blockLocation, texture) {
+
+        let blockModel = getBlockModel(blockLocation)
+
+        event.json(blockLocation.replace(":", ":blockstates/"), {
+            "variants": {
+                "powered=false": {
+                    "model": blockModel
+                },
+                "powered=true": {
+                    "model": `${blockModel}_down`
+                }
+            }
+        })
+
+        event.blockModel(`${blockLocation}`, model => {
+            model.parent("block/pressure_plate_up")
+            model.texture("texture", texture)
+            model.texture("particle", texture)
+        })
+
+        event.blockModel(`${blockLocation}_down`, model => {
+            model.parent("block/pressure_plate_down")
+            model.texture("texture", texture)
+            model.texture("particle", texture)
+        })
+
+        event.itemModel(blockLocation, model => {
+            model.parent(blockModel)
+        })
+    }
+
+    this.buttonModel = function (blockLocation, texture) {
+
+        let blockModel = getBlockModel(blockLocation)
+
+        event.json(blockLocation.replace(":", ":blockstates/"), buttonBlockstate(blockModel))
+
+        event.blockModel(`${blockLocation}`, model => {
+            model.parent("block/button")
+            model.texture("texture", texture)
+            model.texture("particle", texture)
+        })
+
+        event.blockModel(`${blockLocation}_pressed`, model => {
+            model.parent("block/button_pressed")
+            model.texture("texture", texture)
+            model.texture("particle", texture)
+        })
+
+        event.blockModel(`${blockLocation}_inventory`, model => {
+            model.parent("block/button_inventory")
+            model.texture("texture", texture)
+            model.texture("particle", texture)
+        })
+
+        event.itemModel(blockLocation, model => {
+            model.parent(`${blockModel}_inventory`)
+        })
+    }
+
     return this
 }

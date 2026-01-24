@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "modpack:block/rock/raw/peridotite"
+      },
+      {
+        "model": "modpack:block/rock/raw/peridotite",
+        "y": 90
+      }
+    ]
+  }
+}

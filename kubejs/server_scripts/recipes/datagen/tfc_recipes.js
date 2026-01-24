@@ -217,18 +217,13 @@ const terraFirmaCraftRecipes = function () {
 
         this.getAsMap = function () {
 
-            let json = {
+            return {
                 type: "tfc:casting",
                 fluid: TFCfluidStack(inputFluid),
                 mold: moldItem,
-                result: output
+                result: output,
+                break_chance: this.break_chance
             }
-
-            if (this.break_chance != 0.1) {
-                json.break_chance = this.break_chance
-            }
-
-            return json
         }
 
         this.printMap = function () {
@@ -417,6 +412,47 @@ const terraFirmaCraftRecipes = function () {
                 type: "tfc:advanced_shapeless_crafting",
                 ingredients: inputsArray,
                 primary_ingredient: primaryInput,
+                remainder: {
+                    modifiers: this.modifiers
+                },
+                result: output
+            }
+        }
+
+        this.printMap = function () {
+            console.log(this.getAsMap())
+            return this
+        }
+
+        return this
+    }
+
+    this.advancedShaped = function (output, inputColumn, inputKeys, pattern) {
+
+        this.location = null
+        this.modifiers = []
+
+        this.id = function (id) {
+            this.location = id
+            return this
+        }
+
+        this.addModifier = function (modifier) {
+            this.modifiers.push(modifier)
+            return this
+        }
+
+        this.generate = function () {
+            generateRecipe(this.event, this.getAsMap(), this.location)
+        }
+
+        this.getAsMap = function () {
+
+            return {
+                type: "tfc:advanced_shaped_crafting",
+                inputColumn: inputColumn,
+                key: inputKeys,
+                pattern: pattern,
                 remainder: {
                     modifiers: this.modifiers
                 },

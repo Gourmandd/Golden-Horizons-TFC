@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "create:block/scoria"
+      },
+      {
+        "model": "create:block/scoria",
+        "y": 90
+      }
+    ]
+  }
+}

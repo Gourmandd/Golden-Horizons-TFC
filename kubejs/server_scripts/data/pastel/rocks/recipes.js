@@ -57,6 +57,10 @@ ServerEvents.recipes(event => {
         event.shaped(Item.of(`${mod_id}:rock/aqueduct/${rock_type}`, 2), ["B B", "MBM"], { "B": `${mod_id}:brick/${rock_type}`, "M": "tfc:mortar" })
             .id(`${mod_id}:crafting/rock/${rock_type}/aqueduct`)
 
+
+        console.log(rock_type)
+        console.log(global.ROCK_BLOCKS["bricks"][rock_type])
+
         event.shaped(Item.of(global.ROCK_BLOCKS["bricks"][rock_type], 4), ["BMB", "MBM", "BMB"], { "B": `${mod_id}:brick/${rock_type}`, "M": "tfc:mortar" })
             .id(`${mod_id}:crafting/rock/${rock_type}/bricks`)
 

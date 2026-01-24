@@ -382,4 +382,125 @@ function twigBlockstate(baseModel, rotatedModel) {
     }
 }
 
+function buttonBlockstate(blockModel) {
+    return {
+        "variants": {
+            "face=floor,facing=east,powered=false": {
+                "model": blockModel,
+                "y": 90
+            },
+            "face=floor,facing=west,powered=false": {
+                "model": blockModel,
+                "y": 270
+            },
+            "face=floor,facing=south,powered=false": {
+                "model": blockModel,
+                "y": 180
+            },
+            "face=floor,facing=north,powered=false": {
+                "model": blockModel
+            },
+            "face=wall,facing=east,powered=false": {
+                "model": blockModel,
+                "uvlock": true,
+                "x": 90,
+                "y": 90
+            },
+            "face=wall,facing=west,powered=false": {
+                "model": blockModel,
+                "uvlock": true,
+                "x": 90,
+                "y": 270
+            },
+            "face=wall,facing=south,powered=false": {
+                "model": blockModel,
+                "uvlock": true,
+                "x": 90,
+                "y": 180
+            },
+            "face=wall,facing=north,powered=false": {
+                "model": blockModel,
+                "uvlock": true,
+                "x": 90
+            },
+            "face=ceiling,facing=east,powered=false": {
+                "model": blockModel,
+                "x": 180,
+                "y": 270
+            },
+            "face=ceiling,facing=west,powered=false": {
+                "model": blockModel,
+                "x": 180,
+                "y": 90
+            },
+            "face=ceiling,facing=south,powered=false": {
+                "model": blockModel,
+                "x": 180
+            },
+            "face=ceiling,facing=north,powered=false": {
+                "model": blockModel,
+                "x": 180,
+                "y": 180
+            },
+            "face=floor,facing=east,powered=true": {
+                "model": `${blockModel}_pressed`,
+                "y": 90
+            },
+            "face=floor,facing=west,powered=true": {
+                "model": `${blockModel}_pressed`,
+                "y": 270
+            },
+            "face=floor,facing=south,powered=true": {
+                "model": `${blockModel}_pressed`,
+                "y": 180
+            },
+            "face=floor,facing=north,powered=true": {
+                "model": `${blockModel}_pressed`
+            },
+            "face=wall,facing=east,powered=true": {
+                "model": `${blockModel}_pressed`,
+                "uvlock": true,
+                "x": 90,
+                "y": 90
+            },
+            "face=wall,facing=west,powered=true": {
+                "model": `${blockModel}_pressed`,
+                "uvlock": true,
+                "x": 90,
+                "y": 270
+            },
+            "face=wall,facing=south,powered=true": {
+                "model": `${blockModel}_pressed`,
+                "uvlock": true,
+                "x": 90,
+                "y": 180
+            },
+            "face=wall,facing=north,powered=true": {
+                "model": `${blockModel}_pressed`,
+                "uvlock": true,
+                "x": 90
+            },
+            "face=ceiling,facing=east,powered=true": {
+                "model": `${blockModel}_pressed`,
+                "x": 180,
+                "y": 270
+            },
+            "face=ceiling,facing=west,powered=true": {
+                "model": `${blockModel}_pressed`,
+                "x": 180,
+                "y": 90
+            },
+            "face=ceiling,facing=south,powered=true": {
+                "model": `${blockModel}_pressed`,
+                "x": 180
+            },
+            "face=ceiling,facing=north,powered=true": {
+                "model": `${blockModel}_pressed`,
+                "x": 180,
+                "y": 180
+            }
+        }
+    }
+}
+
 console.info('Hello, World! (Loaded client scripts)')

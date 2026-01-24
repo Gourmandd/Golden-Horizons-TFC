@@ -38,6 +38,8 @@ global.CUSTOM_PASTEL_ORES = $CategoryUtil.getPastelOreNames()
 
 global.CUSTOM_ROCK_TYPES = $CategoryUtil.getAllRockNames()
 
+global.FULL_VARIANT_CUSTOM_ROCK_TYPES = $CategoryUtil.getAllVariantRockNames()
+
 global.CUSTOM_CLAY_TYPES = $CategoryUtil.getClayNames()
 
 global.CLAY_ITEM_TYPES = $CategoryUtil.getClayItemTypeNames()
@@ -61,63 +63,99 @@ global.CUSTOM_ROCK_TEXTURES = {
         "nephelinite": "minecraft:block/deepslate",
         "blackslag": "pastel:block/blackslag",
         "picrite_basalt": "pastel:block/basal_marble",
-        "travertine": "minecraft:block/dripstone_block"
+        "travertine": "minecraft:block/dripstone_block",
+        "breccia": "caupona:block/felsic_tuff",
+        "komatiite": "create:block/palettes/stone_types/scoria",
+        "peridotite": "modpack:block/rock/raw/peridotite",
+        "serpentine": "modpack:block/rock/raw/serpentine"
     },
     "raw": {
         "argillite": "minecraft:block/stone",
         "nephelinite": "minecraft:block/deepslate",
         "blackslag": "pastel:block/blackslag",
         "picrite_basalt": "pastel:block/basal_marble",
-        "travertine": "minecraft:block/dripstone_block"
+        "travertine": "minecraft:block/dripstone_block",
+        "breccia": "caupona:block/felsic_tuff",
+        "komatiite": "create:block/palettes/stone_types/scoria",
+        "peridotite": "modpack:block/rock/raw/peridotite",
+        "serpentine": "modpack:block/rock/raw/serpentine"
     },
     "cobble": {
         "argillite": "minecraft:block/cobblestone",
         "nephelinite": "minecraft:block/cobbled_deepslate",
         "blackslag": "pastel:block/cobbled_blackslag",
-        "picrite_basalt": "tfc:block/rock/cobble/phyllite",
-        "travertine": "tfc:block/rock/cobble/claystone"
+        "picrite_basalt": "modpack:block/rock/cobble/picrite_basalt",
+        "travertine": "modpack:block/rock/cobble/travertine",
+        "breccia": "modpack:block/rock/cobble/breccia",
+        "komatiite": "modpack:block/rock/cobble/komatiite",
+        "peridotite": "modpack:block/rock/cobble/peridotite",
+        "serpentine": "modpack:block/rock/cobble/serpentine"
     },
     "mossy_cobble": {
         "argillite": "minecraft:block/mossy_cobblestone",
         "nephelinite": "minecraft:block/cobbled_deepslate",
         "blackslag": "pastel:block/cobbled_blackslag",
-        "picrite_basalt": "tfc:block/rock/mossy_cobble/phyllite",
-        "travertine": "tfc:block/rock/mossy_cobble/claystone"
+        "picrite_basalt": "modpack:block/rock/mossy_cobble/picrite_basalt",
+        "travertine": "modpack:block/rock/mossy_cobble/travertine",
+        "breccia": "modpack:block/rock/mossy_cobble/breccia",
+        "komatiite": "modpack:block/rock/mossy_cobble/komatiite",
+        "peridotite": "modpack:block/rock/mossy_cobble/peridotite",
+        "serpentine": "modpack:block/rock/mossy_cobble/serpentine"
     },
     "bricks": {
         "argillite": "minecraft:block/stone_bricks",
         "nephelinite": "minecraft:block/deepslate_bricks",
         "blackslag": "pastel:block/blackslag_bricks",
         "picrite_basalt": "pastel:block/basal_marble_bricks",
-        "travertine": "architects_palette:block/dripstone_bricks"
+        "travertine": "architects_palette:block/dripstone_bricks",
+        "breccia": "caupona:block/felsic_tuff_bricks",
+        "komatiite": "create:block/palettes/stone_types/brick/scoria_cut_brick",
+        "peridotite": "modpack:block/rock/bricks/peridotite",
+        "serpentine": "modpack:block/rock/bricks/serpentine"
     },
     "mossy_bricks": {
         "argillite": "minecraft:block/mossy_stone_bricks",
         "nephelinite": "minecraft:block/cobbled_deepslate",
         "blackslag": "pastel:block/cobbled_blackslag",
         "picrite_basalt": "tfc:block/rock/mossy_bricks/phyllite",
-        "travertine": "tfc:block/rock/mossy_bricks/claystone"
+        "travertine": "tfc:block/rock/mossy_bricks/claystone",
+        "breccia": "caupona:block/felsic_tuff_bricks",
+        "komatiite": "create:block/palettes/stone_types/brick/scoria_cut_brick",
+        "peridotite": "modpack:block/rock/mossy_bricks/peridotite",
+        "serpentine": "modpack:block/rock/mossy_bricks/serpentine"
     },
     "gravel": {
         "argillite": "minecraft:block/gravel",
-        "nephelinite": "tfc:block/rock/gravel/basalt",
-        "blackslag": "tfc:block/rock/gravel/slate",
-        "picrite_basalt": "tfc:block/rock/gravel/phyllite",
-        "travertine": "tfc:block/rock/gravel/claystone"
+        "nephelinite": "modpack:block/rock/gravel/nephelinite",
+        "blackslag": "modpack:block/rock/gravel/blackslag",
+        "picrite_basalt": "modpack:block/rock/gravel/picrite_basalt",
+        "travertine": "modpack:block/rock/gravel/travertine",
+        "breccia": "modpack:block/rock/gravel/breccia",
+        "komatiite": "modpack:block/rock/gravel/komatiite",
+        "peridotite": "modpack:block/rock/gravel/peridotite",
+        "serpentine": "modpack:block/rock/gravel/serpentine"
     },
     "loose": {
-        "argillite": "tfc:item/loose_rock/andesite",
-        "nephelinite": "tfc:item/loose_rock/basalt",
-        "blackslag": "tfc:item/loose_rock/slate",
-        "picrite_basalt": "tfc:item/loose_rock/phyllite",
-        "travertine": "tfc:item/loose_rock/claystone"
+        "argillite": "modpack:item/rock/loose_rock/argillite",
+        "nephelinite": "modpack:item/rock/loose_rock/nephelinite",
+        "blackslag": "modpack:item/rock/loose_rock/blackslag",
+        "picrite_basalt": "modpack:item/rock/loose_rock/picrite_basalt",
+        "travertine": "modpack:item/rock/loose_rock/travertine",
+        "breccia": "modpack:item/rock/loose_rock/breccia",
+        "komatiite": "modpack:item/rock/loose_rock/komatiite",
+        "peridotite": "modpack:item/rock/loose_rock/peridotite",
+        "serpentine": "modpack:item/rock/loose_rock/serpentine"
     },
     "mossy_loose": {
-        "argillite": "tfc:item/loose_rock/mossy_andesite",
-        "nephelinite": "tfc:item/loose_rock/mossy_basalt",
-        "blackslag": "tfc:item/loose_rock/mossy_slate",
-        "picrite_basalt": "tfc:item/loose_rock/mossy_phyllite",
-        "travertine": "tfc:item/loose_rock/mossy_claystone"
+        "argillite": "modpack:block/rock/loose_rock/mossy_argillite",
+        "nephelinite": "modpack:block/rock/loose_rock/mossy_nephelinite",
+        "blackslag": "modpack:block/rock/loose_rock/mossy_blackslag",
+        "picrite_basalt": "modpack:block/rock/loose_rock/mossy_picrite_basalt",
+        "travertine": "modpack:block/rock/loose_rock/mossy_travertine",
+        "breccia": "modpack:block/rock/loose_rock/mossy_breccia",
+        "komatiite": "modpack:block/rock/loose_rock/mossy_komatiite",
+        "peridotite": "modpack:block/rock/loose_rock/mossy_peridotite",
+        "serpentine": "modpack:block/rock/loose_rock/mossy_serpentine"
     },
 }
 
@@ -409,14 +447,22 @@ global.ROCK_BLOCKS = {
         "nephelinite": "minecraft:deepslate_bricks",
         "travertine": "architects_palette:dripstone_bricks",
         "blackslag": "pastel:blackslag_bricks",
-        "picrite_basalt": "pastel:basal_marble_bricks"
+        "picrite_basalt": "pastel:basal_marble_bricks",
+        "breccia": "caupona:felsic_tuff_bricks",
+        "komatiite": "create:cut_scoria_bricks",
+        "peridotite": "modpack:rock/bricks/peridotite",
+        "serpentine": "modpack:rock/bricks/serpentine"
     },
     "raw": {
         "argillite": "minecraft:stone",
         "nephelinite": "minecraft:deepslate",
         "travertine": "minecraft:dripstone_block",
         "blackslag": "pastel:blackslag",
-        "picrite_basalt": "pastel:basal_marble"
+        "picrite_basalt": "pastel:basal_marble",
+        "breccia": "caupona:felsic_tuff",
+        "komatiite": "create:scoria",
+        "peridotite": "modpack:rock/raw/peridotite",
+        "serpentine": "modpack:rock/raw/serpentine"
     }
 }
 
@@ -1108,7 +1154,11 @@ global.ROCKS_TO_SAND_COLOURS = {
     "nephelinite": "black",
     "blackslag": "black",
     "picrite_basalt": "black",
-    "travertine": "brown"
+    "travertine": "brown",
+    "breccia": "yellow",
+    "komatiite": "brown",
+    "peridotite": "green",
+    "serpentine": "green"
 }
 
 global.TFC_SOIL_TYPES = [
@@ -1169,7 +1219,11 @@ global.STONE_TO_COBBLESTONE = {
     "schist": "tfc:rock/cobble/schist",
     "gneiss": "tfc:rock/cobble/gneiss",
     "marble": "tfc:rock/cobble/marble",
-    "tuff": "tfc:rock/cobble/tuff"
+    "tuff": "tfc:rock/cobble/tuff",
+    "breccia": "modpack:rock/cobble/breccia",
+    "komatiite": "modpack:rock/cobble/komatiite",
+    "peridotite": "modpack:rock/cobble/peridotite",
+    "serpentine": "modpack:rock/cobble/serpentine"
 }
 
 global.STONE_TO_ROCK_TEXTURE = {
@@ -1198,15 +1252,14 @@ global.STONE_TO_ROCK_TEXTURE = {
     "schist": "tfc:block/rock/raw/schist",
     "gneiss": "tfc:block/rock/raw/gneiss",
     "marble": "tfc:block/rock/raw/marble",
-    "tuff": "tfc:block/rock/raw/tuff"
+    "tuff": "tfc:block/rock/raw/tuff",
+    "breccia": "caupona:block/felsic_tuff",
+    "komatiite": "create:block/palettes/stone_types/scoria",
+    "peridotite": "modpack:rock/raw/peridotite",
+    "serpentine": "modpack:rock/raw/serpentine"
 }
 
 global.STONE_TO_COBBLESTONE_TEXTURE = {
-    "argillite": "minecraft:block/cobblestone",
-    "nephelinite": "minecraft:block/cobbled_deepslate",
-    "blackslag": "pastel:block/cobbled_blackslag",
-    "travertine": "tfc:block/rock/cobble/claystone",
-    "picrite_basalt": "tfc:block/rock/cobble/phyllite",
     "granite": "tfc:block/rock/cobble/granite",
     "diorite": "tfc:block/rock/cobble/diorite",
     "gabbro": "tfc:block/rock/cobble/gabbro",
@@ -1227,7 +1280,16 @@ global.STONE_TO_COBBLESTONE_TEXTURE = {
     "schist": "tfc:block/rock/cobble/schist",
     "gneiss": "tfc:block/rock/cobble/gneiss",
     "marble": "tfc:block/rock/cobble/marble",
-    "tuff": "tfc:block/rock/cobble/tuff"
+    "tuff": "tfc:block/rock/cobble/tuff",
+    "argillite": "minecraft:block/cobblestone",
+    "nephelinite": "minecraft:block/cobbled_deepslate",
+    "blackslag": "pastel:block/cobbled_blackslag",
+    "travertine": "modpack:block/rock/cobble/travertine",
+    "picrite_basalt": "modpack:block/rock/cobble/picrite_basalt",
+    "breccia": "modpack:block/rock/cobble/breccia",
+    "komatiite": "modpack:block/rock/cobble/komatiite",
+    "peridotite": "modpack:block/rock/cobble/peridotite",
+    "serpentine": "modpack:block/rock/cobble/serpentine"
 }
 
 global.CUSTOM_ROCK_MODELS = {
@@ -1236,6 +1298,10 @@ global.CUSTOM_ROCK_MODELS = {
     "blackslag": "pastel:block/blackslag",
     "travertine": "minecraft:block/dripstone_block",
     "picrite_basalt": "pastel:block/basal_marble",
+    "breccia": "caupona:block/felsic_tuff",
+    "komatiite": "create:block/scoria",
+    "peridotite": "modpack:block/rock/raw/peridotite",
+    "serpentine": "modpack:block/rock/raw/serpentine"
 }
 
 // to be deprecated

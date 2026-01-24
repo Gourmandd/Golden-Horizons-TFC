@@ -66,5 +66,36 @@ ServerEvents.recipes(event => {
         heating(`${mod_id}:metal/sheet/${metal}`, global.MELTING_POINTS[metal], outputOf(IO_TYPE.FLUID, global.METAL_FLUIDS[metal], 200), `${mod_id}:heating/sheet/${metal}`)
         heating(`${mod_id}:metal/double_sheet/${metal}`, global.MELTING_POINTS[metal], outputOf(IO_TYPE.FLUID, global.METAL_FLUIDS[metal], 400), `${mod_id}:heating/double_sheet/${metal}`)
         heating(`${mod_id}:metal/rod/${metal}`, global.MELTING_POINTS[metal], outputOf(IO_TYPE.FLUID, global.METAL_FLUIDS[metal], 50), `${mod_id}:heating/rod/${metal}`)
+
+        event.shaped(Item.of(`${mod_id}:metal/block/${metal}_stairs`, 8), ["B  ", "BB ", "BBB"], { "B": `${mod_id}:metal/block/${metal}` })
+            .id(`${mod_id}:crafting/metal/block/${metal}_stairs`)
+        event.shaped(Item.of(`${mod_id}:metal/block/${metal}_slab`, 6), ["BBB"], { "B": `${mod_id}:metal/block/${metal}` })
+            .id(`${mod_id}:crafting/metal/block/${metal}_slab`)
+        datagen.advancedShaped(
+            outputOf(IO_TYPE.ITEM, `${mod_id}:metal/block/${metal}`, 8), 2,
+            {
+                "H": {
+                    "tag": "c:tools/hammer"
+                },
+                "S": {
+                    "item": `${mod_id}:metal/sheet/${metal}`
+                },
+                "W": {
+                    "tag": "minecraft:planks"
+                }
+            },
+            [
+                " SH",
+                "SWS",
+                " S "
+            ]
+        )
+            .addModifier(datagen.MODIFIERS.DAMAGE_CRAFTING_REMAINDER)
+            .id(`${mod_id}:crafting/metal/block/${metal}`)
+            .generate()
+
+        heating(`${mod_id}:metal/block/${metal}`, global.MELTING_POINTS[metal], outputOf(IO_TYPE.FLUID, global.METAL_FLUIDS[metal], 100), `${mod_id}:heating/block/${metal}`)
+        heating(`${mod_id}:metal/block/${metal}_stairs`, global.MELTING_POINTS[metal], outputOf(IO_TYPE.FLUID, global.METAL_FLUIDS[metal], 75), `${mod_id}:heating/block/${metal}_stairs`)
+        heating(`${mod_id}:metal/block/${metal}_slab`, global.MELTING_POINTS[metal], outputOf(IO_TYPE.FLUID, global.METAL_FLUIDS[metal], 50), `${mod_id}:heating/block/${metal}_slab`)
     })
 })

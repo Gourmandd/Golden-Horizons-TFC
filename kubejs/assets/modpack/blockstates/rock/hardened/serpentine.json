@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "modpack:block/rock/raw/serpentine"
+      },
+      {
+        "model": "modpack:block/rock/raw/serpentine",
+        "y": 90
+      }
+    ]
+  }
+}

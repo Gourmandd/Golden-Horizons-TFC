@@ -1,8 +1,20 @@
 // requires: pastel
 
+const hasDecorations = {
+    "argillite": false,
+    "nephelinite": false,
+    "blackslag": false,
+    "picrite_basalt": false,
+    "travertine": false,
+    "komatiite": false,
+    "breccia": false,
+    "peridotite": true,
+    "serpentine": true
+}
+
 ServerEvents.tags("block", event => {
 
-    global.DEEPER_DOWN_ROCK_TYPES.forEach(rock_type => {
+    global.CUSTOM_ROCK_TYPES.forEach(rock_type => {
 
         let can_collapse = [
             global.DEEPER_DOWN_ROCK_STONES[rock_type],
@@ -31,7 +43,6 @@ ServerEvents.tags("block", event => {
         ]
 
         event.add("tfc:can_collapse", can_collapse)
-        event.add("minecraft:mineable/pickaxe", mineable_pickaxe)
 
         event.add("tfc:breaks_when_isolated", global.DEEPER_DOWN_ROCK_STONES[rock_type])
         event.add("tfc:can_trigger_collapse", global.DEEPER_DOWN_ROCK_STONES[rock_type])
@@ -74,6 +85,51 @@ ServerEvents.tags("block", event => {
 
         event.add("c:stones/loose", `${mod_id}:rock/loose/${rock_type}`)
         event.add("c:stones/loose", `${mod_id}:rock/mossy_loose/${rock_type}`)
+
+        if (hasDecorations[rock_type]) {
+
+            mineable_pickaxe.push(`${mod_id}:rock/cracked_bricks/${rock_type}`)
+            mineable_pickaxe.push(`${mod_id}:rock/cracked_bricks/${rock_type}_stairs`)
+            mineable_pickaxe.push(`${mod_id}:rock/cracked_bricks/${rock_type}_slab`)
+            mineable_pickaxe.push(`${mod_id}:rock/cracked_bricks/${rock_type}_wall`)
+            mineable_pickaxe.push(`${mod_id}:rock/smooth/${rock_type}`)
+            mineable_pickaxe.push(`${mod_id}:rock/smooth/${rock_type}_stairs`)
+            mineable_pickaxe.push(`${mod_id}:rock/smooth/${rock_type}_slab`)
+            mineable_pickaxe.push(`${mod_id}:rock/smooth/${rock_type}_wall`)
+            mineable_pickaxe.push(`${mod_id}:rock/raw/${rock_type}`)
+            mineable_pickaxe.push(`${mod_id}:rock/raw/${rock_type}_stairs`)
+            mineable_pickaxe.push(`${mod_id}:rock/raw/${rock_type}_slab`)
+            mineable_pickaxe.push(`${mod_id}:rock/raw/${rock_type}_wall`)
+            mineable_pickaxe.push(`${mod_id}:rock/pressure_plate/${rock_type}`)
+            mineable_pickaxe.push(`${mod_id}:rock/button/${rock_type}`)
+            mineable_pickaxe.push(`${mod_id}:rock/chiseled/${rock_type}`)
+
+            event.add("minecraft:stone_bricks", `${mod_id}:rock/cracked_bricks/${rock_type}`)
+            event.add("minecraft:stone_bricks", `${mod_id}:rock/bricks/${rock_type}`)
+            event.add("minecraft:stone_bricks", `${mod_id}:rock/chiseled/${rock_type}`)
+            event.add("c:stones/smooth", `${mod_id}:rock/smooth/${rock_type}`)
+
+            event.add("minecraft:stairs", `${mod_id}:rock/bricks/${rock_type}_stairs`)
+            event.add("minecraft:slabs", `${mod_id}:rock/bricks/${rock_type}_slab`)
+            event.add("minecraft:walls", `${mod_id}:rock/bricks/${rock_type}_wall`)
+
+            event.add("minecraft:stairs", `${mod_id}:rock/cracked_bricks/${rock_type}_stairs`)
+            event.add("minecraft:slabs", `${mod_id}:rock/cracked_bricks/${rock_type}_slab`)
+            event.add("minecraft:walls", `${mod_id}:rock/cracked_bricks/${rock_type}_wall`)
+
+            event.add("minecraft:stairs", `${mod_id}:rock/smooth/${rock_type}_stairs`)
+            event.add("minecraft:slabs", `${mod_id}:rock/smooth/${rock_type}_slab`)
+            event.add("minecraft:walls", `${mod_id}:rock/smooth/${rock_type}_wall`)
+
+            event.add("minecraft:pressure_plates", `${mod_id}:rock/pressure_plate/${rock_type}`)
+            event.add("c:stones/pressure_plate", `${mod_id}:rock/pressure_plate/${rock_type}`)
+            event.add("minecraft:stone_pressure_plates", `${mod_id}:rock/pressure_plate/${rock_type}`)
+
+            event.add("minecraft:buttons", `${mod_id}:rock/button/${rock_type}`)
+            event.add("minecraft:stone_buttons", `${mod_id}:rock/button/${rock_type}`)
+        }
+
+        event.add("minecraft:mineable/pickaxe", mineable_pickaxe)
     })
 
 
@@ -100,7 +156,7 @@ ServerEvents.tags("block", event => {
 
 ServerEvents.tags("item", event => {
 
-    global.DEEPER_DOWN_ROCK_TYPES.forEach(rock_type => {
+    global.CUSTOM_ROCK_TYPES.forEach(rock_type => {
         event.add("c:stones", `${mod_id}:rock/hardened/${rock_type}`)
         event.add("c:stones/hardened", `${mod_id}:rock/hardened/${rock_type}`)
 
@@ -133,5 +189,30 @@ ServerEvents.tags("item", event => {
 
         //event.add("tfc:rock_knapping", `${mod_id}:rock/loose/${rock_type}`)
         //event.add("tfc:rock_knapping", `${mod_id}:rock/mossy_loose/${rock_type}`)
+
+        if (hasDecorations[rock_type]) {
+
+            event.add("minecraft:stone_bricks", `${mod_id}:rock/cracked_bricks/${rock_type}`)
+            event.add("minecraft:stone_bricks", `${mod_id}:rock/bricks/${rock_type}`)
+            event.add("minecraft:stone_bricks", `${mod_id}:rock/chiseled/${rock_type}`)
+            event.add("c:stones/smooth", `${mod_id}:rock/smooth/${rock_type}`)
+
+            event.add("minecraft:stairs", `${mod_id}:rock/bricks/${rock_type}_stairs`)
+            event.add("minecraft:slabs", `${mod_id}:rock/bricks/${rock_type}_slab`)
+            event.add("minecraft:walls", `${mod_id}:rock/bricks/${rock_type}_wall`)
+
+            event.add("minecraft:stairs", `${mod_id}:rock/cracked_bricks/${rock_type}_stairs`)
+            event.add("minecraft:slabs", `${mod_id}:rock/cracked_bricks/${rock_type}_slab`)
+            event.add("minecraft:walls", `${mod_id}:rock/cracked_bricks/${rock_type}_wall`)
+
+            event.add("minecraft:stairs", `${mod_id}:rock/smooth/${rock_type}_stairs`)
+            event.add("minecraft:slabs", `${mod_id}:rock/smooth/${rock_type}_slab`)
+            event.add("minecraft:walls", `${mod_id}:rock/smooth/${rock_type}_wall`)
+
+            event.add("c:stones/pressure_plate", `${mod_id}:rock/pressure_plate/${rock_type}`)
+
+            event.add("minecraft:buttons", `${mod_id}:rock/button/${rock_type}`)
+            event.add("minecraft:stone_buttons", `${mod_id}:rock/button/${rock_type}`)
+        }
     })
 })
