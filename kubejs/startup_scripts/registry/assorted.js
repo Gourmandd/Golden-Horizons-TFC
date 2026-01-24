@@ -71,10 +71,6 @@ StartupEvents.registry("block", event => {
         .notSolid()
         .tagBlock("minecraft:mineable/pickaxe")
 
-
-    event.create(`${id}:felsic_tuff_mixture`).displayName("Felsic Tuff Mixture").soundType("sand").tagBlock("minecraft:mineable/shovel")
-
-
     global.DYE_COLOURS.forEach(colour => {
 
         event.create(`${id}:terracotta/crushed_${colour}`)
