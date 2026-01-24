@@ -1255,8 +1255,8 @@ global.STONE_TO_ROCK_TEXTURE = {
     "tuff": "tfc:block/rock/raw/tuff",
     "breccia": "caupona:block/felsic_tuff",
     "komatiite": "create:block/palettes/stone_types/scoria",
-    "peridotite": "modpack:rock/raw/peridotite",
-    "serpentine": "modpack:rock/raw/serpentine"
+    "peridotite": "modpack:block/rock/raw/peridotite",
+    "serpentine": "modpack:block/rock/raw/serpentine"
 }
 
 global.STONE_TO_COBBLESTONE_TEXTURE = {
