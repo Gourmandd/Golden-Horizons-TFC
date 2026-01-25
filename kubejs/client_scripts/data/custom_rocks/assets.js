@@ -1,18 +1,5 @@
 ClientEvents.generateAssets("before_mods", event => {
 
-    // TODO: add a global for these. Which the script asks for from CategoryUtil.
-    const hasDecorations = {
-        "argillite": false,
-        "nephelinite": false,
-        "blackslag": false,
-        "picrite_basalt": false,
-        "travertine": false,
-        "komatiite": false,
-        "breccia": false,
-        "peridotite": true,
-        "serpentine": true
-    }
-
     const HAS_CUSTOM_COBBLE = {
         "argillite": false,
         "nephelinite": false,
@@ -39,6 +26,7 @@ ClientEvents.generateAssets("before_mods", event => {
         "peridotite": "igneous_intrusive",
         "komatiite": "igneous_extrusive",
         "serpentine": "metamorphic",
+        "blueschist": "metamorphic",
     }
 
     // variants that rocktypes with no decorations have.
@@ -75,7 +63,7 @@ ClientEvents.generateAssets("before_mods", event => {
         datagen.simpleBlockModel(`${mod_id}:rock/hardened/${rockType}`, global.CUSTOM_ROCK_TEXTURES["hardened"][rockType])
         datagen.rockSpikeModel(`${mod_id}:rock/spike/${rockType}`, global.CUSTOM_ROCK_TEXTURES["raw"][rockType])
         datagen.aqueductModel(`${mod_id}:rock/aqueduct/${rockType}`, global.CUSTOM_ROCK_TEXTURES["bricks"][rockType])
-        datagen.looseRockModel(`${mod_id}:rock/loose/${rockType}`, cobbleTexture, global.CUSTOM_ROCK_TEXTURES["loose"][rockType], ROCK_CATEGORY[rockType])
+        datagen.looseRockModel(`${mod_id}:rock/loose/${rockType}`, cobbleTexture, looseTexture, ROCK_CATEGORY[rockType])
         datagen.looseRockModel(`${mod_id}:rock/mossy_loose/${rockType}`, global.CUSTOM_ROCK_TEXTURES["mossy_cobble"][rockType], looseTexture, ROCK_CATEGORY[rockType])
 
         datagen.simpleBlockModel(`${mod_id}:rock/cobble/${rockType}`, cobbleTexture)
@@ -83,7 +71,7 @@ ClientEvents.generateAssets("before_mods", event => {
         datagen.simpleStairModel(`${mod_id}:rock/cobble/${rockType}_stairs`, cobbleTexture)
         datagen.simpleWallModel(`${mod_id}:rock/cobble/${rockType}_wall`, cobbleTexture)
 
-        if (hasDecorations[rockType]) {
+        if (global.ROCK_HAS_DECORATIONS[rockType]) {
 
             let bricksTexture = `${mod_id}:block/rock/bricks/${rockType}`
             let crackedBricksTexture = `${mod_id}:block/rock/cracked_bricks/${rockType}`

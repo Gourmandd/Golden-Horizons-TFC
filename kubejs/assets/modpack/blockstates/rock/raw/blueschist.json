@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "modpack:block/rock/raw/blueschist"
+      },
+      {
+        "model": "modpack:block/rock/raw/blueschist",
+        "y": 90
+      }
+    ]
+  }
+}

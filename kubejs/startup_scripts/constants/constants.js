@@ -48,13 +48,27 @@ global.CLAY_MOLD_TYPES = $CategoryUtil.getClayMoldNames()
 
 global.PASTEL_WOOD_TYPES = $CategoryUtil.getPastelWoodNames()
 
+global.ROCK_HAS_DECORATIONS = {
+    "argillite": false,
+    "nephelinite": false,
+    "blackslag": false,
+    "picrite_basalt": false,
+    "travertine": false,
+    "komatiite": false,
+    "breccia": false,
+    "peridotite": true,
+    "serpentine": true,
+    "blueschist": true
+}
+
 global.METAL_FLUIDS = {
     "aluminium": id + ":aluminium",
     "aluminium_bronze": "createbigcannons:molten_bronze",
     "hardened_steel": "createbigcannons:molten_steel",
     "cast_iron_alloy": "createbigcannons:molten_cast_iron",
     "nethersteel": "createbigcannons:molten_nethersteel",
-    "electrum": id + ":electrum"
+    "electrum": id + ":electrum",
+    "lead": id + ":lead"
 }
 
 global.CUSTOM_ROCK_TEXTURES = {
@@ -78,7 +92,8 @@ global.CUSTOM_ROCK_TEXTURES = {
         "breccia": "caupona:block/felsic_tuff",
         "komatiite": "create:block/palettes/stone_types/scoria",
         "peridotite": "modpack:block/rock/raw/peridotite",
-        "serpentine": "modpack:block/rock/raw/serpentine"
+        "serpentine": "modpack:block/rock/raw/serpentine",
+        "blueschist": "modpack:block/rock/raw/blueschist"
     },
     "cobble": {
         "argillite": "minecraft:block/cobblestone",
@@ -89,7 +104,8 @@ global.CUSTOM_ROCK_TEXTURES = {
         "breccia": "modpack:block/rock/cobble/breccia",
         "komatiite": "modpack:block/rock/cobble/komatiite",
         "peridotite": "modpack:block/rock/cobble/peridotite",
-        "serpentine": "modpack:block/rock/cobble/serpentine"
+        "serpentine": "modpack:block/rock/cobble/serpentine",
+        "blueschist": "modpack:block/rock/cobble/blueschist"
     },
     "mossy_cobble": {
         "argillite": "minecraft:block/mossy_cobblestone",
@@ -100,7 +116,8 @@ global.CUSTOM_ROCK_TEXTURES = {
         "breccia": "modpack:block/rock/mossy_cobble/breccia",
         "komatiite": "modpack:block/rock/mossy_cobble/komatiite",
         "peridotite": "modpack:block/rock/mossy_cobble/peridotite",
-        "serpentine": "modpack:block/rock/mossy_cobble/serpentine"
+        "serpentine": "modpack:block/rock/mossy_cobble/serpentine",
+        "blueschist": "modpack:block/rock/mossy_cobble/blueschist"
     },
     "bricks": {
         "argillite": "minecraft:block/stone_bricks",
@@ -111,7 +128,8 @@ global.CUSTOM_ROCK_TEXTURES = {
         "breccia": "caupona:block/felsic_tuff_bricks",
         "komatiite": "create:block/palettes/stone_types/brick/scoria_cut_brick",
         "peridotite": "modpack:block/rock/bricks/peridotite",
-        "serpentine": "modpack:block/rock/bricks/serpentine"
+        "serpentine": "modpack:block/rock/bricks/serpentine",
+        "blueschist": "modpack:block/rock/bricks/blueschist"
     },
     "mossy_bricks": {
         "argillite": "minecraft:block/mossy_stone_bricks",
@@ -122,7 +140,8 @@ global.CUSTOM_ROCK_TEXTURES = {
         "breccia": "caupona:block/felsic_tuff_bricks",
         "komatiite": "create:block/palettes/stone_types/brick/scoria_cut_brick",
         "peridotite": "modpack:block/rock/mossy_bricks/peridotite",
-        "serpentine": "modpack:block/rock/mossy_bricks/serpentine"
+        "serpentine": "modpack:block/rock/mossy_bricks/serpentine",
+        "blueschist": "modpack:block/rock/mossy_bricks/blueschist"
     },
     "gravel": {
         "argillite": "minecraft:block/gravel",
@@ -133,7 +152,8 @@ global.CUSTOM_ROCK_TEXTURES = {
         "breccia": "modpack:block/rock/gravel/breccia",
         "komatiite": "modpack:block/rock/gravel/komatiite",
         "peridotite": "modpack:block/rock/gravel/peridotite",
-        "serpentine": "modpack:block/rock/gravel/serpentine"
+        "serpentine": "modpack:block/rock/gravel/serpentine",
+        "blueschist": "modpack:block/rock/gravel/blueschist"
     },
     "loose": {
         "argillite": "modpack:item/rock/loose_rock/argillite",
@@ -144,19 +164,9 @@ global.CUSTOM_ROCK_TEXTURES = {
         "breccia": "modpack:item/rock/loose_rock/breccia",
         "komatiite": "modpack:item/rock/loose_rock/komatiite",
         "peridotite": "modpack:item/rock/loose_rock/peridotite",
-        "serpentine": "modpack:item/rock/loose_rock/serpentine"
-    },
-    "mossy_loose": {
-        "argillite": "modpack:block/rock/loose_rock/mossy_argillite",
-        "nephelinite": "modpack:block/rock/loose_rock/mossy_nephelinite",
-        "blackslag": "modpack:block/rock/loose_rock/mossy_blackslag",
-        "picrite_basalt": "modpack:block/rock/loose_rock/mossy_picrite_basalt",
-        "travertine": "modpack:block/rock/loose_rock/mossy_travertine",
-        "breccia": "modpack:block/rock/loose_rock/mossy_breccia",
-        "komatiite": "modpack:block/rock/loose_rock/mossy_komatiite",
-        "peridotite": "modpack:block/rock/loose_rock/mossy_peridotite",
-        "serpentine": "modpack:block/rock/loose_rock/mossy_serpentine"
-    },
+        "serpentine": "modpack:item/rock/loose_rock/serpentine",
+        "blueschist": "modpack:item/rock/loose_rock/blueschist"
+    }
 }
 
 global.CUSTOM_WOOD_TEXTURES = {
@@ -451,7 +461,8 @@ global.ROCK_BLOCKS = {
         "breccia": "caupona:felsic_tuff_bricks",
         "komatiite": "create:cut_scoria_bricks",
         "peridotite": "modpack:rock/bricks/peridotite",
-        "serpentine": "modpack:rock/bricks/serpentine"
+        "serpentine": "modpack:rock/bricks/serpentine",
+        "blueschist": "modpack:rock/bricks/blueschist"
     },
     "raw": {
         "argillite": "minecraft:stone",
@@ -462,7 +473,8 @@ global.ROCK_BLOCKS = {
         "breccia": "caupona:felsic_tuff",
         "komatiite": "create:scoria",
         "peridotite": "modpack:rock/raw/peridotite",
-        "serpentine": "modpack:rock/raw/serpentine"
+        "serpentine": "modpack:rock/raw/serpentine",
+        "blueschist": "modpack:rock/raw/blueschist"
     }
 }
 
@@ -931,6 +943,7 @@ global.MELTING_POINTS = {
     "hardened_steel": 1585,
     "nethersteel": 1615,
     "electrum": 1060,
+    "lead": 320,
     "pig_iron": 1535,
     "glass": 1070,
 }
@@ -1008,7 +1021,8 @@ global.RAW_METALS_ORES = {
     "copper": ["malachite", "native_copper", "tetrahedrite"],
     "gold": "native_gold",
     "silver": "native_silver",
-    "zinc": "sphalerite"
+    "zinc": "sphalerite",
+    "lead": "galena"
 }
 
 global.ORE_TO_METAL = {
@@ -1025,6 +1039,7 @@ global.ORE_TO_METAL = {
     "native_gold": "gold",
     "native_silver": "silver",
     "sphalerite": "zinc",
+    "galena": "lead"
 }
 
 global.TFC_ORES = [
@@ -1158,7 +1173,8 @@ global.ROCKS_TO_SAND_COLOURS = {
     "breccia": "yellow",
     "komatiite": "brown",
     "peridotite": "green",
-    "serpentine": "green"
+    "serpentine": "green",
+    "blueschist": "black"
 }
 
 global.TFC_SOIL_TYPES = [
@@ -1223,7 +1239,8 @@ global.STONE_TO_COBBLESTONE = {
     "breccia": "modpack:rock/cobble/breccia",
     "komatiite": "modpack:rock/cobble/komatiite",
     "peridotite": "modpack:rock/cobble/peridotite",
-    "serpentine": "modpack:rock/cobble/serpentine"
+    "serpentine": "modpack:rock/cobble/serpentine",
+    "blueschist": "modpack:rock/cobble/blueschist"
 }
 
 global.STONE_TO_ROCK_TEXTURE = {
@@ -1256,7 +1273,8 @@ global.STONE_TO_ROCK_TEXTURE = {
     "breccia": "caupona:block/felsic_tuff",
     "komatiite": "create:block/palettes/stone_types/scoria",
     "peridotite": "modpack:block/rock/raw/peridotite",
-    "serpentine": "modpack:block/rock/raw/serpentine"
+    "serpentine": "modpack:block/rock/raw/serpentine",
+    "blueschist": "modpack:block/rock/raw/blueschist"
 }
 
 global.STONE_TO_COBBLESTONE_TEXTURE = {
@@ -1289,7 +1307,8 @@ global.STONE_TO_COBBLESTONE_TEXTURE = {
     "breccia": "modpack:block/rock/cobble/breccia",
     "komatiite": "modpack:block/rock/cobble/komatiite",
     "peridotite": "modpack:block/rock/cobble/peridotite",
-    "serpentine": "modpack:block/rock/cobble/serpentine"
+    "serpentine": "modpack:block/rock/cobble/serpentine",
+    "blueschist": "modpack:block/rock/cobble/blueschist"
 }
 
 global.CUSTOM_ROCK_MODELS = {
@@ -1301,7 +1320,8 @@ global.CUSTOM_ROCK_MODELS = {
     "breccia": "caupona:block/felsic_tuff",
     "komatiite": "create:block/scoria",
     "peridotite": "modpack:block/rock/raw/peridotite",
-    "serpentine": "modpack:block/rock/raw/serpentine"
+    "serpentine": "modpack:block/rock/raw/serpentine",
+    "blueschist": "modpack:block/rock/raw/blueschist"
 }
 
 // to be deprecated

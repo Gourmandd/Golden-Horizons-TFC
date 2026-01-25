@@ -1,19 +1,5 @@
 ClientEvents.lang("en_us", event => {
 
-
-    // TODO: add a global for these. Which the script asks for from CategoryUtil.
-    const hasDecorations = {
-        "argillite": false,
-        "nephelinite": false,
-        "blackslag": false,
-        "picrite_basalt": false,
-        "travertine": false,
-        "komatiite": false,
-        "breccia": false,
-        "peridotite": true,
-        "serpentine": true
-    }
-
     const HAS_VARIANT = [
         "raw",
         "cobble",
@@ -58,7 +44,7 @@ ClientEvents.lang("en_us", event => {
         event.add(`block.${mod_id}.rock.cobble.${rockType}_wall`, `${nameProcessing(rockType)} Cobble Wall`)
         event.add(`block.${mod_id}.rock.cobble.${rockType}_slab`, `${nameProcessing(rockType)} Cobble Slab`)
 
-        if (hasDecorations[rockType]) {
+        if (global.ROCK_HAS_DECORATIONS[rockType]) {
 
             event.add(`block.${mod_id}.rock.bricks.${rockType}`, `${nameProcessing(rockType)} Bricks`)
             event.add(`block.${mod_id}.rock.bricks.${rockType}_slab`, `${nameProcessing(rockType)} Brick Slab`)

@@ -1,17 +1,5 @@
 // requires: pastel
 
-const hasDecorations = {
-    "argillite": false,
-    "nephelinite": false,
-    "blackslag": false,
-    "picrite_basalt": false,
-    "travertine": false,
-    "komatiite": false,
-    "breccia": false,
-    "peridotite": true,
-    "serpentine": true
-}
-
 ServerEvents.tags("block", event => {
 
     global.CUSTOM_ROCK_TYPES.forEach(rock_type => {
@@ -86,7 +74,7 @@ ServerEvents.tags("block", event => {
         event.add("c:stones/loose", `${mod_id}:rock/loose/${rock_type}`)
         event.add("c:stones/loose", `${mod_id}:rock/mossy_loose/${rock_type}`)
 
-        if (hasDecorations[rock_type]) {
+        if (global.ROCK_HAS_DECORATIONS[rock_type]) {
 
             mineable_pickaxe.push(`${mod_id}:rock/cracked_bricks/${rock_type}`)
             mineable_pickaxe.push(`${mod_id}:rock/cracked_bricks/${rock_type}_stairs`)
@@ -190,7 +178,7 @@ ServerEvents.tags("item", event => {
         //event.add("tfc:rock_knapping", `${mod_id}:rock/loose/${rock_type}`)
         //event.add("tfc:rock_knapping", `${mod_id}:rock/mossy_loose/${rock_type}`)
 
-        if (hasDecorations[rock_type]) {
+        if (global.ROCK_HAS_DECORATIONS[rock_type]) {
 
             event.add("minecraft:stone_bricks", `${mod_id}:rock/cracked_bricks/${rock_type}`)
             event.add("minecraft:stone_bricks", `${mod_id}:rock/bricks/${rock_type}`)

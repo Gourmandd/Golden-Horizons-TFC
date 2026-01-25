@@ -2,18 +2,6 @@
 
 LootJS.modifiers(event => {
 
-    const hasDecorations = {
-        "argillite": false,
-        "nephelinite": false,
-        "blackslag": false,
-        "picrite_basalt": false,
-        "travertine": false,
-        "komatiite": false,
-        "breccia": false,
-        "peridotite": true,
-        "serpentine": true
-    }
-
     global.CUSTOM_ROCK_TYPES.forEach(rockType => {
         event.addBlockModifier(`${mod_id}:rock/hardened/${rockType}`).addLoot(Item.of(`${mod_id}:rock/loose/${rockType}`, 2))
         event.addBlockModifier(`${mod_id}:rock/spike/${rockType}`).addLoot(Item.of(`${mod_id}:rock/loose/${rockType}`, 2))
@@ -38,7 +26,7 @@ LootJS.modifiers(event => {
         event.addBlockModifier(`${mod_id}:rock/loose/${rockType}`).addLoot(`${mod_id}:rock/loose/${rockType}`)
         event.addBlockModifier(`${mod_id}:rock/mossy_loose/${rockType}`).addLoot(`${mod_id}:rock/mossy_loose/${rockType}`)
 
-        if (hasDecorations[rockType]) {
+        if (global.ROCK_HAS_DECORATIONS[rockType]) {
 
             event.addBlockModifier(`${mod_id}:rock/pressure_plate/${rockType}`).addLoot(`${mod_id}:rock/pressure_plate/${rockType}`)
             event.addBlockModifier(`${mod_id}:rock/button/${rockType}`).addLoot(`${mod_id}:rock/button/${rockType}`)
