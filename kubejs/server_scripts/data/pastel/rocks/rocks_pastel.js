@@ -23,7 +23,7 @@ ServerEvents.recipes(event => {
 
         let cobble = ""
 
-        if (Object.keys(COBBLE).indexOf(rockType) == -1) {
+        if (COBBLE[rockType] == undefined) {
             cobble = `${mod_id}:rock/cobble/${rockType}`
         } else {
             cobble = COBBLE[rockType]
@@ -31,7 +31,7 @@ ServerEvents.recipes(event => {
 
         datagen.landslide(cobble, cobble).id(`${mod_id}:landslide/cobble/${rockType}`).generate()
         datagen.collapse(cobble, `${mod_id}:rock/mortared_cobble/${rockType}`).id(`${mod_id}:collapse/mortared_cobble/${rockType}`).generate()
-        datagen.collapse(cobble, global.DEEPER_DOWN_ROCK_STONES[rockType]).id(`${mod_id}:collapse/raw_rock/${rockType}`).generate()
+        datagen.collapse(cobble, global.ROCK_BLOCKS["raw"][rockType]).id(`${mod_id}:collapse/raw_rock/${rockType}`).generate()
     })
 
     datagen.landslide("pastel:black_materia", "pastel:black_materia").id(`${mod_id}:landslide/black_materia`).generate()

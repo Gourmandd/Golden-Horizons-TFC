@@ -38,7 +38,7 @@ ServerEvents.tags("block", event => {
 
         event.add("tfc:can_trigger_collapse", `${mod_id}:rock/hardened/${rock_type}`)
 
-        event.add("c:spikes", `${mod_id}:rock/spike/${rock_type}`)
+        event.add("c:stones/spike", `${mod_id}:rock/spike/${rock_type}`)
 
         event.add("c:stones", `${mod_id}:rock/hardened/${rock_type}`)
         event.add("c:stones/hardened", `${mod_id}:rock/hardened/${rock_type}`)
