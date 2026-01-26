@@ -65,7 +65,7 @@ ServerEvents.recipes(event => {
         { tag: `modpack:copper_tiles`, fluid_amount: 50, id: `modpack:heating/melting/copper_tiles` },
         { tag: `modpack:copper_tile_stairs`, fluid_amount: 25, id: `modpack:heating/melting/copper_tile_stairs` },
         { tag: `modpack:copper_tile_slabs`, fluid_amount: 25, id: `modpack:heating/melting/copper_tile_slabs` },
-        { tag: `modpack:cut_copper_roofs`, fluid_amount: 25, id: `modpack:heating/melting/cut_copper_roofs` },
+        //{ tag: `modpack:cut_copper_roofs`, fluid_amount: 25, id: `modpack:heating/melting/cut_copper_roofs` },
         { tag: `modpack:cut_copper_blocks`, fluid_amount: 50, id: `modpack:heating/melting/cut_copper_blocks` },
         { tag: `modpack:cut_copper_stairs`, fluid_amount: 25, id: `modpack:heating/melting/cut_copper_stairs` },
         { tag: `modpack:cut_copper_slabs`, fluid_amount: 25, id: `modpack:heating/melting/cut_copper_slabs` },

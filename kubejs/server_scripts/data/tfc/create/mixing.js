@@ -41,6 +41,6 @@ ServerEvents.recipes(event => {
                 inputOf(IO_TYPE.ITEM_TAG, "tfc:foods/sweeteners", 1),
                 inputOf(IO_TYPE.ITEM, `tfc:food/${type}_flour`, 1)
             ]
-        ).heatRequirement(HEAT_REQUIREMENT.HEATED).id(`${mod_id}:mixing/dough/bread/${type}`).printMap().generate()
+        ).heatRequirement(HEAT_REQUIREMENT.HEATED).id(`${mod_id}:mixing/dough/bread/${type}`).generate()
     })
 })

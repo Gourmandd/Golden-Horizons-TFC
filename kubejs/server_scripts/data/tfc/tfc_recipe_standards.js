@@ -20,7 +20,7 @@ ServerEvents.recipes(event => {
         //"minecraft:calcite": "hearth_and_home:polished_calcite",
         //"minecraft:dripstone_block": "quark:polished_dripstone",
         //"minecraft:tuff": "quark:polished_tuff",
-        "kubejs:rock/cobble/nephelinite": "minecraft:polished_deepslate",
+        "modpack:rock/cobble/nephelinite": "minecraft:polished_deepslate",
         "minecraft:blackstone": "minecraft:polished_blackstone",
         "minecraft:basalt": "minecraft:polished_basalt",
 

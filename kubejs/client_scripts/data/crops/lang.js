@@ -15,7 +15,6 @@ ClientEvents.lang("en_us", event => {
     })
 
     global.CUSTOM_STATIONARY_BUSH_TYPES.forEach(bush => {
-        console.log(bush)
         event.add(`block.${mod_id}.plant.${bush}_bush`, nameProcessing(bush) + " Bush")
     })
 

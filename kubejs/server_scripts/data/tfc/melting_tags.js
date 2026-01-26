@@ -37,7 +37,7 @@ ServerEvents.tags("item", event => {
         event.add(`modpack:copper_tiles`, [`create:${state}copper_tiles`, `create:waxed_${state}copper_tiles`])
         event.add(`modpack:copper_tile_stairs`, [`create:${state}copper_tile_stairs`, `create:waxed_${state}copper_tile_stairs`])
         event.add(`modpack:copper_tile_slabs`, [`create:${state}copper_tile_slab`, `create:waxed_${state}copper_tile_slab`])
-        event.add(`modpack:cut_copper_roofs`, [`alekiroofs:${state}cut_copper_roofing`, `alekiroofs:waxed_${state}cut_copper_roofing`])
+        //event.add(`modpack:cut_copper_roofs`, [`alekiroofs:${state}cut_copper_roofing`, `alekiroofs:waxed_${state}cut_copper_roofing`])
         event.add(`modpack:cut_copper_blocks`, [`minecraft:${state}cut_copper`, `minecraft:waxed_${state}cut_copper`])
         event.add(`modpack:cut_copper_stairs`, [`minecraft:${state}cut_copper_stairs`, `minecraft:waxed_${state}cut_copper_stairs`])
         event.add(`modpack:cut_copper_slabs`, [`minecraft:${state}cut_copper_slab`, `minecraft:waxed_${state}cut_copper_slab`])

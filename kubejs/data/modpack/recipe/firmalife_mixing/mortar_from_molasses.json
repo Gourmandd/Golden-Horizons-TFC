@@ -2,7 +2,7 @@
     "neoforge:conditions": [
         {
             "type": "neoforge:mod_loaded",
-            "modid": "firmalife"
+            "modid": "artisanal"
         }
     ],
     "type": "firmalife:mixing_bowl",

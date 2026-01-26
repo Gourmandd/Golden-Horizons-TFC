@@ -109,7 +109,8 @@ TFCEvents.defaultWorldSettings(event => {
     event.addToBottom("serpentine")
     event.addToBottom("peridotite")
 
-    console.log(event.getLandLayers())
-    console.log(event.getRock("blueschist"))
-    console.log(event.getRockNames())
+    // debug
+    //console.log(event.getLandLayers())
+    //console.log(event.getRock("blueschist"))
+    //console.log(event.getRockNames())
 })
