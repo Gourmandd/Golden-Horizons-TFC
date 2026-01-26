@@ -1,7 +1,7 @@
 {
     "replace": true,
     "values": [
-        "tfc:food/pumpkin",
+        "tfc:pumpkin",
         "tfc:food/pumpkin_chunks"
     ]
 }
