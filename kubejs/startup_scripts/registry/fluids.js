@@ -16,6 +16,13 @@ StartupEvents.registry('fluid', event => {
         .tag('tfc:molten_metals')
         .tag(`${id}:molten_glass`)
 
+    event.create(`${id}:lead`, 'thick')
+        .displayName('Lead')
+        .tint(0x333120)
+        .noBucket()
+        .noBlock()
+        .tag('tfc:molten_metals')
+
     event.create(`${id}:electrum`, 'thick')
         .displayName('Electrum')
         .tint(0xFFF10F)
