@@ -3,6 +3,30 @@ ServerEvents.tags("item", event => {
     let new_entries = []
 
     const ASSORTED = [
+        "minecraft:dead_tube_coral_fan",
+        "minecraft:dead_tube_coral",
+        "minecraft:dead_horn_coral",
+        "minecraft:dead_horn_coral_fan",
+        "minecraft:dead_fire_coral",
+        "minecraft:dead_fire_coral_fan",
+        "minecraft:dead_bubble_coral",
+        "minecraft:dead_bubble_coral_fan",
+        "minecraft:dead_brain_coral",
+        "minecraft:dead_brain_coral_fan",
+        "minecraft:tube_coral_fan",
+        "minecraft:tube_coral",
+        "minecraft:horn_coral",
+        "minecraft:horn_coral_fan",
+        "minecraft:fire_coral",
+        "minecraft:fire_coral_fan",
+        "minecraft:bubble_coral",
+        "minecraft:bubble_coral_fan",
+        "minecraft:brain_coral",
+        "minecraft:brain_coral_fan",
+        "#lithiccoins:stamped_coin/constantan",
+        "lithiccoins:blank_coin/constantan",
+        "#lithiccoins:stamped_coin/uranium",
+        "lithiccoins:blank_coin/uranium",
         "#c:ores",
         "#tfc:ore_deposits",
         "#architects_palette:cage_lanterns",
@@ -10,7 +34,7 @@ ServerEvents.tags("item", event => {
         "#minecraft:trim_templates",
         "#pastel:spawn_eggs",
         "#c:shulker_boxes", //this should be revealed when you get shulker memory (custom advancement)
-        "minecraft:enchanted_book", //this should be revealed when you get enchanter instead
+        //"minecraft:enchanted_book", //this should be revealed when you get enchanter instead
         "#minecraft:candles",
         "pastel:infested_blackslag",
         "minecraft:carrot",
