@@ -10,7 +10,7 @@
         "item": "lithiccoins:ceramic/fire_coin_mold"
     },
     "fluid": {
-        "ingredient": "modpack:electrum",
+        "fluid": "modpack:electrum",
         "amount": 100
     },
     "result": {
