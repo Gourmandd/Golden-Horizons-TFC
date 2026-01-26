@@ -91,7 +91,6 @@
     "windmill": true,
     "placed_item": true,
     "ocelot": true,
-    "shelf": true,
     "candle_cake": true,
     "horse": true,
     "clutch": true,
@@ -164,5 +163,8 @@
     "registry_name": "OFF",
     "block_properties": false,
     "mod_name": true
+  },
+  "kubejs_tfc": {
+    "heat_consumer": true
   }
 }
