@@ -1,0 +1,8 @@
+#
+# Number of stacks that can be put into a coin purse
+# Default: 4
+# Range: > 1
+numberOfStacksInCoinPurse = 4
+#
+# Engrave the name of the player minting a coin onto the it
+engraveName = false
