@@ -75,7 +75,11 @@ LootJS.modifiers(event => {
                 }
             } else {
                 if (global.CUSTOM_ORES.indexOf(ore) > -1) {
-                    singleDropOre(event, oreNamespace, ore, rockType, `${mod_id}:ore/${ore}`)
+                    if (ore == "anthracite") {
+                        singleDropOre(event, oreNamespace, ore, rockType, `pastel:pure_coal`)
+                    } else {
+                        singleDropOre(event, oreNamespace, ore, rockType, `${mod_id}:ore/${ore}`)
+                    }
                 } else {
                     singleDropOre(event, oreNamespace, ore, rockType, `tfc:ore/${ore}`)
                 }
