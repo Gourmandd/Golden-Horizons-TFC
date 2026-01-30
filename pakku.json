@@ -2,6 +2,11 @@
     "name": "Golden Horizons",
     "version": "1.11",
     "overrides": [
-        "config"
+        "config",
+        "options.txt",
+        "emi.json",
+        "Changelogs.md",
+        "attribution.md",
+        "README.md"
     ]
 }
