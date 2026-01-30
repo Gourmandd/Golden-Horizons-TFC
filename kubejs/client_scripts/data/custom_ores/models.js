@@ -9,6 +9,9 @@ ClientEvents.generateAssets("before_mods", event => {
         // generate the models here.
         if (isGraded) {
             arrayOfOres.forEach(ore => {
+
+                oreItemModels(ore, true)
+
                 global.ORE_BLOCK_GRADES.forEach(grade => {
                     let textureOverlay = findOreOverlayTexture(ore, grade, namespace)
                     event.blockModel(`${mod_id}:ore/${grade}_${ore}/${rockType}`, model => {
@@ -26,6 +29,8 @@ ClientEvents.generateAssets("before_mods", event => {
 
                 if (global.FULL_BLOCK_ORES.indexOf(ore) > -1) return
 
+                oreItemModels(ore, false)
+
                 let textureOverlay = findOreOverlayTexture(ore, null, namespace)
                 event.blockModel(`${mod_id}:ore/${ore}/${rockType}`, model => {
                     model.parent("tfc:block/ore")
@@ -35,6 +40,22 @@ ClientEvents.generateAssets("before_mods", event => {
                 event.itemModel(`${mod_id}:ore/${ore}/${rockType}`, model => {
                     model.parent(`${mod_id}:block/ore/${ore}/${rockType}`)
                 })
+            })
+        }
+    }
+
+    function oreItemModels(ore, isGraded) {
+        if (isGraded) {
+            global.ORE_GRADES.forEach(grade => {
+                event.itemModel(`${mod_id}:ore/${grade}_${ore}`, model => {
+                    model.parent(`item/generated`)
+                    model.texture("layer0", `${mod_id}:item/ore/${grade}_${ore}`)
+                })
+            })
+        } else {
+            event.itemModel(`${mod_id}:ore/${ore}`, model => {
+                model.parent(`item/generated`)
+                model.texture("layer0", `${mod_id}:item/ore/${ore}`)
             })
         }
     }

@@ -1,50 +1,20 @@
 {
     "type": "tfc:cluster_vein",
     "config": {
-      "rarity": 80,
-      "density": 0.3,
-      "min_y": 60,
-      "max_y": 200,
-      "size": 20,
-      "random_name": "paltaeria_ore",
+      "rarity": 50,
+      "density": 0.1,
+      "min_y": 0,
+      "max_y": 100,
+      "size": 10,
+      "random_name": "azurite_volcanic_ore",
       "blocks": [
-        {
-          "replace": [
-            "tfc:rock/raw/granite"
-          ],
-          "with": [
-            {
-              "block": "modpack:ore/paltaeria/granite"
-            }
-          ]
-        },
-        {
-          "replace": [
-            "tfc:rock/raw/gabbro"
-          ],
-          "with": [
-            {
-              "block": "modpack:ore/paltaeria/gabbro"
-            }
-          ]
-        },
-        {
-          "replace": [
-            "tfc:rock/raw/diorite"
-          ],
-          "with": [
-            {
-              "block": "modpack:ore/paltaeria/diorite"
-            }
-          ]
-        },
         {
           "replace": [
             "tfc:rock/raw/basalt"
           ],
           "with": [
             {
-              "block": "modpack:ore/paltaeria/basalt"
+              "block": "modpack:ore/azurite/basalt"
             }
           ]
         },
@@ -54,7 +24,7 @@
           ],
           "with": [
             {
-              "block": "modpack:ore/paltaeria/dacite"
+              "block": "modpack:ore/azurite/dacite"
             }
           ]
         },
@@ -64,7 +34,7 @@
           ],
           "with": [
             {
-              "block": "modpack:ore/paltaeria/rhyolite"
+              "block": "modpack:ore/azurite/rhyolite"
             }
           ]
         },
@@ -74,7 +44,7 @@
           ],
           "with": [
             {
-              "block": "modpack:ore/paltaeria/andesite"
+              "block": "modpack:ore/azurite/andesite"
             }
           ]
         },
@@ -84,7 +54,7 @@
           ],
           "with": [
             {
-              "block": "modpack:ore/paltaeria/tuff"
+              "block": "modpack:ore/azurite/tuff"
             }
           ]
         },
@@ -94,7 +64,7 @@
           ],
           "with": [
             {
-              "block": "modpack:ore/paltaeria/blueschist"
+              "block": "modpack:ore/azurite/blueschist"
             }
           ]
         },
@@ -104,7 +74,7 @@
           ],
           "with": [
             {
-              "block": "modpack:ore/paltaeria/komatiite"
+              "block": "modpack:ore/azurite/komatiite"
             }
           ]
         }

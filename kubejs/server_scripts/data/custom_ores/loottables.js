@@ -74,7 +74,7 @@ LootJS.modifiers(event => {
                     singleDropOre(event, oreNamespace, ore, rockType, PASTEL_ORE_DATA[ore].drop)
                 }
             } else {
-                if (global.CUSTOM_ORES.indexOf(ore) > -1) {
+                if (global.CUSTOM_NON_GRADED_ORES.indexOf(ore) > -1) {
                     if (ore == "anthracite") {
                         singleDropOre(event, oreNamespace, ore, rockType, `pastel:pure_coal`)
                     } else {
@@ -87,17 +87,7 @@ LootJS.modifiers(event => {
         })
     }
 
-    function addOre(rockType, arrayOfOres, isGraded) {
-
-        let oreNamespace = "tfc"
-
-        if (global.CUSTOM_ROCK_TYPES.indexOf(rockType)) {
-            oreNamespace = mod_id
-        }
-
-        if (global.CUSTOM_ORES.indexOf(rockType) || global.CUSTOM_GRADED_ORES.indexOf(rockType)) {
-            oreNamespace = mod_id
-        }
+    function addOre(rockType, arrayOfOres, isGraded, oreNamespace) {
 
         if (isGraded) {
             addGradedOre(rockType, arrayOfOres, oreNamespace)
@@ -107,17 +97,17 @@ LootJS.modifiers(event => {
     }
 
     global.ROCK_TYPES.forEach(rockType => {
-        addOre(rockType, global.CUSTOM_ORES, false)
-        addOre(rockType, global.CUSTOM_GRADED_ORES, true)
+        addOre(rockType, global.CUSTOM_NON_GRADED_ORES, false, mod_id)
+        addOre(rockType, global.CUSTOM_GRADED_ORES, true, mod_id)
     })
 
     global.CUSTOM_ROCK_TYPES.forEach(rockType => {
-        addOre(rockType, global.CUSTOM_ORES, false)
-        addOre(rockType, global.CUSTOM_GRADED_ORES, true)
+        addOre(rockType, global.CUSTOM_NON_GRADED_ORES, false, mod_id)
+        addOre(rockType, global.CUSTOM_GRADED_ORES, true, mod_id)
 
-        addOre(rockType, global.TFC_MINERALS, false)
-        addOre(rockType, global.TFC_GEMS, false)
-        addOre(rockType, global.TFC_ORES, true)
+        addOre(rockType, global.TFC_MINERALS, false, mod_id)
+        addOre(rockType, global.TFC_GEMS, false, mod_id)
+        addOre(rockType, global.TFC_ORES, true, mod_id)
     })
 })
 

@@ -56,18 +56,23 @@ ClientEvents.lang("en_us", event => {
     })
 
     global.CUSTOM_ORES.forEach(ore => {
-
-        if (global.CUSTOM_GRADED_ORES.indexOf(ore) == -1) {
-            createOreLang(global.ROCK_TYPES, ore, false)
-            createOreLang(global.CUSTOM_ROCK_TYPES, ore, false)
-        } else {
-
+        if (global.CUSTOM_GRADED_ORES.indexOf(ore) > -1) {
             createOreLang(global.ROCK_TYPES, ore, true)
             createOreLang(global.CUSTOM_ROCK_TYPES, ore, true)
+        } else {
+            createOreLang(global.ROCK_TYPES, ore, false)
+            createOreLang(global.CUSTOM_ROCK_TYPES, ore, false)
         }
 
         if (global.CUSTOM_PASTEL_ORES.indexOf(ore) == -1) {
-            event.add(`item.${mod_id}.ore.${ore}`, nameProcessing(ore))
+            if (global.CUSTOM_GRADED_ORES.indexOf(ore) > -1) {
+                global.ORE_BLOCK_GRADES.forEach(grade => {
+                    event.add(`item.${mod_id}.ore.${grade}_${ore}`, `${nameProcessing(grade)} ${nameProcessing(ore)}`)
+                })
+                event.add(`block.${mod_id}.ore.small_${ore}`, `Small ${nameProcessing(ore)}`)
+            } else {
+                event.add(`item.${mod_id}.ore.${ore}`, nameProcessing(ore))
+            }
         }
     })
 

@@ -22,6 +22,9 @@ global.CUSTOM_SPREADING_BUSH_TYPES = $CategoryUtil.getSpreadingBushNames()
 // ore
 global.CUSTOM_ORES = $CategoryUtil.getAllOreNames()
 
+global.CUSTOM_NON_GRADED_ORES = $CategoryUtil.getNonGradedOreNames()
+
+
 global.CUSTOM_GRADED_ORES = $CategoryUtil.getGradedOreNames()
 
 global.CUSTOM_PASTEL_ORES = $CategoryUtil.getPastelOreNames()

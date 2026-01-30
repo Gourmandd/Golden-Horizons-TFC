@@ -1,0 +1,17 @@
+{
+  "type": "tfc:geode",
+  "config": {
+    "outer": "minecraft:smooth_basalt",
+    "middle": "minecraft:calcite",
+    "inner": [
+      {
+        "data": "pastel:budding_moonstone",
+        "weight": 1
+      },
+      {
+        "data": "pastel:moonstone_block",
+        "weight": 9
+      }
+    ]
+  }
+}
