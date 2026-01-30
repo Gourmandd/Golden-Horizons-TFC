@@ -1,4 +1,6 @@
 [minimap]
+	#Shows a background texture for each map, useful to see where each map ends
+	shows_map_background = false
 	#Hide minimap when holding the atlas in hand
 	hide_when_in_hand = true
 	#Only display y coordinates if atlas holds some slice maps
@@ -66,10 +68,14 @@
 	map_change_sound = false
 	#Automatically switches to the nearest slice when possible
 	automatic_slice_change = false
-	#Shows a background texture for each map, useful to see where each map ends
-	shows_map_background = false
 
 [world_map]
+	#Adds a shear button to the atlas screen which allows you to cut maps
+	shear_button = true
+	#Shows a compass icon on the map screen
+	compass_icon = false
+	#Shows a clock icon on the map screen
+	clock_icon = false
 	crossair = false
 	#Use bigger book like texture for worldmap view. Makes the view a bit bigger. Recommended to ebe used with map scale 1 (you might want to lower lectern one too if buttons dont show)
 	alternative_texture = false
@@ -108,12 +114,6 @@
 	compact_slices_indicator = false
 	#Allows minimap to follow player movement instead of only displaying current map
 	follow_player = true
-	#Adds a shear button to the atlas screen which allows you to cut maps
-	shear_button = true
-	#Shows a compass icon on the map screen
-	compass_icon = false
-	#Shows a clock icon on the map screen
-	clock_icon = false
 
 [misc]
 	#Multiplier for all the Atlases sound float
