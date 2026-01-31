@@ -1,4 +1,4 @@
-let $CategoryUtil = Java.loadClass("net.gourmand.GoldenHorizonsCore.registry.category.CategoryUtil")
+let $CategoryUtil = Java.loadClass("net.gourmand.AncientGroundCore.registry.category.CategoryUtil")
 
 // metal
 global.KUBEJS_METALS = $CategoryUtil.getMetalNames()
