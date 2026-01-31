@@ -1,6 +1,6 @@
 {
-    "name": "Golden Horizons",
-    "version": "1.11",
+    "name": "On Ancient Ground",
+    "version": "2.0-alpha-1",
     "overrides": [
         "config",
         "options.txt",
