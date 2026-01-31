@@ -1,0 +1,10 @@
+{
+    "type": "tfc:quern",
+    "ingredient": {
+        "item": "modpack:ore/bauxite"
+    },
+    "result": {
+        "id": "tfc:powder/kaolinite",
+        "count": 4
+    }
+}
