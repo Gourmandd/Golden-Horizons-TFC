@@ -4010,7 +4010,7 @@
             ]
         },
         {
-            "pakku_id": "Vn4JTrfV2dBAyf1A",
+            "pakku_id": "VxLdkGcEx3yQi8S1",
             "pakku_links": [
                 "B9rCrTdjB1Frl92q",
                 "rO59Hqf29cRcUJMT"
@@ -4053,6 +4053,30 @@
                     ],
                     "size": 3857453,
                     "date_published": "2026-01-25T13:03:58.730Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "lithiccoins-2.0.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/sjWLlt1b/versions/ymYQih5t/lithiccoins-2.0.1.jar",
+                    "id": "ymYQih5t",
+                    "parent_id": "sjWLlt1b",
+                    "hashes": {
+                        "sha512": "08f6463abcd99cd27055ce1f1f59a064fadb48c1ee497ae22d271c27438c068e7507f283af6406224e8d316199031084d11defc52e097100a3a31190c9f76bf4",
+                        "sha1": "43aa6766c3519a7b142e78023578a22d85c4b574"
+                    },
+                    "required_dependencies": [
+                        "JaCEZUhg",
+                        "5bKeBHw2"
+                    ],
+                    "size": 3857453,
+                    "date_published": "2026-01-29T23:50:05.396405Z"
                 }
             ]
         },
