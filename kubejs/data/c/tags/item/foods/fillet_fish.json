@@ -10,8 +10,6 @@
         "tfc:food/smallmouth_bass",
         "tfc:food/cod",
         "tfc:food/tropical_fish",
-        "minecraft:salmon",
-        "minecraft:cod",
         "tfc:food/cooked_bluegill",
         "tfc:food/cooked_crappie",
         "tfc:food/cooked_lake_trout",
@@ -20,8 +18,6 @@
         "tfc:food/cooked_salmon",
         "tfc:food/cooked_smallmouth_bass",
         "tfc:food/cooked_cod",
-        "tfc:food/cooked_tropical_fish",
-        "minecraft:cooked_salmon",
-        "minecraft:cooked_cod"
+        "tfc:food/cooked_tropical_fish"
     ]
 }

@@ -1,7 +1,7 @@
 {
     "type": "tfc:anvil",
     "ingredient": {
-        "tag": "c:double_sheets/copper"
+        "item": "tfc:metal/ingot/copper"
     },
     "result": {
         "count": 16,

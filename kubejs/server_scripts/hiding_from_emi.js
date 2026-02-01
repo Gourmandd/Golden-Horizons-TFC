@@ -37,9 +37,13 @@ ServerEvents.tags("item", event => {
         //"minecraft:enchanted_book", //this should be revealed when you get enchanter instead
         "#minecraft:candles",
         "pastel:infested_blackslag",
+        "firmalife:food/fig",
+        "firmalife:food/bacon",
+        "firmalife:food/cooked_bacon",
         "minecraft:carrot",
         "minecraft:potato",
         "minecraft:baked_potato",
+        "farmersdelight:rice",
         "farmersdelight:carrot_crate",
         "farmersdelight:potato_crate",
         "farmersdelight:beetroot_crate",

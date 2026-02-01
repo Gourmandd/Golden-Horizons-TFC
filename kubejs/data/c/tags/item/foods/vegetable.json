@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [],
+    "remove": [
+        "farmersdelight:onion",
+        "farmersdelight:tomato",
+        "farmersdelight:cabbage"
+    ]
+}

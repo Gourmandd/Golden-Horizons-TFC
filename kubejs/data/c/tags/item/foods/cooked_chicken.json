@@ -2,7 +2,6 @@
     "replace": true,
     "values": [
         "tfc:food/cooked_chicken",
-        "minecraft:cooked_chicken",
         "farmersdelight:cooked_chicken_cuts"
     ]
 }

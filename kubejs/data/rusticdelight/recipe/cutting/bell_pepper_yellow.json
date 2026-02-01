@@ -11,13 +11,6 @@
         "count": 1,
         "id": "rusticdelight:bell_pepper_slice_yellow"
       }
-    },
-    {
-      "chance": 0.3,
-      "item": {
-        "count": 1,
-        "id": "rusticdelight:bell_pepper_seeds"
-      }
     }
   ],
   "tool": {

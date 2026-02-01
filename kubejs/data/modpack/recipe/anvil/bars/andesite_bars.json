@@ -1,10 +1,10 @@
 {
     "type": "tfc:anvil",
     "ingredient": {
-        "item": "tfc:metal/ingot/steel"
+        "item": "tfc:metal/sheet/steel"
     },
     "result": {
-        "count": 4,
+        "count": 16,
         "id": "create:andesite_bars"
     },
     "tier": 3,

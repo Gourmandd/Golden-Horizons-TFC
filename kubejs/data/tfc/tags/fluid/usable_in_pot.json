@@ -2,6 +2,7 @@
     "replace": false,
     "values": [
         "#caupona:boilable",
-        "modpack:boiled_water"
+        "modpack:boiled_water",
+        "create:chocolate"
     ]
 }

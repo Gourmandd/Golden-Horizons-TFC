@@ -2,14 +2,14 @@
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "item": "tfc:food/red_bell_pepper"
+      "item": "rustic_delight:roasted_bell_pepper_red"
     }
   ],
   "result": [
     {
       "item": {
         "count": 1,
-        "id": "rusticdelight:bell_pepper_slice_red"
+        "id": "rusticdelight:roasted_bell_pepper_slice_red"
       }
     }
   ],

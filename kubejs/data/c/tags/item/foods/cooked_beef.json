@@ -2,7 +2,6 @@
     "replace": true,
     "values": [
         "tfc:food/cooked_beef",
-        "minecraft:cooked_beef",
         "farmersdelight:beef_patty"
     ]
 }

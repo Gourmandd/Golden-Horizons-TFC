@@ -1,7 +1,7 @@
 {
     "type": "tfc:anvil",
     "ingredient": {
-        "tag": "c:double_sheets/brass"
+        "item": "tfc:metal/ingot/brass"
     },
     "result": {
         "count": 16,

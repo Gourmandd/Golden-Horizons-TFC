@@ -1,11 +1,11 @@
 {
     "type": "tfc:anvil",
     "ingredient": {
-        "tag": "c:sheets/brass"
+        "item": "tfc:metal/sheet/copper"
     },
     "result": {
-        "count": 8,
-        "id": "create:brass_bars"
+        "count": 32,
+        "id": "create:copper_bars"
     },
     "tier": 3,
     "rules": [

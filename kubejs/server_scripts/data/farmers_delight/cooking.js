@@ -10,7 +10,7 @@ ServerEvents.recipes(event => {
     const COOKING_TIME = 200
     const LONG_COOKING_TIME = 400
 
-    function notRotten(input){
+    function notRotten(input) {
         return {
             "type": "tfc:and",
             "children": [
@@ -85,7 +85,7 @@ ServerEvents.recipes(event => {
             cookingtime: SHORT_COOKING_TIME,
             experience: 1.0,
             ingredients: [
-                inputOf(ITEM, "rusticdelight:cooking_oil" , 1),
+                inputOf(ITEM, "rusticdelight:cooking_oil", 1),
                 notRotten(inputOf(TAG, Tag.DOUGH, 1)),
                 notRotten(inputOf(TAG, Tag.CABBAGE, 1)),
                 notRotten(inputOf(TAG, Tag.VEGETABLES, 1))
@@ -196,7 +196,7 @@ ServerEvents.recipes(event => {
             cookingtime: COOKING_TIME,
             experience: 1.0,
             ingredients: [
-                inputOf(ITEM, "rusticdelight:cooking_oil" , 1),
+                inputOf(ITEM, "rusticdelight:cooking_oil", 1),
                 notRotten(inputOf(ITEM, "rusticdelight:batter", 1)),
                 notRotten(inputOf(TAG, Tag.SQUID, 1)),
                 notRotten(inputOf(TAG, Tag.TOMATO, 1))
@@ -209,7 +209,7 @@ ServerEvents.recipes(event => {
             cookingtime: COOKING_TIME,
             experience: 1.0,
             ingredients: [
-                inputOf(ITEM, "rusticdelight:cooking_oil" , 1),
+                inputOf(ITEM, "rusticdelight:cooking_oil", 1),
                 notRotten(inputOf(ITEM, "rusticdelight:batter", 1)),
                 notRotten(inputOf(TAG, Tag.CHICKEN, 1)),
                 notRotten(inputOf(TAG, Tag.TOMATO, 1))
@@ -222,7 +222,7 @@ ServerEvents.recipes(event => {
             cookingtime: COOKING_TIME,
             experience: 1.0,
             ingredients: [
-                inputOf(ITEM, "rusticdelight:cooking_oil" , 1),
+                inputOf(ITEM, "rusticdelight:cooking_oil", 1),
                 notRotten(inputOf(TAG, Tag.EDIBLE_MUSHROOMS, 1)),
                 notRotten(inputOf(TAG, Tag.EDIBLE_MUSHROOMS, 1)),
                 notRotten(inputOf(TAG, Tag.ONION, 1)),
@@ -248,7 +248,7 @@ ServerEvents.recipes(event => {
             cookingtime: SHORT_COOKING_TIME,
             experience: 0.35,
             ingredients: [
-                inputOf(ITEM, "rusticdelight:cooking_oil" , 1),
+                inputOf(ITEM, "rusticdelight:cooking_oil", 1),
                 notRotten(inputOf(TAG, Tag.DOUGH, 1))
             ],
             result: outputOf(ITEM, "rusticdelight:fried_dough", 1, 1),
@@ -259,9 +259,9 @@ ServerEvents.recipes(event => {
             cookingtime: SHORT_COOKING_TIME,
             experience: 0.35,
             ingredients: [
-                inputOf(ITEM, "rusticdelight:cooking_oil" , 1),
-                notRotten(inputOf(ITEM, "farmersdelight:dumplings" , 1)),
-                notRotten(inputOf(ITEM, "farmersdelight:dumplings" , 1))
+                inputOf(ITEM, "rusticdelight:cooking_oil", 1),
+                notRotten(inputOf(ITEM, "farmersdelight:dumplings", 1)),
+                notRotten(inputOf(ITEM, "farmersdelight:dumplings", 1))
             ],
             result: outputOf(ITEM, "rusticdelight:fried_dumplings", 2, 1),
             id: RUSTIC_NAMESPACE + "fried_dumplings"
@@ -271,7 +271,7 @@ ServerEvents.recipes(event => {
             cookingtime: SHORT_COOKING_TIME,
             experience: 0.35,
             ingredients: [
-                inputOf(ITEM, "rusticdelight:cooking_oil" , 1),
+                inputOf(ITEM, "rusticdelight:cooking_oil", 1),
                 notRotten(inputOf(TAG, Tag.DOUGH, 1)),
                 notRotten(inputOf(TAG, Tag.FRUIT, 1)),
                 notRotten(inputOf(TAG, Tag.SWEETENERS, 1))
@@ -284,10 +284,10 @@ ServerEvents.recipes(event => {
             cookingtime: COOKING_TIME,
             experience: 1.0,
             ingredients: [
-                notRotten(inputOf(ITEM, "rusticdelight:roasted_coffee_beans" , 1)),
-                notRotten(inputOf(ITEM, "rusticdelight:roasted_coffee_beans" , 1)),
-                notRotten(inputOf(ITEM, "rusticdelight:roasted_coffee_beans" , 1)),
-                notRotten(inputOf(ITEM, "rusticdelight:roasted_coffee_beans" , 1))
+                notRotten(inputOf(ITEM, "rusticdelight:roasted_coffee_beans", 1)),
+                notRotten(inputOf(ITEM, "rusticdelight:roasted_coffee_beans", 1)),
+                notRotten(inputOf(ITEM, "rusticdelight:roasted_coffee_beans", 1)),
+                notRotten(inputOf(ITEM, "rusticdelight:roasted_coffee_beans", 1))
             ],
             result: outputOf(ITEM, "rusticdelight:coffee", 1, 1),
             id: RUSTIC_NAMESPACE + "coffee"
@@ -297,12 +297,12 @@ ServerEvents.recipes(event => {
             cookingtime: LONG_COOKING_TIME,
             experience: 1.0,
             ingredients: [
-                notRotten(inputOf(ITEM, "rusticdelight:roasted_coffee_beans" , 1)),
-                notRotten(inputOf(ITEM, "rusticdelight:roasted_coffee_beans" , 1)),
-                notRotten(inputOf(ITEM, "rusticdelight:roasted_coffee_beans" , 1)),
-                notRotten(inputOf(ITEM, "rusticdelight:roasted_coffee_beans" , 1)),
-                notRotten(inputOf(ITEM, "rusticdelight:roasted_coffee_beans" , 1)),
-                notRotten(inputOf(ITEM, "rusticdelight:roasted_coffee_beans" , 1))
+                notRotten(inputOf(ITEM, "rusticdelight:roasted_coffee_beans", 1)),
+                notRotten(inputOf(ITEM, "rusticdelight:roasted_coffee_beans", 1)),
+                notRotten(inputOf(ITEM, "rusticdelight:roasted_coffee_beans", 1)),
+                notRotten(inputOf(ITEM, "rusticdelight:roasted_coffee_beans", 1)),
+                notRotten(inputOf(ITEM, "rusticdelight:roasted_coffee_beans", 1)),
+                notRotten(inputOf(ITEM, "rusticdelight:roasted_coffee_beans", 1))
             ],
             result: outputOf(ITEM, "rusticdelight:dark_coffee", 1, 1),
             id: RUSTIC_NAMESPACE + "dark_coffee"
@@ -312,10 +312,10 @@ ServerEvents.recipes(event => {
             cookingtime: COOKING_TIME,
             experience: 1.0,
             ingredients: [
-                inputOf(ITEM, MILK , 1),
-                notRotten(inputOf(ITEM, "rusticdelight:roasted_coffee_beans" , 1)),
-                notRotten(inputOf(ITEM, "rusticdelight:roasted_coffee_beans" , 1)),
-                notRotten(inputOf(ITEM, "rusticdelight:roasted_coffee_beans" , 1))
+                inputOf(ITEM, MILK, 1),
+                notRotten(inputOf(ITEM, "rusticdelight:roasted_coffee_beans", 1)),
+                notRotten(inputOf(ITEM, "rusticdelight:roasted_coffee_beans", 1)),
+                notRotten(inputOf(ITEM, "rusticdelight:roasted_coffee_beans", 1))
             ],
             result: outputOf(ITEM, "rusticdelight:milk_coffee", 1, 1),
             id: RUSTIC_NAMESPACE + "milk_coffee"
@@ -325,11 +325,11 @@ ServerEvents.recipes(event => {
             cookingtime: COOKING_TIME,
             experience: 1.0,
             ingredients: [
-                inputOf(ITEM, MILK , 1),
-                notRotten(inputOf(ITEM, "rusticdelight:roasted_coffee_beans" , 1)),
-                notRotten(inputOf(ITEM, "rusticdelight:roasted_coffee_beans" , 1)),
-                notRotten(inputOf(ITEM, "rusticdelight:roasted_coffee_beans" , 1)),
-                notRotten(inputOf(ITEM, "minecraft:honey_bottle" , 1))
+                inputOf(ITEM, MILK, 1),
+                notRotten(inputOf(ITEM, "rusticdelight:roasted_coffee_beans", 1)),
+                notRotten(inputOf(ITEM, "rusticdelight:roasted_coffee_beans", 1)),
+                notRotten(inputOf(ITEM, "rusticdelight:roasted_coffee_beans", 1)),
+                notRotten(inputOf(ITEM, "minecraft:honey_bottle", 1))
             ],
             result: outputOf(ITEM, "rusticdelight:honey_coffee", 1, 1),
             id: RUSTIC_NAMESPACE + "honey_coffee"
@@ -339,11 +339,11 @@ ServerEvents.recipes(event => {
             cookingtime: COOKING_TIME,
             experience: 1.0,
             ingredients: [
-                inputOf(ITEM, MILK , 1),
-                notRotten(inputOf(ITEM, "rusticdelight:roasted_coffee_beans" , 1)),
-                notRotten(inputOf(ITEM, "rusticdelight:roasted_coffee_beans" , 1)),
-                notRotten(inputOf(ITEM, "rusticdelight:roasted_coffee_beans" , 1)),
-                notRotten(inputOf(ITEM, "rusticdelight:syrup" , 1))
+                inputOf(ITEM, MILK, 1),
+                notRotten(inputOf(ITEM, "rusticdelight:roasted_coffee_beans", 1)),
+                notRotten(inputOf(ITEM, "rusticdelight:roasted_coffee_beans", 1)),
+                notRotten(inputOf(ITEM, "rusticdelight:roasted_coffee_beans", 1)),
+                notRotten(inputOf(ITEM, "rusticdelight:syrup", 1))
             ],
             result: outputOf(ITEM, "rusticdelight:syrup_coffee", 1, 1),
             id: RUSTIC_NAMESPACE + "syrup_coffee"
@@ -371,25 +371,25 @@ ServerEvents.recipes(event => {
             cookingtime: COOKING_TIME,
             experience: 1.0,
             ingredients: [
-                inputOf(ITEM, MILK , 1),
-                notRotten(inputOf(ITEM, "rusticdelight:roasted_coffee_beans" , 1)),
-                notRotten(inputOf(ITEM, "rusticdelight:roasted_coffee_beans" , 1)),
-                notRotten(inputOf(ITEM, "rusticdelight:roasted_coffee_beans" , 1)),
-                notRotten(inputOf(ITEM, "firmalife:food/roasted_cocoa_beans" , 1)),
-                notRotten(inputOf(ITEM, "firmalife:food/roasted_cocoa_beans" , 1))
+                inputOf(ITEM, MILK, 1),
+                notRotten(inputOf(ITEM, "rusticdelight:roasted_coffee_beans", 1)),
+                notRotten(inputOf(ITEM, "rusticdelight:roasted_coffee_beans", 1)),
+                notRotten(inputOf(ITEM, "rusticdelight:roasted_coffee_beans", 1)),
+                notRotten(inputOf(ITEM, "firmalife:food/roasted_cocoa_beans", 1)),
+                notRotten(inputOf(ITEM, "firmalife:food/roasted_cocoa_beans", 1))
             ],
             result: outputOf(ITEM, "rusticdelight:chocolate_coffee", 1, 1),
             id: RUSTIC_NAMESPACE + "chocolate_coffee"
         }
     ]
 
-    if (Platform.isLoaded("firmalife")){
-        recipes + firmalife_recipes
+    if (Platform.isLoaded("firmalife")) {
+        recipes = recipes.concat(firmalife_recipes)
     }
 
     recipes.forEach(recipe => {
 
-        if (recipe.container == null){
+        if (recipe.container == null) {
             datagen.farmersCooking(recipe.result, recipe.ingredients)
                 .setExperience(recipe.experience)
                 .setCookingTime(recipe.cookingtime)

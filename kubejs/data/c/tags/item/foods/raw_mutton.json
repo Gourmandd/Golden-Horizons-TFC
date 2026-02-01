@@ -2,7 +2,6 @@
     "replace": true,
     "values": [
         "tfc:food/mutton",
-        "minecraft:mutton",
         "farmersdelight:mutton_chops"
     ]
 }

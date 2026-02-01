@@ -1,6 +1,6 @@
 {
     "replace": true,
     "values": [
-        "tfc:food/cooked_rabbit"
+        "#c:foods/cooked_beef"
     ]
 }

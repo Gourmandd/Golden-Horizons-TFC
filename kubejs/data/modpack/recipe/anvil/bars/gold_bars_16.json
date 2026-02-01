@@ -7,7 +7,7 @@
     ],
     "type": "tfc:anvil",
     "ingredient": {
-        "tag": "c:double_sheets/gold"
+        "item": "tfc:metal/ingot/gold"
     },
     "result": {
         "count": 16,

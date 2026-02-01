@@ -1,23 +1,7 @@
 {
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:not",
-      "value": {
-        "type": "neoforge:tag_empty",
-        "tag": "c:dusts/diamond"
-      }
-    }
-  ],
-  "type": "create:crushing",
-  "ingredients": [
-    {
-      "item": "tfc:gem/diamond"
-    }
-  ],
-  "processing_time": 300,
-  "results": [
-    {
-      "id": "createaddition:diamond_grit"
-    }
-  ]
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:false"
+        }
+    ]
 }

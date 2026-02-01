@@ -7,10 +7,10 @@
     ],
     "type": "tfc:anvil",
     "ingredient": {
-        "tag": "c:sheets/gold"
+        "item": "tfc:metal/sheet/gold"
     },
     "result": {
-        "count": 8,
+        "count": 32,
         "id": "quark:gold_bars"
     },
     "tier": 3,
