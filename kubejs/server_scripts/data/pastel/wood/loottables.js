@@ -5,7 +5,6 @@
 try {
     console.info("Loot Tables loaded")
 
-
     LootJS.modifiers((event) => {
 
         global.DYE_COLOURS.forEach(colour => {
@@ -23,28 +22,7 @@ try {
             event.addBlockModifier(`pastel:${colour}_fence_gate`).replaceLoot("minecraft:oak_fence_gate", "tfc:wood/fence_gate/oak")
             event.addBlockModifier(`pastel:${colour}_button`).replaceLoot("minecraft:oak_button", "tfc:wood/button/oak")
         })
-
-        global.PASTEL_WOOD_TYPES.forEach(woodType => {
-            event.addBlockModifier(`${mod_id}:wood/twig/${woodType}`).addLoot(`${mod_id}:wood/twig/${woodType}`)
-            event.addBlockModifier(`${mod_id}:wood/scribing_table/${woodType}`).addLoot(`${mod_id}:wood/scribing_table/${woodType}`)
-            event.addBlockModifier(`${mod_id}:wood/sewing_table/${woodType}`).addLoot(`${mod_id}:wood/sewing_table/${woodType}`)
-            event.addBlockModifier(`${mod_id}:wood/vertical_support/${woodType}`).addLoot(`${mod_id}:wood/support/${woodType}`)
-            event.addBlockModifier(`${mod_id}:wood/horizontal_support/${woodType}`).addLoot(`${mod_id}:wood/support/${woodType}`)
-            event.addBlockModifier(`${mod_id}:wood/loom/${woodType}`).addLoot(`${mod_id}:wood/loom/${woodType}`)
-            event.addBlockModifier(`${mod_id}:wood/tool_rack/${woodType}`).addLoot(`${mod_id}:wood/tool_rack/${woodType}`)
-            event.addBlockModifier(`${mod_id}:wood/shelf/${woodType}`).addLoot(`${mod_id}:wood/shelf/${woodType}`)
-
-            event.addBlockModifier(`${mod_id}:wood/sluice/${woodType}`).addLoot(`${mod_id}:wood/sluice/${woodType}`).matchCustomCondition({
-                "condition": "minecraft:block_state_property",
-                "block": `${mod_id}:wood/sluice/${woodType}`,
-                "properties": {
-                    "upper": "true"
-                }
-            })
-        })
     })
-
-
 
 } catch (e) {
     console.log(e)

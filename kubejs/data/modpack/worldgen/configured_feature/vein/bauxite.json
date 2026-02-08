@@ -15,7 +15,7 @@
             ],
             "with": [
                 {
-                "block": "modpack:ore/bauxite/dolomite"
+                "block": "modpack:ore/bauxite"
                 }
             ]
         },
@@ -25,7 +25,7 @@
             ],
             "with": [
                 {
-                "block": "modpack:ore/bauxite/chalk"
+                "block": "modpack:ore/bauxite"
                 }
             ]
         },
@@ -35,7 +35,7 @@
             ],
             "with": [
                 {
-                "block": "modpack:ore/bauxite/limestone"
+                "block": "modpack:ore/bauxite"
                 }
             ]
         },
@@ -45,7 +45,7 @@
             ],
             "with": [
                 {
-                "block": "modpack:ore/bauxite/basalt"
+                "block": "modpack:ore/bauxite"
                 }
             ]
         },
@@ -55,7 +55,7 @@
             ],
             "with": [
                 {
-                "block": "modpack:ore/bauxite/rhyolite"
+                "block": "modpack:ore/bauxite"
                 }
             ]
         },
@@ -65,7 +65,7 @@
             ],
             "with": [
                 {
-                "block": "modpack:ore/bauxite/granite"
+                "block": "modpack:ore/bauxite"
                 }
             ]
         },
@@ -75,7 +75,7 @@
             ],
             "with": [
                 {
-                    "block": "modpack:ore/bauxite/gneiss"
+                    "block": "modpack:ore/bauxite"
                 }
             ]
         },
@@ -85,7 +85,7 @@
             ],
             "with": [
                 {
-                    "block": "modpack:ore/bauxite/serpentine"
+                    "block": "modpack:ore/bauxite"
                 }
             ]
         },
@@ -95,7 +95,7 @@
             ],
             "with": [
                 {
-                    "block": "modpack:ore/bauxite/blueschist"
+                    "block": "modpack:ore/bauxite"
                 }
             ]
         }

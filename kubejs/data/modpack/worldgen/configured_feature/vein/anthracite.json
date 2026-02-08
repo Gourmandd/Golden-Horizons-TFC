@@ -15,7 +15,7 @@
         ],
         "with": [
           {
-            "block": "modpack:ore/anthracite/gneiss"
+            "block": "modpack:ore/anthracite"
           }
         ]
       },
@@ -25,7 +25,7 @@
         ],
         "with": [
           {
-            "block": "modpack:ore/anthracite/marble"
+            "block": "modpack:ore/anthracite"
           }
         ]
       },
@@ -35,7 +35,7 @@
         ],
         "with": [
           {
-            "block": "modpack:ore/anthracite/quartzite"
+            "block": "modpack:ore/anthracite"
           }
         ]
       },
@@ -45,7 +45,7 @@
         ],
         "with": [
           {
-            "block": "modpack:ore/anthracite/schist"
+            "block": "modpack:ore/anthracite"
           }
         ]
       },
@@ -55,7 +55,7 @@
         ],
         "with": [
           {
-            "block": "modpack:ore/anthracite/serpentine"
+            "block": "modpack:ore/anthracite"
           }
         ]
       },
@@ -65,7 +65,7 @@
         ],
         "with": [
           {
-            "block": "modpack:ore/anthracite/blueschist"
+            "block": "modpack:ore/anthracite"
           }
         ]
       }
