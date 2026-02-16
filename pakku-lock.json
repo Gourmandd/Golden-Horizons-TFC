@@ -4432,68 +4432,6 @@
             ]
         },
         {
-            "pakku_id": "a6ZfRLp5gCpAWprd",
-            "type": "MOD",
-            "side": "CLIENT",
-            "slug": {
-                "curseforge": "mapwright",
-                "modrinth": "mapwright"
-            },
-            "name": {
-                "curseforge": "Mapwright",
-                "modrinth": "Mapwright"
-            },
-            "id": {
-                "curseforge": "1361711",
-                "modrinth": "iDYmMWwn"
-            },
-            "redistributable": false,
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "mapwright-neoforge-1.21.1-1.0.2.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/iDYmMWwn/versions/3QLFJ4sY/mapwright-neoforge-1.21.1-1.0.2.jar",
-                    "id": "3QLFJ4sY",
-                    "parent_id": "iDYmMWwn",
-                    "hashes": {
-                        "sha512": "bea1099944276db58620295cc6ea2521cee6e59fb77b7a1b4388441f3c8bfaa7c1aeeff3c80cb8ae29b2fa2332f7de386c0cefa49d3f7f06977ca1a7acd64682",
-                        "sha1": "99a1dcc8d1fdf8e15dd336c46fb5e237f015b474"
-                    },
-                    "required_dependencies": [],
-                    "size": 13429458,
-                    "date_published": "2025-11-13T03:14:36.570921Z"
-                },
-                {
-                    "type": "curseforge",
-                    "file_name": "mapwright-neoforge-1.21.1-1.0.2.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7216/570/mapwright-neoforge-1.21.1-1.0.2.jar",
-                    "id": "7216570",
-                    "parent_id": "1361711",
-                    "hashes": {
-                        "sha1": "99a1dcc8d1fdf8e15dd336c46fb5e237f015b474",
-                        "md5": "36146ef32f5ebe54c601773ae16dfd68"
-                    },
-                    "required_dependencies": [],
-                    "size": 13429458,
-                    "date_published": "2025-11-13T03:16:39.190Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "BKZiETV6C2sW8jQu",
             "type": "MOD",
             "side": "BOTH",
@@ -5170,6 +5108,80 @@
                     ],
                     "size": 507443,
                     "date_published": "2025-08-27T00:32:57.268286Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "K8m8gsd5l0NjmEg5",
+            "pakku_links": [
+                "bIz50BkuijMsGN1f",
+                "LJ8zAWQ25ZiRxV45",
+                "B9rCrTdjB1Frl92q",
+                "FQ6GKl2BSJ0TdbzC"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "on-ancient-ground-core",
+                "curseforge": "on-ancient-ground-core"
+            },
+            "name": {
+                "modrinth": "On Ancient Ground-Core",
+                "curseforge": "On Ancient Ground-Core"
+            },
+            "id": {
+                "modrinth": "CrmKwlKa",
+                "curseforge": "1450027"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "modpack-1.0.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/CrmKwlKa/versions/Cy8pK0o6/modpack-1.0.1.jar",
+                    "id": "Cy8pK0o6",
+                    "parent_id": "CrmKwlKa",
+                    "hashes": {
+                        "sha512": "b601b8f071b6b4195cce35649a5d53b92d09d340526c3d3e2bd42c749f0662e28fb3ea82b45778f4c834966209b27c3a9c2b5e9dd34e938c29f01017d6831ca4",
+                        "sha1": "b6b800eee52e870476899c1d933ead2121c7e999"
+                    },
+                    "required_dependencies": [
+                        "1o7aFiY6"
+                    ],
+                    "size": 813590,
+                    "date_published": "2026-02-08T18:26:24.835345Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "modpack-1.0.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "alpha",
+                    "url": "https://edge.forgecdn.net/files/7595/588/modpack-1.0.1.jar",
+                    "id": "7595588",
+                    "parent_id": "1450027",
+                    "hashes": {
+                        "sha1": "b6b800eee52e870476899c1d933ead2121c7e999",
+                        "md5": "b4a7694b75288724b4f98e5dc297a4b0"
+                    },
+                    "required_dependencies": [
+                        "1264556",
+                        "877545",
+                        "302973",
+                        "656147"
+                    ],
+                    "size": 813590,
+                    "date_published": "2026-02-08T18:26:23.107Z"
                 }
             ]
         },
@@ -6441,152 +6453,6 @@
             ]
         },
         {
-            "pakku_id": "ZQysDK6DqerIpdhB",
-            "pakku_links": [
-                "B9rCrTdjB1Frl92q",
-                "mBZe7T4lf6jtZgLN",
-                "kTRMgjPLNUBOjWDQ"
-            ],
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "modrinth": "tfc-astikor-carts",
-                "curseforge": "astikor-carts-tfc"
-            },
-            "name": {
-                "modrinth": "TFC Astikor Carts",
-                "curseforge": "Astikor Carts TFC"
-            },
-            "id": {
-                "modrinth": "Q7dNt3PU",
-                "curseforge": "844019"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "TFCAstikorCarts-1.21.x-1.2.2.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/Q7dNt3PU/versions/wLxweHah/TFCAstikorCarts-1.21.x-1.2.2.jar",
-                    "id": "wLxweHah",
-                    "parent_id": "Q7dNt3PU",
-                    "hashes": {
-                        "sha512": "c2ebe49ce3b247d16dbb0333e774b764d2a878aae1fe28b25396e2d95b7dac09df5f7058c0d7dbc77b502670629287cace99822fca207e707f95d9b7e0e7436b",
-                        "sha1": "7865b6b7fcdfc24530eb9730bbb5baaf242730e8"
-                    },
-                    "required_dependencies": [
-                        "JaCEZUhg",
-                        "mnLFouB0",
-                        "mrSESjNK"
-                    ],
-                    "size": 709476,
-                    "date_published": "2025-12-04T13:57:39.615387Z"
-                },
-                {
-                    "type": "curseforge",
-                    "file_name": "TFCAstikorCarts-1.21.x-1.2.2.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7293/679/TFCAstikorCarts-1.21.x-1.2.2.jar",
-                    "id": "7293679",
-                    "parent_id": "844019",
-                    "hashes": {
-                        "sha1": "7865b6b7fcdfc24530eb9730bbb5baaf242730e8",
-                        "md5": "3423220a5ec27ff546978fc3b391ac28"
-                    },
-                    "required_dependencies": [
-                        "302973",
-                        "1396119",
-                        "916493"
-                    ],
-                    "size": 709476,
-                    "date_published": "2025-12-04T13:55:25.580Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "kTRMgjPLNUBOjWDQ",
-            "pakku_links": [
-                "B9rCrTdjB1Frl92q"
-            ],
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "curseforge": "tfc-registry-api",
-                "modrinth": "tfc-registry-api"
-            },
-            "name": {
-                "curseforge": "TFC Registry API",
-                "modrinth": "TFC Registry API"
-            },
-            "id": {
-                "curseforge": "1396119",
-                "modrinth": "mrSESjNK"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "TFCRegistryAPI-1.21.x-1.2.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/mrSESjNK/versions/qh51dOax/TFCRegistryAPI-1.21.x-1.2.jar",
-                    "id": "qh51dOax",
-                    "parent_id": "mrSESjNK",
-                    "hashes": {
-                        "sha512": "cd0dd03ea1d9684fbc314ded386e8330c11ab570c149a33d7dd4e8d8347080c97290baee1042e03011bb39d4f24f2006a8c2afdb11127901609a94600b27f5f9",
-                        "sha1": "9cf372565758c6eacae2b39652b5a288c138c45d"
-                    },
-                    "required_dependencies": [
-                        "JaCEZUhg"
-                    ],
-                    "size": 91559,
-                    "date_published": "2025-12-12T21:29:37.772626Z"
-                },
-                {
-                    "type": "curseforge",
-                    "file_name": "TFCRegistryAPI-1.21.x-1.2.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7324/760/TFCRegistryAPI-1.21.x-1.2.jar",
-                    "id": "7324760",
-                    "parent_id": "1396119",
-                    "hashes": {
-                        "sha1": "9cf372565758c6eacae2b39652b5a288c138c45d",
-                        "md5": "74e47fd2647817e4e9b571ebad6921be"
-                    },
-                    "required_dependencies": [
-                        "302973"
-                    ],
-                    "size": 91559,
-                    "date_published": "2025-12-12T15:47:21.837Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "WN3kKrDDt0CTP6yy",
             "pakku_links": [
                 "B9rCrTdjB1Frl92q"
@@ -6988,74 +6854,6 @@
                     ],
                     "size": 12178702,
                     "date_published": "2026-01-13T05:11:22.603Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "eKT7FJip27jbW3Hn",
-            "pakku_links": [
-                "s3U91FUGI5yp3HRI"
-            ],
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "curseforge": "visual-workbench",
-                "modrinth": "visual-workbench"
-            },
-            "name": {
-                "curseforge": "Visual Workbench",
-                "modrinth": "Visual Workbench"
-            },
-            "id": {
-                "curseforge": "500273",
-                "modrinth": "kfqD1JRw"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "VisualWorkbench-v21.1.1-1.21.1-NeoForge.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6798/196/VisualWorkbench-v21.1.1-1.21.1-NeoForge.jar",
-                    "id": "6798196",
-                    "parent_id": "500273",
-                    "hashes": {
-                        "sha1": "74941456944461f39b10504ec9aed8c1e0fb7276",
-                        "md5": "8baebdd1f10920df0850206c13ed6b7b"
-                    },
-                    "required_dependencies": [
-                        "495476"
-                    ],
-                    "size": 81945,
-                    "date_published": "2025-07-22T10:04:22.490Z"
-                },
-                {
-                    "type": "modrinth",
-                    "file_name": "VisualWorkbench-v21.1.1-1.21.1-NeoForge.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/kfqD1JRw/versions/Jy5V5FNj/VisualWorkbench-v21.1.1-1.21.1-NeoForge.jar",
-                    "id": "Jy5V5FNj",
-                    "parent_id": "kfqD1JRw",
-                    "hashes": {
-                        "sha512": "8e8837d2ddf7d60d192597d0c53d0fe3cd10858bf1cd015b154bc87a05603c0b849acc966592671d927bdb421c83f3c95f80ce5ba63717825508ef1579437aac",
-                        "sha1": "74941456944461f39b10504ec9aed8c1e0fb7276"
-                    },
-                    "required_dependencies": [
-                        "QAGBst4M"
-                    ],
-                    "size": 81945,
-                    "date_published": "2025-07-22T10:04:26.294152Z"
                 }
             ]
         },
