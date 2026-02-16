@@ -10,9 +10,7 @@
         "item": "tfc:blank_disc"
     },
     "input_fluid": {
-        "fluid": {
-            "tag": "tfc:alcohols"
-        },
+        "fluid": "tfc:beer",
         "amount": 100
     },
     "output_item": {
