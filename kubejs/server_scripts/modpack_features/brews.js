@@ -1,3 +1,5 @@
+// packmode: test
+// the way caupona does these recipes leads to other mods like TFC and wark to complain.
 
 const BREW_TAG = "modpack:food/brew_ingredients"
 
