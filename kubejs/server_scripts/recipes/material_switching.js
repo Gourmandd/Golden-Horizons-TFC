@@ -44,8 +44,6 @@ try {
         replace_materials("createaddition:diamond_grit", "tfc:powder/diamond")
         replace_materials("corn_delight:corn", "tfc:food/maize")
         //replace_materials("minecraft:feather", "artisanal:quill")
-        replace_materials("minecraft:sweet_berries", "#c:foods/fruit/berries")
-        replace_materials("#minecraft:fox_food", "#c:foods/fruit/berries")
         replace_materials("minecraft:dirt", "#minecraft:dirt")
         //replace_materials("farmersdelight:cooked_bacon", "firmalife:food/cooked_bacon")
 
