@@ -1838,7 +1838,12 @@ ServerEvents.recipes(event => {
         "create:cutting/stripped_dark_oak_log",
         "minecraft:campfire",
         "rusticdelight:wild_coffee",
-        "minecraft:sandstone"
+        "minecraft:sandstone",
+        "minecraft:trapped_chest",
+        "architects_palette:ancient_plating",
+        "quark:world/crafting/stairs/midori_block_slab",
+        "quark:oddities/crafting/backpack_no_hide",
+        "quark:oddities/crafting/backpack"
     ]
 
     global.DYE_COLOURS.forEach(type => {

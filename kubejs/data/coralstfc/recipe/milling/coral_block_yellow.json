@@ -1,0 +1,25 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "create"
+        }
+    ],
+    "type": "create:milling",
+    "ingredients": [
+        {
+            "tag": "c:coral_block/yellow"
+        }
+    ],
+    "results": [
+        {
+            "count": 1,
+            "id": "minecraft:yellow_dye"
+        },
+        {
+            "count": 4,
+            "id": "coralstfc:coral_powder"
+        }
+    ],
+    "processingTime": 400
+}

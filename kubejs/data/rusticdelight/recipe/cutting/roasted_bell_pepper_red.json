@@ -2,7 +2,7 @@
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "item": "rustic_delight:roasted_bell_pepper_red"
+        "item": "rusticdelight:roasted_bell_pepper_red"
     }
   ],
   "result": [

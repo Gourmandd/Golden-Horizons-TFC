@@ -1,0 +1,38 @@
+{
+    "type": "pastel:pedestal",
+    "time": 2400,
+    "tier": "complex",
+    "colors": {
+        "pastel:cyan": 16,
+        "pastel:magenta": 16,
+        "pastel:yellow": 16,
+        "pastel:white": 16,
+        "pastel:black": 16
+    },
+    "experience": 20,
+    "pattern": [
+        "LPL",
+        "RPR",
+        "BLB"
+    ],
+    "key": {
+        "R": {
+            "item": "tfc:metal/double_sheet/red_steel"
+        },
+        "B": {
+            "item": "tfc:metal/double_sheet/blue_steel"
+        },
+        "P": {
+            "item": "pastel:paltaeria_gem"
+        },
+        "L": {
+            "item": "minecraft:leather"
+        }
+    },
+    "result": {
+        "id": "quark:backpack",
+        "count": 1
+    },
+    "required_advancement": "pastel:hidden/collect_paltaeria_gem",
+    "disable_yield_upgrades": true
+}
