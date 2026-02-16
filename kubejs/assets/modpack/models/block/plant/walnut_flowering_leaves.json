@@ -1,6 +1,0 @@
-{
-  "parent": "block/leaves",
-  "textures": {
-    "all": "modpack:block/plant/walnut_flowering_leaves"
-  }
-}

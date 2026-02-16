@@ -1,6 +1,0 @@
-{
-  "parent": "tfc:block/plant/cross_3",
-  "textures": {
-    "cross": "caupona:block/fig_sapling"
-  }
-}

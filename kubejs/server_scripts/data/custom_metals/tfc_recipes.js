@@ -15,39 +15,7 @@ ServerEvents.recipes(event => {
             .generate()
     }
 
-    function welding(output, input, tier, id) {
-        datagen.welding(
-            outputOf(IO_TYPE.ITEM, output, 1),
-            inputOf(IO_TYPE.ITEM, input, 1),
-            inputOf(IO_TYPE.ITEM, input, 1)
-        ).setTier(tier).id(id).generate()
-    }
-
-
     global.KUBEJS_METALS.forEach(metal => {
-
-        welding(`${mod_id}:metal/double_ingot/${metal}`, `${mod_id}:metal/ingot/${metal}`, datagen.ANVIL_TIER.IRON, `${mod_id}:welding/${metal}_double_ingot`)
-        welding(`${mod_id}:metal/double_sheet/${metal}`, `${mod_id}:metal/sheet/${metal}`, datagen.ANVIL_TIER.IRON, `${mod_id}:welding/${metal}_double_sheet`)
-
-        datagen.anvil(
-            outputOf(IO_TYPE.ITEM, `${mod_id}:metal/sheet/${metal}`, 1),
-            inputOf(IO_TYPE.ITEM, `${mod_id}:metal/double_ingot/${metal}`, 1),
-            [
-                "hit_last",
-                "hit_second_last",
-                "hit_third_last"
-            ]
-        ).setTier(datagen.ANVIL_TIER.IRON).id(`${mod_id}:anvil/sheet/${metal}`).generate()
-
-        datagen.anvil(
-            outputOf(IO_TYPE.ITEM, `${mod_id}:metal/rod/${metal}`, 2),
-            inputOf(IO_TYPE.ITEM, `${mod_id}:metal/ingot/${metal}`, 1),
-            [
-                "bend_last",
-                "draw_second_last",
-                "draw_third_last"
-            ]
-        ).setTier(datagen.ANVIL_TIER.IRON).id(`${mod_id}:anvil/rod/${metal}`).generate()
 
         datagen.casting(
             outputOf(IO_TYPE.ITEM, `${mod_id}:metal/ingot/${metal}`, 1),
