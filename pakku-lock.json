@@ -1606,77 +1606,6 @@
             ]
         },
         {
-            "pakku_id": "cVguNnH1T7T8TwoH",
-            "pakku_links": [
-                "kyoI3cFLp8p0Mvsa",
-                "KSHexYPuzsPPDKq7"
-            ],
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "curseforge": "corn-delight",
-                "modrinth": "corn-delight"
-            },
-            "name": {
-                "curseforge": "Corn Delight[Forge]",
-                "modrinth": "Corn Delight"
-            },
-            "id": {
-                "curseforge": "577805",
-                "modrinth": "uxLAKWU8"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "corn_delight-1.1.8-1.21.1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6662/603/corn_delight-1.1.8-1.21.1.jar",
-                    "id": "6662603",
-                    "parent_id": "577805",
-                    "hashes": {
-                        "sha1": "e4e85a3abfc5d51fe5c4f46b2d207b1a8d29e343",
-                        "md5": "d29c8a050ebfc7ccb7f967decd5cf30d"
-                    },
-                    "required_dependencies": [
-                        "398521",
-                        "368098"
-                    ],
-                    "size": 163806,
-                    "date_published": "2025-06-17T19:16:06.553Z"
-                },
-                {
-                    "type": "modrinth",
-                    "file_name": "corn_delight-1.1.8-1.21.1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/uxLAKWU8/versions/IyuE10ak/corn_delight-1.1.8-1.21.1.jar",
-                    "id": "IyuE10ak",
-                    "parent_id": "uxLAKWU8",
-                    "hashes": {
-                        "sha512": "2f3cbf3e9dacbad3184f6f8f898f069008926a0342da3b1e84608523c74a3100eae7ed65c1d2f43cdfe0eb9d84175908974d39722ab342a7b6dbc326d2dc7c64",
-                        "sha1": "e4e85a3abfc5d51fe5c4f46b2d207b1a8d29e343"
-                    },
-                    "required_dependencies": [
-                        "R2OftAxM",
-                        "ntMyNH8c"
-                    ],
-                    "size": 163806,
-                    "date_published": "2025-06-17T19:15:30.704507Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "POoqeXgUYwLzcpwh",
             "type": "MOD",
             "side": "BOTH",
@@ -4874,42 +4803,6 @@
             ]
         },
         {
-            "pakku_id": "KSHexYPuzsPPDKq7",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "mysterious-mountain-lib"
-            },
-            "name": {
-                "curseforge": "Mysterious Mountain Lib"
-            },
-            "id": {
-                "curseforge": "368098"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "mysterious_mountain_lib-1.2.14-1.21.1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6929/513/mysterious_mountain_lib-1.2.14-1.21.1.jar",
-                    "id": "6929513",
-                    "parent_id": "368098",
-                    "hashes": {
-                        "sha1": "6cff50c273447c2b78e8645201cf3fdf41d4e2cc",
-                        "md5": "853b140c4e4da42382ed7630a2c68184"
-                    },
-                    "required_dependencies": [],
-                    "size": 291729,
-                    "date_published": "2025-08-26T07:03:09.520Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "lqRtHMKYDb3lWZXc",
             "type": "MOD",
             "side": "BOTH",
@@ -7116,72 +7009,6 @@
                     "required_dependencies": [],
                     "size": 654672,
                     "date_published": "2025-12-26T10:13:08.953Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "ijwLIoHFrytHZgj2",
-            "pakku_links": [
-                "hu9KEilDJu0di64z"
-            ],
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "curseforge": "ewewukeks-musket-mod",
-                "modrinth": "musket-mod"
-            },
-            "name": {
-                "curseforge": "ewewukek's Musket Mod",
-                "modrinth": "Musket Mod"
-            },
-            "id": {
-                "curseforge": "354562",
-                "modrinth": "967vM4zw"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "musketmod-1.21.1-neoforge-1.5.4.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5805/570/musketmod-1.21.1-neoforge-1.5.4.jar",
-                    "id": "5805570",
-                    "parent_id": "354562",
-                    "hashes": {
-                        "sha1": "1ba2e36a016afa739eae4e036f24791fd0f91cd3",
-                        "md5": "4db22d697b6a69b7349ee2bf0ea76722"
-                    },
-                    "required_dependencies": [],
-                    "size": 446337,
-                    "date_published": "2024-10-12T12:31:17.597Z"
-                },
-                {
-                    "type": "modrinth",
-                    "file_name": "musketmod-1.21.1-neoforge-1.5.4.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/967vM4zw/versions/hro6S6DK/musketmod-1.21.1-neoforge-1.5.4.jar",
-                    "id": "hro6S6DK",
-                    "parent_id": "967vM4zw",
-                    "hashes": {
-                        "sha512": "a1a544293057232305c75ffb288a33592115cda83471dd508b4a8fc27ff5332be0c57c0961bc57a34077f437c3ddd3bb6c9f3bf84dc9c813be7d8919a79fcf6c",
-                        "sha1": "1ba2e36a016afa739eae4e036f24791fd0f91cd3"
-                    },
-                    "required_dependencies": [
-                        "9s6osm5g"
-                    ],
-                    "size": 446337,
-                    "date_published": "2024-10-12T12:35:30.957154Z"
                 }
             ]
         },
