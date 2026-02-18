@@ -68,6 +68,8 @@
 	map_change_sound = false
 	#Automatically switches to the nearest slice when possible
 	automatic_slice_change = false
+	#Hides minimap when inventory is open
+	hide_when_inventory_is_open = false
 
 [world_map]
 	#Adds a shear button to the atlas screen which allows you to cut maps

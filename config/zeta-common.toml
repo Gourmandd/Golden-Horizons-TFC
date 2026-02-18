@@ -1,4 +1,3 @@
-
 [general]
 	#Disable this to turn off the module system logic that makes features turn off when specified mods with the same content are loaded
 	"Use Anti Overlap" = true
@@ -10,7 +9,7 @@
 	#Set to false to disable the behavior where Zeta will automatically hide any disabled items from creative and JEI
 	"Hide Disabled Content" = true
 	#Set to false to disable Zeta's item info when viewing recipe/uses for an item in JEI
-	"Enable Jei Item Info" = false
+	"Enable Jei Item Info" = true
 	#For JEI info purposes, add any items here to specifically disable their JEI info from Zeta. Note that Zeta already only shows info that's relevant to which features are enabled
 	"Suppressed Info" = []
 	#Set to false to stop Zeta from adding mod items to multi-requirement vanilla advancements
@@ -25,4 +24,3 @@
 	"Enable Creative Verbose Logging" = false
 	#Set to true to force all creative tab additions to be added to the end of the creative tabs rather than the middle, as a failsafe
 	"Force Creative Tab Appends" = false
-

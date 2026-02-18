@@ -85,3 +85,4 @@ panoramaScrollSpeed:1.0
 telemetryOptInExtra:false
 onboardAccessibility:false
 key_key.voice_chat:key.keyboard.unknown
+key_quark.keybind.change_hotbar:key.keyboard.unknown
