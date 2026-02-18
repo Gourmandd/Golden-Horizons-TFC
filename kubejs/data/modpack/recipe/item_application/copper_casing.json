@@ -14,5 +14,9 @@
             "item": "tfc:metal/ingot/copper"
         }
     ],
-    "results": []
+    "results": [
+        {
+            "id": "create:copper_casing"
+        }
+    ]
 }

@@ -14,5 +14,9 @@
             "item": "tfc:metal/ingot/brass"
         }
     ],
-    "results": []
+    "results": [
+        {
+            "id": "create:brass_casing"
+        }
+    ]
 }

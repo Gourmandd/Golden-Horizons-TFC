@@ -16,18 +16,18 @@ ServerEvents.recipes(event => {
             if (type == "kaolinite") {
 
                 datagen.createDeploying(
-                    outputOf(ITEM, `${mod_id}:ceramic/kaolinite/unfired_${tool}_mold`, 1, 1),
+                    outputOf(ITEM, `${mod_id}:ceramic/kaolinite/unfired_${tool}_${global.TFC_TOOL_HEADS[tool]}_mold`, 1, 1),
                     inputOf(ITEM, "tfc:white_kaolin_clay", 1),
-                    inputOf(TAG, `#${mod_id}:tool_heads/${tool}`, 1)
-                ).id(`${mod_id}:deploying/mold_pressing/kaolinite/${tool}`).generate()
+                    inputOf(TAG, `#${mod_id}:tool_heads/${tool}_${global.TFC_TOOL_HEADS[tool]}`)
+                ).id(`${mod_id}:deploying/mold_pressing/kaolinite/${tool}_${global.TFC_TOOL_HEADS[tool]}`).generate()
 
                 return
             }
             datagen.createDeploying(
-                outputOf(ITEM, `${mod_id}:ceramic/${type}/unfired_${tool}_mold`, 1, 1),
+                outputOf(ITEM, `${mod_id}:ceramic/${type}/unfired_${tool}_${global.TFC_TOOL_HEADS[tool]}_mold`, 1, 1),
                 inputOf(ITEM, `${mod_id}:clay/${type}_clay_block`, 1),
-                inputOf(TAG, `#${mod_id}:tool_heads/${tool}`, 1)
-            ).id(`${mod_id}:deploying/mold_pressing/${type}/${tool}`).generate()
+                inputOf(TAG, `#${mod_id}:tool_heads/${tool}_${global.TFC_TOOL_HEADS[tool]}`)
+            ).id(`${mod_id}:deploying/mold_pressing/${type}/${tool}_${global.TFC_TOOL_HEADS[tool]}`).generate()
         })
 
         if (type == "kaolinite") {
@@ -64,8 +64,8 @@ ServerEvents.recipes(event => {
         datagen.createDeploying(
             outputOf(ITEM, `tfc:ceramic/unfired_${tool}_${global.TFC_TOOL_HEADS[tool]}_mold`, 1, 1),
             inputOf(ITEM, "minecraft:clay"),
-            inputOf(TAG, `#${mod_id}:tool_heads/${tool}`)
-        ).id(`${mod_id}:deploying/mold_pressing/${tool}/clay`).generate()
+            inputOf(TAG, `#${mod_id}:tool_heads/${tool}_${global.TFC_TOOL_HEADS[tool]}`)
+        ).id(`${mod_id}:deploying/mold_pressing/${tool}_${global.TFC_TOOL_HEADS[tool]}/clay`).generate()
     })
 
     datagen.createDeploying(

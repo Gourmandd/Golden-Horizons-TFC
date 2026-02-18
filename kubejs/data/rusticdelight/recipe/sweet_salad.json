@@ -31,7 +31,7 @@
             "type": "tfc:and",
             "children": [
                 {
-                    "tag": "c:foods/vegetables"
+                    "tag": "c:foods/vegetable"
                 },
                 {
                     "type": "tfc:not_rotten"

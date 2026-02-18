@@ -1,18 +1,16 @@
 {
-    "neoforge:conditions": [
-        {
-            "type": "neoforge:mod_loaded",
-            "modid": "firmalife"
-        }
-    ],
     "type": "create:item_application",
     "ingredients": [
         {
             "item": "firmalife:treated_wood"
         },
         {
-            "item": "create:andesite_alloy"
+            "item": "tfc:metal/ingot/steel"
         }
     ],
-    "results": []
+    "results": [
+        {
+            "id": "create:andesite_casing"
+        }
+    ]
 }
