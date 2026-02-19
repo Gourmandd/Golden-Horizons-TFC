@@ -1,18 +1,16 @@
 {
-    "neoforge:conditions": [
-        {
-            "type": "neoforge:mod_loaded",
-            "modid": "createbigcannons"
-        }
-    ],
     "type": "create:item_application",
     "ingredients": [
         {
             "item": "createbigcannons:autocannon_barrel_cast_mould"
         },
         {
-            "tag": "tfc:saws"
+            "tag": "c:tools/saw"
         }
     ],
-    "results": []
+    "results": [
+        {
+            "id": "minecraft:air"
+        }
+    ]
 }

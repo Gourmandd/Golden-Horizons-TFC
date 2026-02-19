@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "modpack:metal/ingot/hardened_steel"
+        }
+    ],
+    "result": {
+        "count": 9,
+        "id": "createbigcannons:steel_scrap"
+    }
+}

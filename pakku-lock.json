@@ -1727,6 +1727,53 @@
             ]
         },
         {
+            "pakku_id": "DxbFAsC11kXR0q0b",
+            "pakku_links": [
+                "pTka17YqlHzJjenh",
+                "POoqeXgUYwLzcpwh"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "create-big-cannons",
+                "modrinth": "create-big-cannons"
+            },
+            "name": {
+                "curseforge": "Create Big Cannons",
+                "modrinth": "Create Big Cannons"
+            },
+            "id": {
+                "curseforge": "646668",
+                "modrinth": "GWp4jCJj"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "createbigcannons-5.11.0-mc.1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7642/335/createbigcannons-5.11.0-mc.1.21.1.jar",
+                    "id": "7642335",
+                    "parent_id": "646668",
+                    "hashes": {
+                        "sha1": "580e3f81add8ac35eb6aec6b97e63c0cb14ed55e",
+                        "md5": "53f07a35407c6d5183a0c7ccfc5cb595"
+                    },
+                    "required_dependencies": [
+                        "1279407",
+                        "328085"
+                    ],
+                    "size": 3695956,
+                    "date_published": "2026-02-18T04:06:58.063Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "8XcNvRGvubPz76Zs",
             "pakku_links": [
                 "POoqeXgUYwLzcpwh"
@@ -5891,6 +5938,42 @@
                     "required_dependencies": [],
                     "size": 882032,
                     "date_published": "2025-10-13T22:22:58.843Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "pTka17YqlHzJjenh",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "ritchies-projectile-library"
+            },
+            "name": {
+                "curseforge": "Ritchie's Projectile Library"
+            },
+            "id": {
+                "curseforge": "1279407"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ritchiesprojectilelib-2.1.2-mc.1.21.1-neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7587/771/ritchiesprojectilelib-2.1.2-mc.1.21.1-neoforge.jar",
+                    "id": "7587771",
+                    "parent_id": "1279407",
+                    "hashes": {
+                        "sha1": "ec2e4996f8bee8714173e603e379fef8a6901765",
+                        "md5": "1772f7d2ef79cdb3e77ff0335fe7f3f8"
+                    },
+                    "required_dependencies": [],
+                    "size": 76369,
+                    "date_published": "2026-02-07T05:45:34.217Z"
                 }
             ]
         },

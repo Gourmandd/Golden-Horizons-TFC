@@ -1681,39 +1681,59 @@ ServerEvents.recipes(event => {
         "minecraft:gray_stained_glass_pane_from_glass_pane",
         "create:cutting/oak_log",
         "farmersdelight:tomato",
+
         "createbigcannons:melting/melt_steel_nugget",
-        "create:milling/cornflower",
-        "architects_palette:stonecutting/abyssaline_bricks_from_stonecutting",
-        "create:mixing/mud_by_mixing",
-        "rusticdelight:brown_dye_from_roasted_coffee_beans",
+        "createbigcannons:mixing/alloy_bronze_tin",
+        "createbigcannons:mixing/alloy_bronze_tinless",
+        "createbigcannons:mixing/alloy_bronze_brass",
+        "createbigcannons:mixing/alloy_steel",
+        "createbigcannons:compacting/forge_cast_iron_block",
+        "createbigcannons:compacting/forge_bronze_block",
+        "createbigcannons:compacting/forge_steel_block",
+
         "tfc:crafting/wood/boat/spruce",
+
+        "caupona:stonecutter/lateres_from_terracotta",
+
+        "lithiccoins:casting/die_mold/burn/wrought_iron",
+
+        "farmersdelight:cutting/wild_cabbages",
+
         "pastel:anvil_crushing/vanilla_pulverising/prismarine_shard_from_dark_prismarine",
         "pastel:anvil_crushing/vanilla_pulverising/sand_from_gravel",
-        "architects_palette:wardstone_bricks",
-        "caupona:stonecutter/lateres_from_terracotta",
-        "lithiccoins:casting/die_mold/burn/wrought_iron",
-        "minecraft:wheat",
-        "farmersdelight:cutting/wild_cabbages",
         "pastel:anvil_crushing/vanilla_pulverising/cracked_stone_bricks_from_stone_bricks",
         "pastel:mod_integration/create/crushing/ores/deepslate_citrine_ore",
         "pastel:anvil_crushing/vanilla_pulverising/mossy_cobblestone_stairs_from_mossy_stone_brick_stairs",
         "pastel:anvil_crushing/pastel_pulverising/cracked_calcite_tiles",
+
+        "rusticdelight:brown_dye_from_roasted_coffee_beans",
+        "rusticdelight:honey_coffee_from_coffee",
+
+        "createaddition:mixing/biomass_from_plants",
+
+        "create:milling/cornflower",
+        "create:mixing/mud_by_mixing",
+        "create:cutting/acacia_wood",
+        "create:cutting/stripped_dark_oak_log",
+
+        "rusticdelight:wild_coffee",
+
+        "minecraft:wheat",
         "minecraft:dye_cyan_bed",
         "minecraft:iron_ingot_from_blasting_raw_iron",
-        "rusticdelight:honey_coffee_from_coffee",
-        "createaddition:mixing/biomass_from_plants",
         "minecraft:coal_from_smelting_deepslate_coal_ore",
         "minecraft:blue_stained_glass_pane",
-        "create:cutting/acacia_wood",
         "minecraft:deepslate_brick_wall_from_polished_deepslate_stonecutting",
-        "quark:building/stonecutting/stonevariants/jasper_bricks_polished_stonecutting",
         "minecraft:end_stone_brick_stairs_from_end_stone_stonecutting",
-        "create:cutting/stripped_dark_oak_log",
         "minecraft:campfire",
-        "rusticdelight:wild_coffee",
         "minecraft:sandstone",
         "minecraft:trapped_chest",
+
+        "architects_palette:stonecutting/abyssaline_bricks_from_stonecutting",
+        "architects_palette:wardstone_bricks",
         "architects_palette:ancient_plating",
+
+        "quark:building/stonecutting/stonevariants/jasper_bricks_polished_stonecutting",
         "quark:world/crafting/stairs/midori_block_slab",
         "quark:oddities/crafting/backpack_no_hide",
         "quark:oddities/crafting/backpack"

@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "modpack:metal/ingot/cast_iron_alloy"
+        }
+    ],
+    "result": {
+        "count": 9,
+        "id": "createbigcannons:cast_iron_nugget"
+    }
+}

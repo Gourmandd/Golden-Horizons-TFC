@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [],
+    "remove": [
+        "createbigcannons:cast_iron_block"
+    ]
+}

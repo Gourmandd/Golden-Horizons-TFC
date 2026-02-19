@@ -1,18 +1,16 @@
 {
-    "neoforge:conditions": [
-        {
-            "type": "neoforge:mod_loaded",
-            "modid": "createbigcannons"
-        }
-    ],
     "type": "create:item_application",
     "ingredients": [
         {
             "item": "createbigcannons:medium_cast_mould"
         },
         {
-            "tag": "tfc:chisels"
+            "tag": "c:tools/chisel"
         }
     ],
-    "results": []
+    "results": [
+        {
+            "id": "createbigcannons:cannon_end_cast_mould"
+        }
+    ]
 }

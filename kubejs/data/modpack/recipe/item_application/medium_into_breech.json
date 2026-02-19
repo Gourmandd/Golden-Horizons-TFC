@@ -1,18 +1,16 @@
 {
-    "neoforge:conditions": [
-        {
-            "type": "neoforge:mod_loaded",
-            "modid": "createbigcannons"
-        }
-    ],
     "type": "create:item_application",
     "ingredients": [
         {
             "item": "createbigcannons:medium_cast_mould"
         },
         {
-            "tag": "tfc:knives"
+            "tag": "c:tools/knife"
         }
     ],
-    "results": []
+    "results": [
+        {
+            "id": "createbigcannons:sliding_breech_cast_mould"
+        }
+    ]
 }

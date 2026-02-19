@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "modpack:metal/ingot/aluminium_bronze"
+        },
+        {
+            "item": "modpack:metal/ingot/aluminium_bronze"
+        },
+        {
+            "item": "modpack:metal/ingot/aluminium_bronze"
+        },
+        {
+            "item": "modpack:metal/ingot/aluminium_bronze"
+        },
+        {
+            "item": "modpack:metal/ingot/aluminium_bronze"
+        },
+        {
+            "item": "modpack:metal/ingot/aluminium_bronze"
+        },
+        {
+            "item": "modpack:metal/ingot/aluminium_bronze"
+        },
+        {
+            "item": "modpack:metal/ingot/aluminium_bronze"
+        },
+        {
+            "item": "modpack:metal/ingot/aluminium_bronze"
+        }
+    ],
+    "result": {
+        "id": "createbigcannons:bronze_block"
+    }
+}

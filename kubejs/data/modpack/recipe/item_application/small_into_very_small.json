@@ -1,18 +1,16 @@
 {
-    "neoforge:conditions": [
-        {
-            "type": "neoforge:mod_loaded",
-            "modid": "createbigcannons"
-        }
-    ],
     "type": "create:item_application",
     "ingredients": [
         {
             "item": "createbigcannons:small_cast_mould"
         },
         {
-            "tag": "tfc:saws"
+            "tag": "c:tools/saw"
         }
     ],
-    "results": []
+    "results": [
+        {
+            "id": "createbigcannons:very_small_cast_mould"
+        }
+    ]
 }

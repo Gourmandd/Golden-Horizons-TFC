@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "modpack:metal/ingot/aluminium_bronze"
+        }
+    ],
+    "result": {
+        "count": 9,
+        "id": "createbigcannons:bronze_scrap"
+    }
+}
