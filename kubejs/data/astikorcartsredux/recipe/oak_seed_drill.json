@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "minecraft:chest"
+    },
+    "m": {
+      "item": "tfc:brass_mechanisms"
+    },
+    "h": {
+      "item": "minecraft:hopper"
+    },
+    "p": {
+      "tag": "minecraft:planks"
+    },
+    "w": {
+      "item": "astikorcartsredux:wheel"
+    }
+  },
+  "pattern": [
+    "pcp",
+    "php",
+    "wmw"
+  ],
+  "result": {
+    "count": 1,
+    "id": "astikorcartsredux:oak_seed_drill"
+  }
+}

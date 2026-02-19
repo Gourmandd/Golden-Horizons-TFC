@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "p": {
+      "tag": "minecraft:planks"
+    },
+    "m": {
+      "item": "tfc:brass_mechanisms"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "w": {
+      "item": "astikorcartsredux:wheel"
+    }
+  },
+  "pattern": [
+    "sss",
+    "psp",
+    "wmw"
+  ],
+  "result": {
+    "count": 1,
+    "id": "astikorcartsredux:oak_plow"
+  }
+}

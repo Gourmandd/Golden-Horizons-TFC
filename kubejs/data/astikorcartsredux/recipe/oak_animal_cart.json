@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "p": {
+      "tag": "minecraft:planks"
+    },
+    "m": {
+      "item": "tfc:brass_mechanisms"
+    },
+    "w": {
+      "item": "astikorcartsredux:wheel"
+    }
+  },
+  "pattern": [
+    "ppp",
+    "ppp",
+    "wmw"
+  ],
+  "result": {
+    "count": 1,
+    "id": "astikorcartsredux:oak_animal_cart"
+  }
+}

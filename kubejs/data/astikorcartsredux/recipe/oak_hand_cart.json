@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+        "item": "minecraft:chest"
+    },
+    "m": {
+      "item": "tfc:brass_mechanisms"
+    },
+    "p": {
+      "tag": "minecraft:planks"
+    },
+    "w": {
+      "item": "astikorcartsredux:wheel"
+    }
+  },
+  "pattern": [
+    "pcp",
+    "wmw"
+  ],
+  "result": {
+    "count": 1,
+    "id": "astikorcartsredux:oak_hand_cart"
+  }
+}
