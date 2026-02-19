@@ -21,6 +21,7 @@ ServerEvents.recipes(event => {
         //"minecraft:dripstone_block": "quark:polished_dripstone",
         //"minecraft:tuff": "quark:polished_tuff",
         "modpack:rock/cobble/nephelinite": "minecraft:polished_deepslate",
+        "pastel:blackslag": "pastel:polished_blackslag",
         "minecraft:blackstone": "minecraft:polished_blackstone",
         "minecraft:basalt": "minecraft:polished_basalt",
 

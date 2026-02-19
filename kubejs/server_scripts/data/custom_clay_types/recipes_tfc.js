@@ -56,7 +56,7 @@ ServerEvents.recipes(event => {
         knapping(type, "firmalife:clay_oven_top", 1, ["XXXXX", "XX XX", "X   X", "X   X", "XXXXX"], `${type}/oven_top`, true)
         knapping(type, "firmalife:clay_oven_bottom", 1, ["XX XX", "X   X", "X   X", "XX XX", "XXXXX"], `${type}/oven_bottom`, true)
         knapping(type, "firmalife:clay_oven_chimney", 1, ["XXXXX", "XX XX", "XX XX", "XX XX", "XXXXX"], `${type}/oven_chimney`, true)
-        knapping(type, "tfc:ceramic/unfired_pan", 1, ["     ", "X   X", "XXXXX", " XXX ", "     "], `${type}/pan`, true)
+
         //knapping(type, "tfc_hammer_time:ceramic/unfired_sledgehammer_head_mold", 1, ["  XXX", "    X", "X   X", "X    ", "XXX  "], `${type}/sledgehammer_head_mold`, true)
         //knapping(type, "tfc_hammer_time:ceramic/unfired_excavator_head_mold", 1, ["XXXXX", "X   X", "X   X", "X   X", "X   X"], `${type}/excavator_head_mold`, true)
         //knapping(type, "tfcchannelcasting:unfired_heart_mold", 1, ["X X X", "     ", "     ", "X   X", "XX XX"], `${type}/heart_mold`, true)
