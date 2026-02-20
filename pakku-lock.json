@@ -5799,7 +5799,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "modpack-1.0.1.jar",
+                    "file_name": "modpack-1.0.2.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -5807,18 +5807,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/CrmKwlKa/versions/Cy8pK0o6/modpack-1.0.1.jar",
-                    "id": "Cy8pK0o6",
+                    "url": "https://cdn.modrinth.com/data/CrmKwlKa/versions/cyOBOGs0/modpack-1.0.2.jar",
+                    "id": "cyOBOGs0",
                     "parent_id": "CrmKwlKa",
                     "hashes": {
-                        "sha512": "b601b8f071b6b4195cce35649a5d53b92d09d340526c3d3e2bd42c749f0662e28fb3ea82b45778f4c834966209b27c3a9c2b5e9dd34e938c29f01017d6831ca4",
-                        "sha1": "b6b800eee52e870476899c1d933ead2121c7e999"
+                        "sha512": "4db47a131a09586a8f6a555404df43c8acb5db84b11611d5b3c4325ad8c273693439b05c266e718fea9603aa4b59d65620928e20022a9ba8584408dd074c7f66",
+                        "sha1": "6a525a02a0436163587e55a53403c33433a87b81"
                     },
                     "required_dependencies": [
                         "1o7aFiY6"
                     ],
-                    "size": 813590,
-                    "date_published": "2026-02-08T18:26:24.835345Z"
+                    "size": 2649033,
+                    "date_published": "2026-02-20T10:33:34.528054Z"
                 },
                 {
                     "type": "curseforge",
