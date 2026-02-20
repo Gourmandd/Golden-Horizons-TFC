@@ -1,9 +1,0 @@
-{
-    "ingredient": {
-      "item": "corn_delight:popcorn"
-    },
-    "hunger": 1,
-    "saturation": 1,
-    "decay_modifier": 3,
-    "grain": 0.5
-}

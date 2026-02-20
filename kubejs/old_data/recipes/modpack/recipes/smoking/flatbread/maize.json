@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:smoking",
-    "ingredient": {
-      "item": "tfc:food/maize_dough"
-    },
-    "result": "firmalife:food/maize_flatbread",
-    "experience": 0.0,
-    "cookingtime": 100
-  }

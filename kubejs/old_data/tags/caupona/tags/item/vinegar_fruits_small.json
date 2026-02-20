@@ -1,8 +1,0 @@
-{
-    "replace": true,
-    "values": [
-        "#modpack:berries",
-        "tfc:food/cherry",
-        "tfc:food/olive"
-    ]
-}

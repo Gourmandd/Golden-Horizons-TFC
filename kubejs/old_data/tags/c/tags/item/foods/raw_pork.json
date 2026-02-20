@@ -1,9 +1,0 @@
-{
-	"replace": true,
-	"values": [
-        "tfc:food/pork",
-        "minecraft:porkchop",
-        "farmersdelight:bacon",
-        "firmalife:food/bacon"
-	]
-}

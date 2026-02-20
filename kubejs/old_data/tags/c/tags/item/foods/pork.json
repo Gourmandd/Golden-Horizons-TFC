@@ -1,7 +1,0 @@
-{
-	"replace": true,
-	"values": [
-		"#c:foods/cooked_pork",
-		"#c:foods/raw_pork"
-	]
-}

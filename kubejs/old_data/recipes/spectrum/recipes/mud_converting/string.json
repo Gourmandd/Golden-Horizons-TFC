@@ -1,9 +1,0 @@
-{
-    "type": "spectrum:mud_converting",
-    "ingredient": {
-      "tag": "modpack:bushels"
-    },
-    "result": {
-      "item": "tfc:jute_fiber"
-    }
-}

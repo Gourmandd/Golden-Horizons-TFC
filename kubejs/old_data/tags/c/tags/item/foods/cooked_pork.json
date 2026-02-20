@@ -1,9 +1,0 @@
-{
-	"replace": true,
-	"values": [
-        "tfc:food/cooked_pork",
-        "minecraft:cooked_porkchop",
-        "farmersdelight:cooked_bacon",
-        "firmalife:food/cooked_bacon"
-	]
-}

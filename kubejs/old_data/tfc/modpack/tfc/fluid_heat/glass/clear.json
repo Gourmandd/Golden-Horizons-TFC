@@ -1,6 +1,0 @@
-{
-  "tier": 1,
-  "fluid": "kubejs:glass/clear",
-  "melt_temperature": 270,
-  "specific_heat_capacity": 0.02143
-}

@@ -1,9 +1,0 @@
-{
-    "feature": "modpack:wood/twig/ebony_noxwood",
-    "placement": [
-        {
-            "type": "minecraft:rarity_filter",
-            "chance": 1
-        }
-    ]
-}
