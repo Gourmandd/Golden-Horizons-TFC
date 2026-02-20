@@ -6991,69 +6991,6 @@
             ]
         },
         {
-            "pakku_id": "lCP0BiaDzxjwBrJA",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "curseforge": "simple-voice-chat",
-                "modrinth": "simple-voice-chat"
-            },
-            "name": {
-                "curseforge": "Simple Voice Chat",
-                "modrinth": "Simple Voice Chat"
-            },
-            "id": {
-                "curseforge": "416089",
-                "modrinth": "9eGKb6K1"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "voicechat-neoforge-1.21.1-2.6.12.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/WxJDv3oM/voicechat-neoforge-1.21.1-2.6.12.jar",
-                    "id": "WxJDv3oM",
-                    "parent_id": "9eGKb6K1",
-                    "hashes": {
-                        "sha512": "e7ce05aa487ed1487f34e8300bba77e4c091d928912adc664f72a10862b222d84ee0f8193441392087d7ac907f6b5afad1faeee8e6089bc0081e435197043736",
-                        "sha1": "afd194f9a97924c1958c8ef90acab00eb3922a39"
-                    },
-                    "required_dependencies": [],
-                    "size": 4890490,
-                    "date_published": "2026-02-12T12:34:17.930120Z"
-                },
-                {
-                    "type": "curseforge",
-                    "file_name": "voicechat-neoforge-1.21.1-2.6.12.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7614/25/voicechat-neoforge-1.21.1-2.6.12.jar",
-                    "id": "7614025",
-                    "parent_id": "416089",
-                    "hashes": {
-                        "sha1": "f7913209ba22814ddf709bb9e4e76fa9fd0775e9",
-                        "md5": "049e7257ebfc8328b7af4269ddab86d8"
-                    },
-                    "required_dependencies": [],
-                    "size": 4890489,
-                    "date_published": "2026-02-12T12:33:58.297Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "ux9Y4gss6HWJFIVY",
             "type": "MOD",
             "side": "CLIENT",
