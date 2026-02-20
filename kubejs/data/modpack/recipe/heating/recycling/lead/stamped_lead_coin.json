@@ -1,0 +1,17 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "lithiccoins"
+        }
+    ],
+    "type": "tfc:heating",
+    "ingredient": {
+        "tag": "lithiccoins:stamped_coin/lead"
+    },
+    "result_fluid": {
+        "id": "modpack:lead",
+        "amount": 20
+    },
+    "temperature": 320
+}

@@ -1,0 +1,21 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "lithiccoins"
+        }
+    ],
+    "type": "tfc:casting",
+    "mold": {
+        "item": "lithiccoins:ceramic/coin_mold"
+    },
+    "fluid": {
+        "fluid": "modpack:lead",
+        "amount": 100
+    },
+    "result": {
+        "id": "lithiccoins:blank_coin/lead",
+        "count": 4
+    },
+    "break_chance": 0.1
+}
