@@ -1812,10 +1812,11 @@
             ]
         },
         {
-            "pakku_id": "DxbFAsC11kXR0q0b",
+            "pakku_id": "x4ahuQrYCYh0FczJ",
             "pakku_links": [
                 "pTka17YqlHzJjenh",
-                "POoqeXgUYwLzcpwh"
+                "POoqeXgUYwLzcpwh",
+                "DDVdfoBO8Vi6mpAG"
             ],
             "type": "MOD",
             "side": "BOTH",
@@ -1855,6 +1856,30 @@
                     ],
                     "size": 3695956,
                     "date_published": "2026-02-18T04:06:58.063Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "createbigcannons-5.11.0+mc.1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/GWp4jCJj/versions/zlTofxh2/createbigcannons-5.11.0+mc.1.21.1.jar",
+                    "id": "zlTofxh2",
+                    "parent_id": "GWp4jCJj",
+                    "hashes": {
+                        "sha512": "a7d54235cbcaba037ffeb001dae0e40b06ee758fdab3cb6785624ca87485507b649d35f49c619e2f7ecb6feb658332229f660a797862daf2edb0fd740b608117",
+                        "sha1": "580e3f81add8ac35eb6aec6b97e63c0cb14ed55e"
+                    },
+                    "required_dependencies": [
+                        "LNytGWDc",
+                        "B3pb093D"
+                    ],
+                    "size": 3695956,
+                    "date_published": "2026-02-18T13:54:44.518511Z"
                 }
             ]
         },
@@ -6603,18 +6628,43 @@
             ]
         },
         {
-            "pakku_id": "pTka17YqlHzJjenh",
+            "pakku_id": "DDVdfoBO8Vi6mpAG",
             "type": "MOD",
+            "side": "BOTH",
             "slug": {
+                "modrinth": "rpl",
                 "curseforge": "ritchies-projectile-library"
             },
             "name": {
+                "modrinth": "Ritchie's Projectile Library",
                 "curseforge": "Ritchie's Projectile Library"
             },
             "id": {
+                "modrinth": "B3pb093D",
                 "curseforge": "1279407"
             },
             "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "ritchiesprojectilelib-2.1.2+mc.1.21.1-neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/B3pb093D/versions/hZ6B2Z0x/ritchiesprojectilelib-2.1.2+mc.1.21.1-neoforge.jar",
+                    "id": "hZ6B2Z0x",
+                    "parent_id": "B3pb093D",
+                    "hashes": {
+                        "sha512": "6d64c84505a5a8fbb96d106603065465c5a2314ec09636900c5c1a31014c12fa68f1a41e758313cbf0d6f95d9a1f53bd67339020f7d8db0e184c23f66aee0330",
+                        "sha1": "ec2e4996f8bee8714173e603e379fef8a6901765"
+                    },
+                    "required_dependencies": [],
+                    "size": 76369,
+                    "date_published": "2026-02-07T08:42:23.436249Z"
+                },
                 {
                     "type": "curseforge",
                     "file_name": "ritchiesprojectilelib-2.1.2-mc.1.21.1-neoforge.jar",
