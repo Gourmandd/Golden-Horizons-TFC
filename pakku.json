@@ -3,6 +3,7 @@
     "version": "2.0-alpha-1",
     "overrides": [
         "config",
+        "kubejs",
         "options.txt",
         "emi.json",
         "Changelogs.md",
