@@ -5,6 +5,9 @@ All of the changelogs since version 0.1 (which was posted only on Modrinth)
 # On Ancient Ground 2.0: Alpha 1
 
 Many changes have happened since last time, mainly the port to 1.21.1 and TFC v4 as well as a rebrand.
+This is a work on progress, it is stable and somewhat tested. Its being uploaded so that people can finally play the pack, and report any bugs they may find.
+
+For support you can join the [Discord Server](https://discord.gg/dt937vJKCN), you can also use the issues tab on the [GitHub repository](https://github.com/Gourmandd/Golden-Horizons-TFC).This is subject to change but you can ping  ``@_gourmand`` (me) on the discord server for now at least.
 
 # Content Changes
 
@@ -51,7 +54,7 @@ Many changes have happened since last time, mainly the port to 1.21.1 and TFC v4
 - Migrated from the "kubejs" namespace to "modpack"
 - New panorama and title as part of re-brand.
 
-Probably forgot about something.
+Probably forgot about something, and about a lot of smaller things.
 
 
 # Mod Changes
