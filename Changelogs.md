@@ -1,6 +1,85 @@
 # Changelogs
 
-All of the changelogs since 0.1 that was posted on Modrinth
+All of the changelogs since version 0.1 (which was posted only on Modrinth)
+
+# On Ancient Ground 2.0: Alpha 1
+
+Many changes have happened since last time, mainly the port to 1.21.1 and TFC v4 as well as a rebrand.
+
+# Content Changes
+
+- 5 rock types have been fully integrated with TFC:
+    Breccia (Caupona's Felisc Tuff)
+    Komatiite (Create Mod's Scoria)
+    Blackslag 
+    Picrite Basalt (Pastel's Basal Marble)
+    Travertine (Vanilla dripstone)
+    Argillite (Vanilla stone)
+    Nephelinite (Vanilla deepslate)
+- 3 Custom rock types:
+    Peridotite
+    Serpentine
+    Blue Schist
+- Pastel wood types now have some TFC variants such as:
+    Tool Racks
+    Sluices
+    Sewing Tables
+    Scribing Tables
+    Shelves
+- Caupona's fruit trees were integrated as TFC-like fruit trees.
+- Andesite Alloy has been replaced with Steel.
+- The custom metals have plated blocks and all variants of ingots, sheets, etc.
+- Custom metals list is now:
+    Aluminium (Expensive metal for aircraft and other uses)
+    Aluminium Bronze (Create Big Cannons integration)
+    Cast Iron Alloy (Create Big Cannons integration)
+    Hardened Steel (Create Big Cannons integration)
+    Nethersteel (Create Big Cannons integration)
+    Electrum (Create: Crafts and Additions integration)
+    Lead (No uses yet)
+- Added Galena, an ore for lead,
+- Added Bauxite, an ore that can be ground into kaolinite powder, found in sedimentary rocks.
+- Added Anthracite, a rare but more powerful coal found in metamorphic rocks.
+- There is now only one variant of Astikor Carts' carts as Astikor Carts TFC was removed.
+- Quark backpack recipe was gated behind Pastel.
+- Pastel's clovers now generate in TFC's Overworld.
+- A variety of new textures.
+- Removed Waterwheels and Windmills from Create.
+- Removed Create washing recipes for TFC's sands and gravels.
+- Added olive pomace as fuel.
+- **Disabled by default, and experimental**, feature where certain ores can rarely spawn poisonous dust clouds when broken.
+- Migrated from the "kubejs" namespace to "modpack"
+- New panorama and title as part of re-brand.
+
+Probably forgot about something.
+
+
+# Mod Changes
+Too many to list but i'll try my best lol.
+
+## Added
+- Sodium (replacing embeddium)
+- C2me (now available on Neoforge)
+- Scalabe lux (now available on Neoforge)
+- Accurate Block Placeement.
+- TFC Vessel Tooltips.
+
+## Removed
+- Corn Delight
+- Barbeque's Delight.
+- Musket Mod
+- Simple Voice Chat (server owner can add the mod themselves, and player can choose to opt in)
+- Epic Knights & addons.
+- Sacks and Such (no port yet)
+- FirmaCiv (no port yet)
+- FirmaCiv+ (no port yet)
+- TFC water flasks (no port yet)
+- TFC Hammer Time (no port yet)
+- TFC Artisanal (no port yet)
+- Breezy (no port yet)
+- Steam n Rails (no port yet)
+- Astikor Carts TFC (performance concerns, astikor carts redux is still in the pack)
+- Visual Workbench (performance concerns)
 
 # Golden Horizons 1.11
 
