@@ -1,6 +1,7 @@
 {
     "block.minecraft.chain":"Hardened Chain",
     "item.minecraft.glass_bottle":"Reinforced Glass Bottle",
+    "block.minecraft.iron_block": "Wrought Iron Block",
     "block.minecraft.dripstone_block": "Travertine Block",
     "block.minecraft.pointed_dripstone": "Pointed Travertine",
     "block.minecraft.deepslate": "Raw Nephelinite",
