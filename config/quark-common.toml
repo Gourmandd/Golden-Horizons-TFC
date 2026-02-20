@@ -770,7 +770,7 @@
 	"Monster Box" = false
 	"Nether Obsidian Spikes" = false
 	"New Stone Types" = false
-	"No More Lava Pockets" = true
+	"No More Lava Pockets" = false
 	Permafrost = false
 	"Spiral Spires" = false
 
@@ -802,7 +802,7 @@
 		"Blocks To Replace" = ["minecraft:stone", "minecraft:andesite", "minecraft:diorite", "minecraft:granite", "minecraft:netherrack|minecraft:the_nether", "minecraft:end_stone|minecraft:the_end", "quark:marble", "quark:limestone", "quark:jasper", "quark:slate"]
 
 		[world.big_stone_clusters.calcite]
-			Enabled = true
+			Enabled = false
 			#Allowed values: [0,)
 			Rarity = 4
 			"Min Y Level" = 20
@@ -831,7 +831,7 @@
 					"Is Blacklist" = true
 
 		[world.big_stone_clusters.limestone]
-			Enabled = true
+			Enabled = false
 			#Allowed values: [0,)
 			Rarity = 4
 			"Min Y Level" = 20
@@ -860,7 +860,7 @@
 					"Is Blacklist" = true
 
 		[world.big_stone_clusters.jasper]
-			Enabled = true
+			Enabled = false
 			#Allowed values: [0,)
 			Rarity = 4
 			"Min Y Level" = 20
@@ -889,7 +889,7 @@
 					"Is Blacklist" = true
 
 		[world.big_stone_clusters.shale]
-			Enabled = true
+			Enabled = false
 			#Allowed values: [0,)
 			Rarity = 4
 			"Min Y Level" = 20
@@ -918,8 +918,8 @@
 					"Is Blacklist" = true
 
 		[world.big_stone_clusters.myalite]
-			"Generate In Air" = true
-			Enabled = true
+			"Generate In Air" = false
+			Enabled = false
 			#Allowed values: [0,)
 			Rarity = 100
 			"Min Y Level" = 58
@@ -955,7 +955,7 @@
 
 			[world.blossom_trees.blue.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = []
 
 				#Biome tags for which this should spawn in. Must match both this and 'biomes' to spawn.
 				[world.blossom_trees.blue.biome_config.tags]
@@ -972,7 +972,7 @@
 
 			[world.blossom_trees.lavender.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = []
 
 				#Biome tags for which this should spawn in. Must match both this and 'biomes' to spawn.
 				[world.blossom_trees.lavender.biome_config.tags]
@@ -989,7 +989,7 @@
 
 			[world.blossom_trees.orange.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = []
 
 				#Biome tags for which this should spawn in. Must match both this and 'biomes' to spawn.
 				[world.blossom_trees.orange.biome_config.tags]
@@ -1006,7 +1006,7 @@
 
 			[world.blossom_trees.yellow.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = []
 
 				#Biome tags for which this should spawn in. Must match both this and 'biomes' to spawn.
 				[world.blossom_trees.yellow.biome_config.tags]
@@ -1023,7 +1023,7 @@
 
 			[world.blossom_trees.red.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = []
 
 				#Biome tags for which this should spawn in. Must match both this and 'biomes' to spawn.
 				[world.blossom_trees.red.biome_config.tags]
@@ -1067,7 +1067,7 @@
 
 		[world.cherry_grove_water_petals.dimensions]
 			"Is Blacklist" = false
-			Dimensions = ["minecraft:overworld"]
+			Dimensions = []
 
 	[world.chorus_vegetation]
 		Rarity = 150
@@ -1110,7 +1110,7 @@
 
 			[world.corundum.generation_settings.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = []
 
 				#Biome tags for which this should spawn in. Must match both this and 'biomes' to spawn.
 				[world.corundum.generation_settings.biomes.tags]
@@ -1129,7 +1129,7 @@
 
 		[world.fairy_rings.dimensions]
 			"Is Blacklist" = false
-			Dimensions = ["minecraft:overworld"]
+			Dimensions = []
 
 	[world.fallen_logs]
 		#Percentage of fallen logs spawning as hollow. Requires Hollow Logs Module to be enabled
@@ -1143,7 +1143,7 @@
 
 		[world.fallen_logs.dimensions]
 			"Is Blacklist" = false
-			Dimensions = ["minecraft:overworld"]
+			Dimensions = []
 
 	[world.monster_box]
 		#The chance for the monster box generator to try and place one in a chunk. 0 is 0%, 1 is 100%
@@ -1160,7 +1160,7 @@
 
 		[world.monster_box.dimensions]
 			"Is Blacklist" = false
-			Dimensions = ["minecraft:overworld"]
+			Dimensions = []
 
 	[world.nether_obsidian_spikes]
 		#The chance for a chunk to contain spikes (1 is 100%, 0 is 0%)
@@ -1176,15 +1176,15 @@
 			Dimensions = ["minecraft:the_nether"]
 
 	[world.new_stone_types]
-		"Enable Limestone" = true
-		"Enable Jasper" = true
-		"Enable Shale" = true
-		"Enable Myalite" = true
-		"Add New Stones To Mason Trades" = true
+		"Enable Limestone" = false
+		"Enable Jasper" = false
+		"Enable Shale" = false
+		"Enable Myalite" = false
+		"Add New Stones To Mason Trades" = false
 
 			[world.new_stone_types.limestone.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = []
 
 			[world.new_stone_types.limestone.oregen_lower]
 				#Allowed values: [-64,320]
@@ -1210,7 +1210,7 @@
 
 			[world.new_stone_types.jasper.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = []
 
 			[world.new_stone_types.jasper.oregen_lower]
 				#Allowed values: [-64,320]
@@ -1236,7 +1236,7 @@
 
 			[world.new_stone_types.shale.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = []
 
 			[world.new_stone_types.shale.oregen_lower]
 				#Allowed values: [-64,320]
@@ -1262,7 +1262,7 @@
 
 			[world.new_stone_types.myalite.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:the_end"]
+				Dimensions = []
 
 			[world.new_stone_types.myalite.oregen_lower]
 				#Allowed values: [-64,320]
@@ -1302,7 +1302,7 @@
 
 			[world.permafrost.generation_settings.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = []
 
 				#Biome tags for which this should spawn in. Must match both this and 'biomes' to spawn.
 				[world.permafrost.generation_settings.biomes.tags]
@@ -1311,7 +1311,7 @@
 
 				#Biome names this should spawn in. Must match both this and 'types' to spawn.
 				[world.permafrost.generation_settings.biomes.biomes]
-					Biomes = ["minecraft:frozen_peaks"]
+					Biomes = []
 					"Is Blacklist" = false
 
 	[world.spiral_spires]
@@ -1324,7 +1324,7 @@
 
 		[world.spiral_spires.dimensions]
 			"Is Blacklist" = false
-			Dimensions = ["minecraft:the_end"]
+			Dimensions = []
 
 			#Biome tags for which this should spawn in. Must match both this and 'biomes' to spawn.
 			[world.spiral_spires.biomes.tags]
@@ -1362,7 +1362,7 @@
 
 				#Biome tags for which this should spawn in. Must match both this and 'biomes' to spawn.
 				[mobs.crabs.spawn_config.biomes.tags]
-					"Biome Tags" = ["minecraft:is_beach"]
+					"Biome Tags" = []
 					"Is Blacklist" = false
 
 				#Biome names this should spawn in. Must match both this and 'types' to spawn.
@@ -1395,7 +1395,7 @@
 
 				#Biome names this should spawn in. Must match both this and 'types' to spawn.
 				[mobs.foxhound.spawn_config.biomes.biomes]
-					Biomes = ["minecraft:nether_wastes", "minecraft:basalt_deltas"]
+					Biomes = []
 					"Is Blacklist" = false
 
 		[mobs.foxhound.lesser_spawn_config]
@@ -1415,7 +1415,7 @@
 
 				#Biome names this should spawn in. Must match both this and 'types' to spawn.
 				[mobs.foxhound.lesser_spawn_config.biomes.biomes]
-					Biomes = ["minecraft:soul_sand_valley"]
+					Biomes = []
 					"Is Blacklist" = false
 
 	[mobs.shiba]
@@ -1446,11 +1446,11 @@
 		"Cautious Stonelings" = false
 		"Tamable Stonelings" = true
 		#Disabled if if Pathfinder Maps are disabled.
-		"Weald Pathfinder Maps" = true
+		"Weald Pathfinder Maps" = false
 
 		[mobs.stonelings.dimensions]
 			"Is Blacklist" = false
-			Dimensions = ["minecraft:overworld"]
+			Dimensions = []
 
 		[mobs.stonelings.spawn_config]
 			#Allowed values: (0,)
@@ -1482,7 +1482,7 @@
 
 		[mobs.toretoise.dimensions]
 			"Is Blacklist" = false
-			Dimensions = ["minecraft:overworld"]
+			Dimensions = []
 
 		[mobs.toretoise.spawn_config]
 			#Allowed values: (0,)
@@ -1494,7 +1494,7 @@
 
 				#Biome tags for which this should spawn in. Must match both this and 'biomes' to spawn.
 				[mobs.toretoise.spawn_config.biomes.tags]
-					"Biome Tags" = ["c:is_void", "minecraft:is_nether", "minecraft:is_end"]
+					"Biome Tags" = []
 					"Is Blacklist" = true
 
 				#Biome names this should spawn in. Must match both this and 'types' to spawn.
@@ -1524,7 +1524,7 @@
 
 				#Biome names this should spawn in. Must match both this and 'types' to spawn.
 				[mobs.wraith.spawn_config.biomes.biomes]
-					Biomes = ["minecraft:soul_sand_valley"]
+					Biomes = []
 					"Is Blacklist" = false
 
 [client]
