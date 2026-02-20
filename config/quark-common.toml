@@ -331,14 +331,14 @@
 [tools]
 	Abacus = true
 	"Ambient Discs" = true
-	"Ancient Tomes" = true
+	"Ancient Tomes" = false
 	"Beacon Redirection" = true
 	"Bottled Cloud" = true
 	"Color Runes" = true
 	"Endermosh Music Disc" = true
-	"Parrot Eggs" = true
+	"Parrot Eggs" = false
 	"Pathfinder Maps" = false
-	Pickarang = true
+	Pickarang = false
 	"Seed Pouch" = false
 	"Skull Pikes" = false
 	"Slime In A Bucket" = false

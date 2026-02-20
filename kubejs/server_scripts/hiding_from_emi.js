@@ -35,7 +35,6 @@ ServerEvents.tags("item", event => {
         "#pastel:spawn_eggs",
         "#c:shulker_boxes", //this should be revealed when you get shulker memory (custom advancement)
         "minecraft:enchanted_book", //this should be revealed when you get enchanter instead
-        "quark:ancient_tome",
         "#minecraft:candles",
         "pastel:infested_blackslag",
         "firmalife:food/fig",
