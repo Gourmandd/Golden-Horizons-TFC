@@ -113,8 +113,8 @@
 [entries]
 
 		[entries.wood_type.create]
-			window = true
-			window_pane = true
+			window = false
+			window_pane = false
 
 		[entries.wood_type.farmersdelight]
 			cabinet = true
@@ -123,23 +123,23 @@
 			shutter = true
 
 		[entries.wood_type.architects_palette]
-			board_stairs = true
+			board_stairs = false
 			railing = true
-			board_slab = true
-			boards = true
-			board_wall = true
+			board_slab = false
+			boards = false
+			board_wall = false
 
 		[entries.wood_type.quark]
-			vertical_planks = true
-			post = true
-			trapped_chest = true
-			bookshelf = true
-			chest = true
-			stripped_post = true
-			ladder = true
-			hollow_log = true
-			vertical_slab = true
+			vertical_planks = false
+			post = false
+			trapped_chest = false
+			bookshelf = false
+			chest = false
+			stripped_post = false
+			ladder = false
+			hollow_log = false
+			vertical_slab = false
 
 		[entries.leaves_type.quark]
-			hedge = true
-			leaf_carpet = true
+			hedge = false
+			leaf_carpet = false
