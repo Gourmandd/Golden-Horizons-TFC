@@ -2,37 +2,27 @@
 
 LootJS.modifiers(event => {
 
-    event.addBlockModifier("caupona:felsic_tuff").replaceLoot("caupona:felsic_tuff", Item.of(`${mod_id}:rock/loose/breccia`, 3))
-    event.addBlockModifier("caupona:felsic_tuff").addLoot(`${mod_id}:rock/loose/breccia`).randomChance(0.25)
-
-    event.addBlockModifier("create:scoria").replaceLoot("create:scoria", Item.of(`${mod_id}:rock/loose/komatiite`, 3))
-    event.addBlockModifier("create:scoria").addLoot(`${mod_id}:rock/loose/komatiite`).randomChance(0.25)
-
-    event.addBlockModifier("minecraft:stone").replaceLoot("minecraft:cobblestone", Item.of(`${mod_id}:rock/loose/argillite`, 3))
-    event.addBlockModifier("minecraft:stone").addLoot(`${mod_id}:rock/loose/argillite`).randomChance(0.25)
-
-    event.addBlockModifier("minecraft:deepslate").replaceLoot("minecraft:cobbled_deepslate", Item.of(`${mod_id}:rock/loose/nephelinite`, 3))
-    event.addBlockModifier("minecraft:deepslate").addLoot(`${mod_id}:rock/loose/nephelinite`).randomChance(0.25)
-
-    event.addBlockModifier("minecraft:dripstone_block").replaceLoot("minecraft:dripstone_block", Item.of(`${mod_id}:rock/loose/travertine`, 3))
-    event.addBlockModifier("minecraft:dripstone_block").addLoot(`${mod_id}:rock/loose/travertine`).randomChance(0.25)
-
-    event.addBlockModifier("pastel:blackslag").replaceLoot("pastel:cobbled_blackslag", Item.of(`${mod_id}:rock/loose/blackslag`, 3))
-    event.addBlockModifier("pastel:blackslag").addLoot(`${mod_id}:rock/loose/blackslag`).randomChance(0.25)
-
-    event.addBlockModifier("pastel:basal_marble").replaceLoot("pastel:basal_marble", Item.of(`${mod_id}:rock/loose/picrite_basalt`, 3))
-    event.addBlockModifier("pastel:basal_marble").addLoot(`${mod_id}:rock/loose/picrite_basalt`).randomChance(0.25)
+    const ISOLATED = { "condition": "tfc:is_isolated" }
 
 
-    event.addBlockModifier("pastel:shimmel").replaceLoot("pastel:cobbled_blackslag", Item.of(`${mod_id}:rock/loose/blackslag`, 3))
-    event.addBlockModifier("pastel:shimmel").addLoot(`${mod_id}:rock/loose/blackslag`).randomChance(0.25)
+    function addRockLikeBlock(block, loose, drop) {
+        event.addBlockModifier(block).removeLoot(drop)
+            .addAlternativesLoot(
+                LootEntry.of(block).matchCustomCondition(ISOLATED),
+                LootEntry.group(LootEntry.of(loose, 3), LootEntry.of(loose, 1).randomChance(0.25))
+            )
+    }
 
-    event.addBlockModifier("pastel:sawblade_grass").replaceLoot("pastel:cobbled_blackslag", Item.of(`${mod_id}:rock/loose/blackslag`, 3))
-    event.addBlockModifier("pastel:sawblade_grass").addLoot(`${mod_id}:rock/loose/blackslag`).randomChance(0.25)
+    addRockLikeBlock("caupona:felsic_tuff", `${mod_id}:rock/loose/breccia`, "caupona:felsic_tuff")
+    addRockLikeBlock("create:scoria", `${mod_id}:rock/loose/komatiite`, "create:scoria")
+    addRockLikeBlock("minecraft:stone", `${mod_id}:rock/loose/argillite`, "minecraft:cobblestone")
+    addRockLikeBlock("minecraft:deepslate", `${mod_id}:rock/loose/nephelinite`, "minecraft:cobbled_deepslate")
+    addRockLikeBlock("minecraft:dripstone_block", `${mod_id}:rock/loose/travertine`, "minecraft:dripstone_block")
+    addRockLikeBlock("pastel:blackslag", `${mod_id}:rock/loose/blackslag`, "pastel:cobbled_blackslag")
+    addRockLikeBlock("pastel:basal_marble", `${mod_id}:rock/loose/picrite_basalt`, "pastel:basal_marble")
 
-    event.addBlockModifier("pastel:overgrown_blackslag").replaceLoot("pastel:cobbled_blackslag", Item.of(`${mod_id}:rock/loose/blackslag`, 3))
-    event.addBlockModifier("pastel:overgrown_blackslag").addLoot(`${mod_id}:rock/loose/blackslag`).randomChance(0.25)
-
-    event.addBlockModifier("pastel:ashen_blackslag").replaceLoot("pastel:cobbled_blackslag", Item.of(`${mod_id}:rock/loose/blackslag`, 3))
-    event.addBlockModifier("pastel:ashen_blackslag").addLoot(`${mod_id}:rock/loose/blackslag`).randomChance(0.25)
+    addRockLikeBlock("pastel:shimmel", `${mod_id}:rock/loose/blackslag`, "pastel:cobbled_blackslag")
+    addRockLikeBlock("pastel:sawblade_grass", `${mod_id}:rock/loose/blackslag`, "pastel:cobbled_blackslag")
+    addRockLikeBlock("pastel:overgrown_blackslag", `${mod_id}:rock/loose/blackslag`, "pastel:cobbled_blackslag")
+    addRockLikeBlock("pastel:ashen_blackslag", `${mod_id}:rock/loose/blackslag`, "pastel:cobbled_blackslag")
 })
