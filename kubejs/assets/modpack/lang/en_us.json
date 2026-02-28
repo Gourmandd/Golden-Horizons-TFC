@@ -13,21 +13,6 @@
 "modpack.item_functionality": "This Item's Funtionality Has Been Removed!!",
 "create.recipe.fan_haunting": "Bulk Freezing",
 
-"item_group.nature.modpack": "Nature Items",
-"item_group.metal.modpack": "Metal Items",
-"item_group.ceramics.modpack": "Ceramic Items",
-"item_group.rocks.modpack": "Rock Items",
-"item_group.ores.modpack": "Ores",
-"item_group.tools.modpack": "Tools",
-
-"item.modpack.glass_mold": "Glass Mold",
-"item.modpack.glass_pane_mold": "Glass Pane Mold",
-"item.modpack.metal.bucket.wrought_iron": "Wrought Iron Bucket",
-"item.modpack.metal.bucket.wrought_iron.filled": "%s Wrought Iron Bucket",
-
-"item.modpack.tool.snow_shovel": "Snow Shovel",
-"item.modpack.tool.snow_shovel_head": "Snow Shovel Head",
-
 "block.modpack.andesite_machine": "Steel Machine",
 "block.modpack.copper_machine": "Copper Machine",
 "block.modpack.brass_machine": "Brass Machine",
