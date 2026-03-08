@@ -1,18 +1,17 @@
 {
-"modpack.test" : "Test lang",
+    "modpack.test" : "Test lang",
 
-"modpack.item_changed_functionality": "This Item's Funtionality Has Been Changed",
-"modpack.item_functionality": "This Item's Funtionality Has Been Removed!!",
-"create.recipe.fan_haunting": "Bulk Freezing",
+    "modpack.item_changed_functionality": "This Item's Funtionality Has Been Changed",
+    "modpack.item_functionality": "This Item's Funtionality Has Been Removed!!",
+    "create.recipe.fan_haunting": "Bulk Freezing",
 
-"block.modpack.andesite_machine": "Steel Machine",
-"block.modpack.copper_machine": "Copper Machine",
-"block.modpack.brass_machine": "Brass Machine",
+    "block.modpack.andesite_machine": "Steel Machine",
+    "block.modpack.copper_machine": "Copper Machine",
+    "block.modpack.brass_machine": "Brass Machine",
 
-"tfc.recipe.barrel.modpack.barrel.soft_bark": "Softening Bark",
-"tfc.recipe.barrel.modpack.barrel.sugarcane_juice": "Clarifying Sugarcane Juice",
-"tfc.recipe.barrel.modpack.barrel.cheese.halloumi": "Making Halloumi From Goat Curd",
-"tfc.recipe.barrel.modpack.barrel.cheese.mozzarella": "Making Halloumi From Cow Curd",
-"tfc.recipe.barrel.modpack.barrel.cheese.soft_chhurpi": "Making Halloumi From Yak Curd"
-
+    "tfc.recipe.barrel.modpack.barrel.soft_bark": "Softening Bark",
+    "tfc.recipe.barrel.modpack.barrel.sugarcane_juice": "Clarifying Sugarcane Juice",
+    "tfc.recipe.barrel.modpack.barrel.cheese.halloumi": "Making Halloumi From Goat Curd",
+    "tfc.recipe.barrel.modpack.barrel.cheese.mozzarella": "Making Halloumi From Cow Curd",
+    "tfc.recipe.barrel.modpack.barrel.cheese.soft_chhurpi": "Making Halloumi From Yak Curd"
 }
