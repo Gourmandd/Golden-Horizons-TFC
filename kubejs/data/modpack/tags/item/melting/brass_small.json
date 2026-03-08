@@ -12,6 +12,10 @@
         "create:brass_door",
         "create:desk_bell",
         "tfc:crankshaft",
-        "tfc:brass_mechanisms"
+        "tfc:brass_mechanisms",
+        "createbigcannons:big_cartridge_sheet",
+        "createbigcannons:autocannon_cartridge_sheet",
+        "createbigcannons:empty_machine_gun_round",
+        "createbigcannons:machine_gun_round"
     ]
 }

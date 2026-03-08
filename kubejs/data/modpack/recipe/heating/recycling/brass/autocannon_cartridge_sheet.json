@@ -1,0 +1,11 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+        "item": "createbigcannons:autocannon_cartridge_sheet"
+    },
+    "result_fluid": {
+        "id": "tfc:metal/brass",
+        "amount": 50
+    },
+    "temperature": 1080
+}

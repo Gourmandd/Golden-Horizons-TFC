@@ -1693,7 +1693,7 @@ ServerEvents.recipes(event => {
         "lithiccoins:casting/blank_coin/fire_mold/wrought_iron",
 
         "createbigcannons:big_cartridge_sheet",
-        "createbigcannons:big_cannon_sheet_inexpensive",
+        "minecraft:big_cannon_sheet_inexpensive", // probably should report this.
         "createbigcannons:melting/melt_steel_nugget",
         "createbigcannons:mixing/alloy_bronze_tin",
         "createbigcannons:mixing/alloy_bronze_tinless",
