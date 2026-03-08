@@ -1,14 +1,6 @@
 {
 "modpack.test" : "Test lang",
 
-"book.modpack.guide.getting_started.name": "Getting Started",
-"book.modpack.guide.botany.name": "Botany",
-"book.modpack.guide.minerals.name": "Minerals",
-"book.modpack.guide.fauna.name": "Fauna",
-"book.modpack.guide.soils.name": "Soils",
-
-"book.modpack.guide.tooltip": "Learn all there is to learn!",
-"book.modpack.guide.name": "An Expert's Guide To This World",
 "modpack.item_changed_functionality": "This Item's Funtionality Has Been Changed",
 "modpack.item_functionality": "This Item's Funtionality Has Been Removed!!",
 "create.recipe.fan_haunting": "Bulk Freezing",
