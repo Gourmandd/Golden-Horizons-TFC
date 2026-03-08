@@ -1,0 +1,16 @@
+{
+    "type": "tfc:anvil",
+    "ingredient": {
+        "item": "tfc:metal/ingot/brass"
+    },
+    "result": {
+        "count": 4,
+        "id": "create:crafter_slot_cover"
+    },
+    "tier": 2,
+    "rules": [
+        "upset_any",
+        "hit_second_last",
+        "hit_last"
+    ]
+}

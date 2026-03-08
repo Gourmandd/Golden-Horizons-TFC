@@ -2,6 +2,8 @@
     "values": [
         "create:fluid_tank",
         "create:copper_backtank",
-        "create:steam_engine"
+        "create:steam_engine",
+        "create:copper_diving_helmet",
+        "create:copper_diving_boots"
     ]
 }

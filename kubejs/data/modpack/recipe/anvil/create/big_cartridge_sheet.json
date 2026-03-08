@@ -1,0 +1,16 @@
+{
+    "type": "tfc:anvil",
+    "ingredient": {
+        "item": "tfc:metal/sheet/brass"
+    },
+    "result": {
+        "count": 8,
+        "id": "big_cartridge_sheet"
+    },
+    "tier": 2,
+    "rules": [
+        "upset_any",
+        "bend_second_last",
+        "bend_last"
+    ]
+}

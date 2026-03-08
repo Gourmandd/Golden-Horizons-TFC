@@ -1,0 +1,21 @@
+{
+    "type": "firmalife:mixing_bowl",
+    "item_ingredients": [
+        {
+            "item": "minecraft:blaze_powder"
+        },
+        {
+            "item": "minecraft:gunpowder"
+        },
+        {
+            "item": "minecraft:gunpowder"
+        },
+        {
+            "item": "minecraft:magma_cream"
+        }
+    ],
+    "result_item": {
+        "id": "createbigcannons:congealed_nitro",
+        "count": 2
+    }
+}

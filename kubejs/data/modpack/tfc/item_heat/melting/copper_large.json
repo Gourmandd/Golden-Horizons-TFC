@@ -3,6 +3,6 @@
         "tag": "modpack:melting/copper_large"
     },
     "heat_capacity": 7.857,
-    "forging_temperature": 921,
-    "welding_temperature": 1228
+    "forging_temperature": 648.0,
+    "welding_temperature": 864.0
 }

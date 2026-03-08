@@ -1,0 +1,16 @@
+{
+    "type": "tfc:anvil",
+    "ingredient": {
+        "item": "create:brass_block"
+    },
+    "result": {
+        "count": 1,
+        "id": "create:peculiar_bell"
+    },
+    "tier": 2,
+    "rules": [
+        "bend_any",
+        "punch_second_last",
+        "hit_last"
+    ]
+}

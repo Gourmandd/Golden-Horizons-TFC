@@ -1,0 +1,13 @@
+{
+    "ingredient": {
+        "item": "create:builders_tea"
+    },
+    "category": "other",
+    "water": 20,
+    "hunger": 1,
+    "saturation": 2,
+    "decay_modifier": 0.3,
+    "grain": 0,
+    "dairy": 0,
+    "fruit": 0
+}

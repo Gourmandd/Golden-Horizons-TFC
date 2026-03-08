@@ -16,6 +16,7 @@
         "firmalife:copper_pipe",
         "firmalife:oxidized_copper_pipe",
         "createaddition:copper_wire",
-        "create:copper_door"
+        "create:copper_door",
+        "create:transmitter"
     ]
 }

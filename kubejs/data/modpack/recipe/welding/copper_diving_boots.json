@@ -1,0 +1,14 @@
+{
+    "type": "tfc:welding",
+    "first_input": {
+        "item": "tfc:metal/boots/copper"
+    },
+    "second_input": {
+        "item": "tfc:metal/ingot/steel"
+    },
+    "tier": 4,
+    "result": {
+        "id": "create:copper_diving_boots",
+        "count": 1
+    }
+}

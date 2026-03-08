@@ -1,0 +1,22 @@
+{
+    "type": "firmalife:mixing_bowl",
+    "item_ingredients": [
+        {
+            "item": "minecraft:paper"
+        },
+        {
+            "item": "minecraft:gunpowder"
+        },
+        {
+            "item": "minecraft:redstone"
+        }
+    ],
+    "fluid_ingredients": {
+        "fluid": "minecraft:water",
+        "amount": 200
+    },
+    "result_item": {
+        "id": "createbigcannons:guncotton",
+        "count": 1
+    }
+}

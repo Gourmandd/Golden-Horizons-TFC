@@ -1,0 +1,24 @@
+{
+    "type": "tfc:pot",
+    "ingredients": [
+        {
+            "tag": "minecraft:leaves"
+        },
+        {
+            "tag": "tfc:foods/sweeteners"
+        },
+        {
+            "tag": "tfc:foods/sweeteners"
+        }
+    ],
+    "fluid_ingredient": {
+        "fluid": "caupona:scalded_milk",
+        "amount": 1000
+    },
+    "duration": 1000,
+    "temperature": 300,
+    "fluid_output": {
+        "id": "create:tea",
+        "amount": 1000
+    }
+}

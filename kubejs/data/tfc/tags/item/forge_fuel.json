@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "modpack:dry_olive_pomace"
+        "modpack:dry_olive_pomace",
+        "pastel:pure_coal"
     ]
 }

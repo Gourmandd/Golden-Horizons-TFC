@@ -1,0 +1,11 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+        "item": "create:copper_diving_boots"
+    },
+    "result_fluid": {
+        "id": "tfc:metal/copper",
+        "amount": 400
+    },
+    "temperature": 1080
+}

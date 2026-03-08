@@ -1,11 +1,11 @@
 {
     "type": "tfc:heating",
     "ingredient": {
-        "item": "create:electron_tube"
+        "item": "create:andesite_scaffolding"
     },
     "result_fluid": {
-        "id": "tfc:metal/cast_iron",
-        "amount": 100
+        "id": "tfc:metal/steel",
+        "amount": 12
     },
     "temperature": 1535
 }

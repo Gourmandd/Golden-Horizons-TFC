@@ -1,0 +1,22 @@
+{
+    "type": "firmalife:mixing_bowl",
+    "item_ingredients": [
+        {
+            "item": "createbigcannons:guncotton"
+        },
+        {
+            "item": "tfc:glue"
+        },
+        {
+            "item": "minecraft:redstone"
+        }
+    ],
+    "fluid_ingredients": {
+        "fluid": "minecraft:water",
+        "amount": 200
+    },
+    "result_item": {
+        "id": "createbigcannons:congealed_nitro",
+        "count": 1
+    }
+}

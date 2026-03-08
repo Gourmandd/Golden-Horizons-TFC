@@ -1,0 +1,14 @@
+{
+    "type": "tfc:welding",
+    "first_input": {
+        "tag": "c:glass_blocks/cheap"
+    },
+    "second_input": {
+        "item": "tfc:metal/double_sheet/copper"
+    },
+    "tier": 1,
+    "result": {
+        "id": "create:fluid_tank",
+        "count": 1
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "type": "tfc:welding",
+    "first_input": {
+        "item": "tfc:metal/rod/copper"
+    },
+    "second_input": {
+        "item": "minecraft:redstone_torch"
+    },
+    "tier": 1,
+    "result": {
+        "id": "create:transmitter",
+        "count": 2
+    }
+}

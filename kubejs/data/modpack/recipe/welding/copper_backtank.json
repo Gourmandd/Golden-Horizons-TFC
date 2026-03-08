@@ -1,0 +1,14 @@
+{
+    "type": "tfc:welding",
+    "first_input": {
+        "item": "tfc:metal/chestplate/copper"
+    },
+    "second_input": {
+        "item": "create:fluid_tank"
+    },
+    "tier": 1,
+    "result": {
+        "id": "create:copper_backtank",
+        "count": 1
+    }
+}

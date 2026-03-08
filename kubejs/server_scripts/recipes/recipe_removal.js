@@ -1643,8 +1643,22 @@ ServerEvents.recipes(event => {
         "minecraft:mossy_cobblestone_stairs",
         "minecraft:red_stained_glass",
         "minecraft:gray_stained_glass_pane_from_glass_pane",
+
+        "create:crushing/raw_gold",
+        "create:crushing/raw_iron",
+        "create:crushing/raw_copper",
+        "create:crushing/raw_zinc",
         "create:cutting/oak_log",
-        "farmersdelight:tomato",
+        "create:crafting/kinetics/fluid_tank",
+        "create:crafting/kinetics/goggles",
+        "create:crafting/kinetics/crafter_slot_cover",
+        "create:crafting/appliances/copper_backtank",
+        "create:crafting/appliances/copper_diving_helmet",
+        "create:crafting/appliances/copper_diving_boots",
+        "create:crafting/logistics/desk_bell",
+        "create:crafting/curiosities/peculiar_bell",
+        "create:crafting/materials/transmitter",
+        "create:crafting/materials/electron_tube",
 
         "lithiccoins:heating/stamped/wrought_iron",
         "lithiccoins:heating/top_dies/wrought_iron",
@@ -1678,7 +1692,8 @@ ServerEvents.recipes(event => {
         "lithiccoins:casting/blank_coin/mold/wrought_iron",
         "lithiccoins:casting/blank_coin/fire_mold/wrought_iron",
 
-
+        "createbigcannons:big_cartridge_sheet",
+        "createbigcannons:big_cannon_sheet_inexpensive",
         "createbigcannons:melting/melt_steel_nugget",
         "createbigcannons:mixing/alloy_bronze_tin",
         "createbigcannons:mixing/alloy_bronze_tinless",
@@ -1687,6 +1702,9 @@ ServerEvents.recipes(event => {
         "createbigcannons:compacting/forge_cast_iron_block",
         "createbigcannons:compacting/forge_bronze_block",
         "createbigcannons:compacting/forge_steel_block",
+        "createbigcannons:cutting/autocannon_cartridge_sheet_gold",
+        "createbigcannons:cutting/autocannon_cartridge_sheet_copper",
+        "createbigcannons:cutting/autocannon_cartridge_sheet_iron",
 
         "tfc:crafting/wood/boat/spruce",
 
@@ -1694,6 +1712,7 @@ ServerEvents.recipes(event => {
 
         "lithiccoins:casting/die_mold/burn/wrought_iron",
 
+        "farmersdelight:tomato",
         "farmersdelight:cutting/wild_cabbages",
 
         "pastel:anvil_crushing/vanilla_pulverising/prismarine_shard_from_dark_prismarine",
@@ -1707,6 +1726,7 @@ ServerEvents.recipes(event => {
         "rusticdelight:honey_coffee_from_coffee",
 
         "createaddition:mixing/biomass_from_plants",
+        "createaddition:crushing/tuff_recycling",
 
         "create:milling/cornflower",
         "create:mixing/mud_by_mixing",

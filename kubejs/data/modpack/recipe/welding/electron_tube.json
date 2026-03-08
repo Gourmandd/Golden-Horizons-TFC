@@ -1,0 +1,14 @@
+{
+    "type": "tfc:welding",
+    "first_input": {
+        "item": "tfc:metal/sheet/wrought_iron"
+    },
+    "second_input": {
+        "item": "create:polished_rose_quartz"
+    },
+    "tier": 1,
+    "result": {
+        "id": "create:electron_tube",
+        "count": 2
+    }
+}
