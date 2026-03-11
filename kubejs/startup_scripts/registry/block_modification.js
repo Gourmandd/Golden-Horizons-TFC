@@ -3,7 +3,7 @@ BlockEvents.modification(event => {
     let RAW_STONE = [
         "minecraft:stone",
         "minecraft:deepslate",
-        "pastel:blackslag",
+        "spectrum:blackslag",
         "caupona:felsic_tuff",
         "create:scoria",
         "minecraft:smooth_basalt",

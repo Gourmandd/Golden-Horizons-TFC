@@ -1,13 +1,13 @@
 {
-    "type": "pastel:pedestal",
+    "type": "spectrum:pedestal",
     "time": 240,
     "tier": "simple",
     "colors": {
-        "pastel:cyan": 0,
-        "pastel:magenta": 0,
-        "pastel:yellow": 8,
-        "pastel:white": 0,
-        "pastel:black": 0
+        "spectrum:cyan": 0,
+        "spectrum:magenta": 0,
+        "spectrum:yellow": 8,
+        "spectrum:white": 0,
+        "spectrum:black": 0
     },
     "experience": 2.0,
     "pattern": [
@@ -27,5 +27,5 @@
         "id": "minecraft:golden_carrot",
         "count": 1
     },
-    "required_advancement": "pastel:build_basic_pedestal_structure"
+    "required_advancement": "spectrum:build_basic_pedestal_structure"
 }

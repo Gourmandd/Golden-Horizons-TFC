@@ -1,13 +1,13 @@
 {
-    "type": "pastel:pedestal",
+    "type": "spectrum:pedestal",
     "time": 1200,
     "tier": "advanced",
     "colors": {
-        "pastel:cyan": 4,
-        "pastel:magenta": 0,
-        "pastel:yellow": 4,
-        "pastel:white": 0,
-        "pastel:black": 4
+        "spectrum:cyan": 4,
+        "spectrum:magenta": 0,
+        "spectrum:yellow": 4,
+        "spectrum:white": 0,
+        "spectrum:black": 4
     },
     "cyan": 4,
     "magenta": 0,
@@ -23,10 +23,10 @@
     ],
     "key": {
         "V": {
-            "item": "pastel:vegetal"
+            "item": "spectrum:vegetal"
         },
         "N": {
-            "item": "pastel:bottle_of_failing"
+            "item": "spectrum:bottle_of_failing"
         },
         "G": {
             "item": "tfc:metal/double_ingot/rose_gold"
@@ -35,12 +35,12 @@
             "item": "tfc:gem/emerald"
         },
         "C": {
-            "item": "pastel:midnight_chip"
+            "item": "spectrum:midnight_chip"
         }
     },
     "result": {
         "id": "minecraft:totem_of_undying",
         "count": 1
     },
-    "required_advancement": "pastel:midgame/collect_midnight_chip"
+    "required_advancement": "spectrum:midgame/collect_midnight_chip"
 }

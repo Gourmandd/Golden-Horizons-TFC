@@ -2,7 +2,7 @@
     "type": "create:milling",
     "ingredients": [
         {
-            "item": "pastel:amaranth_grains"
+            "item": "spectrum:amaranth_grains"
         }
     ],
     "results": [

@@ -2,7 +2,7 @@
   "type": "tfc:advanced_shapeless_crafting",
   "ingredients": [
     {
-        "item": "pastel:amaranth_bushel"
+        "item": "spectrum:amaranth_bushel"
     },
     {
       "tag": "c:tools/knife"
@@ -29,7 +29,7 @@
     ]
   },
   "result": {
-    "id": "pastel:amaranth_grains"
+    "id": "spectrum:amaranth_grains"
   }
 }
 

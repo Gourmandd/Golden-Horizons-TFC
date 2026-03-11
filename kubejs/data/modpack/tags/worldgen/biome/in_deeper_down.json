@@ -1,13 +1,13 @@
 {
     "replace": true,
     "values": [
-        "pastel:deep_dripstone_caves",
-        "pastel:noxshroom_forest",
-        "pastel:crystal_gardens",
-        "pastel:deep_barrens",
-        "pastel:dragonrot_swamp",
-        "pastel:black_langast",
-        "pastel:razor_edge",
-        "pastel:howling_spires"
+        "spectrum:deep_dripstone_caves",
+        "spectrum:noxshroom_forest",
+        "spectrum:crystal_gardens",
+        "spectrum:deep_barrens",
+        "spectrum:dragonrot_swamp",
+        "spectrum:black_langast",
+        "spectrum:razor_edge",
+        "spectrum:howling_spires"
     ]
 }

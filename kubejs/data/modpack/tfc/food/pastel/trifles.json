@@ -1,13 +1,13 @@
 {
     "ingredient": [
         {
-            "item": "pastel:jaramel_trifle"
+            "item": "spectrum:jaramel_trifle"
         },
         {
-            "item": "pastel:monster_trifle"
+            "item": "spectrum:monster_trifle"
         },
         {
-            "item": "pastel:demon_trifle"
+            "item": "spectrum:demon_trifle"
         }
     ],
     "category": "other",

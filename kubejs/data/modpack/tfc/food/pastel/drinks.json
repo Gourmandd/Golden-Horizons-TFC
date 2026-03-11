@@ -1,40 +1,40 @@
 {
     "ingredient": [
         {
-            "item": "pastel:bristle_mead"
+            "item": "spectrum:bristle_mead"
         },
         {
-            "item": "pastel:morchella"
+            "item": "spectrum:morchella"
         },
         {
-            "item": "pastel:freigeist"
+            "item": "spectrum:freigeist"
         },
         {
-            "item": "pastel:infused_beverage"
+            "item": "spectrum:infused_beverage"
         },
         {
-            "item": "pastel:pure_alcohol"
+            "item": "spectrum:pure_alcohol"
         },
         {
-            "item": "pastel:reprise"
+            "item": "spectrum:reprise"
         },
         {
-            "item": "pastel:pure_alcohol"
+            "item": "spectrum:pure_alcohol"
         },
         {
-            "item": "pastel:suspicious_brew"
+            "item": "spectrum:suspicious_brew"
         },
         {
-            "item": "pastel:jade_wine"
+            "item": "spectrum:jade_wine"
         },
         {
-            "item": "pastel:chrysocolla"
+            "item": "spectrum:chrysocolla"
         },
         {
-            "item": "pastel:aqua_regia"
+            "item": "spectrum:aqua_regia"
         },
         {
-            "item": "pastel:evernectar"
+            "item": "spectrum:evernectar"
         }
     ],
     "category": "other",

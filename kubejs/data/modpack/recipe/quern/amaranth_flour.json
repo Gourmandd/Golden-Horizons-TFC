@@ -1,7 +1,7 @@
 {
     "type": "tfc:quern",
     "ingredient": {
-        "item": "pastel:amaranth_grains"
+        "item": "spectrum:amaranth_grains"
     },
     "result": {
         "id": "modpack:food/amaranth_flour",

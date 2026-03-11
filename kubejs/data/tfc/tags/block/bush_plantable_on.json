@@ -1,15 +1,15 @@
 {
     "replace": false,
     "values": [
-        "pastel:shale_clay",
-        "pastel:shimmel",
-        "pastel:slush",
-        "pastel:black_materia",
-        "pastel:overgrown_blackslag",
-        "pastel:overgrown_slush",
-        "pastel:sawblade_grass",
-        "pastel:pyrite",
-        "pastel:rock_crystal",
-        "pastel:ash"
+        "spectrum:shale_clay",
+        "spectrum:shimmel",
+        "spectrum:slush",
+        "spectrum:black_materia",
+        "spectrum:overgrown_blackslag",
+        "spectrum:overgrown_slush",
+        "spectrum:sawblade_grass",
+        "spectrum:pyrite",
+        "spectrum:rock_crystal",
+        "spectrum:ash"
     ]
 }

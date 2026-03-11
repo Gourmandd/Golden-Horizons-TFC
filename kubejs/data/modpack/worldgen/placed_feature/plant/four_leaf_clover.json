@@ -16,7 +16,7 @@
       "predicate": {
         "type": "would_survive",
         "state": {
-          "Name": "pastel:four_leaf_clover",
+          "Name": "spectrum:four_leaf_clover",
           "Properties": {
             "age": "1",
             "stage": "1"

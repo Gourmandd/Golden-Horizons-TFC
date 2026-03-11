@@ -1,9 +1,9 @@
 {
     "replace": false,
     "values": [
-        "pastel:midnight_solution",
-        "pastel:humus",
-        "pastel:dragonrot",
-        "pastel:liquid_crystal"
+        "spectrum:midnight_solution",
+        "spectrum:humus",
+        "spectrum:dragonrot",
+        "spectrum:liquid_crystal"
     ]
 }

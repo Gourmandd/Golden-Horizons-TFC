@@ -1,13 +1,13 @@
 {
-    "type": "pastel:pedestal",
+    "type": "spectrum:pedestal",
     "time": 400,
     "tier": "complex",
     "colors": {
-        "pastel:cyan": 0,
-        "pastel:magenta": 0,
-        "pastel:yellow": 4,
-        "pastel:white": 4,
-        "pastel:black": 0
+        "spectrum:cyan": 0,
+        "spectrum:magenta": 0,
+        "spectrum:yellow": 4,
+        "spectrum:white": 4,
+        "spectrum:black": 0
     },
     "experience": 1,
     "pattern": [
@@ -17,19 +17,19 @@
     ],
     "key": {
         "P": {
-            "item": "pastel:paltaeria_gem"
+            "item": "spectrum:paltaeria_gem"
         },
         "B": {
             "item": "minecraft:basalt"
         },
         "S": {
-            "item": "pastel:shimmerstone_gem"
+            "item": "spectrum:shimmerstone_gem"
         }
     },
     "result": {
         "id": "architects_palette:sunstone",
         "count": 1
     },
-    "required_advancement": "pastel:hidden/collect_paltaeria_gem",
+    "required_advancement": "spectrum:hidden/collect_paltaeria_gem",
     "disable_yield_upgrades": true
 }

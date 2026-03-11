@@ -5,11 +5,11 @@
     "middle": "minecraft:calcite",
     "inner": [
       {
-        "data": "pastel:budding_citrine",
+        "data": "spectrum:budding_citrine",
         "weight": 1
       },
       {
-        "data": "pastel:citrine_block",
+        "data": "spectrum:citrine_block",
         "weight": 9
       }
     ]

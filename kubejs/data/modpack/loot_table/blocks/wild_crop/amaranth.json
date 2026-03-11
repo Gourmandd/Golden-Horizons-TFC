@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "pastel:amaranth_bushel",
+          "name": "spectrum:amaranth_bushel",
           "conditions": [
             {
               "condition": "minecraft:block_state_property",

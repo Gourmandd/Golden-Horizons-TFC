@@ -1,5 +1,5 @@
 {
-    "type": "pastel:titration_barrel",
+    "type": "spectrum:titration_barrel",
     "ingredients": [
         {
             "tag": "tfc:foods/sweeteners",

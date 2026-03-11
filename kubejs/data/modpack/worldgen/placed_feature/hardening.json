@@ -43,7 +43,7 @@
         {
           "target": {
             "predicate_type": "minecraft:block_match",
-            "block": "pastel:blackslag"
+            "block": "spectrum:blackslag"
           },
           "state": {
             "Name": "modpack:rock/hardened/blackslag"
@@ -79,7 +79,7 @@
 		{
           "target": {
             "predicate_type": "minecraft:block_match",
-            "block": "pastel:basal_marble"
+            "block": "spectrum:basal_marble"
           },
           "state": {
             "Name": "modpack:rock/hardened/picrite_basalt"
@@ -102,14 +102,14 @@
         "predicates": [
           {
             "type": "minecraft:matching_blocks",
-            "tag": "pastel:deeper_down_carver_replaceables",
+            "tag": "spectrum:deeper_down_carver_replaceables",
             "blocks": [
               "tfc:rock/raw/diorite",
               "tfc:rock/raw/granite",
               "tfc:rock/raw/andesite",
               "tfc:rock/raw/schist",
-              "pastel:blackslag",
-              "pastel:basal_marble",
+              "spectrum:blackslag",
+              "spectrum:basal_marble",
               "minecraft:deepslate",
               "minecraft:stone",
               "minecraft:dripstone_block"

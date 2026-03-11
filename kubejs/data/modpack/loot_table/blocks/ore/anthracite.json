@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "pastel:pure_coal"
+          "name": "spectrum:pure_coal"
         }
       ],
       "conditions": [

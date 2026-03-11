@@ -1,7 +1,7 @@
 {
     "replace": false,
     "values": [
-        "pastel:humus",
-        "pastel:midnight_solution"
+        "spectrum:humus",
+        "spectrum:midnight_solution"
     ]
 }

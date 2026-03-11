@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
 
     const CUTTING_TIME = 100
 
-    global.spectrum_WOOD_TYPES.forEach(wood => {
+    global.PASTEL_WOOD_TYPES.forEach(wood => {
 
         LOG_TYPES.forEach(type => {
             //stripped logs from logs

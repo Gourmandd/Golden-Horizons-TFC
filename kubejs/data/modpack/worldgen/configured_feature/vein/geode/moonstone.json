@@ -5,11 +5,11 @@
     "middle": "minecraft:calcite",
     "inner": [
       {
-        "data": "pastel:budding_moonstone",
+        "data": "spectrum:budding_moonstone",
         "weight": 1
       },
       {
-        "data": "pastel:moonstone_block",
+        "data": "spectrum:moonstone_block",
         "weight": 9
       }
     ]

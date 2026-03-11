@@ -13,7 +13,7 @@
       "after": "item:modpack:metal/bucket/wrought_iron"
     },
     {
-      "stack": "item:modpack:metal/bucket/wrought_iron{\"tfc:fluid\":{amount:1000,id:\"spectrum:humus\"}}",
+      "stack": "item:modpack:metal/bucket/wrought_iron{\"tfc:fluid\":{amount:1000,id:\"spectrum:sludge\"}}",
       "after": "item:modpack:metal/bucket/wrought_iron"
     },
     {
