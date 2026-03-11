@@ -1,0 +1,31 @@
+{
+    "type": "spectrum:pedestal",
+    "time": 20,
+    "tier": "basic",
+    "colors": {
+        "spectrum:cyan": 0,
+        "spectrum:magenta": 0,
+        "spectrum:yellow": 1,
+        "spectrum:white": 0,
+        "spectrum:black": 0
+    },
+    "experience": 0.05,
+    "pattern": [
+        " R ",
+        "RSR",
+        " R "
+    ],
+    "key": {
+        "R": {
+            "item": "minecraft:redstone"
+        },
+        "S": {
+            "tag": "minecraft:sand"
+        }
+    },
+    "result": {
+        "count": 1,
+        "id": "spectrum:redstone_sand"
+    },
+    "required_advancement": "spectrum:unlocks/redstone/redstone_sand"
+}

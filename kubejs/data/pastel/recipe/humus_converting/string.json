@@ -1,9 +1,0 @@
-{
-    "type": "pastel:humus_converting",
-    "ingredient": {
-        "tag": "c:foods/bushels"
-    },
-    "result": {
-        "id": "tfc:jute_fiber"
-    }
-}

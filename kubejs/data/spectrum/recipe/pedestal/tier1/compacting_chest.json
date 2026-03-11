@@ -1,0 +1,37 @@
+{
+    "type": "spectrum:pedestal",
+    "time": 800,
+    "tier": "basic",
+    "colors": {
+        "spectrum:cyan": 4,
+        "spectrum:magenta": 0,
+        "spectrum:yellow": 0,
+        "spectrum:white": 0,
+        "spectrum:black": 0
+    },
+    "experience": 2,
+    "pattern": [
+        "CIC",
+        "T T",
+        "TBT"
+    ],
+    "key": {
+        "C": {
+            "item": "tfc:metal/ingot/copper"
+        },
+        "B": {
+            "item": "tfc:metal/double_sheet/copper"
+        },
+        "T": {
+            "item": "spectrum:polished_basalt"
+        },
+        "I": {
+            "item": "tfc:metal/ingot/wrought_iron"
+        }
+    },
+    "result": {
+        "count": 1,
+        "id": "spectrum:compacting_chest"
+    },
+    "required_advancement": "spectrum:unlocks/blocks/compacting_chest"
+}

@@ -1,0 +1,37 @@
+{
+    "type": "spectrum:pedestal",
+    "time": 200,
+    "tier": "basic",
+    "colors": {
+        "spectrum:cyan": 2,
+        "spectrum:magenta": 0,
+        "spectrum:yellow": 2,
+        "spectrum:white": 0,
+        "spectrum:black": 0
+    },
+    "experience": 1.0,
+    "pattern": [
+        "CCC",
+        "RSB",
+        "BBB"
+    ],
+    "key": {
+        "R": {
+            "item": "minecraft:redstone"
+        },
+        "S": {
+            "item": "spectrum:storm_stone"
+        },
+        "B": {
+            "item": "spectrum:polished_basalt"
+        },
+        "C": {
+            "item": "tfc:metal/ingot/copper"
+        }
+    },
+    "result": {
+        "count": 1,
+        "id": "spectrum:block_detector"
+    },
+    "required_advancement": "spectrum:unlocks/redstone/block_detector"
+}

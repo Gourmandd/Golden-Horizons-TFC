@@ -1,0 +1,10 @@
+{
+    "type": "spectrum:dragonrot_converting",
+    "ingredient": {
+        "tag": "c:stones"
+    },
+    "result": {
+        "count": 1,
+        "id": "minecraft:blackstone"
+    }
+}

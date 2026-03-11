@@ -1,0 +1,32 @@
+{
+    "type": "spectrum:pedestal_shapeless",
+    "time": 50,
+    "tier": "basic",
+    "colors": {
+        "spectrum:cyan": 0,
+        "spectrum:magenta": 0,
+        "spectrum:yellow": 0,
+        "spectrum:white": 0,
+        "spectrum:black": 0
+    },
+    "experience": 1.0,
+    "ingredients": [
+        {
+            "item": "modpack:food/amaranth_flour"
+        },
+        {
+            "tag": "c:eggs"
+        },
+        {
+            "tag": "c:foods/fruit/berries/red"
+        },
+        {
+            "item": "spectrum:clotted_cream"
+        }
+    ],
+    "result": {
+        "id": "spectrum:scone",
+        "count": 2
+    },
+    "required_advancement": "spectrum:collect_amaranth_bushel"
+}

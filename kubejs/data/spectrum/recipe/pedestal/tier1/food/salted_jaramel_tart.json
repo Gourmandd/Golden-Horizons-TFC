@@ -1,0 +1,41 @@
+{
+    "type": "spectrum:pedestal",
+    "secret": true,
+    "time": 160,
+    "tier": "basic",
+    "colors": {
+        "spectrum:cyan": 0,
+        "spectrum:magenta": 0,
+        "spectrum:yellow": 2,
+        "spectrum:white": 0,
+        "spectrum:black": 0
+    },
+    "experience": 1.0,
+    "pattern": [
+        "JGJ",
+        "EME",
+        "AAA"
+    ],
+    "key": {
+        "A": {
+            "item": "modpack:food/amaranth_flour"
+        },
+        "J": {
+            "item": "spectrum:jaramel"
+        },
+        "E": {
+            "tag": "c:eggs"
+        },
+        "M": {
+            "tag": "c:foods/milk"
+        },
+        "G": {
+            "item": "minecraft:ghast_tear"
+        }
+    },
+    "result": {
+        "count": 1,
+        "id": "spectrum:salted_jaramel_tart"
+    },
+    "required_advancement": "spectrum:unlocks/food/tarts"
+}

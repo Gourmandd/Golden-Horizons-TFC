@@ -1,0 +1,10 @@
+{
+    "type": "spectrum:midnight_solution_converting",
+    "ingredient": {
+        "tag": "c:clay_balls"
+    },
+    "result": {
+        "count": 1,
+        "id": "tfc:glue"
+    }
+}

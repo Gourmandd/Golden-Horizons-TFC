@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "pastel:item/pure_coal"
+    "layer0": "spectrum:item/pure_coal"
   }
 }

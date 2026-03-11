@@ -5,23 +5,23 @@
       "after": "item:modpack:metal/bucket/wrought_iron"
     },
     {
-      "stack": "item:modpack:metal/bucket/wrought_iron{\"tfc:fluid\":{amount:1000,id:\"pastel:liquid_crystal\"}}",
+      "stack": "item:modpack:metal/bucket/wrought_iron{\"tfc:fluid\":{amount:1000,id:\"spectrum:liquid_crystal\"}}",
       "after": "item:modpack:metal/bucket/wrought_iron"
     },
     {
-      "stack": "item:modpack:metal/bucket/wrought_iron{\"tfc:fluid\":{amount:1000,id:\"pastel:midnight_solution\"}}",
+      "stack": "item:modpack:metal/bucket/wrought_iron{\"tfc:fluid\":{amount:1000,id:\"spectrum:midnight_solution\"}}",
       "after": "item:modpack:metal/bucket/wrought_iron"
     },
     {
-      "stack": "item:modpack:metal/bucket/wrought_iron{\"tfc:fluid\":{amount:1000,id:\"pastel:humus\"}}",
+      "stack": "item:modpack:metal/bucket/wrought_iron{\"tfc:fluid\":{amount:1000,id:\"spectrum:humus\"}}",
       "after": "item:modpack:metal/bucket/wrought_iron"
     },
     {
-      "stack": "item:tfc:metal/bucket/red_steel{\"tfc:fluid\":{amount:1000,id:\"pastel:dragonrot\"}}",
+      "stack": "item:tfc:metal/bucket/red_steel{\"tfc:fluid\":{amount:1000,id:\"spectrum:dragonrot\"}}",
       "after": "item:tfc:metal/bucket/red_steel"
     },
     {
-      "stack": "item:tfc:metal/bucket/blue_steel{\"tfc:fluid\":{amount:1000,id:\"pastel:dragonrot\"}}",
+      "stack": "item:tfc:metal/bucket/blue_steel{\"tfc:fluid\":{amount:1000,id:\"spectrum:dragonrot\"}}",
       "after": "item:tfc:metal/bucket/blue_steel"
     },
     {

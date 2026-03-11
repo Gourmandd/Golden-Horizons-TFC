@@ -1,0 +1,47 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:item_exists",
+            "item": "modpack:bucket/wrought_iron"
+        }
+    ],
+    "type": "spectrum:pedestal",
+    "time": 240,
+    "tier": "advanced",
+    "colors": {
+        "spectrum:cyan": 1,
+        "spectrum:magenta": 1,
+        "spectrum:yellow": 1,
+        "spectrum:white": 0,
+        "spectrum:black": 1
+    },
+    "experience": 1.0,
+    "pattern": [
+        "PMP",
+        "SBS",
+        "YMY"
+    ],
+    "key": {
+        "P": {
+            "item": "spectrum:pink_pigment"
+        },
+        "Y": {
+            "item": "spectrum:yellow_pigment"
+        },
+        "B": {
+            "item": "modpack:deco_bucket/wrought_iron"
+        },
+        "S": {
+            "item": "spectrum:shimmerstone_gem"
+        },
+        "M": {
+            "item": "spectrum:mermaids_gem"
+        }
+    },
+    "result": {
+        "id": "modpack:metal/bucket/wrought_iron",
+        "nbt": "{\"fluid\": {\"Amount\": 1000, \"FluidName\": \"spectrum:liquid_crystal\"} }",
+        "count": 1
+    },
+    "required_advancement": "spectrum:unlocks/blocks/liquid_crystal"
+}

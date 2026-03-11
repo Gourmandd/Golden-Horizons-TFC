@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:deepslate",
+        "minecraft:stone",
+        "spectrum:blackslag",
+        "modpack:rock/hardened/nephelinite",
+        "modpack:rock/hardened/argillite",
+        "modpack:rock/hardened/blackslag"
+    ]
+}

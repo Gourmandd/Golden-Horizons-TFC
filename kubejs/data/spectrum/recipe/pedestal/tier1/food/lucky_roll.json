@@ -1,0 +1,37 @@
+{
+    "type": "spectrum:pedestal",
+    "time": 200,
+    "tier": "basic",
+    "colors": {
+        "spectrum:cyan": 0,
+        "spectrum:magenta": 0,
+        "spectrum:yellow": 2,
+        "spectrum:white": 0,
+        "spectrum:black": 0
+    },
+    "experience": 0.5,
+    "pattern": [
+        "SCS",
+        "AMA",
+        "AAA"
+    ],
+    "key": {
+        "A": {
+            "item": "modpack:food/amaranth_flour"
+        },
+        "C": {
+            "item": "spectrum:four_leaf_clover"
+        },
+        "M": {
+            "tag": "c:foods/milk"
+        },
+        "S": {
+            "item": "minecraft:sugar"
+        }
+    },
+    "result": {
+        "count": 2,
+        "id": "spectrum:lucky_roll"
+    },
+    "required_advancement": "spectrum:unlocks/food/lucky_roll"
+}

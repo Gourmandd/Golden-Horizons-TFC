@@ -1,0 +1,40 @@
+{
+    "type": "spectrum:pedestal",
+    "time": 160,
+    "tier": "basic",
+    "colors": {
+        "spectrum:cyan": 4,
+        "spectrum:magenta": 0,
+        "spectrum:yellow": 2,
+        "spectrum:white": 0,
+        "spectrum:black": 0
+    },
+    "experience": 1.0,
+    "pattern": [
+        "JKJ",
+        "EME",
+        "AAA"
+    ],
+    "key": {
+        "A": {
+            "item": "modpack:food/amaranth_flour"
+        },
+        "J": {
+            "item": "spectrum:jaramel"
+        },
+        "E": {
+            "tag": "c:eggs"
+        },
+        "M": {
+            "tag": "c:foods/milk"
+        },
+        "K": {
+            "item": "tfc:plant/giant_kelp_flower"
+        }
+    },
+    "result": {
+        "count": 1,
+        "id": "spectrum:weeping_tart"
+    },
+    "required_advancement": "spectrum:unlocks/food/tarts"
+}

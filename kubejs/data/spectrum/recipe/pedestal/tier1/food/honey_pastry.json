@@ -1,0 +1,37 @@
+{
+    "type": "spectrum:pedestal",
+    "time": 80,
+    "tier": "basic",
+    "colors": {
+        "spectrum:cyan": 0,
+        "spectrum:magenta": 0,
+        "spectrum:yellow": 0,
+        "spectrum:white": 0,
+        "spectrum:black": 0
+    },
+    "experience": 1.0,
+    "pattern": [
+        " H ",
+        "SES",
+        "AAA"
+    ],
+    "key": {
+        "A": {
+            "item": "modpack:food/amaranth_flour"
+        },
+        "H": {
+            "item": "minecraft:honey_bottle"
+        },
+        "E": {
+            "tag": "c:eggs"
+        },
+        "S": {
+            "item": "minecraft:sugar"
+        }
+    },
+    "result": {
+        "count": 1,
+        "id": "spectrum:honey_pastry"
+    },
+    "required_advancement": "spectrum:collect_amaranth_bushel"
+}

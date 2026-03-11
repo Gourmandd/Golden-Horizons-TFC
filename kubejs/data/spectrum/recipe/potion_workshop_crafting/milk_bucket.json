@@ -1,0 +1,21 @@
+{
+    "type": "spectrum:potion_workshop_crafting",
+    "base_ingredient": {
+        "item": "modpack:deco_bucket/wooden"
+    },
+    "use_up_base_ingredient": true,
+    "color": 16774110,
+    "ingredient1": {
+        "item": "spectrum:milky_resin"
+    },
+    "result": {
+        "id": "tfc:wooden_bucket",
+        "components": {
+          "tfc:fluid": {
+              "amount": 1000,
+              "id":"minecraft:milk"
+          }
+        }
+    },
+    "required_advancement": "spectrum:hidden/collect_milky_resin"
+}

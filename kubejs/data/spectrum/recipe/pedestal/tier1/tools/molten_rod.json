@@ -1,0 +1,42 @@
+{
+    "type": "spectrum:pedestal",
+    "time": 800,
+    "tier": "basic",
+    "colors": {
+        "spectrum:cyan": 0,
+        "spectrum:magenta": 2,
+        "spectrum:yellow": 4,
+        "spectrum:white": 0,
+        "spectrum:black": 0
+    },
+    "experience": 4,
+    "pattern": [
+        " PB",
+        "PBS",
+        "B S"
+    ],
+    "key": {
+        "P": {
+            "item": "spectrum:orange_pigment"
+        },
+        "B": {
+            "item": "minecraft:blaze_rod"
+        },
+        "S": {
+            "tag": "c:strings"
+        }
+    },
+    "result": {
+        "nbt": {
+            "Enchantments": [
+                {
+                    "id": "spectrum:foundry",
+                    "lvl": "1s"
+                }
+            ]
+        },
+        "count": 1,
+        "id": "spectrum:molten_rod"
+    },
+    "required_advancement": "spectrum:unlocks/equipment/molten_rod"
+}

@@ -1,0 +1,37 @@
+{
+    "type": "spectrum:pedestal",
+    "time": 160,
+    "tier": "basic",
+    "colors": {
+        "spectrum:cyan": 0,
+        "spectrum:magenta": 0,
+        "spectrum:yellow": 2,
+        "spectrum:white": 0,
+        "spectrum:black": 0
+    },
+    "experience": 1.0,
+    "pattern": [
+        "J J",
+        "BEB",
+        "AAA"
+    ],
+    "key": {
+        "A": {
+            "item": "modpack:food/amaranth_flour"
+        },
+        "J": {
+            "item": "spectrum:jaramel"
+        },
+        "B": {
+            "item": "minecraft:bone_meal"
+        },
+        "E": {
+            "tag": "c:eggs"
+        }
+    },
+    "result": {
+        "count": 1,
+        "id": "spectrum:jaramel_trifle"
+    },
+    "required_advancement": "spectrum:unlocks/food/trifles"
+}

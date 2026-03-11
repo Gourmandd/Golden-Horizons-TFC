@@ -1,0 +1,49 @@
+{
+  "type": "spectrum:weighted_random_feature",
+  "config": {
+    "features": [
+      {
+        "data": {
+          "feature": "modpack:wood/deeper_down/slate_noxwood",
+          "placement": []
+        },
+        "weight": 100
+      },
+      {
+        "data": {
+          "feature": "modpack:wood/deeper_down/ebony_noxwood",
+          "placement": []
+        },
+        "weight": 100
+      },
+      {
+        "data": {
+          "feature": "modpack:wood/deeper_down/ivory_noxwood",
+          "placement": []
+        },
+        "weight": 100
+      },
+      {
+        "data": {
+          "feature": "modpack:wood/deeper_down/chestnut_noxwood",
+          "placement": []
+        },
+        "weight": 1
+      },
+      {
+        "weight": 5,
+        "data": {
+          "feature": "minecraft:huge_brown_mushroom",
+          "placement": []
+        }
+      },
+      {
+        "weight": 5,
+        "data": {
+          "feature": "minecraft:huge_red_mushroom",
+          "placement": []
+        }
+      }
+    ]
+  }
+}

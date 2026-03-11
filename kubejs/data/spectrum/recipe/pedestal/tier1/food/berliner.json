@@ -1,0 +1,48 @@
+{
+    "type": "spectrum:pedestal",
+    "time": 80,
+    "tier": "basic",
+    "colors": {
+        "spectrum:cyan": 0,
+        "spectrum:magenta": 0,
+        "spectrum:yellow": 0,
+        "spectrum:white": 0,
+        "spectrum:black": 0
+    },
+    "experience": 0.2,
+    "pattern": [
+        "CCC",
+        "XSX",
+        "EEE"
+    ],
+    "key": {
+        "X": {
+            "item": "spectrum:fresh_chocolate"
+        },
+        "E": {
+            "item": "modpack:food/amaranth_flour"
+        },
+        "C": {
+            "item": "spectrum:clotted_cream"
+        },
+        "S": {
+            "item": "spectrum:infused_beverage",
+            "recipeViewNbt": "{Variant: \"sawblade_holly_liquor\", Color: 13723654 }",
+            "matchbook": {
+                "mode": "AND",
+                "matches": [
+                    {
+                        "type": "string",
+                        "key": "Variant",
+                        "target": "sawblade_holly_liquor"
+                    }
+                ]
+            }
+        }
+    },
+    "result": {
+        "count": 1,
+        "id": "spectrum:berliner"
+    },
+    "required_advancement": "spectrum:hidden/collect_cookbooks/melochites_cookbook_vol_2"
+}

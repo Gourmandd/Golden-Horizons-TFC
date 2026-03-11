@@ -1,0 +1,38 @@
+{
+    "type": "spectrum:pedestal",
+    "time": 1200,
+    "tier": "advanced",
+    "colors": {
+        "spectrum:cyan": 4,
+        "spectrum:magenta": 4,
+        "spectrum:yellow": 4,
+        "spectrum:white": 0,
+        "spectrum:black": 4
+    },
+    "experience": 2.0,
+    "skip_recipe_remainders": true,
+    "pattern": [
+        "FMF",
+        "ABA",
+        "FMF"
+    ],
+    "key": {
+        "A": {
+            "item": "spectrum:raw_azurite"
+        },
+        "F": {
+            "item": "tfc:rotten_compost"
+        },
+        "M": {
+            "item": "spectrum:midnight_chip"
+        },
+        "B": {
+            "item": "minecraft:experience_bottle"
+        }
+    },
+    "result": {
+        "id": "spectrum:bottle_of_ruin",
+        "count": 1
+    },
+    "required_advancement": "spectrum:unlocks/items/bottle_of_ruin"
+}

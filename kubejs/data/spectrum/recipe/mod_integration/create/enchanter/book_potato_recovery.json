@@ -1,0 +1,49 @@
+{
+  "type": "spectrum:enchanter",
+  "time": 300,
+  "required_experience": 100,
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "spectrum:pink_pigment"
+    },
+    {
+      "item": "spectrum:pink_pigment"
+    },
+    {
+      "item": "tfc:metal/sheet/brass"
+    },
+    {
+      "item": "tfc:food/baked_potato"
+    },
+    {
+      "item": "spectrum:pink_pigment"
+    },
+    {
+      "item": "spectrum:pink_pigment"
+    },
+    {
+      "item": "tfc:metal/sheet/brass"
+    },
+    {
+      "item": "tfc:food/baked_potato"
+    }
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "stored_enchantments": {
+        "create:potato_recovery": 1
+      }
+    }
+  },
+  "required_advancement": "spectrum:midgame/build_enchanting_structure",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}
