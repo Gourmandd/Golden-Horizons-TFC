@@ -67,12 +67,12 @@ try {
 
         events.replaceInput(
             [
-                { input: "minecraft:tuff", mod: "pastel" }
+                { input: "minecraft:tuff", mod: "spectrum" }
             ],
             "minecraft:tuff", "tfc:rock/raw/tuff"
         )
 
-        events.replaceOutput({ output: "minecraft:amethyst_shard", not: { mod: "pastel" } }, "minecraft:amethyst_shard", "tfc:gem/amethyst")
+        events.replaceOutput({ output: "minecraft:amethyst_shard", not: { mod: "spectrum" } }, "minecraft:amethyst_shard", "tfc:gem/amethyst")
     })
 
 } catch (e) {

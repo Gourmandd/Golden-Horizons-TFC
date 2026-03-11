@@ -39,9 +39,9 @@ ServerEvents.tags("item", event => {
     //event.add("minecraft:stairs", ["#modpack:copper_shingle_stairs", "#modpack:copper_tile_stairs"])
 
     const EXTRA_STAIRS = [
-        "pastel:pyrite_stairs",
-        "pastel:pyrite_tiles_stairs",
-        "pastel:planed_basalt_stairs"
+        "spectrum:pyrite_stairs",
+        "spectrum:pyrite_tiles_stairs",
+        "spectrum:planed_basalt_stairs"
     ]
     EXTRA_STAIRS.forEach(item => {
         event.add("minecraft:stairs", item)

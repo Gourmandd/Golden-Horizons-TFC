@@ -106,8 +106,8 @@ try {
             "farmersdelight:tomato_seeds": "tfc:seeds/tomato",
             "farmersdelight:cabbage": "tfc:food/cabbage",
             "farmersdelight:cabbage_seeds": "tfc:seeds/cabbage",
-            "pastel:amaranth_grains": "modpack:seeds/amaranth",
-            "pastel:glistering_melon_seeds": "modpack:seeds/glistering_melon",
+            "spectrum:amaranth_grains": "modpack:seeds/amaranth",
+            "spectrum:glistering_melon_seeds": "modpack:seeds/glistering_melon",
 
         }
 

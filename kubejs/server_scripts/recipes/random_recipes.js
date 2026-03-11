@@ -31,8 +31,8 @@ try {
         event.remove({ mod: "farmersdelight", output: "#c:dyes" })
 
 
-        event.remove({ type: "minecraft:blasting", not: { mod: "pastel" } })
-        event.remove({ type: "minecraft:smelting", not: { mod: "pastel" } })
+        event.remove({ type: "minecraft:blasting", not: { mod: "spectrum" } })
+        event.remove({ type: "minecraft:smelting", not: { mod: "spectrum" } })
         event.remove({ type: "minecraft:blasting", input: "#c:ores" })
 
         event.replaceInput({ item: "minecraft:honeycomb", not: { output: "minecraft:honeycomb_block" } }, "minecraft:honeycomb", "firmalife:beeswax")
