@@ -4,6 +4,20 @@
     "remove": [
         "farmersdelight:onion",
         "farmersdelight:tomato",
-        "farmersdelight:cabbage"
+        "farmersdelight:cabbage",
+        "minecraft:potato",
+        "minecraft:carrot",
+        "minecraft:beetroot",
+        "minecraft:golden_carrot",
+        "spectrum:enchanted_golden_carrot",
+        "rusticdelight:potato_slices",
+        "rusticdelight:bell_pepper_slice_green",
+        "rusticdelight:bell_pepper_slice_red",
+        "rusticdelight:bell_pepper_slice_yellow",
+        "rusticdelight:bell_pepper_green",
+        "rusticdelight:bell_pepper_red",
+        "rusticdelight:bell_pepper_yellow",
+        "farmersdelight:cabbage_leaf",
+        "farmersdelight:pumpkin_slice"
     ]
 }

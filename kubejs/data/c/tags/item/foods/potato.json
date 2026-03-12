@@ -1,7 +1,7 @@
 {
     "replace": true,
     "values": [
-        "#c:foods/cooked_beef",
-        "#c:foods/raw_beef"
+        "tfc:food/potato",
+        "tfc:food/baked_potato"
     ]
 }
