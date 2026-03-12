@@ -36,9 +36,9 @@
         }
     },
     "result": {
-        "nbt": "{\"fluid\": {\"Amount\": 1000, \"FluidName\": \"spectrum:mud\"} }",
+        "nbt": "{\"fluid\": {\"Amount\": 1000, \"FluidName\": \"spectrum:sludge\"} }",
         "count": 1,
         "id": "modpack:metal/bucket/wrought_iron"
     },
-    "required_advancement": "spectrum:unlocks/blocks/mud"
+    "required_advancement": "spectrum:unlocks/blocks/sludge"
 }

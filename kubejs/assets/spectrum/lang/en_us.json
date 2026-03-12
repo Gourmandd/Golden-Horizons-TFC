@@ -1,6 +1,8 @@
 {
+    "item.spectrum.topaz_shard":"Pure Topaz Shard",
+    "item.spectrum.citrine_shard":"Pure Citrine Shard",
     "block.spectrum.deepslate_shimmerstone_light": "Nephelinite Shimmerstone Light",
-    "block.spectrum,blackslag": "Raw Blackslag",
+    "block.spectrum.blackslag": "Raw Blackslag",
     "block.spectrum.basal_marble": "Raw Picrite Basalt",
     "block.spectrum.basal_marble_stairs": "Picrite Basalt Stairs",
     "block.spectrum.basal_marble_slab": "Raw Picrite Basalt Slab",

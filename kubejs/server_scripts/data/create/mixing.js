@@ -123,7 +123,7 @@ ServerEvents.recipes(event => {
             id: "sugar"
         },
         {
-            input: [inputOf(ITEM, "pastel:shale_clay", 1), inputOf(FLUID, "minecraft:water", 1000)],
+            input: [inputOf(ITEM, "spectrum:shale_clay", 1), inputOf(FLUID, "minecraft:water", 1000)],
             result: [outputOf(ITEM, "tfc:rock/loose/shale", 1, 0.5), outputOf(FLUID, "modpack:shale_clay_slurry", 1000, 1)],
             heated: HEAT_REQUIREMENT.NONE,
             id: "shale_clay_slurry"
