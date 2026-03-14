@@ -2869,67 +2869,6 @@
             ]
         },
         {
-            "pakku_id": "Xh71jIv8AixmMXHj",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "curseforge": "databank",
-                "modrinth": "databank"
-            },
-            "name": {
-                "curseforge": "Databank",
-                "modrinth": "Databank"
-            },
-            "id": {
-                "curseforge": "1181408",
-                "modrinth": "2Ct0NAxj"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "databank-1.3.0.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7316/426/databank-1.3.0.jar",
-                    "id": "7316426",
-                    "parent_id": "1181408",
-                    "hashes": {
-                        "sha1": "ac72b91f594d38de2932dddef9de1cb5f1f0d1f4",
-                        "md5": "bcf5f33e5438ea650dac5440545b76dd"
-                    },
-                    "required_dependencies": [],
-                    "size": 528760,
-                    "date_published": "2025-12-10T15:49:17.400Z"
-                },
-                {
-                    "type": "modrinth",
-                    "file_name": "databank-1.3.0.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/2Ct0NAxj/versions/62xo9p1M/databank-1.3.0.jar",
-                    "id": "62xo9p1M",
-                    "parent_id": "2Ct0NAxj",
-                    "hashes": {
-                        "sha512": "34df2440ba64c9e13833a3a5dafc6cd3801d735eb5667312c0bbaa837c25423bc2273556becd30fbd2cd006cf79955b987b5a685729180afe25fac330875ae78",
-                        "sha1": "ac72b91f594d38de2932dddef9de1cb5f1f0d1f4"
-                    },
-                    "required_dependencies": [],
-                    "size": 528760,
-                    "date_published": "2025-12-10T15:47:46.248078Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "FiMVFkRcb2snWUMM",
             "type": "MOD",
             "side": "SERVER",
@@ -3369,67 +3308,6 @@
                     ],
                     "size": 2614309,
                     "date_published": "2025-11-28T23:20:00.913Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "xBQOFSHhCtwsYU8J",
-            "type": "MOD",
-            "side": "SERVER",
-            "slug": {
-                "curseforge": "exclusions-lib",
-                "modrinth": "exclusions-lib"
-            },
-            "name": {
-                "curseforge": "Exclusions Lib",
-                "modrinth": "Exclusions Lib"
-            },
-            "id": {
-                "curseforge": "1108052",
-                "modrinth": "OqRYBfuW"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "ExclusionsLib-1.1.0-NEO.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7502/579/ExclusionsLib-1.1.0-NEO.jar",
-                    "id": "7502579",
-                    "parent_id": "1108052",
-                    "hashes": {
-                        "sha1": "50d33588e3b346d9f8898993d115c05ea45037ec",
-                        "md5": "a0170d7c0410d3adafabf289badbe884"
-                    },
-                    "required_dependencies": [],
-                    "size": 94867,
-                    "date_published": "2026-01-21T19:54:03.617Z"
-                },
-                {
-                    "type": "modrinth",
-                    "file_name": "ExclusionsLib-1.1.0-NEO.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/OqRYBfuW/versions/4g8ImxvH/ExclusionsLib-1.1.0-NEO.jar",
-                    "id": "4g8ImxvH",
-                    "parent_id": "OqRYBfuW",
-                    "hashes": {
-                        "sha512": "610ba060a5982690c5c4e735cac6ba7621cefad7c6086f5828a9ba2667a8a1fa62c7c0d7630429c97222447661c3d34c258af2ad29cb0b59677a507e6a521fc6",
-                        "sha1": "50d33588e3b346d9f8898993d115c05ea45037ec"
-                    },
-                    "required_dependencies": [],
-                    "size": 94867,
-                    "date_published": "2026-01-21T19:52:57.790984Z"
                 }
             ]
         },
@@ -6341,7 +6219,6 @@
         {
             "pakku_id": "K8m8gsd5l0NjmEg5",
             "pakku_links": [
-                "bIz50BkuijMsGN1f",
                 "LJ8zAWQ25ZiRxV45",
                 "B9rCrTdjB1Frl92q",
                 "FQ6GKl2BSJ0TdbzC"
@@ -6494,80 +6371,6 @@
                     "required_dependencies": [],
                     "size": 46623,
                     "date_published": "2025-11-14T17:31:40.030Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "bIz50BkuijMsGN1f",
-            "pakku_links": [
-                "wtU33erymkTOXS11",
-                "3zH08EYHT05ispeP",
-                "hu9KEilDJu0di64z",
-                "Xh71jIv8AixmMXHj",
-                "xBQOFSHhCtwsYU8J"
-            ],
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "curseforge": "pastel",
-                "modrinth": "pastel-mod"
-            },
-            "name": {
-                "curseforge": "Pastel",
-                "modrinth": "Pastel"
-            },
-            "id": {
-                "curseforge": "1264556",
-                "modrinth": "5lr6fnw0"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "Pastel-1.1.5.5.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/5lr6fnw0/versions/GGU6zOUH/Pastel-1.1.5.5.jar",
-                    "id": "GGU6zOUH",
-                    "parent_id": "5lr6fnw0",
-                    "hashes": {
-                        "sha512": "75323c5b51ea1aa424596f115ee33301f523d1a4fae73a543e27b36c44ce1a672762ec1a01868de27bcdb735e4fb7cf2cb4b17eac1f1451f7a4151b73440c3c7",
-                        "sha1": "53a582520b78aebd56c9be1fd041472047dca3d3"
-                    },
-                    "required_dependencies": [],
-                    "size": 95561784,
-                    "date_published": "2026-02-07T22:48:21.394780Z"
-                },
-                {
-                    "type": "curseforge",
-                    "file_name": "Pastel-1.1.5.5.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7591/337/Pastel-1.1.5.5.jar",
-                    "id": "7591337",
-                    "parent_id": "1264556",
-                    "hashes": {
-                        "sha1": "53a582520b78aebd56c9be1fd041472047dca3d3",
-                        "md5": "8fa92dc280576ab9d4351ee21fe403a8"
-                    },
-                    "required_dependencies": [
-                        "348521",
-                        "309927",
-                        "1108052",
-                        "538392",
-                        "1181408"
-                    ],
-                    "size": 95561784,
-                    "date_published": "2026-02-07T22:48:30.227Z"
                 }
             ]
         },
@@ -7090,6 +6893,67 @@
                     ],
                     "size": 78451,
                     "date_published": "2025-01-15T20:35:56.381363Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "0PNqKf3PsBUlVdWS",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "revelationary",
+                "modrinth": "revelationary"
+            },
+            "name": {
+                "curseforge": "Revelationary",
+                "modrinth": "Revelationary"
+            },
+            "id": {
+                "curseforge": "656526",
+                "modrinth": "eXrl5E3G"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "revelationary-neoforge-1.4.0+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6728/488/revelationary-neoforge-1.4.0+1.21.1.jar",
+                    "id": "6728488",
+                    "parent_id": "656526",
+                    "hashes": {
+                        "sha1": "c2b99dfd8176269200b5c34da206882284c3fc65",
+                        "md5": "8660da33e4274ba397281e08ee45ebe0"
+                    },
+                    "required_dependencies": [],
+                    "size": 150993,
+                    "date_published": "2025-07-04T06:43:59.143Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "revelationary-neoforge-1.4.0+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/eXrl5E3G/versions/xYvnC5g9/revelationary-neoforge-1.4.0+1.21.1.jar",
+                    "id": "xYvnC5g9",
+                    "parent_id": "eXrl5E3G",
+                    "hashes": {
+                        "sha512": "a0c6f3f5daac76ea9bc62779d09c49673fecdbef87b90444dc9658eb4b45925350969b50d69d419b7b6b43302e29a547fda9b4ab93d1dc850f9cf910c23a7c35",
+                        "sha1": "c2b99dfd8176269200b5c34da206882284c3fc65"
+                    },
+                    "required_dependencies": [],
+                    "size": 150993,
+                    "date_published": "2025-07-04T06:43:20.413702Z"
                 }
             ]
         },
@@ -7800,6 +7664,80 @@
                     ],
                     "size": 309122,
                     "date_published": "2025-01-18T20:48:20.047599Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "FwVpHasgfaWSiusL",
+            "pakku_links": [
+                "3zH08EYHT05ispeP",
+                "hu9KEilDJu0di64z",
+                "0PNqKf3PsBUlVdWS",
+                "wtU33erymkTOXS11"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "spectrum",
+                "modrinth": "spectrum"
+            },
+            "name": {
+                "curseforge": "Spectrum",
+                "modrinth": "Spectrum"
+            },
+            "id": {
+                "curseforge": "556967",
+                "modrinth": "3rc31Hgo"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "spectrum-1.9.0-neo.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7755/460/spectrum-1.9.0-neo.jar",
+                    "id": "7755460",
+                    "parent_id": "556967",
+                    "hashes": {
+                        "sha1": "835c1d5984967b985fcf20f0a186ba134ce2ce59",
+                        "md5": "40859eab8af4f0fb5487da72cd389f2d"
+                    },
+                    "required_dependencies": [
+                        "341284",
+                        "538392",
+                        "348521",
+                        "656526",
+                        "309927",
+                        "306612"
+                    ],
+                    "size": 87978125,
+                    "date_published": "2026-03-14T10:51:11.183Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "spectrum-1.9.0-neo.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/3rc31Hgo/versions/3GhWtvGt/spectrum-1.9.0-neo.jar",
+                    "id": "3GhWtvGt",
+                    "parent_id": "3rc31Hgo",
+                    "hashes": {
+                        "sha512": "b6f45524f17dac475b6a5fda424f37f0488b5f16127fb38178c5973566fb8154c78c2cdb37f21dae6169fc620f41f83b3dad5c5046f6fd1786e79bad0dfbc3d8",
+                        "sha1": "835c1d5984967b985fcf20f0a186ba134ce2ce59"
+                    },
+                    "required_dependencies": [],
+                    "size": 87978125,
+                    "date_published": "2026-03-14T10:51:40.038099Z"
                 }
             ]
         },
