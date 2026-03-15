@@ -6,18 +6,18 @@
 	#If enabled, you can increase the Empty Map count by inserting Paper
 	accept_paper_for_empty_maps = false
 	#If true, the Atlas is required to have spare Empty Maps stored to expand the Filled Map size
-	require_empty_maps_to_expand = true
+	require_empty_maps_to_expand = false
 	#Controls how many free Empty Maps you get for 'activating' an Inactive Atlas
 	# Default: 9
 	# Range: 0 ~ 64
-	pity_activation_map_count = 9
+	pity_activation_map_count = 0
 	#If 'true', Atlases will be able to store Empty Maps and auto-fill them as you explore.
 	enable_empty_map_entry_and_fill = true
 	#Locations of where an atlas will be scanned for. By default only hotbar will be scanned
 	#Allowed Values: MAIN_HAND, HOTBAR, HANDS, HOTBAR_AND_HANDS, INVENTORY
 	activation_locations = "HOTBAR_AND_HANDS"
 	#Allows players in creative to teleport using the atlas. Hold shift and press anywhere
-	creative_teleport = true
+	creative_teleport = false
 	#Marker id associated with the red pin button on the atlas screen. Set to empty string to disable
 	pin_marked_id = "map_atlases:pin"
 	#Shows light color on maps. Needs Moonlight lib

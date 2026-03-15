@@ -10,7 +10,7 @@
 	# Range: 0.0 ~ 20.0
 	scale = 1.0
 	#If 'true', the Mini-Map of the Active Map will be drawn on the HUD while the Atlas is active.
-	enabled = true
+	enabled = false
 	#How many maps to display in a single minimap. Essentially zoom. Can be a fraction
 	# Default: 1.0
 	# Range: 0.001 ~ 100.0
@@ -80,7 +80,7 @@
 	clock_icon = false
 	crossair = false
 	#Use bigger book like texture for worldmap view. Makes the view a bit bigger. Recommended to ebe used with map scale 1 (you might want to lower lectern one too if buttons dont show)
-	alternative_texture = false
+	alternative_texture = true
 	#Pan smoothly. When off it will pan in map increments instead
 	smooth_panning = true
 	#Makes zooming work smoothly instead of in 2 maps increments
@@ -99,7 +99,7 @@
 	#Shows map separation borders
 	map_borders = true
 	#When enabled, the Atlas world map coordinates will be displayed
-	draw_coordinates = true
+	draw_coordinates = false
 	#Sets the scale of the text rendered for Coords world-map data
 	# Default: 1.0
 	# Range: 0.0 ~ 10.0
@@ -128,9 +128,9 @@
 
 [moonlight_integration]
 	#Enables moonlight compat, which allows to place map markers on map via a special pin button
-	enabled = true
+	enabled = false
 	#Allows tracking pins by pressing control, making them follow you on minimap
-	pin_tracking = true
+	pin_tracking = false
 	#Show nearby mobs on minimap. Also requires matching server config
 	mob_radar = false
 	# Default: 64
