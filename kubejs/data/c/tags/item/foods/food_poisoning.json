@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+        "#c:foods/raw_fowl",
+        "#c:foods/dough"
+    ],
+    "remove": [
+      "minecraft:raw_chicken",
+      "farmersdelight:wheat_dough"
+    ]
+}

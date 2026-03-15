@@ -1,0 +1,7 @@
+{
+    "replace": true,
+    "values": [
+        "#minecraft:saplings",
+        "#tfc:compost_greens"
+    ]
+}

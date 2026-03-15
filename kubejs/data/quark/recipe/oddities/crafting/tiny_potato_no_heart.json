@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "D",
+        "P"
+    ],
+    "key": {
+        "D": {
+            "item": "tfc:gem/diamond"
+        },
+        "P": {
+            "item": "tfc:food/potato"
+        }
+    },
+    "result": {
+        "id": "quark:tiny_potato"
+    }
+}

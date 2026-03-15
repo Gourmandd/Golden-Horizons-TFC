@@ -1,0 +1,16 @@
+{
+    "replace": false,
+    "values": [],
+    "remove": [
+        "minecraft:wheat_seeds",
+        "minecraft:beetroot_seeds",
+        "minecraft:melon_seeds",
+        "minecraft:pumpkin_seeds",
+        "farmersdelight:tomato_seeds",
+        "farmersdelight:cabbage_seeds",
+        "farmersdelight:rice",
+        "rusticdelight:coffee_beans",
+        "rusticdelight:cotton_seeds",
+        "rusticdelight:bell_pepper_seeds"
+    ]
+}

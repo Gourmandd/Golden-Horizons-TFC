@@ -1,0 +1,7 @@
+{
+    "replace": true,
+    "values": [
+        "tfc:food/wheat_grain",
+        "tfc:food/wheat_flour"
+    ]
+}

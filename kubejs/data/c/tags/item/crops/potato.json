@@ -1,0 +1,7 @@
+{
+    "replace": true,
+    "values": [
+        "tfc:food/potato",
+        "tfc:food/baked_potato"
+    ]
+}
