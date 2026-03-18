@@ -1,7 +1,7 @@
 {
     "replace": true,
     "values": [
-        "tfc:rock/raw/granite",
+        "tfc:rock/raw/chert",
         "create:cut_granite",
         "create:cut_granite_stairs",
         "create:cut_granite_wall",

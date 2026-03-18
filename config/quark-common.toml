@@ -132,7 +132,7 @@
 	"Vertical Planks" = false
 	"Vertical Slabs" = false
 	"Wooden Posts" = false
-	"More Stone Variants" = false
+	"More Stone Variants" = true
 
 	[building.celebratory_lamps]
 		"Light Level" = 15
@@ -270,7 +270,7 @@
 	[building.more_stone_variants]
 		"Enable Bricks" = true
 		"Enable Chiseled Bricks" = true
-		"Enable Pillar" = true
+		"Enable Pillar" = false
 
 [management]
 	"Automatic Tool Restock" = false
@@ -769,7 +769,7 @@
 	"Glimmering Weald" = false
 	"Monster Box" = false
 	"Nether Obsidian Spikes" = false
-	"New Stone Types" = false
+	"New Stone Types" = true
 	"No More Lava Pockets" = false
 	Permafrost = false
 	"Spiral Spires" = false
@@ -1176,9 +1176,9 @@
 			Dimensions = ["minecraft:the_nether"]
 
 	[world.new_stone_types]
-		"Enable Limestone" = false
-		"Enable Jasper" = false
-		"Enable Shale" = false
+		"Enable Limestone" = true
+		"Enable Jasper" = true
+		"Enable Shale" = true
 		"Enable Myalite" = false
 		"Add New Stones To Mason Trades" = false
 

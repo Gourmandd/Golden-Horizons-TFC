@@ -1,7 +1,7 @@
 {
     "replace": true,
     "values": [
-        "tfc:rock/raw/limestone",
+        "create:limestone",
         "create:cut_limestone",
         "create:cut_limestone_stairs",
         "create:cut_limestone_wall",

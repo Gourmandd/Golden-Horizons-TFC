@@ -63,12 +63,6 @@ ServerEvents.recipes(event => {
             id: "glue"
         },
         {
-            input: [inputOf(ITEM, "create:crushed_raw_gold", 1), inputOf(TAG, "c:cobblestones/normal", 1)],
-            result: [outputOf(ITEM, "create:ochrum", 1, 1)],
-            heated: HEAT_REQUIREMENT.HEATED,
-            id: "ochrum"
-        },
-        {
             input: [inputOf(ITEM, "create:crushed_raw_zinc", 1), inputOf(TAG, "c:cobblestones/normal", 1)],
             result: [outputOf(ITEM, "create:asurine", 1, 1)],
             heated: HEAT_REQUIREMENT.HEATED,

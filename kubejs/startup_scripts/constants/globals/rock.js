@@ -127,7 +127,13 @@ global.ROCK_BLOCKS = {
         "komatiite": "create:cut_scoria_bricks",
         "peridotite": "modpack:rock/bricks/peridotite",
         "serpentine": "modpack:rock/bricks/serpentine",
-        "blueschist": "modpack:rock/bricks/blueschist"
+        "blueschist": "modpack:rock/bricks/blueschist",
+        "arkose": "quark:limestone_bricks",
+        "suevite": "create:cut_scorchia_bricks",
+        "soapstone": "create:cut_limestone_bricks",
+        "sandstone": "create:cut_ochrum_bricks",
+        "red_sandstone": "quark:jasper_bricks",
+        "phonolite": "quark:shale_bricks",
     },
     "raw": {
         "argillite": "minecraft:stone",
@@ -139,7 +145,13 @@ global.ROCK_BLOCKS = {
         "komatiite": "create:scoria",
         "peridotite": "modpack:rock/raw/peridotite",
         "serpentine": "modpack:rock/raw/serpentine",
-        "blueschist": "modpack:rock/raw/blueschist"
+        "blueschist": "modpack:rock/raw/blueschist",
+        "arkose": "quark:limestone",
+        "suevite": "create:scorchia",
+        "soapstone": "create:limestone",
+        "sandstone": "create:ochrum",
+        "red_sandstone": "quark:jasper",
+        "phonolite": "quark:shale",
     }
 }
 
@@ -241,7 +253,13 @@ global.ROCKS_TO_SAND_COLOURS = {
     "komatiite": "brown",
     "peridotite": "green",
     "serpentine": "green",
-    "blueschist": "black"
+    "blueschist": "black",
+    "arkose": "brown",
+    "suevite": "black",
+    "soapstone": "white",
+    "sandstone": "yellow",
+    "red_sandstone": "red",
+    "phonolite": "black"
 }
 
 // These are Spectrum ores that will be integrated into TFC worldgen
@@ -298,9 +316,16 @@ global.STONE_TO_COBBLESTONE = {
     "komatiite": "modpack:rock/cobble/komatiite",
     "peridotite": "modpack:rock/cobble/peridotite",
     "serpentine": "modpack:rock/cobble/serpentine",
-    "blueschist": "modpack:rock/cobble/blueschist"
+    "blueschist": "modpack:rock/cobble/blueschist",
+    "arkose": "modpack:rock/cobble/arkose",
+    "suevite": "modpack:rock/cobble/suevite",
+    "soapstone": "modpack:rock/cobble/soapstone",
+    "sandstone": "modpack:rock/cobble/sandstone",
+    "red_sandstone": "modpack:rock/cobble/red_sandstone",
+    "phonolite": "modpack:rock/cobble/phonolite",
 }
 
+// test if needed
 global.STONE_TO_ROCK_TEXTURE = {
     "argillite": "minecraft:block/stone",
     "nephelinite": "minecraft:block/deepslate",
@@ -366,9 +391,16 @@ global.STONE_TO_COBBLESTONE_TEXTURE = {
     "komatiite": "modpack:block/rock/cobble/komatiite",
     "peridotite": "modpack:block/rock/cobble/peridotite",
     "serpentine": "modpack:block/rock/cobble/serpentine",
-    "blueschist": "modpack:block/rock/cobble/blueschist"
+    "blueschist": "modpack:block/rock/cobble/blueschist",
+    "arkose": "modpack:block/rock/cobble/arkose",
+    "suevite": "modpack:block/rock/cobble/suevite",
+    "soapstone": "modpack:block/rock/cobble/soapstone",
+    "sandstone": "modpack:block/rock/cobble/sandstone",
+    "red_sandstone": "modpack:block/rock/cobble/red_sandstone",
+    "phonolite": "modpack:block/rock/cobble/phonolite",
 }
 
+// test if needed
 global.CUSTOM_ROCK_MODELS = {
     "argillite": "minecraft:block/stone",
     "nephelinite": "minecraft:block/deepslate",

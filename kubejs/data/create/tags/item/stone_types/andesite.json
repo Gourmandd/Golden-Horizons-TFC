@@ -1,7 +1,7 @@
 {
     "replace": true,
     "values": [
-        "tfc:rock/raw/andesite",
+        "tfc:rock/raw/dacite",
         "create:cut_andesite",
         "create:cut_andesite_stairs",
         "create:cut_andesite_wall",
