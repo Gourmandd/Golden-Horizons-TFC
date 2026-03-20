@@ -7,7 +7,7 @@
     ],
     "key": {
         "S": {
-            "item": "tfc:metal/sheet/steel"
+            "item": "firmalife:metal/sheet/stainless_steel"
         },
         "C": {
             "item": "tfc:glue"
