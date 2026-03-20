@@ -71,37 +71,115 @@ TFCEvents.defaultWorldSettings(event => {
         "spike": `${id}:rock/spike/breccia`
     }, false)
 
-    event.defineLayer('breccia', {
+    event.addRock("travertine", {
+        "cobble": `${id}:rock/cobble/travertine`,
+        "gravel": `${id}:rock/gravel/travertine`,
+        "hardened": `${id}:rock/hardened/travertine`,
+        "karst": false,
+        "loose": `${id}:rock/loose/travertine`,
+        "mafic": true,
+        "mossy_loose": `${id}:rock/mossy_loose/travertine`,
+        "raw": `minecraft:dripstone_block`,
+        "sand": "tfc:sand/brown",
+        "sandstone": "tfc:raw_sandstone/brown",
+        "spike": `${id}:rock/spike/travertine`
+    }, false)
+
+    event.addRock("sandstone", {
+        "cobble": `${id}:rock/cobble/sandstone`,
+        "gravel": `${id}:rock/gravel/sandstone`,
+        "hardened": `${id}:rock/hardened/sandstone`,
+        "karst": false,
+        "loose": `${id}:rock/loose/sandstone`,
+        "mafic": true,
+        "mossy_loose": `${id}:rock/mossy_loose/sandstone`,
+        "raw": `create:ochrum`,
+        "sand": "tfc:sand/yellow",
+        "sandstone": "tfc:raw_sandstone/yellow",
+        "spike": `${id}:rock/spike/sandstone`
+    }, false)
+
+    event.addRock("red_sandstone", {
+        "cobble": `${id}:rock/cobble/red_sandstone`,
+        "gravel": `${id}:rock/gravel/red_sandstone`,
+        "hardened": `${id}:rock/hardened/red_sandstone`,
+        "karst": false,
+        "loose": `${id}:rock/loose/red_sandstone`,
+        "mafic": true,
+        "mossy_loose": `${id}:rock/mossy_loose/red_sandstone`,
+        "raw": `quark:jasper`,
+        "sand": "tfc:sand/red",
+        "sandstone": "tfc:raw_sandstone/red",
+        "spike": `${id}:rock/spike/red_sandstone`
+    }, false)
+
+    event.addRock("arkose", {
+        "cobble": `${id}:rock/cobble/arkose`,
+        "gravel": `${id}:rock/gravel/arkose`,
+        "hardened": `${id}:rock/hardened/arkose`,
+        "karst": false,
+        "loose": `${id}:rock/loose/arkose`,
+        "mafic": true,
+        "mossy_loose": `${id}:rock/mossy_loose/arkose`,
+        "raw": `quark:limestone`,
+        "sand": "tfc:sand/yellow",
+        "sandstone": "tfc:raw_sandstone/yellow",
+        "spike": `${id}:rock/spike/arkose`
+    }, false)
+
+    event.addRock("argillite", {
+        "cobble": `${id}:rock/cobble/argillite`,
+        "gravel": `${id}:rock/gravel/argillite`,
+        "hardened": `${id}:rock/hardened/argillite`,
+        "karst": false,
+        "loose": `${id}:rock/loose/argillite`,
+        "mafic": true,
+        "mossy_loose": `${id}:rock/mossy_loose/argillite`,
+        "raw": `minecraft:stone`,
+        "sand": "tfc:sand/brown",
+        "sandstone": "tfc:raw_sandstone/brown",
+        "spike": `${id}:rock/spike/argillite`
+    }, false)
+
+    event.addRock("phonolite", {
+        "cobble": `${id}:rock/cobble/phonolite`,
+        "gravel": `${id}:rock/gravel/phonolite`,
+        "hardened": `${id}:rock/hardened/phonolite`,
+        "karst": false,
+        "loose": `${id}:rock/loose/phonolite`,
+        "mafic": true,
+        "mossy_loose": `${id}:rock/mossy_loose/phonolite`,
+        "raw": `quark:shale`,
+        "sand": "tfc:sand/black",
+        "sandstone": "tfc:raw_sandstone/black",
+        "spike": `${id}:rock/spike/phonolite`
+    }, false)
+
+    event.defineLayer('modpack_sedimentary', {
+        travertine: "low_grade",
+        sandstone: "quartzite",
+        arkose: "quartzite",
+        red_sandstone: "quartzite",
+        argillite: "low_grade",
         breccia: "low_grade"
     })
 
-    event.defineLayer('blueschist', {
-        blueschist: "high_grade"
-    })
-
-    event.defineLayer('komatiite', {
+    event.defineLayer('modpack_volcanic', {
+        blueschist: "high_grade",
+        komatiite: "low_grade",
         komatiite: "low_grade"
-    })
-
-    event.defineLayer('serpentine', {
-        serpentine: "high_grade"
-    })
-
-    event.defineLayer('peridotite', {
-        peridotite: "high_grade"
     })
 
     event.defineLayer('tough_mafic', {
         peridotite: "high_grade",
         serpentine: "high_grade",
         blueschist: "high_grade",
-        komatiite: "low_grade"
+        komatiite: "low_grade",
+        phonolite: "low_grade"
     })
 
-    event.addLandLayer('breccia')
-    event.addLandLayer('serpentine')
-    event.addVolcanicLayer('blueschist')
-    event.addVolcanicLayer('komatiite')
+    event.addLandLayer('modpack_sedimentary')
+    event.addVolcanicLayer('modpack_volcanic')
     event.addLandLayer('tough_mafic')
 
     event.addToBottom("blueschist")
