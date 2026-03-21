@@ -2,7 +2,11 @@
   "values": [
     "modpack:rock/loose/blueschist",
     "modpack:rock/loose/serpentine",
+    "modpack:rock/loose/soapstone",
+    "modpack:rock/loose/suevite",
     "modpack:rock/mossy_loose/blueschist",
-    "modpack:rock/mossy_loose/serpentine"
+    "modpack:rock/mossy_loose/serpentine",
+    "modpack:rock/mossy_loose/soapstone",
+    "modpack:rock/mossy_loose/suevite"
   ]
 }

@@ -4,9 +4,11 @@
     "modpack:rock/loose/blackslag",
     "modpack:rock/loose/picrite_basalt",
     "modpack:rock/loose/komatiite",
+    "modpack:rock/loose/phonolite",
     "modpack:rock/mossy_loose/nephelinite",
     "modpack:rock/mossy_loose/blackslag",
     "modpack:rock/mossy_loose/picrite_basalt",
-    "modpack:rock/mossy_loose/komatiite"
+    "modpack:rock/mossy_loose/komatiite",
+    "modpack:rock/mossy_loose/phonolite"
   ]
 }

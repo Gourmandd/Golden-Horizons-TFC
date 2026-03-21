@@ -155,6 +155,20 @@ TFCEvents.defaultWorldSettings(event => {
         "spike": `${id}:rock/spike/phonolite`
     }, false)
 
+    event.addRock("blackslag", {
+        "cobble": `${id}:rock/cobble/blackslag`,
+        "gravel": `${id}:rock/gravel/blackslag`,
+        "hardened": `${id}:rock/hardened/blackslag`,
+        "karst": false,
+        "loose": `${id}:rock/loose/blackslag`,
+        "mafic": true,
+        "mossy_loose": `${id}:rock/mossy_loose/blackslag`,
+        "raw": `spectrum:blackslag`,
+        "sand": "tfc:sand/black",
+        "sandstone": "tfc:raw_sandstone/black",
+        "spike": `${id}:rock/spike/blackslag`
+    }, false)
+
     event.defineLayer('modpack_sedimentary', {
         travertine: "low_grade",
         sandstone: "quartzite",
@@ -166,7 +180,6 @@ TFCEvents.defaultWorldSettings(event => {
 
     event.defineLayer('modpack_volcanic', {
         blueschist: "high_grade",
-        komatiite: "low_grade",
         komatiite: "low_grade"
     })
 
@@ -182,8 +195,8 @@ TFCEvents.defaultWorldSettings(event => {
     event.addVolcanicLayer('modpack_volcanic')
     event.addLandLayer('tough_mafic')
 
+    event.addToBottom("blackslag")
     event.addToBottom("blueschist")
-    event.addToBottom("komatiite")
     event.addToBottom("serpentine")
     event.addToBottom("peridotite")
 
