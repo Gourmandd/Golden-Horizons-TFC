@@ -14,13 +14,15 @@
         "count": 4
     },
     "result": {
-        "nbt": {
-            "EntityTag": {
-                "id": "tfc:salmon"
-            },
-            "TicksToManifest": 4
+      "id": "spectrum:memory",
+      "components": {
+        "entity_data": {
+          "id": "tfc:salmon"
         },
-        "id": "spectrum:memory"
+        "spectrum:memory": {
+          "ticks_to_manifest": 4
+        }
+      }
     },
     "required_advancement": "spectrum:unlocks/blocks/memories"
 }

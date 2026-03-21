@@ -3,8 +3,10 @@
   "group": "memories",
   "time": 800,
   "experience": 4.0,
-  "ingredient1": "spectrum:tropical_fish_head",
-  "ingredient2": "caupona:water",
+  "ingredient1": "spectrum:bat_head",
+  "ingredient2": {
+      "tag": "#c:foods/fruits"
+  },
   "center_ingredient": {
     "tag": "spectrum:memory_bonding_agents",
     "count": 4
@@ -13,7 +15,7 @@
     "id": "spectrum:memory",
     "components": {
       "entity_data": {
-        "id": "tfc:tropical_fish"
+        "id": "minecraft:bat"
       },
       "spectrum:memory": {
         "ticks_to_manifest": 8

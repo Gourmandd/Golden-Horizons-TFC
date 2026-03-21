@@ -62,6 +62,7 @@ LootJS.modifiers(event => {
     // /summon tfc:frog 19.64 -60.00 -2.51 {variant:"minecraft:warm",CustomName:'"Powered Creeper"'} // you can use this to test.
     let MOB_VARIANT_HEAD_LOOT = {
         "snow": { "type": "tfc:fox", "head": "spectrum:fox_arctic_head", "nbt": "Type" },
+        "red": { "type": "tfc:fox", "head": "spectrum:fox_red_head", "nbt": "Type" },
         "minecraft:temperate": { "type": "tfc:frog", "head": "spectrum:frog_temperate_head", "nbt": "variant" },
         "minecraft:warm": { "type": "tfc:frog", "head": "spectrum:frog_warm_head", "nbt": "variant" },
         "minecraft:cold": { "type": "tfc:frog", "head": "spectrum:frog_cold_head", "nbt": "variant" }

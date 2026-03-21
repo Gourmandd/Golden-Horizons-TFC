@@ -13,10 +13,10 @@
     "id": "spectrum:memory",
     "components": {
       "entity_data": {
-        "id": "minecraft:squid"
+        "id": "tfc:squid"
       },
       "spectrum:memory": {
-        "ticks_to_manifest": 4
+        "ticks_to_manifest": 8
       }
     }
   },

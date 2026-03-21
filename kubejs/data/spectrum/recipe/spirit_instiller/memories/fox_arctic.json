@@ -14,14 +14,16 @@
         "count": 4
     },
     "result": {
-        "nbt": {
-            "EntityTag": {
-                "id": "tfc:fox",
-                "Type": "snow"
-            },
-            "TicksToManifest": 8
+      "id": "spectrum:memory",
+      "components": {
+        "entity_data": {
+          "id": "tfc:fox",
+          "Type": "snow"
         },
-        "id": "spectrum:memory"
+        "spectrum:memory": {
+          "ticks_to_manifest": 8
+        }
+      }
     },
     "required_advancement": "spectrum:unlocks/blocks/memories"
 }

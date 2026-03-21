@@ -14,13 +14,15 @@
         "count": 4
     },
     "result": {
-        "nbt": {
-            "EntityTag": {
-                "id": "minecraft:wandering_trader"
-            },
-            "TicksToManifest": 4
+      "id": "spectrum:memory",
+      "components": {
+        "entity_data": {
+          "id": "minecraft:wandering_trader"
         },
-        "id": "spectrum:memory"
+        "spectrum:memory": {
+          "ticks_to_manifest": 32
+        }
+      }
     },
     "required_advancement": "spectrum:unlocks/blocks/memories"
 }

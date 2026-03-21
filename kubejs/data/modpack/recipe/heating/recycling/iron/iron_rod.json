@@ -1,11 +1,11 @@
 {
     "type": "tfc:heating",
     "ingredient": {
-        "item": "minecraft:rail"
+        "item": "quark:iron_rod"
     },
     "result_fluid": {
         "id": "tfc:metal/cast_iron",
-        "amount": 4
+        "amount": 200
     },
     "temperature": 1535
 }

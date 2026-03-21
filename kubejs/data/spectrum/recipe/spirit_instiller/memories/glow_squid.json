@@ -13,7 +13,7 @@
     "id": "spectrum:memory",
     "components": {
       "entity_data": {
-        "id": "minecraft:glow_squid"
+        "id": "tfc:octopoteuthis"
       },
       "spectrum:memory": {
         "ticks_to_manifest": 8

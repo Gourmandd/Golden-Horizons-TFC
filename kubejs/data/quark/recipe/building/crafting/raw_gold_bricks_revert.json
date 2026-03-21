@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "quark:raw_gold_bricks"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "tfc:ore/rich_native_gold"
+  }
+}

@@ -407,6 +407,7 @@ ServerEvents.recipes(event => {
         "createaddition:mixing/biomass_from_plants",
         "createaddition:mixing/electrum",
         "createaddition:pressing/electrum_ingot",
+        "createaddition:pressing/brass_rod",
         "createaddition:pressing/zinc_ingot",
         "createaddition:rolling/brass_ingot",
         "createaddition:rolling/copper_ingot",
@@ -540,6 +541,7 @@ ServerEvents.recipes(event => {
         "create:crushing/tuff",
         "create:crushing/tuff_recycling",
         "create:crushing/ochrum",
+        "create:crushing/compat/quark/moss_block",
 
         "create:crushing/zinc_ore",
         "create:cutting/acacia_log",
@@ -1247,6 +1249,7 @@ ServerEvents.recipes(event => {
 
         "quark:automation/crafting/gold_button",
         "quark:automation/crafting/iron_button",
+        "quark:automation/crafting/iron_rod",
 
         "quark:building/crafting/blackstone_bricks",
         "quark:building/crafting/cobblestone_bricks",
@@ -1740,6 +1743,7 @@ ServerEvents.recipes(event => {
         "spectrum:pedestal/tier1/heartbound_chest",
         "spectrum:pedestal/tier2/vanilla/bell",
         "spectrum:pedestal/tier2/vanilla/name_tag",
+        "spectrum:pedestal/tier3/artisans_atlas",
         "spectrum:pedestal/tier4/perturbed_eye",
         "spectrum:pedestal/tier4/vanilla/elytra",
 
