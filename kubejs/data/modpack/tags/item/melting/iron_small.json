@@ -20,6 +20,13 @@
         "farmersdelight:iron_knife",
         "quark:abacus",
         "quark:trowel",
-        "quark:iron_rod"
+        "quark:iron_rod",
+        "quark:iron_plate",
+        "quark:iron_plate_slab",
+        "quark:iron_plate_stairs",
+        "quark:rusty_iron_plate",
+        "quark:rusty_iron_plate_slab",
+        "quark:rusty_iron_plate_stairs",
+        "quark:iron_pillar"
     ]
 }

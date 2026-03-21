@@ -1,0 +1,11 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+        "item": "quark:rusty_iron_plate_slab"
+    },
+    "result_fluid": {
+        "id": "tfc:metal/cast_iron",
+        "amount": 12
+    },
+    "temperature": 1535
+}

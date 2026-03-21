@@ -1,0 +1,24 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "zeta:flag",
+      "flag": "iron_plates"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "tfc:metal/sheet/wrought_iron"
+    }
+  },
+  "pattern": [
+    " # ",
+    "# #",
+    " # "
+  ],
+  "result": {
+    "count": 32,
+    "id": "quark:iron_plate"
+  }
+}
