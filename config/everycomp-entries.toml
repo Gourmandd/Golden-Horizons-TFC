@@ -29,25 +29,6 @@
 		[types.wood_type.architects_palette]
 			twisted = true
 
-		[types.wood_type.pastel]
-			black = true
-			blue = true
-			brown = true
-			cyan = true
-			gray = true
-			green = true
-			light_blue = true
-			light_gray = true
-			lime = true
-			magenta = true
-			orange = true
-			pink = true
-			purple = true
-			red = true
-			white = true
-			yellow = true
-			weeping_gala = true
-
 		[types.wood_type.afc]
 			baobab = true
 			eucalyptus = true
@@ -72,6 +53,29 @@
 			ancient = true
 			blossom = true
 
+		[types.wood_type.spectrum]
+			ivory_noxwood = true
+			slate_noxwood = true
+			ebony_noxwood = true
+			chestnut_noxwood = true
+			black = true
+			blue = true
+			brown = true
+			cyan = true
+			gray = true
+			green = true
+			light_blue = true
+			light_gray = true
+			lime = true
+			magenta = true
+			orange = true
+			pink = true
+			purple = true
+			red = true
+			white = true
+			yellow = true
+			weeping_gala = true
+
 		[types.leaves_type.caupona]
 			walnut = true
 			fig = true
@@ -80,7 +84,15 @@
 		[types.leaves_type.architects_palette]
 			twisted = true
 
-		[types.leaves_type.pastel]
+		[types.leaves_type.quark]
+			ancient = true
+			blue_blossom = true
+			lavender_blossom = true
+			orange_blossom = true
+			yellow_blossom = true
+			red_blossom = true
+
+		[types.leaves_type.spectrum]
 			weeping_gala = true
 			nephrite_blossom = true
 			spirit_sallow = true
@@ -100,14 +112,6 @@
 			red = true
 			white = true
 			yellow = true
-
-		[types.leaves_type.quark]
-			ancient = true
-			blue_blossom = true
-			lavender_blossom = true
-			orange_blossom = true
-			yellow_blossom = true
-			red_blossom = true
 
 #Disables specific entries
 [entries]
