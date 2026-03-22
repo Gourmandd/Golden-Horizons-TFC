@@ -1,42 +1,5 @@
 StartupEvents.registry('fluid', event => {
 
-    global.DYE_COLOURS.forEach(colour => {
-        event.create(`${id}:glass/${colour}`, 'thick')
-            .tint(global.COLOUR_TO_HEX[colour])
-            .noBucket()
-            .noBlock()
-            .tag('tfc:molten_metals')
-            .tag(`${id}:molten_glass`)
-    })
-
-    event.create(`${id}:glass/clear`, 'thick')
-        .tint(0xD4FBFB)
-        .noBucket()
-        .noBlock()
-        .tag('tfc:molten_metals')
-        .tag(`${id}:molten_glass`)
-
-    event.create(`${id}:lead`, 'thick')
-        .displayName('Lead')
-        .tint(0x333120)
-        .noBucket()
-        .noBlock()
-        .tag('tfc:molten_metals')
-
-    event.create(`${id}:electrum`, 'thick')
-        .displayName('Electrum')
-        .tint(0xFFF10F)
-        .noBucket()
-        .noBlock()
-        .tag('tfc:molten_metals')
-
-    event.create(`${id}:aluminium`, 'thick')
-        .displayName('Aluminium')
-        .tint(0xCDD6DA)
-        .noBucket()
-        .noBlock()
-        .tag('tfc:molten_metals')
-
     event.create(`${id}:shale_clay_slurry`, 'thin')
         .displayName('Shale Clay Slurry')
         .tint(0x4E4664)
