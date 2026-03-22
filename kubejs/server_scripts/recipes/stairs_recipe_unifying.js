@@ -15,10 +15,8 @@ ServerEvents.recipes(event => {
         let result = Item.of(ingredients[0].first, 3)
         let id = "modpack:stairs_to_blocks/" + Item.of(ingredients[0].first).getId().replace(":", "/")
 
-        if (!output.id.includes("tfc:", 0)) {
-            // All stairs return 8
-            event.shaped(Item.of(output.id, 8), ['S  ', 'SS ', 'SSS'], { S: ingredients[0] }).id(r.getId())
-        }
+        // All stairs return 4
+        event.shaped(Item.of(output.id, 4), ['S  ', 'SS '], { S: ingredients[0] }).id(r.getId())
 
         if (output.id.includes("tfc:", 0) && output.getCount() == 4) {
             return
@@ -31,18 +29,12 @@ ServerEvents.recipes(event => {
 
 
 ServerEvents.tags("item", event => {
-    global.DYE_COLOURS.forEach(colour => {
-        //event.add("minecraft:stairs", [`hearth_and_home:${colour}_shingle_stairs`, `hearth_and_home:${colour}_terracotta_brick_stairs`])
-        //event.add("minecraft:stairs", ["hearth_and_home:shingle_stairs", "hearth_and_home:terracotta_brick_stairs"])
-    })
-
-    //event.add("minecraft:stairs", ["#modpack:copper_shingle_stairs", "#modpack:copper_tile_stairs"])
-
     const EXTRA_STAIRS = [
         "spectrum:pyrite_stairs",
         "spectrum:pyrite_tiles_stairs",
         "spectrum:planed_basalt_stairs"
     ]
+
     EXTRA_STAIRS.forEach(item => {
         event.add("minecraft:stairs", item)
     })
