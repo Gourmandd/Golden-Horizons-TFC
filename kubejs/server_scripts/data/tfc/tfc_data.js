@@ -1,5 +1,3 @@
-// to be ported to the mod.
-
 ServerEvents.generateData("last", event => {
 
     let datagen = Datagen(event).tfcData()
