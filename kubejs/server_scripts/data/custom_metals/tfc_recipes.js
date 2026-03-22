@@ -41,7 +41,7 @@ ServerEvents.recipes(event => {
         heating(`${mod_id}:ore/normal_galena`, global.MELTING_POINTS["lead"], outputOf(IO_TYPE.FLUID, global.METAL_FLUIDS["lead"], 25), `${mod_id}:heating/galena/normal`)
         heating(`${mod_id}:ore/rich_galena`, global.MELTING_POINTS["lead"], outputOf(IO_TYPE.FLUID, global.METAL_FLUIDS["lead"], 35), `${mod_id}:heating/galena/rich`)
 
-        event.shaped(Item.of(`${mod_id}:metal/block/${metal}_stairs`, 8), ["B  ", "BB ", "BBB"], { "B": `${mod_id}:metal/block/${metal}` })
+        event.shaped(Item.of(`${mod_id}:metal/block/${metal}_stairs`, 4), ["B  ", "BB "], { "B": `${mod_id}:metal/block/${metal}` })
             .id(`${mod_id}:crafting/metal/block/${metal}_stairs`)
         event.shaped(Item.of(`${mod_id}:metal/block/${metal}_slab`, 6), ["BBB"], { "B": `${mod_id}:metal/block/${metal}` })
             .id(`${mod_id}:crafting/metal/block/${metal}_slab`)
