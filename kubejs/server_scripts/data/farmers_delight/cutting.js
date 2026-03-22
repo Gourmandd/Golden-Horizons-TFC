@@ -1,3 +1,4 @@
+// to be ported to the mod.
 
 const GIVES_PLANK = [
     "bookshelf",
@@ -33,7 +34,7 @@ const BRICK_TYPES = [
 
 
 
-ServerEvents.recipes(event =>{
+ServerEvents.recipes(event => {
 
     let datagen = Datagen(event).recipe()
     const ITEM = IO_TYPE.ITEM
@@ -43,15 +44,15 @@ ServerEvents.recipes(event =>{
 
         let mod = global.WOOD_TYPE_TO_MOD[type]
 
-            if (!Platform.isLoaded("afc") && mod == "afc"){return}
+        if (!Platform.isLoaded("afc") && mod == "afc") { return }
 
-            datagen.farmersCutting(outputOf(ITEM, `${mod}:wood/lumber/${type}`, 1, 1), inputOf(TAG, `modpack:cutting/wood/for_lumber/${type}`, 1), CUTTING_TOOL.AXE)
-                .id(`modpack:fd_cutting/wood/${mod}_lumber/${type}`)
-                .generate()
+        datagen.farmersCutting(outputOf(ITEM, `${mod}:wood/lumber/${type}`, 1, 1), inputOf(TAG, `modpack:cutting/wood/for_lumber/${type}`, 1), CUTTING_TOOL.AXE)
+            .id(`modpack:fd_cutting/wood/${mod}_lumber/${type}`)
+            .generate()
 
-            datagen.farmersCutting(outputOf(ITEM, `${mod}:wood/planks/${type}`, 1, 1), inputOf(TAG, `modpack:cutting/wood/for_planks/${type}`, 1), CUTTING_TOOL.AXE)
-                .id(`modpack:fd_cutting/wood/${mod}_planks/${type}`)
-                .generate()
+        datagen.farmersCutting(outputOf(ITEM, `${mod}:wood/planks/${type}`, 1, 1), inputOf(TAG, `modpack:cutting/wood/for_planks/${type}`, 1), CUTTING_TOOL.AXE)
+            .id(`modpack:fd_cutting/wood/${mod}_planks/${type}`)
+            .generate()
     })
 
     global.DYE_COLOURS.forEach(colour => {
@@ -64,7 +65,7 @@ ServerEvents.recipes(event =>{
     //datagen.farmersCutting(outputOf(ITEM, "minecraft:terracotta", 1, 0.5), inputOf(TAG, `modpack:cutting/terracotta_bricks/plain`, 1), CUTTING_TOOL.PICKAXE)
     //    .id(`modpack:fd_cutting/terracotta/plain`)
     //    .generate()
-    
+
     datagen.farmersCutting(outputOf(ITEM, "tfc:alabaster_brick", 1, 0.5), inputOf(TAG, `modpack:cutting/alabaster_brick`, 1), CUTTING_TOOL.PICKAXE)
         .id(`modpack:fd_cutting/alabaster`)
         .generate()

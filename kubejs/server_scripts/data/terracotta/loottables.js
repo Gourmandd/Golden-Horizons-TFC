@@ -1,3 +1,5 @@
+// to be ported to the mod.
+
 // ---------------------- //
 // Bulk loottable changes //
 // ---------------------- //

@@ -1,3 +1,5 @@
+// to be ported to the mod.
+
 // ---------------------------------------------------------- //
 // Generation of tags and recipes for a large amount of items //
 // ---------------------------------------------------------- //

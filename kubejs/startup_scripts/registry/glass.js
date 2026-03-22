@@ -1,3 +1,5 @@
+// to be ported to the mod.
+
 // ---------------------------------------------------- //
 // Registers items, blocks for industrial glassworking  //
 // ---------------------------------------------------- //

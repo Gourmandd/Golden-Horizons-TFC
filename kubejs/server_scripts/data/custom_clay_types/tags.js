@@ -1,3 +1,5 @@
+// to be ported to the mod.
+
 ServerEvents.tags("block", event => {
 
     global.CUSTOM_CLAY_TYPES.forEach(type => {

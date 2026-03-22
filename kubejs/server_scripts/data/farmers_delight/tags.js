@@ -1,11 +1,13 @@
-ServerEvents.tags("item", event =>{
+// to be ported to the mod.
+
+ServerEvents.tags("item", event => {
 
     global.OVERWORLD_WOOD_TYPES.forEach(type => {
 
         let mod = global.WOOD_TYPE_TO_MOD[type]
 
         // planks
-        GIVES_PLANK.forEach(item =>{
+        GIVES_PLANK.forEach(item => {
             event.add(`modpack:cutting/wood/for_planks/${type}`, `${mod}:wood/planks/${type}_${item}`)
         })
 
@@ -28,43 +30,43 @@ ServerEvents.tags("item", event =>{
         event.add(`modpack:cutting/wood/for_planks/${type}`, `everycomp:af/${mod}/${type}_bench`)
         event.add(`modpack:cutting/wood/for_planks/${type}`, `everycomp:q/${mod}/${type}_bookshelf`)
         event.add(`modpack:cutting/wood/for_planks/${type}`, `everycomp:hnhome/${mod}/${type}_lattice`)
-        event.add(`modpack:cutting/wood/for_planks/${type}`,`${mod}:wood/chest/${type}`)
-        event.add(`modpack:cutting/wood/for_planks/${type}`,`${mod}:wood/trapped_chest/${type}`)
-        event.add(`modpack:cutting/wood/for_planks/${type}`,`${mod}:wood/barrel/${type}`)
-        event.add(`modpack:cutting/wood/for_planks/${type}`,`${mod}:wood/lectern/${type}`)
-        event.add(`modpack:cutting/wood/for_planks/${type}`,`${mod}:wood/scribing_table/${type}`)
-        event.add(`modpack:cutting/wood/for_planks/${type}`,`${mod}:wood/sewing_table/${type}`)
-        event.add(`modpack:cutting/wood/for_planks/${type}`,`${mod}:wood/jar_shelf/${type}`)
-        event.add(`modpack:cutting/wood/for_planks/${type}`,`${mod}:wood/boat/${type}`)
+        event.add(`modpack:cutting/wood/for_planks/${type}`, `${mod}:wood/chest/${type}`)
+        event.add(`modpack:cutting/wood/for_planks/${type}`, `${mod}:wood/trapped_chest/${type}`)
+        event.add(`modpack:cutting/wood/for_planks/${type}`, `${mod}:wood/barrel/${type}`)
+        event.add(`modpack:cutting/wood/for_planks/${type}`, `${mod}:wood/lectern/${type}`)
+        event.add(`modpack:cutting/wood/for_planks/${type}`, `${mod}:wood/scribing_table/${type}`)
+        event.add(`modpack:cutting/wood/for_planks/${type}`, `${mod}:wood/sewing_table/${type}`)
+        event.add(`modpack:cutting/wood/for_planks/${type}`, `${mod}:wood/jar_shelf/${type}`)
+        event.add(`modpack:cutting/wood/for_planks/${type}`, `${mod}:wood/boat/${type}`)
 
         // lumber
-        GIVES_LUMBER.forEach(item =>{
-            event.add(`modpack:cutting/wood/for_lumber/${type}`,  `${mod}:wood/planks/${type}_${item}`)
+        GIVES_LUMBER.forEach(item => {
+            event.add(`modpack:cutting/wood/for_lumber/${type}`, `${mod}:wood/planks/${type}_${item}`)
         })
         event.add(`modpack:cutting/wood/for_lumber/${type}`, `everycomp:af/${mod}/${type}_shutter`)
         event.add(`modpack:cutting/wood/for_lumber/${type}`, `everycomp:c/${mod}/${type}_window_pane`)
         event.add(`modpack:cutting/wood/for_lumber/${type}`, `everycomp:q/${mod}/${type}_ladder`)
-        event.add(`modpack:cutting/wood/for_lumber/${type}`,`${mod}:wood/sluice/${type}`)
-        event.add(`modpack:cutting/wood/for_lumber/${type}`,`${mod}:wood/support/${type}`)
-        event.add(`modpack:cutting/wood/for_lumber/${type}`,`${mod}:wood/sign/${type}`)
+        event.add(`modpack:cutting/wood/for_lumber/${type}`, `${mod}:wood/sluice/${type}`)
+        event.add(`modpack:cutting/wood/for_lumber/${type}`, `${mod}:wood/support/${type}`)
+        event.add(`modpack:cutting/wood/for_lumber/${type}`, `${mod}:wood/sign/${type}`)
 
         global.TOOL_METALS.forEach(metal => {
-            event.add(`modpack:cutting/wood/for_lumber/${type}`,`${mod}:wood/hanging_sign/${metal}/${type}`)
-        })    
+            event.add(`modpack:cutting/wood/for_lumber/${type}`, `${mod}:wood/hanging_sign/${metal}/${type}`)
+        })
     })
-    
+
     // terracotta and alabaster
     global.DYE_COLOURS.forEach(colour => {
         BLOCK_SHAPES.forEach(shape => {
 
-            if (shape == "wall"){
-                
+            if (shape == "wall") {
+
                 event.add(`modpack:cutting/alabaster_brick`, `tfc:alabaster/bricks/${colour}_${shape}`)
                 event.add(`modpack:cutting/alabaster_brick`, `tfc:alabaster/polished/${colour}_${shape}`)
                 return
-            } 
+            }
 
-            if (shape == "bricks"){
+            if (shape == "bricks") {
                 //event.add(`modpack:cutting/terracotta_bricks/${colour}`, `hearth_and_home:${colour}_terracotta_bricks`)
                 //event.add(`modpack:cutting/terracotta_bricks/${colour}`, `hearth_and_home:${colour}_shingles`)
             } else {
@@ -72,7 +74,7 @@ ServerEvents.tags("item", event =>{
                 //event.add(`modpack:cutting/terracotta_bricks/${colour}`, `hearth_and_home:${colour}_shingle_${shape}`)
                 event.add(`modpack:cutting/alabaster_brick`, `tfc:alabaster/bricks/${colour}_${shape}`)
                 event.add(`modpack:cutting/alabaster_brick`, `tfc:alabaster/polished/${colour}_${shape}`)
-            }   
+            }
         })
         event.add(`modpack:cutting/gypsum`, `tfc:alabaster/raw/${colour}`)
     })
@@ -93,13 +95,13 @@ ServerEvents.tags("item", event =>{
         BRICK_TYPES.forEach(type => {
             BLOCK_SHAPES.forEach(shape => {
 
-                if (shape == "bricks"){
+                if (shape == "bricks") {
                     event.add(`modpack:cutting/rock/${rock}`, `tfc:rock/${type}/${rock}`)
                     event.add(`modpack:cutting/rock/${rock}`, `tfc:rock/smooth/${rock}`)
                 } else {
                     event.add(`modpack:cutting/rock/${rock}`, `tfc:rock/${type}/${rock}_${shape}`)
                     event.add(`modpack:cutting/rock/${rock}`, `tfc:rock/smooth/${rock}_${shape}`)
-                }  
+                }
             })
         })
         event.add(`modpack:cutting/rock/${rock}`, `tfc:rock/chiseled/${rock}`)
@@ -109,11 +111,11 @@ ServerEvents.tags("item", event =>{
     global.TFC_SOIL_TYPES.forEach(soil => {
         BLOCK_SHAPES.forEach(shape => {
 
-            if (shape == "bricks"){
+            if (shape == "bricks") {
                 event.add(`modpack:cutting/mud/${soil}/brick`, `tfc:mud_bricks/${soil}`)
             } else {
                 event.add(`modpack:cutting/mud/${soil}/brick`, `tfc:mud_bricks/${soil}_${shape}`)
-            }  
+            }
         })
     })
 
@@ -121,7 +123,7 @@ ServerEvents.tags("item", event =>{
     global.TFC_SAND_COLOURS.forEach(colour => {
         BLOCK_SHAPES.forEach(shape => {
 
-            if (shape == "bricks"){
+            if (shape == "bricks") {
                 event.add(`modpack:cutting/sandstone/${colour}`, `tfc:smooth_sandstone/${colour}`)
                 event.add(`modpack:cutting/sandstone/${colour}`, `tfc:raw_sandstone/${colour}`)
                 event.add(`modpack:cutting/sandstone/${colour}`, `tfc:cut_sandstone/${colour}`)
@@ -129,7 +131,7 @@ ServerEvents.tags("item", event =>{
                 event.add(`modpack:cutting/sandstone/${colour}`, `tfc:smooth_sandstone/${colour}_${shape}`)
                 event.add(`modpack:cutting/sandstone/${colour}`, `tfc:raw_sandstone/${colour}_${shape}`)
                 event.add(`modpack:cutting/sandstone/${colour}`, `tfc:cut_sandstone/${colour}_${shape}`)
-            }  
+            }
         })
     })
 })

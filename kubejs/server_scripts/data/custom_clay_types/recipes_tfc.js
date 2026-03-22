@@ -1,4 +1,5 @@
 //priority: 1
+// to be ported to the mod.
 
 // -------------------------------------------- //
 // Generates data related to custom clay types  //

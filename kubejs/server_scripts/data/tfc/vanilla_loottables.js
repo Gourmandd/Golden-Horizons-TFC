@@ -58,10 +58,6 @@ try {
         REMOVE_SEEDS.forEach(blockID => {
             event.addBlockModifier(blockID).removeLoot("minecraft:wheat_seeds")
         })
-
-        //minecraft glass is hardcoded to not drop anything unless gem saw or silk touch??
-        //event.addBlockLootModifier("minecraft:orange_stained_glass").addLoot("minecraft:orange_stained_glass")
-        //event.addBlockLootModifier("minecraft:glass").addLoot("minecraft:glass")
     })
 
 } catch (e) {

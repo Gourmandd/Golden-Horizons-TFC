@@ -1,4 +1,5 @@
 // requires: quark
+// to be ported to the mod.
 
 console.log("INFO: PORT QUARK GLASS SCRIPT, QUARK HAS BEEN ADDED TO THE PACK")
 

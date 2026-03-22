@@ -1,9 +1,11 @@
+// to be ported to the mod. If possible.
+
 // --------------------------------------------------- //
 // Generates recipes for filling TFC molds with Create //
 // --------------------------------------------------- //
 
 // components in recipes may be a bit broken in Create right now
-/* 
+/*
 ServerEvents.recipes(event =>{
 
     const TOOLS_100 = [
@@ -19,7 +21,7 @@ ServerEvents.recipes(event =>{
         "scythe_blade",
         "knife_blade"
     ]
-        
+
     const TOOLS_200 = [
         "sword_blade",
         "mace_head"
@@ -30,7 +32,7 @@ ServerEvents.recipes(event =>{
         "bronze",
         "brass"
     ]
-    
+
     global.CASTABLE_METALS.forEach(metal =>{
         TOOLS_100.forEach(tool =>{
             event.recipes.createFilling(
@@ -59,6 +61,6 @@ ServerEvents.recipes(event =>{
             [Item.of("tfc:ceramic/bell_mold"), Fluid.of(`tfc:metal/${metal}`, 100)]
         ).id(`modpack:filling/mold/${metal}/bell`)
     })
-    
+
 })
     */

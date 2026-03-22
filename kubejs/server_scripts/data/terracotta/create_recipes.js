@@ -1,3 +1,5 @@
+// to be ported to the mod.
+
 
 ServerEvents.recipes(event => {
 
@@ -11,8 +13,6 @@ ServerEvents.recipes(event => {
             `${mod_id}:terracotta/shard_${colour}`,
             `${mod_id}:terracotta/shard_${colour}`,
         ]).id(`${mod_id}:crafting/shapeless/${colour}_terracotta_from_shards`)
-
-        event.remove(`hearth_and_home:${colour}_shingles`)
 
         datagen.createMilling(
             [

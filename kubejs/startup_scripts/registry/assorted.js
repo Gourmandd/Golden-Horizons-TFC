@@ -13,6 +13,8 @@ StartupEvents.registry("item", event => {
     event.create(`${id}:olive_pomace`).displayName("Olive Pomace")
     event.create(`${id}:dry_olive_pomace`).displayName("Dry Olive Pomace")
 
+
+    // to be ported to the mod.
     global.DYE_COLOURS.forEach(colour => {
         event.create(`${id}:terracotta/shard_${colour}`).displayName(`${nameProcessing(colour)} Terracotta Shard`)
     })
@@ -70,8 +72,8 @@ StartupEvents.registry("block", event => {
         .notSolid()
         .tagBlock("minecraft:mineable/pickaxe")
 
+    // to be ported to the mod.
     global.DYE_COLOURS.forEach(colour => {
-
         event.create(`${id}:terracotta/crushed_${colour}`)
             .displayName(`${nameProcessing(colour)} Crushed Terracotta`)
             .soundType("sand")
