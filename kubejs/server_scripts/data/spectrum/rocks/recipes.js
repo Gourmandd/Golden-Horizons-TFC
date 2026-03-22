@@ -19,7 +19,7 @@ ServerEvents.recipes(event => {
 
         event.shaped(Item.of(`${mod_id}:rock/cobble/${rock_type}_wall`, 6), ["XXX", "XXX"], { "X": `${mod_id}:rock/cobble/${rock_type}` })
             .id(`${mod_id}:crafting/rock/${rock_type}/cobble_wall`)
-        event.shaped(Item.of(`${mod_id}:rock/cobble/${rock_type}_stairs`, 8), ["X  ", "XX ", "XXX"], { "X": `${mod_id}:rock/cobble/${rock_type}` })
+        event.shaped(Item.of(`${mod_id}:rock/cobble/${rock_type}_stairs`, 4), ["X  ", "XX "], { "X": `${mod_id}:rock/cobble/${rock_type}` })
             .id(`${mod_id}:crafting/rock/${rock_type}/cobble_stairs`)
         event.shaped(Item.of(`${mod_id}:rock/cobble/${rock_type}_slab`, 6), ["XXX"], { "X": `${mod_id}:rock/cobble/${rock_type}` })
             .id(`${mod_id}:crafting/rock/${rock_type}/cobble_slab`)
@@ -39,7 +39,7 @@ ServerEvents.recipes(event => {
 
         event.shaped(Item.of(`${mod_id}:rock/mossy_cobble/${rock_type}_wall`, 6), ["XXX", "XXX"], { "X": `${mod_id}:rock/mossy_cobble/${rock_type}` })
             .id(`${mod_id}:crafting/rock/${rock_type}/mossy_cobble_wall`)
-        event.shaped(Item.of(`${mod_id}:rock/mossy_cobble/${rock_type}_stairs`, 8), ["X  ", "XX ", "XXX"], { "X": `${mod_id}:rock/mossy_cobble/${rock_type}` })
+        event.shaped(Item.of(`${mod_id}:rock/mossy_cobble/${rock_type}_stairs`, 4), ["X  ", "XX "], { "X": `${mod_id}:rock/mossy_cobble/${rock_type}` })
             .id(`${mod_id}:crafting/rock/${rock_type}/mossy_cobble_stairs`)
         event.shaped(Item.of(`${mod_id}:rock/mossy_cobble/${rock_type}_slab`, 6), ["XXX"], { "X": `${mod_id}:rock/mossy_cobble/${rock_type}` })
             .id(`${mod_id}:crafting/rock/${rock_type}/mossy_cobble_slab`)
@@ -47,7 +47,7 @@ ServerEvents.recipes(event => {
 
         event.shaped(Item.of(`${mod_id}:rock/mossy_bricks/${rock_type}_wall`, 6), ["XXX", "XXX"], { "X": `${mod_id}:rock/mossy_bricks/${rock_type}` })
             .id(`${mod_id}:crafting/rock/${rock_type}/mossy_bricks_wall`)
-        event.shaped(Item.of(`${mod_id}:rock/mossy_bricks/${rock_type}_stairs`, 8), ["X  ", "XX ", "XXX"], { "X": `${mod_id}:rock/mossy_bricks/${rock_type}` })
+        event.shaped(Item.of(`${mod_id}:rock/mossy_bricks/${rock_type}_stairs`, 4), ["X  ", "XX "], { "X": `${mod_id}:rock/mossy_bricks/${rock_type}` })
             .id(`${mod_id}:crafting/rock/${rock_type}/mossy_bricks_stairs`)
         event.shaped(Item.of(`${mod_id}:rock/mossy_bricks/${rock_type}_slab`, 6), ["XXX"], { "X": `${mod_id}:rock/mossy_bricks/${rock_type}` })
             .id(`${mod_id}:crafting/rock/${rock_type}/mossy_bricks_slab`)
