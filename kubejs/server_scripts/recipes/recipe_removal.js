@@ -248,15 +248,6 @@ ServerEvents.recipes(event => {
         "spectrum:stonecutting/basal_marble/brick_stairs_from_polished",
         "spectrum:stonecutting/basal_marble/brick_slab_from_polished",
         "spectrum:stonecutting/basal_marble/brick_wall_from_polished",
-        "spectrum:pedestal/tier1/bricks/topaz",
-        "spectrum:pedestal/tier1/bricks/citrine",
-        "spectrum:pedestal/tier1/bricks/amethyst",
-        "spectrum:pedestal/tier1/bricks/onyx",
-        "spectrum:pedestal/tier1/bricks/moonstone",
-        "spectrum:pedestal/tier1/bricks/azurite",
-        "spectrum:pedestal/tier1/bricks/bloodstone",
-        "spectrum:pedestal/tier1/bricks/malachite",
-
 
         "create:brass_ladder_from_ingots_brass_stonecutting",
         "create:brass_scaffolding_from_ingots_brass_stonecutting",
