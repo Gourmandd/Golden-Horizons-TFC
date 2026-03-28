@@ -33,6 +33,7 @@ ServerEvents.recipes(event => {
 
     global.CUSTOM_CLAY_TYPES.forEach(type => {
 
+        // port these \/
         knapping(type, `${mod_id}:ceramic/${type}/unfired_chisel_head_mold`, 1, ["XX XX", "XX XX", "XX XX", "XX XX", "XX XX"], `${type}/unfired_chisel_head_mold`, true)
         knapping(type, `${mod_id}:ceramic/${type}/unfired_pickaxe_head_mold`, 1, ["XXXXX", "X   X", " XXX ", "XXXXX", "XXXXX"], `${type}/unfired_pickaxe_head_mold`, true)
         knapping(type, `${mod_id}:ceramic/${type}/unfired_axe_head_mold`, 1, ["X XXX", "    X", "     ", "    X", "X XXX"], `${type}/unfired_axe_head_mold`, false)
@@ -48,6 +49,7 @@ ServerEvents.recipes(event => {
         knapping(type, `${mod_id}:ceramic/${type}/unfired_bell_mold`, 1, ["XXXXX", "XX XX", "X   X", "X   X", "X   X"], `${type}/unfired_bell_mold`, true)
         knapping(type, `${mod_id}:ceramic/${type}/unfired_ingot_mold`, 2, ["XXXXX", "X  XX", "X  XX", "X  XX", "XXXXX"], `${type}/unfired_ingot_mold`, true)
         knapping(type, `${mod_id}:ceramic/${type}/unfired_shovel_head_mold`, 1, ["X   X", "X   X", "X   X", "X   X", "XX XX"], `${type}/unfired_shovel_head_mold`, true)
+        // port these /\
 
         //extras
         knapping(type, "caupona:clay_cistern", 1, ["XX XX", "X   X", "X   X", "X   X", " XXX "], `${type}/clay_cistern`, true)
@@ -74,6 +76,7 @@ ServerEvents.recipes(event => {
         knapping(type, `${mod_id}:ceramic/${type}/unfired_vessel`, 1, [" XXX ", "XXXXX", "XXXXX", "XXXXX", " XXX "], `${type}/unfired_vessel`, false)
         knapping(type, `${mod_id}:ceramic/${type}/unfired_jug`, 1, [" X   ", "XXXX ", "XXX X", "XXXX ", "XXX  "], `${type}/unfired_jug`, false)
         knapping(type, `${mod_id}:ceramic/${type}/unfired_brick`, 3, ["XXXXX", "     ", "XXXXX", "     ", "XXXXX"], `${type}/unfired_brick`, false)
+        // port these /\
 
         knapping(type, `${mod_id}:unfired_shaft`, 2, [" X X ", " X X ", " X X ", " X X ", " X X "], `${type}/shaft_vertical_2`, true)
         knapping(type, `${mod_id}:unfired_shaft`, 3, ["X X X", "X X X", "X X X", "X X X", "X X X"], `${type}/shaft_vertical_3`, false)
@@ -81,6 +84,7 @@ ServerEvents.recipes(event => {
         knapping(type, `${mod_id}:unfired_shaft`, 2, ["     ", "XXXXX", "     ", "XXXXX", "     "], `${type}/shaft_horizontal_2`, true)
         knapping(type, `${mod_id}:unfired_shaft`, 3, ["XXXXX", "     ", "XXXXX", "     ", "XXXXX"], `${type}/shaft_horizontal_3`, true)
 
+        // port these \/
         event.shaped(`2x ${mod_id}:ceramic/${type}_bricks`, ["XMX", "MXM", "XMX"], { "X": `${mod_id}:ceramic/${type}/brick`, "M": "tfc:mortar" }).id(`${mod_id}:crafting/${type}/bricks`)
         event.shaped(`8x ${mod_id}:ceramic/${type}_brick_stairs`, ["X  ", "XX ", "XXX"], { "X": `${mod_id}:ceramic/${type}_bricks` }).id(`${mod_id}:crafting/${type}/brick_stairs`)
         event.shaped(`6x ${mod_id}:ceramic/${type}_brick_slab`, ["XXX"], { "X": `${mod_id}:ceramic/${type}_bricks` }).id(`${mod_id}:crafting/${type}/brick_slab`)
@@ -121,6 +125,6 @@ ServerEvents.recipes(event => {
         item_heating(`heating/clay/${type}/brick`, `${mod_id}:ceramic/${type}/unfired_brick`, `${mod_id}:ceramic/${type}/brick`, 1399)
         item_heating(`heating/clay/${type}/vessel`, `${mod_id}:ceramic/${type}/unfired_vessel`, `${mod_id}:ceramic/${type}/vessel`, 1399)
         item_heating(`heating/clay/${type}/jug`, `${mod_id}:ceramic/${type}/unfired_jug`, `${mod_id}:ceramic/${type}/jug`, 1399)
-
+        // port these /\
     })
 })
