@@ -10,7 +10,7 @@
         "tag": "lithiccoins:stamped_coin/electrum"
     },
     "result_fluid": {
-        "id": "modpack:electrum",
+        "id": "modpack:metal/electrum",
         "amount": 20
     },
     "temperature": 1060

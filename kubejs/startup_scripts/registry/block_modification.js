@@ -1,11 +1,23 @@
 BlockEvents.modification(event => {
 
     let RAW_STONE = [
+        "create:scorchia",
+        "create:ochrum",
+        "create:limestone",
+        "create:scoria",
+
+        "quark:jasper",
+        "quark:shale",
+        "quark:limestone",
+
+        "spectrum:blackslag",
+        "spectrum:basal_marble",
+
+        "caupona:felsic_tuff",
+
         "minecraft:stone",
         "minecraft:deepslate",
-        "spectrum:blackslag",
-        "caupona:felsic_tuff",
-        "create:scoria",
+        "minecraft:dripstone_block",
         "minecraft:smooth_basalt",
         "minecraft:calcite"
     ]

@@ -27,7 +27,7 @@ ServerEvents.recipes(event => {
             }
             datagen.createDeploying(
                 outputOf(ITEM, `${mod_id}:ceramic/${type}/unfired_${tool}_${global.TFC_TOOL_HEADS[tool]}_mold`, 1, 1),
-                inputOf(ITEM, `${mod_id}:clay/${type}_clay_block`, 1),
+                inputOf(ITEM, `${mod_id}:ceramic/clay_block/${type}`, 1),
                 inputOf(TAG, `#${mod_id}:tool_heads/${tool}_${global.TFC_TOOL_HEADS[tool]}`)
             ).id(`${mod_id}:deploying/mold_pressing/${type}/${tool}_${global.TFC_TOOL_HEADS[tool]}`).generate()
         })
@@ -50,13 +50,13 @@ ServerEvents.recipes(event => {
         }
         datagen.createDeploying(
             outputOf(ITEM, `${mod_id}:ceramic/${type}/unfired_ingot_mold`, 2, 1),
-            inputOf(ITEM, `${mod_id}:clay/${type}_clay_block`, 1),
+            inputOf(ITEM, `${mod_id}:ceramic/clay_block/${type}`, 1),
             inputOf(TAG, "#c:ingots", 1)
         ).id(`${mod_id}:deploying/mold_pressing/${type}/ingot`).generate()
 
         datagen.createDeploying(
             outputOf(ITEM, `${mod_id}:ceramic/${type}/unfired_bell_mold`, 1, 1),
-            inputOf(ITEM, `${mod_id}:clay/${type}_clay_block`),
+            inputOf(ITEM, `${mod_id}:ceramic/clay_block/${type}`),
             inputOf(TAG, `#${mod_id}:bells`)
         ).id(`${mod_id}:deploying/mold_pressing/${type}/bell`).generate()
     })

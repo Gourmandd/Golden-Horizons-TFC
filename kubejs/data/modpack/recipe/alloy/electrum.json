@@ -1,6 +1,6 @@
 {
     "type": "tfc:alloy",
-    "result": "modpack:electrum",
+    "result": "modpack:metal/electrum",
     "contents": [
         {
             "fluid": "tfc:metal/silver",

@@ -1,6 +1,6 @@
 {
   "item": {
-    "item": "modpack:brown_lens"
+    "item": "modpack:lens/brown"
   },
   "tint_color": "#51301A",
   "shader": "exposure:shaders/brown_tint.json"

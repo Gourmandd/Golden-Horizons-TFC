@@ -1,6 +1,6 @@
 {
   "item": {
-    "item": "modpack:orange_lens"
+    "item": "modpack:lens/orange"
   },
   "tint_color": "#EB8844",
   "shader": "exposure:shaders/orange_tint.json"

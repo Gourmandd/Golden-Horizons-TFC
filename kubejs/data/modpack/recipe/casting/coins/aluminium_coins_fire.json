@@ -10,7 +10,7 @@
         "item": "lithiccoins:ceramic/fire_coin_mold"
     },
     "fluid": {
-        "fluid": "modpack:aluminium",
+        "fluid": "modpack:metal/aluminium",
         "amount": 100
     },
     "result": {

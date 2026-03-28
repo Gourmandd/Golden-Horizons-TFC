@@ -1,6 +1,6 @@
 {
   "item": {
-    "item": "modpack:lime_lens"
+    "item": "modpack:lens/lime"
   },
   "tint_color": "#41CD34",
   "shader": "exposure:shaders/lime_tint.json"

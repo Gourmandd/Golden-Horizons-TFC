@@ -5,13 +5,13 @@
 // --------------------------------------- //
 
 global.METAL_FLUIDS = {
-    "aluminium": id + ":aluminium",
+    "aluminium": id + ":metal/aluminium",
     "aluminium_bronze": "createbigcannons:molten_bronze",
     "hardened_steel": "createbigcannons:molten_steel",
     "cast_iron_alloy": "createbigcannons:molten_cast_iron",
     "nethersteel": "createbigcannons:molten_nethersteel",
-    "electrum": id + ":electrum",
-    "lead": id + ":lead"
+    "electrum": id + ":metal/electrum",
+    "lead": id + ":metal/lead"
 }
 
 global.TFC_METALS = [

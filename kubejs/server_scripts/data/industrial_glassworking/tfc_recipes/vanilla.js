@@ -29,7 +29,7 @@ ServerEvents.recipes(event => {
         heating(`minecraft:${colour}_stained_glass`, outputOf(IO_TYPE.FLUID, `${mod_id}:glass/${colour}`, 800), `${mod_id}:heating/glass/minecraft/${colour}_glass`)
         heating(`minecraft:${colour}_stained_glass_pane`, outputOf(IO_TYPE.FLUID, `${mod_id}:glass/${colour}`, 50), `${mod_id}:heating/glass/minecraft/${colour}_glass_pane`)
 
-        heating(`${mod_id}:${colour}_lens`, outputOf(IO_TYPE.FLUID, `${mod_id}:glass/${colour}`, 400), `${mod_id}:heating/glass/lens/${colour}`)
+        heating(`${mod_id}:lens/${colour}`, outputOf(IO_TYPE.FLUID, `${mod_id}:glass/${colour}`, 400), `${mod_id}:heating/glass/lens/${colour}`)
         heating(`${mod_id}:molten_glass/${colour}`, outputOf(IO_TYPE.FLUID, `${mod_id}:glass/${colour}`, 800), `${mod_id}:heating/molten_glass/${colour}`)
 
         casting(`minecraft:${colour}_stained_glass`, inputOf(IO_TYPE.FLUID, `${mod_id}:glass/${colour}`, 800), `${mod_id}:glass_mold`, `modpack:casting/glass/${colour}`)

@@ -10,7 +10,7 @@
         "item": "lithiccoins:ceramic/coin_mold"
     },
     "fluid": {
-        "fluid": "modpack:electrum",
+        "fluid": "modpack:metal/electrum",
         "amount": 100
     },
     "result": {

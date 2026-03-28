@@ -11,7 +11,7 @@
     },
     "result_fluid": {
         "amount": 20,
-        "id": "modpack:aluminium"
+        "id": "modpack:metal/aluminium"
     },
     "temperature": 1060
 }

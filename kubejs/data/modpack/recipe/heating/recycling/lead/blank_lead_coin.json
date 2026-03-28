@@ -10,7 +10,7 @@
         "item": "lithiccoins:blank_coin/lead"
     },
     "result_fluid": {
-        "id": "modpack:lead",
+        "id": "modpack:metal/lead",
         "amount": 25
     },
     "temperature": 320

@@ -1,6 +1,6 @@
 {
   "item": {
-    "item": "modpack:magenta_lens"
+    "item": "modpack:lens/magenta"
   },
   "tint_color": "#C354CD",
   "shader": "exposure:shaders/magenta_tint.json"

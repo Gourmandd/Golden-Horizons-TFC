@@ -1,6 +1,6 @@
 {
   "item": {
-    "item": "modpack:cyan_lens"
+    "item": "modpack:lens/cyan"
   },
   "tint_color": "#287697",
   "shader": "exposure:shaders/cyan_tint.json"

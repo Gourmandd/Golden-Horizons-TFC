@@ -13,6 +13,12 @@ LootJS.modifiers(event => {
             )
     }
 
+    addRockLikeBlock("create:scorchia", `${mod_id}:rock/loose/suevite`, "create:scorchia")
+    addRockLikeBlock("create:limestone", `${mod_id}:rock/loose/soapstone`, "create:limestone")
+    addRockLikeBlock("create:ochrum", `${mod_id}:rock/loose/sandstone`, "create:ochrum")
+    addRockLikeBlock("quark:jasper", `${mod_id}:rock/loose/red_sandstone`, "quark:jasper")
+    addRockLikeBlock("quark:shale", `${mod_id}:rock/loose/phonolite`, "quark:shale")
+    addRockLikeBlock("quark:limestone", `${mod_id}:rock/loose/arkose`, "quark:limestone")
     addRockLikeBlock("caupona:felsic_tuff", `${mod_id}:rock/loose/breccia`, "caupona:felsic_tuff")
     addRockLikeBlock("create:scoria", `${mod_id}:rock/loose/komatiite`, "create:scoria")
     addRockLikeBlock("minecraft:stone", `${mod_id}:rock/loose/argillite`, "minecraft:cobblestone")

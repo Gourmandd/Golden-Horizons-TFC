@@ -4,7 +4,7 @@
         "item": "createaddition:electrum_wire"
     },
     "result_fluid": {
-        "id": "modpack:electrum",
+        "id": "modpack:metal/electrum",
         "amount": 25
     },
     "temperature": 1060

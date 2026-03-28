@@ -85,10 +85,10 @@ ServerEvents.recipes(event => {
         knapping(type, `${mod_id}:unfired_shaft`, 3, ["XXXXX", "     ", "XXXXX", "     ", "XXXXX"], `${type}/shaft_horizontal_3`, true)
 
         // port these \/
-        event.shaped(`2x ${mod_id}:ceramic/${type}_bricks`, ["XMX", "MXM", "XMX"], { "X": `${mod_id}:ceramic/${type}/brick`, "M": "tfc:mortar" }).id(`${mod_id}:crafting/${type}/bricks`)
-        event.shaped(`8x ${mod_id}:ceramic/${type}_brick_stairs`, ["X  ", "XX ", "XXX"], { "X": `${mod_id}:ceramic/${type}_bricks` }).id(`${mod_id}:crafting/${type}/brick_stairs`)
-        event.shaped(`6x ${mod_id}:ceramic/${type}_brick_slab`, ["XXX"], { "X": `${mod_id}:ceramic/${type}_bricks` }).id(`${mod_id}:crafting/${type}/brick_slab`)
-        event.shaped(`6x ${mod_id}:ceramic/${type}_brick_wall`, ["XXX", "XXX"], { "X": `${mod_id}:ceramic/${type}_bricks` }).id(`${mod_id}:crafting/${type}/brick_wall`)
+        event.shaped(`2x ${mod_id}:ceramic/bricks/${type}`, ["XMX", "MXM", "XMX"], { "X": `${mod_id}:ceramic/${type}/brick`, "M": "tfc:mortar" }).id(`${mod_id}:crafting/${type}/bricks`)
+        event.shaped(`8x ${mod_id}:ceramic/bricks/${type}_stairs`, ["X  ", "XX ", "XXX"], { "X": `${mod_id}:ceramic/bricks/${type}` }).id(`${mod_id}:crafting/${type}/brick_stairs`)
+        event.shaped(`6x ${mod_id}:ceramic/bricks/${type}_slab`, ["XXX"], { "X": `${mod_id}:ceramic/bricks/${type}` }).id(`${mod_id}:crafting/${type}/brick_slab`)
+        event.shaped(`6x ${mod_id}:ceramic/bricks/${type}_wall`, ["XXX", "XXX"], { "X": `${mod_id}:ceramic/bricks/${type}` }).id(`${mod_id}:crafting/${type}/brick_wall`)
 
         if (type == "kaolinite") {
 
@@ -98,7 +98,7 @@ ServerEvents.recipes(event => {
 
             event.shapeless(Item.of(`${mod_id}:ceramic/${type}/clay_ball`), `#${mod_id}:clay/${type}/recycling_1`).id(`${mod_id}:crafting/${type}/recycling_1`)
             event.shapeless(Item.of(`${mod_id}:ceramic/${type}/clay_ball`, 4), `#${mod_id}:clay/${type}/recycling_5`).id(`${mod_id}:crafting/${type}/recycling_5`)
-            event.shaped(Item.of(`${mod_id}:clay/${type}_clay_block`), ["XX", "XX"], { "X": `${mod_id}:ceramic/${type}/clay_ball` }).id(`${mod_id}:crafting/${type}/clay_block`)
+            event.shaped(Item.of(`${mod_id}:ceramic/clay_block/${type}`), ["XX", "XX"], { "X": `${mod_id}:ceramic/${type}/clay_ball` }).id(`${mod_id}:crafting/${type}/clay_block`)
         }
 
         //makes tfc fired stuff

@@ -4,7 +4,7 @@
         "item": "createaddition:electrum_spool"
     },
     "result_fluid": {
-        "id": "modpack:electrum",
+        "id": "modpack:metal/electrum",
         "amount": 100
     },
     "result_item": {

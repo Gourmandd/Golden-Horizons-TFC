@@ -1,6 +1,6 @@
 {
   "item": {
-    "item": "modpack:white_lens"
+    "item": "modpack:lens/white"
   },
   "shader": "exposure:shaders/white_tint.json"
 }

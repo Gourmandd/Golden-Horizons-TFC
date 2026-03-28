@@ -1,6 +1,6 @@
 {
   "item": {
-    "item": "modpack:light_blue_lens"
+    "item": "modpack:lens/light_blue"
   },
   "tint_color": "#6689D3",
   "shader": "exposure:shaders/light_blue_tint.json"

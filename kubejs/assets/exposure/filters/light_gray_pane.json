@@ -1,6 +1,6 @@
 {
   "item": {
-    "item": "modpack:light_gray_lens"
+    "item": "modpack:lens/light_gray"
   },
   "tint_color": "#ABABAB",
   "shader": "exposure:shaders/light_gray_tint.json"

@@ -10,7 +10,7 @@
         "tag": "lithiccoins:stamped_coin/lead"
     },
     "result_fluid": {
-        "id": "modpack:lead",
+        "id": "modpack:metal/lead",
         "amount": 20
     },
     "temperature": 320

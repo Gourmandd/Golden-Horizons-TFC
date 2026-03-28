@@ -1,6 +1,6 @@
 {
   "item": {
-    "item": "modpack:pink_lens"
+    "item": "modpack:lens/pink"
   },
   "tint_color": "#D88198",
   "shader": "exposure:shaders/pink_tint.json"

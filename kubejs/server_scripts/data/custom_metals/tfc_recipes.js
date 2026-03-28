@@ -36,11 +36,6 @@ ServerEvents.recipes(event => {
         heating(`${mod_id}:metal/double_sheet/${metal}`, global.MELTING_POINTS[metal], outputOf(IO_TYPE.FLUID, global.METAL_FLUIDS[metal], 400), `${mod_id}:heating/double_sheet/${metal}`)
         heating(`${mod_id}:metal/rod/${metal}`, global.MELTING_POINTS[metal], outputOf(IO_TYPE.FLUID, global.METAL_FLUIDS[metal], 50), `${mod_id}:heating/rod/${metal}`)
 
-        heating(`${mod_id}:ore/small_galena`, global.MELTING_POINTS["lead"], outputOf(IO_TYPE.FLUID, global.METAL_FLUIDS["lead"], 10), `${mod_id}:heating/galena/small`)
-        heating(`${mod_id}:ore/poor_galena`, global.MELTING_POINTS["lead"], outputOf(IO_TYPE.FLUID, global.METAL_FLUIDS["lead"], 15), `${mod_id}:heating/galena/poor`)
-        heating(`${mod_id}:ore/normal_galena`, global.MELTING_POINTS["lead"], outputOf(IO_TYPE.FLUID, global.METAL_FLUIDS["lead"], 25), `${mod_id}:heating/galena/normal`)
-        heating(`${mod_id}:ore/rich_galena`, global.MELTING_POINTS["lead"], outputOf(IO_TYPE.FLUID, global.METAL_FLUIDS["lead"], 35), `${mod_id}:heating/galena/rich`)
-
         event.shaped(Item.of(`${mod_id}:metal/block/${metal}_stairs`, 4), ["B  ", "BB "], { "B": `${mod_id}:metal/block/${metal}` })
             .id(`${mod_id}:crafting/metal/block/${metal}_stairs`)
         event.shaped(Item.of(`${mod_id}:metal/block/${metal}_slab`, 6), ["BBB"], { "B": `${mod_id}:metal/block/${metal}` })
@@ -72,4 +67,9 @@ ServerEvents.recipes(event => {
         heating(`${mod_id}:metal/block/${metal}_stairs`, global.MELTING_POINTS[metal], outputOf(IO_TYPE.FLUID, global.METAL_FLUIDS[metal], 75), `${mod_id}:heating/block/${metal}_stairs`)
         heating(`${mod_id}:metal/block/${metal}_slab`, global.MELTING_POINTS[metal], outputOf(IO_TYPE.FLUID, global.METAL_FLUIDS[metal], 50), `${mod_id}:heating/block/${metal}_slab`)
     })
+
+    heating(`${mod_id}:ore/small_galena`, global.MELTING_POINTS["lead"], outputOf(IO_TYPE.FLUID, global.METAL_FLUIDS["lead"], 10), `${mod_id}:heating/galena/small`)
+    heating(`${mod_id}:ore/poor_galena`, global.MELTING_POINTS["lead"], outputOf(IO_TYPE.FLUID, global.METAL_FLUIDS["lead"], 15), `${mod_id}:heating/galena/poor`)
+    heating(`${mod_id}:ore/normal_galena`, global.MELTING_POINTS["lead"], outputOf(IO_TYPE.FLUID, global.METAL_FLUIDS["lead"], 25), `${mod_id}:heating/galena/normal`)
+    heating(`${mod_id}:ore/rich_galena`, global.MELTING_POINTS["lead"], outputOf(IO_TYPE.FLUID, global.METAL_FLUIDS["lead"], 35), `${mod_id}:heating/galena/rich`)
 })
