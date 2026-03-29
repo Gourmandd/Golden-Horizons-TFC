@@ -1,0 +1,15 @@
+{
+    "ingredient": {
+        "item": "spectrum:magnificent_star_candy"
+    },
+    "category": "other",
+    "hunger": 10,
+    "saturation": 10,
+    "water": 100,
+    "decay_modifier": 0.5,
+    "grain": 10,
+    "dairy": 10,
+    "vegetables": 10,
+    "fruit": 10,
+    "protein": 10
+}

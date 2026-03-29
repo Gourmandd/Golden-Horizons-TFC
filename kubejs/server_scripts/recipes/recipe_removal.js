@@ -1732,6 +1732,7 @@ ServerEvents.recipes(event => {
         "spectrum:mod_integration/farmersdelight/cutting/amaranth_bushel",
 
         "spectrum:pedestal/tier1/heartbound_chest",
+        "spectrum:pedestal/tier1/vanilla/packed_mud",
         "spectrum:pedestal/tier2/vanilla/bell",
         "spectrum:pedestal/tier2/vanilla/name_tag",
         "spectrum:pedestal/tier3/artisans_atlas",

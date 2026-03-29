@@ -1,13 +1,13 @@
 {
     "ingredient": {
-        "item": "spectrum:enchanted_star_candy"
+        "item": "spectrum:sugary_star_candy"
     },
     "category": "other",
-    "hunger": 2,
+    "hunger": 1,
     "saturation": 0,
     "water": 0,
     "decay_modifier": 0.5,
-    "grain": 2,
+    "grain": 0.5,
     "dairy": 0,
     "vegetables": 0,
     "fruit": 0,

@@ -1,13 +1,13 @@
 {
     "ingredient": {
-        "item": "spectrum:star_candy"
+        "item": "spectrum:mellow_star_candy"
     },
     "category": "other",
     "hunger": 2,
     "saturation": 0,
     "water": 0,
     "decay_modifier": 0.5,
-    "grain": 2,
+    "grain": 1,
     "dairy": 0,
     "vegetables": 0,
     "fruit": 0,

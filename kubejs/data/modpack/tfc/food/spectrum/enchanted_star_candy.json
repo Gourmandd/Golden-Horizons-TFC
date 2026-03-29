@@ -1,0 +1,15 @@
+{
+    "ingredient": {
+        "item": "spectrum:enchanted_star_candy"
+    },
+    "category": "other",
+    "hunger": 5,
+    "saturation": 0,
+    "water": 0,
+    "decay_modifier": 0.5,
+    "grain": 4,
+    "dairy": 0,
+    "vegetables": 0,
+    "fruit": 0,
+    "protein": 0
+}
