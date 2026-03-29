@@ -40,7 +40,7 @@ BlockEvents.placed(event => {
     if (event.player.offHandItem.getId() == "tfc:mortar") {
         event.block.set(COBBLESTONE_TO_MORTARED[event.block.id])
         event.player.offHandItem.setCount(event.player.offHandItem.count - 1)
-        event.level.spawnParticles("tfc:compost_ready", false, event.block.getX(), event.block.getY(), event.block.getZ(), 0.4, 0.4, 0.4, 8, 0.5)
+        event.level.spawnParticles("tfc:compost_ready", false, event.block.getX(), event.block.getY(), event.block.getZ(), 0.4, 0.4, 0.4, 8, 1)
         event.getPlayer().playNotifySound("minecraft:block.slime_block.place", "blocks", 0.5, 1)
     }
 })
