@@ -4,8 +4,8 @@
     "tier": "basic",
     "colors": {
         "spectrum:cyan": 0,
-        "spectrum:magenta": 0,
-        "spectrum:yellow": 8,
+        "spectrum:magenta": 4,
+        "spectrum:yellow": 4,
         "spectrum:white": 0,
         "spectrum:black": 0
     },
@@ -17,10 +17,10 @@
     ],
     "key": {
         "G": {
-            "item": "tfc:metal/ingot/gold"
+            "item": "tfc:metal/ingot/rose_gold"
         },
         "M": {
-            "item": "tfc:seeds/melon"
+            "item": "tfc:seeds/garlic"
         },
         "V": {
             "item": "spectrum:vegetal"
@@ -28,7 +28,7 @@
     },
     "result": {
         "count": 1,
-        "id": "modpack:seeds/glistering_melon"
+        "id": "modpack:seeds/wart"
     },
     "required_advancement": "spectrum:collect_vegetal"
 }

@@ -34,7 +34,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "tfc:gem/diamond"
+          "name": "tfc:ore/diamond"
         },
         {
           "type": "minecraft:item",
@@ -51,7 +51,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "tfc:gem/emerald",
+          "name": "tfc:ore/emerald",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -64,7 +64,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "tfc:gem/sapphire",
+          "name": "tfc:ore/sapphire",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -77,7 +77,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "tfc:gem/opal",
+          "name": "tfc:ore/opal",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -90,7 +90,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "tfc:gem/lapis_lazuli",
+          "name": "tfc:ore/lapis_lazuli",
           "functions": [
             {
               "function": "minecraft:set_count",

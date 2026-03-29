@@ -78,6 +78,7 @@ ServerEvents.tags("item", event => {
         "minecraft:apple",
         "minecraft:wheat",
         "create:dough",
+        "tfc:sandpaper",
         "farmersdelight:wheat_dough"
     ]
 

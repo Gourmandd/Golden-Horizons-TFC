@@ -1,34 +1,34 @@
 {
     "type": "spectrum:pedestal",
-    "time": 200,
+    "time": 120,
     "tier": "basic",
     "colors": {
-        "spectrum:cyan": 0,
-        "spectrum:magenta": 0,
-        "spectrum:yellow": 8,
+        "spectrum:cyan": 4,
+        "spectrum:magenta": 4,
+        "spectrum:yellow": 0,
         "spectrum:white": 0,
         "spectrum:black": 0
     },
     "experience": 1,
     "pattern": [
-        "VGV",
-        "GMG",
-        "VGV"
+        "VVB",
+        "FFB",
+        "VVB"
     ],
     "key": {
-        "G": {
-            "item": "tfc:metal/ingot/gold"
+        "F": {
+            "tag": "minecraft:flowers"
         },
-        "M": {
-            "item": "tfc:seeds/melon"
+        "B": {
+            "item": "minecraft:bone_meal"
         },
         "V": {
             "item": "spectrum:vegetal"
         }
     },
     "result": {
-        "count": 1,
-        "id": "modpack:seeds/glistering_melon"
+        "count": 6,
+        "id": "create:tree_fertilizer"
     },
     "required_advancement": "spectrum:collect_vegetal"
 }

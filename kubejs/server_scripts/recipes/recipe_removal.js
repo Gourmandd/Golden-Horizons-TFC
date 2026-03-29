@@ -466,6 +466,7 @@ ServerEvents.recipes(event => {
         "create:crafting/appliances/copper_diving_helmet",
         "create:crafting/appliances/dough",
         "create:crafting/appliances/slime_ball",
+        "create:crafting/appliances/tree_fertilizer",
         "create:crafting/curiosities/cake",
         "create:crafting/curiosities/peculiar_bell",
         "create:crafting/kinetics/blaze_burner",
