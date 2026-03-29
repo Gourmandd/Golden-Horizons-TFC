@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [],
+    "remove": [
+        "minecraft:dirt",
+        "minecraft:grass_block",
+        "minecraft:coarse_dirt",
+        "minecraft:rooted_dirt",
+        "minecraft:podzol",
+        "minecraft:mycelium",
+        "minecraft:mud",
+        "minecraft:muddy_mangrove_roots",
+        "minecraft:moss_block",
+        "spectrum:slush",
+        "spectrum:overgrown_slush"
+    ]
+}
