@@ -1,7 +1,7 @@
 {
     "type": "spectrum:potion_workshop_crafting",
     "base_ingredient": {
-        "item": "modpack:deco_bucket/wooden"
+        "item": "minecraft:glass_bottle"
     },
     "use_up_base_ingredient": true,
     "color": 16774110,
@@ -9,13 +9,7 @@
         "item": "spectrum:milky_resin"
     },
     "result": {
-        "id": "tfc:wooden_bucket",
-        "components": {
-          "tfc:fluid": {
-              "amount": 1000,
-              "id":"minecraft:milk"
-          }
-        }
+        "id": "farmers_delight:milk_bottle"
     },
     "required_advancement": "spectrum:hidden/collect_milky_resin"
 }

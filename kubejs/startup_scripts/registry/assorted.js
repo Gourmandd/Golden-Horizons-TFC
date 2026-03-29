@@ -42,36 +42,6 @@ StartupEvents.registry("block", event => {
         .tagBlock("minecraft:mineable/pickaxe")
         .tagBlock("minecraft:mineable/shovel")
 
-    event.create(`${id}:deco_bucket/wooden`)
-        .displayName("Decorational Wooden Bucket")
-        .defaultTranslucent()
-        .notSolid()
-        .tagBlock("minecraft:mineable/axe")
-
-
-    event.create(`${id}:deco_bucket/red_steel`)
-        .displayName("Decorational Red Steel Bucket")
-        .soundType("stone")
-        .defaultTranslucent()
-        .notSolid()
-        .tagBlock("minecraft:mineable/pickaxe")
-
-
-    event.create(`${id}:deco_bucket/blue_steel`)
-        .displayName("Decorational Blue Steel Bucket")
-        .soundType("stone")
-        .defaultTranslucent()
-        .notSolid()
-        .tagBlock("minecraft:mineable/pickaxe")
-
-
-    event.create(`${id}:deco_bucket/wrought_iron`)
-        .displayName("Decorational Wrought Iron Bucket")
-        .soundType("stone")
-        .defaultTranslucent()
-        .notSolid()
-        .tagBlock("minecraft:mineable/pickaxe")
-
     // to be ported to the mod.
     global.DYE_COLOURS.forEach(colour => {
         event.create(`${id}:terracotta/crushed_${colour}`)

@@ -1,10 +1,4 @@
 {
-    "neoforge:conditions": [
-        {
-            "type": "neoforge:item_exists",
-            "item": "modpack:bucket/wrought_iron"
-        }
-    ],
     "type": "spectrum:pedestal",
     "time": 240,
     "tier": "advanced",
@@ -29,7 +23,7 @@
             "item": "spectrum:yellow_pigment"
         },
         "B": {
-            "item": "modpack:deco_bucket/wrought_iron"
+            "tag": "c:gems"
         },
         "S": {
             "item": "spectrum:shimmerstone_gem"
@@ -39,8 +33,7 @@
         }
     },
     "result": {
-        "id": "modpack:metal/bucket/wrought_iron",
-        "nbt": "{\"fluid\": {\"Amount\": 1000, \"FluidName\": \"spectrum:liquid_crystal\"} }",
+        "id": "modpack:prismatic_ice",
         "count": 1
     },
     "required_advancement": "spectrum:unlocks/blocks/liquid_crystal"

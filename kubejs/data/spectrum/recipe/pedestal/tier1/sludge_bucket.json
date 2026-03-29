@@ -1,10 +1,4 @@
 {
-    "neoforge:conditions": [
-        {
-            "type": "neoforge:item_exists",
-            "item": "modpack:metal/bucket/wrought_iron"
-        }
-    ],
     "type": "spectrum:pedestal",
     "time": 240,
     "tier": "basic",
@@ -29,16 +23,15 @@
             "tag": "tfc:mud"
         },
         "B": {
-            "item": "modpack:deco_bucket/wrought_iron"
+            "item": "tfc:glue"
         },
         "M": {
             "item": "spectrum:mermaids_gem"
         }
     },
     "result": {
-        "nbt": "{\"fluid\": {\"Amount\": 1000, \"FluidName\": \"spectrum:sludge\"} }",
         "count": 1,
-        "id": "modpack:metal/bucket/wrought_iron"
+        "id": "modpack:sludge"
     },
     "required_advancement": "spectrum:unlocks/blocks/sludge"
 }

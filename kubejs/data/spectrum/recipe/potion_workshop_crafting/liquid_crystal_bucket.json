@@ -1,13 +1,7 @@
 {
-    "neoforge:conditions": [
-        {
-            "type": "neoforge:item_exists",
-            "item": "modpack:bucket/wrought_iron"
-        }
-    ],
     "type": "spectrum:potion_workshop_crafting",
     "base_ingredient": {
-        "item": "modpack:deco_bucket/wrought_iron"
+        "tag": "c:gems"
     },
     "use_up_base_ingredient": true,
     "color": 11972050,
@@ -21,12 +15,6 @@
         "item": "spectrum:shimmerstone_gem"
     },
     "result": {
-        "id": "modpack:metal/bucket/wrought_iron",
-        "components": {
-          "tfc:fluid": {
-              "amount": 1000,
-              "id":"spectrum:liquid_crystal"
-          }
-        }
+        "id": "modpack:prismatic_ice"
     }
 }

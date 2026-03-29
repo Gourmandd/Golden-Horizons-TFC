@@ -1739,6 +1739,10 @@ ServerEvents.recipes(event => {
         "spectrum:pedestal/tier4/vanilla/elytra",
 
         "spectrum:potion_workshop_crafting/powder_snow_bucket",
+        "spectrum:potion_workshop_crafting/midnight_solution_bucket",
+        "spectrum:potion_workshop_crafting/dragonrot_bucket",
+        "spectrum:potion_workshop_crafting/lava_bucket",
+        "spectrum:potion_workshop_crafting/water_bucket",
 
         "spectrum:primordial_fire_burning/campfire_unsouling",
         "spectrum:primordial_fire_burning/soul_lantern_unsouling",
