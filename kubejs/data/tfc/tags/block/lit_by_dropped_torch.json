@@ -14,6 +14,9 @@
         "tfc:plant/cordgrass",
         "tfc:plant/switchgrass",
         "tfc:plant/tall_fescue_grass",
-        "#minecraft:flowers"
+        "#minecraft:flowers",
+        "tfc:lignite",
+        "tfc:bituminous_coal",
+        "modpack:anthracite"
     ]
 }
