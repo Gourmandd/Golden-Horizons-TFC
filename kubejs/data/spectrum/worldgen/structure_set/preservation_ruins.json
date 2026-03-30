@@ -2,8 +2,8 @@
   "placement": {
     "type": "tfc:climate",
     "salt": 10387312,
-    "separation": 14,
-    "spacing": 16,
+    "separation": 6,
+    "spacing": 8,
 	"climate": {
 		"min_temperature": 0,
 		"max_rainfall": 400
