@@ -1,0 +1,16 @@
+{
+  "type": "tfc:bloomery",
+  "catalyst": {
+    "count": 2,
+    "item": "spectrum:pure_coal"
+  },
+  "duration": 15000,
+  "fluid": {
+    "amount": 100,
+    "fluid": "tfc:metal/cast_iron"
+  },
+  "result": {
+    "count": 1,
+    "id": "tfc:raw_iron_bloom"
+  }
+}
