@@ -74,3 +74,4 @@ config/jei/world
 command_history.txt
 mapwright_maps/
 config/spark/activity.json
+.mixin.out/class/net/minecraft/client/gui/screens/worldselection/WorldOpenFlows.class
