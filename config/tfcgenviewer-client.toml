@@ -1,0 +1,15 @@
+#
+# If a sound should be played when a preview finishes generating
+#
+dingWhenGenerated = true
+#
+# If the info pane should show a progress bar while a preview is being generated
+#
+displayGenerationProgress = true
+#
+# The maximum portion of the screen the world preview may take up.
+# The preview will always fit into the largest square between this portion of the screen with and the majority of the screen height
+#
+# Default: 0.5
+# Range: 0.25 ~ 0.75
+maxPreviewWidth = 0.5

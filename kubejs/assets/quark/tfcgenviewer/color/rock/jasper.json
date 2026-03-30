@@ -1,0 +1,11 @@
+{
+    "color": {
+        "r": 140,
+        "g": 76,
+        "b": 67
+    },
+    "name": {
+      "translate": "rock.modpack.red_sandstone"
+    },
+    "sort": 32
+}

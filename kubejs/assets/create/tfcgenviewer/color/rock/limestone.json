@@ -1,0 +1,11 @@
+{
+    "color": {
+        "r": 244,
+        "g": 245,
+        "b": 255
+    },
+    "name": {
+      "translate": "rock.modpack.soapstone"
+    },
+    "sort": 22
+}

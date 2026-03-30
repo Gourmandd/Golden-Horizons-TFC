@@ -13,5 +13,22 @@
     "tfc.recipe.barrel.modpack.barrel.sugarcane_juice": "Clarifying Sugarcane Juice",
     "tfc.recipe.barrel.modpack.barrel.cheese.halloumi": "Making Halloumi From Goat Curd",
     "tfc.recipe.barrel.modpack.barrel.cheese.mozzarella": "Making Halloumi From Cow Curd",
-    "tfc.recipe.barrel.modpack.barrel.cheese.soft_chhurpi": "Making Halloumi From Yak Curd"
+    "tfc.recipe.barrel.modpack.barrel.cheese.soft_chhurpi": "Making Halloumi From Yak Curd",
+
+    "rock.modpack.argillite": "Argillite",
+    "rock.modpack.nephelinite": "Nephelinite",
+    "rock.modpack.travertine": "Travertine",
+    "rock.modpack.breccia": "Breccia",
+    "rock.modpack.red_sandstone": "Red Sandstone",
+    "rock.modpack.arkose": "Arkose",
+    "rock.modpack.phonolite": "Phonolite",
+    "rock.modpack.soapstone": "Soapstone",
+    "rock.modpack.suevite": "Suevite",
+    "rock.modpack.sandstone": "Sandstone",
+    "rock.modpack.komatiite": "Komatiite",
+    "rock.modpack.peridotite": "Peridotite",
+    "rock.modpack.blueschist": "Blueschist",
+    "rock.modpack.serpentine": "Serpentine",
+    "rock.modpack.blackslag": "Blackslag",
+    "rock.modpack.picrite_basalt": "Picrite Basalt"
 }
