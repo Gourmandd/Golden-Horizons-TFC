@@ -5,8 +5,8 @@ Files for a minecraft modpack for Minecraft version 1.21.1 that is based on top 
 **This entire text is a work in progress**
 
 On Ancient Ground is available on Curseforge and Modrinth
-[Modrinth](https://modrinth.com/modpack/golden-horizons)
-[Curseforge](https://www.curseforge.com/minecraft/modpacks/golden-horizons-tfc)
+[Modrinth](https://modrinth.com/modpack/on-ancient-ground)
+[Curseforge](https://www.curseforge.com/minecraft/modpacks/on-ancient-ground)
 
 ## Reporting issues
 
