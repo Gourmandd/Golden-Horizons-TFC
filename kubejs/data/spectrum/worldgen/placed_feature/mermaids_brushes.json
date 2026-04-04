@@ -3,7 +3,7 @@
   "placement": [
     {
         "type": "minecraft:rarity_filter",
-        "chance": 20
+        "chance": 26
     },
     {
       "type": "minecraft:count",
@@ -31,6 +31,20 @@
           "Name": "spectrum:mermaids_brush"
         }
       }
+    },
+    {
+      "type": "tfc:climate",
+      "min_temperature": -20,
+      "max_temperature": 10,
+      "min_groundwater": 0,
+      "max_groundwater": 500,
+      "min_rain_variance": -1,
+      "max_rain_variance": 1,
+      "rain_variance_absolute": false,
+      "min_forest": 0,
+      "max_forest": 3,
+      "min_elevation": -64,
+      "max_elevation": 320
     }
   ]
 }

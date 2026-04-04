@@ -3,11 +3,11 @@
   "placement": [
     {
         "type": "minecraft:rarity_filter",
-        "chance": 6
+        "chance": 13
     },
     {
       "type": "minecraft:count",
-      "count": 6
+      "count": 9
     },
     {
       "type": "minecraft:in_square"
@@ -27,6 +27,20 @@
           "Name": "spectrum:quitoxic_reeds"
         }
       }
-    }
+    },
+        {
+          "type": "tfc:climate",
+          "min_temperature": 12,
+          "max_temperature": 26,
+          "min_groundwater": 0,
+          "max_groundwater": 500,
+          "min_rain_variance": -1,
+          "max_rain_variance": 1,
+          "rain_variance_absolute": false,
+          "min_forest": 0,
+          "max_forest": 3,
+          "min_elevation": -64,
+          "max_elevation": 320
+        }
   ]
 }
