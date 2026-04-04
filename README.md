@@ -1,11 +1,12 @@
-# Golden-Horizons-TFC
-Files for a minecraft modpack for 1.20.1 that is based on top of the gameplay created by the [TerraFirmaCraft](https://github.com/TerraFirmaCraft/TerraFirmaCraft) mod
+# On Ancient Ground
+Files for a minecraft modpack for Minecraft version 1.21.1 that is based on top of the gameplay created by the [TerraFirmaCraft](https://github.com/TerraFirmaCraft/TerraFirmaCraft) mod
+*Formerly Golden Horizons TFC*
 
 **This entire text is a work in progress**
 
-Golden horizons is available on Curseforge and Modrinth
-[Modrinth](https://modrinth.com/modpack/golden-horizons)
-[Curseforge](https://www.curseforge.com/minecraft/modpacks/golden-horizons-tfc)
+On Ancient Ground is available on Curseforge and Modrinth
+[Modrinth](https://modrinth.com/modpack/on-ancient-ground)
+[Curseforge](https://www.curseforge.com/minecraft/modpacks/on-ancient-ground)
 
 ## Reporting issues
 
