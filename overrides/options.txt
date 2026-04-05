@@ -42,8 +42,8 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","mod_resources","moonlight:merged_pack","file/Dyes-Backport-1.1.1.zip","file/Comforts Modernized - V1.1.zip","file/[Compressed] Alternative Rain Sounds 1.21-1.21.1.zip","file/§dChicknTurtleBetterShield-v1.2.zip","file/Old Copper Stuffs v1.8 For 1.21.1.zip","mod/pastel:pastel_style_amethyst","scholar:colored_books","scholar:chiseled_bookshelf_colored_books","file/Vexxed_Visuals_TFC_v1.3.8.zip","file/Modpack Extra Resources","firmalife_data"]
-incompatibleResourcePacks:["file/Comforts Modernized - V1.1.zip","file/Modpack Extra Resources","firmalife_data"]
+resourcePacks:["vanilla","mod_resources","moonlight:merged_pack","file/Dyes-Backport-1.1.1.zip","scholar:colored_books","scholar:chiseled_bookshelf_colored_books","file/Old Copper Stuffs v1.8 For 1.21.1.zip","mod/afc:firmalife_compat_assets","firmalife_data","file/[Compressed] Alternative Rain Sounds 1.21-1.21.1.zip","file/§dChicknTurtleBetterShield-v1.2.zip","file/Vexxed_Visuals_TFC_v1.3.8.zip","file/Modpack Extra Resources"]
+incompatibleResourcePacks:["mod/afc:firmalife_compat_assets","file/Modpack Extra Resources"]
 lastServer:
 lang:en_us
 soundDevice:""

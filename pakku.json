@@ -1,6 +1,6 @@
 {
     "name": "On Ancient Ground",
-    "version": "2.0-alpha-1",
+    "version": "2.0-alpha-2",
     "overrides": [
         "config",
         "kubejs",
