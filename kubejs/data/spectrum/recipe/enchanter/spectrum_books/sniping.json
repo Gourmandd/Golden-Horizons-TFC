@@ -39,13 +39,5 @@
       }
     }
   },
-  "required_advancement": "spectrum:unlocks/enchantments/sniping",
-  "neoforge:conditions": [
-    {
-      "type": "spectrum:enchantments_exist",
-      "values": [
-        "spectrum:sniping"
-      ]
-    }
-  ]
+  "required_advancement": "spectrum:unlocks/enchantments/sniping"
 }

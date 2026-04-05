@@ -3,7 +3,7 @@
   "group": "memories",
   "time": 800,
   "experience": 4.0,
-  "ingredient1": "spectrum:parrot_cyan_head",
+  "ingredient1": "spectrum:parrot_yellow_blue_head",
   "ingredient2": "tfc:seeds/wheat",
   "center_ingredient": {
     "tag": "spectrum:memory_bonding_agents",

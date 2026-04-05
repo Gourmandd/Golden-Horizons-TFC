@@ -42,13 +42,5 @@
         },
         "id": "minecraft:enchanted_book"
     },
-    "required_advancement": "spectrum:unlocks/enchantments/improved_critical",
-    "fabric:load_conditions": [
-        {
-            "condition": "spectrum:enchantments_exist",
-            "values": [
-                "spectrum:improved_critical"
-            ]
-        }
-    ]
+    "required_advancement": "spectrum:unlocks/enchantments/improved_critical"
 }

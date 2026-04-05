@@ -42,13 +42,5 @@
         },
         "id": "minecraft:enchanted_book"
     },
-    "required_advancement": "spectrum:unlocks/enchantments/sniper",
-    "fabric:load_conditions": [
-        {
-            "condition": "spectrum:enchantments_exist",
-            "values": [
-                "spectrum:sniper"
-            ]
-        }
-    ]
+    "required_advancement": "spectrum:unlocks/enchantments/sniper"
 }

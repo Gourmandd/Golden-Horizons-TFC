@@ -5,7 +5,7 @@
   "experience": 4.0,
   "ingredient1": "spectrum:bat_head",
   "ingredient2": {
-      "tag": "#c:foods/fruits"
+      "tag": "c:foods/fruits"
   },
   "center_ingredient": {
     "tag": "spectrum:memory_bonding_agents",

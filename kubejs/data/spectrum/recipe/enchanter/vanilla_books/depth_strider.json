@@ -40,13 +40,5 @@
       }
     }
   },
-  "required_advancement": "spectrum:unlocks/enchantments/vanilla_water",
-  "neoforge:conditions": [
-    {
-      "type": "spectrum:enchantments_exist",
-      "values": [
-        "minecraft:depth_strider"
-      ]
-    }
-  ]
+  "required_advancement": "spectrum:unlocks/enchantments/vanilla_water"
 }

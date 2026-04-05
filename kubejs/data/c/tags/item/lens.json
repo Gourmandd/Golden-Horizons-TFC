@@ -1,0 +1,22 @@
+{
+    "replace": true,
+    "values": [
+        "tfc:lens",
+        "modpack:lens/blue",
+        "modpack:lens/red",
+        "modpack:lens/white",
+        "modpack:lens/light_gray",
+        "modpack:lens/gray",
+        "modpack:lens/black",
+        "modpack:lens/brown",
+        "modpack:lens/orange",
+        "modpack:lens/yellow",
+        "modpack:lens/lime",
+        "modpack:lens/green",
+        "modpack:lens/cyan",
+        "modpack:lens/light_blue",
+        "modpack:lens/purple",
+        "modpack:lens/magenta",
+        "modpack:lens/pink"
+    ]
+}

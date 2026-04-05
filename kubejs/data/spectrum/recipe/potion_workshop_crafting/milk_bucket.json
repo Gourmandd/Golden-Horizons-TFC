@@ -9,7 +9,7 @@
         "item": "spectrum:milky_resin"
     },
     "result": {
-        "id": "farmers_delight:milk_bottle"
+        "id": "farmersdelight:milk_bottle"
     },
     "required_advancement": "spectrum:hidden/collect_milky_resin"
 }
