@@ -512,7 +512,7 @@
 	"Hoe Harvesting" = false
 	"Horses Swim" = true
 	"Improved Sponges" = true
-	"Lock Rotation" = true
+	"Lock Rotation" = false
 	"Magma Keeps Concrete Powder" = true
 	"Map Washing" = false
 	"More Banner Layers" = true
@@ -723,7 +723,7 @@
 		#Can a repeater be crafted with the pattern for a redstone torch?
 		"Enable Repeater" = true
 		#Can you craft a minecart around blocks which can be placed inside?
-		"Enable Minecarts" = true
+		"Enable Minecarts" = false
 		#Can you craft a boat around a chest to directly make a chest boat?
 		"Enable Chest Boats" = false
 		#Can you craft four chests at once using logs?
