@@ -11,7 +11,6 @@ pakku_command: str = "pakku"
 
 # Run "python ./build-modpack.py" if you have pakku installed on yout system (recommended)
 # Or run "python ./build-modpack.py --pakku-location={path/to/pakku.jar}" and replace "{path/to/pakku.jar}" with where your pakku.jar is downloaded.
-# if you don't specify a file location ("python ./build-modpack.py --pakku-location=") it will default to "~/Downloads/pakku.jar" which 
 
 # This script aims to run on any OS, since its being tested on a Linux system. Please make an Github issue if this is not the case.
 # Do not run in your game instance folder, clone the repo to its own folder and then run this in that folder. (this script overrides user configs)
