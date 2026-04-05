@@ -1,6 +1,64 @@
 # Changelogs
 
-All of the changelogs since version 0.1 (which was posted only on Modrinth)
+All of the changelogs since version **0.1** (**Golden Horizons TFC**, which was posted only on Modrinth) to **On Ancient Ground 2.0: Alpha 2**
+
+# On Ancient Ground 2.0: Alpha 2
+
+A lot of stuff has gotten done, the pack is definitely shaping up well. I reckon that there this might be the last or second last alpha, afterwards there will be a beta or two with largely back end changes and the guide book work I want to make. 
+
+Warning: A lot of Ids changed, meaning dissappearing blocks and items, there is not much I can do. Only reason I felt like getting away with this is the alpha status of the pack, changes like this pretty much won't happen again. The major change is the switch from Pastel to Spectrum, breaking all preservation ruins, geodes and some naturally occuring plants. Anthracite, bauxite and ceramic bricks blocks for custom clay types also had their block id change.
+
+For support you can join the [Discord Server](https://discord.gg/dt937vJKCN), you can also use the issues tab on the [GitHub repository](https://github.com/Gourmandd/On-Ancient-Ground).This is subject to change but you can ping  ``@_gourmand`` (me) on the discord server at the moment.
+
+# Content
+
+### Added New Rock Types
+The last of the new rock types. They all generate in the overworld.
+
+- Sandstone (Create's ochrum)
+- Red Sandstone (Quark's jasper)
+- Arkose (Quark's limestone)
+- Phonolite (Quark's shale)
+- Suevite (Create's scorchia)
+- Soapstone (Create's limestone)
+
+### Ores
+- Meteoric Iron, rare find, generation to be tweaked with time. The ore can be refined like a iron bloom. Comes with Suevite rock.
+- Soapstone, a rare ore/rock found anywhere in metamorphic rocks. Currently only has decorational purposes.
+- Terracotta layers added as an "ore" in every rock type. Let your imagination build what it wants to build!
+- Anthracite veins have reduced in size.
+- Anthracite can now substitute charcoal in bloomeries. 
+- Ores should now generate consistently in all rock types.
+- Ore deposits and hot springs included ^.
+
+### General
+- Argillite and travertine now generate on the surface.
+- Map atlases are much cheaper to make and use. Just need some glue and a way to get black dye.
+- The tinting on molten glass blocks and fluid had changed to be more accurate to glass blocks.
+- The texture of vanilla amethyst has been changed to distingush it from the non-magical amethyst ore from TFC.
+- The texture of bedrock and associated textures have changed to contrast less with the surroundings.
+- Optional TFCgenViewer support (just add the mod and rocks should have their right colours!). 
+- Added alternative tinted glass recipe using molten glass blocks.
+- Less unobtainable vanilla items should show up in tags while searching recipes.
+- Removed Deco buckets as their workaround is no longer needed (see next point)
+- All stair recipes now use 3 blocks for 4 stairs. (can be done without crafting table)
+- Added a few custom splash texts. (custom splash text and tips suggestions always welcome!)
+- Glass loottables should be fixed.
+- Bark to paper removed. (has been broken for a while, needs to be revisited)
+- Heat capacities for metal powders reduced to make more sense.
+- New title, so it doesn't look like "Ancient On Ground" lol.
+- You can recover metal from more Create & Addons' items.
+- Many Create & Addons' items now use TFC mechanics to craft.
+- Tweaks to main and options menus.
+
+## Spectrum spoilers.
+
+- Prismatic Ice and Sludge allow for getting liquid crystal and sludge without a bucket in the recipe.
+- Adjusted spawns of quitoxic reeds and mermaids brush. Found in warmer (>14C) and colder (<10C) regions in most freshwater sources. (keep in mind that the reeds need a mud block underneath to generate)
+- Gemstone powder blocks now landslide.
+- Fixes to various Spectrum recipes such as some memory recipes,
+- The ranges of geodes in the overworld has changed to be wider, they no longer generate at/under the ocean. 
+- Blackslag can rarely appear as a basement rock, right above the bedrock.
 
 # On Ancient Ground 2.0: Alpha 1
 
