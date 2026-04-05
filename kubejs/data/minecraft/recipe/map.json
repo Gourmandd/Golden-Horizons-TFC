@@ -1,25 +1,20 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "CCD",
-        "CCN",
-        "CCG"
+        "CCC",
+        "CDC",
+        "CCC"
     ],
     "key": {
         "C": {
             "item": "farmersdelight:canvas"
         },
-        "N": {
-            "item": "tfc:bone_needle"
-        },
         "D": {
             "item": "minecraft:black_dye"
-        },
-        "G": {
-            "item": "tfc:glue"
         }
     },
     "result": {
-        "id": "map_atlases:atlas"
+        "id": "minecraft:map",
+        "count": 4
     }
 }
