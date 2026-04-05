@@ -1,0 +1,6 @@
+{
+    "type": "neoforge:add_features",
+    "biomes": "#modpack:is_land",
+    "features": "#modpack:geodes",
+    "step": "vegetal_decoration"
+}

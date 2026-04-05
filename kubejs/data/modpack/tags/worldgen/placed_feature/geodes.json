@@ -1,0 +1,8 @@
+{
+    "replace": true,
+    "values": [
+        "modpack:vein/geode/topaz",
+        "modpack:vein/geode/amethyst",
+        "modpack:vein/geode/citrine"
+    ]
+}
