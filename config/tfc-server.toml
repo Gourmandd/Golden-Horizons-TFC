@@ -77,12 +77,12 @@
 		# [Requires MC Restart] The maximum number of snow blocks that can be placed when entering an unloaded chunk. Lower values = matches nearby loaded chunks better, but more lag when entering these chunks.
 		# Default: 64
 		# Range: 0 ~ 256
-		snowMaxAccumulationOnUpdate = 64
+		snowMaxAccumulationOnUpdate = 16
 		#
 		# [Requires MC Restart] The number of game ticks between attempts at snow accumulation. Lower = faster accumulation, but more lag. Default: 80 Vanilla: 16
 		# Default: 80
 		# Range: > 1
-		ticksPerSnowAccumulation = 80
+		ticksPerSnowAccumulation = 240
 		#
 		# [Requires MC Restart] How many times faster snow should melt than accumulate. Default: 3
 		# Default: 3
