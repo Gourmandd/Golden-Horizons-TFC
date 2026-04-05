@@ -50,6 +50,7 @@ The last of the new rock types. They all generate in the overworld.
 - You can recover metal from more Create & Addons' items.
 - Many Create & Addons' items now use TFC mechanics to craft.
 - Tweaks to main and options menus.
+- Some decorative stone blocks from Create had their names and recipes changed as they more resembled another TFC rock type. (Cut Granite -> Cut Chert, Cut Andesite -> Cut Dacite, etc).
 
 ## Spectrum spoilers.
 
