@@ -4,7 +4,6 @@ ServerEvents.recipes(event => {
 
     let datagen = Datagen(event).terraFirmaCraftRecipes()
 
-    datagen.landslide("spectrum:black_materia", "spectrum:black_materia").id(`${mod_id}:landslide/black_materia`).generate()
     datagen.collapse(`spectrum:cobbled_blackslag`, "spectrum:shimmel").id(`${mod_id}:collapse/shimmel`).generate()
     datagen.collapse(`spectrum:cobbled_blackslag`, "spectrum:sawblade_grass").id(`${mod_id}:collapse/sawblade_grass`).generate()
     datagen.collapse(`spectrum:cobbled_blackslag`, "spectrum:overgrown_blackslag").id(`${mod_id}:collapse/overgrown_blackslag`).generate()
