@@ -844,6 +844,7 @@ ServerEvents.recipes(event => {
         "farmersdelight:integration/create/mixing/pie_crust_from_mixing",
         "farmersdelight:integration/create/mixing/tomato_sauce_from_mixing",
         "farmersdelight:milk_bucket_from_bottles",
+        "farmersdelight:lead_from_straw",
         "farmersdelight:onion",
         "farmersdelight:onion_crate",
         "farmersdelight:organic_compost_from_rotten_flesh",
@@ -1480,6 +1481,7 @@ ServerEvents.recipes(event => {
         "rusticdelight:wild_coffee",
         "rusticdelight:yellow_dye_from_bell_pepper_yellow",
         "rusticdelight:yellow_dye_from_coffee_beans",
+        "rusticdelight:cutting/wild_coffee",
 
         "shutter:azalea_shutter",
         "shutter:azure_shutter",

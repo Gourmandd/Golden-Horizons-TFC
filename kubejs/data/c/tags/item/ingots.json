@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [],
+    "remove": [
+        "minecraft:iron_ingot",
+        "create:brass_ingot",
+        "create:zinc_ingot",
+        "create:andesite_alloy"
+    ]
+}
