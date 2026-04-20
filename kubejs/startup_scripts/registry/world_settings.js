@@ -179,7 +179,7 @@ TFCEvents.defaultWorldSettings(event => {
     })
 
     event.defineLayer('modpack_volcanic', {
-        blueschist: "high_grade",
+        blueschist: "low_grade",
         komatiite: "low_grade"
     })
 
@@ -191,6 +191,7 @@ TFCEvents.defaultWorldSettings(event => {
         phonolite: "low_grade"
     })
 
+    event.addUpliftLayer('modpack_sedimentary')
     event.addLandLayer('modpack_sedimentary')
     event.addVolcanicLayer('modpack_volcanic')
     event.addLandLayer('tough_mafic')
