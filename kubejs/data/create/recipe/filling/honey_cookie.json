@@ -1,0 +1,30 @@
+{
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "type": "tfc:and",
+            "children": [
+                {
+                    "item": "firmalife:food/sugar_cookie"
+                },
+                {
+                    "type": "tfc:not_rotten"
+                }
+            ]
+        },
+        {
+            "type": "fluid_stack",
+            "amount": 125,
+            "fluid": "create:honey"
+        }
+    ],
+    "results": [
+        {
+            "count": 1,
+            "id": "farmersdelight:honey_cookie"
+        }
+    ],
+    "modifiers": [
+        "tfc:copy_food"
+    ]
+}
