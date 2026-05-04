@@ -35,6 +35,12 @@ ServerEvents.recipes(event => {
             inputOf(ITEM, "tfc:powder/flux", 1)
         ).id(`modpack:recipes/item_application/glass/stained_${colour}`).generate()
 
+        // lead glass
+        datagen.createItemApplication(outputOf(ITEM, `${mod_id}:lead_glass/${colour}`, 1, 1),
+            inputOf(ITEM, `${mod_id}:molten_glass/${colour}`, 1),
+            inputOf(ITEM, "modpack:metal/rod/lead", 1)
+        ).id(`modpack:recipes/item_application/lead_glass/${colour}`).generate()
+
         datagen.createCrushing(outputOf(ITEM, GLASS_TO_BATCH[colour], 1, 1),
             [
                 inputOf(ITEM, `minecraft:${colour}_stained_glass`, 1)
@@ -46,6 +52,13 @@ ServerEvents.recipes(event => {
                 inputOf(ITEM, `minecraft:${colour}_stained_glass`, 1)
             ]
         ).id(`modpack:recipes/cutting/glass/stained_${colour}`).generate()
+
+        // lead glass
+        datagen.createCutting(outputOf(ITEM, `${mod_id}:lead_glass_pane/${colour}`, 8, 1),
+            [
+                inputOf(ITEM, `${mod_id}:lead_glass/${colour}`, 1)
+            ]
+        ).id(`modpack:recipes/cutting/lead_glass_pane/${colour}`).generate()
 
         datagen.createFilling(outputOf(ITEM, `${mod_id}:molten_glass/${colour}`, 1, 1),
             inputOf(ITEM, "tfc:powder/flux", 1),
@@ -78,6 +91,18 @@ ServerEvents.recipes(event => {
             ]
         ).setTransitionalItem(transitionalItem).setLoops(3).id(`modpack:sequenced_assembly/lens/${colour}`).generate()
     })
+
+    // lead glass
+    datagen.createCutting(outputOf(ITEM, `${mod_id}:lead_glass_pane/clear`, 8, 1),
+        [
+            inputOf(ITEM, `${mod_id}:lead_glass/clear`, 1)
+        ]
+    ).id(`modpack:recipes/cutting/lead_glass_pane/clear`).generate()
+
+    datagen.createItemApplication(outputOf(ITEM, `${mod_id}:lead_glass/clear`, 1, 1),
+        inputOf(ITEM, `${mod_id}:molten_glass/clear`, 1),
+        inputOf(ITEM, "modpack:metal/rod/lead", 1)
+    ).id(`modpack:recipes/item_application/lead_glass/clear`).generate()
 
     /*
 

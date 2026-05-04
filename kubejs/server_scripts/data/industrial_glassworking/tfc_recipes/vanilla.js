@@ -32,8 +32,11 @@ ServerEvents.recipes(event => {
         heating(`${mod_id}:lens/${colour}`, outputOf(IO_TYPE.FLUID, `${mod_id}:glass/${colour}`, 400), `${mod_id}:heating/glass/lens/${colour}`)
         heating(`${mod_id}:molten_glass/${colour}`, outputOf(IO_TYPE.FLUID, `${mod_id}:glass/${colour}`, 800), `${mod_id}:heating/molten_glass/${colour}`)
 
-        casting(`minecraft:${colour}_stained_glass`, inputOf(IO_TYPE.FLUID, `${mod_id}:glass/${colour}`, 800), `${mod_id}:glass_mold`, `modpack:casting/glass/${colour}`)
+        casting(`${mod_id}:molten_glass/${colour}`, inputOf(IO_TYPE.FLUID, `${mod_id}:glass/${colour}`, 800), `${mod_id}:glass_mold`, `modpack:casting/glass/${colour}`)
         casting(`minecraft:${colour}_stained_glass_pane`, inputOf(IO_TYPE.FLUID, `${mod_id}:glass/${colour}`, 50), `${mod_id}:glass_pane_mold`, `modpack:casting/glass_pane/${colour}`)
+
+        heating(`${mod_id}:lead_glass/${colour}`, outputOf(IO_TYPE.FLUID, `${mod_id}:glass/${colour}`, 800), `${mod_id}:heating/lead_glass/${colour}`)
+        heating(`${mod_id}:lead_glass_pane/${colour}`, outputOf(IO_TYPE.FLUID, `${mod_id}:glass/${colour}`, 50), `${mod_id}:heating/lead_glass_pane/${colour}`)
     })
 
     // dealing with clear glass seperately
@@ -43,9 +46,11 @@ ServerEvents.recipes(event => {
     heating(`tfc:lens`, outputOf(IO_TYPE.FLUID, `${mod_id}:glass/clear`, 400), `${mod_id}:heating/glass/lens/clear`)
     heating(`${mod_id}:molten_glass/clear`, outputOf(IO_TYPE.FLUID, `${mod_id}:glass/clear`, 800), `${mod_id}:heating/molten_glass/clear`)
 
-    casting(`minecraft:glass`, inputOf(IO_TYPE.FLUID, `${mod_id}:glass/clear`, 800), `${mod_id}:glass_mold`, `${mod_id}:casting/glass/clear`)
+    casting(`${mod_id}:molten_glass/clear`, inputOf(IO_TYPE.FLUID, `${mod_id}:glass/clear`, 800), `${mod_id}:glass_mold`, `${mod_id}:casting/glass/clear`)
     casting(`minecraft:glass_pane`, inputOf(IO_TYPE.FLUID, `${mod_id}:glass/clear`, 50), `${mod_id}:glass_pane_mold`, `${mod_id}:casting/glass_pane/clear`)
 
+    heating(`${mod_id}:lead_glass/clear`, outputOf(IO_TYPE.FLUID, `${mod_id}:glass/clear`, 800), `${mod_id}:heating/lead_glass/clear`)
+    heating(`${mod_id}:lead_glass_pane/clear`, outputOf(IO_TYPE.FLUID, `${mod_id}:glass/clear`, 50), `${mod_id}:heating/lead_glass_pane/clear`)
 
     heating("tfc:silica_glass_batch", outputOf(IO_TYPE.FLUID, `${mod_id}:glass/clear`, 800), `${mod_id}:recipes/heating/glass_batches/silica`)
     heating("tfc:volcanic_glass_batch", outputOf(IO_TYPE.FLUID, `${mod_id}:glass/blue`, 800), `${mod_id}:recipes/heating/glass_batches/volcanic`)
