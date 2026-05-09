@@ -109,6 +109,7 @@
     "gearbox": true,
     "axle": true,
     "chested_horse": true,
+    "power_loom": true,
     "pack_predator": true,
     "barrel": true,
     "mold_table": true,
@@ -126,6 +127,7 @@
     "candle": true,
     "jack_o_lantern": true,
     "firepit": true,
+    "trip_hammer": true,
     "anemometer": true,
     "ingot_pile": true
   },
