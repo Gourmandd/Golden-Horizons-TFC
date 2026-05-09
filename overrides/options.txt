@@ -21,7 +21,7 @@ mipmapLevels:4
 narrator:0
 particles:0
 reducedDebugInfo:false
-renderClouds:"false"
+renderClouds:"true"
 renderDistance:12
 simulationDistance:5
 screenEffectScale:1.0
