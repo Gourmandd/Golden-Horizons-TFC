@@ -79,14 +79,14 @@ global.MINECRAFT_TO_TFC_MAPS = {
     "minecraft:waxed_oxidized_cut_copper_slab": "modpack:metal/cut_block/bismuth_slab",
     "minecraft:oxidized_cut_copper_slab": "modpack:metal/cut_block/bismuth_slab",
 
-    "minecraft:waxed_copper_bulb": "spectrum:shimmerstone_block",
-    "minecraft:copper_bulb": "spectrum:shimmerstone_block",
-    "minecraft:waxed_exposed_copper_bulb": "spectrum:shimmerstone_block",
-    "minecraft:exposed_copper_bulb": "spectrum:shimmerstone_block",
-    "minecraft:waxed_weathered_copper_bulb": "spectrum:shimmerstone_block",
-    "minecraft:weathered_copper_bulb": "spectrum:shimmerstone_block",
-    "minecraft:waxed_oxidized_copper_bulb": "spectrum:shimmerstone_block",
-    "minecraft:oxidized_copper_bulb": "spectrum:shimmerstone_block",
+    "minecraft:waxed_copper_bulb": "modpack:metal/bulb/lead",
+    "minecraft:copper_bulb": "modpack:metal/bulb/lead",
+    "minecraft:waxed_exposed_copper_bulb": "modpack:metal/bulb/lead",
+    "minecraft:exposed_copper_bulb": "modpack:metal/bulb/lead",
+    "minecraft:waxed_weathered_copper_bulb": "modpack:metal/bulb/lead",
+    "minecraft:weathered_copper_bulb": "modpack:metal/bulb/lead",
+    "minecraft:waxed_oxidized_copper_bulb": "modpack:metal/bulb/lead",
+    "minecraft:oxidized_copper_bulb": "modpack:metal/bulb/lead",
 
 
     "minecraft:lectern": "tfc:wood/lectern/oak",
