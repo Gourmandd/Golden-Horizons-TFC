@@ -17,11 +17,11 @@
     " S "
   ],
   "key": {
-    "S": "tfc:metal/sheet/copper",
+    "S": "modpack:metal/sheet/lead",
     "B": "spectrum:shimmerstone_block"
   },
   "result": {
-    "id": "minecraft:copper_bulb",
+    "id": "modpack:metal/bulb/lead",
     "count": 8
   },
   "required_advancement": "spectrum:unlocks/blocks/shimmerstone_lights"
