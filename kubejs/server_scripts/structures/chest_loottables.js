@@ -20,6 +20,8 @@ try {
             "minecraft:wheat": "tfc:food/wheat",
             "minecraft:enchanted_book": "minecraft:book",
             "minecraft:bucket": "tfc:wooden_bucket",
+            "minecraft:water_bucket": "tfc:wooden_bucket",
+            "minecraft:lava_bucket": "modpack:metal/bucket/wrought_iron",
             "minecraft:potato": "tfc:seeds/potato",
             "minecraft:carrot": "tfc:seeds/carrot",
             "minecraft:beetroot_seeds": "tfc:seeds/beet",
