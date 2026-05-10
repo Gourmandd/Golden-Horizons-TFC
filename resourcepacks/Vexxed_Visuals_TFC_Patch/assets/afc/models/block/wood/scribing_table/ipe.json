@@ -1,0 +1,8 @@
+{
+  "parent": "tfc:block/scribing_table",
+  "textures": {
+    "particle": "afc:block/wood/planks/ipe",
+    "planks": "afc:block/wood/planks/ipe",
+    "sheet": "afc:block/wood/stripped_log/ipe"
+  }
+}

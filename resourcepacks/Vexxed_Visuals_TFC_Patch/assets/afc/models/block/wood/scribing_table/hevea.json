@@ -1,0 +1,8 @@
+{
+  "parent": "tfc:block/scribing_table",
+  "textures": {
+    "particle": "afc:block/wood/planks/hevea",
+    "planks": "afc:block/wood/planks/hevea",
+    "sheet": "afc:block/wood/stripped_log/hevea"
+  }
+}
