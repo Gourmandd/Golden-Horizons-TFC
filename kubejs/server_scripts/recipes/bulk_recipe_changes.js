@@ -25,6 +25,37 @@ ServerEvents.recipes(event => {
             event.shaped(result, ['SS', 'SS'], { S: output.id }).id(id)
         }
     })
+
+    event.forEachRecipe({ type: 'minecraft:crafting_shaped', output: '#minecraft:slabs' }, r => {
+
+        let ingredients = r.originalRecipeIngredients // returns a List<Ingredient>
+        let output = r.originalRecipeResult    // returns an ItemStack
+        let result = Item.of(ingredients[0].first, 3)
+        let id = "modpack:slab_to_blocks/" + Item.of(ingredients[0].first).getId().replace(":", "/")
+
+        // All slabs return 4
+        event.shaped(Item.of(output.id, 4), ['SS'], { S: ingredients[0] }).id(r.getId())
+
+        // 4 slabs to 2 blocks
+        event.shaped(Item.of(result, 2), ['SS', 'SS'], { S: output.id }).id(id + "_2")
+
+        // 2 slabs to 1 block
+        event.shaped(Item.of(result, 1), ['SS'], { S: output.id }).id(id + "_1")
+    })
+
+    event.forEachRecipe({ type: 'minecraft:crafting_shaped', output: '#minecraft:walls' }, r => {
+
+        let ingredients = r.originalRecipeIngredients // returns a List<Ingredient>
+        let output = r.originalRecipeResult    // returns an ItemStack
+        let result = Item.of(ingredients[0].first, 3)
+        let id = "modpack:walls_to_blocks/" + Item.of(ingredients[0].first).getId().replace(":", "/")
+
+        // All walls return 4
+        event.shaped(Item.of(output.id, 4), ['SS', 'SS'], { S: ingredients[0] }).id(r.getId())
+
+        // 4 walls to 4 blocks
+        event.shaped(Item.of(result, 4), ['SS', 'SS'], { S: output.id }).id(id)
+    })
 })
 
 
