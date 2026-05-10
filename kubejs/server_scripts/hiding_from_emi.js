@@ -84,6 +84,11 @@ ServerEvents.tags("item", event => {
         "farmersdelight:wheat_dough",
         "farmersdelight:straw",
         "farmersdelight:straw_bale",
+        "minecraft:packed_mud",
+        "minecraft:mud_bricks",
+        "minecraft:mud_brick_slab",
+        "minecraft:mud_brick_stairs",
+        "minecraft:mud_brick_wall",
         "modpack:ore/quartz", // debug item
 
         "minecraft:copper_block",
