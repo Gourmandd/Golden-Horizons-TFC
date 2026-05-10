@@ -82,6 +82,8 @@ ServerEvents.tags("item", event => {
         "create:dough",
         "tfc:sandpaper",
         "farmersdelight:wheat_dough",
+        "farmersdelight:straw",
+        "farmersdelight:straw_bale",
         "modpack:ore/quartz", // debug item
 
         "minecraft:copper_block",
