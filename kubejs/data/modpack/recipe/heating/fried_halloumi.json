@@ -1,0 +1,18 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+        "type": "tfc:and",
+        "children": [
+            {
+                "item": "modpack:halloumi"
+            },
+            {
+                "type": "tfc:not_rotten"
+            }
+        ]
+    },
+    "result_item": {
+        "id": "modpack:fried_halloumi"
+    },
+    "temperature": 200
+}

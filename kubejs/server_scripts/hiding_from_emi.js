@@ -82,6 +82,7 @@ ServerEvents.tags("item", event => {
         "create:dough",
         "tfc:sandpaper",
         "farmersdelight:wheat_dough",
+        "modpack:ore/quartz", // debug item
 
         // unused ingots
         "minecraft:iron_ingot",

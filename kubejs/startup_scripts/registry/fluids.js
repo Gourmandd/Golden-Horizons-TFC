@@ -16,10 +16,6 @@ StartupEvents.registry('fluid', event => {
         .displayName('Boiled Water')
         .noBlock()
 
-    event.create(`${id}:brew`, 'thin')
-        .displayName('Brew')
-        .noBlock().noBucket()
-
     event.create(`${id}:garum`, 'thin')
         .displayName('Garum')
         .tint(0x321C0B)
