@@ -1346,6 +1346,12 @@ ServerEvents.recipes(event => {
         "minecraft:yellow_stained_glass",
         "minecraft:yellow_stained_glass_pane",
         "minecraft:yellow_stained_glass_pane_from_glass_pane",
+        "minecraft:copper_block",
+        "minecraft:cut_copper",
+        "minecraft:waxed_copper_block_from_honeycomb",
+        "minecraft:waxed_cut_copper",
+        "minecraft:cut_copper_from_copper_block_stonecutting",
+        "minecraft:waxed_cut_copper_from_waxed_copper_block_stonecutting",
 
         "quark:automation/crafting/gold_button",
         "quark:automation/crafting/iron_button",
