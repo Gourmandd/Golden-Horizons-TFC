@@ -3,8 +3,6 @@
 
 console.log("INFO: PORT QUARK GLASS SCRIPT, QUARK HAS BEEN ADDED TO THE PACK")
 
-// glass related recipes (horrors beyong my comprehension)
-/*
 ServerEvents.recipes(event => {
 
     global.DYE_COLOURS.forEach(colour => {
@@ -21,6 +19,4 @@ ServerEvents.recipes(event => {
     event.recipes.tfc.heating("quark:framed_glass_pane", 1070).resultFluid(Fluid.of(`${mod_id}:glass/clear`, 50))
         .id("modpack:recipes/heating/glass/quark/glass_pane")
 
-
-        })
-        */
+})

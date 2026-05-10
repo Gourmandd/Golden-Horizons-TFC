@@ -97,18 +97,19 @@ ServerEvents.recipes(event => {
         [
             inputOf(ITEM, `${mod_id}:lead_glass/clear`, 1)
         ]
-    ).id(`modpack:recipes/cutting/lead_glass_pane/clear`).generate()
+    ).id(`${mod_id}:recipes/cutting/lead_glass_pane/clear`).generate()
 
     datagen.createItemApplication(outputOf(ITEM, `${mod_id}:lead_glass/clear`, 1, 1),
         inputOf(ITEM, `${mod_id}:molten_glass/clear`, 1),
         inputOf(ITEM, "modpack:metal/rod/lead", 1)
-    ).id(`modpack:recipes/item_application/lead_glass/clear`).generate()
+    ).id(`${mod_id}:recipes/item_application/lead_glass/clear`).generate()
+
+    datagen.createItemApplication(outputOf(ITEM, "minecraft:glass", 1, 1),
+        inputOf(ITEM, `${mod_id}:molten_glass/clear`, 1),
+        inputOf(ITEM, "tfc:powder/flux", 1)
+    ).id(`${mod_id}:recipes/item_application/glass/clear`).generate()
 
     /*
-
-    event.recipes.create.item_application("minecraft:glass",[`${mod_id}:molten_glass/clear`,  "tfc:powder/flux"])
-        .id("modpack:recipes/item_application/glass/clear")
-
     event.recipes.create.crushing("tfc:silica_glass_batch", "minecraft:glass")
         .id("modpack:recipes/crushing/glass/clear")
 
@@ -127,13 +128,5 @@ ServerEvents.recipes(event => {
 
      event.recipes.create.compacting(Item.of(`${mod_id}:molten_glass/clear`), Fluid.of(`${mod_id}:glass/clear`, 800))
          .id("modpack:recipes/compacting/glass/clear")
-
-     event.recipes.create.sequenced_assembly("tfc:lens", `${mod_id}:molten_glass/clear`, [
-         event.recipes.create.deploying(Item.of("minecraft:glass_pane"), [Item.of("minecraft:glass_pane"), Item.of("tfc:powder/soda_ash")]),
-         event.recipes.create.deploying(Item.of("minecraft:glass_pane"), [Item.of("minecraft:glass_pane"), Item.of("tfc:bellows")]),
-         event.recipes.create.deploying(Item.of("minecraft:glass_pane"), [Item.of("minecraft:glass_pane"), Item.of("tfc:paddle")]),
-         event.recipes.create.deploying(Item.of("minecraft:glass_pane"), [Item.of("minecraft:glass_pane"), Item.of("tfc:wool_cloth")]),
-         event.recipes.create.deploying(Item.of("minecraft:glass_pane"), [Item.of("minecraft:glass_pane"), Item.of("tfc:gem_saw")]),
-     ]).transitionalItem("minecraft:glass_pane").loops(3)
-         .id("modpack:sequences_assembly/lens_clear")*/
+         */
 })
