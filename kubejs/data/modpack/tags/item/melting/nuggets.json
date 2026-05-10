@@ -1,0 +1,13 @@
+{
+    "values": [
+        "minecraft:iron_nugget",
+        "minecraft:gold_nugget",
+        "create:copper_nugget",
+        "create:zinc_nugget",
+        "create:brass_nugget",
+        "createbigcannons:cast_iron_nugget",
+        "createbigcannons:nethersteel_nugget",
+        "createbigcannons:bronze_scrap",
+        "createbigcannons:steel_scrap"
+    ]
+}

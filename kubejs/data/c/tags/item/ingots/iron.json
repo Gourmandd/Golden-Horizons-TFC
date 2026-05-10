@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "tfc:metal/ingot/wrought_iron"
+    ],
+    "remove": [
+        "minecraft:iron_ingot"
+    ]
+}

@@ -81,7 +81,21 @@ ServerEvents.tags("item", event => {
         "minecraft:wheat",
         "create:dough",
         "tfc:sandpaper",
-        "farmersdelight:wheat_dough"
+        "farmersdelight:wheat_dough",
+
+        // unused ingots
+        "minecraft:iron_ingot",
+        "minecraft:copper_ingot",
+        "minecraft:gold_ingot",
+        "create:zinc_ingot",
+        "create:brass_ingot",
+        "create:andesite_alloy",
+        "caupona:lead_ingot",
+        "createbigcannons:steel_ingot",
+        "createbigcannons:bronze_ingot",
+        "createbigcannons:nethersteel_ingot",
+        "createbigcannons:cast_iron_ingot",
+        "createaddition:electrum_ingot",
     ]
 
     const VANILLA_WOOD_TYPES = [

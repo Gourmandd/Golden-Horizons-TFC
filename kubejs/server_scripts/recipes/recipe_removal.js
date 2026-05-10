@@ -520,6 +520,7 @@ ServerEvents.recipes(event => {
         "createbigcannons:compacting/forge_bronze_block",
         "createbigcannons:compacting/forge_bronze_ingot",
         "createbigcannons:compacting/forge_cast_iron_block",
+        "createbigcannons:compacting/forge_cast_iron_nugget",
         "createbigcannons:compacting/forge_cast_iron_ingot",
         "createbigcannons:compacting/forge_nethersteel_ingot",
         "createbigcannons:compacting/forge_steel_block",

@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "modpack:metal/ingot/cast_iron_alloy"
+            "item": "tfc:metal/ingot/cast_iron"
         }
     ],
     "result": {

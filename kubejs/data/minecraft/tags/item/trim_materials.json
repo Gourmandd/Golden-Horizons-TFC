@@ -1,0 +1,12 @@
+{
+    "replace": false,
+    "values": [],
+    "remove": [
+        "minecraft:iron_ingot",
+        "minecraft:gold_ingot",
+        "minecraft:copper_ingot",
+        "minecraft:lapis_lazuli",
+        "minecraft:diamond",
+        "minecraft:emerald"
+    ]
+}

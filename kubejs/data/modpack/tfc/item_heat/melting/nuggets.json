@@ -1,0 +1,8 @@
+{
+    "ingredient": {
+        "tag": "modpack:melting/nuggets"
+    },
+    "heat_capacity": 0.1,
+    "forging_temperature": 1525,
+    "welding_temperature": 1525
+}
