@@ -89,7 +89,28 @@ ServerEvents.tags("item", event => {
         "minecraft:mud_brick_slab",
         "minecraft:mud_brick_stairs",
         "minecraft:mud_brick_wall",
+        "quark:thatch",
+        "quark:thatch_slab",
+        "quark:thatch_stairs",
+        "tfc:thatch_bed",
+        "tfc:firepit",
+        "tfc:grill",
+        "tfc:pot",
+        "tfc:stove",
+        "tfc:stove_pot",
+        "immersive_aircraft:gyrodyne",
+        "immersive_aircraft:quadrocopter",
+        "createaddition:digital_adapter",
+        "moonlight:spawn_box",
+        "farmersdelighttfc:pan_bowl",
         "modpack:ore/quartz", // debug item
+        "#caupona:stews",
+        "caupona:sapa_spice_jar",
+        "caupona:asafoetida_spice_jar",
+        "caupona:chives_spice_jar",
+        "caupona:sauteed_hodgepodge",
+
+        // copper
 
         "minecraft:copper_block",
         "minecraft:waxed_copper_block",

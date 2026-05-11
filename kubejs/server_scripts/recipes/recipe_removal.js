@@ -870,6 +870,8 @@ ServerEvents.recipes(event => {
         "farmersdelight:wheat_dough_from_egg",
         "farmersdelight:wheat_dough_from_water",
 
+        "farmersdelighttfc:pan_bowl",
+
         "firmacivplus:crafting/wood/crimson_roofing",
         "firmacivplus:crafting/wood/lumber/crimson",
         "firmacivplus:crafting/wood/lumber/warped",

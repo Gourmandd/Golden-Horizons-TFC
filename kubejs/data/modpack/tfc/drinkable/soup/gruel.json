@@ -1,0 +1,14 @@
+{
+    "ingredient": {
+        "fluid": "caupona:gruel"
+    },
+    "decay_modifier": 2,
+    "hunger": 4,
+    "saturation": 3,
+    "water": 20,
+    "grain": 3,
+    "fruit": 0,
+    "vegetables": 0,
+    "protein": 0,
+    "dairy": 0
+}

@@ -1,0 +1,14 @@
+{
+    "ingredient": {
+        "fluid": "caupona:egg_drop_soup"
+    },
+    "decay_modifier": 2,
+    "hunger": 4,
+    "saturation": 6,
+    "water": 20,
+    "grain": 0,
+    "fruit": 0,
+    "vegetables": 1.5,
+    "protein": 2,
+    "dairy": 1.5
+}

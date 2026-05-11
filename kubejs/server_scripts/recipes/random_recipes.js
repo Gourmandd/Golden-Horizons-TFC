@@ -16,7 +16,6 @@ try {
         //event.remove({ type: "caupona:dolium", mod: "caupona" })
         //event.remove({ type: "caupona:frying" })
         //event.remove({ type: "caupona:bowl" })
-        //event.remove({ type: "caupona:food" })
         event.remove({ mod: "caupona" })
         //event.remove({ type: "caupona:spice" })
         //event.remove({ mod: "quark", input: Ingredient.of(/.*glass.*/) })

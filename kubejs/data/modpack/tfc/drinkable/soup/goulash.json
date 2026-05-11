@@ -1,0 +1,13 @@
+{
+    "ingredient": {
+        "fluid": "caupona:goulash"
+    },
+    "hunger": 5,
+    "saturation": 4,
+    "water": 20,
+    "grain": 0,
+    "fruit": 0,
+    "vegetables": 1.5,
+    "protein": 3.5,
+    "dairy": 0
+}

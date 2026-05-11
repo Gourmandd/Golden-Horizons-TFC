@@ -1,0 +1,14 @@
+{
+    "ingredient": {
+        "fluid": "caupona:borscht_cream"
+    },
+    "decay_modifier": 2,
+    "hunger": 4,
+    "saturation": 7,
+    "water": 20,
+    "grain": 0,
+    "fruit": 0,
+    "vegetables": 5,
+    "protein": 0.5,
+    "dairy": 0.5
+}

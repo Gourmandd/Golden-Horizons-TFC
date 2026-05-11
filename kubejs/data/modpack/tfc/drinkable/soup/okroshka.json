@@ -1,0 +1,14 @@
+{
+    "ingredient": {
+        "fluid": "caupona:okroshka"
+    },
+    "decay_modifier": 2,
+    "hunger": 4,
+    "saturation": 6,
+    "water": 30,
+    "grain": 0,
+    "fruit": 0,
+    "vegetables": 2.5,
+    "protein": 1.5,
+    "dairy": 0
+}
