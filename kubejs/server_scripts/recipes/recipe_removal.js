@@ -872,7 +872,7 @@ ServerEvents.recipes(event => {
         "farmersdelight:pumpkin_seeds_from_slice",
         "farmersdelight:pumpkin_from_slices",
 
-        "farmersdelighttfc:pan_bowl",
+        "farmersdelight_tfc:pan_bowl",
 
         "firmacivplus:crafting/wood/crimson_roofing",
         "firmacivplus:crafting/wood/lumber/crimson",
