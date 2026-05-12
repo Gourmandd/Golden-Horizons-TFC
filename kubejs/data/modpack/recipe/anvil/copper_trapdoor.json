@@ -1,0 +1,16 @@
+{
+    "type": "tfc:anvil",
+    "ingredient": {
+        "item": "tfc:metal/sheet/copper"
+    },
+    "result": {
+        "count": 2,
+        "id": "minecraft:copper_trapdoor"
+    },
+    "tier": 1,
+    "rules": [
+        "upset_last",
+        "bend_second_last",
+        "bend_third_last"
+    ]
+}

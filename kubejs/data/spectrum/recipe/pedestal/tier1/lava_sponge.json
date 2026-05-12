@@ -19,7 +19,9 @@
     "B": {
       "tag":"c:cobblestones"
     },
-    "M": "minecraft:magma_block",
+    "M": {
+      "tag":"c:magma_block"
+    },
     "C": "minecraft:magma_cream"
   },
   "result": {

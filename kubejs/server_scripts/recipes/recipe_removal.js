@@ -1356,6 +1356,7 @@ ServerEvents.recipes(event => {
         "minecraft:waxed_cut_copper",
         "minecraft:cut_copper_from_copper_block_stonecutting",
         "minecraft:waxed_cut_copper_from_waxed_copper_block_stonecutting",
+        "minecraft:copper_trapdoor",
 
         "quark:automation/crafting/gold_button",
         "quark:automation/crafting/iron_button",
@@ -1747,6 +1748,8 @@ ServerEvents.recipes(event => {
         "spectrum:mod_integration/create/crushing/ores/topaz_ore",
         "spectrum:mod_integration/create/milling/amaranth",
         "spectrum:mod_integration/farmersdelight/cutting/amaranth_bushel",
+
+        "spectrum:spirit_instiller/memories/tadpole",
 
         "spectrum:pedestal/tier1/heartbound_chest",
         "spectrum:pedestal/tier1/vanilla/packed_mud",
