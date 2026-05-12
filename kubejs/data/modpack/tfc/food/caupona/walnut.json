@@ -1,0 +1,10 @@
+{
+    "ingredient": {
+        "item": "caupona:walnut"
+    },
+    "hunger": 2,
+    "saturation": 2,
+    "decay_modifier": 0.5,
+    "fruit": 0.2,
+    "grain": 0.2
+}

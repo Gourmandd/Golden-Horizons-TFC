@@ -869,6 +869,8 @@ ServerEvents.recipes(event => {
         "farmersdelight:tomato_seeds",
         "farmersdelight:wheat_dough_from_egg",
         "farmersdelight:wheat_dough_from_water",
+        "farmersdelight:pumpkin_seeds_from_slice",
+        "farmersdelight:pumpkin_from_slices",
 
         "farmersdelighttfc:pan_bowl",
 

@@ -1,0 +1,11 @@
+{
+    "ingredient": {
+        "item": "caupona:wolfberries"
+    },
+    "water": 1,
+    "hunger": 2,
+    "saturation": 2,
+    "decay_modifier": 2,
+    "fruit": 0.6,
+    "grain": 0
+}

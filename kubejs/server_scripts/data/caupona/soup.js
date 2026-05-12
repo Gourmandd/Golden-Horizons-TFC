@@ -174,8 +174,8 @@ ServerEvents.recipes(event => {
             base: "caupona:nail_soup",
             is_spiced: false,
             ingredients: [
-                notRotten(inputOf(TAG, tags.BERRIES, 1,)),
-                notRotten(inputOf(TAG, tags.BERRIES, 1,)),
+                notRotten(inputOf(ITEM, "caupona:wolfberries", 1,)),
+                notRotten(inputOf(ITEM, "caupona:wolfberries", 1,)),
                 notRotten(inputOf(TAG, tags.SWEETENERS, 1,)),
                 notRotten(inputOf(TAG, tags.SWEETENERS, 1,)),
                 notRotten(inputOf(TAG, tags.SWEETENERS, 1,))
@@ -358,6 +358,18 @@ ServerEvents.recipes(event => {
                 notRotten(inputOf(TAG, tags.VEGETABLES, 1,)),
                 notRotten(inputOf(TAG, tags.VEGETABLES, 1,)),
                 notRotten(inputOf(TAG, tags.VEGETABLES, 1,))
+            ]
+        },
+        {
+            fluid: "caupona:walnut_soup",
+            base: "caupona:scalded_milk",
+            is_spiced: false,
+            ingredients: [
+                notRotten(inputOf(TAG, tags.GRAIN, 1,)),
+                notRotten(inputOf(TAG, tags.SWEETENERS, 1,)),
+                notRotten(inputOf(TAG, tags.SWEETENERS, 1,)),
+                notRotten(inputOf(ITEM, "caupona:walnut", 1,)),
+                notRotten(inputOf(ITEM, "caupona:walnut", 1,))
             ]
         }
     ]

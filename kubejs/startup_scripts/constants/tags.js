@@ -16,7 +16,7 @@ global.Tag.ROOT_VEGETABLES = "c:foods/root_vegetables",
     global.Tag.GARLIC = "c:foods/vegetable/garlic",
     global.Tag.GREEN_BEAN = "c:foods/vegetable/green_bean",
     global.Tag.SOYBEAN = "c:foods/vegetable/soybean",
-    global.Tag.PUMPKIN = "c:foods/vegetable/pumpkin_slice",
+    global.Tag.PUMPKIN = "c:foods/vegetable/pumpkin",
 
     // grain
     global.Tag.FLOUR = "c:foods/flour",
