@@ -10,6 +10,8 @@ global.MINECRAFT_TO_TFC_MAPS = {
     "minecraft:chain": "tfc:metal/chain/copper",
     "minecraft:magma_block": "tfc:rock/magma/basalt",
     "minecraft:mossy_cobblestone": "modpack:rock/mossy_cobble/argillite",
+    "minecraft:mangrove_roots": "tfc:tree_roots",
+    "minecraft:moss_carpet": "tfc:plant/moss",
 
     "minecraft:chiseled_tuff": "tfc:rock/chiseled/basalt",
     "minecraft:chiseled_tuff_bricks": "tfc:rock/chiseled/basalt",
