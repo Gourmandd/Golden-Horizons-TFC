@@ -109,6 +109,10 @@ ServerEvents.tags("item", event => {
         "caupona:asafoetida_spice_jar",
         "caupona:chives_spice_jar",
         "caupona:sauteed_hodgepodge",
+        "spectrum:calcite_stairs",
+        "spectrum:calcite_slab",
+        "spectrum:calcite_wall",
+
 
         // copper
 
@@ -354,4 +358,78 @@ ServerEvents.tags("item", event => {
     event.add("c:hidden_from_recipe_viewers", Ingredient.of(/caupona:.*loaf.*/).itemIds)
 
     delete new_entries
+
+    global.EMI.BASIC_BLOCKS.forEach(id => {
+
+        if (!(id.includes("quark") || id.includes("tfc") || id.includes("modpack") || id.includes("caupona"))) {
+            id = id.replace("bricks", "brick").replace("tiles", "tile")
+        }
+
+        event.add("c:hidden_from_recipe_viewers", id + "_stairs")
+        event.add("c:hidden_from_recipe_viewers", id + "_slab")
+        event.add("c:hidden_from_recipe_viewers", id + "_wall")
+    })
+
+    global.EMI.LIMITED_BLOCKS.forEach(id => {
+
+        if (!(id.includes("quark") || id.includes("tfc") || id.includes("modpack") || id.includes("caupona"))) {
+            id = id.replace("bricks", "brick").replace("tiles", "tile").replace("shingles", "shingle")
+        }
+
+        if (id.includes("bamboo_planks")) {
+            id = id.replace("_planks", "")
+        }
+
+        if (id.includes("purpur_block")) {
+            id = id.replace("_block", "")
+        }
+
+        if (id.includes("quartz_block")) {
+            id = id.replace("_block", "")
+        }
+
+        if (id.includes("spectrum")) {
+            id = id.replace("_planks", "")
+        }
+
+        event.add("c:hidden_from_recipe_viewers", id + "_stairs")
+        event.add("c:hidden_from_recipe_viewers", id + "_slab")
+    })
+
+    global.EMI.BASIC_BLOCKS_CUSTOM.forEach(id => {
+
+        event.add("c:hidden_from_recipe_viewers", id.stairs)
+        event.add("c:hidden_from_recipe_viewers", id.slab)
+        event.add("c:hidden_from_recipe_viewers", id.wall)
+    })
+
+    global.EMI.AP_BASIC_BLOCKS.forEach(id => {
+
+        id = id.replace("bricks", "brick").replace("tiles", "tile").replace("boards", "board").replace("_block", "")
+
+        event.add("c:hidden_from_recipe_viewers", id + "_stairs")
+        event.add("c:hidden_from_recipe_viewers", id + "_slab")
+        event.add("c:hidden_from_recipe_viewers", id + "_wall")
+        event.add("c:hidden_from_recipe_viewers", id + "_vertical_slab")
+    })
+
+    global.EMI.AP_BLOCKS_NO_WALLS.forEach(id => {
+
+        id = id.replace("bricks", "brick").replace("tiles", "tile").replace("boards", "board").replace("_block", "")
+
+        event.add("c:hidden_from_recipe_viewers", id + "_stairs")
+        event.add("c:hidden_from_recipe_viewers", id + "_slab")
+        event.add("c:hidden_from_recipe_viewers", id + "_vertical_slab")
+    })
+
+    global.EMI.AP_BLOCKS_NO_WALLS_AND_STAIRS.forEach(id => {
+
+        id = id.replace("bricks", "brick").replace("tiles", "tile").replace("boards", "board").replace("_block", "")
+
+        event.add("c:hidden_from_recipe_viewers", id + "_slab")
+        event.add("c:hidden_from_recipe_viewers", id + "_vertical_slab")
+    })
+
+    event.add("c:hidden_from_recipe_viewers", "burningblock:burnt_stairs")
+    event.add("c:hidden_from_recipe_viewers", "burningblock:burnt_slab")
 })
