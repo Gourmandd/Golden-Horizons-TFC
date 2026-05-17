@@ -1,5 +1,5 @@
 {
-    "fluid": "modpack:electrum",
+    "fluid": "modpack:metal/electrum",
     "melt_temperature": 1060,
     "specific_heat_capacity": 0.02143
 }

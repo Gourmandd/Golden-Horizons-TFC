@@ -476,6 +476,7 @@ ServerEvents.recipes(event => {
         "architects_palette:wardstone_lamp",
         "architects_palette:withered_osseous_bricks",
         "architects_palette:wither_lamp",
+        "architects_palette:sheet_metal_block",
 
         "artisanal:crafting/pumpkin_pie",
 
@@ -1852,6 +1853,10 @@ ServerEvents.recipes(event => {
 
     global.DYE_COLOURS.forEach(type => {
         recipes_to_remove.push(`minecraft:${type}_candle`)
+    })
+
+    global.TFC_SOIL_TYPES.forEach(type => {
+        recipes_to_remove.push(`tfc:crafting/mud_bricks/${type}_slab_small`)
     })
 
     recipes_to_remove.forEach(id => {

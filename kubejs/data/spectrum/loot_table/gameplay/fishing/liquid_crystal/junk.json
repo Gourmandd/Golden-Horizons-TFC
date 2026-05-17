@@ -11,32 +11,32 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "tfc:plant/sea_pickle"
+          "name": "tfc:sea_pickle"
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "minecraft:brain_coral"
+          "name": "tfc:coral/brain_coral"
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "minecraft:tube_coral"
+          "name": "tfc:coral/tube_coral"
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "minecraft:bubble_coral"
+          "name": "tfc:coral/bubble_coral"
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "minecraft:fire_coral"
+          "name": "tfc:coral/fire_coral"
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "minecraft:horn_coral"
+          "name": "tfc:coral/horn_coral"
         },
         {
           "type": "minecraft:item",

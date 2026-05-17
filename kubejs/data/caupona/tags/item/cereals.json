@@ -1,6 +1,6 @@
 {
     "replace": false,
     "values": [
-        "#tfc:foods/flour"
+        "#c:foods/flour"
     ]
 }
