@@ -1357,6 +1357,7 @@ ServerEvents.recipes(event => {
         "minecraft:cut_copper_from_copper_block_stonecutting",
         "minecraft:waxed_cut_copper_from_waxed_copper_block_stonecutting",
         "minecraft:copper_trapdoor",
+        "minecraft:white_wool_from_string",
 
         "quark:automation/crafting/gold_button",
         "quark:automation/crafting/iron_button",
