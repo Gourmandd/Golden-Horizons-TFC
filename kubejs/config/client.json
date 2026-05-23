@@ -1,6 +1,6 @@
 {
   "window_title": "On Ancient Ground",
-  "show_tag_names": true,
+  "show_tag_names": false,
   "show_components": true,
   "disable_recipe_book": false,
   "disable_component_count_tooltip": true,
