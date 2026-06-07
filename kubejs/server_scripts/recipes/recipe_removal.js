@@ -1754,6 +1754,7 @@ ServerEvents.recipes(event => {
         "spectrum:spirit_instiller/memories/tadpole",
 
         "spectrum:pedestal/tier1/heartbound_chest",
+        "spectrum:pedestal/tier1/vanilla/bundle",
         "spectrum:pedestal/tier1/vanilla/packed_mud",
         "spectrum:pedestal/tier2/vanilla/bell",
         "spectrum:pedestal/tier2/vanilla/name_tag",

@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "tfc:large_raw_hide"
+        },
+        {
+            "tag": "c:strings"
+        }
+    ],
+    "result": {
+        "id": "minecraft:bundle"
+    }
+}
