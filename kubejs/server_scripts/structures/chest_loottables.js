@@ -110,7 +110,6 @@ try {
             "farmersdelight:cabbage_seeds": "tfc:seeds/cabbage",
             "spectrum:amaranth_grains": "modpack:seeds/amaranth",
             "spectrum:glistering_melon_seeds": "modpack:seeds/glistering_melon",
-
         }
 
         global.DYE_COLOURS.forEach(colour => {
@@ -120,6 +119,8 @@ try {
         Object.keys(ITEM_REPLACEMENTS).forEach(key => {
             event.addTableModifier(LootType.CHEST).replaceLoot(Item.of(key), Item.of(ITEM_REPLACEMENTS[key]), true)
         })
+
+        event.addTableModifier(LootType.CHEST).removeLoot("caupona:asses")
     })
 
 
