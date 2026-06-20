@@ -1,0 +1,90 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tfc:metal/ingot/steel",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:metal/sheet/steel",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 20.0,
+                "min": 5.0
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:crossbow",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:metal/axe/steel",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:metal/chestplate/steel",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:breach",
+                "minecraft:density"
+              ]
+            }
+          ],
+          "name": "minecraft:book",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "enchantments": {
+                "minecraft:wind_burst": 1.0
+              },
+              "function": "minecraft:set_enchantments"
+            }
+          ],
+          "name": "minecraft:book",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:gem/opal"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:chests/trial_chambers/reward_ominous_rare"
+}

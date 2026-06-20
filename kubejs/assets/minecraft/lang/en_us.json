@@ -3,11 +3,5 @@
     "item.minecraft.iron_nugget":"Wrought Iron Nugget",
     "block.minecraft.chain":"Hardened Chain",
     "item.minecraft.glass_bottle":"Reinforced Glass Bottle",
-    "block.minecraft.iron_block": "Wrought Iron Block",
-
-    "block.minecraft.waxed_copper_block": "Lead Block",
-    "block.minecraft.chiseled_tuff": "Chiseled Basalt",
-    "block.minecraft.polished_tuff": "Smooth Basalt",
-    "block.minecraft.chiseled_tuff_bricks": "Chiseled Basalt",
-    "block.minecraft.tuff_bricks": "Basalt Bricks"
+    "block.minecraft.iron_block": "Wrought Iron Block"
 }
