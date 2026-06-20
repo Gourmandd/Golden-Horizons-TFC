@@ -72,7 +72,7 @@
 	[blocks.snow]
 		#
 		# [Requires MC Restart] If snow will slow players that move on top of it similar to soul sand or honey.
-		enableSnowSlowEntities = true
+		enableSnowSlowEntities = false
 		#
 		# [Requires MC Restart] The maximum number of snow blocks that can be placed when entering an unloaded chunk. Lower values = matches nearby loaded chunks better, but more lag when entering these chunks.
 		# Default: 64
@@ -109,7 +109,7 @@
 		# A movement multiplier for players moving through plants. Individual plants will use a ratio of this value, and lower = slower.
 		# Default: 0.2
 		# Range: 0.0 ~ 1.0
-		plantsMovementModifier = 0.2
+		plantsMovementModifier = 1.0
 
 	[blocks.leaves]
 		#
