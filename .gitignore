@@ -1,5 +1,6 @@
 #some of these files may be generated when you run the game and some of these are from mods that are generated while testing
 /.vscode
+/kubejs/nbt
 /backups
 /crash-reports
 /datapacks

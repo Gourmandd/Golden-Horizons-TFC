@@ -5,6 +5,7 @@
 // This has been modified from the original.
 // Thank you to the original author.
 
+/*
 MoreJS.structureLoad((event) => {
     event.forEachPalettes((palette) => {
         palette.forEach((blockData) => {
@@ -16,3 +17,4 @@ MoreJS.structureLoad((event) => {
         });
     });
 });
+*/
