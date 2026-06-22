@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "modpack:food/myceylon_cookie_dough",
+    "modpack:food/sweet_berry_cookie_dough",
+    "modpack:food/honey_cookie_dough",
+    "modpack:food/syrup_cookie_dough",
+    "modpack:food/coffee_cookie_dough",
+    "modpack:food/cherry_blossom_cookie_dough"
+  ]
+}

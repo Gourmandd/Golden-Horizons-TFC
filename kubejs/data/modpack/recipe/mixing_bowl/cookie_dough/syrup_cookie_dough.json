@@ -1,0 +1,64 @@
+{
+  "type": "firmalife:mixing_bowl",
+  "item_ingredients": [
+    {
+      "type": "tfc:and",
+      "children": [
+        {
+          "item": "rusticdelight:syrup"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    {
+      "type": "tfc:and",
+      "children": [
+        {
+          "item": "firmalife:food/cookie_dough"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    {
+      "type": "tfc:and",
+      "children": [
+        {
+          "item": "firmalife:food/cookie_dough"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    {
+      "type": "tfc:and",
+      "children": [
+        {
+          "item": "firmalife:food/cookie_dough"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    {
+      "type": "tfc:and",
+      "children": [
+        {
+          "item": "firmalife:food/cookie_dough"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    }
+  ],
+  "result_item": {
+    "count": 4,
+    "id": "modpack:food/syrup_cookie_dough"
+  }
+}

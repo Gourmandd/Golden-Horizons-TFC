@@ -11,7 +11,9 @@
         "tfc:food/gooseberry",
         "tfc:food/strawberry",
         "tfc:food/snowberry",
-        "tfc:food/wintergreen_berry"
+        "tfc:food/wintergreen_berry",
+        "caupona:wolfberries",
+        "spectrum:sawblade_holly_berry"
     ],
     "remove": [
         "minecraft:sweet_berries",

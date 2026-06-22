@@ -1,0 +1,9 @@
+{
+    "replace": true,
+    "values": [
+        "firmalife:food/white_chocolate",
+        "firmalife:food/milk_chocolate",
+        "firmalife:food/dark_chocolate",
+        "create:bar_of_chocolate"
+    ]
+}

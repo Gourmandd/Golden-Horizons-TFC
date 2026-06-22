@@ -1,0 +1,20 @@
+{
+  "type": "firmalife:oven",
+  "duration": 1000,
+  "ingredient": {
+    "type": "tfc:and",
+    "children": [
+      {
+        "item": "modpack:food/cherry_blossom_cookie_dough"
+      },
+      {
+        "type": "tfc:not_rotten"
+      }
+    ]
+  },
+  "result": {
+    "count": 1,
+    "id": "rusticdelight:cherry_blossom_cookie"
+  },
+  "temperature": 400.0
+}

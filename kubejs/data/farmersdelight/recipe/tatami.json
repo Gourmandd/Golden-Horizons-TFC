@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SC",
+        "CS"
+    ],
+    "key": {
+        "S": {
+            "item": "tfc:straw"
+        },
+        "C": {
+            "item": "farmersdelight:canvas"
+        }
+    },
+    "result": {
+        "id": "farmersdelight:tatami",
+        "count": 2
+    }
+}
