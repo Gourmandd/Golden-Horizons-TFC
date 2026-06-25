@@ -1,0 +1,25 @@
+{
+  "type": "survivorsdelight:sd_cooking_pot",
+  "experience": 3.0,
+  "fluid": {
+    "tag": "firmalife:oils"
+  },
+  "fluid_amount": 100,
+  "ingredients": [
+    {
+      "type": "tfc:and",
+      "children": [
+        {
+          "item": "farmersdelight:dumplings"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "rusticdelight:fried_dumplings"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "type": "survivorsdelight:sd_cooking_pot",
+  "experience": 3.0,
+  "fluid": {
+    "fluid": "minecraft:water"
+  },
+  "fluid_amount": 100,
+  "ingredients": [
+    {
+      "type": "tfc:and",
+      "children": [
+        {
+          "tag": "c:foods/full_vegetables"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    {
+      "type": "tfc:and",
+      "children": [
+        {
+          "tag": "c:crops/rice"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    {
+      "type": "tfc:and",
+      "children": [
+        {
+          "tag": "c:foods/yellow_bell_pepper"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "rusticdelight:stuffed_bell_pepper_yellow"
+  }
+}

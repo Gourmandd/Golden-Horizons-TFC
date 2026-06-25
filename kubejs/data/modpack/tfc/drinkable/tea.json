@@ -1,0 +1,22 @@
+{
+    "ingredient": {
+        "fluid": "create:tea"
+    },
+    "decay_modifier": 2,
+    "hunger": 1,
+    "saturation": 1,
+    "water": 20,
+    "grain": 0,
+    "fruit": 0,
+    "vegetables": 0,
+    "protein": 0,
+    "dairy": 0.2,
+    "effects": [
+        {
+            "effect": "minecraft:haste",
+            "duration": 360,
+            "amplifier": 1,
+            "chance": 1
+        }
+    ]
+}

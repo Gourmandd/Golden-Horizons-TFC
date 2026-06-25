@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+        "rusticdelight:pancakes",
+        "rusticdelight:cherry_blossom_pancakes",
+        "rusticdelight:vegetable_pancakes",
+        "rusticdelight:chocolate_pancakes",
+        "rusticdelight:pumpkin_pancakes",
+        "rusticdelight:honey_pancakes"
+    ]
+}

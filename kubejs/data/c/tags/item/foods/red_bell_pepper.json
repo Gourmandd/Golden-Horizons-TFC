@@ -1,0 +1,9 @@
+{
+    "replace": true,
+    "values": [
+        "tfc:food/red_bell_pepper",
+        "rusticdelight:bell_pepper_slice_red",
+        "rusticdelight:roasted_bell_pepper_red",
+        "rusticdelight:roasted_bell_pepper_slice_red"
+    ]
+}

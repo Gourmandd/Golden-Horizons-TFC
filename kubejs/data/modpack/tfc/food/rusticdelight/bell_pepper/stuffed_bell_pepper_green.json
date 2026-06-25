@@ -2,10 +2,9 @@
     "ingredient": {
         "item": "rusticdelight:stuffed_bell_pepper_green"
     },
-    "hunger": 6,
-    "saturation": 2,
-    "decay_modifier": 3,
-    "vegetables": 1,
-    "grain": 1.2,
-    "protein": 1.2
+    "hunger": 0,
+    "saturation": 0.0,
+    "water": 0.0,
+    "decay_modifier": 1.0,
+    "type": "dynamic"
 }

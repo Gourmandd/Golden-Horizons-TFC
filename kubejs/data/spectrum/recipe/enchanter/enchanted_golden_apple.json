@@ -4,7 +4,7 @@
     "required_experience": 100,
     "ingredients": [
         {
-            "tag": "c:foods/fruit/apple"
+            "tag": "c:foods/fruit/apples"
         },
         {
             "item": "spectrum:shimmerstone_block"

@@ -18,7 +18,7 @@
             "tag": "c:eggs"
         },
         {
-            "tag": "c:foods/fruit/berries/red"
+            "tag": "c:foods/fruit/berries"
         },
         {
             "item": "spectrum:clotted_cream"

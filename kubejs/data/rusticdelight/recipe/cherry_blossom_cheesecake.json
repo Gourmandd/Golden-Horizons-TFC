@@ -1,59 +1,35 @@
 {
+  "type": "survivorsdelight:nutrition_crafting",
+  "balance_factor": 0.04,
+  "container": "minecraft:air",
+  "damage_tool": true,
+  "decay": 4.5,
+  "hunger": -1,
+  "vanilla": {
     "type": "minecraft:crafting_shaped",
     "category": "misc",
-    "pattern": [
-        "TTT",
-        "MMM",
-        "SCS"
-    ],
     "key": {
-        "C": {
-            "type": "tfc:and",
-            "children": [
-                {
-                    "item": "farmersdelight:pie_crust"
-                },
-                {
-                    "type": "tfc:not_rotten"
-                }
-            ]
-        },
-        "M": {
-            "type": "tfc:and",
-            "children": [
-                {
-                    "item": "farmersdelight:milk_bottle"
-                },
-                {
-                    "type": "tfc:not_rotten"
-                }
-            ]
-        },
-        "S": {
-            "type": "tfc:and",
-            "children": [
-                {
-                    "tag": "tfc:foods/sweeteners"
-                },
-                {
-                    "type": "tfc:not_rotten"
-                }
-            ]
-        },
-        "T": {
-            "type": "tfc:and",
-            "children": [
-                {
-                    "item": "tfc:food/cherry"
-                },
-                {
-                    "type": "tfc:not_rotten"
-                }
-            ]
-        }
+      "C": {
+        "tag": "survivorsdelight:cheese_for_cheesecake"
+      },
+      "F": {
+        "item": "tfc:food/cherry"
+      },
+      "P": {
+        "item": "farmersdelight:pie_crust"
+      },
+      "S": {
+        "tag": "tfc:foods/sweeteners"
+      }
     },
+    "pattern": [
+      "FFF",
+      "SCS",
+      "SPS"
+    ],
     "result": {
-        "id": "rusticdelight:cherry_blossom_cheesecake"
-    },
-    "show_notification": true
+      "count": 1,
+      "id": "rusticdelight:cherry_blossom_cheesecake"
+    }
+  }
 }

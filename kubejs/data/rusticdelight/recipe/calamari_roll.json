@@ -1,41 +1,28 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-        {
-            "type": "tfc:and",
-            "children": [
-                {
-                    "item": "rusticdelight:calamari_slice"
-                },
-                {
-                    "type": "tfc:not_rotten"
-                }
-            ]
-        },
-        {
-            "type": "tfc:and",
-            "children": [
-                {
-                    "item": "rusticdelight:calamari_slice"
-                },
-                {
-                    "type": "tfc:not_rotten"
-                }
-            ]
-        },
-        {
-            "type": "tfc:and",
-            "children": [
-                {
-                    "item": "tfc:food/cooked_rice"
-                },
-                {
-                    "type": "tfc:not_rotten"
-                }
-            ]
-        }
+  "type": "survivorsdelight:nutrition_crafting",
+  "balance_factor": 0.0,
+  "container": "minecraft:air",
+  "damage_tool": true,
+  "decay": 4.5,
+  "hunger": -1,
+  "vanilla": {
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "F": {
+        "tag": "c:foods/squid"
+      },
+      "R": {
+        "item": "tfc:food/cooked_rice"
+      }
+    },
+    "pattern": [
+      "F",
+      "R"
     ],
     "result": {
-        "id": "rusticdelight:calamari_roll"
+      "count": 1,
+      "id": "rusticdelight:calamari_roll"
     }
+  }
 }

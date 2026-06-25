@@ -1,15 +1,31 @@
 {
-  "type": "farmersdelight:cutting",
+  "type": "survivorsdelight:sd_cutting",
   "ingredients": [
     {
-      "item": "tfc:food/yellow_bell_pepper"
+      "type": "tfc:and",
+      "children": [
+        {
+          "item": "tfc:food/yellow_bell_pepper"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
     }
   ],
   "result": [
     {
-      "item": {
-        "count": 1,
-        "id": "rusticdelight:bell_pepper_slice_yellow"
+      "type": "survivorsdelight:provider",
+      "provider": {
+        "modifiers": [
+          {
+            "type": "tfc:copy_food"
+          }
+        ],
+        "stack": {
+          "count": 2,
+          "id": "rusticdelight:bell_pepper_slice_yellow"
+        }
       }
     }
   ],

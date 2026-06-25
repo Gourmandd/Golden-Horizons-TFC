@@ -1,0 +1,38 @@
+{
+    "type": "firmalife:mixing_bowl",
+    "item_ingredients": [
+        {
+          "type": "tfc:and",
+          "children": [
+            {
+              "tag": "c:foods/flour"
+            },
+            {
+              "type": "tfc:not_rotten"
+            }
+          ]
+        },
+        {
+          "type": "tfc:and",
+          "children": [
+            {
+              "item": "minecraft:egg"
+            },
+            {
+              "type": "tfc:not_rotten"
+            }
+          ]
+        },
+        {
+            "item": "tfc:powder/salt"
+        }
+    ],
+    "fluid_ingredients": {
+        "tag": "c:milks",
+        "amount": 1000
+    },
+    "result_item": {
+        "id": "modpack:food/raw_pasta_dough",
+        "count": 2
+    }
+}

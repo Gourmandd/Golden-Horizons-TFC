@@ -1,100 +1,38 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "category": "misc",
-    "ingredients": [
-        {
-            "type": "tfc:and",
-            "children": [
-                {
-                    "item": "farmersdelight:kelp_roll_slice"
-                },
-                {
-                    "type": "tfc:not_rotten"
-                }
-            ]
-        },
-        {
-            "type": "tfc:and",
-            "children": [
-                {
-                    "item": "farmersdelight:kelp_roll_slice"
-                },
-                {
-                    "type": "tfc:not_rotten"
-                }
-            ]
-        },
-        {
-            "type": "tfc:and",
-            "children": [
-                {
-                    "item": "farmersdelight:kelp_roll_slice"
-                },
-                {
-                    "type": "tfc:not_rotten"
-                }
-            ]
-        },
-        {
-            "type": "tfc:and",
-            "children": [
-                {
-                    "item": "rusticdelight:bell_pepper_roll_green"
-                },
-                {
-                    "type": "tfc:not_rotten"
-                }
-            ]
-        },
-        {
-            "type": "tfc:and",
-            "children": [
-                {
-                    "item": "rusticdelight:bell_pepper_roll_yellow"
-                },
-                {
-                    "type": "tfc:not_rotten"
-                }
-            ]
-        },
-        {
-            "type": "tfc:and",
-            "children": [
-                {
-                    "item": "rusticdelight:bell_pepper_roll_red"
-                },
-                {
-                    "type": "tfc:not_rotten"
-                }
-            ]
-        },
-        {
-            "type": "tfc:and",
-            "children": [
-                {
-                    "item": "rusticdelight:calamari_roll"
-                },
-                {
-                    "type": "tfc:not_rotten"
-                }
-            ]
-        },
-        {
-            "item": "minecraft:bowl"
-        },
-        {
-            "type": "tfc:and",
-            "children": [
-                {
-                    "item": "rusticdelight:cherry_blossom_roll"
-                },
-                {
-                    "type": "tfc:not_rotten"
-                }
-            ]
-        }
-    ],
-    "result": {
-        "id": "rusticdelight:rice_roll_royale"
+  "type": "survivorsdelight:medley_crafting",
+  "category": "misc",
+  "container": "minecraft:bowl",
+  "key": {
+    "B": {
+      "item": "minecraft:bowl"
+    },
+    "k": {
+      "item": "farmersdelight:kelp_roll_slice"
+    },
+    "g": {
+      "item": "rusticdelight:bell_pepper_roll_green"
+    },
+    "y": {
+      "item": "rusticdelight:bell_pepper_roll_yellow"
+    },
+    "r": {
+      "item": "rusticdelight:bell_pepper_roll_red"
+    },
+    "c": {
+      "item": "rusticdelight:calamari_roll"
+    },
+    "b": {
+      "item": "rusticdelight:cherry_blossom_roll"
     }
+  },
+  "pattern": [
+    "kkk",
+    "gyr",
+    "cBb"
+  ],
+  "result": {
+    "count": 1,
+    "id": "rusticdelight:rice_roll_royale"
+  },
+  "show_notification": false
 }

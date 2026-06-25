@@ -26,7 +26,7 @@
             "tag": "c:eggs"
         },
         "M": {
-            "tag": "c:foods/milk"
+            "tag": "c:drinks/milk"
         },
         "D": {
             "item": "minecraft:dragon_breath"

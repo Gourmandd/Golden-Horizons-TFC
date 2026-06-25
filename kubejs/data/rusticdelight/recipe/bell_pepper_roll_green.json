@@ -1,41 +1,28 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-        {
-            "type": "tfc:and",
-            "children": [
-                {
-                    "item": "tfc:food/green_bell_pepper"
-                },
-                {
-                    "type": "tfc:not_rotten"
-                }
-            ]
-        },
-        {
-            "type": "tfc:and",
-            "children": [
-                {
-                    "item": "tfc:food/green_bell_pepper"
-                },
-                {
-                    "type": "tfc:not_rotten"
-                }
-            ]
-        },
-        {
-            "type": "tfc:and",
-            "children": [
-                {
-                    "item": "tfc:food/cooked_rice"
-                },
-                {
-                    "type": "tfc:not_rotten"
-                }
-            ]
-        }
+  "type": "survivorsdelight:nutrition_crafting",
+  "balance_factor": 0.0,
+  "container": "minecraft:air",
+  "damage_tool": true,
+  "decay": 4.5,
+  "hunger": -1,
+  "vanilla": {
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "F": {
+        "tag": "c:foods/green_bell_pepper"
+      },
+      "R": {
+        "item": "tfc:food/cooked_rice"
+      }
+    },
+    "pattern": [
+      "F",
+      "R"
     ],
     "result": {
-        "id": "rusticdelight:bell_pepper_roll_green"
+      "count": 1,
+      "id": "rusticdelight:bell_pepper_roll_green"
     }
+  }
 }

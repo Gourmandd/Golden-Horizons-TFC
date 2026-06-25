@@ -4,11 +4,10 @@
         "item": "minecraft:glass_bottle"
     },
     "input_fluid": {
-        "fluid": "tfc:olive_oil",
-        "amount": 500
+        "amount": 250,
+        "tag": "c:milks"
     },
     "output_item": {
-        "id": "rusticdelight:cooking_oil",
-        "amount": 2
+        "id": "farmersdelight:milk_bottle"
     }
 }

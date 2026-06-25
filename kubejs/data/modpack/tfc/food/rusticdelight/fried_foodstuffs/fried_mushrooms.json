@@ -2,11 +2,9 @@
     "ingredient": {
         "item": "rusticdelight:fried_mushrooms"
     },
-    "hunger": 4,
-    "saturation": 1.5,
-    "decay_modifier": 2,
-    "protein": 0.2,
-    "vegetables": 2.4,
-    "grain": 0.5,
-    "dairy": 0.5
+    "hunger": 0,
+    "saturation": 0.0,
+    "water": 0.0,
+    "decay_modifier": 1.0,
+    "type": "dynamic"
 }

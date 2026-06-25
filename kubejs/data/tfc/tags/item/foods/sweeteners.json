@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "spectrum:jaramel"
+        "spectrum:jaramel",
+        "rusticdelight:syrup"
     ]
 }

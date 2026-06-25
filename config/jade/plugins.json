@@ -166,6 +166,9 @@
     "block_properties": false,
     "mod_name": true
   },
+  "survivorsdelight": {
+    "feast_decay": true
+  },
   "kubejs_tfc": {
     "heat_consumer": true
   }

@@ -2,6 +2,8 @@
     "replace": true,
     "values": [
         "#c:foods/raw_squid",
-        "#c:foods/cooked_squid"
+        "#c:foods/cooked_squid",
+        "rusticdelight:calamari_slice",
+        "rusticdelight:cooked_calamari_slice"
     ]
 }

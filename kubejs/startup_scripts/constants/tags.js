@@ -42,8 +42,10 @@ global.Tag.ROOT_VEGETABLES = "c:foods/root_vegetables",
     global.Tag.APPLE = "c:foods/fruit/apple",
 
     // misc
-    global.Tag.SPICES = "c:spices"
-global.Tag.COFFEE = "rusticdelight:coffee_food_ingredients",
+    global.Tag.SPICES = "c:spices",
+    global.Tag.SWEET_SPICES = "c:sweet_spices",
+    global.Tag.SAVOURY_SPICES = "c:savoury_spices",
+    global.Tag.COFFEE = "rusticdelight:coffee_food_ingredients",
     global.Tag.EDIBLE_MUSHROOMS = "c:foods/edible_mushrooms",
     global.Tag.SWEETENERS = "tfc:foods/sweeteners",
     global.Tag.EGG = "c:foods/egg",

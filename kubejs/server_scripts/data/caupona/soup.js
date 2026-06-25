@@ -381,7 +381,7 @@ ServerEvents.recipes(event => {
         let full_ingredients = recipe.ingredients
 
         if (recipe.is_spiced) {
-            full_ingredients.push(inputOf(TAG, tags.SPICES, 1,))
+            full_ingredients.push(inputOf(TAG, tags.SAVOURY_SPICES, 1,))
         }
         delete fluid_input.type
 

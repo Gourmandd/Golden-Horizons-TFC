@@ -2,7 +2,7 @@
     "type": "tfc:pot",
     "ingredients": [
         {
-            "tag": "minecraft:leaves"
+            "tag": "c:sweet_spices"
         },
         {
             "tag": "tfc:foods/sweeteners"

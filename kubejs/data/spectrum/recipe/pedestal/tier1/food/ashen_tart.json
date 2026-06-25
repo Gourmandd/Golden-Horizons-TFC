@@ -26,10 +26,10 @@
             "tag": "c:eggs"
         },
         "M": {
-            "tag": "c:foods/milk"
+            "tag": "c:drinks/milk"
         },
         "B": {
-            "tag": "c:foods/fruit/berries/red"
+            "tag": "c:foods/fruit/berries"
         }
     },
     "result": {

@@ -1,0 +1,29 @@
+{
+  "type": "survivorsdelight:sd_cooking_pot",
+  "cookingtime": 1200,
+  "experience": 3.0,
+  "fluid": {
+    "tag": "firmalife:oils"
+  },
+  "fluid_amount": 100,
+  "ingredients": [
+    {
+      "type": "tfc:and",
+      "children": [
+        {
+          "tag": "c:foods/dough"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    {
+        "tag": "c:spices"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "rusticdelight:fried_dough"
+  }
+}

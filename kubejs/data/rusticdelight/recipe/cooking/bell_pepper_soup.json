@@ -1,0 +1,54 @@
+{
+  "type": "survivorsdelight:sd_cooking_pot",
+  "container": {
+    "count": 1,
+    "id": "minecraft:bowl"
+  },
+  "fluid": {
+    "fluid": "minecraft:water"
+  },
+  "cookingtime": 900,
+  "experience": 3.0,
+  "ingredients": [
+    {
+      "type": "tfc:and",
+      "children": [
+        {
+          "tag": "c:foods/bell_pepper"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    {
+      "type": "tfc:and",
+      "children": [
+        {
+            "tag": "c:foods/bell_pepper"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    {
+      "type": "tfc:and",
+      "children": [
+        {
+          "tag": "c:foods/bell_pepper"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    {
+        "tag": "c:savoury_spices"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "rusticdelight:bell_pepper_soup"
+  }
+}

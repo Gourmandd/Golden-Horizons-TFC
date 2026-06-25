@@ -3,7 +3,7 @@
   "group": "infused_beverages",
   "ingredients": [
     {
-      "tag": "c:foods/fruit/berries/red",
+      "tag": "c:foods/fruit/berries",
       "count": 6
     },
     {

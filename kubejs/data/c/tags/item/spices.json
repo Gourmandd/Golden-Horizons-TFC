@@ -5,6 +5,14 @@
         "caupona:sugar_spice_jar",
         "caupona:vinegar_spice_jar",
         "caupona:sapa_spice_jar",
-        "caupona:asafoetida_spice_jar"
+        "caupona:asafoetida_spice_jar",
+        "firmalife:spice/basil_leaves",
+        "firmalife:spice/vanilla",
+        "firmalife:spice/chopped_cilantro",
+        "firmalife:spice/allspice",
+        "firmalife:spice/bay_leaves",
+        "firmalife:spice/ground_cardamom",
+        "firmalife:spice/ground_cumin",
+        "spectrum:myceylon"
     ]
 }

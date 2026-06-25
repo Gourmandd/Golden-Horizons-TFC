@@ -2,8 +2,12 @@
   "type": "spectrum:titration_barrel",
   "ingredients": [
     {
-      "tag": "c:foods/fruit/berries/glow",
+      "tag": "c:foods/fruit/berries",
       "count": 8
+    },
+    {
+      "item": "minecraft:glow_ink_sac",
+      "count": 4
     },
     {
       "item": "spectrum:moonstone_powder",

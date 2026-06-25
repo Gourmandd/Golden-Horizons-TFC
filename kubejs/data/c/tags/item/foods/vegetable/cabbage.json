@@ -1,6 +1,8 @@
 {
     "replace": false,
-    "values": [],
+    "values": [
+        "#c:foods/cabbage"
+    ],
     "remove": [
         "farmersdelight:cabbage"
     ]

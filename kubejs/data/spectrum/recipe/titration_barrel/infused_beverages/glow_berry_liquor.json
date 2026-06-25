@@ -3,11 +3,15 @@
   "group": "infused_beverages",
   "ingredients": [
     {
-      "tag": "c:foods/fruit/berries/glow",
+      "tag": "c:foods/fruit/berries",
       "count": 6
     },
     {
       "item": "minecraft:sugar",
+      "count": 4
+    },
+    {
+      "item": "minecraft:glow_ink_sac",
       "count": 4
     }
   ],

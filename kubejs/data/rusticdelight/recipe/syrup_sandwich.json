@@ -1,42 +1,30 @@
 {
-    "type": "minecraft:crafting_shapeless",
+  "type": "survivorsdelight:nutrition_crafting",
+  "balance_factor": 0.0,
+  "container": "minecraft:air",
+  "damage_tool": true,
+  "decay": 4.5,
+  "hunger": -1,
+  "vanilla": {
+    "type": "minecraft:crafting_shaped",
     "category": "misc",
-    "ingredients": [
-        {
-            "type": "tfc:and",
-            "children": [
-                {
-                    "tag": "c:foods/bread"
-                },
-                {
-                    "type": "tfc:not_rotten"
-                }
-            ]
-        },
-        {
-            "type": "tfc:and",
-            "children": [
-                {
-                    "item": "rusticdelight:syrup"
-                },
-                {
-                    "type": "tfc:not_rotten"
-                }
-            ]
-        },
-        {
-            "type": "tfc:and",
-            "children": [
-                {
-                    "tag": "tfc:foods/sweeteners"
-                },
-                {
-                    "type": "tfc:not_rotten"
-                }
-            ]
-        }
+    "key": {
+      "B": {
+        "tag": "c:foods/bread"
+      },
+      "Y": {
+        "item": "rusticdelight:syrup"
+      },
+      "S": {
+          "tag": "tfc:foods/sweeteners"
+      }
+    },
+    "pattern": [
+      "BYS"
     ],
     "result": {
-        "id": "rusticdelight:syrup_sandwich"
+      "count": 1,
+      "id": "rusticdelight:syrup_sandwich"
     }
+  }
 }

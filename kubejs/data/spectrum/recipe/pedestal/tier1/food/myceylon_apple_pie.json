@@ -20,13 +20,13 @@
             "item": "spectrum:myceylon"
         },
         "M": {
-            "tag": "c:foods/milk"
+            "tag": "c:drinks/milk"
         },
         "S": {
             "item": "minecraft:sugar"
         },
         "P": {
-            "tag": "c:foods/fruit/apple"
+            "tag": "c:foods/fruit/apples"
         },
         "A": {
             "item": "modpack:food/amaranth_flour"

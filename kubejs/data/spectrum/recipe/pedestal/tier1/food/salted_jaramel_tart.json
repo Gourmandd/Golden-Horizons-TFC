@@ -27,7 +27,7 @@
             "tag": "c:eggs"
         },
         "M": {
-            "tag": "c:foods/milk"
+            "tag": "c:drinks/milk"
         },
         "G": {
             "item": "minecraft:ghast_tear"

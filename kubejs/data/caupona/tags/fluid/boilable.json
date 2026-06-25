@@ -1,0 +1,7 @@
+{
+    "values": [],
+    "remove": [
+        "minecraft:water",
+        "minecraft:milk"
+    ]
+}
