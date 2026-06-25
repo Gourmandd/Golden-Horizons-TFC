@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "#caupona:boilable"
+        "#caupona:boilable",
+        "create:tea"
     ]
 }

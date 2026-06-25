@@ -2,6 +2,7 @@
     "replace": false,
     "values": [
         "#caupona:boilable",
-        "modpack:garum"
+        "modpack:garum",
+        "create:tea"
     ]
 }

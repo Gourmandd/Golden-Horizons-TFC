@@ -5,5 +5,11 @@
         "spectrum:sludge",
         "spectrum:dragonrot",
         "spectrum:liquid_crystal"
+    ],
+    "remove": [
+        "#caupona:boilable",
+        "modpack:garum",
+        "create:tea"
     ]
+
 }

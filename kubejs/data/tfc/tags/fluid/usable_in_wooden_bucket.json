@@ -3,5 +3,10 @@
     "values": [
         "modpack:garum",
         "modpack:boiled_water"
+    ],
+    "remove": [
+        "#caupona:boilable",
+        "modpack:garum",
+        "create:tea"
     ]
 }
