@@ -22,4 +22,8 @@ StartupEvents.registry("item", event => {
     event.create(`${id}:food/syrup_cookie_dough`).displayName("Syrup Cookie Dough").food(0, 0)
     event.create(`${id}:food/cherry_blossom_cookie_dough`).displayName("Cherry Blossom Cookie Dough").food(0, 0)
     event.create(`${id}:food/coffee_cookie_dough`).displayName("Coffee Cookie Dough").food(0, 0)
+
+    event.create(`${id}:food/honey_cake_base`).displayName("Honey Cake Base").food(0, 0)
+    event.create(`${id}:food/chocolate_cake_base`).displayName("Chocolate Cake Base").food(0, 0)
+    event.create(`${id}:food/cake_base`).displayName("Cake Base").food(0, 0)
 })

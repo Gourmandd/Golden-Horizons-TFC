@@ -1,7 +1,9 @@
 // priority: 100
 ServerEvents.recipes(event => {
 
-    // all of these are stonecutting, these are replaced by crafting recipes.
+    // all of these at the start are stonecutting, these are replaced by crafting recipes.
+    // TODO: do another alphabetical sort at some point
+    //  \-> also using code regions to sort it by mod and in some cases also by recipe type might be nice to have.
     let recipes_to_remove = [
         "minecraft:stone_brick_stairs_from_stone_stonecutting",
         "minecraft:stone_brick_slab_from_stone_stonecutting",
@@ -949,6 +951,8 @@ ServerEvents.recipes(event => {
         "farmersdelight:chocolate_pie",
         "farmersdelight:sweet_berry_cheesecake",
         "create:mixing/tea",
+        "farmersdelight:apple_pie",
+        "tfc:crafting/cake",
 
         "createaddition:filling/honey_cake",
         "createaddition:filling/chocolate_cake",
