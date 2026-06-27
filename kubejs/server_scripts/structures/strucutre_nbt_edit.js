@@ -175,6 +175,12 @@ let nbt_files = [
 // when you want to the override some replacements in the current operation.
 let SPECIFIC_OVERRIDES = {
     // trial chambers
+    "minecraft:bone_block": "caupona:felsic_tuff",
+    "minecraft:stone": "tfc:rock/raw/slate",
+    "minecraft:cactus": "minecraft:air",
+    "minecraft:red_mushroom": "minecraft:air",
+    "minecraft:brown_mushroom": "minecraft:air",
+    "tfc:grass/aridisol": "minecraft:soul_sand",
     "tfc:wood/button/oak": "tfc:rock/button/basalt",
     "minecraft:mossy_cobblestone": "modpack:rock/mossy_bricks/argillite",
     "minecraft:cobblestone": "modpack:rock/bricks/argillite",
@@ -182,6 +188,14 @@ let SPECIFIC_OVERRIDES = {
     "modpack:rock/cobble/argillite": "modpack:rock/cracked_bricks/argillite",
     "minecraft:cobbled_deepslate": "modpack:rock/cracked_bricks/nephelinite",
     "modpack:rock/cobble/nephelinite": "modpack:rock/cracked_bricks/nephelinite",
+    "minecraft:waxed_oxidized_copper_trapdoor": "tfc:wood/trapdoor/birch",
+    "minecraft:waxed_oxidized_copper_door": "tfc:wood/door/sequoia",
+    "minecraft:oxidized_copper_trapdoor": "tfc:wood/trapdoor/birch",
+    "minecraft:dead_bush": "tfc:plant/dead_bush",
+    "minecraft:chain": "architects_palette:nether_brass_chain",
+    "tfc:metal/chain/copper": "architects_palette:nether_brass_chain",
+    "minecraft:potted_dead_bush": "tfc:plant/potted/dead_bush",
+    "minecraft:ladder": "create:copper_ladder"
 }
 
 nbt_files.forEach(file => {
