@@ -177,7 +177,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:bamboo_planks",
+          "name": "tfc:wood/planks/sequoia",
           "weight": 2
         },
         {
@@ -209,7 +209,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "tfc:torch",
+          "name": "minecraft:stick",
           "weight": 2
         },
         {
@@ -263,7 +263,7 @@
       ],
       "rolls": {
         "type": "minecraft:uniform",
-        "max": 3.0,
+        "max": 7.0,
         "min": 1.0
       }
     }

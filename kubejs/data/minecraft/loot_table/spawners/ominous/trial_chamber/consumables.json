@@ -81,21 +81,6 @@
             }
           ],
           "name": "minecraft:potion"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "function": "minecraft:set_potion",
-              "id": "minecraft:health_boost"
-            }
-          ],
-          "name": "minecraft:potion"
         }
       ],
       "rolls": 1.0
