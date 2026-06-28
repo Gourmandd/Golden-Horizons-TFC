@@ -990,111 +990,17 @@ global.EMI.LIMITED_BLOCKS = [
 
     "modpack:metal/block/aluminium",
 
-    "modpack:metal/cut_block/aluminium",
-
     "modpack:metal/block/aluminium_bronze",
-
-    "modpack:metal/cut_block/aluminium_bronze",
 
     "modpack:metal/block/cast_iron_alloy",
 
-    "modpack:metal/cut_block/cast_iron_alloy",
-
     "modpack:metal/block/hardened_steel",
-
-    "modpack:metal/cut_block/hardened_steel",
 
     "modpack:metal/block/nethersteel",
 
-    "modpack:metal/cut_block/nethersteel",
-
     "modpack:metal/block/lead",
 
-    "modpack:metal/cut_block/lead",
-
     "modpack:metal/block/electrum",
-
-    "modpack:metal/cut_block/electrum",
-
-    "modpack:metal/cut_block/bismuth",
-
-    "modpack:metal/cut_block/bismuth_bronze",
-
-    "modpack:metal/cut_block/black_bronze",
-
-    "modpack:metal/cut_block/bronze",
-
-    "modpack:metal/exposed_cut_block/bronze",
-
-    "modpack:metal/weathered_cut_block/bronze",
-
-    "modpack:metal/oxidized_cut_block/bronze",
-
-    "modpack:metal/cut_block/brass",
-
-    "modpack:metal/exposed_cut_block/brass",
-
-    "modpack:metal/weathered_cut_block/brass",
-
-    "modpack:metal/oxidized_cut_block/brass",
-
-    "modpack:metal/cut_block/copper",
-
-    "modpack:metal/exposed_cut_block/copper",
-
-    "modpack:metal/weathered_cut_block/copper",
-
-    "modpack:metal/oxidized_cut_block/copper",
-
-    "modpack:metal/cut_block/gold",
-
-    "modpack:metal/cut_block/nickel",
-
-    "modpack:metal/cut_block/rose_gold",
-
-    "modpack:metal/cut_block/silver",
-
-    "modpack:metal/exposed_cut_block/silver",
-
-    "modpack:metal/weathered_cut_block/silver",
-
-    "modpack:metal/oxidized_cut_block/silver",
-
-    "modpack:metal/cut_block/tin",
-
-    "modpack:metal/cut_block/zinc",
-
-    "modpack:metal/cut_block/sterling_silver",
-
-    "modpack:metal/exposed_cut_block/sterling_silver",
-
-    "modpack:metal/weathered_cut_block/sterling_silver",
-
-    "modpack:metal/oxidized_cut_block/sterling_silver",
-
-    "modpack:metal/cut_block/wrought_iron",
-
-    "modpack:metal/exposed_cut_block/wrought_iron",
-
-    "modpack:metal/weathered_cut_block/wrought_iron",
-
-    "modpack:metal/oxidized_cut_block/wrought_iron",
-
-    "modpack:metal/cut_block/cast_iron",
-
-    "modpack:metal/cut_block/steel",
-
-    "modpack:metal/exposed_cut_block/steel",
-
-    "modpack:metal/weathered_cut_block/steel",
-
-    "modpack:metal/oxidized_cut_block/steel",
-
-    "modpack:metal/cut_block/black_steel",
-
-    "modpack:metal/cut_block/blue_steel",
-
-    "modpack:metal/cut_block/red_steel",
 
     "spectrum:slate_noxwood_planks",
 

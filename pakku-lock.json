@@ -8,70 +8,6 @@
     },
     "projects": [
         {
-            "pakku_id": "oA7FlU2z40Tc7mVU",
-            "type": "MOD",
-            "side": "CLIENT",
-            "slug": {
-                "modrinth": "3dskinlayers",
-                "curseforge": "skin-layers-3d"
-            },
-            "name": {
-                "modrinth": "3D Skin Layers",
-                "curseforge": "Skin Layers 3D"
-            },
-            "id": {
-                "modrinth": "zV5r3pPn",
-                "curseforge": "521480"
-            },
-            "redistributable": false,
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "skinlayers3d-neoforge-1.9.0-mc1.21.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/zV5r3pPn/versions/BeFsM0V8/skinlayers3d-neoforge-1.9.0-mc1.21.jar",
-                    "id": "BeFsM0V8",
-                    "parent_id": "zV5r3pPn",
-                    "hashes": {
-                        "sha512": "804e24078fd61220e4dddf5f975f9f47b2b99a7ce1149083f83a045f6c63bb9f88390e57a234f4bb8d3c2b38be141ab1004b17cd9005a39a155522ee0ced4906",
-                        "sha1": "ec046d736a67626d774cae3cf6d37133eaccfbd4"
-                    },
-                    "required_dependencies": [],
-                    "size": 876523,
-                    "date_published": "2025-08-12T18:59:24.263719Z"
-                },
-                {
-                    "type": "curseforge",
-                    "file_name": "skinlayers3d-neoforge-1.9.0-mc1.21.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6879/695/skinlayers3d-neoforge-1.9.0-mc1.21.jar",
-                    "id": "6879695",
-                    "parent_id": "521480",
-                    "hashes": {
-                        "sha1": "ec046d736a67626d774cae3cf6d37133eaccfbd4",
-                        "md5": "e4036ffc63f491fcd5358e2edea1b899"
-                    },
-                    "required_dependencies": [],
-                    "size": 876523,
-                    "date_published": "2025-08-12T18:59:23.200Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "tQrByy2XXYMLrqk8",
             "type": "MOD",
             "side": "BOTH",
@@ -3462,7 +3398,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "FarmersDelight-1.21.1-1.2.10.jar",
+                    "file_name": "FarmersDelight-1.21.1-1.3.2.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -3470,20 +3406,20 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/R2OftAxM/versions/EVaDSbPj/FarmersDelight-1.21.1-1.2.10.jar",
-                    "id": "EVaDSbPj",
+                    "url": "https://cdn.modrinth.com/data/R2OftAxM/versions/GbNuOZ4S/FarmersDelight-1.21.1-1.3.2.jar",
+                    "id": "GbNuOZ4S",
                     "parent_id": "R2OftAxM",
                     "hashes": {
-                        "sha512": "9c7bf1df38efe6167622938ecd9fcc9d2fb38de7457f3ef4ec189409a2268fd783c2e4a64c3da80ba67a463bb72c841f6510a57eadc88a078e44a085c299fa62",
-                        "sha1": "93f4de62fce2b90ee8c87e4f6d9b82edb132003d"
+                        "sha512": "da5a4236427df8010d75992201c8723ac84a8fa71efa55670551d333cac94a90ae8e8c536da63ae07a67f4d00dc2774ae4151030f41d26886e508f4a037c8694",
+                        "sha1": "bf7e7dede99e832de20e191b1f6c11f7a9b9a622"
                     },
                     "required_dependencies": [],
-                    "size": 2935025,
-                    "date_published": "2026-02-08T21:14:34.383958Z"
+                    "size": 3163042,
+                    "date_published": "2026-05-13T16:42:12.357594Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "FarmersDelight-1.21.1-1.2.10.jar",
+                    "file_name": "FarmersDelight-1.21.1-1.3.2.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -3491,88 +3427,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7596/366/FarmersDelight-1.21.1-1.2.10.jar",
-                    "id": "7596366",
+                    "url": "https://edge.forgecdn.net/files/8083/481/FarmersDelight-1.21.1-1.3.2.jar",
+                    "id": "8083481",
                     "parent_id": "398521",
                     "hashes": {
-                        "sha1": "93f4de62fce2b90ee8c87e4f6d9b82edb132003d",
-                        "md5": "b1971a08ee136896c419d94c89702341"
+                        "sha1": "bf7e7dede99e832de20e191b1f6c11f7a9b9a622",
+                        "md5": "60186e1b39385ecae70ff2f194ef7c32"
                     },
                     "required_dependencies": [],
-                    "size": 2935025,
-                    "date_published": "2026-02-08T21:08:17.640Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "b4M8Qti6bsf9PE2l",
-            "pakku_links": [
-                "B9rCrTdjB1Frl92q",
-                "kyoI3cFLp8p0Mvsa"
-            ],
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "curseforge": "farmers-delight-tfc",
-                "modrinth": "farmers-delight-tfc"
-            },
-            "name": {
-                "curseforge": "Farmer's Delight TFC",
-                "modrinth": "Farmer's Delight TFC"
-            },
-            "id": {
-                "curseforge": "951750",
-                "modrinth": "WXhDTEXL"
-            },
-            "redistributable": false,
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "FarmersDelight_TFC-1.21.1-neoforge-1.0.8.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/WXhDTEXL/versions/4tKZ9j5c/FarmersDelight_TFC-1.21.1-neoforge-1.0.8.jar",
-                    "id": "4tKZ9j5c",
-                    "parent_id": "WXhDTEXL",
-                    "hashes": {
-                        "sha512": "1724d9e6799140442dc43887a81bcad3f9ea8f4af6aa7b9f5c85c545c3b7d0a9ca8580b6e729206d8a6a1289db0b94ade58a0d92071e1ca99ca1d296e494d250",
-                        "sha1": "9762aa9a3b9c9b78dc0c622fc65d786779106ba2"
-                    },
-                    "required_dependencies": [
-                        "JaCEZUhg",
-                        "R2OftAxM"
-                    ],
-                    "size": 396470,
-                    "date_published": "2025-11-01T20:46:39.799634Z"
-                },
-                {
-                    "type": "curseforge",
-                    "file_name": "FarmersDelight_TFC-1.21.1-neoforge-1.0.8.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7121/033/FarmersDelight_TFC-1.21.1-neoforge-1.0.8.jar",
-                    "id": "7121033",
-                    "parent_id": "951750",
-                    "hashes": {
-                        "sha1": "9762aa9a3b9c9b78dc0c622fc65d786779106ba2",
-                        "md5": "dec1c7c4ae2c1fa76da5e6430847fcbe"
-                    },
-                    "required_dependencies": [
-                        "302973",
-                        "398521"
-                    ],
-                    "size": 396470,
-                    "date_published": "2025-10-18T14:16:04.747Z"
+                    "size": 3163042,
+                    "date_published": "2026-05-13T16:39:55.940Z"
                 }
             ]
         },
@@ -6556,7 +6420,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "rusticdelight-neoforge-1.21-1.5.3.jar",
+                    "file_name": "rusticdelight-neoforge-1.21-1.6.1.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -6565,22 +6429,22 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/foa4fGIH/versions/aVGeGNtu/rusticdelight-neoforge-1.21-1.5.3.jar",
-                    "id": "aVGeGNtu",
+                    "url": "https://cdn.modrinth.com/data/foa4fGIH/versions/YRmD0rnR/rusticdelight-neoforge-1.21-1.6.1.jar",
+                    "id": "YRmD0rnR",
                     "parent_id": "foa4fGIH",
                     "hashes": {
-                        "sha512": "a21fbe16770de064ded44c26f075068b04ecd23890f7cfb5051b2e34aba1380486dd790af3f78c3f6ddb2f31afc8f8d9b99285a0c67666b98f8b604909288b70",
-                        "sha1": "6a9b436da1efdc2a63a3c5c982f838db26917d1f"
+                        "sha512": "a496981023eef346723788f92d8b50039c7ce4bc121aa9089df55a60477e25183a374648f5734ace9fdad1a64ef9a6d223ec559ceea6501c66f04d7138d40084",
+                        "sha1": "b5c343d01cf4c9cc77815a15f9a45da4a3205002"
                     },
                     "required_dependencies": [
                         "R2OftAxM"
                     ],
-                    "size": 543573,
-                    "date_published": "2026-02-16T09:52:52.482539Z"
+                    "size": 593604,
+                    "date_published": "2026-05-16T20:47:54.117974Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "rusticdelight-neoforge-1.21-1.5.3.jar",
+                    "file_name": "rusticdelight-neoforge-1.21-1.6.1.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -6589,18 +6453,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7633/77/rusticdelight-neoforge-1.21-1.5.3.jar",
-                    "id": "7633077",
+                    "url": "https://edge.forgecdn.net/files/8100/378/rusticdelight-neoforge-1.21-1.6.1.jar",
+                    "id": "8100378",
                     "parent_id": "1106612",
                     "hashes": {
-                        "sha1": "6a9b436da1efdc2a63a3c5c982f838db26917d1f",
-                        "md5": "8015b44fb64bb0f37e79a63eebffe7c3"
+                        "sha1": "b5c343d01cf4c9cc77815a15f9a45da4a3205002",
+                        "md5": "a8935a4d71b0e056fd4287ad75163267"
                     },
                     "required_dependencies": [
                         "398521"
                     ],
-                    "size": 543573,
-                    "date_published": "2026-02-16T09:54:24.060Z"
+                    "size": 593604,
+                    "date_published": "2026-05-16T20:45:55.307Z"
                 }
             ]
         },
@@ -7039,77 +6903,6 @@
             ]
         },
         {
-            "pakku_id": "E3o4FnJ9Nis0jguG",
-            "pakku_links": [
-                "ux9Y4gss6HWJFIVY",
-                "87v2XBbG0ESgAiTr"
-            ],
-            "type": "MOD",
-            "side": "CLIENT",
-            "slug": {
-                "modrinth": "sodium-dynamic-lights",
-                "curseforge": "dynamiclights-reforged"
-            },
-            "name": {
-                "modrinth": "Sodium Dynamic Lights",
-                "curseforge": "Sodium/Embeddium Dynamic Lights"
-            },
-            "id": {
-                "modrinth": "PxQSWIcD",
-                "curseforge": "551736"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "sodiumdynamiclights-neoforge-1.0.10-1.21.1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/PxQSWIcD/versions/XI0WLXdn/sodiumdynamiclights-neoforge-1.0.10-1.21.1.jar",
-                    "id": "XI0WLXdn",
-                    "parent_id": "PxQSWIcD",
-                    "hashes": {
-                        "sha512": "ec19a81cf2dfde255990a457d8f6d7375df53cb94190dce71c4bfe5d5263f4862027ce4aa0af20cb11d56c7c031d5e149b3bdf95bec6343e5bd4552450b14c0a",
-                        "sha1": "02e9bc7ba28147cdf2d608ecf4f2c1eab34b4652"
-                    },
-                    "required_dependencies": [
-                        "AANobbMI",
-                        "Es5v4eyq"
-                    ],
-                    "size": 299353,
-                    "date_published": "2025-01-02T01:22:43.914842Z"
-                },
-                {
-                    "type": "curseforge",
-                    "file_name": "sodiumdynamiclights-neoforge-1.0.10-1.21.1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6044/477/sodiumdynamiclights-neoforge-1.0.10-1.21.1.jar",
-                    "id": "6044477",
-                    "parent_id": "551736",
-                    "hashes": {
-                        "sha1": "02e9bc7ba28147cdf2d608ecf4f2c1eab34b4652",
-                        "md5": "daaa3a9e438fddffc1db19bf8a7dfba0"
-                    },
-                    "required_dependencies": [
-                        "1103431",
-                        "394468"
-                    ],
-                    "size": 299353,
-                    "date_published": "2025-01-02T01:22:42.973Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "87v2XBbG0ESgAiTr",
             "pakku_links": [
                 "ux9Y4gss6HWJFIVY"
@@ -7427,6 +7220,144 @@
                     "required_dependencies": [],
                     "size": 10556,
                     "date_published": "2026-04-28T19:17:53.390394Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "CPUJPtsrDDHJBced",
+            "pakku_links": [
+                "B9rCrTdjB1Frl92q"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "survivors-abilities",
+                "modrinth": "survivors-abilities"
+            },
+            "name": {
+                "curseforge": "Survivor's Abilities",
+                "modrinth": "Survivor's Abilities"
+            },
+            "id": {
+                "curseforge": "1354890",
+                "modrinth": "a4odN4zk"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "survivorsabilities-1.2.2-neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7218/876/survivorsabilities-1.2.2-neoforge.jar",
+                    "id": "7218876",
+                    "parent_id": "1354890",
+                    "hashes": {
+                        "sha1": "cfe02a8f39a63f54bb5df378d1c50273bd27c438",
+                        "md5": "48887e557fb73e2028d5629f8a287ee8"
+                    },
+                    "required_dependencies": [
+                        "302973"
+                    ],
+                    "size": 25584,
+                    "date_published": "2025-11-13T20:08:47.753Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "survivorsabilities-1.2.2-neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/a4odN4zk/versions/SYDDMIIl/survivorsabilities-1.2.2-neoforge.jar",
+                    "id": "SYDDMIIl",
+                    "parent_id": "a4odN4zk",
+                    "hashes": {
+                        "sha512": "b8be0129315d6f7f39152c4fb4c6495c4c7478e63c8ee28bdf68a2433e6d93d9d0a59f4eee00a5a04e2650f66c1e64a7dfb6c5d2cfa72892cdc9559cdf47187e",
+                        "sha1": "cfe02a8f39a63f54bb5df378d1c50273bd27c438"
+                    },
+                    "required_dependencies": [
+                        "JaCEZUhg"
+                    ],
+                    "size": 25584,
+                    "date_published": "2026-01-06T18:34:25.450865Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "0huXalzFYlxCU9vN",
+            "pakku_links": [
+                "CPUJPtsrDDHJBced",
+                "kyoI3cFLp8p0Mvsa",
+                "B9rCrTdjB1Frl92q"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "survivors-delight",
+                "modrinth": "survivors-delight"
+            },
+            "name": {
+                "curseforge": "Survivor's Delight [Farmer's Delight Compat with Terrafirmacraft (TFC)]",
+                "modrinth": "Survivor's Delight"
+            },
+            "id": {
+                "curseforge": "1332913",
+                "modrinth": "ZXXbAjQC"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "survivorsdelight-3.1.0.1-neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8323/101/survivorsdelight-3.1.0.1-neoforge.jar",
+                    "id": "8323101",
+                    "parent_id": "1332913",
+                    "hashes": {
+                        "sha1": "a3d992649618cb5aecbc1314b6da40d772b0a219",
+                        "md5": "854862f72f9fc3d4522e41f76b51e267"
+                    },
+                    "required_dependencies": [
+                        "1354890",
+                        "398521",
+                        "302973"
+                    ],
+                    "size": 1281728,
+                    "date_published": "2026-06-26T10:29:03.927Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "survivorsdelight-3.1.0.1-neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/ZXXbAjQC/versions/zvkfKz5F/survivorsdelight-3.1.0.1-neoforge.jar",
+                    "id": "zvkfKz5F",
+                    "parent_id": "ZXXbAjQC",
+                    "hashes": {
+                        "sha512": "6e4366adaa87ca5279bc78089f42c7ec82a4f58a17c998f9a1e3394186e6e19d9ac8384dc311bfeece24e9cfa1c9779e0651cec0061c71c101c39c8702950cf7",
+                        "sha1": "a3d992649618cb5aecbc1314b6da40d772b0a219"
+                    },
+                    "required_dependencies": [],
+                    "size": 1281728,
+                    "date_published": "2026-06-26T10:30:05.547949Z"
                 }
             ]
         },

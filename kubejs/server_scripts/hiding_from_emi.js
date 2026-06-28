@@ -282,15 +282,6 @@ ServerEvents.tags("item", event => {
         new_entries.push(`farmersdelight:${type}_cabinet`)
 
         new_entries.push(`shutter:${type}_shutter`)
-
-        if (type !== "oak") {
-            new_entries.push(`astikorcartsredux:${type}_plow`)
-            new_entries.push(`astikorcartsredux:${type}_supply_cart`)
-            new_entries.push(`astikorcartsredux:${type}_hand_cart`)
-            new_entries.push(`astikorcartsredux:${type}_reaper`)
-            new_entries.push(`astikorcartsredux:${type}_animal_cart`)
-            new_entries.push(`astikorcartsredux:${type}_seed_drill`)
-        }
     }
 
     function addVanillaStoneType(type) {
@@ -385,13 +376,6 @@ ServerEvents.tags("item", event => {
         addToolType(type)
         addArmourType(type)
     })
-
-    new_entries.push(`astikorcartsredux:bamboo_plow`)
-    new_entries.push(`astikorcartsredux:bamboo_supply_cart`)
-    new_entries.push(`astikorcartsredux:bamboo_hand_cart`)
-    new_entries.push(`astikorcartsredux:bamboo_reaper`)
-    new_entries.push(`astikorcartsredux:bamboo_animal_cart`)
-    new_entries.push(`astikorcartsredux:bamboo_seed_drill`)
 
     event.add("c:hidden_from_recipe_viewers", new_entries)
     event.add("c:hidden_from_recipe_viewers", Ingredient.of(/spawn_egg.*/).itemIds)
