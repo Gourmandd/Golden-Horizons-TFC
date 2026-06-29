@@ -46,7 +46,7 @@
 			mahoe = true
 
 		[types.wood_type.burningblock]
-			burnt = true
+			burnt = false
 
 		[types.wood_type.quark]
 			azalea = true
@@ -54,63 +54,63 @@
 			blossom = true
 
 		[types.wood_type.spectrum]
-			ivory_noxwood = true
-			slate_noxwood = true
-			ebony_noxwood = true
-			chestnut_noxwood = true
-			black = true
-			blue = true
-			brown = true
-			cyan = true
-			gray = true
-			green = true
-			light_blue = true
-			light_gray = true
-			lime = true
-			magenta = true
-			orange = true
-			pink = true
-			purple = true
-			red = true
-			white = true
-			yellow = true
-			weeping_gala = true
+			ivory_noxwood = false
+			slate_noxwood = false
+			ebony_noxwood = false
+			chestnut_noxwood = false
+			black = false
+			blue = false
+			brown = false
+			cyan = false
+			gray = false
+			green = false
+			light_blue = false
+			light_gray = false
+			lime = false
+			magenta = false
+			orange = false
+			pink = false
+			purple = false
+			red = false
+			white = false
+			yellow = false
+			weeping_gala = false
 
 		[types.leaves_type.caupona]
-			walnut = true
-			fig = true
-			wolfberry = true
+			walnut = false
+			fig = false
+			wolfberry = false
 
 		[types.leaves_type.architects_palette]
 			twisted = true
 
 		[types.leaves_type.quark]
-			ancient = true
-			blue_blossom = true
-			lavender_blossom = true
-			orange_blossom = true
-			yellow_blossom = true
-			red_blossom = true
+			ancient = false
+			blue_blossom = false
+			lavender_blossom = false
+			orange_blossom = false
+			yellow_blossom = false
+			red_blossom = false
 
 		[types.leaves_type.spectrum]
-			weeping_gala = true
-			nephrite_blossom = true
-			spirit_sallow = true
-			black = true
-			blue = true
-			brown = true
-			cyan = true
-			gray = true
-			green = true
-			light_blue = true
-			light_gray = true
-			lime = true
-			magenta = true
-			orange = true
-			pink = true
-			purple = true
-			red = true
-			white = true
+			weeping_gala = false
+			nephrite_blossom = false
+			spirit_sallow = false
+			black = false
+			blue = false
+			brown = false
+			cyan = false
+			gray = false
+			green = false
+			light_blue = false
+			light_gray = false
+			lime = false
+			magenta = false
+			orange = false
+			pink = false
+			purple = false
+			red = false
+			white = false
 			yellow = true
 
 #Disables specific entries
@@ -121,7 +121,7 @@
 			window_pane = false
 
 		[entries.wood_type.farmersdelight]
-			cabinet = true
+			cabinet = false
 
 		[entries.wood_type.shutter]
 			shutter = true
