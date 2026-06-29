@@ -5548,33 +5548,8 @@
             },
             "files": [
                 {
-                    "type": "curseforge",
-                    "file_name": "modpack-1.0.3.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7845/255/modpack-1.0.3.jar",
-                    "id": "7845255",
-                    "parent_id": "1450027",
-                    "hashes": {
-                        "sha1": "517ee24ddfbbdc9a2dedb3c2b229441694dfa91b",
-                        "md5": "bb6f0dd39b96351e2e61aa80dc05605f"
-                    },
-                    "required_dependencies": [
-                        "556967",
-                        "656147",
-                        "328085"
-                    ],
-                    "size": 3913152,
-                    "date_published": "2026-03-30T11:20:50.400Z"
-                },
-                {
                     "type": "modrinth",
-                    "file_name": "modpack-1.0.3.jar",
+                    "file_name": "modpack-1.0.5.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -5582,16 +5557,48 @@
                         "neoforge"
                     ],
                     "release_type": "alpha",
-                    "url": "https://cdn.modrinth.com/data/CrmKwlKa/versions/LodcjZ4n/modpack-1.0.3.jar",
-                    "id": "LodcjZ4n",
+                    "url": "https://cdn.modrinth.com/data/CrmKwlKa/versions/pjJLmiTz/modpack-1.0.5.jar",
+                    "id": "pjJLmiTz",
                     "parent_id": "CrmKwlKa",
                     "hashes": {
-                        "sha512": "fb3767661e1afd50a8658fdea8e7f59fd510c979f3303dc31ed36d2875a3a9242e632a0c7b92135142d1ff5bc8c4cde2fb9c4ef80949aedf48a48d8b31686bfc",
-                        "sha1": "f249143d766845e30a383f65d25823015085dfc1"
+                        "sha512": "8c32d185e6757b7b093ac2f2fb0c8d500c106daf316a3bc71a1d75d15ea566c4847582505bf949ba96f45d2eb54a4fc1f5f5d10fe81c4036109dbed661c6e703",
+                        "sha1": "3ffe700154eaa1636dcd0cc7d08ba7ab0dc7b73d"
                     },
-                    "required_dependencies": [],
-                    "size": 3911146,
-                    "date_published": "2026-03-30T11:23:09.243474Z"
+                    "required_dependencies": [
+                        "LNytGWDc",
+                        "GWp4jCJj",
+                        "qnQsVE2z",
+                        "JaCEZUhg",
+                        "EFoYZIZL",
+                        "3rc31Hgo"
+                    ],
+                    "size": 6559896,
+                    "date_published": "2026-06-29T12:03:54.657327Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "modpack-1.0.5.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8340/269/modpack-1.0.5.jar",
+                    "id": "8340269",
+                    "parent_id": "1450027",
+                    "hashes": {
+                        "sha1": "775def5159370513e56dc35499c26cc9cbc459f5",
+                        "md5": "3601b8857566ce740afd0df55e4b12a3"
+                    },
+                    "required_dependencies": [
+                        "656147",
+                        "328085",
+                        "556967"
+                    ],
+                    "size": 6553327,
+                    "date_published": "2026-06-29T11:58:43.857Z"
                 }
             ]
         },
