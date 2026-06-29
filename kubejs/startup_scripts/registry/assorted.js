@@ -20,22 +20,6 @@ StartupEvents.registry("item", event => {
 
 StartupEvents.registry("block", event => {
 
-    event.create(`${id}:brick/snow`)
-        .soundType("snow")
-        .hardness(3)
-        /* getting 1.21 running.textureAll("kubejs:block/snow_bricks")*/
-        .displayName("Snow Bricks")
-        .tagBlock("minecraft:mineable/pickaxe")
-        .tagBlock("minecraft:mineable/shovel")
-
-    event.create(`${id}:brick/snow_stairs`, "stairs")
-        .soundType("snow")
-        .hardness(3)
-        /* getting 1.21 running.textureAll("kubejs:block/snow_bricks")*/
-        .displayName("Snow Brick Stairs")
-        .tagBlock("minecraft:mineable/pickaxe")
-        .tagBlock("minecraft:mineable/shovel")
-
     event.create(`${id}:andesite_machine`).displayName("Andesite Machine").tagBlock("minecraft:mineable/pickaxe").tagBlock("minecraft:mineable/axe")
     event.create(`${id}:copper_machine`).displayName("Copper Machine").tagBlock("minecraft:mineable/pickaxe").tagBlock("minecraft:mineable/axe")
     event.create(`${id}:brass_machine`).displayName("Brass Machine").tagBlock("minecraft:mineable/pickaxe").tagBlock("minecraft:mineable/axe")

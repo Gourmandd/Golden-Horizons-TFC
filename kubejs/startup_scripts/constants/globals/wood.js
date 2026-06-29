@@ -399,24 +399,3 @@ global.WOOD_TYPE_TO_MOD = {
     "beech": "afc",
     "araucaria": "afc"
 }
-
-// To Be Removed
-global.SPECTRUM_WOODS = [
-    "chestnut",
-    "ivory",
-    "slate",
-    "ebony",
-    "weeping_gala"
-]
-
-// To Be Removed
-global.NOXWOODS = [
-    "chestnut",
-    "ivory",
-    "slate",
-    "ebony",
-    "chestnut_noxwood",
-    "ivory_noxwood",
-    "slate_noxwood",
-    "ebony_noxwood"
-]

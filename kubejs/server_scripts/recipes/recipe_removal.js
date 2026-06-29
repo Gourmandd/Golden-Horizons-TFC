@@ -962,6 +962,7 @@ ServerEvents.recipes(event => {
         "survivorsdelight:crafting/tfc_straw2fd_straw",
         "survivorsdelight:crafting/fd_straw2tfc_straw",
         "farmersdelight:cutting/cake",
+        "rusticdelight:sugar_from_syrup",
 
         "firmacivplus:crafting/wood/crimson_roofing",
         "firmacivplus:crafting/wood/lumber/crimson",

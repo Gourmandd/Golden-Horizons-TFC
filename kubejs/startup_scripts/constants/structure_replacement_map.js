@@ -1,3 +1,5 @@
+//packmode: nbt_modify
+
 // priority: 0
 
 // Script made by arguz on Discord.

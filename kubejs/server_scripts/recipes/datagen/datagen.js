@@ -7,27 +7,6 @@ const IO_TYPE = {
     FLUID_TAG: "fluid_tag",
 }
 
-const PREDICATE = {
-    ALL_OF: "all_of",
-    ANY_OF: "any_of",
-    BLOCK_STATE_PROPERTY: "block_state_property",
-    DAMAGE_SOURCE_PROPERTIES: "damage_source_properties",
-    ENCHANTMENT_ACTIVE_CHECK: "enchantment_active_check",
-    ENTITY_PROPERTIES: "entity_properties",
-    ENTITY_SCORES: "entity_scores",
-    INVERTED: "inverted",
-    KILLED_BY_PLAYER: "killed_by_player",
-    LOCATION_CHECK: "location_check",
-    MATCH_TOOL: "match_tool",
-    RANDOM_CHANCE: "random_chance",
-    RANDOM_CHANCE_WITH_ENCHANTED_BONUS: "random_chance_with_enchanted_bonus",
-    REFERENCE: "reference",
-    SURVIVES_EXPLOSION: "survives_explosion",
-    TABLE_BONUS: "table_bonus",
-    VALUE_CHECK: "value_check",
-    WEATHER_CHECK: "weather_check",
-}
-
 const BASE_DATAGEN = function () {
     this.location = null
 

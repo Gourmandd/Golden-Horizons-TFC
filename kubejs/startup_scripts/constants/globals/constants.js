@@ -5,12 +5,10 @@
 // --------------------------------------- //
 
 // should switch to using a global
-//global.nameProcessing = (name) =>
 function nameProcessing(name) {
     name = name.replace("_", " ")
     name = name.replace("_", " ")
     name = name.replace(/(^\w|\s\w)/g, m => m.toUpperCase())
-    //console.log(name)
     return name
 }
 
@@ -70,20 +68,6 @@ global.CAUPONA_ASPICS = [
     "meat_soup",
     "poultry_soup",
     "pumpkin_soup"
-]
-
-// To Be Removed
-global.TFC_MAKES_DYE_TAGS = [
-    "white",
-    "brown",
-    "red",
-    "orange",
-    "yellow",
-    "green",
-    "light_blue",
-    "purple",
-    "magenta",
-    "pink"
 ]
 
 global.TFC_FLOUR_TYPES = [

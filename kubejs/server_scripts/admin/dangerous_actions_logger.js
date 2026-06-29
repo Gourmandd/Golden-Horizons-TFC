@@ -1,9 +1,10 @@
+//packmode: admin_tools_test
 
 const DO_ACTION_LOGGING = false
 
 BlockEvents.placed(event => {
 
-    if (!DO_ACTION_LOGGING){
+    if (!DO_ACTION_LOGGING) {
         return
     }
 
@@ -13,7 +14,7 @@ BlockEvents.placed(event => {
         "pastel:failing"
     ]
 
-    if (blockBlacklist.indexOf(event.block.id) < 0){
+    if (blockBlacklist.indexOf(event.block.id) < 0) {
         return
     }
 
