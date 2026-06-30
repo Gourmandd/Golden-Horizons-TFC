@@ -1,6 +1,57 @@
 # Changelogs
 
-All of the changelogs since version **0.1** (**Golden Horizons TFC**, which was posted only on Modrinth) to **On Ancient Ground 2.0: Alpha 2**
+All of the changelogs since version **0.1** (**Golden Horizons TFC**) to **On Ancient Ground 2.0: Alpha 3**
+
+# On Ancient Ground 2.0: Alpha 3
+
+A big update, it was planned to be smaller and to do more frequent updates, but that doesn't seem to have happened lol.
+
+Note: Survivor's Delight has replaced Farmers Delight TFC, unfortunately it doesn't **yet** support EMI when it modifies the cooking pot recipe view. Some recipes require fluids, which are not shown in EMI, this will be hopefully fixed soon.
+
+TFC has had some big updates, loads of cool stuff (largely worldgen and nature), but that would take a week or two to make work with the pack, so this alpha hadn't updated yet.
+
+For support you can join the [Discord Server](https://discord.gg/dt937vJKCN), you can also use the issues tab on the [GitHub repository](https://github.com/Gourmandd/Golden-Horizons-TFC).This is subject to change but you can ping  ``@_gourmand`` (me) on the discord server for now at least.
+
+# Content
+- Added trial chambers, the loot, and even the block palette has seen changes!
+- Monster Rooms (AKA dungeons now generate in the overworld)
+- Added leaded glass.
+- The custom guide book is now accessable, but unfinished, i'd love to hear feedback!
+- Press the book icon in your inventory or "`" to open it, the TFC field guide can be accessed with "p" now.
+- Cakes from Create: Crafts & Additions and the TFC's cake are now make by baking a cake base.
+- Cookies from various mods are now made similarly to Firmalife's cookies (dough is baked in the oven)
+- Main Menu was redesigned. New title aswell.
+- Block variants such as stairs, slabs and walls have been hidden from EMI (a tooltip has been added to the "base" block of the set to show this)
+- You can craft stairs, slabs and walls within the 2x2 crafting grid.
+- Added leab bulbs, like copper bulbs, but fits the new block palette of trial chambers.
+- The hotbar selection is now red.
+- Edited the cloud texture.
+- Existing unused nuggets have been given new metals to represent. 
+
+# Changes
+- Caupona's soups are now intended to be drank from a jug/glass bottle/etc, giving nutrition like milk does.
+- Farmers Delight TFC has been replaced with Survivor's Delight.
+- Removed Astikor Carts mod (the TFC addon has performance concerns, and the base mod turns out to have compatibility issues with's stuff, might be reconsidered later)
+- Spectrum's Decay Away now creates aridisol instead of dirt.
+- Removed crushed terracotta (it wasn't obtainable anymore anyways, its use was replaced by terracotta veins)
+- Nature sounds are now quieter.
+- Changed bundle recipe to use raw hides inefficently, and leather efficently.
+- Map Atlas recipe changed, you can now create atlases of different map scales.
+- Mod to customise fog was replaced with another.
+- You can now craft wolf statues.
+- Malachite now generates in more rocks types
+- Custom ore blocks have proper mining tiers.
+- Custom gravel blocks can no longer be mined with a pickaxe....
+- Meteors are less common.
+- Fixed various rock type's world gen features.
+- Removed boiled water, its use to give regen for a bit has been broken for a while. Something similar might replace it.
+- Quark's framed glass blocks are now craftable.
+- A few items were added to the sweetener tag.
+- Various item textures were remade.
+- The spices tag was added to (Firmalife spices were added), and are split into sweet and savoury spices, depending on the recipe.
+- Blueschist now has "low grade" metamorphic rocks under it.
+
+
 
 # On Ancient Ground 2.0: Alpha 2
 
