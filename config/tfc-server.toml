@@ -615,6 +615,11 @@
 		# If true, bubble columns will provide air to player and mobs, as in vanilla.
 		bubbleColumnProvidesAir = false
 
+	[blocks.crate]
+		#
+		# If true, crates will interact with in-world automation such as hoppers on a side-specific basis.
+		crateEnableAutomation = true
+
 	[items.smallVessel]
 		#
 		# Tank capacity of a small vessel (in mB).
