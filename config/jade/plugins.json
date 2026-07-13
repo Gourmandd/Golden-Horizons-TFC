@@ -155,6 +155,9 @@
     "entity": true,
     "entity_variant": true
   },
+  "quark": {
+    "oretoise_eating_cooldown": true
+  },
   "jade": {
     "coordinates.rel": false,
     "registry_name.special": false,

@@ -7,7 +7,7 @@ version = 3
 #                (cpus / 1.6),
 #                (cpus / 1.3)
 #            )  - if(is_client, 1, 0),
-#            ( ( mem_gb - (if(is_client, 1.2, 0.6)) ) / 0.6 )
+#            ( ( mem_gb - (if(is_client, 1.0, 0.5)) ) / 0.6 )
 #        )
 #    )
 # )  
@@ -22,7 +22,7 @@ defaultGlobalExecutorParallelismExpression = "default"
 # - https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Thread.html#setPriority(int)
 # 
 threadPoolPriority = "default"
-# (Default: 6) Configures the parallelism of global executor
+# (Default: 3) Configures the parallelism of global executor
 globalExecutorParallelism = "default"
 
 [fixes]
@@ -36,17 +36,15 @@ globalExecutorParallelism = "default"
 	# 
 	# 
 	enforceSafeWorldRandomAccess = "default"
+	# (Default: true)  
+	#  Whether to disable the shutdown hook of log4j2 on dedicated servers.
+	#  Enabling this also makes the JVM exit when the dedicated server is considered fully shut down.
+	#  This option have no effect on client-side.
+	#  We has historically been doing this, and this config option allows you to disable this behavior.
+	# 
+	disableLoggingShutdownHook = "default"
 
 [ioSystem]
-	# (Default: false) EXPERIMENTAL FEATURE
-	# This replaces the way your chunks are saved.
-	# Please keep regular backups of your world if you are using this feature,
-	# and report any world issues you encounter with this feature to our GitHub.
-	# 
-	# Whether to use the fast reduced allocation chunk serializer
-	# (may cause incompatibility with other mods)
-	# 
-	gcFreeChunkSerializer = "default"
 	# (Default: true) Whether to use the optimized implementation of IO system
 	replaceImpl = "default"
 	# (Default: 8192) Soft limit for io worker nbt cache
@@ -57,7 +55,7 @@ globalExecutorParallelism = "default"
 	[clientSideConfig.modifyMaxVDConfig]
 		# (Default: true) Whether to modify maximum view distance
 		enabled = "default"
-		# (Default: 50) Max render distance allowed in game options
+		# (Default: 35) Max render distance allowed in game options
 		maxViewDistance = "default"
 		# (Default: true) Enable client-side support for extended render distance protocol (c2me:ext_render_distance_v1)
 		# This allows requesting render distances higher than 127 chunks from the server
@@ -67,7 +65,7 @@ globalExecutorParallelism = "default"
 		enableExtRenderDistanceProtocol = "default"
 
 [vanillaWorldGenOptimizations]
-	# (Default: false) Whether to use density function compiler to accelerate world generation
+	# (Default: true) Whether to use density function compiler to accelerate world generation
 	# 
 	# Density function: https://minecraft.wiki/w/Density_function
 	# 
@@ -93,6 +91,11 @@ globalExecutorParallelism = "default"
 	# (Default: true) Whether to enable StructureWeightSampler optimizations to accelerate world generation
 	# 
 	optimizeStructureWeightSampler = "default"
+	# (Default: true) Enables the built-in integrations with other worldgen mods in density function compiler.
+	# 
+	# Depends on vanillaWorldGenOptimizations.useDensityFunctionCompiler
+	# 
+	enableBuiltinDFCIntegrations = "default"
 
 	[vanillaWorldGenOptimizations.nativeAcceleration]
 		# (Default: false) Enable the use of AVX512 for native acceleration
@@ -102,7 +105,7 @@ globalExecutorParallelism = "default"
 		# AVX512 implementations are faster on your machine.
 		# 
 		allowAVX512 = "default"
-		# (Default: false) Enable the use of bundled native libraries to accelerate world generation
+		# (Default: true) Enable the use of bundled native libraries to accelerate world generation
 		# 
 		enabled = "default"
 
@@ -125,7 +128,7 @@ globalExecutorParallelism = "default"
 	# in a single world instance
 	# 
 	allowPOIUnloading = "default"
-	# (Default: false) This option workarounds MC-276863, a bug that makes mushrooms appear in non-postprocessed chunks
+	# (Default: true) This option workarounds MC-276863, a bug that makes mushrooms appear in non-postprocessed chunks
 	# This bug is amplified with notickvd as it exposes non-postprocessed chunks to players
 	# 
 	# This should not affect other worldgen behavior and game mechanics in general
@@ -155,9 +158,11 @@ globalExecutorParallelism = "default"
 	# This applies a rough filter to filter out fluids that are definitely not going to flow
 	# 
 	filterFluidPostProcessing = "default"
-	# (Default: true) Whether to use legacy scheduling for neighbor chunks
+	# (Default: false) Whether to use legacy scheduling for neighbor chunks
 	# 
 	# Enabling this restores the behavior of always loading in neighbor chunks when a chunk is loaded.
+	# 
+	# This is currently deprecated and will be removed in the future.
 	# 
 	useLegacyScheduling = "default"
 	# (Default: false) Whether to enable low memory mode
@@ -169,6 +174,7 @@ globalExecutorParallelism = "default"
 	# (Default: true) Whether to delay full chunk events to after full chunk future have been completed
 	# This restores the buggy behavior in NeoForge that the ecosystem have been relying on
 	# 
+	# Enabling this will almost certainly break vanilla behavior, disabled by default on fabric
 	# Do not change this unless you know what you are doing
 	# 
 	delayFullChunkEvents = "default"
@@ -198,14 +204,9 @@ globalExecutorParallelism = "default"
 		mode = "default"
 
 [noTickViewDistance]
-	# (Default: true) Whether to enable no-tick view distance
-	enabled = "default"
-	# (Default: 7) No-tick view distance max concurrent chunk loads 
+	# (Default: 9) No-tick view distance max concurrent chunk loads 
 	#  Lower this for a better latency and higher this for a faster loading
 	maxConcurrentChunkLoads = "default"
-	# (Default: true) Whether to use compatibility mode to send chunks 
-	#  This may fix some mod compatibility issues
-	compatibilityMode = "default"
 	# (Default: true) Enable server-side support for extended render distance protocol (c2me:ext_render_distance_v1)
 	# This allows requesting render distances higher than 127 chunks from the server
 	# 
