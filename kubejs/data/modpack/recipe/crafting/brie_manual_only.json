@@ -1,0 +1,25 @@
+{
+  "type": "tfc:advanced_shapeless_crafting",
+  "ingredients": [
+    {
+        "item": "firmalife:food/milk_curd"
+    },
+    {
+      "item": "tfc:ceramic/ingot_mold"
+    }
+  ],
+  "primary_ingredient": {
+      "item": "tfc:ceramic/ingot_mold"
+  },
+  "remainder": {
+    "modifiers": [
+      {
+        "type": "tfc:copy_food"
+      }
+    ]
+  },
+  "result": {
+    "id": "modpack:food/brie",
+    "count": 1
+  }
+}

@@ -8,7 +8,7 @@ StartupEvents.registry("item", event => {
 
     event.create(`${id}:halloumi`).displayName("Halloumi").food(0, 0)
     event.create(`${id}:fried_halloumi`).displayName("Fried Halloumi").food(0, 0)
-    event.create(`${id}:mozzarella`).displayName("Mozzarella").food(0, 0)
+    event.create(`${id}:food/brie`).displayName("Brie").food(0, 0)
     event.create(`${id}:soft_chhurpi`).displayName("Soft Chhurpi").food(0, 0)
     event.create(`${id}:hard_chhurpi`).displayName("Hard Chhurpi").food(0, 0)
 

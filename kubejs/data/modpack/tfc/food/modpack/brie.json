@@ -1,6 +1,6 @@
 {
     "ingredient": {
-        "item": "modpack:mozzarella"
+        "item": "modpack:food/brie"
     },
     "category": "other",
     "dairy": 1,
