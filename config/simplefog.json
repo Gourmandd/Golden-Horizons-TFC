@@ -1,6 +1,6 @@
 {
   "terrainToggle": true,
-  "terrainStart": 0.0,
+  "terrainStart": 30.0,
   "terrainEnd": 100.0,
   "rainConfig": {
     "rainToggle": true,
