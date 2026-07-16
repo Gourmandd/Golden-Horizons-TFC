@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CCC",
+        "CCC",
+        "CCC"
+    ],
+    "key": {
+        "C": {
+            "item": "tfc:metal/ingot/copper"
+        }
+    },
+    "result": {
+        "id": "minecraft:copper_block"
+    }
+}
