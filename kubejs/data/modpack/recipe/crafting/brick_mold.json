@@ -1,0 +1,24 @@
+{
+  "type": "tfc:advanced_shapeless_crafting",
+  "ingredients": [
+    {
+        "item": "tfc:ceramic/ingot_mold"
+    },
+    {
+      "tag": "c:tools/hammer"
+    }
+  ],
+  "primary_ingredient": {
+    "tag": "c:tools/hammer"
+  },
+  "remainder": {
+    "modifiers": [
+      {
+        "type": "tfc:damage_crafting_remainder"
+      }
+    ]
+  },
+  "result": {
+    "id": "modpack:tool/brick_mold"
+  }
+}

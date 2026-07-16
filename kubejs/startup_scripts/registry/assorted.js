@@ -15,6 +15,8 @@ StartupEvents.registry("item", event => {
 
     event.create(`${id}:raw_aluminium_mixture`).displayName("Raw Aluminium Mixture")
     event.create(`${id}:aluminium_nugget`).displayName("Aluminium Nugget")
+
+    event.create(`${id}:tool/brick_mold`).maxDamage(1800).displayName("Brass Ingot Mold")
 })
 
 
