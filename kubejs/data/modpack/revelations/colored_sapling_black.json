@@ -1,0 +1,7 @@
+{
+  "block_states": {
+    "modpack:wood/sapling/brown": "minecraft:oak_sapling",
+    "modpack:wood/sapling/black": "minecraft:oak_sapling"
+  },
+  "advancement": "spectrum:milestones/reveal_colored_trees_k"
+}

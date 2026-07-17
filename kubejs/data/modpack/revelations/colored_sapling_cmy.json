@@ -1,0 +1,16 @@
+{
+  "block_states": {
+    "modpack:wood/sapling/orange": "minecraft:oak_sapling",
+    "modpack:wood/sapling/magenta": "minecraft:oak_sapling",
+    "modpack:wood/sapling/light_blue": "minecraft:oak_sapling",
+    "modpack:wood/sapling/yellow": "minecraft:oak_sapling",
+    "modpack:wood/sapling/lime": "minecraft:oak_sapling",
+    "modpack:wood/sapling/pink": "minecraft:oak_sapling",
+    "modpack:wood/sapling/cyan": "minecraft:oak_sapling",
+    "modpack:wood/sapling/purple": "minecraft:oak_sapling",
+    "modpack:wood/sapling/blue": "minecraft:oak_sapling",
+    "modpack:wood/sapling/green": "minecraft:oak_sapling",
+    "modpack:wood/sapling/red": "minecraft:oak_sapling"
+  },
+  "advancement": "spectrum:milestones/reveal_colored_saplings_cmy"
+}

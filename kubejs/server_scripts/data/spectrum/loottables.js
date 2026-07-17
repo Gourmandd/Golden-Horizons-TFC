@@ -8,6 +8,7 @@ try {
     LootJS.modifiers((event) => {
 
         global.DYE_COLOURS.forEach(colour => {
+            event.addBlockModifier(`${mod_id}:wood/sapling/${colour}`).replaceLoot("minecraft:oak_sapling", "tfc:wood/sapling/oak")
             event.addBlockModifier(`spectrum:${colour}_sapling`).replaceLoot("minecraft:oak_sapling", "tfc:wood/sapling/oak")
             event.addBlockModifier(`spectrum:${colour}_leaves`).replaceLoot("minecraft:oak_sapling", "tfc:wood/sapling/oak").replaceLoot("minecraft:oak_leaves", "tfc:wood/leaves/oak")
             event.addBlockModifier(`spectrum:${colour}_log`).replaceLoot("minecraft:oak_log", "tfc:wood/log/oak")

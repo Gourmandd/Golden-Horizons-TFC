@@ -114,6 +114,7 @@ try {
 
         global.DYE_COLOURS.forEach(colour => {
             ITEM_REPLACEMENTS[`minecraft:${colour}_candle`] = `tfc:candle/${colour}`
+            ITEM_REPLACEMENTS[`spectrum:${colour}_sapling`] = `modpack:wood/sapling/${colour}`
         })
 
         Object.keys(ITEM_REPLACEMENTS).forEach(key => {
