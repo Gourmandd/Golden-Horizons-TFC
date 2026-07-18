@@ -14,7 +14,7 @@ LootJS.modifiers(event => {
     }
 
     addRockLikeBlock("create:scorchia", `${mod_id}:rock/loose/suevite`, "create:scorchia")
-    addRockLikeBlock("create:limestone", `${mod_id}:rock/loose/soapstone`, "create:limestone")
+    addRockLikeBlock("minecraft:calcite", `${mod_id}:rock/loose/soapstone`, "minecraft:calcite")
     addRockLikeBlock("create:ochrum", `${mod_id}:rock/loose/sandstone`, "create:ochrum")
     addRockLikeBlock("quark:jasper", `${mod_id}:rock/loose/red_sandstone`, "quark:jasper")
     addRockLikeBlock("quark:shale", `${mod_id}:rock/loose/phonolite`, "quark:shale")
@@ -26,6 +26,8 @@ LootJS.modifiers(event => {
     addRockLikeBlock("minecraft:dripstone_block", `${mod_id}:rock/loose/travertine`, "minecraft:dripstone_block")
     addRockLikeBlock("spectrum:blackslag", `${mod_id}:rock/loose/blackslag`, "spectrum:cobbled_blackslag")
     addRockLikeBlock("spectrum:basal_marble", `${mod_id}:rock/loose/picrite_basalt`, "spectrum:basal_marble")
+    addRockLikeBlock("minecraft:smooth_basalt", `${mod_id}:rock/loose/greywacke`, "minecraft:smooth_basalt")
+    addRockLikeBlock("create:limestone", `${mod_id}:rock/loose/marlstone`, "create:limestone")
 
     addRockLikeBlock("spectrum:shimmel", `${mod_id}:rock/loose/blackslag`, "spectrum:cobbled_blackslag")
     addRockLikeBlock("spectrum:sawblade_grass", `${mod_id}:rock/loose/blackslag`, "spectrum:cobbled_blackslag")

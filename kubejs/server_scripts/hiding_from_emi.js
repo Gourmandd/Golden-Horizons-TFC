@@ -172,6 +172,7 @@ ServerEvents.tags("item", event => {
         "spectrum:red_sapling",
         "spectrum:white_sapling",
         "spectrum:yellow_sapling",
+        "#modpack:cobblestones/mortared",
 
 
         // copper

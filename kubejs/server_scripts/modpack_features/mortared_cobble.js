@@ -2,34 +2,15 @@
 // Adding a Mortaring cobblestone interaction //
 // ------------------------------------------ //
 
-const COBBLESTONE_TO_MORTARED = {
-    "modpack:rock/cobble/argillite": "modpack:rock/mortared_cobble/argillite",
-    "modpack:rock/cobble/nephelinite": "modpack:rock/mortared_cobble/nephelinite",
-    "modpack:rock/cobble/blackslag": "modpack:rock/mortared_cobble/blackslag",
-    "modpack:rock/cobble/travertine": "modpack:rock/mortared_cobble/travertine",
-    "modpack:rock/cobble/picrite_basalt": "modpack:rock/mortared_cobble/picrite_basalt",
-    "tfc:rock/cobble/granite": "modpack:rock/mortared_cobble/granite",
-    "tfc:rock/cobble/diorite": "modpack:rock/mortared_cobble/diorite",
-    "tfc:rock/cobble/gabbro": "modpack:rock/mortared_cobble/gabbro",
-    "tfc:rock/cobble/shale": "modpack:rock/mortared_cobble/shale",
-    "tfc:rock/cobble/claystone": "modpack:rock/mortared_cobble/claystone",
-    "tfc:rock/cobble/limestone": "modpack:rock/mortared_cobble/limestone",
-    "tfc:rock/cobble/conglomerate": "modpack:rock/mortared_cobble/conglomerate",
-    "tfc:rock/cobble/dolomite": "modpack:rock/mortared_cobble/dolomite",
-    "tfc:rock/cobble/chert": "modpack:rock/mortared_cobble/chert",
-    "tfc:rock/cobble/chalk": "modpack:rock/mortared_cobble/chalk",
-    "tfc:rock/cobble/rhyolite": "modpack:rock/mortared_cobble/rhyolite",
-    "tfc:rock/cobble/basalt": "modpack:rock/mortared_cobble/basalt",
-    "tfc:rock/cobble/andesite": "modpack:rock/mortared_cobble/andesite",
-    "tfc:rock/cobble/dacite": "modpack:rock/mortared_cobble/dacite",
-    "tfc:rock/cobble/quartzite": "modpack:rock/mortared_cobble/quartzite",
-    "tfc:rock/cobble/slate": "modpack:rock/mortared_cobble/slate",
-    "tfc:rock/cobble/phyllite": "modpack:rock/mortared_cobble/phyllite",
-    "tfc:rock/cobble/schist": "modpack:rock/mortared_cobble/schist",
-    "tfc:rock/cobble/gneiss": "modpack:rock/mortared_cobble/gneiss",
-    "tfc:rock/cobble/marble": "modpack:rock/mortared_cobble/marble"
-}
+const COBBLESTONE_TO_MORTARED = {}
 
+global.ROCK_TYPES.forEach(rock => {
+    COBBLESTONE_TO_MORTARED[`tfc:rock/cobble/${rock}`] = `modpack:rock/mortared_cobble/${rock}`
+})
+
+global.CUSTOM_ROCK_TYPES.forEach(rock => {
+    COBBLESTONE_TO_MORTARED[`modpack:rock/cobble/${rock}`] = `modpack:rock/mortared_cobble/${rock}`
+})
 
 BlockEvents.placed(event => {
 

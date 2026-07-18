@@ -19,10 +19,12 @@ global.ROCK_BLOCKS = {
         "blueschist": "modpack:rock/bricks/blueschist",
         "arkose": "quark:limestone_bricks",
         "suevite": "create:cut_scorchia_bricks",
-        "soapstone": "create:cut_limestone_bricks",
+        "soapstone": "spectrum:calcite_bricks",
         "sandstone": "create:cut_ochrum_bricks",
         "red_sandstone": "quark:jasper_bricks",
         "phonolite": "quark:shale_bricks",
+        "marlstone": "create:cut_limestone_bricks",
+        "greywacke": "spectrum:basalt_bricks",
     },
     "raw": {
         "argillite": "minecraft:stone",
@@ -37,10 +39,12 @@ global.ROCK_BLOCKS = {
         "blueschist": "modpack:rock/raw/blueschist",
         "arkose": "quark:limestone",
         "suevite": "create:scorchia",
-        "soapstone": "create:limestone",
+        "soapstone": "minecraft:calcite",
         "sandstone": "create:ochrum",
         "red_sandstone": "quark:jasper",
         "phonolite": "quark:shale",
+        "marlstone": "create:limestone",
+        "greywacke": "minecraft:smooth_basalt",
     }
 }
 
@@ -148,7 +152,9 @@ global.ROCKS_TO_SAND_COLOURS = {
     "soapstone": "white",
     "sandstone": "yellow",
     "red_sandstone": "red",
-    "phonolite": "black"
+    "phonolite": "black",
+    "marlstone": "yellow",
+    "greywacke": "red",
 }
 
 global.STONE_TO_COBBLESTONE = {
@@ -189,4 +195,6 @@ global.STONE_TO_COBBLESTONE = {
     "sandstone": "modpack:rock/cobble/sandstone",
     "red_sandstone": "modpack:rock/cobble/red_sandstone",
     "phonolite": "modpack:rock/cobble/phonolite",
+    "marlstone": "modpack:rock/cobble/marlstone",
+    "greywacke": "modpack:rock/cobble/greywacke",
 }

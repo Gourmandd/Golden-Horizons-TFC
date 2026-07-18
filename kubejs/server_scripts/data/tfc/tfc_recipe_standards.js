@@ -69,8 +69,6 @@ ServerEvents.recipes(event => {
         "minecraft:calcite": "quark:calcite_bricks",
         "minecraft:blackstone": "minecraft:polished_blackstone_bricks",
         "minecraft:deepslate_bricks": "minecraft:deepslate_tiles",
-        "spectrum:polished_basalt": "spectrum:basalt_bricks",
-        "spectrum:polished_calcite": "spectrum:calcite_bricks",
         "spectrum:polished_shale_clay": "spectrum:shale_clay_bricks",
         "spectrum:exposed_polished_shale_clay": "spectrum:exposed_shale_clay_bricks",
         "spectrum:weathered_polished_shale_clay": "spectrum:weathered_shale_clay_bricks",

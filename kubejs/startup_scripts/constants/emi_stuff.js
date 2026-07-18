@@ -752,6 +752,10 @@ global.EMI.BASIC_BLOCKS = [
 
     "modpack:rock/smooth/serpentine",
 
+    "modpack:rock/mossy_bricks/greywacke",
+
+    "modpack:rock/mossy_bricks/marlstone",
+
     "modpack:ceramic/bricks/yixing",
 
     "modpack:ceramic/bricks/yellowware",
