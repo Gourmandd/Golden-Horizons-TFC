@@ -36,11 +36,12 @@ ItemEvents.modifyTooltips(event => {
     let stairTooltip = '- §r§eStairs§r§6'
     let slabTooltip = '- §r§eSlab§r§6'
     let wallTooltip = '- §r§eWall§r§6'
+    let infoTooltip = '§8Hold [§r§7Shift§r§8] for variants§r'
 
     global.EMI.BASIC_BLOCKS.forEach(id => {
 
         event.modify(id, { shift: false }, tooltip => { // Default Tooltip
-            tooltip.insert(1, Text.of('§8Hold [§r§7Shift§r§8] for summary§r'))
+            tooltip.insert(1, Text.of(infoTooltip))
         })
 
         event.modify(id, { shift: true }, tooltip => { // Shift Tooltip
@@ -54,7 +55,7 @@ ItemEvents.modifyTooltips(event => {
     global.EMI.LIMITED_BLOCKS.forEach(id => {
 
         event.modify(id, { shift: false }, tooltip => { // Default Tooltip
-            tooltip.insert(1, Text.of('§8Hold [§r§7Shift§r§8] for summary§r'))
+            tooltip.insert(1, Text.of(infoTooltip))
         })
 
         event.modify(id, { shift: true }, tooltip => { // Shift Tooltip
@@ -67,7 +68,7 @@ ItemEvents.modifyTooltips(event => {
     global.EMI.BASIC_BLOCKS_CUSTOM.forEach(id => {
 
         event.modify(id.base, { shift: false }, tooltip => { // Default Tooltip
-            tooltip.insert(1, Text.of('§8Hold [§r§7Shift§r§8] for summary§r'))
+            tooltip.insert(1, Text.of(infoTooltip))
         })
 
         event.modify(id.base, { shift: true }, tooltip => { // Shift Tooltip
@@ -81,7 +82,7 @@ ItemEvents.modifyTooltips(event => {
     global.EMI.AP_BASIC_BLOCKS.forEach(id => {
 
         event.modify(id, { shift: false }, tooltip => { // Default Tooltip
-            tooltip.insert(1, Text.of('§8Hold [§r§7Shift§r§8] for summary§r'))
+            tooltip.insert(1, Text.of(infoTooltip))
         })
 
         event.modify(id, { shift: true }, tooltip => { // Shift Tooltip
@@ -95,7 +96,7 @@ ItemEvents.modifyTooltips(event => {
     global.EMI.AP_BLOCKS_NO_WALLS.forEach(id => {
 
         event.modify(id, { shift: false }, tooltip => { // Default Tooltip
-            tooltip.insert(1, Text.of('§8Hold [§r§7Shift§r§8] for summary§r'))
+            tooltip.insert(1, Text.of(infoTooltip))
         })
 
         event.modify(id, { shift: true }, tooltip => { // Shift Tooltip
@@ -108,7 +109,7 @@ ItemEvents.modifyTooltips(event => {
     global.EMI.AP_BLOCKS_NO_WALLS_AND_STAIRS.forEach(id => {
 
         event.modify(id, { shift: false }, tooltip => { // Default Tooltip
-            tooltip.insert(1, Text.of('§8Hold [§r§7Shift§r§8] for summary§r'))
+            tooltip.insert(1, Text.of(infoTooltip))
         })
 
         event.modify(id, { shift: true }, tooltip => { // Shift Tooltip
