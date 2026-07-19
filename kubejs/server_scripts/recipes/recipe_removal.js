@@ -166,6 +166,8 @@ ServerEvents.recipes(event => {
         "architects_palette:stonecutting/dripstone_pillar_from_dripstone_block",
         "architects_palette:stonecutting/chiseled_dripstone_from_dripstone_block",
         "architects_palette:stonecutting/sunmetal_pillar",
+        "architects_palette:stonecutting/chiseled_basalt_tiles",
+        "architects_palette:chiseled_basalt_tiles",
         "caupona:stonecutter/felsic_tuff_bricks",
 
         "spectrum:stonecutting/blackslag/blackslag_tiles_from_polished_blackslag",
@@ -500,6 +502,7 @@ ServerEvents.recipes(event => {
         "createaddition:rolling/electrum_ingot",
         "createaddition:rolling/gold_ingot",
         "createaddition:rolling/iron_ingot",
+        "createaddition/rolling/brass_rod",
 
         "create:andesite_bars_from_andesite_alloy_stonecutting",
         "create:andesite_from_stone_types_andesite_stonecutting",
@@ -1496,6 +1499,8 @@ ServerEvents.recipes(event => {
         "quark:building/crafting/stonevariants/vanilla/polished_dripstone",
         "quark:building/crafting/stonevariants/vanilla/polished_tuff",
         "quark:building/crafting/thatch",
+
+        "quark:building/crafting/stonevariants/chiseled_calcite_bricks",
 
         "quark:oddities/crafting/backpack",
         "quark:oddities/crafting/backpack_no_hide",

@@ -2,7 +2,7 @@
   "type": "tfc:bloomery",
   "catalyst": {
     "count": 2,
-    "item": "spectrum:pure_coal"
+    "tag": "modpack:rich_carbon"
   },
   "duration": 15000,
   "fluid": {

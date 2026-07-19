@@ -173,6 +173,10 @@ ServerEvents.tags("item", event => {
         "spectrum:white_sapling",
         "spectrum:yellow_sapling",
         "#modpack:cobblestones/mortared",
+        "createaddition:copper_rod",
+        "createaddition:gold_rod",
+        "createaddition:brass_rod",
+        "firmalife:food/flavorful_cooked_rice",
 
 
         // copper

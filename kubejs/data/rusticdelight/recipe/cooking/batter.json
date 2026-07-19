@@ -7,7 +7,8 @@
   "cookingtime": 600,
   "experience": 3.0,
   "fluid": {
-    "tag": "c:milk"
+      "amount": 100,
+      "tag": "c:milk"
   },
   "fluid_amount": 100,
   "ingredients": [

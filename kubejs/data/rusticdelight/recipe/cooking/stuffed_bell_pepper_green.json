@@ -2,7 +2,8 @@
   "type": "survivorsdelight:sd_cooking_pot",
   "experience": 3.0,
   "fluid": {
-    "fluid": "minecraft:water"
+      "amount": 200,
+      "fluid": "minecraft:water"
   },
   "fluid_amount": 100,
   "ingredients": [

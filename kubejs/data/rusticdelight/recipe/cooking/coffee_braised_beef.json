@@ -7,7 +7,8 @@
   "cookingtime": 600,
   "experience": 3.0,
   "fluid": {
-    "fluid": "tfc:olive_oil"
+      "amount": 100,
+      "tag": "firmalife:oils"
   },
   "fluid_amount": 100,
   "ingredients": [

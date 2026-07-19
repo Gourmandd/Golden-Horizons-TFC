@@ -1,6 +1,9 @@
 {
     "replace": false,
     "values": [
-        "modpack:garum"
+        "modpack:garum",
+        "tfc:spring_water",
+        "tfc:flowing_curdled_milk",
+        "tfc:flowing_milk_vinegar"
     ]
 }

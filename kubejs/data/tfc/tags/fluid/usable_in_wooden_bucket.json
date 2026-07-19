@@ -1,8 +1,7 @@
 {
     "replace": false,
     "values": [
-        "modpack:garum",
-        "modpack:boiled_water"
+        "modpack:garum"
     ],
     "remove": [
         "#caupona:boilable",

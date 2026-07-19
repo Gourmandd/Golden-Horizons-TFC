@@ -5,7 +5,8 @@
     "id": "minecraft:bowl"
   },
   "fluid": {
-    "fluid": "minecraft:water"
+      "amount": 200,
+      "fluid": "minecraft:water"
   },
   "cookingtime": 900,
   "experience": 3.0,
