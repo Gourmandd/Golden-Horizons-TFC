@@ -1,0 +1,6 @@
+{
+  "block_states": {
+    "spectrum:amethyst_ore": "minecraft:smooth_basalt"
+  },
+  "advancement": "spectrum:hidden/collect_shards/amethyst"
+}
