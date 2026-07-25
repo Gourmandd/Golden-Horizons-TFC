@@ -59,6 +59,7 @@
     "vat": true,
     "drying_mat": true,
     "tumbler": true,
+    "climate_station": true,
     "keg": true,
     "cheese": true,
     "shelf": true,
