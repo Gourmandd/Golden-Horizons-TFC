@@ -2,6 +2,42 @@
 
 All of the changelogs since version **0.1** (**Golden Horizons TFC**) to **On Ancient Ground 2.0: Alpha 3**
 
+# On Ancient Ground 2.0: Alpha 4
+
+Buckets of compatibility in this one! Was meant to be and kind of was a smaller release to get some crucial mod updates in a release.  
+
+For support you can join the [Discord Server](https://discord.gg/dt937vJKCN), you can also use the issues tab on the [GitHub repository](https://github.com/Gourmandd/Golden-Horizons-TFC).This is subject to change but you can ping  ``@_gourmand`` (me) on the discord server for now at least.
+
+# Content
+- Added a brick mold item, allowing you to make unfired bricks in bulk by hand.
+- Forges, and fireboxes can now heat Create Mod's steam engines and basins.
+- Added Greywacke (vanilla smooth basalt) and Marlstone (Create limestone) rock, (old soapstone now represents vanilla calcite)
+- Added board blocks, 3x3 storage blocks for lumber.
+- Spectrum's saplings now work like TFC's saplings.
+- Created crates for Spectrum wood types.
+- All crate textures changed to be more consistent with the Vexxed Visuals resource pack.
+- Made the pack's content (ores, rock types, etc) work in the latest TFC release and its worldgen additions.
+- Replaced mozzarella with brie (Firmalife now adds mozzarella)
+- Added more splashes.
+
+# Changes and Fixes
+- Tuned down the fog.
+- Boats should be craftable.
+- Realised that some of the removed menu options were not in fact duplicated (sorry to anyone who plays with custom FOV lol)
+- Panning/sluicing custom rock's ore deposits should now work.
+- Spectrum's gemstone ore (previously unused by the pack) has been retextured as it forcibly spawns around geodes for now.
+- Removed Every Compat in favour of custom in-house compat (loading times reduced by ~10 seconds)
+- Hopefully world-gen features which include rock types are more consistent now with custom rocks.
+- Running /reload should hopefully not crash the game at random anymore. (modernfix is a double-edged sword)
+- Set up relevant modonomicon macros client-side, to not crash the server trying to load client side code.
+- Unfired ingot molds for custom clay types had no heating definition.
+- Fixed fluids being unable to be poured into glass molds.
+- Survivor's Delight now shows fluid cost in EMI btw. 
+
+Really feeling some closure when it comes to the alphas, I think the next release will be a beta. The focus of the next release will be better integration with Spectrum. After that? At that point the focus would not be on the pack itself but on the complementary mods I made like Burning Block and on publishing the TFC Mushrooms addon.  
+
+
+
 # On Ancient Ground 2.0: Alpha 3
 
 A big update, it was planned to be smaller and to do more frequent updates, but that doesn't seem to have happened lol.
