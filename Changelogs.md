@@ -1,6 +1,6 @@
 # Changelogs
 
-All of the changelogs since version **0.1** (**Golden Horizons TFC**) to **On Ancient Ground 2.0: Alpha 3**
+All of the changelogs since version **0.1** (**Golden Horizons TFC**) to **On Ancient Ground 2.0: Alpha 4**
 
 # On Ancient Ground 2.0: Alpha 4
 
