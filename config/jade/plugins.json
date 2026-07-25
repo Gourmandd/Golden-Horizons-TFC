@@ -84,6 +84,7 @@
     "bloom": true,
     "frog": true,
     "vane": true,
+    "camel": true,
     "sapling": true,
     "rabbit": true,
     "composter": true,
