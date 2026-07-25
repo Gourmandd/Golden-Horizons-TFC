@@ -1,0 +1,40 @@
+{
+  "type": "tfc:advanced_shapeless_crafting",
+  "ingredients": [
+    {
+        "item": "modpack:ceramic/porcelain/clay_ball"
+    },
+    {
+        "item": "modpack:ceramic/porcelain/clay_ball"
+    },
+    {
+        "item": "modpack:ceramic/porcelain/clay_ball"
+    },
+    {
+        "item": "modpack:ceramic/porcelain/clay_ball"
+    },
+    {
+        "item": "modpack:ceramic/porcelain/clay_ball"
+    },
+    {
+        "item": "modpack:ceramic/porcelain/clay_ball"
+    },
+    {
+      "item": "modpack:tool/brick_mold"
+    }
+  ],
+  "primary_ingredient": {
+      "item": "modpack:tool/brick_mold"
+  },
+  "remainder": {
+    "modifiers": [
+      {
+        "type": "tfc:damage_crafting_remainder"
+      }
+    ]
+  },
+  "result": {
+    "id": "modpack:ceramic/porcelain/unfired_brick",
+    "count": 3
+  }
+}
