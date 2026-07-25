@@ -34,7 +34,7 @@ For support you can join the [Discord Server](https://discord.gg/dt937vJKCN), yo
 - Fixed fluids being unable to be poured into glass molds.
 - Survivor's Delight now shows fluid cost in EMI btw. 
 
-Really feeling some closure when it comes to the alphas, I think the next release will be a beta. The focus of the next release will be better integration with Spectrum. After that? At that point the focus would not be on the pack itself but on the complementary mods I made like Burning Block and on publishing the TFC Mushrooms addon.  
+Really feeling some closure when it comes to the alphas, I think the next release will be a beta. The focus of the next release will be better integration with Spectrum. After that? At that point the focus would not be on the pack itself but on the complementary mods I made like Burning Block and on publishing the TFC Mushrooms addon to get more ready for the 2.0 full release.
 
 
 
