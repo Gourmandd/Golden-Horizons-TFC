@@ -1419,7 +1419,7 @@
 			sheepChildCount = 2
 			#
 			# Ticks until produce is ready
-			# Default: 201600
+			# Default: 115200
 			# Range: > 0
 			sheepProduceTicks = 168000
 			#
@@ -1572,6 +1572,76 @@
 			# Default: 8
 			# Range: > 0
 			quailHatchDays = 8
+
+		[mechanics.animals.dromedaryCamel]
+			#
+			# Max familiarity an adult may reach
+			# Default: 0.35
+			# Range: 0.0 ~ 1.0
+			dromedaryCamelFamiliarityCap = 0.35
+			#
+			# Days until animal reaches adulthood
+			# Default: 80
+			# Range: > 0
+			dromedaryCamelAdulthoodDays = 80
+			#
+			# Uses before animal becomes old and can no longer be used
+			# Default: 60
+			# Range: > 0
+			dromedaryCamelUses = 60
+			#
+			# Does the animal eat rotten food?
+			dromedaryCamelEatsRottenFood = false
+			#
+			# Length of pregnancy in days
+			# Default: 19
+			# Range: > 0
+			dromedaryCamelGestationDays = 19
+			#
+			# Max number of children born
+			# Default: 1
+			# Range: 0 ~ 100
+			dromedaryCamelChildCount = 1
+
+		[mechanics.animals.bactrianCamel]
+			#
+			# Max familiarity an adult may reach
+			# Default: 0.35
+			# Range: 0.0 ~ 1.0
+			bactrianCamelFamiliarityCap = 0.35
+			#
+			# Days until animal reaches adulthood
+			# Default: 80
+			# Range: > 0
+			bactrianCamelAdulthoodDays = 80
+			#
+			# Uses before animal becomes old and can no longer be used
+			# Default: 80
+			# Range: > 0
+			bactrianCamelUses = 80
+			#
+			# Does the animal eat rotten food?
+			bactrianCamelEatsRottenFood = false
+			#
+			# Length of pregnancy in days
+			# Default: 24
+			# Range: > 0
+			bactrianCamelGestationDays = 24
+			#
+			# Max number of children born
+			# Default: 1
+			# Range: 0 ~ 100
+			bactrianCamelChildCount = 1
+			#
+			# Ticks until produce is ready
+			# Default: 201600
+			# Range: > 0
+			bactrianCamelProduceTicks = 201600
+			#
+			# Minimum familiarity [0-1] needed for produce. Set above 1 to disable produce.
+			# Default: 0.15
+			# Range: 0.0 ~ 3.4028234663852886E38
+			bactrianCamelMinProduceFamiliarity = 0.15
 
 [weird]
 	farmlandMakesTheBestRaceTracks = false

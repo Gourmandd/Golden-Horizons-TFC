@@ -758,6 +758,7 @@ ServerEvents.recipes(event => {
         "create:milling/wheat",
         "create:milling/white_tulip",
         "create:milling/wither_rose",
+        "create:crushing/ochrum_recycling",
 
         "create:mixing/andesite_alloy",
         "create:mixing/andesite_alloy_from_zinc",
