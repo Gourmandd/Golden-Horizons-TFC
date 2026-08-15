@@ -1,78 +1,79 @@
 {
-  "type": "spectrum:crystallarieum_growing",
-  "fluid_medium": {
-    "fluid": "spectrum:liquid_crystal"
-  },
-  "ingredient": {
-    "item": "tfc:metal/ingot/zinc"
-  },
-  "ink_color": "spectrum:brown",
-  "ink_cost_tier": 2,
-  "seconds_per_growth_stage": 60,
-  "additional_recipe_manager_results": [
-    {
-      "count": 1,
-      "id": "spectrum:pure_zinc"
-    }
-  ],"catalysts": [
-  {
-    "ingredient": [
-      {
-        "item": "create:zinc_nugget"
-      }
-    ],
-    "growth_acceleration_mod": 4.0,
-    "ink_consumption_mod": 0.5,
-    "consume_chance_per_second": 0.2
-  },
-  {
-    "ingredient": [
-      {
-        "item": "spectrum:pure_copper"
-      }
-    ],
-    "growth_acceleration_mod": 8.0,
-    "ink_consumption_mod": 2.0,
-    "consume_chance_per_second": 0.05
-  },
-  {
-    "ingredient": [
-      {
-        "item": "spectrum:neolith"
-      }
-    ],
-    "growth_acceleration_mod": 1.5,
-    "ink_consumption_mod": 0.25,
-    "consume_chance_per_second": 0.02
-  }
-],
-  "growth_stage_states": [
-    {
-      "Name": "spectrum:small_zinc_bud",
-      "Properties": {
-        "facing": "up",
-        "waterlogged": "false"
-      }
+    "type": "spectrum:crystallarieum_growing",
+    "fluid": {
+        "fluid": "spectrum:liquid_crystal"
     },
-    {
-      "Name": "spectrum:large_zinc_bud",
-      "Properties": {
-        "facing": "up",
-        "waterlogged": "false"
-      }
+    "ingredient": {
+        "item": "tfc:metal/ingot/zinc"
     },
-    {
-      "Name": "spectrum:zinc_cluster",
-      "Properties": {
-        "facing": "up",
-        "waterlogged": "false"
-      }
-    }
-  ],
-  "neoforge:conditions": [
-    {
-      "type": "spectrum:integration_pack_active",
-      "integration_pack": "create"
-    }
-  ]
+    "ink_color": "spectrum:brown",
+    "ink_cost_tier": 2,
+    "seconds_per_growth_stage": 60,
+    "additional_recipe_manager_results": [
+        {
+            "count": 1,
+            "id": "spectrum:pure_zinc"
+        }
+    ],
+    "additives": [
+        {
+            "ingredient": [
+                {
+                    "item": "create:zinc_nugget"
+                }
+            ],
+            "growth_acceleration_mod": 4.0,
+            "ink_consumption_mod": 0.5,
+            "consume_chance_per_second": 0.2
+        },
+        {
+            "ingredient": [
+                {
+                    "item": "spectrum:pure_copper"
+                }
+            ],
+            "growth_acceleration_mod": 8.0,
+            "ink_consumption_mod": 2.0,
+            "consume_chance_per_second": 0.05
+        },
+        {
+            "ingredient": [
+                {
+                    "item": "spectrum:neolith"
+                }
+            ],
+            "growth_acceleration_mod": 1.5,
+            "ink_consumption_mod": 0.25,
+            "consume_chance_per_second": 0.02
+        }
+    ],
+    "growth_stage_states": [
+        {
+            "Name": "spectrum:small_zinc_bud",
+            "Properties": {
+                "facing": "up",
+                "waterlogged": "false"
+            }
+        },
+        {
+            "Name": "spectrum:large_zinc_bud",
+            "Properties": {
+                "facing": "up",
+                "waterlogged": "false"
+            }
+        },
+        {
+            "Name": "spectrum:zinc_cluster",
+            "Properties": {
+                "facing": "up",
+                "waterlogged": "false"
+            }
+        }
+    ],
+    "neoforge:conditions": [
+        {
+            "type": "spectrum:integration_pack_active",
+            "integration_pack": "create"
+        }
+    ]
 }

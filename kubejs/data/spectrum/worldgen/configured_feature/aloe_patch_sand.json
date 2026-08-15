@@ -16,7 +16,7 @@
     "ground_state": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:sand"
+        "Name": "tfc:sand/black"
       }
     },
     "vegetation_feature": {
