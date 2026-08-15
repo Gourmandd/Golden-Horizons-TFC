@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:noise_provider",
+      "seed": 3456,
+      "noise": {
+        "firstOctave": 0,
+        "amplitudes": [
+          1
+        ]
+      },
+      "scale": 0.020833334,
+      "states": [
+        {
+          "Name": "tfc:plant/tulip_red"
+        },
+        {
+          "Name": "tfc:plant/tulip_orange"
+        },
+        {
+          "Name": "tfc:plant/tulip_white"
+        },
+        {
+          "Name": "tfc:plant/tulip_pink"
+        },
+        {
+          "Name": "tfc:plant/primrose"
+        },
+        {
+          "Name": "tfc:plant/poppy"
+        },
+        {
+          "Name": "tfc:plant/black_orchid"
+        }
+      ]
+    }
+  }
+}

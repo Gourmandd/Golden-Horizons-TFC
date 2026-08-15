@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:spring_feature",
+  "config": {
+    "state": {
+      "Name": "spectrum:liquid_crystal",
+      "Properties": {
+        "falling": "true"
+      }
+    },
+    "rock_count": 4,
+    "hole_count": 1,
+    "requires_block_below": true,
+    "valid_blocks": [
+      "tfc:rock/raw/dacite",
+      "tfc:rock/raw/granite",
+      "tfc:rock/raw/diorite",
+      "tfc:rock/raw/andesite",
+      "minecraft:deepslate",
+      "spectrum:blackslag"
+    ]
+  }
+}
