@@ -6877,7 +6877,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "spectrum-1.12.0-1.21.1-neo.jar",
+                    "file_name": "spectrum-1.12.4-1.21.1-neo.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -6885,20 +6885,20 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/3rc31Hgo/versions/iI3E0zeX/spectrum-1.12.0-1.21.1-neo.jar",
-                    "id": "iI3E0zeX",
+                    "url": "https://cdn.modrinth.com/data/3rc31Hgo/versions/D6YaamP0/spectrum-1.12.4-1.21.1-neo.jar",
+                    "id": "D6YaamP0",
                     "parent_id": "3rc31Hgo",
                     "hashes": {
-                        "sha512": "ed68949e256845e37bb7bb63f608f9d74d19d898ad5ed37b3c96862b55c5232999463d3f7120347dd0085bb9d51a0261333e0b24aa4011ebb9cfdc3a56b60f5a",
-                        "sha1": "621d81250e1f84c58af6cb6c6ad29f736e39be2b"
+                        "sha512": "450f873cc0972965056ac0d79b3aa27ac8060ed361c4d2d78cf8fee2ba7a2ff7b309a2485a2e906c460f4e44d9a1e12b55a61f4fe82735f3be48a494442bb369",
+                        "sha1": "b6e5fefefedfe549c71410f8969b0d9d6b3900ed"
                     },
                     "required_dependencies": [],
-                    "size": 88587094,
-                    "date_published": "2026-08-02T20:54:08.132533Z"
+                    "size": 91187225,
+                    "date_published": "2026-08-17T07:02:10.296753Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "spectrum-1.12.0-1.21.1-neo.jar",
+                    "file_name": "spectrum-1.12.4-1.21.1-neo.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -6906,20 +6906,20 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8564/379/spectrum-1.12.0-1.21.1-neo.jar",
-                    "id": "8564379",
+                    "url": "https://edge.forgecdn.net/files/8668/114/spectrum-1.12.4-1.21.1-neo.jar",
+                    "id": "8668114",
                     "parent_id": "556967",
                     "hashes": {
-                        "sha1": "621d81250e1f84c58af6cb6c6ad29f736e39be2b",
-                        "md5": "a3d1eaa5935f481999368aef08b07751"
+                        "sha1": "b6e5fefefedfe549c71410f8969b0d9d6b3900ed",
+                        "md5": "236ac6dd19aa25191e92e124703a2102"
                     },
                     "required_dependencies": [
                         "656526",
                         "538392",
                         "309927"
                     ],
-                    "size": 88587094,
-                    "date_published": "2026-08-02T20:54:17.100Z"
+                    "size": 91187225,
+                    "date_published": "2026-08-17T07:01:14.427Z"
                 }
             ]
         },
@@ -7119,29 +7119,6 @@
             },
             "files": [
                 {
-                    "type": "curseforge",
-                    "file_name": "survivorsabilities-1.2.2-neoforge.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/7218/876/survivorsabilities-1.2.2-neoforge.jar",
-                    "id": "7218876",
-                    "parent_id": "1354890",
-                    "hashes": {
-                        "sha1": "cfe02a8f39a63f54bb5df378d1c50273bd27c438",
-                        "md5": "48887e557fb73e2028d5629f8a287ee8"
-                    },
-                    "required_dependencies": [
-                        "302973"
-                    ],
-                    "size": 25584,
-                    "date_published": "2025-11-13T20:08:47.753Z"
-                },
-                {
                     "type": "modrinth",
                     "file_name": "survivorsabilities-1.2.2-neoforge.jar",
                     "mc_versions": [
@@ -7163,6 +7140,29 @@
                     ],
                     "size": 25584,
                     "date_published": "2026-01-06T18:34:25.450865Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "survivorsabilities-1.5.1-neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8577/849/survivorsabilities-1.5.1-neoforge.jar",
+                    "id": "8577849",
+                    "parent_id": "1354890",
+                    "hashes": {
+                        "sha1": "e1bb3860c2e1425ffb3ad59a4a8b6180a5b4d058",
+                        "md5": "6e10d0ff0fe7bb62913e83fdd19189d5"
+                    },
+                    "required_dependencies": [
+                        "302973"
+                    ],
+                    "size": 73891,
+                    "date_published": "2026-08-04T19:46:31.147Z"
                 }
             ]
         },
@@ -7211,7 +7211,7 @@
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "survivorsdelight-3.3.2-neoforge.jar",
+                    "file_name": "survivorsdelight-3.3.3-neoforge.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -7219,20 +7219,20 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8539/449/survivorsdelight-3.3.2-neoforge.jar",
-                    "id": "8539449",
+                    "url": "https://edge.forgecdn.net/files/8568/157/survivorsdelight-3.3.3-neoforge.jar",
+                    "id": "8568157",
                     "parent_id": "1332913",
                     "hashes": {
-                        "sha1": "b0dd83af528fe2b936ac6ef64d47136d33c7de6b",
-                        "md5": "2e1af7fd30948ca33cdc9460fc3619f0"
+                        "sha1": "803f6a5e2ec95c9c884041559847143105c55b39",
+                        "md5": "4b5782c504e92ec8481abfab8cae2ffd"
                     },
                     "required_dependencies": [
-                        "398521",
                         "1354890",
+                        "398521",
                         "302973"
                     ],
-                    "size": 1291370,
-                    "date_published": "2026-07-30T10:02:13.577Z"
+                    "size": 1291457,
+                    "date_published": "2026-08-03T09:19:41.053Z"
                 }
             ]
         },
@@ -7392,7 +7392,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "TerraFirmaCraft-NeoForge-1.21.1-4.2.7.jar",
+                    "file_name": "TerraFirmaCraft-NeoForge-1.21.1-4.2.8.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -7400,22 +7400,22 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/JaCEZUhg/versions/eBIfZlEM/TerraFirmaCraft-NeoForge-1.21.1-4.2.7.jar",
-                    "id": "eBIfZlEM",
+                    "url": "https://cdn.modrinth.com/data/JaCEZUhg/versions/RJ6r1FC1/TerraFirmaCraft-NeoForge-1.21.1-4.2.8.jar",
+                    "id": "RJ6r1FC1",
                     "parent_id": "JaCEZUhg",
                     "hashes": {
-                        "sha512": "f1ebf038aa1b40e4ec61b8f6def476ca51e6d76f1d29ae2af9398eba66080d2da6114716d5a1ae30721aa0dbe29dfbbae44ee671f17bf8110bb0fbff7f59f207",
-                        "sha1": "de5824bbba770914d24ac06585b088a4f0640bf3"
+                        "sha512": "474a8a02e8fdd1a9789afdd6dbd7d1a67b5a77cbc5062e5ed449f6ab58623011e43fbc211ab12ea4936f2e467d5c5dc36754b65fa8536c6b3f86505a846a4014",
+                        "sha1": "aff8713c181fa4b190f3b018216998530c734a12"
                     },
                     "required_dependencies": [
                         "nU0bVIaL"
                     ],
-                    "size": 65278650,
-                    "date_published": "2026-08-03T02:21:14.118631Z"
+                    "size": 65342409,
+                    "date_published": "2026-08-17T01:17:10.238094Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "TerraFirmaCraft-NeoForge-1.21.1-4.2.7.jar",
+                    "file_name": "TerraFirmaCraft-NeoForge-1.21.1-4.2.8.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -7423,18 +7423,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8566/530/TerraFirmaCraft-NeoForge-1.21.1-4.2.7.jar",
-                    "id": "8566530",
+                    "url": "https://edge.forgecdn.net/files/8666/972/TerraFirmaCraft-NeoForge-1.21.1-4.2.8.jar",
+                    "id": "8666972",
                     "parent_id": "302973",
                     "hashes": {
-                        "sha1": "de5824bbba770914d24ac06585b088a4f0640bf3",
-                        "md5": "96e315d467a4d5749552194e3526f287"
+                        "sha1": "aff8713c181fa4b190f3b018216998530c734a12",
+                        "md5": "47bcc153e95561ccf23d4945da2eb0e3"
                     },
                     "required_dependencies": [
                         "306770"
                     ],
-                    "size": 65278650,
-                    "date_published": "2026-08-03T02:21:08.703Z"
+                    "size": 65342409,
+                    "date_published": "2026-08-17T01:17:03.907Z"
                 }
             ]
         },
