@@ -30,13 +30,13 @@ bedrock_anvil_can_exceed_max_vanilla_enchantment_level = false
 #Better to let players stumble about them organically instead of forcing it.
 enderman_holding_treasure_chance = 0.1
 enderman_holding_treasure_chance_in_end = 0.0075
-#Dimensions where shooting stars spawn for players. Shooting Stars will only spawn for players with sufficient progress in the mod
+#Dimensions where Shooting Stars spawn for players. Shooting Stars will only spawn for players with sufficient progress in the mod.
 shooting_star_dimensions = ["minecraft:overworld", "starry_skies:overworld", "paradise_lost:paradise_lost"]
-#Shooting star spawns are checked every night between time 13000 and 22000, every 100 ticks (so 100 chances per night).
+#Shooting Star spawns are checked every night between time 13000 and 22000, every 100 ticks (so 100 chances per night).
 #By default, there is a 0.0075 ^= 0.75 % chance at each of those check times. Making it ~1 shooting star spawn
 #per night per player that unlocked the required progression.
 shooting_star_spawn_chance = 0.0075
-#Dimensions where lightning strikes can spawn Storm Stones
+#Dimensions where lightning strikes will cause Storm Stones to spawn. Storm Stones will only be visible for players with sufficient progress in the mod.
 storm_stone_dimensions = ["minecraft:overworld", "starry_skies:overworld", "paradise_lost:paradise_lost"]
 #Chance for a lightning strike to spawn a Storm Stone
 storm_stone_spawn_chance = 0.4
@@ -173,3 +173,10 @@ dragonrot_dripstone_drip_chance = 0.01
 liquid_crystal_dripstone_drip_chance = 0.01
 #The chance for Dripstone to fill a Cauldron with Midnight Solution
 midnight_solution_dripstone_drip_chance = 0.01
+#Required Ink for one Block placed by the Constructor's Staff
+constructors_staff_ink_cost_per_block = 1
+#Required Ink for one Block placed by the Exchanging Staff
+exchanging_staff_ink_cost_per_block = 5
+#Allow the creation of portals using Ruin
+#Allowed Values: CREATE_PORTALS, PROTECT_LOWEST_OVERWORLD_LEVEL, NO_PORTALS
+dimension_portals = "CREATE_PORTALS"
