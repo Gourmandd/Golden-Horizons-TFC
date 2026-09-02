@@ -12,7 +12,7 @@
     }
   ],
   "primary_ingredient": {
-    "tag": "c:foods/chisel"
+    "tag": "c:tools/chisel"
   },
   "remainder": {
     "modifiers": [
@@ -25,4 +25,3 @@
     "id": "architects_palette:twisting_blackstone"
   }
 }
-

@@ -1,6 +1,6 @@
 {
     "type": "spectrum:crystallarieum_growing",
-    "additional_recipe_manager_results": [
+    "additional_recipe_viewer_results": [
         {
             "count": 1,
             "id": "spectrum:pure_emerald"
